@@ -1,0 +1,49 @@
+site_name: Pharns — Cybersecurity & Python Portfolio
+site_description: Unified portfolio showcasing cybersecurity projects and Python work (WGU D335 + 100 Days).
+site_url: https://pharns.github.io/portfolio/
+theme:
+  name: material
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - toc.follow
+    - content.code.copy
+    - content.tabs.link
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+repo_url: https://github.com/Pharns/portfolio
+repo_name: Pharns/portfolio
+nav:
+  - Home: index.md
+  - Cybersecurity:
+      - Overview: cybersecurity/index.md
+      - Homelab Setup: cybersecurity/homelab.md
+      - Vulnerability Assessment: cybersecurity/vuln-assessment.md
+      - Incident Response Workflow: cybersecurity/incident-response.md
+      - Penetration Testing: cybersecurity/pentesting.md
+      - Blog Write-Ups: cybersecurity/blog-writeups.md
+  - Python:
+      - Overview: python/index.md
+      - 100 Days of Python (live): https://pharns.github.io/python-learning/100%20Days%20of%20Coding/
+      - Projects (live): https://pharns.github.io/python-learning/projects/
+  - Certifications: certifications.md
+  - Contact: contact.md
+plugins:
+  - search
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight
+  - pymdownx.tabbed
+  - pymdownx.tasklist
