@@ -23,6 +23,7 @@ repo_url: https://github.com/Pharns/portfolio
 repo_name: Pharns/portfolio
 nav:
   - Home: index.md
+  - About Me: about.md
   - Cybersecurity:
       - Overview: cybersecurity/index.md
       - Homelab Setup: cybersecurity/homelab.md
