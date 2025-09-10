@@ -1,6 +1,6 @@
 
 
-# 📜 Certifications
+# **📜 Certifications**
 
 Here are the certifications I’ve earned as part of my cybersecurity journey.  
 This combination of security, IT operations, and frameworks validates both hands-on skills and broad technical knowledge.
