@@ -15,4 +15,4 @@ This section highlights hands-on projects that demonstrate my ability to design,
 ---
 
 ## 📌 **Key Takeaway**
-This section demonstrates my ability to move beyond certifications and apply cybersecurity knowledge through **practical, hands-on projects**. It reflects skills directly relevant to roles in **cybersecurity engineering, SOC operations, vulnerability management, and incident response**.  
+This section demonstrates my ability to translate cybersecurity knowledge into **practical application** — building, testing, and securing systems in realistic environments. It reflects skills relevant to roles in **cybersecurity engineering, SOC operations, vulnerability management, and incident response**.  

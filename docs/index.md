@@ -61,6 +61,5 @@ I’m not only a practitioner but also an innovator. My work in UAV and payload 
 
 ---
 
-## **📌 Key Takeaway**
-- I’m a seasoned UAV innovator, FAA Part 107 licensed pilot, former adjunct educator, and patent holder now expanding into cybersecurity  
-- My goal is to bring together drone engineering, RF/wireless expertise, and cybersecurity knowledge to deliver solutions that protect and enable mission-critical systems  
+## 📌 **Key Takeaway**
+I’m a seasoned UAV innovator, FAA Part 107 licensed pilot, former adjunct educator, and patent holder now expanding into cybersecurity. My goal is to bring together drone engineering, RF/wireless expertise, and cybersecurity knowledge to deliver solutions that protect and enable mission-critical systems. I hold **patents in UAV payload and delivery systems**, with additional **cybersecurity-focused patents pending**. Patent documentation is **available upon request** for professional review.  

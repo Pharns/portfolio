@@ -1,33 +1,19 @@
-# 💡 **Innovation & Patents**
+# 💡 **Innovation — Overview**
 
-I’m not only a practitioner but also an innovator. My work in UAV and payload systems has resulted in patented technologies in multiple domains, with new cybersecurity-focused systems currently patent pending.  
-
----
-
-## 📜 **Patents (Granted)**
-- **UAV Payload & Delivery Systems** — patented solutions in UAV operations and payload delivery, showcasing my ability to bridge engineering, logistics, and applied security considerations.  
+This section highlights my work at the intersection of **UAV engineering, cybersecurity, and wireless communications**.  
+It includes **patented technologies, patent-pending systems, and applied research** that demonstrate my ability to innovate and deliver solutions beyond traditional cybersecurity projects.  
 
 ---
 
-## ⏳ **Patents (Pending)**
-- **Cyber Drone Delivery Systems** — patent pending innovations that merge UAV payload engineering with cybersecurity applications, including SDR integration, wireless exploitation modules, and secure delivery frameworks.  
+## 🔑 **Projects in This Section**
 
----
-
-## 🔑 **Why This Matters**
-- Demonstrates proven innovation with granted patents  
-- Highlights ongoing research and development in UAV-cyber convergence  
-- Shows I can take ideas from concept → design → real-world deployment → IP protection  
-
----
-
-## 🌟 **Integration With My Cybersecurity Work**
-- My homelab provides the testing ground for UAV-cyber integrations  
-- My RF/SDR research feeds directly into secure payload and delivery system design  
-- My Python projects support automation, data analysis, and proof-of-concept tooling for UAV systems  
+- **Drone Payload Systems (Patented)** → Invented and deployed UAV payload systems across multiple domains, bridging engineering, logistics, and security.  
+- **Cyber Drone Delivery Systems (Patent Pending)** → Next-generation UAV payloads that integrate SDR, RF, and wireless exploitation modules for cyber-physical security research.  
+- **Research & Prototyping** → Hands-on experimentation with SDR, ham radio, and mesh networking, combined with 3D-printed payload housings and UAV platform integration.  
 
 ---
 
 ## 📌 **Key Takeaway**
-I’m a seasoned UAV innovator and patent holder now expanding into cybersecurity.  
-My goal is to bring together drone engineering, RF/wireless expertise, and cybersecurity knowledge to deliver solutions that protect and enable mission-critical systems.  
+I hold **patents in UAV payload and delivery systems**, with additional **cybersecurity-focused patents pending**.  
+Patent documentation is **available upon request** for professional review.  
+This section reflects my ability to take ideas from **concept → design → deployment → IP protection**, bridging **cybersecurity, UAV systems, and RF engineering** into innovative solutions.  
