@@ -16,10 +16,11 @@ This site is a recruiter-friendly snapshot of my cybersecurity projects, wireles
 ## **🚀 Highlights**
 - Patent holder for UAV payload and drone delivery systems in multiple domains  
 - Patent pending: next-generation cyber drone delivery systems integrating SDR, RF, and wireless exploitation modules  
+- FAA Part 107 Licensed Drone Pilot for commercial UAV operations and research applications  
+- Former Adjunct Educator in drone technology at MiraCosta College  
 - Homelab with Security Onion, TheHive/Cortex, and Nessus for incident response and vulnerability management  
 - Licensed Ham & GMRS operator deploying a Meshtastic LoRa mesh network for resilient communications  
 - Python projects for automation, data analysis, and security tooling  
-- Clear, ethical write-ups with step-by-step methodology  
 
 ---
 
@@ -61,5 +62,5 @@ I’m not only a practitioner but also an innovator. My work in UAV and payload 
 ---
 
 ## **📌 Key Takeaway**
-- I’m a seasoned UAV innovator and patent holder now expanding into cybersecurity. 
-- My goal is to bring together drone engineering, RF/wireless expertise, and cybersecurity knowledge to deliver solutions that protect and enable mission-critical systems.  
+- I’m a seasoned UAV innovator, FAA Part 107 licensed pilot, former adjunct educator, and patent holder now expanding into cybersecurity  
+- My goal is to bring together drone engineering, RF/wireless expertise, and cybersecurity knowledge to deliver solutions that protect and enable mission-critical systems  

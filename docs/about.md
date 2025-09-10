@@ -7,6 +7,8 @@ I’m Pharns — a certified cybersecurity professional, emerging Python develop
 - 🎓 **Education:** Pursuing a B.S. in Cybersecurity & Information Assurance (WGU, expected Dec 2025), with plans to continue into the M.S. program  
 - 🛡 **Certifications:** CompTIA Security+, Network+, A+, ITIL4, ISC² Certified in Cybersecurity, SSCP (Assoc.), Linux Essentials, and more  
 - 🚁 **Domain Expertise:** UAS/UAV operations, cyber payload design, SDR (software-defined radio), ham radio (digital & analog), and 3D-printed payload engineering  
+- 🛩️ **FAA Part 107 Licensed Drone Pilot:** Certified to operate UAVs for commercial and research applications  
+- 👨🏽‍🏫 **Adjunct Educator:** Taught drone technology at MiraCosta College, preparing students for UAV operations and industry applications  
 - 📡 **Mesh Networking:** Deploying a Meshtastic LoRa mesh network to explore decentralized and resilient communications  
 - 📻 **Licensed Operator:** Licensed in both Amateur Radio and GMRS, applying practical radio communications skills to cybersecurity and UAV research  
 - 🖥 **Focus Areas:** Threat detection, incident response, vulnerability management, wireless security, and cyber-physical system security  
@@ -70,7 +72,7 @@ I’m Pharns — a certified cybersecurity professional, emerging Python develop
 
 ## 🎯 **Career Goal**
 
-I’m seeking opportunities in **cybersecurity engineering, wireless security, and incident response** where I can apply my certifications, hands-on lab experience, and unique blend of cyber, RF, and UAV innovation (with patented systems) to protect mission-critical systems.  
+I’m seeking opportunities in **cybersecurity engineering, wireless security, and incident response** where I can apply my certifications, hands-on lab experience, and unique blend of cyber, RF, UAV innovation, and teaching experience (with patented systems) to protect mission-critical systems.  
 
 ---
 
