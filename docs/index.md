@@ -30,7 +30,7 @@ This site is a recruiter-friendly snapshot of my cybersecurity projects, wireles
 
 ---
 
-# **💡 Innovation & Patents**
+## **💡 Innovation & Patents**
 
 I’m not only a practitioner but also an innovator. My work in UAV and payload systems has resulted in patented technologies in multiple domains, with new cybersecurity-focused systems currently patent pending.  
 
@@ -53,7 +53,7 @@ I’m not only a practitioner but also an innovator. My work in UAV and payload 
 
 ---
 
-## 🌟 Integration With My Cybersecurity Work
+## **🌟 Integration With My Cybersecurity Work**
 - My homelab provides the testing ground for UAV-cyber integrations  
 - My RF/SDR research feeds directly into secure payload and delivery system design  
 - My Python projects support automation, data analysis, and proof-of-concept tooling for UAV systems  
@@ -61,4 +61,5 @@ I’m not only a practitioner but also an innovator. My work in UAV and payload 
 ---
 
 ## **📌 Key Takeaway**
-I’m a seasoned UAV innovator and patent holder now expanding into cybersecurity. My goal is to bring together drone engineering, RF/wireless expertise, and cybersecurity knowledge to deliver solutions that protect and enable mission-critical systems.  
+- I’m a seasoned UAV innovator and patent holder now expanding into cybersecurity. 
+- My goal is to bring together drone engineering, RF/wireless expertise, and cybersecurity knowledge to deliver solutions that protect and enable mission-critical systems.  
