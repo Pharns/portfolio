@@ -2,7 +2,7 @@
 
 ## 🔐 Who I Am
 
-I’m **Pharns** (pronounced *“Founce”*) — a certified cybersecurity professional, Python developer, and UAS/UAV Subject Matter Expert. My passion is blending **cybersecurity, wireless communications, and hardware engineering** to solve complex, real-world security challenges.
+I’m **Pharns** (pronounced *“Founce”*) — a certified cybersecurity professional, emerging Python developer, and UAS/UAV Subject Matter Expert. My passion is blending **cybersecurity, wireless communications, and hardware engineering** to solve complex, real-world security challenges.
 
 - 🎓 **Education:** Pursuing a **B.S. in Cybersecurity & Information Assurance (WGU, expected Dec 2025)**, with plans to continue into the M.S. program.
 - 🛡 **Certifications:** CompTIA Security+, Network+, A+, ITIL4, ISC² Certified in Cybersecurity, SSCP (Assoc.), Linux Essentials, and more.
