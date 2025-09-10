@@ -13,7 +13,7 @@ This site is a recruiter-friendly snapshot of my cybersecurity projects, wireles
 
 ---
 
-## 🚀 Highlights
+## **🚀 Highlights**
 - Patent holder for UAV payload and drone delivery systems in multiple domains  
 - Patent pending: next-generation cyber drone delivery systems integrating SDR, RF, and wireless exploitation modules  
 - Homelab with Security Onion, TheHive/Cortex, and Nessus for incident response and vulnerability management  
@@ -23,30 +23,30 @@ This site is a recruiter-friendly snapshot of my cybersecurity projects, wireles
 
 ---
 
-## 🎓 Quick Snapshot
+## **🎓 Quick Snapshot**
 - B.S. Cybersecurity & Information Assurance (WGU) — Expected Dec 2025  
 - Certifications: CompTIA Security+, Network+, A+, ITIL4, ISC² CC, SSCP (Assoc.), Linux Essentials  
 - Career Goal: Transitioning from UAV innovation into cybersecurity engineering, wireless security, and incident response — applying my cyber + RF + UAV expertise (with patented and patent-pending systems) to protect mission-critical systems  
 
 ---
 
-# 💡 Innovation & Patents
+# **💡 Innovation & Patents**
 
 I’m not only a practitioner but also an innovator. My work in UAV and payload systems has resulted in patented technologies in multiple domains, with new cybersecurity-focused systems currently patent pending.  
 
 ---
 
-## 📜 Patents (Granted)
+## **📜 Patents (Granted)**
 - UAV Payload & Delivery Systems — patented solutions in UAV operations and payload delivery, showcasing my ability to bridge engineering, logistics, and applied security considerations.  
 
 ---
 
-## ⏳ Patents (Pending)
+## **⏳ Patents (Pending)**
 - Cyber Drone Delivery Systems — patent pending innovations that merge UAV payload engineering with cybersecurity applications, including SDR integration, wireless exploitation modules, and secure delivery frameworks.  
 
 ---
 
-## 🔑 Why This Matters
+## **🔑 Why This Matters**
 - Demonstrates proven innovation with granted patents  
 - Highlights ongoing research and development in UAV-cyber convergence  
 - Shows I can take ideas from concept → design → real-world deployment → IP protection  
@@ -60,6 +60,5 @@ I’m not only a practitioner but also an innovator. My work in UAV and payload 
 
 ---
 
-## 📌 Key Takeaway
-I’m a seasoned UAV innovator and patent holder now expanding into cybersecurity.  
-My goal is to bring together drone engineering, RF/wireless expertise, and cybersecurity knowledge to deliver solutions that protect and enable mission-critical systems.  
+## **📌 Key Takeaway**
+I’m a seasoned UAV innovator and patent holder now expanding into cybersecurity. My goal is to bring together drone engineering, RF/wireless expertise, and cybersecurity knowledge to deliver solutions that protect and enable mission-critical systems.  
