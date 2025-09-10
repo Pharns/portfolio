@@ -1,3 +1,7 @@
-# 📝 Blog Write-Ups
+# Blog Write-Ups
 
-Short write-ups for CTFs and techniques. Keep each post actionable and ethical, with reproduction steps.
+This section includes write-ups for Capture the Flag (CTF) challenges, labs, and unique security exercises.
+
+Format: **Challenge → Method → Solution → Lessons Learned**.
+
+---

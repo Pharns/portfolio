@@ -1,11 +1,24 @@
-# 🛡 Incident Response Workflow
+# Incident Response Workflow
 
-**Objective:** Simulate incident management with TheHive + Cortex.
+## Objective
+Simulate and respond to a cybersecurity incident.
 
-**Tools:** TheHive, Cortex
+## Environment
+Homelab with Security Onion and TheHive.
 
-**Skills:** Triage, IOC enrichment, case workflow, documentation
+## Tools
+- Security Onion
+- TheHive
+- Cortex analyzers
 
-**Artifacts:** Link to demo cases/screenshots.
+## Process
+- Detect suspicious activity
+- Triage in TheHive
+- Automate IOC enrichment
+- Document investigation steps
 
-**Summary:** What I automated, how I handled evidence, and lessons.
+## Results
+Improved readiness for handling real-world SOC incidents.
+
+## Evidence
+📸 Add screenshots of alerts, case records, and analysis.
