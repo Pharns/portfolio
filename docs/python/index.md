@@ -1,6 +1,8 @@
 # 🧰 **Python Portfolio**
 
 This section highlights my work in Python, split into two areas:  
+    - 100 Days of Python
+    - Independant Projects
 
 ---
 

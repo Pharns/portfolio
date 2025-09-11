@@ -1,6 +1,4 @@
 
-### `day05-password-generator.md`  
-
 # 🔑 Day 05 — Password Generator
 
 **Objective:** Create a secure password generator in Python.  
