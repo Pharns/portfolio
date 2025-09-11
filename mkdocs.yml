@@ -50,7 +50,9 @@ nav:
   - About: about.md
   - Cybersecurity:
       - Overview: cybersecurity/index.md         # optional overview
-      - Homelab Setup: cybersecurity/homelab-setup.md
+      - Homelab Infrastructure:
+          - Summary: cybersecurity/homelab-infrastructure.md
+          - Journey: cybersecurity/homelab-journey.md
       - Vulnerability Assessment: cybersecurity/vulnerability-assessment.md
       - Incident Response: cybersecurity/incident-response.md
       - Penetration Testing: cybersecurity/penetration-testing.md
