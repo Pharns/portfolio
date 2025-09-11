@@ -15,12 +15,12 @@ The goal of this series is to:
 
 ## 🚀 Highlights
 - **Day 01 — Hello World** → First project, GitHub CI integration  
-- **Day 05 — Password Generator** → Secure scripting for automation  
+<!-- - **Day 05 — Password Generator** → Secure scripting for automation  
 - **Day 15 — Coffee Machine OOP** → Applying classes and object-oriented design  
 - **Day 25 — Pandas & CSVs** → Data manipulation for analysis  
 - **Day 39 — API Requests** → Consuming external APIs securely  
 - **Day 54 — Flask Intro** → Basics of web application development  
-- **Day 75 — CSV Data Viz** → Building visualizations with `pandas` and `matplotlib`  
+- **Day 75 — CSV Data Viz** → Building visualizations with `pandas` and `matplotlib`  -->
 
 ---
 
