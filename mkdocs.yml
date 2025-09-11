@@ -2,6 +2,7 @@ site_name: Pharns — Cybersecurity & Python Portfolio
 site_url: https://pharns.github.io/portfolio
 repo_url: https://github.com/Pharns/portfolio
 repo_name: pharns/portfolio
+
 theme:
   name: material
   language: en
@@ -21,12 +22,14 @@ theme:
       accent: indigo
   icon:
     repo: fontawesome/brands/github
+
 extra:
   social:
     - icon: fontawesome/brands/linkedin
       link: https://linkedin.com/in/pharns
     - icon: fontawesome/brands/github
       link: https://github.com/pharns
+
 markdown_extensions:
   - admonition
   - attr_list
@@ -40,6 +43,7 @@ markdown_extensions:
   - pymdownx.tasklist:
       custom_checkbox: true
   - tables
+
 plugins:
   - search
   # - tags   # enable later if you add page tags
@@ -49,27 +53,29 @@ nav:
   - Home: index.md
   - About: about.md
   - Cybersecurity:
-      - Overview: cybersecurity/index.md         # optional overview
+      - Overview: cybersecurity/index.md
       - Homelab Infrastructure:
           - Summary: cybersecurity/homelab-infrastructure.md
           - Journey: cybersecurity/homelab-journey.md
       - Vulnerability Assessment: cybersecurity/vulnerability-assessment.md
       - Incident Response: cybersecurity/incident-response.md
       - Penetration Testing: cybersecurity/penetration-testing.md
-      - Drone Cyber Payload Systems: cybersecurity/drone-payload-systems.md
       - Blog Write-Ups: cybersecurity/blog-writeups.md
   - Python:
-      - Overview: python/index.md                # optional overview
+      - Overview: python/index.md
       - 100 Days of Python: python/100-days.md
       - Projects: python/projects.md
-  - Innovation: innovation.md
+  - Innovation:
+      - Overview: innovation/index.md
+      - Drone Cyber Payload Systems: innovation/drone-payload-systems.md
   - Certifications: certifications.md
-  # - Resume: assets/resume.pdf                  # uncomment when you add a PDF
+  # - Resume: assets/resume.pdf
   - Contact:
       - LinkedIn: https://linkedin.com/in/pharns
       - GitHub: https://github.com/pharns
 
-# Optional: edit & deploy settings
+# GitHub "Edit this page" button (Material uses this when repo_url is set)
 edit_uri: edit/main/docs/
-copyright:
-  © {{ date.strftime("%Y") }} Pharns. All rights reserved.
+
+# Keep this a plain string; mkdocs.yml doesn't render Jinja here
+copyright: "© 2025 Pharns Genece. All rights reserved."
