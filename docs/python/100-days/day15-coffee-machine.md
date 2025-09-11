@@ -2,7 +2,7 @@
 ---
 
 ### `day05-password-generator.md`  
-```markdown
+
 # 🔑 Day 05 — Password Generator
 
 **Objective:** Create a secure password generator in Python.  
@@ -26,3 +26,7 @@ def generate_password(length=12):
     return ''.join(random.choice(chars) for _ in range(length))
 
 print(generate_password())
+```
+---
+**🔗 Navigation:**  
+[⬅️ Day 05 — Password Generator](day05-password-generator.md) | [🏠 Home](../index.md) | [➡️ Day 25 — Pandas & CSVs](day25-pandas-csvs.md)

@@ -15,6 +15,8 @@
 ```python
 print("Hello, world!")
 
+```
 ---
+
 **🔗 Navigation:**  
 [🏠 Home](../index.md) | [➡️ Day 05 — Password Generator](day05-password-generator.md)

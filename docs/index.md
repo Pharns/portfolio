@@ -50,3 +50,8 @@ Detailed project write-ups and documentation are available in the [Innovation se
 
 ## 📌 **Key Takeaway**
 I’m a seasoned UAV innovator, FAA Part 107 licensed pilot, former adjunct educator, and patent holder now expanding into cybersecurity. My goal is to bring together drone engineering, RF/wireless expertise, and cybersecurity knowledge to deliver solutions that protect and enable mission-critical systems.
+
+
+---
+**🔗 Navigation:**  
+[🛡️ Cybersecurity](cybersecurity/index.md) | [🐍 Python](python/index.md) | [🏆 Certifications](certifications/index.md)

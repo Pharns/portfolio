@@ -3,7 +3,7 @@
 
 ### `day39-api-requests.md`
 
-```markdown
+
 # 🌐 Day 39 — API Requests
 
 **Objective:** Work with external APIs securely using Python’s `requests` library.  
@@ -18,6 +18,7 @@
 ---
 
 ## 🚀 Project
+
 ```python
 import requests
 
@@ -28,3 +29,9 @@ response = requests.get(url, params=params)
 data = response.json()
 
 print(data["hourly"]["temperature_2m"][:5])
+```
+
+---
+**🔗 Navigation:**  
+[⬅️ Day 25 — Pandas & CSVs](day25-pandas-csvs.md) | [🏠 Home](../index.md) | [➡️ Day 54 — Flask Intro](day54-flask-intro.md)
+

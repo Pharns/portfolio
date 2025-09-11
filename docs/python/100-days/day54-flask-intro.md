@@ -3,7 +3,7 @@
 
 ### `day54-flask-intro.md`
 
-```markdown
+
 # 🌐 Day 54 — Flask Intro
 
 **Objective:** Build a simple web app using Flask to understand backend basics.  
@@ -29,3 +29,7 @@ def home():
 
 if __name__ == "__main__":
     app.run(debug=True)
+```
+---
+**🔗 Navigation:**  
+[⬅️ Day 39 — API Requests](day39-api-requests.md) | [🏠 Home](../index.md) | [➡️ Day 75 — Data Visualization](day75-data-viz.md)

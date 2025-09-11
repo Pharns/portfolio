@@ -3,7 +3,6 @@
 
 ### `day75-data-viz.md`
 
-```markdown
 # 📈 Day 75 — Data Visualization
 
 **Objective:** Create meaningful plots and charts from datasets using Python.  
@@ -29,3 +28,9 @@ plt.title("Top 10 Source IPs in Logs")
 plt.xlabel("Source IP")
 plt.ylabel("Count")
 plt.show()
+
+```
+---
+**🔗 Navigation:**  
+[⬅️ Day 54 — Flask Intro](day54-flask-intro.md) | [🏠 Home](../index.md)
+
