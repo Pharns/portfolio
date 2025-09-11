@@ -1,0 +1,85 @@
+site_name: "Pharns — Cybersecurity & Python Portfolio"
+site_url: "https://portfolio.pharns.com"
+site_description: "Cybersecurity Analyst portfolio featuring threat detection, incident response, vulnerability assessment, SOC/SIEM labs, and Python automation."
+repo_url: "https://github.com/Pharns/portfolio"
+repo_name: "pharns/portfolio"
+docs_dir: docs
+site_dir: site
+use_directory_urls: true
+
+theme:
+  name: material
+  language: en
+  features:
+    - navigation.tabs
+    - navigation.top
+    - navigation.sections
+    - toc.integrate
+    - content.code.copy
+    - content.tabs.link
+  icon:
+    repo: fontawesome/brands/github
+  palette:
+    - scheme: default
+      primary: teal
+      accent: indigo
+    - scheme: slate
+      primary: teal
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to dark mode
+
+plugins:
+  - search
+  - sitemap:
+      changefreq: daily
+      priority: 0.5
+
+extra:
+  social:
+    cards: true
+  analytics:
+    provider: google
+    property: "G-XXXXXXXXXX"  # ← replace with your GA4 ID
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+      linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.superfences
+
+nav:
+  - Home: index.md
+  - About:
+      - Overview (Lite): about.md
+      - About (Full): about-full.md      # ← if you keep a deep-dive version; otherwise remove
+  - Certifications: certifications.md
+  - Cybersecurity:
+      - Overview: cybersecurity/index.md
+      - Projects:
+          - Threat Detection Lab (SOC/SIEM): cybersecurity/threat-detection-lab.md
+          - Vulnerability Assessment Project: cybersecurity/vuln-assessment.md
+          - Incident Response Write-Up: cybersecurity/incident-response.md
+          - Wireless/RF Security Notes: cybersecurity/wireless-rf-security.md
+      - Skills & Tools: cybersecurity/skills-tools.md
+  - Python:
+      - Overview: python/index.md
+      - 100 Days: 100days/index.md
+      - Projects: projects/index.md
+  - Innovation:
+      - Overview: innovation/index.md
+      - UAV Payload Systems (Patents): innovation/payload-systems.md
+  - OSINT (coming soon): osint/index.md          # ← placeholder, remove if not ready
+  - Privacy (coming soon): privacy/index.md       # ← placeholder, remove if not ready
+  - Contact: contact.md
