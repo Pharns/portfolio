@@ -1,4 +1,4 @@
-<a href="/python/">⬅ Back to Python</a>
+<a href="index.md">⬅ Back to Python</a>
 
 
 
