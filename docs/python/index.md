@@ -24,4 +24,4 @@ This portfolio demonstrates both **structured learning** and **independent appli
 
 ---
 
-[🏠 Home](../index.md) | [🛡️ Cybersecurity](../cybersecurity/index.md) | [🏆 Certifications](../certifications.md)
+🔗 Navigation: [🏠 Home](../index.md) | [🛡️ Cybersecurity](../cybersecurity/index.md) | [🏆 Certifications](../certifications.md)
