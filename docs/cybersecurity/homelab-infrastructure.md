@@ -15,7 +15,9 @@ This page showcases my Proxmox-based homelab — a hands-on platform for buildin
 ---
 
 ## 🌐 **Lab Topology**
-![Alt text](../assets/images/HomeLab Network Diagram-Github.jpg)  
+![Homelab Network Diagram](../assets/images/HomeLab Network Diagram-Github.jpg)  
+*Figure: Homelab Network Diagram — Proxmox environment with pfSense VLANs, SOC & red team tools, self-hosted services, and Zero Trust pilots.*  
+
 
 ---
 
@@ -36,11 +38,11 @@ This page showcases my Proxmox-based homelab — a hands-on platform for buildin
 ---
 
 ## 💼 **Professional Applications**
-This homelab demonstrates practical experience in:  
-- Designing and securing **enterprise-grade infrastructures**
-- Implementing **SOC and vulnerability management workflows**
-- Managing **segmented networks** for safe red/blue team testing
-- Deploying **Zero Trust access models** in a controlled environment  
+- **Infrastructure Design** → enterprise-grade architectures and secure deployments  
+- **SOC & Vulnerability Management** → end-to-end monitoring and remediation workflows  
+- **Network Segmentation** → isolated environments for safe red/blue team testing  
+- **Zero Trust Models** → implementing granular access controls in lab environments  
+
 
 ---
 
