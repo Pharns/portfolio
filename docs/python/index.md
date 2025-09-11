@@ -23,5 +23,5 @@ Self-directed projects that apply Python to **real-world problems** — automati
 This portfolio demonstrates both **structured learning** and **independent application** of Python, showing readiness to use coding skills in cybersecurity, data, and automation.
 
 ---
-**🔗 Navigation:**  
+
 [🏠 Home](../index.md) | [🛡️ Cybersecurity](../cybersecurity/index.md) | [🏆 Certifications](../certifications.md)
