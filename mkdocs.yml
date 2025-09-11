@@ -46,7 +46,9 @@ markdown_extensions:
 
 plugins:
   - search
+  # - tags   # enable later if you add page tags
 
+# ---------- Recruiter-first Navigation ----------
 nav:
   - Home: index.md
   - About: about.md
@@ -62,12 +64,21 @@ nav:
       - Blog Write-Ups: cybersecurity/blog-writeups.md
   - Python:
       - Overview: python/index.md
-      # Uncomment these when you add index.md files inside each folder:
-      # - 100 Days of Python: python/100-days/index.md
-      # - Projects: python/projects/index.md
+      - 100 Days of Python:
+          - Overview: python/100-days/index.md
+          - Day 01 — Hello World: python/100-days/day01-hello-world.md
+          - Day 05 — Password Generator: python/100-days/day05-password-generator.md
+          - Day 15 — Coffee Machine: python/100-days/day15-coffee-machine.md
+          - Day 25 — Pandas & CSVs: python/100-days/day25-pandas-csvs.md
+          - Day 39 — API Requests: python/100-days/day39-api-requests.md
+          - Day 54 — Flask Intro: python/100-days/day54-flask-intro.md
+          - Day 75 — Data Viz: python/100-days/day75-data-viz.md
+      - Projects: python/projects/index.md
   - Innovation: innovation.md
   - Certifications: certifications.md
   - Contact: contact.md
 
+# GitHub "Edit this page" button
 edit_uri: edit/main/docs/
+
 copyright: "© 2025 Pharns. All rights reserved."
