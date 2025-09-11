@@ -23,5 +23,5 @@ This combination of security, IT operations, and frameworks validates both hands
 | ![CompTIA](https://img.shields.io/badge/CompTIA-Project%2B-lightgrey?logo=clockify) | Q4 2025 | n/a | n/a |
 | ![CompTIA](https://img.shields.io/badge/CompTIA-PenTest%2B-lightgrey?logo=clockify) | Q4 2025 | n/a | n/a |
 
-*Currently preparing for these certifications to expand expertise in cybersecurity analytics, penetration testing, and IT project management.*
+*Currently preparing for these certifications to expand my expertise in cybersecurity analytics, penetration testing, and IT project management.*
 

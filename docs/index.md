@@ -38,7 +38,7 @@ Detailed project write-ups and documentation are available in the [Innovation se
 
 ---
 <!-- ## **🌟 Integration With My Cybersecurity Work** -->
-## **🌟 Cyber Integration **
+## **🌟 Cyber Integration**
 - My homelab provides the testing ground for UAV-cyber integrations  
 - My RF/SDR research feeds directly into secure payload and delivery system design  
 - My Python projects support automation, data analysis, and proof-of-concept tooling for UAV systems  
