@@ -22,7 +22,3 @@ print(data.head())
 avg_temp = data["temp"].mean()
 print(f"Average Temp: {avg_temp}")
 ```
-
----
-**🔗 Navigation:**  
-[⬅️ Day 15 — Coffee Machine](day15-coffee-machine.md) | [🏠 Home](../index.md) | [➡️ Day 39 — API Requests](day39-api-requests.md)

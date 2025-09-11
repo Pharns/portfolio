@@ -27,6 +27,3 @@ def generate_password(length=12):
 
 print(generate_password())
 ```
----
-**🔗 Navigation:**  
-[⬅️ Day 05 — Password Generator](day05-password-generator.md) | [🏠 Home](../index.md) | [➡️ Day 25 — Pandas & CSVs](day25-pandas-csvs.md)

@@ -31,7 +31,3 @@ data = response.json()
 print(data["hourly"]["temperature_2m"][:5])
 ```
 
----
-**🔗 Navigation:**  
-[⬅️ Day 25 — Pandas & CSVs](day25-pandas-csvs.md) | [🏠 Home](../index.md) | [➡️ Day 54 — Flask Intro](day54-flask-intro.md)
-

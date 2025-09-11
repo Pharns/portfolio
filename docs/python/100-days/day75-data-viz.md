@@ -29,8 +29,3 @@ plt.xlabel("Source IP")
 plt.ylabel("Count")
 plt.show()
 
-```
----
-**🔗 Navigation:**  
-[⬅️ Day 54 — Flask Intro](day54-flask-intro.md) | [🏠 Home](../index.md)
-

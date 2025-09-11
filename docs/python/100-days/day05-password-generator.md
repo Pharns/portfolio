@@ -1,6 +1,3 @@
-<a href="index.md">⬅ Back to Python</a>
-
-
 
 ### `day05-password-generator.md`  
 
@@ -28,4 +25,3 @@ def generate_password(length=12):
 
 print(generate_password())
 ```
-

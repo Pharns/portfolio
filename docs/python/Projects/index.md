@@ -26,8 +26,3 @@ Each project highlights how I use Python for **automation, data analysis, and cy
 
 ## 📌 Key Takeaway
 These projects show my ability to **move beyond tutorials** and apply Python skills to **real-world problems** — particularly in areas that overlap with my cybersecurity expertise.  
-
-
----
-**🔗 Navigation:**  
-[🏠 Home](../index.md) | [🛡️ Cybersecurity](cybersecurity/index.md) | [🐍 Python](python/index.md) | [🏆 Certifications](certifications.md)

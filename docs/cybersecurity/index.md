@@ -16,7 +16,3 @@ This section highlights hands-on projects that demonstrate my ability to design,
 
 ## 📌 **Key Takeaway**
 This section demonstrates my ability to translate cybersecurity knowledge into **practical application** — building, testing, and securing systems in realistic environments. It reflects skills relevant to roles in **cybersecurity engineering, SOC operations, vulnerability management, and incident response**.  
-
----
-**🔗 Navigation:**  
-[🏠 Home](../index.md) | [🐍 Python](../python/index.md) | [🏆 Certifications](../certifications.md)
