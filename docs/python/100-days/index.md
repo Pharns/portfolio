@@ -39,3 +39,8 @@ This section highlights selected projects that demonstrate my learning and growt
 
 ## 📌 Key Takeaway
 These projects reflect steady progress from **fundamentals → applied security tooling → full-stack applications**. Each step builds toward practical, real-world coding and cybersecurity skills.
+
+
+---
+**🔗 Navigation:**  
+[🏠 Home](../index.md) | [🛡️ Cybersecurity](../cybersecurity/index.md) | [🏆 Certifications](../certifications.md)

@@ -54,4 +54,4 @@ I’m a seasoned UAV innovator, FAA Part 107 licensed pilot, former adjunct educ
 
 ---
 **🔗 Navigation:**  
-[🛡️ Cybersecurity](cybersecurity/index.md) | [🐍 Python](python/index.md) | [🏆 Certifications](certifications/index.md)
+[🛡️ Cybersecurity](cybersecurity/index.md) | [🐍 Python](python/index.md) | [🏆 Certifications](certifications.md)

@@ -25,3 +25,6 @@ This combination of security, IT operations, and frameworks validates both hands
 
 *Currently preparing for these certifications to expand my expertise in cybersecurity analytics, penetration testing, and IT project management.*
 
+---
+**🔗 Navigation:**  
+[🏠 Home](index.md) | [🛡️ Cybersecurity](cybersecurity/index.md) | [🐍 Python](python/index.md)
