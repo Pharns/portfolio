@@ -11,7 +11,7 @@ Building on this foundation, I’m now expanding into cybersecurity to apply my 
 
 ---
 
- ## **🚀 Cybersecurity Highlights**
+## **🚀 Cybersecurity Highlights**
 - **Homelab:** Deployed Security Onion, TheHive/Cortex, and Nessus to simulate real-world incident response and vulnerability management.  
 - **Python Projects:** Built automation scripts, data analysis tools, and security utilities to streamline workflows.  
 - **Innovation & Patents:**  
@@ -27,7 +27,7 @@ Building on this foundation, I’m now expanding into cybersecurity to apply my 
 ## **🎓 Quick Snapshot**
 - **B.S. Cybersecurity & Information Assurance (WGU)** — Expected Dec 2025  
 - **Certifications:** CompTIA Security+, Network+, A+, ITIL4, ISC² CC, SSCP (Assoc.), Linux Essentials  
-- **Career Goal:** Transitioning from UAV innovation into cybersecurity engineering, wireless security, and incident response — applying my cyber + RF + UAV expertise (with patented and patent-pending systems) to protect mission-critical systems  
+- **Career Goal:** Transitioning from UAV innovation into cybersecurity engineering, wireless security, and incident response — applying my cyber + RF + UAV expertise (with patented and patent-pending systems) to protect mission-critical systems.
 
 ---
 
