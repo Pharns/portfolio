@@ -37,9 +37,9 @@ This page showcases my Proxmox-based homelab — a hands-on platform for buildin
 
 ## 💼 **Professional Applications**
 This homelab demonstrates practical experience in:  
-- Designing and securing **enterprise-grade infrastructures**  
-- Implementing **SOC and vulnerability management workflows**  
-- Managing **segmented networks** for safe red/blue team testing  
+- Designing and securing **enterprise-grade infrastructures**
+- Implementing **SOC and vulnerability management workflows**
+- Managing **segmented networks** for safe red/blue team testing
 - Deploying **Zero Trust access models** in a controlled environment  
 
 ---
