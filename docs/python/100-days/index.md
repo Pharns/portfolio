@@ -43,4 +43,4 @@ These projects reflect steady progress from **fundamentals → applied security 
 
 ---
 **🔗 Navigation:**  
-[🏠 Home](../index.md) | [🛡️ Cybersecurity](../cybersecurity/index.md) | [🏆 Certifications](../certifications.md)
+[🏠 Home](../index.md) | [🛡️ Cybersecurity](cybersecurity/index.md) | [🐍 Python](python/index.md) | [🏆 Certifications](certifications.md)

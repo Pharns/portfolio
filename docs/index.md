@@ -9,7 +9,6 @@ Building on this foundation, I’m now expanding into cybersecurity to apply my 
 !!! tip "How to browse"
     Use the tabs above for Cybersecurity, Python, and Innovation. Each section includes a short summary and links to detailed repos, write-ups, or project highlights.
 
-
 ---
 
  ## **🚀 Cybersecurity Highlights**
@@ -22,7 +21,6 @@ Building on this foundation, I’m now expanding into cybersecurity to apply my 
   - FAA Part 107 Certified Drone Pilot for commercial UAV operations and research.  
   - Licensed Ham & GMRS operator; deployed a Meshtastic LoRa mesh network for resilient communications.  
 - **Educator:** Former Adjunct Instructor in drone technology at MiraCosta College.  
-
 
 ---
 

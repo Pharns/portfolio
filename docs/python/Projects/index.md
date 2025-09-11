@@ -30,4 +30,4 @@ These projects show my ability to **move beyond tutorials** and apply Python ski
 
 ---
 **🔗 Navigation:**  
-[🏠 Home](../index.md) | [🛡️ Cybersecurity](../cybersecurity/index.md) | [🏆 Certifications](../certifications.md)
+[🏠 Home](../index.md) | [🛡️ Cybersecurity](cybersecurity/index.md) | [🐍 Python](python/index.md) | [🏆 Certifications](certifications.md)
