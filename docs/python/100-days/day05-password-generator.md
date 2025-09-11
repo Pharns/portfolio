@@ -1,4 +1,5 @@
 
+<p style="margin:0 0 1rem 0"><a href="/">⬅ Back to Home</a></p>
 ---
 
 ### `day05-password-generator.md`  
@@ -27,8 +28,4 @@ def generate_password(length=12):
 
 print(generate_password())
 ```
-
----
-**🔗 Navigation:**  
-[⬅️ Day 01 — Hello World](day01-hello-world.md) | [🏠 Home](../index.md) | [➡️ Day 15 — Coffee Machine](day15-coffee-machine.md)
 
