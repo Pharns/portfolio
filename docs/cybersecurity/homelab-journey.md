@@ -1,6 +1,6 @@
 # 🚀 **Homelab Journey: Building a Virtual Security Lab with Proxmox**
 
-This page is a detailed write-up of how I planned, built, and secured my homelab. It complements the [Homelab Infrastructure (Summary)](homelab-infrastructure.md) by documenting the full journey — from hardware selection to ongoing improvements.  
+This page is a write-up of how I planned, built, and secured my homelab. It complements the [Homelab Infrastructure (Summary)](homelab-infrastructure.md) by documenting the full journey — from hardware selection to ongoing improvements.  
 
 ---
 
