@@ -37,8 +37,8 @@ Beyond hands-on projects, I’m also an innovator and patent holder in UAV paylo
 Detailed project write-ups and documentation are available in the [Innovation section](innovation/). Patent documentation is available upon request for professional review.  
 
 ---
-
-## **🌟 Integration With My Cybersecurity Work**
+<!-- ## **🌟 Integration With My Cybersecurity Work** -->
+## **🌟 Integration With Cybersecurity**
 - My homelab provides the testing ground for UAV-cyber integrations  
 - My RF/SDR research feeds directly into secure payload and delivery system design  
 - My Python projects support automation, data analysis, and proof-of-concept tooling for UAV systems  
