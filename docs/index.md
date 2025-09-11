@@ -19,38 +19,30 @@ Building on this foundation, I’m now expanding into cybersecurity to apply my 
 
 ---
 
-## **🚀 Cybersecurity Highlights**
-- **Homelab:** Deployed Security Onion, TheHive/Cortex, and Nessus to simulate real-world incident response and vulnerability management.
-- **Python Projects:** Built automation scripts, data analysis tools, and security utilities to streamline workflows.
-- **Innovation & Patents:**
+## 🚀 **Hands-On Highlights**
 
-    - Patent pending – next-generation cyber drone delivery systems integrating SDR, RF, and wireless exploitation modules.
-    - Patent holder – UAV payload and drone delivery systems across multiple domains.
-
-- **Licenses & Operations**
-
-    - FAA Part 107 Certified Drone Pilot for commercial UAV operations and research.
-    - Licensed Ham & GMRS operator; deployed a Meshtastic LoRa mesh network for resilient communications.
-
-- **Educator:** Former Adjunct Instructor in drone technology at MiraCosta College.
- 
+- **Homelab Engineering** — Built and operate a Proxmox-based lab with Security Onion, TheHive/Cortex, and Nessus to replicate enterprise defense workflows  
+- **Zero Trust Pilot** — Tested Tailscale, Twingate, and Netbird for secure access management in a lab environment  
+- **Offensive Security Toolkit** — Applied WiFi Pineapple, HackRF One, Flipper Zero, and Rubber Ducky to simulate wireless and hardware attack scenarios  
+- **Drone & SDR Security Research** — Developed UAV platforms integrating SDR and pentest payloads; engineered 3D-printed housings for modular RF tools  
+- **Ham Radio & Mesh Networking** — Licensed Amateur Radio & GMRS operator; deployed a Meshtastic LoRa mesh network for decentralized comms testing  
+- **Patented Drone Payload Systems** — Invented and patented UAV payload architectures; current patent-pending research integrates SDR modules for wireless security  
 
 ---
 
-## **💡 Innovation & Patents**
+## 💡 **Innovation & Patents**
+Beyond cybersecurity, I’m an innovator and patent holder in UAV payload and delivery systems, with additional cybersecurity-focused patents pending.  
 
-Beyond hands-on projects, I’m also an innovator and patent holder in UAV payload and delivery systems, with additional cybersecurity-focused patents pending.  
-
-Detailed project write-ups and documentation are available in the [Innovation section](innovation/). Patent documentation is available upon request for professional review.  
+Detailed project write-ups are in the [Innovation section](innovation/). Patent documentation available on request.  
 
 ---
-<!-- ## **🌟 Integration With My Cybersecurity Work** -->
-## **🌟 Cyber Integration**
-- My homelab provides the testing ground for UAV-cyber integrations  
-- My RF/SDR research feeds directly into secure payload and delivery system design  
-- My Python projects support automation, data analysis, and proof-of-concept tooling for UAV systems  
+
+## 🌟 **Cyber Integration**
+- My homelab supports UAV-cyber integration testing  
+- RF/SDR research feeds into secure payload and delivery design  
+- Python projects automate analysis, testing, and proof-of-concept tooling  
 
 ---
 
 ## 📌 **Key Takeaway**
-I’m a seasoned UAV innovator, FAA Part 107 licensed pilot, former adjunct educator, and patent holder now expanding into cybersecurity. My goal is to bring together drone engineering, RF/wireless expertise, and cybersecurity knowledge to deliver solutions that protect and enable mission-critical systems.
+I’m a seasoned UAV innovator, FAA Part 107 licensed pilot, former adjunct educator, and patent holder now expanding into cybersecurity. My goal is to combine drone engineering, RF/wireless expertise, and cybersecurity knowledge to protect mission-critical systems.

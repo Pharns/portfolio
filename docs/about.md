@@ -1,73 +1,48 @@
-# 👋 **About Me**
+# **👋 Hi, I’m Pharns**
 
-## 🔐 **Who I Am**
+**Cybersecurity Specialist (in training) | RF & SDR Security | Emerging Python Developer | UAV Systems Innovator (Patented)**  
 
-I’m Pharns — a certified cybersecurity professional, emerging Python developer, and UAS/UAV Subject Matter Expert. My passion is blending cybersecurity, wireless communications, and hardware engineering to solve complex, real-world security challenges.  
+I bring a career in UAV design, payload systems, and drone delivery innovation — including running my own drone company, where I also acted as the system administrator responsible for IT infrastructure, employee accounts, and operational security.  
 
-- 🎓 **Education:** Pursuing a B.S. in Cybersecurity & Information Assurance (WGU, expected Dec 2025), with plans to continue into the M.S. program  
-- 🛡 **Certifications:** CompTIA Security+, Network+, A+, ITIL4, ISC² Certified in Cybersecurity, SSCP (Assoc.), Linux Essentials, and more  
-- 🚁 **Domain Expertise:** UAS/UAV operations, cyber payload design, SDR (software-defined radio), ham radio (digital & analog), and 3D-printed payload engineering  
-- 🛩️ **FAA Part 107 Licensed Drone Pilot:** Certified to operate UAVs for commercial and research applications  
-- 👨🏽‍✈️ **Adjunct Educator:** Taught drone technology at MiraCosta College, preparing students for UAV operations and industry applications  
-- 📡 **Mesh Networking:** Deploying a Meshtastic LoRa mesh network to explore decentralized and resilient communications  
-- 📻 **Licensed Operator:** Licensed in both Amateur Radio and GMRS, applying practical radio communications skills to cybersecurity and UAV research  
-- 📝 **Innovation:** Patent holder for UAV payload systems, with additional cybersecurity-focused patents pending (documentation available upon request)  
+Building on this foundation, I’m now expanding into cybersecurity to apply my combined expertise in systems administration, wireless, RF, and UAV engineering to modern security challenges.  
+
+!!! tip "How to browse"
+    Use the tabs above for Cybersecurity, Python, and Innovation. Each section includes a short summary and links to detailed repos, write-ups, or project highlights.
+
+---
+
+## **🎓 Quick Snapshot**
+- **B.S. Cybersecurity & Information Assurance (WGU)** — Expected Dec 2025  
+- **Certifications:** CompTIA Security+, Network+, A+, ITIL4, ISC² CC, SSCP (Assoc.), Linux Essentials  
+- **Technical Focus:** Incident response, wireless/RF security, Python automation & tooling  
+- **Career Goal:** Transitioning from UAV innovation into cybersecurity engineering, wireless security, and incident response — applying my cyber + RF + UAV expertise (with patented and patent-pending systems) to protect mission-critical systems  
 
 ---
 
 ## 🚀 **Hands-On Highlights**
 
-- **Patented Drone Payload Systems** — Invented, designed, and deployed UAV platforms with novel payload architectures, integrating SDR modules and wireless exploitation devices for security research  
-- **Homelab Engineering** — Built a Proxmox-based lab with The Hive, Nessus, and Security Onion to simulate enterprise defense  
-- **Drone & SDR Security Research** — Developing UAV platforms equipped with SDR and penetration testing payloads. Leveraging 3D-printed housings to integrate tools like HackRF, WiFi Pineapple, and Flipper Zero  
-- **Ham Radio & Mesh Networking** — Licensed Amateur Radio & GMRS operator with digital/analog comms experience. Actively deploying a Meshtastic LoRa mesh network to test decentralized communication resilience  
-- **Zero Trust Pilot** — Testing Tailscale, Twingate, and Netbird in a lab environment for secure access management  
-- **Offensive Security Toolkit** — Practical use of WiFi Pineapple, HackRF One, Flipper Zero, and Rubber Ducky for wireless and hardware security testing  
+- **Homelab Engineering** — Built and operate a Proxmox-based lab with Security Onion, TheHive/Cortex, and Nessus to replicate enterprise defense workflows  
+- **Zero Trust Pilot** — Tested Tailscale, Twingate, and Netbird for secure access management in a lab environment  
+- **Offensive Security Toolkit** — Applied WiFi Pineapple, HackRF One, Flipper Zero, and Rubber Ducky to simulate wireless and hardware attack scenarios  
+- **Drone & SDR Security Research** — Developed UAV platforms integrating SDR and pentest payloads; engineered 3D-printed housings for modular RF tools  
+- **Ham Radio & Mesh Networking** — Licensed Amateur Radio & GMRS operator; deployed a Meshtastic LoRa mesh network for decentralized comms testing  
+- **Patented Drone Payload Systems** — Invented and patented UAV payload architectures; current patent-pending research integrates SDR modules for wireless security  
 
 ---
 
-## 📊 **Projects at a Glance**
+## 💡 **Innovation & Patents**
+Beyond cybersecurity, I’m an innovator and patent holder in UAV payload and delivery systems, with additional cybersecurity-focused patents pending.  
 
-| **Project**                      | **Status**    | **Description**                                       |
-| -------------------------------- | ------------- | ----------------------------------------------------- |
-| **Drone Cyber Payload Systems**  | 🟢 Active      | UAV platforms with SDR & wireless exploitation payloads |
-| **Homelab Expansion**            | 🟡 In Progress | Scaling with advanced detection & response tools      |
-| **Zero Trust Implementation**    | 🟢 Active      | Deploying secure access platforms in lab              |
-| **CySA+ Certification**          | 🟡 In Progress | Studying advanced threat detection & analytics        |
-| **CTF Write-Ups**                | 🔵 Ongoing     | Documenting solutions to security challenges          |
+Detailed project write-ups are in the [Innovation section](innovation/). Patent documentation available on request.  
 
 ---
 
-## 🧰 **Skills in Action**
-
-- **Threat Detection & Incident Response** → SOC workflows, labs, and training (TryHackMe, TCM Security)  
-- **Penetration Testing** → Wireless, web app, privilege escalation, exploit development  
-- **Wireless & RF Security** → SDR, ham radio, UAV-based RF interception, mesh networking  
-- **Linux System Admin** → File system management, scripting, system hardening  
-- **Packet Analysis & Network Defense** → Deep-dive protocol analysis, detection engineering  
-- **Malware Analysis (Intro)** → Identifying IOCs, sandboxing, reverse-engineering basics  
+## 🌟 **Cyber Integration**
+- My homelab supports UAV-cyber integration testing  
+- RF/SDR research feeds into secure payload and delivery design  
+- Python projects automate analysis, testing, and proof-of-concept tooling  
 
 ---
 
-## 🎓 **Education**
-
-- **Western Governors University (WGU)**  
-  B.S. in Cybersecurity & Information Assurance  
-  *Expected Graduation: Dec 2025*  
-
----
-
-## 🎯 **Career Goal**
-
-I’m seeking opportunities in **cybersecurity engineering, wireless security, and incident response** where I can apply my certifications, hands-on lab experience, and unique blend of cyber, RF, and UAV innovation (with patented and patent-pending systems) to protect mission-critical systems. Patent documentation is available upon request for professional review.  
-
----
-
-## 🤝 **Let’s Connect**
-
-- [LinkedIn](https://linkedin.com/in/pharns)  
-- [GitHub](https://github.com/pharns)  
-
----
-
-<p align="center"><i>“Building a safer digital world, one project at a time.”</i></p>
+## 📌 **Key Takeaway**
+I’m a seasoned UAV innovator, FAA Part 107 licensed pilot, former adjunct educator, and patent holder now expanding into cybersecurity. My goal is to combine drone engineering, RF/wireless expertise, and cybersecurity knowledge to protect mission-critical systems.
