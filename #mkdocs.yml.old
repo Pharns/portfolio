@@ -62,24 +62,30 @@ markdown_extensions:
 nav:
   - Home: index.md
   - About:
-      - Overview (Lite): about.md
-      - About (Full): about-full.md      # ← if you keep a deep-dive version; otherwise remove
+      - Overview (Lite): aboutme(lite).md
+      - About (Full): about.md
   - Certifications: certifications.md
   - Cybersecurity:
       - Overview: cybersecurity/index.md
-      - Projects:
-          - Threat Detection Lab (SOC/SIEM): cybersecurity/threat-detection-lab.md
-          - Vulnerability Assessment Project: cybersecurity/vuln-assessment.md
-          - Incident Response Write-Up: cybersecurity/incident-response.md
-          - Wireless/RF Security Notes: cybersecurity/wireless-rf-security.md
-      - Skills & Tools: cybersecurity/skills-tools.md
+      - Projects & Labs:
+          - Homelab Infrastructure: cybersecurity/homelab-infrastructure.md
+          - Homelab Journey: cybersecurity/homelab-journey.md
+          - Incident Response: cybersecurity/incident-response.md
+          - Vulnerability Assessment: cybersecurity/vulnerability-assessment.md
+          - Penetration Testing: cybersecurity/penetration-testing.md
+          - Drone Payload Systems (Security/RF): cybersecurity/drone-payload-systems.md
+          - Blog Write-ups: cybersecurity/blog-writeups.md
   - Python:
       - Overview: python/index.md
-      - 100 Days: 100days/index.md
-      - Projects: projects/index.md
-  - Innovation:
-      - Overview: innovation/index.md
-      - UAV Payload Systems (Patents): innovation/payload-systems.md
-  - OSINT (coming soon): osint/index.md          # ← placeholder, remove if not ready
-  - Privacy (coming soon): privacy/index.md       # ← placeholder, remove if not ready
+      - 100 Days (Index): python/100-days/index.md
+      - 100 Days (Featured):
+          - Day 01 — Hello World: python/100-days/day01-hello-world.md
+          - Day 05 — Password Generator: python/100-days/day05-password-generator.md
+          - Day 15 — Coffee Machine: python/100-days/day15-coffee-machine.md
+          - Day 25 — Pandas & CSVs: python/100-days/day25-pandas-csvs.md
+          - Day 39 — API Requests: python/100-days/day39-api-requests.md
+          - Day 54 — Flask Intro: python/100-days/day54-flask-intro.md
+          - Day 75 — Data Viz: python/100-days/day75-data-viz.md
+      - Projects: python/projects/index.md
+  - Innovation: innovation.md
   - Contact: contact.md
