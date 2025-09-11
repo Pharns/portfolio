@@ -1,17 +1,28 @@
-# 🐍 **Python — Overview**
+# 🐍 **100 Days of Python**
 
-This section highlights projects that demonstrate how I apply Python to **automation, data analysis, and security tooling**.  
-Each project showcases practical coding skills and connects them directly to cybersecurity and real-world problem solving.  
-
----
-
-## 🔑 **Projects in This Section**
-
-- **[100 Days of Python](../python/100-days/)** → Progressive coding challenges covering Python fundamentals, scripting, and automation.  
-- **[Python Projects](../python/projects/)** → Custom projects including automation scripts, data visualization, and security tools.  
+This section highlights selected projects and exercises from the **100 Days of Python Bootcamp**.  
+Each page shows how I built practical skills through small but meaningful projects — from automation to data visualization.  
 
 ---
 
-## 📌 **Key Takeaway**
-These projects show my ability to apply Python beyond coursework, using it as a tool for **automation, analysis, and cybersecurity applications**.  
-They reflect skills that support roles in **cybersecurity engineering, security automation, and data-driven analysis**.  
+## 🎯 Purpose
+The goal of this series is to:
+- Build strong Python fundamentals  
+- Apply coding to **cybersecurity and automation**  
+- Develop repeatable workflows that can scale into professional projects  
+
+---
+
+## 🚀 Highlights
+- **Day 01 — Hello World** → First project, GitHub CI integration  
+- **Day 05 — Password Generator** → Secure scripting for automation  
+- **Day 15 — Coffee Machine OOP** → Applying classes and object-oriented design  
+- **Day 25 — Pandas & CSVs** → Data manipulation for analysis  
+- **Day 39 — API Requests** → Consuming external APIs securely  
+- **Day 54 — Flask Intro** → Basics of web application development  
+- **Day 75 — CSV Data Viz** → Building visualizations with `pandas` and `matplotlib`  
+
+---
+
+## 📌 Key Takeaway
+The **100 Days of Python** journey isn’t just academic — it demonstrates consistent practice, growing technical depth, and direct applications of Python in **automation, data analysis, and security tooling**.  
