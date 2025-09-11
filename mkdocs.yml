@@ -46,9 +46,7 @@ markdown_extensions:
 
 plugins:
   - search
-  # - tags   # enable later if you add page tags
 
-# ---------- Recruiter-first Navigation ----------
 nav:
   - Home: index.md
   - About: about.md
@@ -60,22 +58,16 @@ nav:
       - Vulnerability Assessment: cybersecurity/vulnerability-assessment.md
       - Incident Response: cybersecurity/incident-response.md
       - Penetration Testing: cybersecurity/penetration-testing.md
+      - Drone Cyber Payload Systems: cybersecurity/drone-payload-systems.md
       - Blog Write-Ups: cybersecurity/blog-writeups.md
   - Python:
       - Overview: python/index.md
-      - 100 Days of Python: python/100-days.md
-      - Projects: python/projects.md
-  - Innovation:
-      - Overview: innovation/index.md
-      - Drone Cyber Payload Systems: innovation/drone-payload-systems.md
+      # Uncomment these when you add index.md files inside each folder:
+      # - 100 Days of Python: python/100-days/index.md
+      # - Projects: python/projects/index.md
+  - Innovation: innovation.md
   - Certifications: certifications.md
-  # - Resume: assets/resume.pdf
-  - Contact:
-      - LinkedIn: https://linkedin.com/in/pharns
-      - GitHub: https://github.com/pharns
+  - Contact: contact.md
 
-# GitHub "Edit this page" button (Material uses this when repo_url is set)
 edit_uri: edit/main/docs/
-
-# Keep this a plain string; mkdocs.yml doesn't render Jinja here
-copyright: "© 2025 Pharns Genece. All rights reserved."
+copyright: "© 2025 Pharns. All rights reserved."
