@@ -22,10 +22,10 @@ Building on this foundation, I’m now expanding into cybersecurity to apply my 
 ## **🚀 Cybersecurity Highlights**
 - **Homelab:** Deployed Security Onion, TheHive/Cortex, and Nessus to simulate real-world incident response and vulnerability management.
 - **Python Projects:** Built automation scripts, data analysis tools, and security utilities to streamline workflows.
-- **Innovation & Patents:**  
+- **Innovation & Patents**
   - Patent pending – next-generation cyber drone delivery systems integrating SDR, RF, and wireless exploitation modules.
   - Patent holder – UAV payload and drone delivery systems across multiple domains.
-- **Licenses & Operations:**
+- **Licenses & Operations**
   - FAA Part 107 Certified Drone Pilot for commercial UAV operations and research.
   - Licensed Ham & GMRS operator; deployed a Meshtastic LoRa mesh network for resilient communications.  
 - **Educator:** Former Adjunct Instructor in drone technology at MiraCosta College.  
