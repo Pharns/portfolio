@@ -1,5 +1,5 @@
+<a href="/python/">⬅ Back to Python</a>
 
-<p style="margin:0 0 1rem 0"><a href="../index.md">⬅ Back to Python</a></p>
 
 
 ### `day05-password-generator.md`  
