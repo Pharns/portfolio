@@ -59,8 +59,7 @@ I’m Pharns — a certified cybersecurity professional, emerging Python develop
 
 ## 🎯 **Career Goal**
 
-I’m seeking opportunities in **cybersecurity engineering, wireless security, and incident response** where I can apply my certifications, hands-on lab experience, and unique blend of cyber, RF, and UAV innovation (with patented and patent-pending systems) to protect mission-critical systems.  
-Patent documentation is available upon request for professional review.  
+I’m seeking opportunities in **cybersecurity engineering, wireless security, and incident response** where I can apply my certifications, hands-on lab experience, and unique blend of cyber, RF, and UAV innovation (with patented and patent-pending systems) to protect mission-critical systems. Patent documentation is available upon request for professional review.  
 
 ---
 

@@ -32,9 +32,9 @@ Building on this foundation, I’m now expanding into cybersecurity to apply my 
 
 ## **💡 Innovation & Patents**
 
-Beyond hands-on projects, I’m also an **innovator and patent holder** in UAV payload and delivery systems, with additional **cybersecurity-focused patents pending**.  
+Beyond hands-on projects, I’m also an innovator and patent holder in UAV payload and delivery systems, with additional cybersecurity-focused patents pending.  
 
-Detailed project write-ups and documentation are available in the [Innovation section](innovation/). Patent documentation is **available upon request** for professional review.  
+Detailed project write-ups and documentation are available in the [Innovation section](innovation/). Patent documentation is available upon request for professional review.  
 
 ---
 
@@ -46,4 +46,4 @@ Detailed project write-ups and documentation are available in the [Innovation se
 ---
 
 ## 📌 **Key Takeaway**
-I’m a seasoned UAV innovator, FAA Part 107 licensed pilot, former adjunct educator, and patent holder now expanding into cybersecurity. My goal is to bring together drone engineering, RF/wireless expertise, and cybersecurity knowledge to deliver solutions that protect and enable mission-critical systems. I hold **patents in UAV payload and delivery systems**, with additional **cybersecurity-focused patents pending**. Patent documentation is **available upon request** for professional review.  
+I’m a seasoned UAV innovator, FAA Part 107 licensed pilot, former adjunct educator, and patent holder now expanding into cybersecurity. My goal is to bring together drone engineering, RF/wireless expertise, and cybersecurity knowledge to deliver solutions that protect and enable mission-critical systems.
