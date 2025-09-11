@@ -27,8 +27,8 @@ Building on this foundation, I’m now expanding into cybersecurity to apply my 
   - Patent holder – UAV payload and drone delivery systems across multiple domains.
 - **Licenses & Operations:**
   - FAA Part 107 Certified Drone Pilot for commercial UAV operations and research.
-  - Licensed Ham & GMRS operator; deployed a Meshtastic LoRa mesh network for resilient communications.
-- **Educator:** Former Adjunct Instructor in drone technology at MiraCosta College.
+  - Licensed Ham & GMRS operator; deployed a Meshtastic LoRa mesh network for resilient communications.  
+- **Educator:** Former Adjunct Instructor in drone technology at MiraCosta College.  
 
 ---
 
