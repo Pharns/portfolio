@@ -48,3 +48,5 @@ This page showcases my Proxmox-based homelab — a hands-on platform for buildin
 
 ## 📌 **Key Takeaway**
 My homelab showcases the ability to design, deploy, and secure enterprise-like environments using industry-standard tools. It demonstrates practical skills in **defensive security, incident response, vulnerability management, and Zero Trust architectures** — skills that go beyond certifications and reflect real-world capability.  
+
+---
