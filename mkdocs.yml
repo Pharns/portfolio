@@ -52,6 +52,7 @@ plugins:
 nav:
   - Home: index.md
   - About: about.md
+  - Certifications: certifications.md
   - Cybersecurity:
       - Overview: cybersecurity/index.md
       - Homelab Infrastructure:
@@ -67,18 +68,17 @@ nav:
       - 100 Days of Python:
           - Overview: python/100-days/index.md
           - Day 01 — Hello World: python/100-days/day01-hello-world.md
-          - Day 05 — Password Generator: python/100-days/day05-password-generator.md
-          - Day 15 — Coffee Machine: python/100-days/day15-coffee-machine.md
-          - Day 25 — Pandas & CSVs: python/100-days/day25-pandas-csvs.md
-          - Day 39 — API Requests: python/100-days/day39-api-requests.md
-          - Day 54 — Flask Intro: python/100-days/day54-flask-intro.md
-          - Day 75 — Data Viz: python/100-days/day75-data-viz.md
+          # - Day 05 — Password Generator: python/100-days/day05-password-generator.md
+          # - Day 15 — Coffee Machine: python/100-days/day15-coffee-machine.md
+          # - Day 25 — Pandas & CSVs: python/100-days/day25-pandas-csvs.md
+          # - Day 39 — API Requests: python/100-days/day39-api-requests.md
+          # - Day 54 — Flask Intro: python/100-days/day54-flask-intro.md
+          # - Day 75 — Data Viz: python/100-days/day75-data-viz.md
       - Projects: python/projects/index.md
-  - Certifications: certifications.md
   - Innovation: innovation.md
   - Contact: contact.md
 
 # GitHub "Edit this page" button
 edit_uri: edit/main/docs/
 
-copyright: "© 2025 Pharns. All rights reserved."
+copyright: "© 2025 Pharns Genece - All rights reserved."
