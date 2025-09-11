@@ -5,7 +5,7 @@ This page showcases my Proxmox-based homelab — a hands-on platform for buildin
 ---
 
 ## 💡 **Core Features**
-- Virtualization with **Proxmox VE** for agile deployment of VMs  
+- **Virtualization** with Proxmox VE for agile deployment of VMs  
 - **SOC Tools** → Security Onion, Wazuh, Nessus, TheHive + Cortex  
 - **Red Team Tools** → Kali Linux, Metasploit, DVWA, Caldera  
 - **Network Segmentation** → pfSense firewall with VLANs  
@@ -16,7 +16,7 @@ This page showcases my Proxmox-based homelab — a hands-on platform for buildin
 
 ## 🌐 **Lab Topology**
 ![Homelab Network Diagram](../assets/images/HomeLab Network Diagram-Github.jpg)  
-*Figure: Homelab Network Diagram — Proxmox environment with pfSense VLANs, SOC & red team tools, self-hosted services, and Zero Trust pilots.*  
+*Figure: Homelab Network Diagram — Proxmox environment with pfSense VLANs, SOC & Red Team tools, self-hosted services, and Zero Trust pilots.*  
 
 
 ---
