@@ -1,7 +1,9 @@
-site_name: Pharns — Cybersecurity & Python Portfolio
+site_name: Pharns Génécé — Cybersecurity & Python Portfolio
 site_url: https://portfolio.pharns.com
 repo_url: https://github.com/Pharns/portfolio
 repo_name: pharns/portfolio
+edit_uri: edit/main/docs/
+strict: true
 
 theme:
   name: material
@@ -31,16 +33,14 @@ theme:
 markdown_extensions:
   - admonition
   - attr_list
-  - codehilite
   - def_list
   - footnotes
   - md_in_html
   - toc:
       permalink: true
-  - pymdownx.arithmatex:
-      generic: true
-  - pymdownx.betterem:
-      smart_enable: all
+  # - pymdownx.arithmatex:
+  #     generic: true
+  - pymdownx.highlight
   - pymdownx.caret
   - pymdownx.critic
   - pymdownx.details
@@ -54,6 +54,8 @@ markdown_extensions:
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.tilde
+  - pymdownx.betterem:
+      smart_enable: all
 
 plugins:
   - search
@@ -66,13 +68,25 @@ nav:
   - Certifications: certifications.md
   - Cybersecurity:
       - Overview: cybersecurity/index.md
-      - Build Journey: cybersecurity/homelab-journey.md
+      - Homelab Infrastructure:
+          - Summary: cybersecurity/homelab-infrastructure.md
+          - Journey: cybersecurity/homelab-journey.md
+      - Vulnerability Assessment: cybersecurity/vulnerability-assessment.md
+      - Incident Response: cybersecurity/incident-response.md
+      - Penetration Testing: cybersecurity/penetration-testing.md
+      - Drone Cyber Payload Systems: cybersecurity/drone-payload-systems.md
+      - Blog Write-Ups: cybersecurity/blog-writeups.md
   - Python:
       - Overview: python/index.md
-      - 100 Days: python/100-days/index.md
-  - Projects:
-      - Overview: python/projects/index.md
+      - 100 Days of Python:
+          - Overview: python/100-days/index.md
+          - Day 01 — Hello World: python/100-days/day01-hello-world.md
+          - Day 05 — Password Generator: python/100-days/day05-password-generator.md
+          - Day 15 — Coffee Machine: python/100-days/day15-coffee-machine.md
+          - Day 25 — Pandas & CSVs: python/100-days/day25-pandas-csvs.md
+          - Day 39 — API Requests: python/100-days/day39-api-requests.md
+          - Day 54 — Flask Intro: python/100-days/day54-flask-intro.md
+          - Day 75 — Data Viz: python/100-days/day75-data-viz.md
+      - Projects: python/projects/index.md
   - Innovation: innovation.md
   - Contact: contact.md
-
-
