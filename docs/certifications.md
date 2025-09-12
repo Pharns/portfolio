@@ -26,3 +26,68 @@ This combination of security, IT operations, and frameworks validates both hands
 *Currently preparing for these certifications to expand my expertise in cybersecurity analytics, penetration testing, and IT project management.*
 
 ---
+
+<!-- Structured Data for Certifications -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Pharns",
+  "url": "https://portfolio.pharns.com",
+  "hasCredential": [
+    {
+      "@type": "EducationalOccupationalCredential",
+      "credentialCategory": "Certification",
+      "name": "CompTIA Security+",
+      "recognizedBy": {
+        "@type": "Organization",
+        "name": "CompTIA"
+      }
+    },
+    {
+      "@type": "EducationalOccupationalCredential",
+      "credentialCategory": "Certification",
+      "name": "CompTIA Network+",
+      "recognizedBy": {
+        "@type": "Organization",
+        "name": "CompTIA"
+      }
+    },
+    {
+      "@type": "EducationalOccupationalCredential",
+      "credentialCategory": "Certification",
+      "name": "CompTIA A+",
+      "recognizedBy": {
+        "@type": "Organization",
+        "name": "CompTIA"
+      }
+    },
+    {
+      "@type": "EducationalOccupationalCredential",
+      "credentialCategory": "Certification",
+      "name": "ITIL4 Foundation",
+      "recognizedBy": {
+        "@type": "Organization",
+        "name": "AXELOS"
+      }
+    },
+    {
+      "@type": "EducationalOccupationalCredential",
+      "credentialCategory": "Certification",
+      "name": "ISC² Certified in Cybersecurity (CC)",
+      "recognizedBy": {
+        "@type": "Organization",
+        "name": "ISC²"
+      }
+    },
+    {
+      "@type": "EducationalOccupationalCredential",
+      "credentialCategory": "Certification",
+      "name": "(ISC)² SSCP (Associate)",
+      "recognizedBy": {
+        "@type": "Organization",
+        "name": "ISC²"
+      }
+    },
+    {
+      "@type": "EducationalOccupationalCredential",

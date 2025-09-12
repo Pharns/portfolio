@@ -48,3 +48,40 @@ Detailed project write-ups are in the [Innovation section](innovation/). Patent 
 I’m a seasoned UAV innovator, FAA Part 107 licensed pilot, former adjunct educator, and patent holder now expanding into cybersecurity. My goal is to combine drone engineering, RF/wireless expertise, and cybersecurity knowledge — with a focus on risk management, incident response, and threat detection — to protect mission-critical systems.
 
 ---
+
+
+<!-- Structured Data for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Pharns",
+  "url": "https://portfolio.pharns.com",
+  "jobTitle": "Cybersecurity Analyst (in training)",
+  "alumniOf": {
+    "@type": "CollegeOrUniversity",
+    "name": "Western Governors University"
+  },
+  "sameAs": [
+    "https://www.linkedin.com/in/pharns",
+    "https://github.com/pharns"
+  ],
+  "knowsAbout": [
+    "Cybersecurity",
+    "Threat Detection",
+    "Incident Response",
+    "Vulnerability Assessment",
+    "Risk Management",
+    "Security Operations Center (SOC)",
+    "Penetration Testing",
+    "Digital Forensics",
+    "Network Security",
+    "Python Automation"
+  ],
+  "worksOn": {
+    "@type": "WebSite",
+    "url": "https://portfolio.pharns.com",
+    "name": "Pharns — Cybersecurity & Python Portfolio"
+  }
+}
+</script>
