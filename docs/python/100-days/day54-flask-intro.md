@@ -1,9 +1,3 @@
-
----
-
-### `day54-flask-intro.md`
-
-
 # 🌐 Day 54 — Flask Intro
 
 **Objective:** Build a simple web app using Flask to understand backend basics.  

@@ -1,29 +1,50 @@
+# ☕ Day 15 — Coffee Machine
 
----
-
-### `day05-password-generator.md`  
-
-# 🔑 Day 05 — Password Generator
-
-**Objective:** Create a secure password generator in Python.  
+**Objective:** Simulate a coffee machine to practice control flow, functions, and basic data structures.
 
 ---
 
 ## 🛠️ Tools & Skills
-- Python `random` and `string` modules  
-- Function design for reusability  
-- Security focus on entropy and complexity  
+- Functions, loops, conditionals
+- Dictionaries for menu/resources
+- Input validation and state updates
 
 ---
 
 ## 🚀 Project
 ```python
-import random
-import string
+MENU = {
+    "espresso": {"water": 50, "coffee": 18, "cost": 1.5},
+    "latte":    {"water": 200, "milk": 150, "coffee": 24, "cost": 2.5},
+    "cappuccino":{"water": 250, "milk": 100, "coffee": 24, "cost": 3.0},
+}
+resources = {"water": 300, "milk": 200, "coffee": 100, "money": 0.0}
 
-def generate_password(length=12):
-    chars = string.ascii_letters + string.digits + string.punctuation
-    return ''.join(random.choice(chars) for _ in range(length))
+def can_make(drink):
+    for k, v in MENU[drink].items():
+        if k == "cost": 
+            continue
+        if resources.get(k, 0) < v:
+            return False, k
+    return True, None
 
-print(generate_password())
-```
+def make(drink):
+    for k, v in MENU[drink].items():
+        if k == "cost": 
+            continue
+        resources[k] -= v
+    resources["money"] += MENU[drink]["cost"]
+
+while True:
+    choice = input("What would you like? (espresso/latte/cappuccino/off/report): ").strip().lower()
+    if choice == "off":
+        break
+    if choice == "report":
+        print(resources); continue
+    if choice not in MENU:
+        print("Invalid selection."); continue
+    ok, missing = can_make(choice)
+    if not ok:
+        print(f"Sorry, not enough {missing}."); continue
+    make(choice)
+    print(f"Here is your {choice} ☕")

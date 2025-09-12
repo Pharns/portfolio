@@ -1,8 +1,3 @@
-
----
-
-### `day75-data-viz.md`
-
 # 📈 Day 75 — Data Visualization
 
 **Objective:** Create meaningful plots and charts from datasets using Python.  

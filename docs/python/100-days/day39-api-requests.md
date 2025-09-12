@@ -1,9 +1,3 @@
-
----
-
-### `day39-api-requests.md`
-
-
 # 🌐 Day 39 — API Requests
 
 **Objective:** Work with external APIs securely using Python’s `requests` library.  
