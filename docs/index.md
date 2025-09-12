@@ -2,7 +2,7 @@
 
 **Cybersecurity Specialist (in training) | RF & SDR Security | Emerging Python Developer | UAV Systems Innovator (Patented)**  
 
-I bring a career in UAV design, payload systems, and drone delivery innovation — including running my own drone company, where I also acted as the system administrator responsible for IT infrastructure, employee accounts, and operational security.  
+Bringing a career in UAV design, payload systems, and drone delivery innovation — including running my own drone company, where I also acted as the system administrator responsible for IT infrastructure, employee accounts, and operational security.  
 
 Building on this foundation, I’m now expanding into cybersecurity to apply my combined expertise in systems administration, wireless, RF, and UAV engineering to modern security challenges.  
 
