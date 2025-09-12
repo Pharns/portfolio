@@ -1,11 +1,4 @@
-# MkDocs core
 mkdocs>=1.6
-
-# MkDocs Material theme (latest stable 9.x)
 mkdocs-material>=9.5
-
-# Recommended Markdown extensions (match your mkdocs.yml)
 pymdown-extensions>=10.0
-
-# mkdocs-minify-plugin>=0.8
 mkdocs-minify-plugin>=0.8
