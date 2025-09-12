@@ -1,22 +1,19 @@
 # 👋 **About Me**
 
 ## 🔐 **Who I Am**
-I’m Pharns — a cybersecurity professional in training, Python learner, and UAV systems innovator with patented payload designs. My passion is blending cybersecurity, wireless communications, and hardware engineering to solve complex, real-world security challenges.  
+I’m Pharns — a cybersecurity professional in training with a foundation in UAV innovation, RF research, and system administration. My career began in UAV design and payload systems, where protecting intellectual property meant building secure, private infrastructure. Running production deployments of SuiteCRM, Docuseal, Nextcloud, Wiki.js, and SearXNG gave me hands-on experience with **Linux system administration, access control, and security hardening** in real-world environments.  
 
-- 🎓 **Education:** B.S. Cybersecurity & Information Assurance (WGU, expected Dec 2025)  
-- 🛡 **Certifications:** CompTIA Security+, Network+, A+, ITIL4, ISC² Certified in Cybersecurity, SSCP (Assoc.), Linux Essentials  
-- 🚁 **Domain Expertise:** UAS/UAV operations, cyber payload design, SDR (software-defined radio), ham radio, 3D-printed payload engineering, network security, and endpoint protection  
-- 🛩️ **FAA Part 107 Licensed Drone Pilot** — Certified to operate UAVs for commercial and research applications  
-- 👨🏽‍🏫 **Adjunct Educator (Past):** Taught drone technology at MiraCosta College  
+Today, I’m applying that technical foundation to **cybersecurity and threat defense**, combining homelab experimentation, wireless security research, and continuous learning toward my B.S. in Cybersecurity & Information Assurance at WGU.  
 
 ---
 
 ## 🚀 **Hands-On Highlights**
-- **Homelab Engineering** — Designed and operate a Proxmox-based lab with Security Onion, TheHive, and Nessus for enterprise defense simulation, focusing on SIEM, IDS/IPS, and vulnerability management  
-- **Zero Trust Pilot** — Implemented and tested Tailscale, Twingate, and Netbird for secure access management and identity & access management (IAM) practices  
-- **Offensive Security Toolkit** — Practical use of WiFi Pineapple, HackRF One, Flipper Zero, and Rubber Ducky for penetration testing, application security research, and vulnerability assessment  
-- **Drone & SDR Security Research** — Built UAV platforms with SDR and penetration-testing payloads; engineered modular 3D-printed housings for RF tools to support threat intelligence efforts  
-- **Ham Radio & Mesh Networking** — Licensed operator; deployed Meshtastic LoRa mesh to evaluate decentralized communication resilience  
+- **Production System Administration** — Deployed and maintained SuiteCRM, Docuseal, Nextcloud, Wiki.js, and SearXNG in production, managing IAM, backups, monitoring, and security hardening to safeguard sensitive IP  
+- **Homelab Engineering** — Proxmox-based lab with Security Onion, TheHive, and Nessus, simulating enterprise defense workflows (SIEM, IDS/IPS, SOC incident response)  
+- **Zero Trust Pilot** — Tested Tailscale, Twingate, and Netbird to evaluate secure access management and IAM practices  
+- **Offensive Security Toolkit** — Hands-on use of WiFi Pineapple, HackRF One, Flipper Zero, and Rubber Ducky for penetration testing, application security, and vulnerability assessment  
+- **Drone & SDR Security Research** — Built UAV platforms with SDR penetration-testing payloads and modular 3D-printed housings for RF exploitation tools  
+- **Ham Radio & Mesh Networking** — Licensed operator; deployed Meshtastic LoRa mesh to evaluate decentralized communications resilience  
 - **Patented Drone Payload Systems** — Invented UAV payload architectures; additional patents pending integrating SDR for cyber applications  
 
 ---
@@ -34,19 +31,20 @@ I’m Pharns — a cybersecurity professional in training, Python learner, and U
 ---
 
 ## 🧰 **Skills in Action**
-- **Threat Detection & Incident Response** → SOC workflows, SIEM, IDS/IPS, and anomaly detection in lab simulations  
-- **Penetration Testing** → Wireless, web app, privilege escalation, exploit development  
+- **Threat Detection & Incident Response** → SOC workflows, SIEM, IDS/IPS, anomaly detection in lab simulations  
+- **Vulnerability Assessment & Penetration Testing** → Nessus, web app testing, wireless, privilege escalation  
+- **Linux System Administration** → File system management, patching, scripting, backup & recovery, monitoring, hardening  
+- **Production Systems Management** → IAM, access control, and secure deployment of SuiteCRM, Docuseal, Nextcloud, Wiki.js, and SearXNG  
 - **Wireless & RF Security** → SDR, ham radio, UAV-based RF interception, mesh networking  
-- **Linux System Admin** → File system management, scripting, system hardening  
 - **Packet Analysis & Network Defense** → Wireshark, firewall management, protocol analysis, detection engineering  
 - **Malware Analysis (Intro)** → IOC identification, sandboxing, reverse-engineering basics  
 - **Compliance & Frameworks** → NIST CSF, ISO/IEC 27001, PCI DSS, GDPR/HIPAA alignment  
-- **DevSecOps & Secure SDLC** → Security automation, code review, and container security best practices (Docker/Kubernetes)  
+- **DevSecOps & Secure SDLC** → Security automation, code review, container security (Docker/Kubernetes)  
 
 ---
 
 ## 🎯 **Career Goal**
-I’m seeking opportunities in **cybersecurity engineering, wireless security, and incident response**, with strengths in **threat detection, risk management, and vulnerability assessment**, where I can apply my certifications, homelab experience, and UAV/cyber innovations (with patented and pending systems) to protect mission-critical systems.  
+I’m seeking opportunities in **cybersecurity engineering, wireless security, and incident response**, with strengths in **threat detection, risk management, and vulnerability assessment**, where I can apply my certifications, homelab experience, and UAV/cyber innovations to protect mission-critical systems.  
 
 ---
 

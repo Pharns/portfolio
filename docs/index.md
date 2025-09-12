@@ -21,12 +21,25 @@ Building on this foundation, I’m now expanding into cybersecurity to apply my 
 
 ## 🚀 **Hands-On Highlights**
 
+- **Production System Administration** — Operated and secured self-hosted deployments of SuiteCRM, Docuseal, Nextcloud, Wiki.js, and SearXNG in production environments to maintain control, privacy, and integrity of company IP. Managed user accounts, backups, updates, and security hardening across services.  
 - **Homelab Engineering** — Built and operate a Proxmox-based lab with Security Onion, TheHive/Cortex, and Nessus to replicate enterprise defense workflows, including SIEM, IDS/IPS, and SOC-style incident response simulations  
 - **Zero Trust Pilot** — Tested Tailscale, Twingate, and Netbird for secure access management and identity & access management (IAM) modeling  
 - **Offensive Security Toolkit** — Applied WiFi Pineapple, HackRF One, Flipper Zero, and Rubber Ducky for penetration testing, vulnerability assessment, and application security research  
 - **Drone & SDR Security Research** — Developed UAV platforms integrating SDR and penetration-testing payloads; engineered 3D-printed housings for modular RF tools to support threat analysis and intelligence gathering  
 - **Ham Radio & Mesh Networking** — Licensed Amateur Radio & GMRS operator; deployed a Meshtastic LoRa mesh network to evaluate decentralized communication resilience  
 - **Patented Drone Payload Systems** — Invented and patented UAV payload architectures; current patent-pending research integrates SDR modules for wireless security testing  
+
+---
+
+## 🧰 **Core Skills Snapshot**
+
+- **Threat Detection & Incident Response** — SOC workflows, SIEM, IDS/IPS, anomaly detection  
+- **Vulnerability Assessment & Penetration Testing** — Nessus, wireless/web app testing, privilege escalation  
+- **Linux System Administration** — File system management, patching, scripting, backup & recovery, monitoring, and system hardening  
+- **Production Systems Management** — Identity & access management (IAM), account provisioning, access control, and secure deployments of SuiteCRM, Docuseal, Nextcloud, Wiki.js, and SearXNG in production environments  
+- **Wireless & RF Security** — SDR, ham radio, UAV-based RF interception, mesh networking  
+- **Compliance & Frameworks** — NIST CSF, ISO/IEC 27001, PCI DSS, GDPR/HIPAA alignment  
+- **DevSecOps & Secure SDLC** — Security automation, secure code review, container security (Docker/Kubernetes)  
 
 ---
 
@@ -41,11 +54,6 @@ Detailed project write-ups are in the [Innovation section](innovation/). Patent 
 - My homelab supports UAV-cyber integration testing  
 - RF/SDR research feeds into secure payload and delivery design  
 - Python projects automate analysis, testing, and proof-of-concept tooling  
-
----
-
-## 📌 **Key Takeaway**
-I’m a seasoned UAV innovator, FAA Part 107 licensed pilot, former adjunct educator, and patent holder now expanding into cybersecurity. My goal is to combine drone engineering, RF/wireless expertise, and cybersecurity knowledge — with a focus on risk management, incident response, and threat detection — to protect mission-critical systems.
 
 ---
 
