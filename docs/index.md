@@ -21,7 +21,7 @@ Building on this foundation, I’m now expanding into cybersecurity to apply my 
 
 ## 🚀 **Hands-On Highlights**
 
-- **Production System Administration** — Operated and secured self-hosted deployments of SuiteCRM, Docuseal, Nextcloud, Wiki.js, and SearXNG in production environments to maintain control, privacy, and integrity of company IP. Managed user accounts, backups, updates, and security hardening across services.  
+ - **Production System Administration** — Operated and secured self-hosted deployments of SuiteCRM, Docuseal, Nextcloud, Wiki.js, and SearXNG in production environments to maintain control, privacy, and integrity of company IP. Managed user accounts, backups, updates, and security hardening across services.  
 - **Homelab Engineering** — Built and operate a Proxmox-based lab with Security Onion, TheHive/Cortex, and Nessus to replicate enterprise defense workflows, including SIEM, IDS/IPS, and SOC-style incident response simulations  
 - **Zero Trust Pilot** — Tested Tailscale, Twingate, and Netbird for secure access management and identity & access management (IAM) modeling  
 - **Offensive Security Toolkit** — Applied WiFi Pineapple, HackRF One, Flipper Zero, and Rubber Ducky for penetration testing, vulnerability assessment, and application security research  
@@ -46,8 +46,7 @@ Building on this foundation, I’m now expanding into cybersecurity to apply my 
 ## 💡 **Innovation & Patents**
 Beyond cybersecurity, I’m an innovator and patent holder in UAV payload and delivery systems, with additional cybersecurity-focused patents pending.  
 
-Detailed project write-ups are in the [Innovation Section](innovation.md). Patent documentation available on request.  
-
+Detailed project write-ups are in the [Innovation Section](docs/innovation.md). Patent documentation available on request.  
 ---
 
 ## 🌟 **Cyber Integration**
