@@ -1,0 +1,78 @@
+site_name: Pharns — Cybersecurity & Python Portfolio
+site_url: https://pharns.github.io/portfolio
+repo_url: https://github.com/Pharns/portfolio
+repo_name: pharns/portfolio
+
+theme:
+  name: material
+  language: en
+  features:
+    - navigation.tabs
+    - navigation.top
+    - navigation.sections
+    - toc.integrate
+    - content.code.copy
+    - content.code.annotate
+    - content.tabs.link
+    - navigation.instant
+    - search.highlight
+    - search.share
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: cyan
+    - scheme: slate
+      primary: indigo
+      accent: cyan
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - codehilite
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+plugins:
+  - search
+  - minify:
+      minify_html: true
+
+nav:
+  - Home: index.md
+  - About: about.md
+  - Certifications: certifications.md
+  - Cybersecurity:
+      - Overview: cybersecurity/index.md
+      - Journey: cybersecurity/homelab-journey.md
+  - Python:
+      - Overview: python/index.md
+      - 100 Days: python/100-days/index.md
+  - Projects:
+      - Overview: python/projects/index.md
+  - Innovation: innovation.md
+  - Contact: contact.md
+
+  
