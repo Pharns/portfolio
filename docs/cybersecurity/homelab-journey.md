@@ -34,7 +34,7 @@ Just like in a professional deployment, I started with careful planning:
 - Created bootable media with Balena Etcher  
 
 ![Proxmox Installer](../assets/screenshots/proxmox-install.png)  
-*Proxmox VE installation media prepared and verified.*  
+*Proxmox Installer : Verified image and bootable media.* 
 
 ---
 
@@ -45,7 +45,7 @@ Just like in a professional deployment, I started with careful planning:
 - Saved hardened configuration  
 
 ![BIOS Screenshot](../assets/screenshots/bios-settings.png)  
-*BIOS configuration ensuring virtualization and security features enabled.*  
+*BIOS Settings : Virtualization and security features enabled.*  
 
 ---
 
@@ -63,7 +63,8 @@ Just like in a professional deployment, I started with careful planning:
 - Added monitoring for visibility  
 
 ![Network Diagram](../assets/images/HomeLab%20Network%20Diagram-Github.jpg)
-*Logical network diagram showing segmented VLANs for red/blue teams and services.*  
+*Homelab Network Diagram : Segmented VLANs for red/blue teams and shared services.*
+
 
 ---
 
@@ -73,7 +74,7 @@ Just like in a professional deployment, I started with careful planning:
 - Layered extra security controls over time  
 
 ![Proxmox Dashboard](../assets/screenshots/Proxmox-Environment.png)  
-*Proxmox VE interface showing active SOC, Red Team, and service VMs.*  
+*Proxmox Dashboard : Active SOC, red team, and service VMs.*  
 
 ---
 
