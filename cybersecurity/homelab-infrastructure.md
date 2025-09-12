@@ -15,8 +15,8 @@ This page showcases my Proxmox-based homelab — a hands-on platform for buildin
 ---
 
 ## 🌐 **Lab Topology**
-![Homelab Network Diagram](../assets/images/HomeLab Network Diagram-Github.jpg)  
-*Homelab Network Diagram — Proxmox environment with pfSense VLANs, SOC & Red Team tools, self-hosted services, and Zero Trust pilots.*  
+![Homelab Network Diagram](../assets/images/HomeLab%20Network%20Diagram-Github.jpg)  
+*Figure: Homelab Network Diagram — Proxmox, pfSense VLANs, SOC & red team tools, self-hosted services, and Zero Trust pilots.*
 
 
 ---
