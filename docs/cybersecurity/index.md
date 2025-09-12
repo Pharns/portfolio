@@ -7,7 +7,7 @@ This section highlights hands-on projects that demonstrate my ability to design,
 ## 🔑 **Projects in This Section**
 
 - **[Homelab Infrastructure](homelab-infrastructure.md)** → Proxmox-based environment with segmented VLANs, SOC tools, and zero-trust pilots.  
-- **[Vulnerability Assessment](vulnerability-assessment.nd)** → Nessus scanning, triage, remediation, and reporting workflows.  
+- **[Vulnerability Assessment](vulnerability-assessment.md)** → Nessus scanning, triage, remediation, and reporting workflows.  
 - **[Incident Response Workflow](incident-response.md)** → TheHive + Cortex for threat triage, enrichment, and playbooks.  
 - **[Penetration Testing](penetration-testing.md)** → Red-team style assessments against lab targets, documenting attack chains and mitigations.  
 - **[Blog Write-Ups](blog-writeups.md)** → Capture the Flag challenges, methodologies, and repeatable techniques.  
