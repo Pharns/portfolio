@@ -24,4 +24,3 @@ data = response.json()
 
 print(data["hourly"]["temperature_2m"][:5])
 ```
-

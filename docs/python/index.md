@@ -1,8 +1,6 @@
 # 🧰 **Python Portfolio**
 
 This section highlights my work in Python, split into two areas:  
-    - 100 Days of Python
-    - Independant Projects
 
 ---
 
@@ -17,12 +15,9 @@ From simple scripts to applied security and data projects, this track demonstrat
 ## 🔬 Independent Projects
 Self-directed projects that apply Python to **real-world problems** — automation, data analysis, and cybersecurity tooling.  
 
-- [View Independent Projects](projects/index.md)
+➡️ [View Independent Projects](projects/index.md)  
+
 ---
 
 ## 📌 Key Takeaway
 This portfolio demonstrates both **structured learning** and **independent application** of Python, showing readiness to use coding skills in cybersecurity, data, and automation.
-
----
-
-🔗 Navigation: [🏠 Home](../index.md) | [🛡️ Cybersecurity](../cybersecurity/index.md) | [🏆 Certifications](../certifications.md)
