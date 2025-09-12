@@ -65,8 +65,8 @@ nav:
   - About: about.md
   - Certifications: certifications.md
   - Cybersecurity:
-    - Overview: cybersecurity/index.md
-    - Journey: cybersecurity/homelab-journey.md
+      - Overview: cybersecurity/index.md
+      - Build Journey: cybersecurity/homelab-journey.md
   - Python:
       - Overview: python/index.md
       - 100 Days: python/100-days/index.md
@@ -74,4 +74,5 @@ nav:
       - Overview: python/projects/index.md
   - Innovation: innovation.md
   - Contact: contact.md
+
 
