@@ -10,14 +10,14 @@ This section highlights my work in Python, split into two areas:
 A structured learning journey that builds Python skills step by step.  
 From simple scripts to applied security and data projects, this track demonstrates consistent growth.  
 
-➡️ [View the 100 Days of Python Projects](../100days/index.md)  
+➡️ [View the 100 Days of Python Projects](100-days/index.md)  
 
 ---
 
 ## 🔬 Independent Projects
 Self-directed projects that apply Python to **real-world problems** — automation, data analysis, and cybersecurity tooling.  
 
-➡️ [View Independent Projects](../projects/index.md)  
+➡️ [View Independent Projects](projects/index.md)  
 
 ---
 
