@@ -1,4 +1,4 @@
-# **👋 Hi,Hola I’m Pharns**
+# **👋 Hi, I’m Pharns**
 
 **Cybersecurity Specialist (in training) | RF & SDR Security | Emerging Python Developer | UAV Systems Innovator (Patented)**  
 
@@ -12,8 +12,8 @@ Building on this foundation, I’m now expanding into cybersecurity to apply my 
 ---
 
 ## **🎓 Quick Snapshot**
-- **B.S. Cybersecurity & Information Assurance (WGU)** — Expected Dec 2025  
-- **Certifications:** CompTIA Security+, Network+, A+, ITIL4, ISC² CC, SSCP (Assoc.), Linux Essentials  
+- **B.S. Cybersecurity & Information Assurance (WGU)** — Dec 2025  
+- **Certifications:** CompTIA Security+, Network+, A+, CySA++,ITIL4, ISC² CC, SSCP (Assoc.), Linux Essentials  
 - **Technical Focus:** Threat detection, incident response, vulnerability assessment, wireless/RF security, Python automation & tooling  
 - **Career Goal:** Transitioning from UAV innovation into cybersecurity engineering, wireless security, and incident response — applying my cyber + RF + UAV expertise (with patented and patent-pending systems) to protect mission-critical systems  
 
