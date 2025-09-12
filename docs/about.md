@@ -1,20 +1,32 @@
 # 👋 **About Me**
 
 ## 🔐 **Who I Am**
-I’m Pharns — a cybersecurity professional in training with a foundation in UAV innovation, RF research, and system administration. My career began in UAV design and payload systems, where protecting intellectual property meant building secure, private infrastructure. Running production deployments of SuiteCRM, Docuseal, Nextcloud, Wiki.js, and SearXNG gave me hands-on experience with **Linux system administration, access control, and security hardening** in real-world environments.  
+Career rooted in UAV design, payload systems, and RF research, including leadership of a drone company while serving as system administrator for IT infrastructure, employee accounts, and operational security. Experience running production deployments of SuiteCRM, Docuseal, Nextcloud, Wiki.js, and SearXNG developed strengths in Linux system administration, identity & access management (IAM), and security hardening.  
 
-Today, I’m applying that technical foundation to **cybersecurity and threat defense**, combining homelab experimentation, wireless security research, and continuous learning toward my B.S. in Cybersecurity & Information Assurance at WGU.  
+This foundation now drives a transition into cybersecurity engineering and threat defense, combining homelab experimentation, wireless security research, and ongoing study toward a B.S. in Cybersecurity & Information Assurance (WGU).  
+
+---
+
+## 🧰 **Core Skills Snapshot**
+- **Detection & Response** → SIEM, IDS/IPS, SOC workflows, anomaly detection  
+- **Vulnerability & Pentesting** → Nessus, wireless/web apps, privilege escalation  
+- **Linux Administration** → patching, scripting, recovery, monitoring, hardening  
+- **Systems Management** → IAM, access control, secure deployments (SuiteCRM, Docuseal, Nextcloud, Wiki.js, SearXNG)  
+- **Wireless & RF Security** → SDR, UAV interception, ham radio, mesh networking  
+- **Network Defense** → Wireshark, firewall management, protocol analysis  
+- **Malware (Intro)** → IOCs, sandboxing, reverse-engineering basics  
+- **Compliance & DevSecOps** → NIST CSF, ISO 27001, PCI DSS, GDPR/HIPAA, secure SDLC, Docker/Kubernetes  
 
 ---
 
 ## 🚀 **Hands-On Highlights**
-- **Production System Administration** — Deployed and maintained SuiteCRM, Docuseal, Nextcloud, Wiki.js, and SearXNG in production, managing IAM, backups, monitoring, and security hardening to safeguard sensitive IP  
-- **Homelab Engineering** — Proxmox-based lab with Security Onion, TheHive, and Nessus, simulating enterprise defense workflows (SIEM, IDS/IPS, SOC incident response)  
-- **Zero Trust Pilot** — Tested Tailscale, Twingate, and Netbird to evaluate secure access management and IAM practices  
-- **Offensive Security Toolkit** — Hands-on use of WiFi Pineapple, HackRF One, Flipper Zero, and Rubber Ducky for penetration testing, application security, and vulnerability assessment  
-- **Drone & SDR Security Research** — Built UAV platforms with SDR penetration-testing payloads and modular 3D-printed housings for RF exploitation tools  
-- **Ham Radio & Mesh Networking** — Licensed operator; deployed Meshtastic LoRa mesh to evaluate decentralized communications resilience  
-- **Patented Drone Payload Systems** — Invented UAV payload architectures; additional patents pending integrating SDR for cyber applications  
+- **Homelab Engineering** — Operate a Proxmox-based lab with Security Onion, TheHive, and Nessus, simulating SOC workflows (SIEM, IDS/IPS, incident response).  
+- **Production System Administration** — Administer and secure SuiteCRM, Docuseal, Nextcloud, Wiki.js, and SearXNG in production with IAM, backups, monitoring, and system hardening.  
+- **Zero Trust Pilot** — Evaluate Tailscale, Twingate, and Netbird for secure access and IAM modeling.  
+- **Offensive Security Toolkit** — Use WiFi Pineapple, HackRF One, Flipper Zero, and Rubber Ducky for penetration testing and vulnerability assessment.  
+- **Drone & SDR Security Research** — Build UAV platforms with SDR pentesting payloads and modular RF tool housings for threat detection and intelligence gathering.  
+- **Ham Radio & Mesh Networking** — Licensed operator; deploy Meshtastic LoRa mesh for resilient, decentralized communications.  
+- **Patented Drone Payload Systems** — Invent UAV payload architectures; ongoing patent-pending SDR research.  
 
 ---
 
@@ -30,21 +42,8 @@ Today, I’m applying that technical foundation to **cybersecurity and threat de
 
 ---
 
-## 🧰 **Skills in Action**
-- **Threat Detection & Incident Response** → SOC workflows, SIEM, IDS/IPS, anomaly detection in lab simulations  
-- **Vulnerability Assessment & Penetration Testing** → Nessus, web app testing, wireless, privilege escalation  
-- **Linux System Administration** → File system management, patching, scripting, backup & recovery, monitoring, hardening  
-- **Production Systems Management** → IAM, access control, and secure deployment of SuiteCRM, Docuseal, Nextcloud, Wiki.js, and SearXNG  
-- **Wireless & RF Security** → SDR, ham radio, UAV-based RF interception, mesh networking  
-- **Packet Analysis & Network Defense** → Wireshark, firewall management, protocol analysis, detection engineering  
-- **Malware Analysis (Intro)** → IOC identification, sandboxing, reverse-engineering basics  
-- **Compliance & Frameworks** → NIST CSF, ISO/IEC 27001, PCI DSS, GDPR/HIPAA alignment  
-- **DevSecOps & Secure SDLC** → Security automation, code review, container security (Docker/Kubernetes)  
-
----
-
-## 🎯 **Career Goal**
-I’m seeking opportunities in **cybersecurity engineering, wireless security, and incident response**, with strengths in **threat detection, risk management, and vulnerability assessment**, where I can apply my certifications, homelab experience, and UAV/cyber innovations to protect mission-critical systems.  
+## 🎯 **Career Goal** 
+Advancing into cybersecurity engineering, SOC operations, and wireless security, with strengths in threat detection, incident response, risk management, and vulnerability assessment. Leveraging certifications, homelab practice, and UAV/cyber innovations to protect mission-critical systems.  
 
 ---
 
