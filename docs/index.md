@@ -1,4 +1,4 @@
-# **👋 Hi, I’m Pharns**
+# **👋 Hi,Hola I’m Pharns**
 
 **Cybersecurity Specialist (in training) | RF & SDR Security | Emerging Python Developer | UAV Systems Innovator (Patented)**  
 
