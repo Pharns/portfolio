@@ -5,24 +5,34 @@ on:
     branches: [ main ]
   workflow_dispatch:
 
+permissions:
+  contents: write   # allow push to gh-pages
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write   # needed for gh-pages branch
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
-      - name: Setup Python
+      - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.x'
+          python-version: "3.x"
 
-      - name: Install deps from requirements.txt
+      - name: Install deps
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
+      - name: Configure git identity (needed on some repos)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
       - name: Build & deploy to gh-pages
-        run: mkdocs gh-deploy --force
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: mkdocs gh-deploy --force --verbose
