@@ -13,7 +13,7 @@ Building on this foundation, I’m now expanding into cybersecurity to apply my 
 
 ## **🎓 Quick Snapshot**
 - **B.S. Cybersecurity & Information Assurance (WGU)** — Dec 2025  
-- **Certifications:** CompTIA Security+, Network+, A+, CySA+,ITIL4, ISC² CC, SSCP (Assoc.), Linux Essentials  
+- **Certifications:** CompTIA Security+, Network+, A+, CySA++,ITIL4, ISC² CC, SSCP (Assoc.), Linux Essentials  
 - **Technical Focus:** Threat detection, incident response, vulnerability assessment, wireless/RF security, Python automation & tooling  
 - **Career Goal:** Transitioning from UAV innovation into cybersecurity engineering, wireless security, and incident response — applying my cyber + RF + UAV expertise (with patented and patent-pending systems) to protect mission-critical systems  
 
@@ -21,14 +21,13 @@ Building on this foundation, I’m now expanding into cybersecurity to apply my 
 
 ## 🚀 **Hands-On Highlights**
 
-- **Homelab Engineering** — Proxmox-based enterprise defense lab with **Security Onion, TheHive/Cortex, and Nessus**, replicating SOC workflows (**SIEM, IDS/IPS, vulnerability assessment, incident response**).  
-- **Production System Administration** — Administer and secure **SuiteCRM, Docuseal, Nextcloud, Wiki.js, and SearXNG** in production. Enforce **IAM, encryption, firewall management, risk management, and system hardening**.  
-- **Zero Trust Pilot** — Evaluated **Tailscale, Twingate, and Netbird** for secure access, **Zero Trust architecture**, and IAM modeling.  
-- **Offensive Security Toolkit** — Hands-on with **WiFi Pineapple, HackRF One, Flipper Zero, Rubber Ducky** for **penetration testing and vulnerability assessment**.  
-- **Drone & SDR Security Research** — Built UAV platforms with **software-defined radios (SDR)** and pentesting payloads; developed 3D-printed housings for **threat detection and intelligence gathering**.  
-- **Ham Radio & Mesh Networking** — Licensed **Amateur Radio & GMRS operator**; deployed **Meshtastic LoRa mesh** to test resilient, decentralized communication.  
-- **Patented Drone Payload Systems** — Invented UAV payload architectures; ongoing **patent-pending SDR research** for wireless security testing.  
-
+ - **Production System Administration** — Operated and secured self-hosted deployments of SuiteCRM, Docuseal, Nextcloud, Wiki.js, and SearXNG in production environments to maintain control, privacy, and integrity of company IP. Managed user accounts, backups, updates, and security hardening across services.  
+- **Homelab Engineering** — Built and operate a Proxmox-based lab with Security Onion, TheHive/Cortex, and Nessus to replicate enterprise defense workflows, including SIEM, IDS/IPS, and SOC-style incident response simulations  
+- **Zero Trust Pilot** — Tested Tailscale, Twingate, and Netbird for secure access management and identity & access management (IAM) modeling  
+- **Offensive Security Toolkit** — Applied WiFi Pineapple, HackRF One, Flipper Zero, and Rubber Ducky for penetration testing, vulnerability assessment, and application security research  
+- **Drone & SDR Security Research** — Developed UAV platforms integrating SDR and penetration-testing payloads; engineered 3D-printed housings for modular RF tools to support threat analysis and intelligence gathering  
+- **Ham Radio & Mesh Networking** — Licensed Amateur Radio & GMRS operator; deployed a Meshtastic LoRa mesh network to evaluate decentralized communication resilience  
+- **Patented Drone Payload Systems** — Invented and patented UAV payload architectures; current patent-pending research integrates SDR modules for wireless security testing  
 
 ---
 
@@ -47,8 +46,7 @@ Building on this foundation, I’m now expanding into cybersecurity to apply my 
 ## 💡 **Innovation & Patents**
 Beyond cybersecurity, I’m an innovator and patent holder in UAV payload and delivery systems, with additional cybersecurity-focused patents pending.  
 
-Detailed project write-ups are in the [Innovation Section](innovation.md). Patent documentation available on request. 
-
+Detailed project write-ups are in the [Innovation Section](innovation.md). Patent documentation available on request.  
 ---
 
 ## 🌟 **Cyber Integration**

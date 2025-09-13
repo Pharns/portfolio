@@ -1,26 +1,23 @@
 # 🧰 **Python Portfolio**
 
-This section showcases applied Python skills in both structured coursework and independent, real-world projects, demonstrating growth from fundamentals to security-focused applications.  
+This section highlights my work in Python, split into two areas:  
 
 ---
 
 ## 🐍 100 Days of Python
-A structured journey that builds Python expertise step by step.  
-Projects progress from core programming concepts to applied work in **data handling, automation, and security scripting**, highlighting consistency and depth of learning.  
+A structured learning journey that builds Python skills step by step.  
+From simple scripts to applied security and data projects, this track demonstrates consistent growth.  
 
 ➡️ [View the 100 Days of Python Projects](100-days/index.md)  
 
 ---
 
 ## 🔬 Independent Projects
-Self-directed projects applying Python to **real-world cybersecurity and automation challenges**. Work includes **custom security tooling, data analysis pipelines, and workflow automation** designed to strengthen both technical efficiency and security outcomes.  
+Self-directed projects that apply Python to **real-world problems** — automation, data analysis, and cybersecurity tooling.  
 
 ➡️ [View Independent Projects](projects/index.md)  
-  
-  
 
-
+---
 
 ## 📌 Key Takeaway
-This portfolio provides clear evidence of applied Python proficiency — progressing from structured coursework to independent, security-focused projects. It demonstrates the ability to build automation scripts, data analysis tools, and cybersecurity utilities that support SOC operations, threat detection, vulnerability assessment, and workflow efficiency** in professional environments.  
-
+This portfolio demonstrates both **structured learning** and **independent application** of Python, showing readiness to use coding skills in cybersecurity, data, and automation.
