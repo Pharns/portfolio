@@ -1,2 +1,7 @@
 site/
 .portfolio-venv/
+
+# local archives
+backups/
+*.zip
+.DS_Store

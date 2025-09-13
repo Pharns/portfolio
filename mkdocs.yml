@@ -30,11 +30,6 @@ theme:
         icon: material/weather-night
         name: Switch to dark mode
 
-copyright: "© 2025 Pharns Genece. All rights reserved."
-
-extra:
-  generator: false   # hides “Made with Material for MkDocs”
-
 markdown_extensions:
   - admonition
   - attr_list
@@ -95,12 +90,3 @@ nav:
       - Projects: python/projects/index.md
   - Innovation: innovation.md
   - Contact: contact.md
-
-theme:
-  name: material
-
-extra:
-  copyright: "© 2025 Pharns Génécé. All rights reserved."
-
-theme:
-  name: material
