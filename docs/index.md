@@ -47,6 +47,7 @@ Building on this foundation, I’m now expanding into cybersecurity to apply my 
 Beyond cybersecurity, I’m an innovator and patent holder in UAV payload and delivery systems, with additional cybersecurity-focused patents pending.  
 
 Detailed project write-ups are in the [Innovation Section](innovation.md). Patent documentation available on request.  
+
 ---
 
 ## 🌟 **Cyber Integration**
