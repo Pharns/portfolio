@@ -90,3 +90,10 @@ nav:
       - Projects: python/projects/index.md
   - Innovation: innovation.md
   - Contact: contact.md
+
+theme:
+  name: material
+
+extra:
+  copyright: "© 2025 Pharns Génécé. All rights reserved."
+
