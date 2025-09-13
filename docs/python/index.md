@@ -16,8 +16,10 @@ Projects progress from core programming concepts to applied work in **data handl
 Self-directed projects applying Python to **real-world cybersecurity and automation challenges**. Work includes **custom security tooling, data analysis pipelines, and workflow automation** designed to strengthen both technical efficiency and security outcomes.  
 
 ➡️ [View Independent Projects](projects/index.md)  
+  
+  
 
----
+
 
 ## 📌 Key Takeaway
 This portfolio provides clear evidence of applied Python proficiency — progressing from structured coursework to independent, security-focused projects. It demonstrates the ability to build automation scripts, data analysis tools, and cybersecurity utilities that support SOC operations, threat detection, vulnerability assessment, and workflow efficiency** in professional environments.  
