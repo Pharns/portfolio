@@ -27,6 +27,27 @@ This combination of security, IT operations, and frameworks validates both hands
 
 
 ---
+
+# 📚 Continuing Education & Self-Driven Learning
+
+This section highlights courses, workshops, and independent study that extend my formal certifications.  
+It demonstrates **self-motivation, adaptability, and commitment to lifelong learning** in cybersecurity and technical fields.  
+
+| Course / Program                               | Completion Date  | Focus Areas                                                    | Certificate / Proof |
+| ---------------------------------------------- | ---------------- | -------------------------------------------------------------- | ------------------- |
+| Active Defense & Cyber Deception *(John Strand)* | 05/2023          | Offensive countermeasures, adversary engagement, deception      | [View Certificate](https://raw.githubusercontent.com/Pharns/Pharns/main/certificates/certificate-of-completion-for-the-definitive-grc-analyst-master-class.pdf) |
+| SOC Core Skills                                | 06/2023          | Windows, Linux, TCP/IP, SOC fundamentals                       | [View Certificate](https://raw.githubusercontent.com/Pharns/Pharns/main/certificates/SOC-Core-Skills.pdf) |
+| 100 Days of Python                             | 2025 (in progress) | Python programming, automation, security scripting              | [View Progress](../python/100-days/index.md) |
+| Udemy: The Complete MySQL Bootcamp             | 2025 (in progress) | Databases, queries, backend security use cases                  | n/a |
+| Independent Homelab Projects                   | Ongoing           | Threat detection, incident response, SIEM, Proxmox builds       | [View Homelab Projects](../cybersecurity/homelab-infrastructure.md) |
+
+---
+
+## 📌 Key Takeaway
+This section shows how I continually invest in **practical skills** — blending formal training with hands-on labs and independent study.  
+It reflects my ability to adapt quickly and bring **fresh, up-to-date knowledge** into cybersecurity operations.
+
+---
 <!-- Structured Data for Certifications -->
 <script type="application/ld+json">
 {
