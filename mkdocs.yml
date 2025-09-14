@@ -30,6 +30,9 @@ theme:
         icon: material/weather-night
         name: Switch to dark mode
 
+extra:
+  
+
 markdown_extensions:
   - admonition
   - attr_list

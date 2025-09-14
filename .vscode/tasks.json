@@ -2,9 +2,13 @@
   "version": "2.0.0",
   "tasks": [
     {
-      "label": "Backup (local + Nextcloud, keep last 5)",
+      "label": "Backup (local + Nextcloud auto-detect, keep last 5)",
       "type": "shell",
-      "command": "mkdir -p backups && ZIP=\"backups/portfolio-$(date +%F_%H%M)-$(git rev-parse --short HEAD).zip\" && git archive --format=zip -o \"$ZIP\" HEAD && count=$(ls -1 backups/*.zip 2>/dev/null | wc -l | tr -d ' '); if [ \"${count:-0}\" -gt 5 ]; then ls -1t backups/*.zip | tail -n +6 | xargs -r rm -f; fi && cp \"$ZIP\" \"/Users/pharnsgenece/Nextcloud/04 - ARCHIVES [Nextcloud]/Portfolio Backups/\" && echo '✅ Backup complete. Current local backups:' && ls -1t backups/*.zip 2>/dev/null | nl",
+      "command": "bash",
+      "args": [
+        "-lc",
+        "mkdir -p backups; ZIP=\"backups/portfolio-$(date +%F_%H%M)-$(git rev-parse --short HEAD).zip\"; git archive --format=zip -o \"$ZIP\" HEAD; count=$(ls -1 backups/*.zip 2>/dev/null | wc -l | tr -d ' '); if [ \"${count:-0}\" -gt 5 ]; then ls -1t backups/*.zip | tail -n +6 | xargs rm -f; fi; NX1='/Users/pharnsgenece/Nextcloud/04 - ARCHIVES [Nextcloud]/Backups/Portfolio Backups'; NX2='/Volumes/Mini Ext/Nextcloud/04 - ARCHIVES [Nextcloud]/Backups/Portfolio Backups'; if [ -d \"$NX1\" ]; then TARGET=\"$NX1\"; elif [ -d \"$NX2\" ]; then TARGET=\"$NX2\"; else TARGET=''; echo '⚠️ Remote Nextcloud folder not found on this machine. Saved local only.' >&2; fi; if [ -n \"$TARGET\" ]; then cp \"$ZIP\" \"$TARGET\"; echo \"✅ Copied to: $TARGET\"; fi; echo '✅ Backup complete. Current local backups:'; ls -1t backups/*.zip 2>/dev/null | nl"
+      ],
       "group": { "kind": "build", "isDefault": true },
       "presentation": { "reveal": "always" }
     }
