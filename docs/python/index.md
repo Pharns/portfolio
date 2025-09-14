@@ -1,36 +1,32 @@
 # 🧰 **Python Portfolio**
 
-This section highlights applied Python work, showing growth from structured learning to independent projects with direct relevance to cybersecurity and automation.  
+This section showcases applied Python work, progressing from structured learning to independent projects with direct relevance to **cybersecurity, automation, and data analysis**. The work highlights both technical growth and the ability to apply Python in **enterprise security and operational workflows**.  
 
 ---
 
 ## 🐍 **100 Days of Python**  
 A structured learning journey that builds Python skills step by step.  
-From simple scripts to applied security and data projects, this track demonstrates consistent growth.  
+Covers everything from foundational scripts to applied projects in **security, automation, and data handling**, demonstrating consistent progress.  
 
 ➡️ [View the 100 Days of Python Projects](100-days/index.md)  
 
 ---
 
 ## 🔬 **Independent Projects**  
-Self-directed projects applying Python to **real-world problems** in automation, data analysis, and cybersecurity tooling.  
+Self-directed projects that apply Python to **real-world problems** in automation, data analysis, and cybersecurity tooling.  
 
 ➡️ [View Independent Projects](projects/index.md)  
 
 ---
 
-## 🧩 **Key Competencies Developed**  
-- **Automation** → scripting repeatable workflows to save time and reduce errors  
-- **Data Analysis** → manipulating and visualizing data with pandas and matplotlib  
-- **Security Tooling** → building scripts for scanning, log analysis, and threat detection  
-- **API Integration** → retrieving and processing data from web services  
-- **Professional Skills** → leadership, mentoring, and disciplined execution under pressure, shaped by service as a USAF Veteran and corporate leadership experience  
+## 🧩 **Key Competencies**  
+- **Automation & APIs** → build scripts and integrations to streamline workflows  
+- **Data & Visualization** → analyze and present data with pandas and matplotlib  
+- **Security Tooling** → develop scripts for log parsing, scanning, and threat detection  
 
 ---
 
 ## 💼 **Professional Applications**  
-The competencies gained through Python projects translate into professional value:  
-- **SOC Automation** → streamline alert triage and log parsing with custom scripts  
-- **Threat Detection** → build tools to detect anomalies and indicators of compromise  
-- **Data-Driven Security** → analyze, visualize, and correlate security metrics  
-- **Integration** → connect APIs and services to extend the SOC toolkit  
+- **SOC Automation** → speed up alert triage and log analysis  
+- **Threat Detection** → create tools for anomaly detection and IOCs  
+- **Data-Driven Security** → correlate and visualize security metrics for decision-making  
