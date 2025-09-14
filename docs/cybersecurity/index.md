@@ -11,7 +11,7 @@ This section showcases **hands-on projects** that apply **industry-standard tool
 - **[Vulnerability Assessment](vulnerability-assessment.md)** → Nessus/OpenVAS scanning, triage, remediation, and reporting workflows.  
 - **[Incident Response Workflow](incident-response.md)** → TheHive + Cortex for triage, IOC enrichment, and playbooks.  
 - **[Penetration Testing](penetration-testing.md)** → Red-team style assessments against lab targets; attack chains and mitigations.  
-- **[Drone Cyber Payload Systems](drone-payload-systems.md)** → UAV payloads for RF/wireless security testing (patent-pending work).  
+- **[Drone Payload Systems](../innovation/drone-payload-systems.md)** → UAV payloads for RF/wireless security testing (patent-pending work).  
 - **[Blog Write-Ups](blog-writeups.md)** → CTFs, methodologies, and repeatable techniques.  
 
 ---
