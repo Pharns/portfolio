@@ -1,0 +1,63 @@
+#!/bin/bash
+# Non-blocking backup pre-push hook
+set -u  # (no -e) don't abort the push if backup fails
+set -o pipefail
+
+cd "$(git rev-parse --show-toplevel)" || {
+  echo "⚠️ Could not locate repo root; skipping backup." >&2
+  exit 0
+}
+
+# Ensure backups dir exists and is writable
+mkdir -p backups 2>/dev/null || true
+chmod u+rwx,go+rx backups 2>/dev/null || true
+
+ZIP="backups/portfolio-$(date +%F_%H%M)-$(git rev-parse --short HEAD).zip"
+
+backup_ok=true
+
+# Create clean snapshot of HEAD
+if ! git archive --format=zip -o "$ZIP" HEAD 2>/dev/null; then
+  echo "⚠️ Could not create $ZIP (permissions or git issue). Push continues." >&2
+  backup_ok=false
+fi
+
+# Keep only 5 newest local backups
+if $backup_ok; then
+  count=$(ls -1 backups/*.zip 2>/dev/null | wc -l | tr -d ' ')
+  if [ "${count:-0}" -gt 5 ]; then
+    # Delete older than the 5 most recent
+    old=$(ls -1t backups/*.zip 2>/dev/null | tail -n +6)
+    if [ -n "$old" ]; then
+      echo "$old" | xargs rm -f 2>/dev/null || true
+    fi
+  fi
+fi
+
+# Auto-detect Nextcloud target (laptop vs desktop)
+NX1='/Users/pharnsgenece/Nextcloud/04 - ARCHIVES [Nextcloud]/Backups/Portfolio Backups'
+NX2='/Volumes/Mini Ext/Nextcloud/04 - ARCHIVES [Nextcloud]/Backups/Portfolio Backups'
+
+TARGET=''
+if [ -d "$NX1" ]; then
+  TARGET="$NX1"
+elif [ -d "$NX2" ]; then
+  TARGET="$NX2"
+fi
+
+# Copy if target selected and backup succeeded
+if $backup_ok && [ -n "$TARGET" ]; then
+  if cp "$ZIP" "$TARGET" 2>/dev/null; then
+    echo "✅ Copied to: $TARGET"
+  else
+    echo "⚠️ Could not copy to: $TARGET (permissions or mount?). Push continues." >&2
+  fi
+elif [ -z "$TARGET" ]; then
+  echo "⚠️ Remote Nextcloud folder not found. Saved local only. Push continues." >&2
+fi
+
+echo "✅ Backup step completed (non-blocking). Current local backups:"
+ls -1t backups/*.zip 2>/dev/null | nl || true
+
+# Always allow the push to proceed
+exit 0
