@@ -40,6 +40,7 @@ Building on this foundation, I’m now expanding into cybersecurity to apply my 
 - **Wireless & RF Security** — SDR, ham radio, UAV-based RF interception, mesh networking  
 - **Compliance & Frameworks** — NIST CSF, ISO/IEC 27001, PCI DSS, GDPR/HIPAA alignment  
 - **DevSecOps & Secure SDLC** — Security automation, secure code review, container security (Docker/Kubernetes)  
+- **Leadership & Professional Skills** — leadership, mentoring, and disciplined execution under pressure, shaped by service as a USAF Veteran and corporate leadership experience  
 
 ---
 
