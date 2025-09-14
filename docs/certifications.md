@@ -1,9 +1,11 @@
 
 
-# **📜 Certifications**
+# 📜 **Certifications**
 
-Here are the certifications I’ve earned as part of my cybersecurity journey.  
-This combination of security, IT operations, and frameworks validates both hands-on skills and broad technical knowledge.
+These certifications validate **hands-on technical expertise** and a foundation in **leadership, mentoring, and disciplined execution under pressure**, shaped by military service and professional leadership experience. Upcoming certifications expand capabilities in **analytics, penetration testing, and IT project management** to support enterprise security initiatives.  
+
+
+---
 
 | Certification                     | Completion Date  | Verification Code | Verification Link                                                                 |
 | --------------------------------- | ---------------- | ----------------- | ---------------------------------------------------------------- |
@@ -15,15 +17,13 @@ This combination of security, IT operations, and frameworks validates both hands
 | ![ISC2](https://img.shields.io/badge/(ISC)%C2%B2-SSCP%20Associate-blue) | 08/21/2025 | n/a | [Verify](https://www.credly.com/badges/839bb1ce-ee46-44d9-955b-fb3ca9957b54/public_url) |
 | ![LPI](https://img.shields.io/badge/LPI-Linux%20Essentials-green) | 09/09/2025 | n/a | [Verify](https://cs.lpi.org/caf/Xamman/certification/verify/LPI000667371/5pux8tjcj7) |
 
----
+---  
 
 | **_Planned Certifications_**      | Target Date      | Verification Code | Verification Link                                                                 |
 | --------------------------------- | ---------------- | ----------------- | ---------------------------------------------------------------- |
 | ![CompTIA](https://img.shields.io/badge/CompTIA-CySA%2B-lightgrey?logo=clockify) | Q4 2025 | n/a | n/a |
 | ![CompTIA](https://img.shields.io/badge/CompTIA-Project%2B-lightgrey?logo=clockify) | Q4 2025 | n/a | n/a |
 | ![CompTIA](https://img.shields.io/badge/CompTIA-PenTest%2B-lightgrey?logo=clockify) | Q4 2025 | n/a | n/a |
-
-*Currently preparing for these certifications to expand my expertise in cybersecurity analytics, penetration testing, and IT project management.*
 
 ---
 

@@ -19,13 +19,12 @@ Self-directed projects applying Python to **real-world problems** in automation,
 
 ---
 
-
 ## 🧩 **Key Competencies Developed**  
 - **Automation** → scripting repeatable workflows to save time and reduce errors  
 - **Data Analysis** → manipulating and visualizing data with pandas and matplotlib  
 - **Security Tooling** → building scripts for scanning, log analysis, and threat detection  
 - **API Integration** → retrieving and processing data from web services  
-- **Development Practices** → version control with Git, testing, and documentation  
+- **Professional Skills** → leadership, mentoring, and disciplined execution under pressure, shaped by service as a USAF Veteran and corporate leadership experience  
 
 ---
 
