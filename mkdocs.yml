@@ -3,6 +3,7 @@ site_url: https://portfolio.pharns.com
 repo_url: https://github.com/Pharns/portfolio
 repo_name: pharns/portfolio
 edit_uri: edit/main/docs/
+copyright: "© 2025 Pharns Génécé. All rights reserved."
 strict: true
 
 theme:
@@ -38,7 +39,7 @@ extra:
       link: https://www.linkedin.com/in/pharns
     - icon: fontawesome/solid/envelope
       link: "mailto:careers@pharns.com"
-  copyright: "© 2025 Pharns Génécé. All rights reserved."
+  
 
 
 markdown_extensions:
