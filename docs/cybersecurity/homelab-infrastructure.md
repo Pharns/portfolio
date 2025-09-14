@@ -1,6 +1,6 @@
 # 🏠 **Homelab Infrastructure**
 
-This page showcases my Proxmox-based homelab — a hands-on platform for building, testing, and securing enterprise-like systems. It highlights the infrastructure I designed, the tools I deployed, and the professional applications of this work.  
+A Proxmox-based homelab designed as a practical testbed to build, break, and secure enterprise-like systems. This environment delivers **hands-on experience with the same tools and architectures used in modern SOCs and IT operations**. The following sections highlight key competencies developed and how they translate into professional value for an organization.   
 
 ---
 
@@ -12,12 +12,12 @@ This page showcases my Proxmox-based homelab — a hands-on platform for buildin
 - **Zero Trust Pilot** → testing Tailscale, Twingate, Netbird  
 - **Self-Hosted Services** → Nextcloud, n8n, Kasm Workspaces  
 
+
 ---
 
 ## 🌐 **Lab Topology**
 ![Homelab Network Diagram](../assets/images/HomeLab%20Network%20Diagram-Github.jpg)  
 *Homelab Network Diagram — Proxmox, pfSense VLANs, SOC & red team tools, self-hosted services, and Zero Trust pilots.*
-
 
 ---
 
@@ -30,23 +30,19 @@ This page showcases my Proxmox-based homelab — a hands-on platform for buildin
 
 ---
 
-## 🧠 **Key Learning Outcomes**
-- **Infrastructure Management** → secure VM admin, system hardening, resource optimization  
-- **Security Implementation** → SOC deployment, vuln scanning, incident response  
-- **Professional Development** → problem-solving, documentation, project management  
+## 🧩 **Key Competencies Developed**  
+- **Infrastructure Management** → secure VM administration, system hardening, resource optimization  
+- **Security Implementation** → SOC deployment, vulnerability scanning, and incident response  
+- **Vulnerability Management** → identify and remediate weaknesses with enterprise-grade tools  
+- **Zero Trust Principles** → applied in segmented networks using modern access control models  
+- **Professional Skills** → leadership, mentoring, and disciplined execution under pressure, shaped by service as a USAF Veteran and corporate leadership experience  
 
 ---
 
-## 💼 **Professional Applications**
-- **Infrastructure Design** → enterprise-grade architectures and secure deployments  
-- **SOC & Vulnerability Management** → end-to-end monitoring and remediation workflows  
-- **Network Segmentation** → isolated environments for safe red/blue team testing  
-- **Zero Trust Models** → implementing granular access controls in lab environments  
+## 💼 **Professional Applications**  
+The competencies gained through this homelab translate into measurable value for organizations:  
+- **Resilient Infrastructure** → design and maintain secure, segmented environments that reduce attack surface  
+- **Operational Security** → deploy SOC tools to detect, investigate, and respond to incidents effectively  
+- **Continuous Vulnerability Management** → identify and remediate weaknesses before they impact business operations  
+- **Zero Trust Implementation** → apply granular access controls and modern security models to safeguard systems and data  
 
-
----
-
-## 📌 **Key Takeaway**
-My homelab showcases the ability to design, deploy, and secure enterprise-like environments using industry-standard tools. It demonstrates practical skills in **defensive security, incident response, vulnerability management, and Zero Trust architectures** — skills that go beyond certifications and reflect real-world capability.  
-
----

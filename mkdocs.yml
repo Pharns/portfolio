@@ -81,7 +81,7 @@ nav:
       - Overview: cybersecurity/index.md
       - Homelab Infrastructure:
           - Summary: cybersecurity/homelab-infrastructure.md
-          - Journey: cybersecurity/homelab-journey.md
+          - Lab Build: cybersecurity/homelab-journey.md
       - Vulnerability Assessment: cybersecurity/vulnerability-assessment.md
       - Incident Response: cybersecurity/incident-response.md
       - Penetration Testing: cybersecurity/penetration-testing.md
