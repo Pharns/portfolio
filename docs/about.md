@@ -52,5 +52,6 @@ I’m seeking opportunities in **cybersecurity engineering, wireless security, a
 ## 🤝 **Let’s Connect**
 - [LinkedIn](https://linkedin.com/in/pharns)  
 - [GitHub](https://github.com/pharns)  
+- [Email](mailto:careeers@pharns.com)
 
 <p align="center"><i>“Building a safer digital world, one project at a time.”</i></p>
