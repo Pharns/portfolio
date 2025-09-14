@@ -1,6 +1,8 @@
 # 💡 **Innovation — Overview**
 
-*Note: Before projects are published in detail, all content is undergoing legal and compliance review to ensure no breach of prior NDA obligations or disclosure of sensitive methods that could be misused by malicious actors.*  
+!!! danger "Legal Review"
+    This project is currently undergoing legal review to ensure compliance with NDAs, intellectual property protections, and security considerations. Details may be limited until cleared for publication.
+
 
 This section highlights **UAV systems, RF security research, and patent-pending innovations** that combine engineering and cybersecurity. The work reflects expertise in **designing, building, and securing advanced platforms**, with projects bridging physical systems, wireless security, and enterprise applications.  
 
