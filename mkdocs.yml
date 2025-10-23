@@ -76,6 +76,14 @@ nav:
       - Vulnerability Assessment: cybersecurity/vulnerability-assessment.md
       - Incident Response: cybersecurity/incident-response.md
       - Penetration Testing: cybersecurity/penetration-testing.md
+      - PCI DSS Compliance — Secure Infrastructure Design:
+          - Overview: cybersecurity/pci-dss/index.md
+          - System Architecture: cybersecurity/pci-dss/architecture.md
+          - Implementation Guide: cybersecurity/pci-dss/implementation.md
+          - Security Controls Mapping: cybersecurity/pci-dss/security-controls.md
+          - Compliance Verification: cybersecurity/pci-dss/verification.md
+          - Lessons Learned: cybersecurity/pci-dss/lessons-learned.md
+      - Drone Cyber Payload Systems: cybersecurity/drone-payload-systems.md
       - Drone Cyber Payload Systems: cybersecurity/drone-payload-systems.md
       - Blog Write-Ups: cybersecurity/blog-writeups.md
   - Python:
