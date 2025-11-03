@@ -111,7 +111,6 @@ Below is a verified visual audit of each configuration stage.
 ![IMG_2467](../assets/screenshots/IMG_2467.jpeg)
 ![IMG_2470](../assets/screenshots/IMG_2470.jpeg)
 ![IMG_2471](../assets/screenshots/IMG_2471.jpeg)
-![IMG_2472](../assets/screenshots/IMG_2472.jpeg)
 ![IMG_2473](../assets/screenshots/IMG_2473.jpeg)
 ![IMG_2474](../assets/screenshots/IMG_2474.jpeg)
 ![IMG_2475](../assets/screenshots/IMG_2475.jpeg)
