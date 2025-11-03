@@ -1,116 +1,106 @@
 ---
 title: Windows 11 PCI-DSS Hardening
-description: Secure workstation configuration aligned with PCI-DSS requirements for endpoint security, data protection, and audit readiness.
+description: Secure Windows 11 workstation configuration aligned with PCI-DSS v4.0 endpoint protection and audit readiness standards.
 ---
 
 # 🛡️ Windows 11 PCI-DSS Hardening
 
 *“Hardening endpoints to meet compliance isn’t optional — it’s foundational.”*
 
-This section documents the full Windows 11 Home system hardening process for PCI DSS alignment.  
-The goal was to ensure the workstation met the same core principles required for handling sensitive financial or cardholder data:
-
-- **Access Control**
-- **System Integrity**
-- **Malware Defense**
-- **Logging & Audit**
-- **Vulnerability Management**
-
-Each control below corresponds to specific PCI DSS v4.0 objectives and demonstrates secure-by-design configuration.
+This project documents a complete Windows 11 system lockdown to achieve PCI DSS alignment after discovering a **production mortgage workstation** left unsecured with **previous-user credentials and unencrypted client data**.  
+The hardening process demonstrates practical application of compliance principles for **endpoint protection, access control, malware defense, and audit traceability**.
 
 ---
 
 ## ⚙️ 1. Baseline Configuration
 
-- Installed **Windows 11 Home 64-bit** on a clean SSD.
-- Removed OEM bloatware and unnecessary startup tasks.
-- Verified Secure Boot and TPM 2.0 active in BIOS.
-- Configured local admin (`AdminLocal`) with **no shared credentials**.
-- Established **Macrium Reflect Free** for baseline imaging.
+- Installed **Windows 11 Home 64-bit** on a clean SSD.  
+- Verified **Secure Boot**, **TPM 2.0**, and **UEFI mode** enabled.  
+- Created local admin (`AdminLocal`) with unique credentials.  
+- Removed all bloatware and unnecessary startup apps.  
+- Installed **Macrium Reflect Free** to create an encrypted baseline image.
 
-> *Figure: Initial system configuration showing system partitions and verified UEFI boot integrity.*
+> *Figure: Verified partition and UEFI configuration ensuring hardware root-of-trust.*
 
 ---
 
-## 🔒 2. Endpoint Protection
+## 🔒 2. Endpoint Protection Layers
 
-Both **Microsoft Defender** and **Malwarebytes Free** were deployed in layered mode:
+| Layer | Tool | Purpose |
+|:------|:-----|:---------|
+| Primary AV | **Microsoft Defender** | Real-time monitoring, ransomware protection, SmartScreen |
+| Secondary AV | **Malwarebytes Free** | Rootkit, archive, and heuristic AI detection |
+| Patch Mgmt | **Patch My PC** | Application update automation |
+| Network Monitor | **GlassWire Free** | Behavioral network analytics and connection logging |
 
-- Defender provides **real-time protection, ransomware shield, and SmartScreen**.
-- Malwarebytes adds **heuristic PUP/PUM detection, archive scanning, and AI-based analysis**.
-- Rootkit detection, archive scanning, and context-menu integration enabled.
+A full Malwarebytes scan quarantined **2048 PUPs** from legacy profiles — all isolated and removed before imaging.
 
-> *Figure: Malwarebytes advanced scanning configuration with AI-based detection enabled.*
-
-A full system scan was executed immediately after installation, identifying and quarantining **2048 PUPs** (ZoomInfo traces and residual adware).  
-All threats were removed and the system rebooted cleanly.
-
-> *Figure: Malwarebytes quarantine progress showing successful remediation and reboot prompt.*
+> *Figure: Threat-removal confirmation prior to reboot and verification.*
 
 ---
 
 ## 🧱 3. Windows Security Controls
 
-- **Virus & Threat Protection:** Confirmed 0 active threats after full scan.  
-- **Firewall Profiles:** Domain, Private, and Public firewalls enabled.  
-- **Security Intelligence:** Automatic updates verified (KB updates installed daily).  
-- **Ransomware Protection:** Configured via OneDrive fallback.  
+- All **firewall profiles (Domain/Private/Public)** enabled  
+- **Smart App Control** active; **Defender intelligence** up-to-date  
+- **Ransomware Protection** configured via OneDrive fallback  
+- **Quick Scan** validated system integrity post-cleanup
 
-> *Figure: Windows Defender protection summary showing current threat state and intelligence version.*
+> *Figure: Windows Security dashboard showing no current threats and synchronized intelligence feed.*
 
 ---
 
 ## 🧩 4. Logging & Audit Configuration
 
-Windows Event Viewer was configured for PCI DSS evidence retention:
+- Created custom **Event Viewer → PCI Audit View** for:  
+  - Logons (4624 / 4634 / 4672 / 4688)  
+  - Security state changes (4616)  
+  - Defender operations (1000 – 1118)  
+- Expanded log size → 51 MB, manual clear policy  
+- Enabled both **Audit Success** and **Audit Failure**
 
-- Custom view **“PCI Audit View”** created to track security-relevant events:  
-  logons, privilege escalation, Defender events, and system changes.  
-- Security log size increased to 51,200 KB with manual clear policy.
-- Audit Success and Failure enabled for all categories.
-
-> *Figure: Event Viewer custom view filter for PCI-DSS security event tracking.*
+> *Figure: XML filter configuration for PCI Audit View in Event Viewer.*
 
 ---
 
 ## 🌐 5. Network & Patch Management
 
-- Installed **GlassWire Free** to visualize network traffic and DNS behavior.  
-- Monitored connections from Defender, OneDrive, and Browser processes to verify no unexpected outbound activity.  
-- **Patch My PC Home Updater** used for routine application updates.  
-- Verified all apps (Brave, Chrome, AnyDesk, Visual C++ Redistributables) were up to date.  
-- **Windows Update** automated with security intelligence channel (Broad).
+- **GlassWire** deployed for traffic visibility  
+- Validated DNS, HTTPS, and update telemetry only — no rogue connections  
+- **Patch My PC** verified all third-party software current  
+- **Windows Update** automated via Broad Channel
 
-> *Figure: GlassWire network monitor showing HTTP/S traffic patterns and Patch My PC update summary.*
+> *Figure: GlassWire traffic analyzer confirming secure outbound telemetry.*
 
 ---
 
 ## 📦 6. System Imaging & Recovery
 
-- **Macrium Reflect Free** used to create a verified image of the hardened state.  
-- Image stored to encrypted external drive for roll-back and forensic retention.
+- Performed clean image capture via **Macrium Reflect Free**  
+- Verified partitions and backup integrity before release  
+- Image stored on encrypted USB SSD with checksum log
 
-> *Figure: Macrium Reflect disk imaging overview confirming partition layout and EFI boot status.*
+> *Figure: Macrium Reflect image validation showing UEFI and data volumes.*
 
 ---
 
 ## 🔍 7. Verification & Validation
 
-Final verification included:
-
-- Defender scan (0 threats found)  
-- Malwarebytes re-scan (clean state)  
-- Firewall active on all profiles  
-- Event log audit view operational  
-- Patch management cycle tested  
-
-> *Figure: Verified endpoint health after full PCI-DSS hardening cycle.*
+| Test | Result |
+|:-----|:-------|
+| Defender scan | ✅ 0 threats |
+| Malwarebytes rescan | ✅ Clean |
+| Firewall check | ✅ All profiles active |
+| Event Viewer audit | ✅ Operational |
+| Patch My PC | ✅ All apps current |
 
 ---
 
-## 📸 Evidence Gallery
+## 🖼️ Evidence Gallery
 
-Below are the verified screenshots captured during hardening and verification.
+Below is a verified visual audit of each configuration stage.
+
+<div class="gallery-grid" markdown>
 
 ![IMG_2461](../assets/screenshots/IMG_2461.jpeg)
 ![IMG_2462](../assets/screenshots/IMG_2462.jpeg)
@@ -143,6 +133,20 @@ Below are the verified screenshots captured during hardening and verification.
 ![IMG_2491](../assets/screenshots/IMG_2491.jpeg)
 ![IMG_2492](../assets/screenshots/IMG_2492.jpeg)
 
+</div>
+
 ---
 
-*Figure: Visual confirmation of hardened configuration, malware quarantine results, firewall status, audit setup, and network telemetry alignment with PCI-DSS v4.0 objectives.*
+*Figure: Grid gallery showing the complete PCI-DSS workstation hardening sequence — from baseline imaging through audit verification.*
+
+<style>
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 0.75rem;
+}
+.gallery-grid img {
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
+</style>
