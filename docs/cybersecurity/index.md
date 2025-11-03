@@ -1,6 +1,10 @@
 # 🛡 **Cybersecurity — Overview**
 
-This section showcases **hands-on projects** that apply **industry-standard tools** and **real-world workflows** to build, secure, and test enterprise-like environments. The work demonstrates practical capabilities in **cybersecurity engineering, SOC operations, vulnerability management, and incident response** — bridging academic knowledge with applied, enterprise-ready skills.  
+This section showcases **hands-on projects** that apply **industry-standard tools** and **real-world workflows** to build, secure, and test enterprise-grade environments.  
+The work demonstrates practical capabilities in **cybersecurity engineering**, **SOC operations**, **vulnerability management**, **incident response**, and **regulatory compliance** — bridging academic knowledge with **applied, production-tested skills**.  
+
+Projects include a **real-world PCI DSS compliance remediation** deployed in a mortgage environment, along with **Proxmox-based homelab systems**, **threat detection frameworks**, and **offensive security simulations** — each designed to reflect **enterprise security standards** and **professional-grade implementation**.
+
 
 ---
 
@@ -11,7 +15,9 @@ This section showcases **hands-on projects** that apply **industry-standard tool
 - **[Vulnerability Assessment](vulnerability-assessment.md)** → Nessus/OpenVAS scanning, triage, remediation, and reporting workflows.  
 - **[Incident Response Workflow](incident-response.md)** → TheHive + Cortex for triage, IOC enrichment, and playbooks.  
 - **[Penetration Testing](penetration-testing.md)** → Red-team style assessments against lab targets; attack chains and mitigations.  
+- **[PCI DSS Compliance — Secure Infrastructure Design](pci-dss/index.md)** → Real-world production deployment that remediated unsecured mortgage systems and achieved PCI DSS–aligned data protection.  
 - **[Drone Payload Systems](../innovation/drone-payload-systems.md)** → UAV payloads for RF/wireless security testing (patent-pending work).  
 - **[Blog Write-Ups](blog-writeups.md)** → CTFs, methodologies, and repeatable techniques.  
+
 
 ---
