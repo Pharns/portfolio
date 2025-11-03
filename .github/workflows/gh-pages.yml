@@ -18,16 +18,35 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
         with:
-          python-version: '3.x'
-      - name: Install deps
+          python-version: "3.11"
+
+      - name: Install MkDocs & deps
         run: |
           python -m pip install --upgrade pip
-          pip install -r requirements.txt
-      - name: Build site
+          # Prefer requirements.txt if present; always ensure mkdocs + material are installed
+          if [ -f requirements.txt ]; then
+            pip install -r requirements.txt || true
+          fi
+          pip install mkdocs mkdocs-material
+          mkdocs --version
+          python -c "import mkdocs; print('mkdocs module OK')"
+
+      - name: Build site (strict)
         run: mkdocs build --strict
+
+      - name: Set custom domain (CNAME)
+        run: |
+          echo "portfolio.pharns.com" > site/CNAME
+          echo "CNAME written to site/:"
+          cat site/CNAME
+          ls -la site | head -n 50
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:

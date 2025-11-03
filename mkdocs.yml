@@ -3,10 +3,7 @@ site_url: https://portfolio.pharns.com
 repo_url: https://github.com/Pharns/portfolio
 repo_name: pharns/portfolio
 edit_uri: edit/main/docs/
-<<<<<<< HEAD
 copyright: © 2025 Pharns Génécé. All rights reserved.
-=======
->>>>>>> 51695be8cb3e72b1c6d0f55e4bc6fa469d202fbe
 strict: true
 theme:
   name: material
@@ -23,7 +20,6 @@ theme:
   - search.highlight
   - search.share
   palette:
-<<<<<<< HEAD
   - scheme: default
     primary: indigo
     accent: cyan
@@ -41,20 +37,6 @@ extra:
     link: https://www.linkedin.com/in/pharns
   - icon: fontawesome/solid/envelope
     link: mailto:careers@pharns.com
-=======
-    - scheme: default
-      primary: indigo
-      accent: cyan
-    - scheme: slate
-      primary: indigo
-      accent: cyan
-      toggle:
-        icon: material/weather-night
-        name: Switch to dark mode
-
-
-
->>>>>>> 51695be8cb3e72b1c6d0f55e4bc6fa469d202fbe
 markdown_extensions:
 - admonition
 - attr_list
@@ -84,7 +66,6 @@ plugins:
 - minify:
     minify_html: true
 nav:
-<<<<<<< HEAD
 - Home: index.md
 - About: about.md
 - Certifications: certifications.md
@@ -94,10 +75,10 @@ nav:
   - Homelab Build: cybersecurity/homelab-journey.md
   - Vulnerability Assessment: cybersecurity/vulnerability-assessment.md
   - Incident Response Workflow: cybersecurity/incident-response.md
-  - Windows 11 PCI‑DSS Hardening: cybersecurity/windows11-pcidss-hardening.md
   - Penetration Testing: cybersecurity/penetration-testing.md
   - Drone Cyber Payload Systems: innovation/drone-payload-systems.md
   - Blog Write-Ups: cybersecurity/blog-writeups.md
+  - Windows 11 PCI-DSS Hardening: cybersecurity/windows11-pcidss-hardening.md
 - Python:
   - Overview: python/index.md
   - 100 Days of Python:
@@ -116,40 +97,3 @@ nav:
   - 3D-Printed & Modular Systems: innovation/modular-designs.md
   - Innovation Write-Ups: innovation/innovation-blogs.md
 - Contact: contact.md
-=======
-  - Home: index.md
-  - About: about.md
-  - Certifications: certifications.md
-  - Cybersecurity:
-      - Overview: cybersecurity/index.md
-      - Homelab Infrastructure:
-          - Summary: cybersecurity/homelab-infrastructure.md
-          - Journey: cybersecurity/homelab-journey.md
-      - Vulnerability Assessment: cybersecurity/vulnerability-assessment.md
-      - Incident Response: cybersecurity/incident-response.md
-      - Penetration Testing: cybersecurity/penetration-testing.md
-      - PCI DSS Compliance — Secure Infrastructure Design:
-          - Overview: cybersecurity/pci-dss/index.md
-          - System Architecture: cybersecurity/pci-dss/architecture.md
-          - Implementation Guide: cybersecurity/pci-dss/implementation.md
-          - Security Controls Mapping: cybersecurity/pci-dss/security-controls.md
-          - Compliance Verification: cybersecurity/pci-dss/verification.md
-          - Lessons Learned: cybersecurity/pci-dss/lessons-learned.md
-      - Drone Cyber Payload Systems: cybersecurity/drone-payload-systems.md
-      - Drone Cyber Payload Systems: cybersecurity/drone-payload-systems.md
-      - Blog Write-Ups: cybersecurity/blog-writeups.md
-  - Python:
-      - Overview: python/index.md
-      - 100 Days of Python:
-          - Overview: python/100-days/index.md
-          - Day 01 — Hello World: python/100-days/day01-hello-world.md
-          - Day 05 — Password Generator: python/100-days/day05-password-generator.md
-          - Day 15 — Coffee Machine: python/100-days/day15-coffee-machine.md
-          - Day 25 — Pandas & CSVs: python/100-days/day25-pandas-csvs.md
-          - Day 39 — API Requests: python/100-days/day39-api-requests.md
-          - Day 54 — Flask Intro: python/100-days/day54-flask-intro.md
-          - Day 75 — Data Viz: python/100-days/day75-data-viz.md
-      - Projects: python/projects/index.md
-  - Innovation: innovation.md
-  - Contact: contact.md
->>>>>>> 51695be8cb3e72b1c6d0f55e4bc6fa469d202fbe
