@@ -1,16 +1,15 @@
 ---
-title: PCI DSS Compliance — Secure Infrastructure Design
-description: Full-stack self-hosted architecture designed to meet PCI DSS standards for protecting cardholder data and sensitive financial transactions.
+title: PCI DSS Compliance — Windows 11 Secure Workstation Design
+description: Standalone Windows 11 endpoint architecture designed to meet PCI DSS v4.0 standards for protecting cardholder data and sensitive financial information.
 ---
 
-# PCI DSS Compliance Project
+# PCI DSS Compliance — Windows 11 Secure Workstation Design
 
-*“Building compliant systems from the silicon up.”*  
+*“Compliance isn’t a product — it’s an environment.”*
 
-This project originated from a **real-world incident**:  
-a close colleague began a new job at a mortgage company and was issued a workstation that was **completely unsecured** — no encryption, no endpoint protection, and containing **residual client data from previous employees**.  
+This project originated from a **real-world incident** where a mortgage company issued a workstation that was **entirely unsecured** — no disk encryption, no malware protection, and containing **residual client data from previous users**.  
 
-Recognizing the severe **PCI DSS violations and data exposure risks**, I designed and documented a **secure, self-hosted architecture** capable of meeting PCI DSS principles while remaining practical for small business operations.  
+To address this, I designed and documented a **standalone Windows 11 hardening architecture** aligned with **PCI DSS v4.0** — practical for small businesses yet compliant with enterprise-grade security expectations.
 
 ---
 
@@ -18,44 +17,64 @@ Recognizing the severe **PCI DSS violations and data exposure risks**, I designe
 
 | Category | Description |
 |-----------|--------------|
-| **Objective** | Remediate an unsecured mortgage workstation by developing a compliant, auditable, and scalable architecture aligned with PCI DSS. |
-| **Stack** | SuiteCRM + Nextcloud + DocuSeal + MySQL + Proxmox + Zoho SMTP |
-| **Focus Areas** | Secure deployment, data encryption, access control, endpoint hardening, audit logging, and network segmentation. |
-| **Outcome** | Delivered a **fully hardened, self-hosted infrastructure** that isolates sensitive data and enforces end-to-end encryption and access policies. |
+| **Objective** | Remediate unsecured Windows workstations by implementing PCI DSS-aligned controls for encryption, malware defense, patch management, and audit integrity. |
+| **Environment** | Windows 11 Home / Pro (standalone) |
+| **Focus Areas** | Endpoint hardening, encryption, access control, patch automation, logging, and network monitoring. |
+| **Outcome** | Delivered a hardened Windows 11 workstation image with full-disk encryption, layered malware defense, auditable logs, and network visibility via GlassWire. |
 
 ---
 
-## 🏗️ Overview
+## 🏗️ System Overview
 
-This architecture demonstrates a **practical, real-world implementation** of PCI DSS requirements within a small business context, ensuring client data integrity from collection to storage.
+This project demonstrates a **PCI DSS-ready endpoint** built from standard Windows components and open tools — no external cloud stack required.  
 
-The environment integrates:
-- **SuiteCRM** — Customer data management with restricted roles and 2FA.  
-- **Nextcloud** — Encrypted document storage and controlled file sharing.  
-- **DocuSeal** — Digital signature platform for secure form collection.  
-- **Zoho SMTP + Nginx Proxy Manager** — Authenticated mail delivery and TLS enforcement.  
-- **Fail2Ban + unattended-upgrades** — Active defense and automated patching.  
-- **GlassWire** — Local network monitoring and connection alerting for real-time visibility and anomaly detection.
-- **Network Path:** GL.iNet MT6000 → VLAN 2 on TL-SG108PE → Polycom VVX311 → Windows 11 workstation.  
-This layout supports encrypted VoIP and data traffic within the same secure VLAN, simplifying deployment while maintaining PCI segmentation.
+The system integrates:
 
-![Architecture Diagram](../assets/diagrams/pci-architecture-overview.png)  
-*Figure: PCI DSS-compliant stack topology — segmented VMs under Proxmox.*
+- **BitLocker** — Full disk encryption with TPM protection for data-at-rest security.  
+- **Windows Defender + Malwarebytes** — Dual-layer anti-malware protection and on-demand scanning.  
+- **Windows Firewall (All Profiles)** — Domain, private, and public firewalls all enforced.  
+- **Patch My PC** — Automated third-party software updates to maintain PCI DSS requirement 6.2 compliance.  
+- **Macrium Reflect** — Secure local backup and recovery validation.  
+- **GlassWire** — Real-time network monitoring and connection alerts.  
+- **Event Viewer + PowerShell Logging** — Comprehensive audit trail aligned with PCI DSS logging requirements.  
+- **Secure Network Path** — Router with hardware firewall → Encrypted VoIP phone → Workstation (isolated VLAN).  
+
+![Architecture Diagram](../../assets/diagrams/pci-architecture-overview.png)  
+*Figure: Windows 11 PCI-DSS Hardening — Secure standalone workstation architecture.*
 
 ---
 
-## 🔒 Core Security Principles
+## 🔒 Core PCI DSS Controls Implemented
 
-1. **Data Minimization** — Only essential client information is retained and encrypted.  
-2. **Network Segmentation** — CRM, document signing, and file storage operate in isolated Proxmox VMs with distinct VLANs.  
-3. **Access Control** — Role-based permissions, strong passwords, and two-factor authentication enforced where supported.  
-4. **Logging & Monitoring** — Centralized logs with daily backup verification.  
-5. **Encryption Everywhere** — TLS for all communications; disk encryption (LUKS) and database encryption via `AES_ENCRYPT()` for data at rest.  
-6. **Incident Response Readiness** — Defined process for device loss, credential exposure, or data tampering events.  
+| PCI DSS Control | Implementation Summary |
+|-----------------|------------------------|
+| **Req. 3: Protect Stored Cardholder Data** | BitLocker full-disk encryption with TPM binding and recovery key escrow. |
+| **Req. 5: Protect Systems Against Malware** | Microsoft Defender and Malwarebytes, with daily updates and scheduled scans. |
+| **Req. 6: Maintain Secure Systems** | Patch My PC automates Windows and third-party updates with verification logging. |
+| **Req. 7: Restrict Access to Cardholder Data** | Windows account separation (AdminLocal / StandardUser) and password policies. |
+| **Req. 10: Log and Monitor Access** | Event Viewer, PowerShell transcript logging, and daily Macrium Reflect backup validation. |
+| **Req. 11: Regular Testing** | Controlled vulnerability scans and GlassWire monitoring to detect anomalies. |
+
+---
+
+## ⚙️ Hardening & Verification Steps
+
+1. **Enable BitLocker** via Control Panel → Device Encryption → TPM-backed drive protection.  
+2. **Configure Defender & Malwarebytes** for scheduled scans and real-time protection.  
+3. **Verify Firewall Profiles** — ensure Domain, Private, and Public are active.  
+4. **Run Patch My PC** weekly to validate all software versions are current.  
+5. **Perform Full System Backup** using Macrium Reflect (verify image integrity).  
+6. **Enable Audit Policies**:  
+   - Logon/Logoff events  
+   - Account lockouts  
+   - Object access  
+   - Process creation  
+7. **Use GlassWire** to monitor outbound connections and flag unauthorized traffic.  
 
 ---
 
 ## 📁 Subpages
+
 - [System Architecture](architecture.md)
 - [Implementation Guide](implementation.md)
 - [Security Controls Mapping](security-controls.md)
@@ -64,10 +83,10 @@ This layout supports encrypted VoIP and data traffic within the same secure VLAN
 
 ---
 
-## 🧠 Credit & Context
+## 🧠 Lessons from the Field
 
-This project evolved from a **real compliance failure observed in the mortgage industry**, where unsecured endpoints were handling cardholder and PII data without basic controls.  
+This project emphasizes that **endpoint negligence** — even in small businesses — can lead to catastrophic PCI DSS violations.  
 
-By applying PCI DSS principles within a self-hosted stack, this project demonstrates how even small organizations can achieve enterprise-level data protection using open-source tools and disciplined design.  
+By focusing on **workstation-level controls**, this design proves that PCI DSS compliance is achievable **without enterprise infrastructure**, provided each device is hardened, logged, and encrypted.
 
-> *All materials are sanitized for educational and portfolio demonstration purposes. No live client data, credentials, or private keys are included.*
+> *All content is educational and sanitized for portfolio demonstration. No production systems, credentials, or client data are included.*
