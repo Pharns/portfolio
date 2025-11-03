@@ -3,106 +3,97 @@ site_url: https://portfolio.pharns.com
 repo_url: https://github.com/Pharns/portfolio
 repo_name: pharns/portfolio
 edit_uri: edit/main/docs/
-copyright: "© 2025 Pharns Génécé. All rights reserved."
+copyright: © 2025 Pharns Génécé. All rights reserved.
 strict: true
-
 theme:
   name: material
   language: en
   features:
-    - navigation.tabs
-    - navigation.top
-    - navigation.sections
-    - toc.integrate
-    - content.code.copy
-    - content.code.annotate
-    - content.tabs.link
-    - navigation.instant
-    - search.highlight
-    - search.share
+  - navigation.tabs
+  - navigation.top
+  - navigation.sections
+  - toc.integrate
+  - content.code.copy
+  - content.code.annotate
+  - content.tabs.link
+  - navigation.instant
+  - search.highlight
+  - search.share
   palette:
-    - scheme: default
-      primary: indigo
-      accent: cyan
-    - scheme: slate
-      primary: indigo
-      accent: cyan
-      toggle:
-        icon: material/weather-night
-        name: Switch to dark mode
-
+  - scheme: default
+    primary: indigo
+    accent: cyan
+  - scheme: slate
+    primary: indigo
+    accent: cyan
+    toggle:
+      icon: material/weather-night
+      name: Switch to dark mode
 extra:
   social:
-    - icon: fontawesome/brands/github
-      link: https://github.com/Pharns
-    - icon: fontawesome/brands/linkedin
-      link: https://www.linkedin.com/in/pharns
-    - icon: fontawesome/solid/envelope
-      link: "mailto:careers@pharns.com"
-  
-
-
+  - icon: fontawesome/brands/github
+    link: https://github.com/Pharns
+  - icon: fontawesome/brands/linkedin
+    link: https://www.linkedin.com/in/pharns
+  - icon: fontawesome/solid/envelope
+    link: mailto:careers@pharns.com
 markdown_extensions:
-  - admonition
-  - attr_list
-  - def_list
-  - footnotes
-  - md_in_html
-  - toc:
-      permalink: true
-  # - pymdownx.arithmatex:
-  #     generic: true
-  - pymdownx.highlight
-  - pymdownx.caret
-  - pymdownx.critic
-  - pymdownx.details
-  - pymdownx.inlinehilite
-  - pymdownx.magiclink
-  - pymdownx.mark
-  - pymdownx.smartsymbols
-  - pymdownx.superfences
-  - pymdownx.tabbed:
-      alternate_style: true
-  - pymdownx.tasklist:
-      custom_checkbox: true
-  - pymdownx.tilde
-  - pymdownx.betterem:
-      smart_enable: all
-
+- admonition
+- attr_list
+- def_list
+- footnotes
+- md_in_html
+- toc:
+    permalink: true
+- pymdownx.highlight
+- pymdownx.caret
+- pymdownx.critic
+- pymdownx.details
+- pymdownx.inlinehilite
+- pymdownx.magiclink
+- pymdownx.mark
+- pymdownx.smartsymbols
+- pymdownx.superfences
+- pymdownx.tabbed:
+    alternate_style: true
+- pymdownx.tasklist:
+    custom_checkbox: true
+- pymdownx.tilde
+- pymdownx.betterem:
+    smart_enable: all
 plugins:
-  - search
-  - minify:
-      minify_html: true
-
+- search
+- minify:
+    minify_html: true
 nav:
-  - Home: index.md
-  - About: about.md
-  - Certifications: certifications.md
-  - Cybersecurity:
-      - Overview: cybersecurity/index.md
-      - Homelab Infrastructure: cybersecurity/homelab-infrastructure.md
-      - Homelab Build: cybersecurity/homelab-journey.md
-      - Vulnerability Assessment: cybersecurity/vulnerability-assessment.md
-      - Incident Response Workflow: cybersecurity/incident-response.md
-      - Penetration Testing: cybersecurity/penetration-testing.md
-      - Drone Cyber Payload Systems: innovation/drone-payload-systems.md
-      - Blog Write-Ups: cybersecurity/blog-writeups.md
-  - Python:
-      - Overview: python/index.md
-      - 100 Days of Python:
-          - Day 01 — Hello World: python/100-days/day01-hello-world.md
-          - Day 05 — Password Generator: python/100-days/day05-password-generator.md
-          - Day 15 — Coffee Machine: python/100-days/day15-coffee-machine.md
-          - Day 25 — Pandas & CSVs: python/100-days/day25-pandas-csvs.md
-          - Day 39 — API Requests: python/100-days/day39-api-requests.md
-          - Day 54 — Flask Intro: python/100-days/day54-flask-intro.md
-          - Day 75 — Data Viz: python/100-days/day75-data-viz.md
-      - Projects: python/projects/index.md
-  - Innovation:
-      - Overview: innovation/index.md
-      - Drone Payload Systems: innovation/drone-payload-systems.md
-      - SDR & RF Security Research: innovation/rf-security.md
-      - 3D-Printed & Modular Systems: innovation/modular-designs.md
-      - Innovation Write-Ups: innovation/innovation-blogs.md
-  - Contact: contact.md
-
+- Home: index.md
+- About: about.md
+- Certifications: certifications.md
+- Cybersecurity:
+  - Overview: cybersecurity/index.md
+  - Homelab Infrastructure: cybersecurity/homelab-infrastructure.md
+  - Homelab Build: cybersecurity/homelab-journey.md
+  - Vulnerability Assessment: cybersecurity/vulnerability-assessment.md
+  - Incident Response Workflow: cybersecurity/incident-response.md
+  - Windows 11 PCI‑DSS Hardening: cybersecurity/windows11-pcidss-hardening.md
+  - Penetration Testing: cybersecurity/penetration-testing.md
+  - Drone Cyber Payload Systems: innovation/drone-payload-systems.md
+  - Blog Write-Ups: cybersecurity/blog-writeups.md
+- Python:
+  - Overview: python/index.md
+  - 100 Days of Python:
+    - Day 01 — Hello World: python/100-days/day01-hello-world.md
+    - Day 05 — Password Generator: python/100-days/day05-password-generator.md
+    - Day 15 — Coffee Machine: python/100-days/day15-coffee-machine.md
+    - Day 25 — Pandas & CSVs: python/100-days/day25-pandas-csvs.md
+    - Day 39 — API Requests: python/100-days/day39-api-requests.md
+    - Day 54 — Flask Intro: python/100-days/day54-flask-intro.md
+    - Day 75 — Data Viz: python/100-days/day75-data-viz.md
+  - Projects: python/projects/index.md
+- Innovation:
+  - Overview: innovation/index.md
+  - Drone Payload Systems: innovation/drone-payload-systems.md
+  - SDR & RF Security Research: innovation/rf-security.md
+  - 3D-Printed & Modular Systems: innovation/modular-designs.md
+  - Innovation Write-Ups: innovation/innovation-blogs.md
+- Contact: contact.md
