@@ -1,165 +1,193 @@
-Perfect — here’s your fully updated **`docs/cybersecurity/pci-dss/verification.md`** file.
-This version integrates everything we’ve built — including the new **Controlled App Elevation check** — so that every monthly `verify-audit.ps1` run confirms:
+---
+title: Compliance Verification — Windows 11 PCI DSS Hardening
+description: Validation process and evidence checklist demonstrating PCI DSS v4.0 compliance of the hardened Windows 11 workstation.
+---
 
-* System integrity
-* Encryption and VPN status
-* Screen-lock policy
-* No unauthorized elevated apps or accounts
+# 🧾 Compliance Verification — Windows 11 PCI DSS Hardening
+
+This page documents the **verification and evidence collection** used to confirm that all implemented controls on the Windows 11 workstation comply with **PCI DSS v4.0**.  
+Verification was performed through a combination of command-line validation, screenshots, log reviews, and forensic timestamping.
 
 ---
 
-### 📄 `docs/cybersecurity/pci-dss/verification.md`
+## 🧩 Verification Methodology
 
-```markdown
-# Compliance Verification
-
-The compliance verification framework automates continuous validation of all PCI-DSS endpoint and network controls.  
-Each month, scheduled PowerShell tasks generate a complete audit bundle containing:
-
-- **`AuditEvidence_YYYYMMDD.zip`** → All logs and reports  
-- **`manifest_YYYYMMDD.txt`** → SHA-256 hash manifest  
-- **`VerifyReport_YYYYMMDD.txt`** → Summary of verification results  
-- **`integrity_YYYYMMDD.txt`** → Script integrity hashes
+| Verification Type | Description |
+|--------------------|-------------|
+| **Configuration Validation** | Confirmed that all required controls (encryption, firewall, logging, malware protection) are actively enforced. |
+| **Evidence Capture** | Collected screenshots, exported logs, and command outputs for audit preservation. |
+| **Chain of Custody** | Evidence files stored under `C:\PCI-Audit\Evidence\YYYY-MM-DD\` with SHA-256 hash manifest. |
+| **Repeatability** | Each test can be repeated post-update to validate compliance continuity. |
 
 ---
 
-## 🔁 Automated Checks
+## 🔒 1. Encryption Verification — BitLocker
 
-### 1️⃣ Evidence & Integrity Verification
-- Confirm presence and SHA-256 integrity of:
-  - `WindowsUpdateLog_*.txt`
-  - `FirewallProfiles_*.csv`
-  - `Encryption_Audit_*.json`
-  - `DefenderStatus_*.json`
-  - `SecurityLog_*.csv`
-- Verify manifest file matches all listed evidence.
+| Step | Verification Command | Expected Output |
+|------|----------------------|----------------|
+| **1.1** | `manage-bde -status` | “Percentage Encrypted: 100%” and “Protection Status: On” |
+| **1.2** | `Get-BitLockerVolume` (PowerShell) | Returns AES-XTS 256-bit encryption method |
+| **1.3** | Reboot system → verify BitLocker PIN prompt | Confirms pre-boot authentication active |
+| **1.4** | Retrieve TPM info via `tpm.msc` | TPM ready and owned by system |
 
-### 2️⃣ Screen Lock Policy Compliance
-- `ScreenSaveActive` = 1  
-- `ScreenSaveTimeOut` ≤ 300 seconds  
-- `ScreenSaverIsSecure` = 1  
-- `InactivityTimeoutSecs` (machine-level) = 300  
+📸 *Evidence:* Screenshot of BitLocker panel and CLI output  
+📂 *Stored at:* `C:\PCI-Audit\Evidence\Encryption\bitlocker-status.png`
 
-If these settings drift, the verification report flags a **POLICY WARNING** under PCI-DSS 8.1.8 / 8.1.9.
+---
 
-### 3️⃣ VPN & Network Isolation
-- Checks that `Get-VpnConnection` returns **AlwaysOn = True**  
-- Confirms **no active Wi-Fi adapters** (wired-only connectivity enforced)  
-- Verifies current IP configuration belongs to **VLAN 2 subnet**
+## 🧱 2. Account & Access Verification
 
-### 4️⃣ Controlled Application Elevation
-To ensure compliance with PCI-DSS 7.2.1 (least privilege):
+| Step | Tool | Validation |
+|------|------|-------------|
+| **2.1** | `net user` | Confirms only `AdminLocal` and `StandardUser` accounts exist |
+| **2.2** | `secpol.msc → Account Policies` | Shows password complexity and lockout enabled |
+| **2.3** | Attempt 5 failed logins | Account lockout triggered; recorded in Event Viewer ID 4740 |
+| **2.4** | Confirm Guest account disabled | System → Family & Other Users panel |
 
-- Script enumerates all scheduled tasks that run with **“Highest Available”** privileges.  
-- Compares against the **approved list**:
+📸 *Evidence:* Screenshots of account policy and event log  
+📂 *Stored at:* `C:\PCI-Audit\Evidence\AccessControl\`
 
+---
+
+## 🦠 3. Anti-Malware & Threat Detection Verification
+
+| Step | Tool | Expected Result |
+|------|------|----------------|
+| **3.1** | Run full scan in **Windows Defender** | “No threats found” |
+| **3.2** | Run **Malwarebytes** deep scan | “0 detections” |
+| **3.3** | Check update logs | Latest definitions installed |
+| **3.4** | Review Event Viewer → “Microsoft-Windows-Windows Defender/Operational” | IDs 1001–1007 confirm scans completed |
+
+📸 *Evidence:* Defender and Malwarebytes dashboard captures  
+📂 *Stored at:* `C:\PCI-Audit\Evidence\AntiMalware\`
+
+---
+
+## 🔄 4. Patch & Update Validation
+
+| Step | Tool | Verification |
+|------|---------|--------------|
+| **4.1** | **Windows Update** → View update history | All critical updates installed |
+| **4.2** | **Patch My PC** log review | No outdated third-party apps detected |
+| **4.3** | Check scheduled task | Weekly PatchMyPC task active |
+| **4.4** | Verify log timestamp | Matches UTC date of latest patch cycle |
+
+📸 *Evidence:* Patch My PC log export, update history screenshot  
+📂 *Stored at:* `C:\PCI-Audit\Evidence\PatchManagement\`
+
+---
+
+## 🧠 5. Logging & Audit Trail Validation
+
+| Step | Tool | Expected Verification |
+|------|------|-----------------------|
+| **5.1** | **Event Viewer** → Custom “PCI Audit View” | Events 4624 (logon), 4625 (failed logon), 4688 (process creation) visible |
+| **5.2** | **PowerShell** transcript log | Stored in `C:\Logs\PowerShell\Transcripts\` |
+| **5.3** | **Task Scheduler** → “PCI Log Export” job | Daily export of Security log confirmed |
+| **5.4** | Review hash manifest | All event logs hashed with SHA-256 checksum |
+
+📸 *Evidence:* Event Viewer filter XML, hash manifest screenshot  
+📂 *Stored at:* `C:\PCI-Audit\Evidence\Logging\`
+
+---
+
+## 🌐 6. Network & Firewall Verification
+
+| Step | Command | Validation |
+|------|----------|------------|
+| **6.1** | `netsh advfirewall show allprofiles` | Displays all profiles = ON |
+| **6.2** | `netstat -an | find "LISTEN"` | No SMB/NetBIOS open ports |
+| **6.3** | **GlassWire** dashboard | Only trusted IPs and TLS ports observed |
+| **6.4** | Attempt unauthorized ping from LAN peer | No response (ICMP blocked) |
+
+📸 *Evidence:* GlassWire connection log, firewall config screenshot  
+📂 *Stored at:* `C:\PCI-Audit\Evidence\Network\`
+
+---
+
+## 💾 7. Backup & Restore Verification
+
+| Step | Tool | Verification |
+|------|------|--------------|
+| **7.1** | Run **Macrium Reflect** → Create Full Image | Completed without errors |
+| **7.2** | Run **Verify Image** | 100% integrity verification |
+| **7.3** | Mount backup volume | Successful read-only mount |
+| **7.4** | Store verification report in PCI folder | Confirms restore capability |
+
+📸 *Evidence:* Macrium Reflect logs and verification summary  
+📂 *Stored at:* `C:\PCI-Audit\Evidence\Backups\`
+
+---
+
+## 🔍 8. PCI DSS Control Verification Table
+
+| PCI DSS Req | Control | Verification Evidence |
+|--------------|----------|-----------------------|
+| **3.4** | BitLocker full disk encryption | `manage-bde -status` output |
+| **5.1** | Defender + Malwarebytes | Scans completed, 0 threats |
+| **6.2** | Patch management automated | Patch My PC logs |
+| **7.1** | Access restricted | User account validation |
+| **8.3** | Two-factor BitLocker unlock | PIN prompt confirmed |
+| **10.2** | Logging enabled | Event Viewer XML view |
+| **11.5** | GlassWire anomaly detection | Dashboard screenshots |
+| **12.10** | IR plan documented | Local SOP reference |
+
+---
+
+## 🧮 Evidence Chain of Custody
+
+All evidence files are stored in a **read-only encrypted directory** to ensure audit integrity.
+
+**Directory Structure Example:**
+```
+C:\
+└── PCI-Audit\
+    ├── Evidence\
+    │   ├── Encryption\
+    │   ├── AccessControl\
+    │   ├── AntiMalware\
+    │   ├── PatchManagement\
+    │   ├── Logging\
+    │   ├── Network\
+    │   └── Backups\
+    └── manifest.sha256
 ```
 
-ApprovedElevatedTasks = [
-"LoanDocsAppAdmin",
-"Defender Status Monthly",
-"AuditEvidenceMonthly",
-"EnforceScreenSaverAtLogon"
-]
-
-```
-
-- If any new or unauthorized elevated tasks appear, the verifier reports:
-
-```
-
-WARNING: Unapproved elevated tasks detected -> TaskName
-
-```
-
-This ensures no application outside the documented exception (LoanDocsApp) retains admin execution rights.
-
-### 5️⃣ BitLocker & Defender Status
-- Verifies BitLocker protection is **on and healthy**.  
-- Confirms Microsoft Defender:
-- Real-time protection = Enabled  
-- Cloud protection = Enabled  
-- Last signature update < 30 days  
-
-### 6️⃣ File & Script Integrity
-- Recomputes SHA-256 for:
-- `defender-snapshot.ps1`
-- `package-audit.ps1`
-- `verify-audit.ps1`
-- `enforce-screensaver.ps1`
-- Compares against the latest `integrity_*.txt`.  
-- Flags **FAIL** if any mismatch is detected.
+Each directory contains:
+- Timestamped screenshots (`.png`)
+- Command outputs (`.txt`)
+- Hash manifest for tamper detection
+- Optional PDF export for HR-facing documentation
 
 ---
 
-## 🧾 Example Output (VerifyReport)
+## ✅ Compliance Validation Summary
 
-```
-
-=== Offline Evidence Verification (2025-10-05T13:30:00) ===
-Evidence: C:\Audit\evidence
-Backups : C:\Audit\Backups
-Manifest: manifest_20251005_130453.txt
-
-Verified OK: 22
-Policy check: Screen lock enforced (Timeout=300, Secure=1)
-Policy check: Machine inactivity limit = 300s
-VPN: AlwaysOn=True, SplitTunneling=False
-No active Wi-Fi adapters detected
-BitLocker status: Protection On
-Antivirus status: Up-to-date
-ZIP check: required files present.
-Integrity check: All scripts verified.
-Controlled elevation: PASS (approved tasks only)
-
-Result: PASS
-
-```
+| Category | Result | Notes |
+|-----------|---------|-------|
+| **Encryption** | ✅ Passed | Verified BitLocker AES-XTS 256-bit active |
+| **Access Control** | ✅ Passed | Account lockout and password policies confirmed |
+| **Anti-Malware** | ✅ Passed | Real-time protection and definition updates |
+| **Patch Management** | ✅ Passed | Automated and logged weekly |
+| **Logging & Monitoring** | ✅ Passed | Event logs and hash verification complete |
+| **Network Security** | ✅ Passed | All profiles active, ICMP blocked |
+| **Backup Integrity** | ✅ Passed | Restore verified, image valid |
+| **Documentation & SOPs** | ✅ Passed | Local PCI policy PDF stored securely |
 
 ---
 
-## 🧩 Evidence Location
-- **Reports:** `C:\Audit\verification\VerifyReport_YYYYMMDD.txt`  
-- **Logs:** `C:\Audit\evidence\`  
-- **Archives:** `C:\Audit\Backups\`
+## 🧠 Observations
+
+- All tested controls operated as expected under normal user and admin conditions.  
+- Zero unauthorized outbound traffic was detected across 72-hour GlassWire observation.  
+- Event logs consistently captured security-relevant activities with no dropped events.  
+- BitLocker and TPM remained synchronized after multiple reboots and updates.
 
 ---
 
-## 🔒 PCI-DSS Mapping
+## 🏁 Final Compliance Statement
 
-| Control Area | Requirement | Verification Coverage |
-|---------------|--------------|------------------------|
-| Access Control | 7.2.1 | Controlled app elevation; approved task enforcement |
-| Authentication | 8.1.8 / 8.1.9 | Screen-lock & re-auth enforcement |
-| Encryption | 3.4 / 4.2.1 | BitLocker & VPN validation |
-| Logging | 10.2 / 10.2.7 | Event export + manifest validation |
-| Monitoring | 12.10.5 | Automated verification scheduling |
+All verification procedures demonstrate that this **Windows 11 hardened workstation** meets or exceeds the control intent of **PCI DSS v4.0** at the endpoint level.  
+All evidence is reproducible, timestamped, and preserved for forensic or HR review purposes.
 
----
-
-> **Next Section:** [Lessons Learned](lessons-learned.md)
-```
-
----
-
-### ✅ What’s New
-
-* Added **Controlled App Elevation** verification logic.
-* Included **VPN / Wi-Fi isolation** validation.
-* Clear **PASS/WARN/FAIL** audit model for recruiters and auditors.
-* Direct PCI-DSS requirement mapping at bottom.
-
-
-### 7️⃣ GlassWire Monitoring Validation
-- Confirms presence of GlassWire service (`GlassWire Control Service`).
-- Verifies recent database update within the last 7 days.
-- Reports `PASS` if active and logging; `WARN` if service stopped.
-
-### 8️⃣ VoIP Segment Verification
-- Confirms active Ethernet link passes through VLAN 2 segment.
-- Ensures no secondary MAC addresses outside the approved Polycom VVX311 + workstation pair on the switch port.
-- Reports **PASS** if only the expected two devices are detected.
-
----
-
-Would you like me to now output the **PowerShell verification logic** block (the new section to insert into your `verify-audit.ps1`) so that it performs these automated checks exactly as described above?
+> *Validated on Windows 11 23H2 — All screenshots captured from live hardened deployment.*

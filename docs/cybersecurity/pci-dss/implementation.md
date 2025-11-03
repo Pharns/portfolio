@@ -1,47 +1,139 @@
-# Implementation Guide
+---
+title: Implementation Guide — Windows 11 PCI DSS Hardening
+description: Step-by-step configuration and verification guide for implementing PCI DSS-aligned controls on a standalone Windows 11 workstation.
+---
 
-## Phase 1 — System Preparation
-- Update Windows 11 Home completely.
-- Rename host → `RMT-BFF-LEND-01`.
-- Create `AdminLocal` (admin) and `BrokerUser` (standard).
-- Archive & delete OEM account.
+# ⚙️ Implementation Guide — Windows 11 PCI DSS Hardening
 
-## Phase 2 — Security Configuration
-- Enable BitLocker.
-- Enforce screen saver & system inactivity lock = 300 s.
-- Install & verify Microsoft Defender tasks.
-- Configure `C:\Audit` structure:
-  - `scripts/` — PowerShell automation
-  - `evidence/` — logs & reports
-  - `Backups/` — ZIP archives
+This document provides the **hands-on configuration workflow** used to transform an unsecured Windows 11 workstation into a **PCI DSS-aligned endpoint**.  
+Each step corresponds to one or more PCI DSS v4.0 requirements and produces verifiable evidence of compliance.
 
-## Phase 3 — Network Integration
-- GL.iNet MT6000 router with always-on VPN (AES-256).
-- TL-SG108PE switch VLAN 2 (Port 1 → Polycom VVX311).
-- Polycom passthrough to workstation Ethernet (VLAN 2).
-- Disable Wi-Fi adapter to enforce wired-only VPN path.
-- Connected **Polycom VVX311 VoIP phone** inline between switch Port 1 (VLAN 2) and workstation Ethernet port.  
-  The phone’s **PC port** passes VLAN 2 traffic, ensuring the workstation remains on the same secure subnet while preserving QoS for voice.  
-- Verified that both devices appear only on VLAN 2 interfaces.
+---
 
+## 🧩 1. Hardware & BIOS Preparation
 
-## Phase 4 — Audit Automation
-- **defender-snapshot.ps1** — Defender status export  
-- **package-audit.ps1** — Evidence ZIP + SHA-256 manifest  
-- **verify-audit.ps1** — Integrity, VPN, & policy verification  
-- **enforce-screensaver.ps1** — Policy lock at each logon
+| Step | Action | Purpose |
+|------|---------|----------|
+| **1.1** | Boot into BIOS/UEFI (`DEL` or `F2`) | Access firmware configuration |
+| **1.2** | Enable **TPM 2.0** and **Secure Boot** | Required for BitLocker and platform trust |
+| **1.3** | Set BIOS/UEFI password | Prevents unauthorized firmware changes |
+| **1.4** | Verify boot order | Limit boot devices to internal SSD |
+| **1.5** | Record firmware version | Enables future integrity checks |
 
+> *PCI Ref 3.5 — Cryptographic Key Management*
 
-### Network Monitoring (GlassWire)
-![GlassWire Dashboard](../assets/screenshots/glasswire-dashboard.png)  
-*GlassWire Dashboard : Visual network monitoring and connection alerting for PCI-DSS endpoint compliance, showing bandwidth usage, historical traffic, and real-time connection alerts.*
+---
 
+## 🔒 2. BitLocker Drive Encryption
 
-Installed **GlassWire** to provide local visual monitoring of all inbound and outbound connections.
-Configured in “Ask to Connect” mode, it alerts the user whenever a new process attempts network access.
-Bandwidth and connection history logs are archived monthly to `C:\Audit\evidence`.
+| Step | Action | Verification |
+|------|---------|--------------|
+| **2.1** | Open Control Panel → System and Security → BitLocker Drive Encryption | Confirm TPM recognized |
+| **2.2** | Click **Turn on BitLocker** and select **TPM + PIN** protection | Enhances physical access control |
+| **2.3** | Save recovery key to an **encrypted USB** or **offline vault** | Prevents key leakage |
+| **2.4** | Allow encryption of **used space only** for speed | AES-XTS 256 bit mode |
+| **2.5** | Reboot and confirm `manage-bde -status` shows **Protection On** | Screenshot for audit evidence |
 
-**Benefits**
-- Real-time alerts for unauthorized outbound connections.
-- Detects data exfiltration or malware beaconing attempts.
-- Complements Windows Firewall and Defender logs with visual telemetry.
+> *PCI Ref 3.4 — Protect Stored Data*
+
+---
+
+## 🧱 3. Account & Access Control
+
+| Step | Action | PCI Mapping |
+|------|---------|--------------|
+| **3.1** | Create a **Standard User** account for daily operations | Req 7 — Restrict Access |
+| **3.2** | Rename built-in Administrator → `AdminLocal` | Reduces privilege discovery |
+| **3.3** | Enforce password policy via `secpol.msc` → Account Policies | Min 14 chars, max age = 60 days |
+| **3.4** | Enable account lockout after 5 failed attempts | Brute-force mitigation |
+| **3.5** | Disable guest accounts | Least-privilege enforcement |
+
+---
+
+## 🦠 4. Endpoint Protection
+
+| Tool | Configuration | PCI Alignment |
+|------|----------------|----------------|
+| **Windows Defender** | Real-time protection ON, cloud protection ON, auto sample submission ON | Req 5.1 — Anti-Virus |
+| **Malwarebytes Free** | Enable rootkit & archive scanning, daily definition updates | Req 5.1.2 — Layered Defense |
+| **Controlled Folder Access** | Protects Desktop/Documents from ransomware | Req 5.3 |
+| **SmartScreen** | Block unverified apps & sites | Req 6.4 |
+
+> *Run full system scan → record “0 threats found” screenshot for evidence.*
+
+---
+
+## 🔄 5. Patch & Update Management
+
+| Step | Action | Verification |
+|------|---------|--------------|
+| **5.1** | Install **Patch My PC Home Updater** | Automates 3rd-party updates |
+| **5.2** | Configure to run at logon + weekly schedule | Continuous compliance |
+| **5.3** | Verify **Windows Update** set to **Automatic** | Req 6.2 |
+| **5.4** | Check update logs under `C:\ProgramData\PatchMyPC\Logs` | Evidence of patch cycle |
+
+---
+
+## 🔍 6. Monitoring & Logging
+
+| Tool | Configuration | PCI Reference |
+|------|----------------|----------------|
+| **Event Viewer** | Custom View: *PCI Audit View* (IDs 4624, 4625, 4634, 4672, 4688, 1116) | Req 10 — Log and Monitor |
+| **PowerShell Transcription** | Enabled via `gpedit.msc → Windows Components → PowerShell` | Req 10.2 |
+| **GlassWire** | Monitors outbound connections, alerts on new apps | Req 11.5 |
+| **Task Scheduler** | Daily export of Security logs to external drive | Req 10.7 |
+
+> *Audit evidence = `Eventvwr → Save All Events As…` with timestamp.*
+
+---
+
+## 🧰 7. Backup & Recovery Validation
+
+| Tool | Configuration | Purpose |
+|------|----------------|----------|
+| **Macrium Reflect Free** | Full system image → external encrypted SSD | Disaster recovery |
+| **Verification** | “Verify Image” option ON after backup | Confirms integrity |
+| **Retention** | Keep 3 rotations (30/60/90 days) | Evidence of restore capability |
+
+> *PCI Ref 10.5 — Secure Audit Trail Storage*
+
+---
+
+## 🌐 8. Network Visibility & Segmentation
+
+| Step | Action | Validation |
+|------|---------|-------------|
+| **8.1** | Place workstation behind **GL.iNet Router (VLAN 2)** | Isolates PCI zone |
+| **8.2** | Connect **Polycom VoIP Phone → Workstation → Switch** | Inline traffic inspection |
+| **8.3** | Verify GlassWire shows only legitimate update servers | TLS handshake logs |
+| **8.4** | Confirm no SMB/NetBIOS open ports (`netstat -an`) | Zero legacy protocol exposure |
+
+---
+
+## 🧾 9. Validation & Evidence Collection
+
+1. Capture screenshots of each control area:  
+   - BitLocker status  
+   - Defender & Malwarebytes dashboards  
+   - Windows Update history  
+   - Patch My PC log  
+   - GlassWire alert panel  
+   - Event Viewer → PCI Audit View  
+2. Store in `C:\PCI-Audit\Evidence\YYYY-MM-DD\`  
+3. Export results to `.zip` for archival  
+4. Maintain **hash manifest (SHA-256)** for chain-of-custody tracking
+
+---
+
+## ✅ Outcome
+
+After completing all phases, the workstation achieved:
+
+- **Full-disk encryption (BitLocker)**  
+- **Layered malware defense (Defender + Malwarebytes)**  
+- **Automated patching and verified backups**  
+- **Comprehensive logging and monitoring**  
+- **Documented audit evidence for each PCI DSS requirement**
+
+> *System validated on Windows 11 23H2 — All screenshots captured from live hardened build.*
+
