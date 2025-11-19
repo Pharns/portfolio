@@ -5,3 +5,6 @@ site/
 backups/
 *.zip
 .DS_Store
+
+# session logs
+.session-logs/

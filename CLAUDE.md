@@ -6,8 +6,9 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 This is a static portfolio website for showcasing cybersecurity and Python projects, built with **MkDocs Material** and deployed automatically to GitHub Pages via GitHub Actions.
 
-**Live Site:** https://portfolio.pharns.com
-**GitHub Pages:** https://pharns.github.io/portfolio
+**Live Sites:**
+- Primary (custom domain): https://portfolio.pharns.com
+- GitHub Pages: https://pharns.github.io/portfolio
 
 The portfolio is organized into three main content areas:
 - **Cybersecurity** - Homelab infrastructure, penetration testing, incident response, vulnerability assessments, PCI-DSS hardening
@@ -37,8 +38,8 @@ mkdocs build --strict
 python -m venv .venv
 
 # Activate virtual environment
-source .venv/bin/python  # Mac/Linux
-.venv\Scripts\activate   # Windows
+source .venv/bin/activate  # Mac/Linux
+.venv\Scripts\activate     # Windows
 
 # Deactivate
 deactivate
@@ -47,7 +48,8 @@ deactivate
 ### Deployment
 - **Automatic:** Push to `main` branch triggers `.github/workflows/gh-pages.yml`
 - **Manual:** Use workflow_dispatch in GitHub Actions UI
-- The workflow builds with `--strict` mode and sets a custom CNAME for `portfolio.pharns.com`
+- The workflow builds with `--strict` mode and writes a CNAME file (`portfolio.pharns.com`) to the `site/` directory
+- Deployment happens in two phases: build (runs `mkdocs build --strict`) and deploy (uploads artifact to GitHub Pages)
 
 ## Architecture and Content Structure
 
@@ -119,17 +121,20 @@ When creating new project pages, use these templates as starting points:
 
 ### Adding New Pages
 1. Create markdown file in appropriate `docs/` subdirectory
-2. Add entry to `nav` section in `mkdocs.yml` (maintains navigation structure)
-3. Follow template structure from `templates/` directory
-4. Add images/screenshots to `docs/assets/` with descriptive filenames
+2. **CRITICAL:** Add entry to `nav` section in `mkdocs.yml` - this is required for the page to appear in navigation
+3. Follow template structure from `templates/` directory (see Templates section)
+4. Add images/screenshots to `docs/assets/` with descriptive filenames (lowercase-with-dashes, compressed PNG/JPEG)
 5. Use relative paths for images: `![Description](../assets/screenshots/filename.png)`
+6. Verify images render locally and check casing (case-sensitive on deploy)
 
 ### Markdown Conventions
-- Use admonitions for callouts: `!!! note`, `!!! warning`, `!!! tip`
+- Use admonitions for callouts: `!!! note`, `!!! warning`, `!!! tip` (use sparingly)
 - Code blocks with language highlighting: ` ```python `, ` ```bash `
 - Task lists: `- [ ]` for unchecked, `- [x]` for checked
 - Tabbed content available via `pymdownx.tabbed` extension
 - All pages should have H1 heading (`#`) as title
+- Keep headings concise and use sentence case
+- Prefer direct, recruiter-friendly language; avoid filler and keep pages scannable with lists and short paragraphs
 
 ### Navigation Structure
 - Top-level sections: Home, About, Certifications, Cybersecurity, Python, Innovation, Contact
@@ -138,11 +143,12 @@ When creating new project pages, use these templates as starting points:
 
 ## Important Notes
 
-### Strict Mode
+### Strict Mode (Critical)
 The site builds with `strict: true` in `mkdocs.yml`, which means:
-- Broken internal links will fail the build
-- Missing images will fail the build
-- Always test with `mkdocs build --strict` before pushing
+- **Broken internal links will fail the build**
+- **Missing images will fail the build**
+- **ALWAYS run `mkdocs build --strict` before pushing** to catch issues locally
+- CI/CD also runs with `--strict` mode, so build failures will block deployment
 
 ### GitHub Actions Deployment
 - Workflow file: `.github/workflows/gh-pages.yml`
@@ -165,3 +171,22 @@ If working with Python scripts in `.vscode/settings.json`:
 - Pytest for testing (`tests/` directory)
 
 However, note that this repository is primarily **markdown content**, not Python code. The Python configuration is for potential future scripting needs.
+
+## Writing Style and Commit Guidelines
+
+### Content Style (from AGENTS.md)
+- Keep headings concise and use sentence case
+- Prefer callouts (`!!! note`) sparingly
+- Use fenced code blocks with language hints; wrap long lines manually to keep content readable
+- Link internal pages with relative paths (e.g., `[IR Workflow](cybersecurity/incident-response.md)`)
+- Favor direct, recruiter-friendly language; avoid filler and keep pages scannable with lists and short paragraphs
+
+### Commit Messages
+- Keep messages short, present-tense, and descriptive (e.g., `Add IR workflow diagram`, `Tighten PCI-DSS copy`)
+- Scope each change to a focused topic (one page/feature per commit where possible)
+- For pull requests: include a short summary, screenshots for visual changes, and note any new pages added to `nav`
+
+### Security
+- Do not commit secrets or auth tokens
+- This site is static, so any credentials belong in deployment secrets only
+- Pin dependencies via `requirements.txt`; if upgrading MkDocs or plugins, run a full `mkdocs build --strict` to ensure compatibility
