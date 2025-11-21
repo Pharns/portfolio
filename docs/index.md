@@ -10,6 +10,9 @@ Building on this foundation, expanding into cybersecurity to apply combined expe
 !!! tip "How to browse"
     Use the tabs above for Cybersecurity, Python, and Innovation. Each section includes a short summary and links to detailed repos, write-ups, or project highlights.
 
+!!! note "Featured: PCI DSS endpoint hardening"
+    Designed and documented a Windows 11 workstation remediation that locked down encryption, malware defense, patch automation, and outbound monitoring in <48 hours. [See the case study](cybersecurity/pci-dss/index.md).
+
 ---
 
 ## **🎓 Quick Snapshot**

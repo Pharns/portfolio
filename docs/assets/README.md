@@ -56,3 +56,4 @@ Use Markdown attribute lists (enabled in MkDocs):
 **Template**
 ```markdown
 *<Title> : <short, keyword-rich summary>.*
+```

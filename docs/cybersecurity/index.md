@@ -10,12 +10,12 @@ Projects include a **real-world PCI DSS compliance remediation** deployed in a m
 
 ## 🔑 **Projects in This Section**
 
+- **[PCI DSS Compliance — Windows 11 Hardening](pci-dss/index.md)** → Remediated an unsecured mortgage workstation, enforcing encryption, patch automation, layered malware defense, and clean outbound traffic in under 48 hours.  
 - **[Homelab Infrastructure](homelab-infrastructure.md)** → Proxmox-based environment with segmented VLANs, SOC tools, and zero-trust pilots.  
 - **[Homelab Build](homelab-journey.md)** → Full build notes: planning, install, hardening, VLANs, SOC stack, and improvements.  
 - **[Vulnerability Assessment](vulnerability-assessment.md)** → Nessus/OpenVAS scanning, triage, remediation, and reporting workflows.  
 - **[Incident Response Workflow](incident-response.md)** → TheHive + Cortex for triage, IOC enrichment, and playbooks.  
 - **[Penetration Testing](penetration-testing.md)** → Red-team style assessments against lab targets; attack chains and mitigations.  
-- **[PCI DSS Compliance — Secure Infrastructure Design](pci-dss/index.md)** → Real-world production deployment that remediated unsecured mortgage systems and achieved PCI DSS–aligned data protection.  
 - **[Drone Payload Systems](../innovation/drone-payload-systems.md)** → UAV payloads for RF/wireless security testing (patent-pending work).  
 - **[Blog Write-Ups](blog-writeups.md)** → CTFs, methodologies, and repeatable techniques.  
 

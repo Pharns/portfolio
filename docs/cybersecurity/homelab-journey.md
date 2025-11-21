@@ -20,7 +20,7 @@ Just like in a professional deployment, I started with careful planning:
 - Designed for **security-first** from day one  
 - Documented each step for repeatability  
 
-![Beelink SER5 Mini PC](../assets/images/Beelink%20SER5%20Mini%20PC.png)
+![Beelink SER5 Mini PC](../assets/images/beelink-ser5-mini-pc.png)
 *Beelink SER5 Mini PC : Chosen as the base system for virtualization and SOC tools deployment.* 
 
 ---
@@ -62,7 +62,7 @@ Just like in a professional deployment, I started with careful planning:
 - Applied firewall rules for remote access  
 - Added monitoring for visibility  
 
-![Network Diagram](../assets/images/HomeLab%20Network%20Diagram-Github.jpg)
+![Network Diagram](../assets/images/homelab-network-diagram-github.jpg)
 *Homelab Network Diagram : Segmented VLANs for red/blue teams and shared services.*
 
 

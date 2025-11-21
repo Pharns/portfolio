@@ -16,7 +16,7 @@ A Proxmox-based homelab designed as a practical testbed to build, break, and sec
 ---
 
 ## 🌐 **Lab Topology**
-![Homelab Network Diagram](../assets/images/HomeLab%20Network%20Diagram-Github.jpg)  
+![Homelab Network Diagram](../assets/images/homelab-network-diagram-github.jpg)  
 *Homelab Network Diagram — Proxmox, pfSense VLANs, SOC & red team tools, self-hosted services, and Zero Trust pilots.*
 
 ---
@@ -45,4 +45,3 @@ The competencies gained through this homelab translate into measurable value for
 - **Operational Security** → deploy SOC tools to detect, investigate, and respond to incidents effectively  
 - **Continuous Vulnerability Management** → identify and remediate weaknesses before they impact business operations  
 - **Zero Trust Implementation** → apply granular access controls and modern security models to safeguard systems and data  
-
