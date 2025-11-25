@@ -1,100 +1,58 @@
 # **👋 Hi, I’m Pharns**
 
-**Cybersecurity Specialist & Practitioner | RF & SDR Security | Python Developer | UAV Systems Innovator (Patented)**
+**Security Engineer & Detection/GRC Practitioner | RF & SDR Security | Python for Security | UAV Systems Innovator (Patented)**
 
-Bringing a career in UAV design, payload systems, and drone delivery innovation — with corporate leadership experience in IT infrastructure, employee accounts, and operational security.  
+Bringing UAV design/payload experience together with production IT/IAM and cybersecurity engineering.
 
-
-Building on this foundation, expanding into cybersecurity to apply combined expertise in systems administration, wireless, RF, and UAV engineering to modern security challenges.  
+**Open to roles in:** Security Engineer (remote) • Detection Engineer / Threat Hunter • GRC Engineer / Compliance Automation • Cloud Security Engineer (jr–mid) • Cybersecurity Analyst II/III • RF/UAS/Wireless Security Engineer  
+Reach me via the [contact page](contact.md) or LinkedIn.
 
 !!! tip "How to browse"
-    Use the tabs above for Cybersecurity, Python, and Innovation. Each section includes a short summary and links to detailed repos, write-ups, or project highlights.
+    Cybersecurity, Python, and Innovation tabs link to detailed write-ups, repos, and case studies.
 
 !!! note "Featured: PCI DSS endpoint hardening"
-    Designed and documented a Windows 11 workstation remediation that locked down encryption, malware defense, patch automation, and outbound monitoring in <48 hours. [See the case study](cybersecurity/pci-dss/index.md).
+    Locked down a Windows 11 workstation (encryption, EDR, patching, outbound monitoring) in <48 hours. [See the case study](cybersecurity/pci-dss/index.md).
 
 ---
 
-## **🎓 Quick Snapshot**
+## **🎓 Snapshot**
 - **B.S. Cybersecurity & Information Assurance (WGU)** — Dec 2025  
-- **Certifications:** CompTIA Security+, Network+, A+, CySA++, ITIL4, ISC² CC, SSCP (Assoc.), Linux Essentials  
-- **Technical Focus:** Threat detection, incident response, vulnerability assessment, wireless/RF security, Python automation & tooling  
-- **Career Goal:** Advancing into cybersecurity engineering, wireless security, and incident response — applying cyber + RF + UAV expertise to strengthen mission-critical systems  
-
+- **Certifications:** Security+, Network+, A+, CySA+ (in progress), PenTest+ (in progress), ITIL4, ISC² CC, SSCP (Assoc.), Linux Essentials  
+- **Core Focus:** Detection/IR, vulnerability assessment & hardening, compliance automation, wireless/RF security, Python automation & tooling  
+- **Licenses & Background:** FAA Part 107, HAM/GMRS, veteran; patented UAV payload systems  
 
 ---  
 
 ## 🚀 **Hands-On Highlights**
 
-- **Production System Administration** — Operate and secure self-hosted deployments of SuiteCRM, Docuseal, Nextcloud, Wiki.js, and SearXNG in production environments to maintain control, privacy, and integrity of company IP. Manage user accounts, backups, updates, and security hardening across services.  
-- **Homelab Engineering** — Design, build, and continuously expand a Proxmox-based lab with Security Onion, TheHive/Cortex, and Nessus to replicate enterprise defense workflows, including SIEM, IDS/IPS, and SOC-style incident response simulations  
-- **Zero Trust Pilot** — Continuously test and use Tailscale, Twingate, and Netbird to evaluate secure access management and identity & access management (IAM) models  
-- **Offensive Security Toolkit** — Use WiFi Pineapple, HackRF One, Flipper Zero, and Rubber Ducky for penetration testing, vulnerability assessment, and application security research  
-- **Drone & SDR Security Research** — Design, develop, and build UAV platforms integrating SDR and penetration-testing payloads; engineer 3D-printed housings for modular RF tools to support threat analysis and intelligence gathering  
-- **Ham Radio & Mesh Networking** — Licensed Amateur Radio & GMRS operator; deployed a Meshtastic LoRa mesh network to evaluate decentralized communication resilience  
-- **Patented Drone Payload Systems** — Invented and patented UAV payload architectures; current patent-pending research integrates SDR modules for wireless security testing  
+- **Production system hardening** — Secured self-hosted SuiteCRM, Docuseal, Nextcloud, Wiki.js, and SearXNG with IAM, backups, patch automation, and service hardening.  
+- **PCI DSS endpoint hardening** — Windows 11 lockdown (encryption, EDR, patching, outbound monitoring). [Case study](cybersecurity/pci-dss/index.md)  
+- **Detection & IR lab** — Proxmox-based SOC lab with Security Onion, TheHive/Cortex, and Nessus for SIEM/IDS and incident simulations; used for continuous tuning and playbook practice.  
+- **Zero Trust pilots** — Tested Tailscale, Twingate, and Netbird for secure access and IAM models; documented tradeoffs for small teams.  
+- **RF/UAS security research** — Built UAV platforms integrating SDR and pentest payloads; engineered 3D-printed housings for modular RF tools; patented payload architectures.  
+- **Mesh networking & wireless resilience** — Licensed Amateur Radio & GMRS operator; deployed Meshtastic LoRa mesh network to evaluate decentralized comms.  
+- **Offensive security toolkit** — WiFi Pineapple, HackRF One, Flipper Zero, Rubber Ducky for penetration testing and app security research.  
 
 ---
 
 ## 🧰 **Core Skills Snapshot**
 
-- **Threat Detection & Incident Response** — SOC workflows, SIEM, IDS/IPS, anomaly detection  
-- **Vulnerability Assessment & Penetration Testing** — Nessus, wireless/web app testing, privilege escalation  
-- **Linux System Administration** — File system management, patching, scripting, backup & recovery, monitoring, and system hardening  
-- **Production System Administration** — IAM, access control, backups, updates, and system hardening  
+- **Detection & IR** — SOC workflows, SIEM, IDS/IPS tuning, anomaly detection  
+- **Vulnerability & Hardening** — Nessus, wireless/web testing, Windows/Linux hardening  
+- **Compliance & Automation** — NIST CSF, ISO 27001, PCI; evidence collection and scripting  
+- **Access & Cloud** — Zero Trust pilots, IAM, secure remote access patterns  
 - **Wireless & RF Security** — SDR, ham radio, UAV-based RF interception, mesh networking  
-- **Compliance & Frameworks** — NIST CSF, ISO/IEC 27001, PCI DSS, GDPR/HIPAA alignment  
-- **DevSecOps & Secure SDLC** — Security automation, secure code review, container security (Docker/Kubernetes)  
-- **Leadership & Professional Skills** — leadership, mentoring, and disciplined execution under pressure, shaped by service as a USAF Veteran and corporate experience  
+- **DevSecOps & SDLC** — Security automation, secure code review, container security  
+- **Leadership & Delivery** — Veteran; project delivery under pressure; mentoring and stakeholder comms  
 
 ---
 
 ## 💡 **Innovation & Patents**
-Beyond cybersecurity, an innovator and patent holder in UAV payload and delivery systems, with additional cybersecurity-focused patents pending.  
-
-Detailed project write-ups are in the [Innovation Section](innovation/index.md). Patent documentation available on request.  
+Patent holder in UAV payload and delivery systems; cybersecurity-focused patents pending. Detailed write-ups are in the [Innovation Section](innovation/index.md). Patent documentation available on request.  
 
 ---
 
 ## 🌟 **Cyber Integration**
 - Homelab supports UAV-cyber integration testing  
-- RF/SDR research feeds into secure payload and delivery design  
-- Python projects automate analysis, testing, and proof-of-concept tooling  
-
----
-
-<!-- Structured Data for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Person",
-  "name": "Pharns",
-  "url": "https://portfolio.pharns.com",
-  "jobTitle": "Cybersecurity Specialist & Practitioner",
-  "alumniOf": {
-    "@type": "CollegeOrUniversity",
-    "name": "Western Governors University"
-  },
-  "sameAs": [
-    "https://www.linkedin.com/in/pharns",
-    "https://github.com/pharns"
-  ],
-  "knowsAbout": [
-    "Cybersecurity",
-    "Threat Detection",
-    "Incident Response",
-    "Vulnerability Assessment",
-    "Risk Management",
-    "Security Operations Center (SOC)",
-    "Penetration Testing",
-    "Digital Forensics",
-    "Network Security",
-    "Python Automation"
-  ],
-  "worksOn": {
-    "@type": "WebSite",
-    "url": "https://portfolio.pharns.com",
-    "name": "Pharns — Cybersecurity & Python Portfolio"
-  }
-}
-</script>
+- RF/SDR research feeds secure payload and delivery design  
+- Python projects automate analysis, testing, and PoC tooling  

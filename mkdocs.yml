@@ -71,6 +71,7 @@ nav:
 - Certifications: certifications.md
 - Cybersecurity:
   - Overview: cybersecurity/index.md
+  - TraceLock (Signature Project): cybersecurity/tracelock.md
   - Homelab Infrastructure: cybersecurity/homelab-infrastructure.md
   - Homelab Build: cybersecurity/homelab-journey.md
   - PCI DSS Compliance — Windows 11 Hardening:
@@ -86,6 +87,7 @@ nav:
   - Drone Cyber Payload Systems: innovation/drone-payload-systems.md
   - Blog Write-Ups: cybersecurity/blog-writeups.md
   - Windows 11 PCI-DSS Hardening: cybersecurity/windows11-pcidss-hardening.md
+- Projects: projects.md
 - Python:
   - Overview: python/index.md
   # - 100 Days of Python:
