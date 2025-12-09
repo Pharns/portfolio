@@ -12,7 +12,7 @@
 <div class="section-panel" markdown>
 - **AI-augmented engineer** — multi-agent LLM workflows for policy, detections, and documentation.
 - **Cloud/GRC hybrid** — default-deny storage, GuardDuty evidence export, scoped IAM, CIS/NIST mapping.
-- **TraceLock founder** — RF/SDR telemetry pipeline with evidence-grade logging.
+- **TraceLock builder** — RF/SDR telemetry pipeline with evidence-grade logging.
 - **Compliance-ready** — PCI-DSS endpoint hardening, law-firm intake/remediation, documented runbooks.
 </div>
 
