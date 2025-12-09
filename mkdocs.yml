@@ -99,6 +99,7 @@ nav:
   - Homelab:
     - Homelab Infrastructure: cybersecurity/homelab-infrastructure.md
     - Homelab Build: cybersecurity/homelab-journey.md
+    - Remote Access & Zero-WAN: cybersecurity/remote-access-zero-wan.md
   - Vulnerability Assessment: cybersecurity/vulnerability-assessment.md
   - Penetration Testing: cybersecurity/penetration-testing.md
   - Drone Cyber Payload Systems: innovation/drone-payload-systems.md

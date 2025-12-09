@@ -75,7 +75,7 @@ SuiteCRM, Docuseal, Nextcloud, Wiki.js, SearXNG with IAM, backups, patch automat
 **Remote access & Zero-WAN**  
 Tailscale/RustDesk-based remote access with IAM, backups, patch automation—no exposed WAN.  
 <span class="tag-chip">Access</span> <span class="tag-chip">Hardening</span>  
-[Read](cybersecurity/homelab-infrastructure.md)
+[Read](cybersecurity/remote-access-zero-wan.md)
 </div>
 <div class="stat-tile" markdown>
 **RF/UAS Security Research**  
