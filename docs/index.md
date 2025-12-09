@@ -8,7 +8,7 @@
 
 ---
 
-## ⚡ Hiring signals
+## ⚡ Role fit highlights
 <div class="section-panel" markdown>
 - **AI-augmented engineer** — multi-agent LLM workflows for policy, detections, and documentation.
 - **Cloud/GRC hybrid** — default-deny storage, GuardDuty evidence export, scoped IAM, CIS/NIST mapping.
