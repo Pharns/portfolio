@@ -14,6 +14,7 @@
 - **Cloud/GRC hybrid** — default-deny storage, GuardDuty evidence export, scoped IAM, CIS/NIST mapping.
 - **TraceLock™ builder** — RF/SDR telemetry pipeline with evidence-grade logging.
 - **Compliance-ready** — PCI-DSS endpoint hardening, law-firm intake/remediation, documented runbooks.
+- **Remote-first** — open to international remote collaboration across US/EU/LatAm-friendly time zones.
 </div>
 
 ---
