@@ -1,6 +1,8 @@
 # Certifications & Education
 
-**Education & licenses:** B.S. Cybersecurity & Information Assurance (WGU) — Dec 2025 (in progress) · FAA Part 107 Remote Pilot · HAM/GMRS  
+- **Education & licenses:** B.S. Cybersecurity & Information Assurance (WGU) — Dec 2025 (in progress)
+- **Licenses:** FAA Part 107 Remote Pilot · HAM/GMRS
+
 **Verify badges:** [Credly profile](https://www.credly.com/users/pharns)
 
 | Date       | Credential                                      | Status | Artifact/Notes |
