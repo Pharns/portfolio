@@ -6,7 +6,7 @@ LinkedIn: https://www.linkedin.com/in/pharns/ · GitHub: https://github.com/Phar
 ---
 
 ## Summary
-AI-augmented Cloud/GRC and Detection Engineer who builds audit-ready cloud and hybrid stacks with evidence-first logging, IAM discipline, and automation. Delivers compliance-grade intake workflows, endpoint hardening, and cloud guardrails mapped to CIS/NIST. Veteran, FAA Part 107. Target: GRC Engineer / Cloud Compliance / Security Engineer roles.
+AI-augmented Cloud/GRC and Detection Engineer who builds audit-ready cloud and hybrid stacks with evidence-first logging, IAM discipline, and automation. Delivers compliance-grade intake workflows, endpoint hardening, and cloud guardrails mapped to CIS/NIST. USAF Veteran, FAA Part 107. Target: GRC Engineer / Cloud Compliance / Security Engineer roles.
 
 ## Core Skills
 - **GRC & Controls:** CIS/NIST/ISO mappings, evidence pipelines, control attestation, intake/runbooks, retention, access reviews

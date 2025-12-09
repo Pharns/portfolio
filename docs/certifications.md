@@ -1,5 +1,7 @@
 # Certifications & Education
 
+**Verify badges:** [Credly profile](https://www.credly.com/users/pharns)
+
 | Date       | Credential                                      | Status | Artifact/Notes |
 |------------|-------------------------------------------------|--------|----------------|
 | 2025-01-17 | CompTIA Security+ ce                            | ✅     | 2025-0117 CompTIA Security+ ce certificate.pdf |
