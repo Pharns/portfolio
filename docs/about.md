@@ -5,6 +5,7 @@ I design and secure systems end-to-end: cloud guardrails, endpoint hardening, de
 **Who I am:** Security engineer and GRC practitioner with production hardening experience and a patented UAV payload background; service-disabled veteran and FAA Part 107.  
 **How I work:** Evidence-first (controls, logs, screenshots), plain-English reporting, AI-assisted with human review, rapid iterations and clear handoffs.  
 **Signals:** WGU B.S. Cybersecurity (Dec 2025), Security+/Net+/A+, ITIL4, ISC² CC/SSCP (Assoc.), LPI, FAA Part 107, HAM/GMRS; AWS CP/CySA+/Pentest+ scheduled Dec 2025.  
+**Leadership & discipline:** Led AAM Cyber client work; disciplined execution shaped by high-stakes military environments.  
 
 **What I deliver (examples):**
 - Cloud guardrails and evidence export stood up in hours, with narrow IAM and compliance mapping.
