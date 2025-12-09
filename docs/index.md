@@ -26,10 +26,24 @@
 ---
 
 ## 📊 Metrics & proof points
-- **<48h** — PCI-DSS Windows 11 lockdown with encryption, EDR, outbound monitoring, and audit views.
-- **GuardDuty + TLS-only S3** — Findings export to locked-down storage; scoped IAM for ops/IR.
-- **Detections authored** — SOC lab rules with enrichment, FP tuning, and runbook notes.
-- **Evidence-first logging** — TraceLock schemas and intake portal audit trails mapped to controls.
+<div class="stat-grid" markdown>
+<div class="stat-tile" markdown>
+**<48h**  
+PCI-DSS Windows 11 lockdown with evidence pack
+</div>
+<div class="stat-tile" markdown>
+**GuardDuty → TLS-only S3**  
+Findings export to locked-down storage; scoped IAM for ops/IR
+</div>
+<div class="stat-tile" markdown>
+**Detections authored**  
+SOC lab rules with enrichment, FP tuning, and runbooks
+</div>
+<div class="stat-tile" markdown>
+**Evidence-first logging**  
+TraceLock schemas and intake portal audit trails mapped to controls
+</div>
+</div>
 
 ---
 
