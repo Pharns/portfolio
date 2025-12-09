@@ -1,4 +1,5 @@
 # TraceLock™ — Evidence-First RF/SDR Telemetry
+*Updated: {{ page.meta.git_revision_date_localized or "" }}*
 
 **TL;DR:** TraceLock™ is a portable RF/wireless threat detector that watches Wi-Fi, Bluetooth, ISM (rtl_433), and ADS-B, then correlates signals and alerts in real time. It helps security teams find rogue trackers, detect remote detonation signals sooner, and keeps evidence logs for audits—built with secure coding, AI-assisted parsing, and CI-tested components.
 
