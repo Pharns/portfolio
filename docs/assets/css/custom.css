@@ -142,7 +142,7 @@
   margin: 1rem 0 0.5rem;
 }
 .stat-tile {
-  background: rgba(15, 27, 63, 0.8);
+  background: rgba(15, 27, 63, 0.5);
   border-radius: var(--pg-radius);
   padding: 0.85rem 1rem;
   box-shadow: var(--pg-shadow);
@@ -171,8 +171,8 @@
 
 /* Section panels and dividers */
 .section-panel {
-  background: linear-gradient(135deg, rgba(15, 27, 63, 0.28), rgba(13, 60, 97, 0.18));
-  border: 1px solid rgba(44, 177, 255, 0.06);
+  background: linear-gradient(135deg, rgba(15, 27, 63, 0.1), rgba(13, 60, 97, 0.08));
+  border: 1px solid rgba(44, 177, 255, 0.04);
   border-radius: var(--pg-radius);
   padding: 1.25rem 1.4rem;
   box-shadow: var(--pg-shadow);
