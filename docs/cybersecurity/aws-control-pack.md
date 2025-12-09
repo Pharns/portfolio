@@ -6,6 +6,8 @@
 
 Default-deny storage, evidence capture, and least-privilege IAM patterns for interviews and portfolio proof. AWS Cloud Practitioner is pending; CLI validation will be added after the exam.
 
+**Target roles:** Cloud GRC Engineer, Security Compliance Engineer/Analyst, Cloud Security Engineer.
+
 ## What’s Included
 - **S3 private baseline**: Public access block, default encryption (SSE-S3), versioning, lifecycle for MPU cleanup and noncurrent versions, server access logging, TLS-only deny, and role-scoped bucket policy.
 - **GuardDuty findings export**: Detector enabled, hardened S3 destination with public access block + encryption + versioning, TLS-only deny, GuardDuty write allow, ops read allow, sample-findings validation.
@@ -45,3 +47,6 @@ Default-deny storage, evidence capture, and least-privilege IAM patterns for int
 - Cloud/GRC alignment: default-deny storage, evidence pipeline, scoped IAM with control mapping.
 - Audit readiness: clear validation artifacts and redacted proofs.
 - AI-assisted policy authoring with human review and self-checks.
+---
+description: Cloud GRC Engineer portfolio case — S3 default-deny, GuardDuty export to TLS-only S3, scoped IAM with CIS/NIST mapping.
+---
