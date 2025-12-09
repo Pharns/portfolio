@@ -31,7 +31,7 @@ Consent-first, agentless Windows evidence collector with hashes, manifest, and c
 </div>
 <div class="stat-tile" markdown>
 **PCI DSS Endpoint Hardening (Win11)**  
-<48h lockdown; controls matrix; outbound monitoring; evidence pack.  
+Rapid hardening (<2 days); controls matrix; outbound monitoring; evidence pack.  
 <span class="tag-chip">Compliance</span> <span class="tag-chip">Hardening</span> <span class="tag-chip">Audit</span>  
 [Read](cybersecurity/pci-dss/index.md)
 </div>

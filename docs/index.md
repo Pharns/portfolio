@@ -35,8 +35,8 @@
 <div class="section-panel" markdown>
 <div class="stat-grid" markdown>
 <div class="stat-tile" markdown>
-**<48h**  
-PCI-DSS Windows 11 lockdown (audit-ready build)
+**Rapid hardening**  
+PCI-DSS Windows 11 build completed in under 2 days
 </div>
 <div class="stat-tile" markdown>
 **GuardDuty → TLS-only S3**  
