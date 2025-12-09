@@ -1,8 +1,3 @@
-<!-- Tags: cloud, grc, controls, evidence, aws -->
----
-description: Cloud GRC Engineer portfolio case — S3 default-deny, GuardDuty export to TLS-only S3, scoped IAM with CIS/NIST mapping.
----
-
 # Cloud Control Pack (AWS)
 
 **TL;DR:** Default-deny S3, GuardDuty evidence export, and scoped IAM patterns proving applied cloud security with compliance mapping. AI-assisted policy authoring and review accelerate delivery while keeping strict least-privilege.
