@@ -1,9 +1,15 @@
 # About Pharns
 
-I’m a security engineer and detection/GRC practitioner with a patented UAV background and production experience hardening systems. I blend RF/SDR research, SOC-style detection work, and Python automation to deliver secure, observable environments.
+I design and secure systems end-to-end: cloud guardrails, endpoint hardening, detection tuning, and evidence-ready workflows. I blend RF/SDR research, SOC-style detection work, and Python automation with a patented UAV background to deliver fast, auditable results.
 
-- **Focus:** detection engineering, hardening, compliance automation, wireless/RF security.  
-- **How I work:** evidence-first (controls matrices, logs, screenshots), rapid iteration, clear handoffs.  
-- **Background:** WGU B.S. Cybersecurity (Dec 2025), Security+/Net+/A+, CySA+/PenTest+ in progress, ITIL4, ISC² CC/SSCP (Assoc.), FAA Part 107, HAM/GMRS, service-disabled veteran.  
-- **Open to roles:** Security Engineer, Detection/Threat Hunter, GRC/Compliance Automation, Cloud Sec (jr–mid), Cybersecurity Analyst II/III, RF/UAS/Wireless Security Engineer. Remote-first; open to international collaboration and relocation.  
-- **Connect:** [LinkedIn](https://linkedin.com/in/pharns) | [GitHub](https://github.com/pharns) | [Contact](contact.md)  
+**Who I am:** Security engineer and GRC practitioner with production hardening experience and a patented UAV payload background; service-disabled veteran and FAA Part 107.  
+**How I work:** Evidence-first (controls, logs, screenshots), plain-English reporting, AI-assisted with human review, rapid iterations and clear handoffs.  
+**Signals:** WGU B.S. Cybersecurity (Dec 2025), Security+/Net+/A+, ITIL4, ISC² CC/SSCP (Assoc.), LPI, FAA Part 107, HAM/GMRS; AWS CP/CySA+/Pentest+ scheduled Dec 2025.  
+
+**What I deliver (examples):**
+- Cloud guardrails and evidence export stood up in hours, with narrow IAM and compliance mapping.
+- Windows 11 hardening with audit pack in under 48 hours.
+- Detection tuning and IR drills with reduced false positives and documented playbooks.
+
+**Open to roles:** Security Engineer, Security Compliance/Automation, Detection/Threat Hunter, RF/UAS/Wireless Security Engineer, Cloud Security Engineer, GRC Engineer/Analyst. Remote-first; open to international collaboration and relocation.  
+**Connect:** [LinkedIn](https://linkedin.com/in/pharns) | [Contact](contact.md)
