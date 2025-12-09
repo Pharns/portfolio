@@ -7,6 +7,7 @@
 - Access governance with role matrix and provisioning/deprovisioning runbook.
 - Logging, retention, and integrity checks aligned to audit expectations.
 - AI-assisted policy/runbook drafting to speed delivery while preserving control quality.
+- Delivered as anonymized consulting work; client details removed for privacy.
 
 ## Problem → Action → Result
 - **Problem:** Intake and evidence handling lacked access control, integrity guarantees, and auditability.

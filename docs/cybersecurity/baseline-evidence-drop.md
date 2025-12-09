@@ -1,0 +1,47 @@
+# Baseline Evidence Drop (Consent-First Collector)
+
+**TL;DR:** Consent-first, agentless Windows evidence collector (ethical BadUSB + scripts). Captures patch/build, BitLocker, Secure Boot, local admins, firewall, audit policy, time sync, EDR/AV, listeners, and recent updates. Hashes artifacts, builds a manifest with control IDs, and prepares a GIAP-ready intake JSON (stub).
+
+## Problem → Action → Result
+- **Problem:** Need quick, auditable endpoint evidence for GRC assessments without installing agents.
+- **Action:** Built consent-bannered collector (PowerShell) that gathers core artifacts, hashes them, logs runs, and tags control IDs in the manifest; prepares an intake JSON for pipeline handoff.
+- **Result:** Repeatable, audit-ready evidence bundle with integrity data and control mapping; ready for intake into GIAP or manual review.
+
+## Artifacts (current)
+- OS/build/patch metadata and recent KBs.
+- BitLocker status, Secure Boot state.
+- Local administrators membership.
+- Firewall profile status.
+- Audit/logging policy snapshot.
+- Time sync status.
+- EDR/AV presence check.
+- Listening ports snapshot.
+- Run log, hashes file, manifest with control IDs; intake JSON stub.
+
+## Control mapping (examples)
+- CIS v8: 1.4/7.3 (patch), 4.1/4.4/4.11 (encryption/firewall/boot), 5.1/5.3 (accounts), 8.2/8.5 (logging/time), 10.1/10.6 (malware), 4.6 (exposure).
+- NIST 800-53: CM-8, SI-2, MP-4, SI-7, AC-2/AC-6, AU-2/12, AU-8, SI-3/4, SC-7.
+- ISO 27001 Annex A: A.8.1/8.8, A.8.24, A.8.20, A.5.18/8.2, A.8.15, A.8.7.
+
+## Privacy/ethics guardrails
+- Consent banner required (dry-run skips consent during build only).
+- Scope limited to host posture (no user document collection).
+- Hashes and manifest included; optional signing/encryption planned.
+- “Safe share” bundle planned with redaction and integrity data.
+
+## Validation checklist
+- [ ] Consent prompt active outside build phase.
+- [ ] Hashes recorded for every artifact and manifest.
+- [ ] Manifest populated with control IDs and run metadata.
+- [ ] Intake JSON validated against schema once finalized.
+- [ ] Report generator adds pass/fail/unknown per control (planned).
+
+## AI assist
+- Drafted control mappings, manifest schema, and consent/runbook text.
+- Generated intake JSON stub and validation steps.
+- Authored report-generation outline for status evaluation.
+
+## What this demonstrates
+- Compliance and audit mindset with integrity and consent built in.
+- Evidence automation aligned to CIS/NIST/ISO.
+- Quick-start assessment capability that feeds downstream intake/review.

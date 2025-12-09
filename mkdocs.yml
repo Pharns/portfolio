@@ -87,6 +87,8 @@ nav:
     - Windows 11 PCI-DSS Hardening: cybersecurity/windows11-pcidss-hardening.md
   - Detection & IR Lab: cybersecurity/incident-response.md
   - Secure Intake & Evidence Portal: cybersecurity/intake-portal.md
+  - GIAP — Intake & Evidence Automation: cybersecurity/giap.md
+  - Baseline Evidence Drop: cybersecurity/baseline-evidence-drop.md
   - Homelab:
     - Homelab Infrastructure: cybersecurity/homelab-infrastructure.md
     - Homelab Build: cybersecurity/homelab-journey.md

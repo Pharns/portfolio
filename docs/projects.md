@@ -12,9 +12,21 @@ Default-deny S3, GuardDuty evidence export, scoped IAM.
 </div>
 <div class="stat-tile" markdown>
 **Secure Intake & Evidence Portal**  
-Nextcloud + n8n + SuiteCRM with role matrix, TLS, retention, and audit trails.  
+Nextcloud + n8n + SuiteCRM with role matrix, TLS, retention, and audit trails (anonymized consulting delivery).  
 <span class="tag-chip">Compliance</span> <span class="tag-chip">Intake</span> <span class="tag-chip">Automation</span>  
 [Read](cybersecurity/intake-portal.md)
+</div>
+<div class="stat-tile" markdown>
+**GIAP — Intake & Evidence Automation**  
+Structured intake JSON, consented uploads, retention, and control mapping for small orgs/law firms.  
+<span class="tag-chip">GRC</span> <span class="tag-chip">Automation</span> <span class="tag-chip">Evidence</span>  
+[Read](cybersecurity/giap.md)
+</div>
+<div class="stat-tile" markdown>
+**Baseline Evidence Drop**  
+Consent-first, agentless Windows evidence collector with hashes, manifest, and control mapping.  
+<span class="tag-chip">GRC</span> <span class="tag-chip">Evidence</span> <span class="tag-chip">Automation</span>  
+[Read](cybersecurity/baseline-evidence-drop.md)
 </div>
 <div class="stat-tile" markdown>
 **PCI DSS Endpoint Hardening (Win11)**  
