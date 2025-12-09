@@ -2,7 +2,7 @@
 
 **AI-augmented Cloud Security, GRC, and Detection Engineer** — remote-first (low-chaos hybrid OK). I build audit-ready cloud and hybrid stacks with evidence-first logging, IAM discipline, RF/SDR telemetry, and automation. Target roles: Cloud GRC Engineer, Security Compliance Engineer/Analyst, Detection Engineer, RF/Wireless Security.
 
-**Role fit (for hiring managers/HR):** Cloud/GRC Engineer · Detection Engineer · RF/Wireless Security · Compliance & Hardening · Python automation. USAF veteran · FAA Part 107 · US-based (open to relocation). This portfolio is a companion to my resume—click into case studies for controls, evidence, and outcomes.
+**Role fit (for hiring managers/HR):** Cloud/GRC Engineer · Detection Engineer · RF/Wireless Security · Compliance & Hardening · Python automation. USAF Veteran · FAA Part 107 · US-based (open to relocation). This portfolio is a companion to my resume—click into case studies for controls, evidence, and outcomes.
 
 [Contact](contact.md){ .btn-primary } [Signature Projects](projects.md){ .btn-ghost }
 
