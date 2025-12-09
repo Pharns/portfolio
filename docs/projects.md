@@ -18,7 +18,7 @@ Nextcloud + n8n + SuiteCRM intake with IAM, retention, and audit trails (anonymi
 [Read](cybersecurity/intake-portal.md)
 </div>
 <div class="stat-tile" markdown>
-**GIAP™ — Intake & Evidence Automation**  
+**GIAP™ — GRC Intake & Evidence Automation**  
 Structured intake JSON, consent, retention, and control mapping.  
 <span class="tag-chip">GRC</span> <span class="tag-chip">Automation</span> <span class="tag-chip">Evidence</span>  
 [Read](cybersecurity/giap.md)
