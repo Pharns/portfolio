@@ -16,7 +16,7 @@
 - **Compliance-ready** — PCI-DSS endpoint hardening, law-firm intake/remediation, documented runbooks.
 - **Remote-first** — open to international remote collaboration across US/EU/LatAm-friendly time zones.
 - **Relocation-friendly** — willing to move abroad for the right role.
-- **Service-disabled veteran** — trust signal; accustomed to disciplined, high-stakes environments.
+- **Veteran** — trust signal; accustomed to disciplined, high-stakes environments.
 </div>
 
 ---
