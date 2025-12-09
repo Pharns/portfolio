@@ -18,7 +18,7 @@
 
 ---
 
-## 🧭 Signature projects (skim then click through)
+## 🧭 Signature projects
 <div class="section-panel" markdown>
 - **TraceLock™ (RF/SDR telemetry)** — Evidence-first wireless pipeline with AI-assisted parsing and detection tuning. [Open](cybersecurity/tracelock.md)
 - **Cloud Control Pack (AWS)** — S3 default-deny, GuardDuty export, and scoped IAM with control mapping. [Open](cybersecurity/aws-control-pack.md)
