@@ -14,5 +14,4 @@ I design and secure systems end-to-end: cloud guardrails, endpoint hardening, de
  - Built and secured multi-component stacks (Proxmox, Nextcloud, Nginx reverse proxy, SuiteCRM + remote MySQL, SMTP/DNS/certs) with hardened access.
 
 **Open to roles:** Security Engineer, Security Compliance/Automation, Detection/Threat Hunter, RF/UAS/Wireless Security Engineer, Cloud Security Engineer, GRC Engineer/Analyst. Remote-first; open to international collaboration and relocation.  
-**Location & target:** Phoenix-based; remote-first; target $110K–$140K base with growth to $150K–$200K.  
 **Connect:** [LinkedIn](https://linkedin.com/in/pharns) | [Contact](contact.md)
