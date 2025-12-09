@@ -76,4 +76,4 @@ Patent holder in UAV payload and delivery systems; cybersecurity-focused patents
 
 ---
 
-[Contact](contact.md){ .btn-primary } [Download GRC Resume](https://portfolio.pharns.com/assets/Pharns_Genece_GRC_Resume.pdf){ .btn-ghost }
+[Contact](contact.md){ .btn-primary }
