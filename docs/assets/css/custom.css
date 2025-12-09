@@ -76,3 +76,40 @@
   background: linear-gradient(90deg, transparent, var(--pg-accent), transparent);
   margin: 2rem 0;
 }
+
+/* Buttons */
+.md-typeset .btn-primary,
+.md-typeset .btn-ghost {
+  display: inline-block;
+  padding: 0.5rem 0.9rem;
+  border-radius: 8px;
+  font-weight: 700;
+  text-decoration: none;
+}
+.md-typeset .btn-primary {
+  background: var(--pg-accent);
+  color: #0b1226;
+  box-shadow: 0 8px 24px rgba(44, 177, 255, 0.35);
+}
+.md-typeset .btn-primary:hover {
+  background: #7dd3fc;
+}
+.md-typeset .btn-ghost {
+  border: 1px solid var(--pg-accent);
+  color: var(--pg-accent);
+}
+.md-typeset .btn-ghost:hover {
+  background: rgba(44, 177, 255, 0.08);
+}
+
+/* Tags */
+.tag-chip {
+  display: inline-block;
+  padding: 0.2rem 0.6rem;
+  border-radius: 999px;
+  background: rgba(44, 177, 255, 0.12);
+  color: #bde6ff;
+  font-weight: 600;
+  font-size: 0.85rem;
+  border: 1px solid rgba(44, 177, 255, 0.35);
+}

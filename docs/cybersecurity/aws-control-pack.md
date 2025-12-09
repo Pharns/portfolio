@@ -14,12 +14,32 @@ Default-deny storage, evidence capture, and least-privilege IAM patterns for int
 - Aligns with CIS storage/logging/IAM controls and NIST CSF (PR.AC, PR.DS, DE.CM).
 - Ready to pair with AWS CP to demonstrate hands-on skill, not just the credential.
 
+## Control mapping (examples)
+| Control area | Implementation | Frameworks |
+| --- | --- | --- |
+| Storage default-deny | S3 PAB, SSE-S3, TLS-only bucket policy, versioning/lifecycle | CIS Storage, NIST PR.DS, PR.AC |
+| Evidence logging | Server access logs to locked-down bucket; GuardDuty export bucket hardened | CIS Logging/Monitoring, NIST DE.CM |
+| IAM least privilege | Scoped app role to bucket + Param Store path; optional KMS constraint | CIS IAM, NIST PR.AC |
+| Network enforcement | TLS-only denies for S3 + Param Store access | CIS Network/Encryption, NIST PR.DS |
+
 ## Artifacts (public summaries)
 - S3 baseline: commands and policy elements summarized here; full CLI run to be added post-exam.
 - GuardDuty export: detector creation and S3 destination summary; sample-finding check pending CLI capture.
 - IAM LP role: policy skeleton with TLS-only deny and scoped resources; optional KMS context restriction.
 
+## Validation checklist (post AWS CP)
+- [ ] Capture `aws s3api get-bucket-policy` and PAB settings for baseline bucket.
+- [ ] Show `aws guardduty list-detectors` + export destination config; include sample findings run.
+- [ ] Validate IAM role policy with TLS-only deny and resource scoping; attach trust policy screenshot.
+- [ ] Provide redacted ARNs/account IDs; prove versioning/lifecycle status.
+- [ ] Map controls to CIS/NIST table above in the case study.
+
 ## Next Steps (post AWS CP)
 - Capture CLI outputs for S3 baseline, GuardDuty export, and IAM LP role creation/validation.
 - Add screenshots or code blocks with redacted ARNs/account IDs.
 - Map each control to CIS/NIST in a short table for quick recruiter reference.
+
+## What this demonstrates
+- Cloud/GRC alignment: default-deny storage, evidence pipeline, scoped IAM with control mapping.
+- Audit readiness: clear validation artifacts and redacted proofs.
+- AI-assisted policy authoring with human review and self-checks.

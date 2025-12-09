@@ -1,57 +1,57 @@
 # **👋 Hi, I’m Pharns**
 
-**AI-augmented Cloud/GRC & Detection Engineer** — targeting $110K–$150K (stretch $150K–$200K), remote-first (low-chaos hybrid OK). I blend cloud guardrails, PCI-DSS endpoint hardening, SOC/detection tuning, and RF/SDR telemetry (TraceLock), accelerated with multi-agent LLM workflows.
+**AI-augmented Cloud Security, GRC, and Detection Engineer** — remote-first (low-chaos hybrid OK). I build audit-ready cloud and hybrid stacks with evidence-first logging, IAM discipline, RF/SDR telemetry, and automation.
 
-**Core signals:** Windows 11 PCI baseline with evidence pack · TraceLock RF/SDR telemetry + AI parsing · Proxmox/Security Onion + TheHive/Cortex lab · Tailscale/RustDesk zero-WAN remote access · Law-firm GRC intake/remediation · Part 107 & veteran
+**Role fit (for hiring managers/HR):** Cloud/GRC Engineer · Detection Engineer · RF/Wireless Security · Compliance & Hardening · Python automation. Veteran · FAA Part 107 · US-based. This portfolio is a companion to my resume—click into case studies for controls, evidence, and outcomes.
 
-CTA: [TraceLock](cybersecurity/tracelock.md) · [Cloud/GRC controls](cybersecurity/aws-control-pack.md) · [PCI-DSS hardening](cybersecurity/pci-dss/index.md) · [Detection lab](cybersecurity/incident-response.md) · [Contact](contact.md)
-
-!!! tip "How to browse"
-    Cybersecurity, Python, and Innovation tabs link to detailed write-ups, repos, and case studies.
-
-!!! note "Featured: PCI DSS endpoint hardening"
-    Locked down a Windows 11 workstation (encryption, EDR, patching, outbound monitoring) in <48 hours. [See the case study](cybersecurity/pci-dss/index.md).
+[Contact](contact.md){ .btn-primary } [Signature Projects](projects.md){ .btn-ghost }
 
 ---
 
-## **🎓 Snapshot**
-- **B.S. Cybersecurity & Information Assurance (WGU)** — Dec 2025  
-- **Certifications:** Security+, Network+, A+, AWS Cloud Practitioner (pending), CySA+ (pending), PenTest+ (pending), ITIL4, ISC² CC, SSCP (Assoc.), Linux Essentials  
-- **Core Focus:** Detection/IR, vulnerability assessment & hardening, compliance automation, wireless/RF security, Python automation & tooling  
-- **Licenses & Background:** FAA Part 107, HAM/GMRS, veteran; patented UAV payload systems  
-
----  
-
-## 🚀 **Hands-On Highlights**
-
-- **Production system hardening** — Secured self-hosted SuiteCRM, Docuseal, Nextcloud, Wiki.js, and SearXNG with IAM, backups, patch automation, and service hardening.  
-- **PCI DSS endpoint hardening** — Windows 11 lockdown (encryption, EDR, patching, outbound monitoring). [Case study](cybersecurity/pci-dss/index.md)  
-- **Detection & IR lab** — Proxmox-based SOC lab with Security Onion, TheHive/Cortex, and Nessus for SIEM/IDS and incident simulations; used for continuous tuning and playbook practice.  
-- **Zero Trust pilots** — Tested Tailscale, Twingate, and Netbird for secure access and IAM models; documented tradeoffs for small teams.  
-- **RF/UAS security research** — Built UAV platforms integrating SDR and pentest payloads; engineered 3D-printed housings for modular RF tools; patented payload architectures.  
-- **Mesh networking & wireless resilience** — Licensed Amateur Radio & GMRS operator; deployed Meshtastic LoRa mesh network to evaluate decentralized comms.  
-- **Offensive security toolkit** — WiFi Pineapple, HackRF One, Flipper Zero, Rubber Ducky for penetration testing and app security research.  
+## ⚡ Hiring signals
+- **AI-augmented engineer** — multi-agent LLM workflows for policy, detections, and documentation.
+- **Cloud/GRC hybrid** — default-deny storage, GuardDuty evidence export, scoped IAM, CIS/NIST mapping.
+- **TraceLock founder** — RF/SDR telemetry pipeline with evidence-grade logging.
+- **Compliance-ready** — PCI-DSS endpoint hardening, law-firm intake/remediation, documented runbooks.
 
 ---
 
-## 🧰 **Core Skills Snapshot**
-
-- **Detection & IR** — SOC workflows, SIEM, IDS/IPS tuning, anomaly detection  
-- **Vulnerability & Hardening** — Nessus, wireless/web testing, Windows/Linux hardening  
-- **Compliance & Automation** — NIST CSF, ISO 27001, PCI; evidence collection and scripting  
-- **Access & Cloud** — Zero Trust pilots, IAM, secure remote access patterns  
-- **Wireless & RF Security** — SDR, ham radio, UAV-based RF interception, mesh networking  
-- **DevSecOps & SDLC** — Security automation, secure code review, container security  
-- **Leadership & Delivery** — Veteran; project delivery under pressure; mentoring and stakeholder comms  
+## 🧭 Signature projects (skim then click through)
+- **TraceLock (RF/SDR telemetry)** — Evidence-first wireless pipeline with AI-assisted parsing and detection tuning. [Open](cybersecurity/tracelock.md)
+- **Cloud Control Pack (AWS)** — S3 default-deny, GuardDuty export, and scoped IAM with control mapping. [Open](cybersecurity/aws-control-pack.md)
+- **Windows 11 PCI-DSS hardening** — <48h lockdown with evidence pack for audit. [Open](cybersecurity/pci-dss/index.md)
+- **Detection & IR lab** — Security Onion + TheHive/Cortex drills with authored detections. [Open](cybersecurity/incident-response.md)
+- **Secure intake & evidence portal** — Nextcloud + n8n + SuiteCRM with role matrix and retention. [Open](cybersecurity/intake-portal.md)
 
 ---
 
-## 💡 **Innovation & Patents**
-Patent holder in UAV payload and delivery systems; cybersecurity-focused patents pending. Detailed write-ups are in the [Innovation Section](innovation/index.md). Patent documentation available on request.  
+## 📊 Metrics & proof points
+- **<48h** — PCI-DSS Windows 11 lockdown with encryption, EDR, outbound monitoring, and audit views.
+- **GuardDuty + TLS-only S3** — Findings export to locked-down storage; scoped IAM for ops/IR.
+- **Detections authored** — SOC lab rules with enrichment, FP tuning, and runbook notes.
+- **Evidence-first logging** — TraceLock schemas and intake portal audit trails mapped to controls.
 
 ---
 
-## 🌟 **Cyber Integration**
-- Homelab supports UAV-cyber integration testing  
-- RF/SDR research feeds secure payload and delivery design  
-- Python projects automate analysis, testing, and PoC tooling  
+## 🧰 Core skills
+- **Cloud/GRC:** IAM least privilege, storage/logging baselines, CIS/NIST control mapping, evidence pipelines.
+- **Compliance automation:** Intake workflows, retention, provisioning/deprovisioning, audit-ready runbooks.
+- **Detection & IR:** SIEM/IDS tuning, enrichment, incident drills, RF/wireless telemetry parsing.
+- **Hardening:** PCI endpoint lockdown, self-hosted stack hardening (SuiteCRM, Docuseal, Nextcloud, Wiki.js).
+- **AI-assisted delivery:** Multi-agent prompting for policy/detections/scripts with self-checks.
+
+---
+
+## 🎓 Credentials
+- **B.S. Cybersecurity & Information Assurance (WGU)** — Dec 2025
+- **Certifications:** Security+, Network+, A+, AWS Cloud Practitioner (pending), CySA+ (pending), PenTest+ (pending), ITIL4, ISC² CC, SSCP (Assoc.), Linux Essentials
+- **Licenses:** FAA Part 107, HAM/GMRS
+
+---
+
+## 💡 Innovation & patents
+Patent holder in UAV payload and delivery systems; cybersecurity-focused patents pending. See [Innovation](innovation/index.md) for RF/UAS research.
+
+---
+
+[Contact](contact.md){ .btn-primary } [Download GRC Resume](https://portfolio.pharns.com/assets/Pharns_Genece_GRC_Resume.pdf){ .btn-ghost }
