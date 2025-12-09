@@ -12,10 +12,10 @@ Default-deny S3 + GuardDuty export; scoped IAM with CIS/NIST mapping.
 [Read](cybersecurity/aws-control-pack.md)
 </div>
 <div class="stat-tile" markdown>
-**Secure Intake & Evidence Portal**  
-Nextcloud + n8n + SuiteCRM intake with IAM, retention, and audit trails (anonymized).  
-<span class="tag-chip">Compliance</span> <span class="tag-chip">Intake</span> <span class="tag-chip">Automation</span>  
-[Read](cybersecurity/intake-portal.md)
+**TraceLock™ (RF/SDR telemetry)**  
+Evidence-first RF/SDR pipeline with AI-assisted parsing and detections.  
+<span class="tag-chip">RF</span> <span class="tag-chip">Detection</span> <span class="tag-chip">AI</span>  
+[Read](cybersecurity/tracelock.md)
 </div>
 <div class="stat-tile" markdown>
 **GIAP™ — GRC Intake & Evidence Automation**  
@@ -35,18 +35,18 @@ Rapid hardening (<2 days) with controls matrix and evidence pack.
 <span class="tag-chip">Compliance</span> <span class="tag-chip">Hardening</span> <span class="tag-chip">Audit</span>  
 [Read](cybersecurity/pci-dss/index.md)
 </div>
+<div class="stat-tile" markdown>
+**Secure Intake & Evidence Portal**  
+Nextcloud + n8n + SuiteCRM intake with IAM, retention, and audit trails (anonymized).  
+<span class="tag-chip">Compliance</span> <span class="tag-chip">Intake</span> <span class="tag-chip">Automation</span>  
+[Read](cybersecurity/intake-portal.md)
+</div>
 </div>
 </div>
 
 ## Detection, IR, and Telemetry
 <div class="section-panel" markdown>
 <div class="stat-grid" markdown>
-<div class="stat-tile" markdown>
-**TraceLock™ (RF/SDR telemetry)**  
-Evidence-first RF/SDR pipeline with AI-assisted parsing and detections.  
-<span class="tag-chip">RF</span> <span class="tag-chip">Detection</span> <span class="tag-chip">AI</span>  
-[Read](cybersecurity/tracelock.md)
-</div>
 <div class="stat-tile" markdown>
 **Detection & IR Lab**  
 SIEM/IDS tuning, incident drills, authored detections with enrichment/FP reduction.  
