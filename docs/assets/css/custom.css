@@ -61,6 +61,15 @@
 .md-typeset a:hover {
   color: #7dd3fc;
 }
+.card a,
+.stat-tile a {
+  color: #0f1b3f;
+  font-weight: 700;
+}
+.card a:hover,
+.stat-tile a:hover {
+  color: #0d3c61;
+}
 
 /* Tables */
 .md-typeset table {
