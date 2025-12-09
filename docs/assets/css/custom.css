@@ -171,11 +171,11 @@
 
 /* Section panels and dividers */
 .section-panel {
-  background: linear-gradient(135deg, rgba(15, 27, 63, 0.1), rgba(13, 60, 97, 0.08));
-  border: 1px solid rgba(44, 177, 255, 0.04);
+  background: none;
+  border: none;
   border-radius: var(--pg-radius);
-  padding: 1.25rem 1.4rem;
-  box-shadow: var(--pg-shadow);
+  padding: 0;
+  box-shadow: none;
 }
 .section-break {
   height: 2px;
