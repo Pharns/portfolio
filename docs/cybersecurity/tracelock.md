@@ -1,7 +1,5 @@
 # TraceLock™ — Evidence-First RF/SDR Telemetry
 
-*Updated: {{ page.meta.git_revision_date_localized or "" }}*
-
 **TL;DR:** Multi-sensor RF/wireless telemetry (Kismet, rtl_433, ADS-B) with AI-assisted parsing and evidence logging. Demonstrates RF security specialization, detection engineering, hardening, and compliance-minded logging for high-signal roles.
 
 ## Scenario (capstone-safe)
