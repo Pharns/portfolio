@@ -1,6 +1,6 @@
 # Cloud Control Pack (AWS)
 
-**TL;DR:** Default-deny S3, GuardDuty evidence export, and scoped IAM patterns proving applied cloud security with compliance mapping. AI-assisted policy authoring and review accelerate delivery while keeping strict least-privilege.
+**TL;DR:** Lock down AWS storage by default, export security alerts safely, and use narrow IAM roles. Shows cloud control discipline with clear compliance mapping. Built quickly with AI checks but kept least-privilege.
 
 Default-deny storage, evidence capture, and least-privilege IAM patterns for interviews and portfolio proof. AWS Cloud Practitioner is pending; CLI validation will be added after the exam.
 
