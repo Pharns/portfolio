@@ -4,7 +4,7 @@
 
 **Role fit (for hiring managers/HR):** Cloud/GRC Engineer · Detection Engineer · RF/Wireless Security · Compliance & Hardening · Python automation. Veteran · FAA Part 107 · US-based. This portfolio is a companion to my resume—click into case studies for controls, evidence, and outcomes.
 
-[Contact](contact.md){ .btn-primary } [Signature Projects](projects.md){ .btn-ghost } [GRC Resume](grc-resume.md){ .btn-ghost }
+[Contact](contact.md){ .btn-primary } [Signature Projects](projects.md){ .btn-ghost } [View GRC resume](grc-resume.md){ .btn-ghost }
 
 ---
 
