@@ -1,6 +1,6 @@
 # TraceLock™ — Evidence-First RF/SDR Telemetry
 
-**TL;DR:** Multi-sensor RF/wireless telemetry (Kismet, rtl_433, ADS-B) with AI-assisted parsing and evidence logging. Demonstrates RF security specialization, detection engineering, hardening, and compliance-minded logging for high-signal roles.
+**TL;DR:** TraceLock™ is a portable RF/wireless threat detector that watches Wi-Fi, Bluetooth, ISM (rtl_433), and ADS-B, then correlates signals and alerts in real time. It helps security teams find rogue trackers, detect remote detonation signals sooner, and keeps evidence logs for audits—built with secure coding, AI-assisted parsing, and CI-tested components.
 
 ## Scenario (capstone-safe)
 - **Client context:** Centurion Shield Response (CSR), 230-person protective services firm (EOD sweeps + executive protection).
