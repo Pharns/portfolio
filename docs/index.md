@@ -1,11 +1,10 @@
 # **👋 Hi, I’m Pharns**
 
-**Security Engineer & Detection/GRC Practitioner | RF & SDR Security | Python for Security | UAV Systems Innovator (Patented)**
+**AI-augmented Cloud/GRC & Detection Engineer** — targeting $110K–$150K (stretch $150K–$200K), remote-first (low-chaos hybrid OK). I blend cloud guardrails, PCI-DSS endpoint hardening, SOC/detection tuning, and RF/SDR telemetry (TraceLock), accelerated with multi-agent LLM workflows.
 
-Bringing UAV design/payload experience together with production IT/IAM and cybersecurity engineering.
+**Core signals:** Windows 11 PCI baseline with evidence pack · TraceLock RF/SDR telemetry + AI parsing · Proxmox/Security Onion + TheHive/Cortex lab · Tailscale/RustDesk zero-WAN remote access · Law-firm GRC intake/remediation · Part 107 & veteran
 
-**Open to roles in:** Security Engineer (remote) • Detection Engineer / Threat Hunter • GRC Engineer / Compliance Automation • Cloud Security Engineer (jr–mid) • Cybersecurity Analyst II/III • RF/UAS/Wireless Security Engineer  
-Reach me via the [contact page](contact.md) or LinkedIn.
+CTA: [TraceLock](cybersecurity/tracelock.md) · [Cloud/GRC controls](cybersecurity/aws-control-pack.md) · [PCI-DSS hardening](cybersecurity/pci-dss/index.md) · [Detection lab](cybersecurity/incident-response.md) · [Contact](contact.md)
 
 !!! tip "How to browse"
     Cybersecurity, Python, and Innovation tabs link to detailed write-ups, repos, and case studies.
@@ -17,7 +16,7 @@ Reach me via the [contact page](contact.md) or LinkedIn.
 
 ## **🎓 Snapshot**
 - **B.S. Cybersecurity & Information Assurance (WGU)** — Dec 2025  
-- **Certifications:** Security+, Network+, A+, CySA+ (in progress), PenTest+ (in progress), ITIL4, ISC² CC, SSCP (Assoc.), Linux Essentials  
+- **Certifications:** Security+, Network+, A+, AWS Cloud Practitioner (pending), CySA+ (pending), PenTest+ (pending), ITIL4, ISC² CC, SSCP (Assoc.), Linux Essentials  
 - **Core Focus:** Detection/IR, vulnerability assessment & hardening, compliance automation, wireless/RF security, Python automation & tooling  
 - **Licenses & Background:** FAA Part 107, HAM/GMRS, veteran; patented UAV payload systems  
 

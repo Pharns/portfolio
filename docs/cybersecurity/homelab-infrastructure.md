@@ -1,5 +1,7 @@
 # 🏠 **Homelab Infrastructure**
 
+**TL;DR:** Proxmox-based SOC/detection lab with pfSense segmentation, Security Onion/Wazuh/Nessus/TheHive, and zero-trust pilots (Tailscale/Twingate/Netbird). Demonstrates hands-on detection engineering, remote access design, and evidence-ready hardening.
+
 A Proxmox-based homelab designed as a practical testbed to build, break, and secure enterprise-like systems. This environment delivers **hands-on experience with the same tools and architectures used in modern SOCs and IT operations**. The following sections highlight key competencies developed and how they translate into professional value for an organization.   
 
 ---

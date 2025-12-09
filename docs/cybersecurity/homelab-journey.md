@@ -1,5 +1,7 @@
 # 🚀 **Homelab Build Journey: Building a Virtual Security Lab with Proxmox**
 
+**TL;DR:** Planning-to-build walkthrough of the Proxmox SOC lab, highlighting security-first decisions (checksums/GPG, segmentation, Zero Trust pilots) and repeatable steps for rapid, evidence-ready deployment.
+
 This page is a write-up of how I planned, built, and secured my homelab. It complements the [Homelab Infrastructure (Summary)](homelab-infrastructure.md) by documenting the full journey — from hardware selection to ongoing improvements.  
 
 ---

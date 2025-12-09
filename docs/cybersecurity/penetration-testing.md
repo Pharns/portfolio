@@ -1,5 +1,7 @@
 # Penetration Testing
 
+**TL;DR:** Offensive lab reps against DVWA/Metasploitable using Kali/Burp/Metasploit. Demonstrates recon → exploit → privilege escalation → documentation discipline with AI-assisted note-taking.
+
 ## Objective
 Perform penetration testing on vulnerable lab applications.
 

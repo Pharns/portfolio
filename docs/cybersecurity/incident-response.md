@@ -1,5 +1,7 @@
 # Incident Response Workflow
 
+**TL;DR:** Proxmox-based SOC lab (Security Onion + TheHive/Cortex) for simulated detections, triage, and enrichment. Demonstrates detection engineering, IR playbook execution, and AI-supported documentation.
+
 ## Objective
 Simulate and respond to a cybersecurity incident.
 

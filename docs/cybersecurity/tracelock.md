@@ -1,5 +1,7 @@
 # TraceLock — Signature Project (Public-Safe Placeholder)
 
+**TL;DR:** RF/SDR telemetry and wireless situational awareness pipeline (Kismet, rtl_433, ADS-B) with AI-assisted parsing and evidence logging. Demonstrates RF security specialization, detection engineering, and AI-augmented workflows for high-signal roles.
+
 _Update with sanitized specifics once provided._
 
 ## Overview
