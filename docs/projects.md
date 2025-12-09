@@ -18,7 +18,7 @@ Nextcloud + n8n + SuiteCRM with role matrix, TLS, retention, and audit trails (a
 [Read](cybersecurity/intake-portal.md)
 </div>
 <div class="stat-tile" markdown>
-**GIAP — Intake & Evidence Automation**  
+**GIAP™ — Intake & Evidence Automation**  
 Structured intake JSON, consented uploads, retention, and control mapping for small orgs/law firms.  
 <span class="tag-chip">GRC</span> <span class="tag-chip">Automation</span> <span class="tag-chip">Evidence</span>  
 [Read](cybersecurity/giap.md)

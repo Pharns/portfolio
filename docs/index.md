@@ -25,7 +25,7 @@
 - **Windows 11 PCI-DSS hardening** — <48h lockdown with evidence pack for audit. [Open](cybersecurity/pci-dss/index.md)
 - **Detection & IR lab** — Security Onion + TheHive/Cortex drills with authored detections. [Open](cybersecurity/incident-response.md)
 - **Secure intake & evidence portal** — Nextcloud + n8n + SuiteCRM with role matrix and retention; delivered as anonymized consulting work. [Open](cybersecurity/intake-portal.md)
-- **GIAP — intake & evidence automation** — Structured intake JSON, consented uploads, retention, and control mapping. [Open](cybersecurity/giap.md)
+- **GIAP™ — intake & evidence automation** — Structured intake JSON, consented uploads, retention, and control mapping. [Open](cybersecurity/giap.md)
 - **Baseline Evidence Drop** — Consent-first, agentless Windows evidence collector with hashes and manifest. [Open](cybersecurity/baseline-evidence-drop.md)
 </div>
 
