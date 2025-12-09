@@ -1,4 +1,4 @@
-# **👋 Hi, I’m Pharns**
+# **👋 Hi, I’m Pharns** (pronounced “Founce”)
 
 **AI-augmented Cloud Security, GRC, and Detection Engineer** — remote-first (low-chaos hybrid OK). I build audit-ready cloud and hybrid stacks with evidence-first logging, IAM discipline, RF/SDR telemetry, and automation.
 
