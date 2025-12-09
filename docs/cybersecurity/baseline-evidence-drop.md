@@ -13,7 +13,7 @@ description: Consent-first Windows evidence collector with hashes, manifest, and
 ## Problem → Action → Result
 - **Problem:** Need quick, auditable endpoint evidence for GRC assessments without installing agents.
 - **Action:** Built consent-bannered collector (PowerShell) that gathers core artifacts, hashes them, logs runs, and tags control IDs in the manifest; prepares an intake JSON for pipeline handoff.
-- **Result:** Repeatable, audit-ready evidence bundle with integrity data and control mapping; ready for intake into GIAP or manual review.
+- **Result:** Repeatable, audit-ready evidence bundle with integrity data and control mapping; ready for intake into GIAP™ or manual review.
 
 ## Artifacts (current)
 - OS/build/patch metadata and recent KBs.
@@ -59,7 +59,7 @@ description: Consent-first Windows evidence collector with hashes, manifest, and
 - Compliance and audit mindset with integrity and consent built in.
 - Evidence automation aligned to CIS/NIST/ISO.
 - Quick-start assessment capability that feeds downstream intake/review.
-- Works alongside intake automation ([GIAP](giap.md)) and cloud controls ([Cloud Control Pack](aws-control-pack.md)) for complete evidence coverage.
+- Works alongside intake automation ([GIAP™](giap.md)) and cloud controls ([Cloud Control Pack](aws-control-pack.md)) for complete evidence coverage.
 
 ---
 

@@ -12,6 +12,23 @@
   --pg-shadow-soft: 0 20px 44px rgba(0, 0, 0, 0.2);
   --md-typeset-font-family: "Manrope", "Inter", "Segoe UI", system-ui, -apple-system, sans-serif;
   --md-code-font-family: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+
+  /* Light mode tile colors */
+  --tile-bg-light: #f7f9fc;
+  --tile-text-light: #0a0c12;
+  --tile-border-light: rgba(44, 177, 255, 0.06);
+
+  /* Dark mode tile colors */
+  --tile-bg-dark: #1a2332;
+  --tile-text-dark: #e5e7eb;
+  --tile-border-dark: rgba(44, 177, 255, 0.15);
+}
+
+/* Dark mode support */
+[data-md-color-scheme="slate"] {
+  --tile-bg-light: var(--tile-bg-dark);
+  --tile-text-light: var(--tile-text-dark);
+  --tile-border-light: var(--tile-border-dark);
 }
 
 /* Layout & typography scale */
@@ -75,19 +92,42 @@
   text-decoration-color: #06162d;
 }
 
-/* Tables */
+/* Tables - Improved responsiveness */
 .md-typeset table {
   border-radius: var(--pg-radius);
   overflow: hidden;
   box-shadow: var(--pg-shadow);
+  width: 100%;
+  font-size: 0.9rem;
 }
 .md-typeset table th {
   background: linear-gradient(90deg, var(--pg-primary), var(--pg-secondary));
   color: #e5e7eb;
   border: none;
+  padding: 0.75rem 1rem;
+  font-weight: 600;
 }
 .md-typeset table td {
   border: none;
+  padding: 0.75rem 1rem;
+  vertical-align: top;
+}
+
+/* Table wrapper for horizontal scroll on mobile */
+.md-typeset .section-panel table {
+  display: block;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+@media screen and (max-width: 768px) {
+  .md-typeset table {
+    font-size: 0.85rem;
+  }
+  .md-typeset table th,
+  .md-typeset table td {
+    padding: 0.5rem 0.75rem;
+  }
 }
 
 /* Badges for pending/complete */
@@ -150,16 +190,16 @@
 /* Stat tiles */
 .stat-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 1rem;
-  margin: 1rem 0 0.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.25rem;
+  margin: 1.5rem 0;
 }
 .stat-tile {
-  background: #f7f9fc;
+  background: var(--tile-bg-light);
   border-radius: var(--pg-radius);
-  padding: 0.65rem 0.85rem;
+  padding: 1.25rem 1.5rem;
   box-shadow: 0 8px 18px rgba(0, 0, 0, 0.06);
-  border: 1px solid rgba(44, 177, 255, 0.06);
+  border: 1px solid var(--tile-border-light);
   transition: transform 180ms ease, box-shadow 180ms ease, border-color 180ms ease;
 }
 .stat-tile .label {
@@ -170,10 +210,11 @@
 .stat-tile .value {
   font-size: 1.15rem;
   font-weight: 800;
-  color: #0a0c12;
+  color: var(--tile-text-light);
 }
 .stat-tile .subtext {
-  color: #1f2937;
+  color: var(--tile-text-light);
+  opacity: 0.8;
   font-size: 0.88rem;
 }
 .stat-tile:hover {
@@ -182,31 +223,97 @@
   border-color: rgba(44, 177, 255, 0.25);
 }
 
-/* Section panels and dividers */
+/* Stat tile link fixes for dark mode */
+.stat-tile a {
+  color: var(--pg-accent) !important;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+}
+.stat-tile a:hover {
+  color: #7dd3fc !important;
+}
+
+/* Section panels - Improved spacing and visual hierarchy */
 .section-panel {
   background: none;
   border: none;
   border-radius: var(--pg-radius);
-  padding: 0;
+  padding: 1.5rem 0;
   box-shadow: none;
+  line-height: 1.8;
 }
+
+.section-panel ul {
+  margin-top: 1rem;
+  padding-left: 1.5rem;
+}
+
+.section-panel li {
+  margin-bottom: 0.75rem;
+}
+
+.section-panel strong {
+  color: var(--pg-accent);
+  font-weight: 700;
+}
+
 .section-break {
   height: 2px;
   background: linear-gradient(90deg, transparent, rgba(44, 177, 255, 0.6), transparent);
-  margin: 2.2rem 0;
+  margin: 3rem 0;
   border-radius: 99px;
 }
 
-/* Tags */
+/* Tags - Improved contrast and sizing */
 .tag-chip {
   display: inline-block;
-  padding: 0.2rem 0.6rem;
+  padding: 0.25rem 0.75rem;
   border-radius: 999px;
-  background: #0e2d4e;
-  color: #f4f7fb;
+  background: #0f1b3f;
+  color: #ffffff;
   font-weight: 600;
-  font-size: 0.56rem;
+  font-size: 0.75rem;
+  letter-spacing: 0.02em;
   border: 1px solid rgba(44, 177, 255, 0.3);
+  text-transform: uppercase;
+}
+
+/* Dark mode tag adjustments */
+[data-md-color-scheme="slate"] .tag-chip {
+  background: rgba(44, 177, 255, 0.15);
+  color: #7dd3fc;
+  border-color: rgba(44, 177, 255, 0.4);
+}
+
+/* Responsive mobile improvements */
+@media screen and (max-width: 768px) {
+  .stat-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .stat-tile {
+    padding: 1rem 1.25rem;
+  }
+
+  .md-typeset h1 {
+    font-size: 1.75rem;
+    line-height: 1.2;
+  }
+
+  .md-typeset h2 {
+    font-size: 1.4rem;
+    margin-top: 2rem;
+  }
+
+  .section-panel {
+    padding: 1rem 0;
+  }
+
+  .tag-chip {
+    font-size: 0.7rem;
+    padding: 0.2rem 0.6rem;
+  }
 }
 
 /* Motion respect */
@@ -216,5 +323,18 @@
   .md-typeset .btn-ghost {
     transition: none;
     transform: none !important;
+  }
+}
+
+/* Print styles */
+@media print {
+  .stat-tile {
+    break-inside: avoid;
+    box-shadow: none;
+    border: 1px solid #ddd;
+  }
+
+  .section-break {
+    display: none;
   }
 }

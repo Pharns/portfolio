@@ -4,7 +4,16 @@ description: GRC intake and evidence automation case — Nextcloud+n8n+SuiteCRM 
 # GIAP™ — GRC Intake & Evidence Automation
 *Updated: {{ page.meta.git_revision_date_localized or "" }}*
 
-<!-- Tags: grc, compliance, automation, cloud, intake -->
+!!! tldr "For recruiters & hiring managers"
+    **What:** AI-powered GRC intake automation platform with Nextcloud + n8n + SuiteCRM — structured workflows with consent management, retention policies, role-based access control, and NIST/SOC 2 control mapping.
+
+    **Why this matters for GRC:** Demonstrates governance automation, evidence pipeline architecture, compliance framework mapping, and AI-augmented workflow generation.
+
+    **Impact:** Transforms manual intake processes into automated, audit-ready workflows with structured JSON outputs and complete control traceability.
+
+    **Skills:** GRC Automation · Workflow Orchestration (n8n) · IAM/RBAC · Data Retention · Control Mapping · SOC 2 · NIST CSF · Evidence Collection · AI-Assisted Development
+
+---
 
 **GIAP™ (GRC Intake Automation Platform):** Intake and evidence automation for small orgs/law firms. Nextcloud + n8n + SuiteCRM + remote MySQL with clear roles, retention, consent, and control mapping. Outcome: ready-to-hand auditors clean, consistent packages with structured JSON outputs.
 

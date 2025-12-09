@@ -13,9 +13,9 @@ Default-deny S3 + GuardDuty export; scoped IAM with CIS/NIST mapping.
 <br/><small>What it demonstrates: cloud guardrails, evidence pipeline, and compliance mapping.</small>
 </div>
 <div class="stat-tile" markdown>
-**TraceLock™ (RF/SDR telemetry)**  
-Evidence-first RF/SDR pipeline with AI-assisted parsing and detections.  
-<span class="tag-chip">RF</span> <span class="tag-chip">Detection</span> <span class="tag-chip">AI</span>  
+**TraceLock™ (RF/SDR telemetry)**
+Evidence-first RF/SDR pipeline with AI-assisted parsing and detections.
+<span class="tag-chip">RF</span> <span class="tag-chip">Detection</span> <span class="tag-chip">AI</span>
 [Read](cybersecurity/tracelock.md)
 <br/><small>What it demonstrates: wireless threat detection and evidence logging.</small>
 </div>

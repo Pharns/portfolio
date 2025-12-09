@@ -1,8 +1,17 @@
 # Cloud Control Pack (AWS)
 
-**TL;DR:** Lock down AWS storage by default, export security alerts safely, and use narrow IAM roles. Shows cloud control discipline with clear compliance mapping. Built quickly with AI checks but kept least-privilege. Target: <4 hours to a secure S3 baseline with evidence export enabled.
+!!! tldr "For recruiters & hiring managers"
+    **What:** Audit-ready AWS cloud baseline with S3 default-deny storage, GuardDuty findings export, and scoped IAM roles.
 
-Default-deny storage, evidence capture, and least-privilege IAM patterns for interviews and portfolio proof. AWS Cloud Practitioner is pending; CLI validation will be added after the exam.
+    **Why this matters for GRC:** Demonstrates cloud governance foundations, least-privilege IAM, evidence-first logging, and compliance control mapping (CIS/NIST).
+
+    **Impact:** Production-ready control pack deployed in <4 hours with complete framework alignment.
+
+    **Skills:** AWS IAM · S3 Security · GuardDuty · CloudTrail · Policy-as-Code · Control Mapping · CIS Controls · NIST CSF
+
+---
+
+Default-deny storage, evidence capture, and least-privilege IAM patterns demonstrating cloud GRC fundamentals. AWS Cloud Practitioner is pending; CLI validation will be added after the exam.
 
 **Target roles:** Cloud GRC Engineer, Security Compliance Engineer/Analyst, Cloud Security Engineer (GRC focus).
 
@@ -15,7 +24,7 @@ Default-deny storage, evidence capture, and least-privilege IAM patterns for int
 - Shows applied cloud security: storage default-deny, evidence pipeline, and scoped IAM.
 - Aligns with CIS storage/logging/IAM controls and NIST CSF (PR.AC, PR.DS, DE.CM).
 - Ready to pair with AWS CP to demonstrate hands-on skill, not just the credential.
-- Complements intake/evidence automation ([GIAP](giap.md) and [Intake Portal](intake-portal.md)) and endpoint evidence collection ([Baseline Evidence Drop](baseline-evidence-drop.md)).
+- Complements intake/evidence automation ([GIAP™](giap.md) and [Intake Portal](intake-portal.md)) and endpoint evidence collection ([Baseline Evidence Drop](baseline-evidence-drop.md)).
 
 ## Control mapping (examples)
 | Control area | Implementation | Frameworks |

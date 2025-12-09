@@ -5,9 +5,20 @@ description: Standalone Windows 11 endpoint architecture designed to meet PCI DS
 
 # PCI DSS Compliance — Windows 11 Secure Workstation Design
 
-*“Compliance isn’t a product — it’s an environment.”*
+!!! tldr "For recruiters & hiring managers"
+    **What:** Complete PCI-DSS aligned endpoint hardening with BitLocker encryption, layered malware defense, patch automation, network monitoring, and comprehensive evidence pack — delivered in under 48 hours.
 
-This project originated from a **real-world incident** where a mortgage company issued a workstation that was **entirely unsecured** — no disk encryption, no malware protection, and containing **residual client data from previous users**.  
+    **Why this matters for GRC:** Demonstrates rapid compliance control implementation, endpoint hardening expertise, evidence-first documentation, and PCI DSS framework mapping.
+
+    **Impact:** Production-ready secure workstation built from incident response to fully compliant system in <2 days with complete audit trail.
+
+    **Skills:** PCI DSS v4.0 · Endpoint Hardening · BitLocker · GPO · Windows Defender · Patch Management · Evidence Collection · Control Mapping · Compliance Documentation
+
+---
+
+*"Compliance isn't a product — it's an environment."*
+
+This project originated from a **real-world incident** where a mortgage company issued a workstation that was **entirely unsecured** — no disk encryption, no malware protection, and containing **residual client data from previous users**.
 
 To address this, I designed and documented a **standalone Windows 11 hardening architecture** aligned with **PCI DSS v4.0** — practical for small businesses yet compliant with enterprise-grade security expectations.
 

@@ -78,45 +78,29 @@ nav:
 - Home: index.md
 - About: about.md
 - Certifications: certifications.md
-- Cybersecurity:
-  - Overview: cybersecurity/index.md
-  - Signature Projects:
-    - Cloud Control Pack (AWS): cybersecurity/aws-control-pack.md
-    - Detection & IR Lab: cybersecurity/incident-response.md
-    - PCI DSS Compliance — Windows 11 Hardening:
-      - Overview: cybersecurity/pci-dss/index.md
-      - System Architecture: cybersecurity/pci-dss/architecture.md
-      - Implementation Guide: cybersecurity/pci-dss/implementation.md
-      - Controls & Mapping: cybersecurity/pci-dss/security-controls.md
-      - Verification & Evidence: cybersecurity/pci-dss/verification.md
-      - Lessons Learned: cybersecurity/pci-dss/lessons-learned.md
-    - Windows 11 PCI-DSS Hardening: cybersecurity/windows11-pcidss-hardening.md
-    - TraceLock™ (RF/SDR Telemetry): cybersecurity/tracelock.md
-  - Detection & IR Lab: cybersecurity/incident-response.md
+- GRC & Compliance:
+  - GRC Engineering Overview: grc/index.md
+  - Cloud Control Pack (AWS): cybersecurity/aws-control-pack.md
+  - PCI DSS Compliance — Windows 11 Hardening:
+    - Overview: cybersecurity/pci-dss/index.md
+    - System Architecture: cybersecurity/pci-dss/architecture.md
+    - Implementation Guide: cybersecurity/pci-dss/implementation.md
+    - Controls & Mapping: cybersecurity/pci-dss/security-controls.md
+    - Verification & Evidence: cybersecurity/pci-dss/verification.md
+    - Lessons Learned: cybersecurity/pci-dss/lessons-learned.md
+  - GIAP — Governance Automation: cybersecurity/giap.md
   - Secure Intake & Evidence Portal: cybersecurity/intake-portal.md
-  - GIAP — Intake & Evidence Automation: cybersecurity/giap.md
   - Baseline Evidence Drop: cybersecurity/baseline-evidence-drop.md
-  - Homelab:
-    - Homelab Infrastructure: cybersecurity/homelab-infrastructure.md
-    - Homelab Build: cybersecurity/homelab-journey.md
-    - Remote Access & Zero-WAN: cybersecurity/remote-access-zero-wan.md
+- Detection & Response:
+  - Detection & IR Lab: cybersecurity/incident-response.md
+  - TraceLock (RF/SDR Security): cybersecurity/tracelock.md
+  - Homelab Infrastructure: cybersecurity/homelab-infrastructure.md
+  - Homelab Build Journey: cybersecurity/homelab-journey.md
+  - Remote Access & Zero-WAN: cybersecurity/remote-access-zero-wan.md
+- Penetration Testing (Expanding):
+  - Overview: cybersecurity/penetration-testing.md
   - Vulnerability Assessment: cybersecurity/vulnerability-assessment.md
-  - Penetration Testing: cybersecurity/penetration-testing.md
-  - Drone Cyber Payload Systems: innovation/drone-payload-systems.md
-  - Blog Write-Ups: cybersecurity/blog-writeups.md
 - Projects: projects.md
-- Python:
-  - Overview: python/index.md
-  # - 100 Days of Python:
-  #   - All Days Index: python/100-days/index.md
-  #   - Day 01 — Hello World: python/100-days/day01-hello-world.md
-  #   - Day 05 — Password Generator: python/100-days/day05-password-generator.md
-  #   - Day 15 — Coffee Machine: python/100-days/day15-coffee-machine.md
-  #   - Day 25 — Pandas & CSVs: python/100-days/day25-pandas-csvs.md
-  #   - Day 39 — API Requests: python/100-days/day39-api-requests.md
-  #   - Day 54 — Flask Intro: python/100-days/day54-flask-intro.md
-  #   - Day 75 — Data Viz: python/100-days/day75-data-viz.md
-  - Projects: python/projects/index.md
 - Innovation:
   - Overview: innovation/index.md
   - Drone Payload Systems: innovation/drone-payload-systems.md

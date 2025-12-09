@@ -4,6 +4,29 @@ description: TraceLock™ RF/SDR telemetry case — multi-sensor threat detectio
 # TraceLock™ — Evidence-First RF/SDR Telemetry
 *Updated: {{ page.meta.git_revision_date_localized or "" }}*
 
+!!! tldr "For recruiters & hiring managers"
+    **What:** Evidence-grade RF surveillance detection system tracking wireless signals (ADS-B aircraft, Bluetooth, Wi-Fi, SDR) with structured logging, AI-assisted detection tuning, and audit-ready export workflows.
+
+    **Why this matters for GRC roles:** Demonstrates logging architecture, evidence collection pipelines, and security control implementation at the systems level — the same skills used for cloud guardrails and compliance automation. Shows ability to architect complex technical controls, not just document them.
+
+    **Impact:** Rare wireless security expertise combined with audit-trail discipline. Multi-domain telemetry pipeline with detection rules, false positive tuning, and compliance-grade logging.
+
+    **Skills:** Detection Engineering · Evidence Logging · RF/Wireless Security · Python · Data Pipelines · AI-Assisted Development · NIST CSF Mapping · Audit Trail Design
+
+---
+
+## What this demonstrates for GRC engineering
+
+This project shows three core GRC competencies applied to a specialized domain:
+
+1. **Evidence-first logging** — Every detection includes timestamp, signal metadata, and audit trail (same discipline as compliance evidence collection)
+2. **Control implementation** — Built detection rules, thresholds, and alerting (same skills as implementing cloud guardrails or endpoint controls)
+3. **Technical systems architecture** — Designed data pipelines and storage (same thinking as building governance automation workflows)
+
+**Translation for GRC roles:** If I can architect evidence pipelines for RF telemetry, I can architect them for cloud logs, access controls, or compliance workflows.
+
+---
+
 **TL;DR:** Portable RF/wireless threat detector that spots rogue trackers and suspicious signals (Wi‑Fi, Bluetooth, ISM, ADS-B) and keeps clean audit logs. Built with secure coding and AI-assisted parsing to reduce false positives. Signals RF/Wireless Security Engineer and Detection Engineer fit.
 
 ## Scenario (capstone-safe)
