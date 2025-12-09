@@ -10,7 +10,7 @@ description: Rapid PCI-DSS Windows hardening case for Security Compliance/Endpoi
 
 **TL;DR:** Rapid (<48h) Windows 11 lockdown for a mortgage workstation: encryption, EDR, patch automation, outbound monitoring, and evidence pack for PCI-DSS. Demonstrates compliance-ready endpoint hardening and auditability.
 
-**Target roles:** Security Compliance Analyst/Engineer, Endpoint Security Engineer (Compliance).
+**Target roles:** Security Compliance Analyst/Engineer, Endpoint Security Engineer (Compliance), Cloud Security Engineer (GRC focus).
 
 *“Hardening endpoints to meet compliance isn’t optional — it’s foundational.”*
 

@@ -5,7 +5,7 @@
 
 **TL;DR:** Nextcloud + n8n + SuiteCRM + remote MySQL, hardened with TLS, IAM role matrix, email security, and retention/audit trails. Demonstrates compliance intake, evidence handling, and automation for SOC 2/NIST-style controls.
 
-**Target roles:** Security Compliance Engineer/Analyst, GRC Engineer, Compliance Automation.
+**Target roles:** Security Compliance Engineer/Analyst, GRC Engineer, GRC Automation Engineer, Cloud Security Engineer (GRC focus).
 
 ## Why it matters (GRC fit)
 - Evidence-first intake for client documents and remediation artifacts.

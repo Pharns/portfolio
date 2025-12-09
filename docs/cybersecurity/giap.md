@@ -5,7 +5,7 @@
 
 **GIAP™ (GRC Intake Automation Platform):** Intake and evidence automation for small orgs/law firms. Nextcloud + n8n + SuiteCRM + remote MySQL with role matrix, retention, consent, and control mapping. Designed as a pipeline into evidence review with audit-ready outputs.
 
-**Target roles:** GRC Engineer, Security Compliance Engineer/Analyst, GRC Automation Engineer.
+**Target roles:** GRC Engineer, Security Compliance Engineer/Analyst, GRC Automation Engineer, Cloud Security Engineer (GRC focus).
 
 ## Scope
 - Intake client documents and remediation artifacts with consent.

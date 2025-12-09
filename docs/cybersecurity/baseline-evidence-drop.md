@@ -5,7 +5,7 @@
 
 **TL;DR:** Consent-first, agentless Windows evidence collector (ethical BadUSB + scripts). Captures patch/build, BitLocker, Secure Boot, local admins, firewall, audit policy, time sync, EDR/AV, listeners, and recent updates. Hashes artifacts, builds a manifest with control IDs, and prepares a GIAP-ready intake JSON (stub).
 
-**Target roles:** Security Compliance Analyst/Engineer, GRC Automation Engineer.
+**Target roles:** Security Compliance Analyst/Engineer, GRC Automation Engineer, Cloud Security Engineer (GRC focus).
 
 ## Problem → Action → Result
 - **Problem:** Need quick, auditable endpoint evidence for GRC assessments without installing agents.
