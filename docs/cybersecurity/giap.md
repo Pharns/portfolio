@@ -1,3 +1,6 @@
+---
+description: GRC intake and evidence automation case — Nextcloud+n8n+SuiteCRM with IAM, retention, consent, and control mapping for Cloud GRC and Security Compliance roles.
+---
 # GIAP™ — GRC Intake & Evidence Automation
 *Updated: {{ page.meta.git_revision_date_localized or "" }}*
 
@@ -58,6 +61,3 @@
 ---
 
 [Contact](../contact.md){ .btn-primary } [LinkedIn](https://www.linkedin.com/in/pharns/){ .btn-ghost }
----
-description: GRC intake and evidence automation case — Nextcloud+n8n+SuiteCRM with IAM, retention, consent, and control mapping for Cloud GRC and Security Compliance roles.
----

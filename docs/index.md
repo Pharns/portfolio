@@ -10,10 +10,10 @@
 
 ## ⚡ Role fit highlights
 <div class="section-panel" markdown>
-- **AI-augmented engineer** — multi-agent LLM workflows for policy, detections, and documentation.
 - **Cloud/GRC hybrid** — default-deny storage, GuardDuty evidence export, scoped IAM, CIS/NIST mapping.
-- **TraceLock™ builder** — RF/SDR telemetry pipeline with evidence-grade logging.
 - **Compliance-ready** — PCI-DSS endpoint hardening, law-firm intake/remediation, documented runbooks.
+- **AI-augmented engineer** — multi-agent LLM workflows for policy, detections, and documentation.
+- **TraceLock™ builder** — RF/SDR telemetry pipeline with evidence-grade logging.
 - **Remote-first** — open to international remote collaboration across US/EU/LatAm-friendly time zones.
 - **Relocation-friendly** — willing to move abroad for the right role.
 - **USAF veteran** — accustomed to disciplined, high-stakes environments.
@@ -23,10 +23,10 @@
 
 ## 🧭 Signature projects
 <div class="section-panel" markdown>
-- **TraceLock™ (RF/SDR telemetry)** — Evidence-first wireless pipeline with AI-assisted parsing and detection tuning. [Open](cybersecurity/tracelock.md)
 - **Cloud Control Pack (AWS)** — S3 default-deny, GuardDuty export, and scoped IAM with control mapping. [Open](cybersecurity/aws-control-pack.md)
-- **Windows 11 PCI-DSS hardening** — <48h lockdown with evidence pack for audit. [Open](cybersecurity/pci-dss/index.md)
 - **Detection & IR lab** — Security Onion + TheHive/Cortex drills with authored detections. [Open](cybersecurity/incident-response.md)
+- **Windows 11 PCI-DSS hardening** — <48h lockdown with evidence pack for audit. [Open](cybersecurity/pci-dss/index.md)
+- **TraceLock™ (RF/SDR telemetry)** — Evidence-first wireless pipeline with AI-assisted parsing and detection tuning. [Open](cybersecurity/tracelock.md)
 - **Secure intake & evidence portal** — Nextcloud + n8n + SuiteCRM with role matrix and retention; delivered as anonymized consulting work. [Open](cybersecurity/intake-portal.md)
 - **GIAP™ — intake & evidence automation** — Structured intake JSON, consented uploads, retention, and control mapping. [Open](cybersecurity/giap.md)
 - **Baseline Evidence Drop** — Consent-first, agentless Windows evidence collector with hashes and manifest. [Open](cybersecurity/baseline-evidence-drop.md)
@@ -38,16 +38,16 @@
 <div class="section-panel" markdown>
 <div class="stat-grid" markdown>
 <div class="stat-tile" markdown>
-**Rapid hardening**  
-PCI-DSS Windows 11 build completed in under 2 days
-</div>
-<div class="stat-tile" markdown>
 **GuardDuty → TLS-only S3**  
 Secure findings export; scoped IAM for ops/IR
 </div>
 <div class="stat-tile" markdown>
 **Detections authored**  
 Alerts + enrichment with FP tuning and runbooks
+</div>
+<div class="stat-tile" markdown>
+**Rapid hardening**  
+PCI-DSS Windows 11 build completed in under 2 days
 </div>
 <div class="stat-tile" markdown>
 **Evidence-first logging**  

@@ -46,6 +46,3 @@ Default-deny storage, evidence capture, and least-privilege IAM patterns for int
 - Capture CLI outputs for S3 baseline, GuardDuty export, and IAM LP role creation/validation.
 - Add screenshots or code blocks with redacted ARNs/account IDs.
 - Map each control to CIS/NIST in a short table for quick recruiter reference.
----
-description: Cloud GRC Engineer portfolio case — S3 default-deny, GuardDuty export to TLS-only S3, scoped IAM with CIS/NIST mapping.
----

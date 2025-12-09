@@ -1,3 +1,6 @@
+---
+description: TraceLock™ RF/SDR telemetry case — multi-sensor threat detection with AI-assisted parsing, compliance-grade logging, and RF/Wireless Security Engineer signal.
+---
 # TraceLock™ — Evidence-First RF/SDR Telemetry
 *Updated: {{ page.meta.git_revision_date_localized or "" }}*
 
@@ -92,6 +95,3 @@
 ---
 
 [Contact](../contact.md){ .btn-primary } [LinkedIn](https://www.linkedin.com/in/pharns/){ .btn-ghost }
----
-description: TraceLock™ RF/SDR telemetry case — multi-sensor threat detection with AI-assisted parsing, compliance-grade logging, and RF/Wireless Security Engineer signal.
----

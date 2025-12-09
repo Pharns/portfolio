@@ -81,8 +81,8 @@ nav:
 - Cybersecurity:
   - Overview: cybersecurity/index.md
   - Signature Projects:
-    - TraceLock™ (RF/SDR Telemetry): cybersecurity/tracelock.md
     - Cloud Control Pack (AWS): cybersecurity/aws-control-pack.md
+    - Detection & IR Lab: cybersecurity/incident-response.md
     - PCI DSS Compliance — Windows 11 Hardening:
       - Overview: cybersecurity/pci-dss/index.md
       - System Architecture: cybersecurity/pci-dss/architecture.md
@@ -91,6 +91,7 @@ nav:
       - Verification & Evidence: cybersecurity/pci-dss/verification.md
       - Lessons Learned: cybersecurity/pci-dss/lessons-learned.md
     - Windows 11 PCI-DSS Hardening: cybersecurity/windows11-pcidss-hardening.md
+    - TraceLock™ (RF/SDR Telemetry): cybersecurity/tracelock.md
   - Detection & IR Lab: cybersecurity/incident-response.md
   - Secure Intake & Evidence Portal: cybersecurity/intake-portal.md
   - GIAP — Intake & Evidence Automation: cybersecurity/giap.md

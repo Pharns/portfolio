@@ -115,4 +115,3 @@ The **Windows 11 PCI-DSS Hardening** project proved that **individual cybersecur
 It also demonstrated that **every workstation can be a compliant asset** when configured and monitored correctly.
 
 > *This project directly reflects professional values in risk reduction, operational rigor, and verifiable security — the same principles that drive effective cybersecurity teams.*
-

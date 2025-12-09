@@ -1,3 +1,6 @@
+---
+description: Consent-first Windows evidence collector with hashes, manifest, and control mapping for Security Compliance Analyst/GRC roles.
+---
 # Baseline Evidence Drop (Consent-First Collector)
 *Updated: {{ page.meta.git_revision_date_localized or "" }}*
 
@@ -61,6 +64,3 @@
 ---
 
 [Contact](../contact.md){ .btn-primary } [LinkedIn](https://www.linkedin.com/in/pharns/){ .btn-ghost }
----
-description: Consent-first Windows evidence collector with hashes, manifest, and control mapping for Security Compliance Analyst/GRC roles.
----
