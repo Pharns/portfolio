@@ -142,11 +142,11 @@
   margin: 1rem 0 0.5rem;
 }
 .stat-tile {
-  background: rgba(15, 27, 63, 0.5);
+  background: rgba(15, 27, 63, 0.25);
   border-radius: var(--pg-radius);
-  padding: 0.85rem 1rem;
+  padding: 0.65rem 0.85rem;
   box-shadow: var(--pg-shadow);
-  border: 1px solid rgba(44, 177, 255, 0.15);
+  border: 1px solid rgba(44, 177, 255, 0.08);
   transition: transform 180ms ease, box-shadow 180ms ease, border-color 180ms ease;
 }
 .stat-tile .label {
@@ -166,7 +166,7 @@
 .stat-tile:hover {
   transform: translateY(-2px);
   box-shadow: var(--pg-shadow-soft);
-  border-color: rgba(44, 177, 255, 0.4);
+  border-color: rgba(44, 177, 255, 0.25);
 }
 
 /* Section panels and dividers */
