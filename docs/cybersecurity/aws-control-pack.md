@@ -1,3 +1,5 @@
+<!-- Tags: cloud, grc, controls, evidence, aws -->
+
 # Cloud Control Pack (AWS)
 
 **TL;DR:** Default-deny S3, GuardDuty evidence export, and scoped IAM patterns proving applied cloud security with compliance mapping. AI-assisted policy authoring and review accelerate delivery while keeping strict least-privilege.
