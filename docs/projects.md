@@ -71,11 +71,17 @@ SuiteCRM, Docuseal, Nextcloud, Wiki.js, SearXNG with IAM, backups, patch automat
 <span class="tag-chip">Hardening</span> <span class="tag-chip">Infra</span>  
 [Read](cybersecurity/homelab-journey.md)
 </div>
+<div class="stat-tile" markdown>
+**Remote access & Zero-WAN**  
+Tailscale/RustDesk-based remote access with IAM, backups, patch automation—no exposed WAN.  
+<span class="tag-chip">Access</span> <span class="tag-chip">Hardening</span>  
+[Read](cybersecurity/homelab-infrastructure.md)
 </div>
 <div class="stat-tile" markdown>
 **RF/UAS Security Research**  
 SDR payloads, BLE/Sub-GHz recon, mitigations, and 3D-printed housings.  
 <span class="tag-chip">RF</span> <span class="tag-chip">Innovation</span>  
 [Read](cybersecurity/tracelock.md)
+</div>
 </div>
 </div>

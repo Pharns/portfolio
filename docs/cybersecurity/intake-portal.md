@@ -1,4 +1,4 @@
-# Secure Intake & Evidence Portal
+# Secure Intake & Evidence Portal <span class="tag-chip">Updated: {{ page.meta.git_revision_date_localized or "" }}</span>
 
 **TL;DR:** Nextcloud + n8n + SuiteCRM + remote MySQL, hardened with TLS, IAM role matrix, email security, and retention/audit trails. Demonstrates compliance intake, evidence handling, and automation for SOC 2/NIST-style controls.
 
@@ -50,3 +50,7 @@
 - Compliance-grade intake and evidence handling.
 - IAM discipline and lifecycle control.
 - Automation for repeatable audits and faster onboarding.
+
+---
+
+[Contact](../contact.md){ .btn-primary } [LinkedIn](https://www.linkedin.com/in/pharns/){ .btn-ghost }

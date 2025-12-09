@@ -3,7 +3,7 @@ title: Windows 11 PCI-DSS Hardening
 description: Secure Windows 11 workstation configuration aligned with PCI-DSS v4.0 endpoint protection and audit readiness standards.
 ---
 
-# 🛡️ Windows 11 PCI-DSS Hardening
+# 🛡️ Windows 11 PCI-DSS Hardening <span class="tag-chip">Updated: {{ page.meta.git_revision_date_localized or "" }}</span>
 
 **TL;DR:** Rapid (<48h) Windows 11 lockdown for a mortgage workstation: encryption, EDR, patch automation, outbound monitoring, and evidence pack for PCI-DSS. Demonstrates compliance-ready endpoint hardening and auditability.
 
@@ -164,3 +164,7 @@ Below is a verified visual audit of each configuration stage.
   box-shadow: 0 2px 6px rgba(0,0,0,0.15);
 }
 </style>
+
+---
+
+[Contact](../contact.md){ .btn-primary } [LinkedIn](https://www.linkedin.com/in/pharns/){ .btn-ghost }

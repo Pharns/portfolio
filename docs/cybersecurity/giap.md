@@ -1,4 +1,4 @@
-# GIAP™ — Intake & Evidence Automation
+# GIAP™ — Intake & Evidence Automation <span class="tag-chip">Updated: {{ page.meta.git_revision_date_localized or "" }}</span>
 
 **GIAP™ (GRC Intake Automation Platform):** Intake and evidence automation for small orgs/law firms. Nextcloud + n8n + SuiteCRM + remote MySQL with role matrix, retention, consent, and control mapping. Designed as a pipeline into evidence review with audit-ready outputs.
 
@@ -48,3 +48,7 @@
 - Compliance-grade intake/evidence handling with automation.
 - IAM discipline and lifecycle control for client data.
 - Audit-ready outputs that hand off cleanly to evidence review pipelines.
+
+---
+
+[Contact](../contact.md){ .btn-primary } [LinkedIn](https://www.linkedin.com/in/pharns/){ .btn-ghost }

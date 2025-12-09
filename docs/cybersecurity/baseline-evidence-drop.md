@@ -1,4 +1,4 @@
-# Baseline Evidence Drop (Consent-First Collector)
+# Baseline Evidence Drop (Consent-First Collector) <span class="tag-chip">Updated: {{ page.meta.git_revision_date_localized or "" }}</span>
 
 **TL;DR:** Consent-first, agentless Windows evidence collector (ethical BadUSB + scripts). Captures patch/build, BitLocker, Secure Boot, local admins, firewall, audit policy, time sync, EDR/AV, listeners, and recent updates. Hashes artifacts, builds a manifest with control IDs, and prepares a GIAP-ready intake JSON (stub).
 
@@ -45,3 +45,7 @@
 - Compliance and audit mindset with integrity and consent built in.
 - Evidence automation aligned to CIS/NIST/ISO.
 - Quick-start assessment capability that feeds downstream intake/review.
+
+---
+
+[Contact](../contact.md){ .btn-primary } [LinkedIn](https://www.linkedin.com/in/pharns/){ .btn-ghost }
