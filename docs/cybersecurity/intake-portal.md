@@ -1,6 +1,6 @@
 # Secure Intake & Evidence Portal
 
-<span class="tag-chip">Updated: {{ git_revision_date_localized or "" }}</span>
+<span class="tag-chip">Updated: {{ page.meta.git_revision_date_localized or "" }}</span>
 
 **TL;DR:** Nextcloud + n8n + SuiteCRM + remote MySQL, hardened with TLS, IAM role matrix, email security, and retention/audit trails. Demonstrates compliance intake, evidence handling, and automation for SOC 2/NIST-style controls.
 
