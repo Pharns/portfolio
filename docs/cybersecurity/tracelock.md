@@ -47,7 +47,7 @@
 - Plans: run under dedicated system user, log rotation, and “safe share” export with redaction.
 
 ## Quality and CI
-- Minimal CI pipeline: dependency install, Python compileall, smoke tests (`chasing_your_tail.py`, `surveillance_analyzer.py --help`), import checks.
+- Minimal CI pipeline: dependency install, Python compileall, smoke tests (`tracelock.py`, `surveillance_analyzer.py --help`), import checks.
 - Roadmap: unit tests for parsers/WiGLE client, golden sample fixtures, RF analyzer correlation tests without hardware.
 
 ## Phased validation (capstone)
