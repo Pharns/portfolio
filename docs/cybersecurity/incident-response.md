@@ -1,6 +1,6 @@
 # Detection & IR Lab (Security Onion + TheHive/Cortex)
 
-**TL;DR:** Proxmox-based SOC lab for simulated incidents. Authored detections, triaged in TheHive, enriched with Cortex, and documented lessons. Demonstrates detection engineering, IR playbook execution, and AI-supported runbooks.
+**TL;DR:** Small SOC lab to practice finding alerts, triaging cases, and enriching evidence (Security Onion + TheHive/Cortex). Shows clear playbooks, tuned detections, and easy-to-read reports for non-technical stakeholders.
 
 ## Scenario (example)
 - Injected malicious document download and suspicious outbound callback from a test endpoint.

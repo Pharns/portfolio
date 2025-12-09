@@ -6,7 +6,7 @@ description: Consent-first Windows evidence collector with hashes, manifest, and
 
 <!-- Tags: grc, compliance, evidence, automation, windows -->
 
-**TL;DR:** Consent-first, agentless Windows evidence collector (ethical BadUSB + scripts). Captures patch/build, BitLocker, Secure Boot, local admins, firewall, audit policy, time sync, EDR/AV, listeners, and recent updates. Hashes artifacts, builds a manifest with control IDs, and prepares a GIAP-ready intake JSON (stub).
+**TL;DR:** Automated, consent-first Windows evidence collector (ethical BadUSB + scripts). Captures key settings (encryption, firewall, patches, admins, AV), hashes everything, and outputs a simple report for auditors plus a manifest for control mapping.
 
 **Target roles:** Security Compliance Analyst/Engineer, GRC Automation Engineer, Cloud Security Engineer (GRC focus).
 

@@ -4,7 +4,7 @@ description: TraceLock™ RF/SDR telemetry case — multi-sensor threat detectio
 # TraceLock™ — Evidence-First RF/SDR Telemetry
 *Updated: {{ page.meta.git_revision_date_localized or "" }}*
 
-**TL;DR:** TraceLock™ is a portable RF/wireless threat detector that watches Wi-Fi, Bluetooth, ISM (rtl_433), and ADS-B, then correlates signals and alerts in real time. It helps security teams find rogue trackers, detect remote detonation signals sooner, and keeps evidence logs for audits—built with secure coding, AI-assisted parsing, and CI-tested components. Signals roles: RF/Wireless Security Engineer, Detection Engineer.
+**TL;DR:** Portable RF/wireless threat detector that spots rogue trackers and suspicious signals (Wi‑Fi, Bluetooth, ISM, ADS-B) and keeps clean audit logs. Built with secure coding and AI-assisted parsing to reduce false positives. Signals RF/Wireless Security Engineer and Detection Engineer fit.
 
 ## Scenario (capstone-safe)
 - **Client context:** Centurion Shield Response (CSR), 230-person protective services firm (EOD sweeps + executive protection).

@@ -6,7 +6,7 @@ description: Security compliance intake portal case — IAM, TLS/email hardening
 
 <!-- Tags: grc, compliance, automation, intake, cloud -->
 
-**TL;DR:** Nextcloud + n8n + SuiteCRM + remote MySQL, hardened with TLS, IAM role matrix, email security, and retention/audit trails. Demonstrates compliance intake, evidence handling, and automation for SOC 2/NIST-style controls.
+**TL;DR:** Secure intake portal (Nextcloud + n8n + SuiteCRM) with TLS, clear roles, email security, and retention/audit trails. Shows how evidence comes in, stays organized, and is ready for auditors.
 
 **Target roles:** Security Compliance Engineer/Analyst, GRC Engineer, GRC Automation Engineer, Cloud Security Engineer (GRC focus).
 
