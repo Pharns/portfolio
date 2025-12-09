@@ -1,3 +1,9 @@
+---
+hide:
+  - navigation
+  - toc
+---
+
 # 📸 Screenshot Management Guide
 
 This folder stores **all UI screenshots** used across the portfolio.  
