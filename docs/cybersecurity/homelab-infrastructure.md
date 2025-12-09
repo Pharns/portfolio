@@ -1,6 +1,6 @@
 # 🏠 **Homelab Infrastructure**
 
-**TL;DR:** Realistic “mini-SOC” lab: built and segmented a network, deployed monitoring tools (Security Onion/Wazuh/Nessus/TheHive), and tested Zero Trust access (Tailscale/Twingate/Netbird). Shows end-to-end security ops with plain-English notes for non-technical reviewers.
+**TL;DR:** Realistic “mini-SOC” lab: built and segmented a network, deployed monitoring tools (Security Onion/Wazuh/Nessus/TheHive), and tested Zero Trust access (Tailscale/Twingate/Netbird). Shows end-to-end security ops with plain-English notes for non-technical reviewers. Outcome: full lab stood up and documented in <3 days.
 
 A Proxmox-based homelab designed as a practical testbed to build, break, and secure enterprise-like systems. This environment delivers **hands-on experience with the same tools and architectures used in modern SOCs and IT operations**. The following sections highlight key competencies developed and how they translate into professional value for an organization.   
 

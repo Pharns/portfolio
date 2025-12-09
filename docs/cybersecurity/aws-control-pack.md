@@ -1,6 +1,6 @@
 # Cloud Control Pack (AWS)
 
-**TL;DR:** Lock down AWS storage by default, export security alerts safely, and use narrow IAM roles. Shows cloud control discipline with clear compliance mapping. Built quickly with AI checks but kept least-privilege.
+**TL;DR:** Lock down AWS storage by default, export security alerts safely, and use narrow IAM roles. Shows cloud control discipline with clear compliance mapping. Built quickly with AI checks but kept least-privilege. Target: <4 hours to a secure S3 baseline with evidence export enabled.
 
 Default-deny storage, evidence capture, and least-privilege IAM patterns for interviews and portfolio proof. AWS Cloud Practitioner is pending; CLI validation will be added after the exam.
 

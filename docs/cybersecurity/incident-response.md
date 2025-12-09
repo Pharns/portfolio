@@ -1,6 +1,6 @@
 # Detection & IR Lab (Security Onion + TheHive/Cortex)
 
-**TL;DR:** Small SOC lab to practice finding alerts, triaging cases, and enriching evidence (Security Onion + TheHive/Cortex). Shows clear playbooks, tuned detections, and easy-to-read reports for non-technical stakeholders.
+**TL;DR:** Small SOC lab to practice finding alerts, triaging cases, and enriching evidence (Security Onion + TheHive/Cortex). Shows clear playbooks, tuned detections, and easy-to-read reports for non-technical stakeholders. Outcome: cut false positives ~20% in lab drills with documented runbooks.
 
 ## Scenario (example)
 - Injected malicious document download and suspicious outbound callback from a test endpoint.

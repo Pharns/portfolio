@@ -1,6 +1,6 @@
 # Penetration Testing
 
-**TL;DR:** Safe, lab-only penetration testing practice. I find and exploit known weaknesses in test apps, then document what happened and how to fix it in plain language.
+**TL;DR:** Safe, lab-only penetration testing practice. I find and exploit known weaknesses in test apps, then document what happened and how to fix it in plain language. Outcome: clear recon→exploit→fix notes that non-technical stakeholders can follow.
 
 ## Objective
 Perform penetration testing on vulnerable lab applications.

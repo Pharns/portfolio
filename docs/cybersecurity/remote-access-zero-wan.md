@@ -4,7 +4,7 @@ description: Egress-only remote access stack with Tailscale + RustDesk + GL.iNet
 # Remote access & Zero-WAN (GL.iNet + Tailscale + RustDesk)
 *Updated: {{ page.meta.git_revision_date_localized or "" }}*
 
-**TL;DR:** Secure, egress-only remote access using GL.iNet/OpenWrt routers, Tailscale mesh, and self-hosted RustDesk—no open internet ports. Shows safe remote control with clear roles, simple checklists, and travel-ready resilience.
+**TL;DR:** Secure, egress-only remote access using GL.iNet/OpenWrt routers, Tailscale mesh, and self-hosted RustDesk—no open internet ports. Shows safe remote control with clear roles, simple checklists, and travel-ready resilience. Outcome: remote ops with zero WAN exposure and documented travel kit steps.
 
 **Target roles:** Cloud/GRC Engineer, Security Compliance Engineer/Analyst, Cloud Security Engineer (GRC focus).
 
