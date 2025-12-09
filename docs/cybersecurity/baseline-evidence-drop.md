@@ -1,5 +1,7 @@
 # Baseline Evidence Drop (Consent-First Collector)
 
+*Updated: {{ page.meta.git_revision_date_localized or "" }}*
+
 **TL;DR:** Consent-first, agentless Windows evidence collector (ethical BadUSB + scripts). Captures patch/build, BitLocker, Secure Boot, local admins, firewall, audit policy, time sync, EDR/AV, listeners, and recent updates. Hashes artifacts, builds a manifest with control IDs, and prepares a GIAP-ready intake JSON (stub).
 
 ## Problem → Action → Result
@@ -35,6 +37,12 @@
 - [ ] Manifest populated with control IDs and run metadata.
 - [ ] Intake JSON validated against schema once finalized.
 - [ ] Report generator adds pass/fail/unknown per control (planned).
+
+## Evidence checklist
+- [ ] Manifest + hashes excerpt (redacted)
+- [ ] Control-mapped intake JSON sample (sanitized)
+- [ ] Report generator sample with pass/fail/unknown
+- [ ] Screenshots/logs from a collection run (redacted)
 
 ## AI assist
 - Drafted control mappings, manifest schema, and consent/runbook text.

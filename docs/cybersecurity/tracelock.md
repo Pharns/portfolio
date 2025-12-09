@@ -1,5 +1,7 @@
 # TraceLock™ — Evidence-First RF/SDR Telemetry
 
+*Updated: {{ page.meta.git_revision_date_localized or "" }}*
+
 **TL;DR:** Multi-sensor RF/wireless telemetry (Kismet, rtl_433, ADS-B) with AI-assisted parsing and evidence logging. Demonstrates RF security specialization, detection engineering, hardening, and compliance-minded logging for high-signal roles.
 
 ## Scenario (capstone-safe)
@@ -81,6 +83,12 @@
 - KML visualization samples with sanitized locations.
 - Detector-to-control mapping snippet (e.g., rogue AP → DE.CM, CIS logging).
 - [TraceLock diagram (public-safe)](trace-lock-diagram.md)
+- Evidence bundle checklist:
+  - [ ] Redacted KML/visuals
+  - [ ] Sample log schema + alert screenshot
+  - [ ] Correlated run logs with KPIs
+  - [ ] Detector-to-control map snippet
+  - [ ] Hardware kit photo (labels redacted)
 
 ---
 

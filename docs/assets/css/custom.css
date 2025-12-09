@@ -155,10 +155,10 @@
   margin: 1rem 0 0.5rem;
 }
 .stat-tile {
-  background: rgba(15, 27, 63, 0.25);
+  background: #f5f7fb;
   border-radius: var(--pg-radius);
   padding: 0.65rem 0.85rem;
-  box-shadow: var(--pg-shadow);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
   border: 1px solid rgba(44, 177, 255, 0.08);
   transition: transform 180ms ease, box-shadow 180ms ease, border-color 180ms ease;
 }
@@ -170,10 +170,10 @@
 .stat-tile .value {
   font-size: 1.2rem;
   font-weight: 800;
-  color: #e5e7eb;
+  color: #0a0c12;
 }
 .stat-tile .subtext {
-  color: #cbd5e1;
+  color: #1f2937;
   font-size: 0.9rem;
 }
 .stat-tile:hover {
@@ -202,11 +202,11 @@
   display: inline-block;
   padding: 0.2rem 0.6rem;
   border-radius: 999px;
-  background: #e5f4ff;
-  color: #0f1b3f;
+  background: #0d3c61;
+  color: #f8fbff;
   font-weight: 600;
   font-size: 0.56rem;
-  border: 1px solid rgba(44, 177, 255, 0.6);
+  border: 1px solid rgba(44, 177, 255, 0.3);
 }
 
 /* Motion respect */
