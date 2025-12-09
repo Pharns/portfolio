@@ -3,6 +3,7 @@
 Browse the core portfolio work with quick outcomes and role-fit tags.
 
 ## Signature & GRC
+<div class="section-panel" markdown>
 <div class="stat-grid" markdown>
 <div class="stat-tile" markdown>
 **Cloud Control Pack (AWS)**  
@@ -35,8 +36,10 @@ Consent-first, agentless Windows evidence collector with hashes, manifest, and c
 [Read](cybersecurity/pci-dss/index.md)
 </div>
 </div>
+</div>
 
 ## Detection, IR, and Telemetry
+<div class="section-panel" markdown>
 <div class="stat-grid" markdown>
 <div class="stat-tile" markdown>
 **TraceLock (RF/SDR telemetry)**  
@@ -57,14 +60,17 @@ Tailscale/Twingate/Netbird evaluation for IAM/device posture and remote access.
 [Read](cybersecurity/homelab-infrastructure.md)
 </div>
 </div>
+</div>
 
 ## Platform Hardening & Innovation
+<div class="section-panel" markdown>
 <div class="stat-grid" markdown>
 <div class="stat-tile" markdown>
 **Self-hosted Stack Hardening**  
 SuiteCRM, Docuseal, Nextcloud, Wiki.js, SearXNG with IAM, backups, patch automation.  
 <span class="tag-chip">Hardening</span> <span class="tag-chip">Infra</span>  
 [Read](cybersecurity/homelab-journey.md)
+</div>
 </div>
 <div class="stat-tile" markdown>
 **RF/UAS Security Research**  

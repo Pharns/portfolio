@@ -169,6 +169,21 @@
   border-color: rgba(44, 177, 255, 0.4);
 }
 
+/* Section panels and dividers */
+.section-panel {
+  background: linear-gradient(135deg, rgba(15, 27, 63, 0.72), rgba(13, 60, 97, 0.55));
+  border: 1px solid rgba(44, 177, 255, 0.12);
+  border-radius: var(--pg-radius);
+  padding: 1.25rem 1.4rem;
+  box-shadow: var(--pg-shadow);
+}
+.section-break {
+  height: 2px;
+  background: linear-gradient(90deg, transparent, rgba(44, 177, 255, 0.6), transparent);
+  margin: 2.2rem 0;
+  border-radius: 99px;
+}
+
 /* Tags */
 .tag-chip {
   display: inline-block;

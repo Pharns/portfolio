@@ -66,6 +66,9 @@ markdown_extensions:
     smart_enable: all
 plugins:
 - search
+- git-revision-date-localized:
+    type: date
+    fallback_to_build_date: true
 - minify:
     minify_html: true
 extra_css:
