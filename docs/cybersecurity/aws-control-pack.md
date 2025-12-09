@@ -1,4 +1,7 @@
 <!-- Tags: cloud, grc, controls, evidence, aws -->
+---
+description: Cloud GRC Engineer portfolio case — S3 default-deny, GuardDuty export to TLS-only S3, scoped IAM with CIS/NIST mapping.
+---
 
 # Cloud Control Pack (AWS)
 
@@ -17,6 +20,7 @@ Default-deny storage, evidence capture, and least-privilege IAM patterns for int
 - Shows applied cloud security: storage default-deny, evidence pipeline, and scoped IAM.
 - Aligns with CIS storage/logging/IAM controls and NIST CSF (PR.AC, PR.DS, DE.CM).
 - Ready to pair with AWS CP to demonstrate hands-on skill, not just the credential.
+- Complements intake/evidence automation ([GIAP](giap.md) and [Intake Portal](intake-portal.md)) and endpoint evidence collection ([Baseline Evidence Drop](baseline-evidence-drop.md)).
 
 ## Control mapping (examples)
 | Control area | Implementation | Frameworks |
@@ -42,11 +46,6 @@ Default-deny storage, evidence capture, and least-privilege IAM patterns for int
 - Capture CLI outputs for S3 baseline, GuardDuty export, and IAM LP role creation/validation.
 - Add screenshots or code blocks with redacted ARNs/account IDs.
 - Map each control to CIS/NIST in a short table for quick recruiter reference.
-
-## What this demonstrates
-- Cloud/GRC alignment: default-deny storage, evidence pipeline, scoped IAM with control mapping.
-- Audit readiness: clear validation artifacts and redacted proofs.
-- AI-assisted policy authoring with human review and self-checks.
 ---
 description: Cloud GRC Engineer portfolio case — S3 default-deny, GuardDuty export to TLS-only S3, scoped IAM with CIS/NIST mapping.
 ---

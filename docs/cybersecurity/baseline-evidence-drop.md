@@ -56,6 +56,7 @@
 - Compliance and audit mindset with integrity and consent built in.
 - Evidence automation aligned to CIS/NIST/ISO.
 - Quick-start assessment capability that feeds downstream intake/review.
+- Works alongside intake automation ([GIAP](giap.md)) and cloud controls ([Cloud Control Pack](aws-control-pack.md)) for complete evidence coverage.
 
 ---
 

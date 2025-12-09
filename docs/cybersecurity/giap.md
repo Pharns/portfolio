@@ -53,6 +53,7 @@
 - Compliance-grade intake/evidence handling with automation.
 - IAM discipline and lifecycle control for client data.
 - Audit-ready outputs that hand off cleanly to evidence review pipelines.
+- Pairs with cloud controls ([Cloud Control Pack](aws-control-pack.md)) and endpoint evidence collection ([Baseline Evidence Drop](baseline-evidence-drop.md)) for end-to-end GRC coverage.
 
 ---
 

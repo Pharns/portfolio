@@ -55,6 +55,7 @@
 - Compliance-grade intake and evidence handling.
 - IAM discipline and lifecycle control.
 - Automation for repeatable audits and faster onboarding.
+- Complements cloud controls ([Cloud Control Pack](aws-control-pack.md)) and evidence collection ([Baseline Evidence Drop](baseline-evidence-drop.md)) in the overall GRC toolkit.
 
 ---
 
