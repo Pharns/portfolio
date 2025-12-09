@@ -98,6 +98,19 @@ A full Malwarebytes scan quarantined **2048 PUPs** from legacy profiles — all 
 
 ---
 
+## 🔗 Control mapping (CIS/NIST snippets)
+| Area | What was implemented | CIS v8 | NIST 800-53 |
+| --- | --- | --- | --- |
+| Data-at-rest | BitLocker enabled, protector validated | 4.1 | MP-4, SC-28 |
+| Boot integrity | Secure Boot verified | 4.11 | SI-7 |
+| Host firewall | All profiles on; outbound monitoring via GlassWire | 4.4 | SC-7 |
+| Accounts | Local admins enumerated; bloat removed | 5.1, 5.3 | AC-2, AC-6 |
+| Logging | PCI Audit View with key event IDs | 8.2 | AU-2, AU-12 |
+| Time integrity | NTP/time sync verified | 8.5 | AU-8 |
+| Endpoint protection | Defender + Malwarebytes | 10.1, 10.6 | SI-3, SI-4 |
+
+---
+
 ## 🖼️ Evidence Gallery
 
 Below is a verified visual audit of each configuration stage.

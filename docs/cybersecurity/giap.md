@@ -24,6 +24,13 @@
 | Provisioning/deprovisioning | Runbook and periodic access review | SOC 2 CC6, NIST PR.AC |
 | Logging/monitoring | Workflow and portal logs retained; alerts on failed auth/unusual runs | SOC 2 CC7, NIST DE.CM |
 
+## Evidence checklist
+- [ ] Intake JSON sample (sanitized)
+- [ ] Redacted screenshots of intake flow and CRM roles
+- [ ] TLS/email security validation snippet
+- [ ] Retention policy excerpt
+- [ ] Access review record (redacted)
+
 ## Validation checklist
 - [ ] TLS enforced (HSTS) and email security validated.
 - [ ] Role matrix applied to folders and CRM roles.

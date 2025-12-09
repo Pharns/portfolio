@@ -53,3 +53,5 @@
 - Sample log schema and redacted alert screenshots.
 - Replay/test data description and FP tuning notes.
 - KML visualization samples with sanitized locations.
+- Detector-to-control mapping snippet (e.g., rogue AP → DE.CM, CIS logging).
+- [TraceLock diagram (public-safe)](trace-lock-diagram.md)

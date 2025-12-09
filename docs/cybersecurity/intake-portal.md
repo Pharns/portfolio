@@ -27,6 +27,13 @@
 - **Provisioning/deprovisioning:** Runbook for account lifecycle; periodic access reviews.
 - **Logging & monitoring:** Portal/workflow logs retained; alert on failed auth and unusual automation runs.
 
+## Evidence checklist
+- [ ] Redacted screenshots (portal, n8n flow, CRM roles)
+- [ ] TLS/email security validation snippet
+- [ ] Retention policy excerpt
+- [ ] Intake JSON sample (sanitized)
+- [ ] Access review record (redacted)
+
 ## Validation checklist
 - [ ] TLS enforced at proxy; HSTS set.
 - [ ] Role matrix applied to folders and CRM roles.
