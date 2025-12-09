@@ -63,14 +63,16 @@
 }
 .card a,
 .stat-tile a {
-  color: #0a0f1f;
+  color: #0a0c12;
   font-weight: 700;
-  text-decoration: none;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-decoration-color: #0a0c12;
 }
 .card a:hover,
 .stat-tile a:hover {
-  color: #0d3c61;
-  text-decoration: underline;
+  color: #06162d;
+  text-decoration-color: #06162d;
 }
 
 /* Tables */
