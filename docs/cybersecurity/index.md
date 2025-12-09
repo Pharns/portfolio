@@ -15,7 +15,7 @@ Focused on detection, hardening, and compliance automation with a wireless/RF ed
 - Files: `Projects/Future Projects/aws/S3-Private-Baseline.md`, `.../GuardDuty-Lake-Export.md`, `.../IAM-Least-Privilege-App-Policy.md` (add CLI outputs/screens after AWS CP pass).
 - Certification context: AWS Cloud Practitioner (pending). Remove “pending” and add CLI outputs/screens once the exam is passed.
 
-## TraceLock (signature project)
+## TraceLock™ (signature project)
 Placeholder until sanitized details are provided: summarize goal, stack, telemetry, detections, and outcomes. Include architecture sketch and 3–5 measurable results (no secrets).
 
 ## Additional Work

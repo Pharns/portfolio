@@ -80,7 +80,7 @@ nav:
 - Cybersecurity:
   - Overview: cybersecurity/index.md
   - Signature Projects:
-    - TraceLock (RF/SDR Telemetry): cybersecurity/tracelock.md
+    - TraceLock™ (RF/SDR Telemetry): cybersecurity/tracelock.md
     - Cloud Control Pack (AWS): cybersecurity/aws-control-pack.md
     - PCI DSS Compliance — Windows 11 Hardening:
       - Overview: cybersecurity/pci-dss/index.md

@@ -42,7 +42,7 @@ Rapid hardening (<2 days) with controls matrix and evidence pack.
 <div class="section-panel" markdown>
 <div class="stat-grid" markdown>
 <div class="stat-tile" markdown>
-**TraceLock (RF/SDR telemetry)**  
+**TraceLock™ (RF/SDR telemetry)**  
 Evidence-first RF/SDR pipeline with AI-assisted parsing and detections.  
 <span class="tag-chip">RF</span> <span class="tag-chip">Detection</span> <span class="tag-chip">AI</span>  
 [Read](cybersecurity/tracelock.md)

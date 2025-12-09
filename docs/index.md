@@ -12,7 +12,7 @@
 <div class="section-panel" markdown>
 - **AI-augmented engineer** — multi-agent LLM workflows for policy, detections, and documentation.
 - **Cloud/GRC hybrid** — default-deny storage, GuardDuty evidence export, scoped IAM, CIS/NIST mapping.
-- **TraceLock builder** — RF/SDR telemetry pipeline with evidence-grade logging.
+- **TraceLock™ builder** — RF/SDR telemetry pipeline with evidence-grade logging.
 - **Compliance-ready** — PCI-DSS endpoint hardening, law-firm intake/remediation, documented runbooks.
 </div>
 
@@ -20,7 +20,7 @@
 
 ## 🧭 Signature projects (skim then click through)
 <div class="section-panel" markdown>
-- **TraceLock (RF/SDR telemetry)** — Evidence-first wireless pipeline with AI-assisted parsing and detection tuning. [Open](cybersecurity/tracelock.md)
+- **TraceLock™ (RF/SDR telemetry)** — Evidence-first wireless pipeline with AI-assisted parsing and detection tuning. [Open](cybersecurity/tracelock.md)
 - **Cloud Control Pack (AWS)** — S3 default-deny, GuardDuty export, and scoped IAM with control mapping. [Open](cybersecurity/aws-control-pack.md)
 - **Windows 11 PCI-DSS hardening** — <48h lockdown with evidence pack for audit. [Open](cybersecurity/pci-dss/index.md)
 - **Detection & IR lab** — Security Onion + TheHive/Cortex drills with authored detections. [Open](cybersecurity/incident-response.md)
@@ -48,7 +48,7 @@ Alerts + enrichment with FP tuning and runbooks
 </div>
 <div class="stat-tile" markdown>
 **Evidence-first logging**  
-TraceLock + intake audit trails mapped to controls
+TraceLock™ + intake audit trails mapped to controls
 </div>
 </div>
 </div>

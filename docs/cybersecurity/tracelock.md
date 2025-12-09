@@ -1,4 +1,4 @@
-# TraceLock — Evidence-First RF/SDR Telemetry
+# TraceLock™ — Evidence-First RF/SDR Telemetry
 
 <span class="tag-chip">Updated: {{ git_revision_date_localized or "" }}</span>
 

@@ -1,4 +1,4 @@
-# TraceLock Diagram (Placeholder)
+# TraceLock™ Diagram (Placeholder)
 
 ```mermaid
 flowchart LR
