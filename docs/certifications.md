@@ -1,3 +1,7 @@
+---
+description: "Security+, Network+, SSCP Associate, ISC2 CC, ITIL4, LPI. CySA+, PenTest+, AWS CP scheduled Dec 2025. CCSP planned Q1 2026. Verified on Credly."
+---
+
 # Certifications & Education
 
 - **Education & licenses:** B.S. Cybersecurity & Information Assurance (WGU) — Dec 2025 (in progress)
@@ -17,6 +21,7 @@
 | 2025-09-09 | Linux Professional Institute (LPI)              | <span class="badge-complete">✅</span> | 2025-0909 Linux Professional Institute - LPI.pdf |
 | 2025-05-07 | ITIL Foundations                                | <span class="badge-complete">✅</span> | 2025-0507 ITIL Foundations.pdf |
 | 2025-11-20 | CompTIA Project+ ce                             | <span class="badge-complete">✅</span> | 2025-1120 CompTIA Project+ ce certificate.pdf |
-| 2025-12    | CompTIA CySA+ (CS0-004)                         | <span class="badge-pending">🕒 Pending Dec 2025</span> | Exam scheduled |
-| 2025-12    | CompTIA Pentest+ (PT0-002)                      | <span class="badge-pending">🕒 Pending Dec 2025</span> | Exam scheduled |
-| 2025-12-10 | AWS Cloud Practitioner (CLF-C02)                | <span class="badge-pending">🕒 Pending Dec 2025</span> | Exam scheduled |
+| 2025-12    | CompTIA CySA+ (CS0-004)                         | <span class="badge-pending">Scheduled</span> | Dec 2025 |
+| 2025-12    | CompTIA Pentest+ (PT0-002)                      | <span class="badge-pending">Scheduled</span> | Dec 2025 |
+| 2025-12-10 | AWS Cloud Practitioner (CLF-C02)                | <span class="badge-pending">Scheduled</span> | Dec 2025 |
+| 2026-Q1    | ISC² CCSP (Certified Cloud Security Professional) | <span class="badge-pending">Planned</span> | Q1 2026 |

@@ -1,16 +1,73 @@
-# 🤝 **Contact**
+---
+description: "Contact Pharns Genece for GRC engineering, cloud security, or compliance automation opportunities. Typically responds within 24 hours."
+---
 
-Interested in discussing opportunities, collaborations, or projects?  
-Here are the best ways to reach me:  
+# Contact
 
-<div style="display: flex; justify-content: space-around; margin: 20px 0;">
-  <a href="https://linkedin.com/in/pharns">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin&logoColor=white" alt="LinkedIn">
-  </a>
-  <a href="https://github.com/Pharns">
-    <img src="https://img.shields.io/badge/GitHub-Profile-black?logo=github&logoColor=white" alt="GitHub">
-  </a>
-  <a href="mailto:careers@pharns.com">
-    <img src="https://img.shields.io/badge/Email-Contact-green?logo=gmail&logoColor=white" alt="Email">
-  </a>
+Ready to discuss GRC engineering, cloud security, or compliance automation opportunities.
+
+---
+
+## Best ways to reach me
+
+<div class="stat-grid" markdown>
+<div class="stat-tile" markdown>
+**Email (Preferred)**
+
+[careers@pharns.com](mailto:careers@pharns.com)
+
+Typical response: < 24 hours
 </div>
+
+<div class="stat-tile" markdown>
+**LinkedIn**
+
+[linkedin.com/in/pharns](https://linkedin.com/in/pharns)
+
+Open to connection requests
+</div>
+
+<div class="stat-tile" markdown>
+**GitHub**
+
+[github.com/Pharns](https://github.com/Pharns)
+
+Code samples and project repos
+</div>
+</div>
+
+---
+
+## What I'm looking for
+
+**Primary roles:**
+
+- GRC Engineer (technical implementation focus)
+- Cloud Security Engineer (GRC/compliance focus)
+- Security Controls Implementation Specialist
+- Detection Engineering
+
+**Work preferences:**
+
+- Remote-first (US time zones preferred)
+- Open to contract or full-time
+- Available for consulting engagements
+
+**Compensation:** Targeting $120K+ base for full-time roles. Happy to discuss scope and compensation for contract work.
+
+---
+
+## Before you reach out
+
+If you're a recruiter or hiring manager, here's what helps:
+
+1. **Role type** — Is this GRC-focused, cloud security, detection engineering, or hybrid?
+2. **Remote policy** — Fully remote, hybrid, or on-site requirements?
+3. **Team context** — Who would I be working with? Reporting structure?
+4. **Timeline** — When are you looking to fill this role?
+
+I respond to all legitimate inquiries. Looking forward to connecting.
+
+---
+
+[View GRC Projects](grc/index.md){ .btn-primary } [View LinkedIn](https://linkedin.com/in/pharns){ .btn-ghost }

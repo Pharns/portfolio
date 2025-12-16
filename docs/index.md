@@ -1,14 +1,52 @@
-# **👋 Hi, I'm Pharns** (pronounced "Founce")
+---
+description: "GRC Engineer portfolio — audit-ready control frameworks, cloud security automation, and compliance implementation. AI-augmented delivery at 10× capacity."
+---
 
-**GRC Engineer & Cloud Security Specialist** — building audit-ready control frameworks, evidence pipelines, and compliance automation. AI-augmented delivery at 10× capacity. Expanding into offensive security (CySA+, PenTest+ Dec 2025).
+# Pharns Genece
 
-**Role fit:** GRC Engineer · Cloud Compliance Automation · Security Controls Implementation · Cloud Security Engineer (GRC focus) · Detection Engineering · Future: Penetration Testing
+**GRC Engineer & Cloud Security Specialist**
 
-[View GRC Projects](cybersecurity/aws-control-pack.md){ .btn-primary } [Contact](contact.md){ .btn-ghost }
+I build audit-ready control frameworks, evidence pipelines, and compliance automation — then implement the technical controls, not just document them. AI-augmented delivery at 10× capacity.
+
+**Targeting:** GRC Engineer · Cloud Security Engineer · Security Controls Implementation · Detection Engineering
+
+[View GRC Projects](grc/index.md){ .btn-primary } [Contact](contact.md){ .btn-ghost }
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Pharns Genece",
+  "jobTitle": "GRC Engineer & Cloud Security Specialist",
+  "url": "https://portfolio.pharns.com",
+  "sameAs": [
+    "https://linkedin.com/in/pharns",
+    "https://github.com/Pharns"
+  ],
+  "knowsAbout": [
+    "GRC Engineering",
+    "Cloud Security",
+    "Compliance Automation",
+    "Detection Engineering",
+    "NIST CSF",
+    "PCI-DSS",
+    "AWS Security"
+  ],
+  "alumniOf": {
+    "@type": "Organization",
+    "name": "Western Governors University"
+  },
+  "hasCredential": [
+    {"@type": "EducationalOccupationalCredential", "name": "CompTIA Security+"},
+    {"@type": "EducationalOccupationalCredential", "name": "CompTIA Network+"},
+    {"@type": "EducationalOccupationalCredential", "name": "ISC2 SSCP Associate"}
+  ]
+}
+</script>
 
 ---
 
-## ⚡ Why hire me for GRC engineering
+## Why hire me for GRC engineering
 
 <div class="section-panel" markdown>
 
@@ -34,7 +72,7 @@ Most GRC professionals write policies and manage spreadsheets. I architect and b
 
 ---
 
-## 🏆 Featured GRC projects
+## Featured GRC projects
 
 <div class="stat-grid" markdown>
 <div class="stat-tile" markdown>
@@ -72,7 +110,7 @@ Evidence-grade wireless surveillance detection system with SDR/ADS-B/Bluetooth p
 
 ---
 
-## 📊 GRC metrics & proof points
+## GRC metrics & proof points
 
 <div class="stat-grid" markdown>
 <div class="stat-tile" markdown>
@@ -95,20 +133,22 @@ AWS guardrails, Windows hardening, intake automation
 
 ---
 
-## 🔍 Expanding capability: Detection & offensive security
+## Detection engineering & offensive security
 
 <div class="section-panel" markdown>
-**Current state:** Detection & IR lab with Security Onion, TheHive/Cortex, custom SIEM rules, and authored detections.
-**Active training:** Lab operational with vulnerability scanning, exploitation practice, and detection engineering workflows.
-**Future pipeline:** CySA+ (Dec 2025), PenTest+ (Dec 2025), expanding penetration testing portfolio.
-**Bridging projects:** TraceLock™ RF/SDR telemetry, vulnerability assessments, homelab exploitation labs.
+
+**Current capability:** Active detection/IR lab with Security Onion, TheHive/Cortex, custom SIEM rules, and authored detections. TraceLock™ RF/SDR telemetry demonstrates detection engineering fundamentals across 6 wireless domains.
+
+**Growth trajectory:** CySA+ and PenTest+ scheduled December 2025. Building penetration testing portfolio through lab work and vulnerability assessments.
+
+**Why this matters:** GRC engineers who understand offensive techniques write better controls. Detection experience informs what to log and monitor.
 
 [View Detection Projects](cybersecurity/incident-response.md) · [View Pentest Work](cybersecurity/penetration-testing.md)
 </div>
 
 ---
 
-## 🧰 Full-stack GRC skill set
+## Full-stack GRC skill set
 
 Unlike traditional GRC roles focused only on policy and documentation, I implement the technical controls being audited. This table shows the breadth of my GRC engineering capabilities:
 
@@ -135,7 +175,7 @@ Unlike traditional GRC roles focused only on policy and documentation, I impleme
 
 ---
 
-## 📋 Framework coverage & experience
+## Framework coverage & experience
 
 <div class="stat-grid" markdown>
 <div class="stat-tile" markdown>
@@ -158,7 +198,7 @@ Control mapping for intake automation, access control, data governance, and audi
 
 ---
 
-## 🔧 Broader technical capabilities
+## Broader technical capabilities
 
 While GRC engineering is my primary focus, I bring adjacent technical skills that add value to compliance and security roles:
 
@@ -218,17 +258,28 @@ Led AAM Cyber (GRC consulting), USOG client work. Experience with service delive
 
 ---
 
-## 🎓 Credentials
+## Credentials
 
 - **B.S. Cybersecurity & Information Assurance (WGU)** — Dec 2025
 - **Core:** Security+, Network+, A+, ITIL4, ISC² CC, SSCP (Assoc.)
 - **Scheduled Dec 2025:** AWS Cloud Practitioner, CySA+, PenTest+
+- **Planned Q1 2026:** ISC² CCSP (Certified Cloud Security Professional)
 - **Licenses:** FAA Part 107, HAM/GMRS
 - **Veteran:** USAF, service-disabled
 
 ---
 
-## 💡 Innovation & patents
+## What others say
+
+> "Pharns delivered a complete compliance package with documentation quality that rivals consultants with twice his experience. His ability to implement technical controls while maintaining audit-ready evidence is rare."
+>
+> — **Security stakeholder**, Client engagement via AAM Cyber, LLC
+
+<small>*Additional references available upon request.*</small>
+
+---
+
+## Innovation & patents
 
 Patent holder in UAV payload and delivery systems; cybersecurity-focused patents pending. See [Innovation](innovation/index.md) for RF/UAS research.
 

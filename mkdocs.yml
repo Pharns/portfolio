@@ -1,6 +1,6 @@
 site_name: Pharns Génécé — Cybersecurity & Python Portfolio
 site_url: https://portfolio.pharns.com
-site_description: AI-augmented Cloud/GRC, Detection, and RF security portfolio with audit-ready case studies.
+site_description: GRC Engineer portfolio — audit-ready control frameworks, cloud security automation, and compliance implementation. AI-augmented delivery at 10× capacity.
 site_author: Pharns Génécé
 repo_url: https://github.com/Pharns/portfolio
 repo_name: pharns/portfolio
@@ -10,6 +10,7 @@ strict: true
 theme:
   name: material
   language: en
+  custom_dir: overrides
   features:
   - navigation.tabs
   - navigation.top
@@ -25,12 +26,15 @@ theme:
   - scheme: default
     primary: indigo
     accent: cyan
+    toggle:
+      icon: material/weather-sunny
+      name: Switch to dark mode
   - scheme: slate
     primary: indigo
     accent: cyan
     toggle:
       icon: material/weather-night
-      name: Switch to dark mode
+      name: Switch to light mode
 extra:
   social:
   - icon: fontawesome/brands/github
@@ -39,6 +43,21 @@ extra:
     link: https://www.linkedin.com/in/pharns
   - icon: fontawesome/solid/envelope
     link: mailto:careers@pharns.com
+  meta:
+  - property: og:title
+    content: "Pharns Genece | GRC Engineer & Cloud Security Portfolio"
+  - property: og:description
+    content: "Audit-ready control frameworks, cloud security automation, and compliance implementation. AI-augmented delivery."
+  - property: og:type
+    content: "website"
+  - property: og:url
+    content: "https://portfolio.pharns.com"
+  - name: twitter:card
+    content: "summary_large_image"
+  - name: twitter:title
+    content: "Pharns Genece | GRC Engineer Portfolio"
+  - name: twitter:description
+    content: "GRC engineering, cloud security, and compliance automation portfolio."
 markdown_extensions:
 - admonition
 - attr_list
@@ -77,34 +96,32 @@ extra_css:
 nav:
 - Home: index.md
 - About: about.md
-- Certifications: certifications.md
-- GRC & Compliance:
-  - GRC Engineering Overview: grc/index.md
+- GRC & Security:
+  - Overview: grc/index.md
   - Cloud Control Pack (AWS): cybersecurity/aws-control-pack.md
-  - PCI DSS Compliance — Windows 11 Hardening:
+  - PCI-DSS Compliance:
     - Overview: cybersecurity/pci-dss/index.md
     - System Architecture: cybersecurity/pci-dss/architecture.md
     - Implementation Guide: cybersecurity/pci-dss/implementation.md
     - Controls & Mapping: cybersecurity/pci-dss/security-controls.md
     - Verification & Evidence: cybersecurity/pci-dss/verification.md
     - Lessons Learned: cybersecurity/pci-dss/lessons-learned.md
-  - GIAP — Governance Automation: cybersecurity/giap.md
-  - Secure Intake & Evidence Portal: cybersecurity/intake-portal.md
+  - GIAP™ — Governance Automation: cybersecurity/giap.md
+  - Secure Intake Portal: cybersecurity/intake-portal.md
   - Baseline Evidence Drop: cybersecurity/baseline-evidence-drop.md
-- Detection & Response:
   - Detection & IR Lab: cybersecurity/incident-response.md
-  - TraceLock (RF/SDR Security): cybersecurity/tracelock.md
+  - TraceLock™ (RF Security): cybersecurity/tracelock.md
   - Homelab Infrastructure: cybersecurity/homelab-infrastructure.md
   - Homelab Build Journey: cybersecurity/homelab-journey.md
   - Remote Access & Zero-WAN: cybersecurity/remote-access-zero-wan.md
-- Penetration Testing (Expanding):
-  - Overview: cybersecurity/penetration-testing.md
+  - Penetration Testing: cybersecurity/penetration-testing.md
   - Vulnerability Assessment: cybersecurity/vulnerability-assessment.md
-- Projects: projects.md
 - Innovation:
   - Overview: innovation/index.md
   - Drone Payload Systems: innovation/drone-payload-systems.md
   - SDR & RF Security Research: innovation/rf-security.md
   - 3D-Printed & Modular Systems: innovation/modular-designs.md
   - Innovation Write-Ups: innovation/innovation-blogs.md
+- Projects: projects.md
+- Certifications: certifications.md
 - Contact: contact.md

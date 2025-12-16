@@ -1,3 +1,7 @@
+---
+description: "Pharns Genece — GRC engineer and cloud security practitioner. Evidence-first compliance, AI-augmented workflows, and hands-on technical implementation."
+---
+
 # About Pharns
 
 I build and secure systems end-to-end: cloud governance frameworks, GRC automation, endpoint hardening, detection tuning, and evidence-ready workflows. I blend compliance discipline, AI-augmented engineering, and hands-on technical depth (cloud, RF/SDR, detection) with a patented UAV background to deliver fast, audit-ready results.
@@ -7,6 +11,13 @@ I build and secure systems end-to-end: cloud governance frameworks, GRC automati
 **How I work:** Evidence-first (controls, logs, screenshots), plain-English reporting, AI-assisted with human review, rapid iterations and clear handoffs.
 
 **Signals:** WGU B.S. Cybersecurity (Dec 2025), Security+/Net+/A+, ITIL4, ISC² CC/SSCP (Assoc.), LPI, FAA Part 107, HAM/GMRS; AWS CP/CySA+/Pentest+ scheduled Dec 2025.
+
+**Trust signals:**
+
+- Service-disabled veteran (USAF) — security clearance eligible
+- Patent holder in UAV systems — demonstrates innovation and IP ownership
+- Active GitHub with public project repos — code is verifiable
+- Credly-verified certifications — [View badges](https://www.credly.com/users/pharns)
 
 **Leadership & discipline:** Led AAM Cyber and USOG client work; built governance and safety controls. Disciplined execution shaped by high-stakes USAF aeromedical operations.
 

@@ -1,3 +1,7 @@
+---
+description: "Full-stack GRC engineering: cloud governance, endpoint compliance, automation workflows, and framework mapping. NIST, CIS, PCI-DSS implementation."
+---
+
 # GRC & Compliance Engineering
 
 I build audit-ready control frameworks, evidence pipelines, and compliance automation systems for cloud and hybrid environments. Unlike traditional GRC roles focused on policy and documentation, I implement the technical controls being audited.
