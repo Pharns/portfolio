@@ -100,7 +100,7 @@ AI-powered intake workflows with consent management, retention policies, and con
 </div>
 
 <div class="stat-tile" markdown>
-**TraceLock™ — RF/SDR Security**
+**TraceLock™ — RF/SDR Security** *(Patent Pending)*
 Evidence-grade wireless surveillance detection system with SDR/ADS-B/Bluetooth pipelines.
 <span class="tag-chip">RF</span> <span class="tag-chip">Detection</span> <span class="tag-chip">Evidence</span>
 [View Project](cybersecurity/tracelock.md)
@@ -191,7 +191,7 @@ ISC² CCSP (Certified Cloud Security Professional)
 
 ## Innovation & patents
 
-Patent holder in UAV payload and delivery systems; cybersecurity-focused patents pending. See [Innovation](innovation/index.md) for RF/UAS research.
+Patent holder in UAV payload and delivery systems. **TraceLock™** (RF threat detection platform) provisional patent filed. See [Innovation](innovation/index.md) for RF/UAS research.
 
 ---
 

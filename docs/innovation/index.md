@@ -10,9 +10,10 @@ This section highlights **UAV systems, RF security research, and patent-pending 
 
 ## 🚁 **Projects in This Section**
 
-- **[Drone Payload Systems](drone-payload-systems.md)** → patented and patent-pending UAV payload architectures designed for wireless security testing and mission adaptability.  
-- **[SDR & RF Security Research](rf-security.md)** → applied software-defined radio (SDR) for UAV interception, wireless analysis, and payload integration.  
-- **[3D-Printed & Modular Systems](modular-designs.md)** → engineered modular housings and payload adapters for SDR and penetration-testing hardware.  
+- **[TraceLock™ RF Threat Detection](../cybersecurity/tracelock.md)** → patent-pending multi-domain RF surveillance detection platform with forensic-grade logging (Wi-Fi/Bluetooth/SDR/GPS/ADS-B).
+- **[Drone Payload Systems](drone-payload-systems.md)** → patented and patent-pending UAV payload architectures designed for wireless security testing and mission adaptability.
+- **[SDR & RF Security Research](rf-security.md)** → applied software-defined radio (SDR) for UAV interception, wireless analysis, and payload integration.
+- **[3D-Printed & Modular Systems](modular-designs.md)** → engineered modular housings and payload adapters for SDR and penetration-testing hardware.
 - **[Innovation Write-Ups](innovation-blogs.md)** → research notes, prototypes, and technical deep dives connecting UAV and cybersecurity domains.  
 
 ---

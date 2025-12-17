@@ -1,13 +1,13 @@
 ---
-description: TraceLock™ — Multi-domain RF threat detection platform with real-time monitoring across Wi-Fi, Bluetooth, SDR, GPS, and ADS-B. Detection engineering with Python automation and forensic-grade logging.
+description: TraceLock™ — Patent-pending multi-domain RF threat detection platform with real-time monitoring across Wi-Fi, Bluetooth, SDR, GPS, and ADS-B. Detection engineering with Python automation and forensic-grade logging.
 ---
 # TraceLock™ — Multi-Domain RF Threat Detection Platform
 
-*WGU BSCIA Capstone | Completion: December 2025*
+*Patent Pending · WGU BSCIA Capstone · December 2025*
 
 !!! success "For Hiring Managers — Detection Engineer / Security Automation"
 
-    **What I Built:** Real-time RF surveillance detection system that monitors 6 wireless domains simultaneously, correlates threats across sensors, and produces forensic-grade evidence logs.
+    **What I Built:** Real-time RF surveillance detection system that monitors 6 wireless domains simultaneously, correlates threats across sensors, and produces forensic-grade evidence logs. *(Provisional patent filed)*
 
     **Technical Stack:** Python · Raspberry Pi 4 · RTL-SDR · HackRF · Kismet · GPS · SQLite · GitHub Actions CI
 
@@ -76,7 +76,7 @@ Executive protection and security teams face a critical gap: **12-18 minutes of 
 
 ### 1. Multi-Domain Correlation
 
-TraceLock correlates signals across domains to identify sophisticated threats:
+TraceLock™ correlates signals across domains to identify sophisticated threats:
 
 ```python
 # Simplified correlation example
@@ -261,7 +261,7 @@ def correlate_threat(wifi_event, bt_event, gps_fix):
 
 ## Related Projects
 
-- [Homelab Infrastructure](homelab-infrastructure.md) — The lab where TraceLock was developed
+- [Homelab Infrastructure](homelab-infrastructure.md) — The lab where TraceLock™ was developed
 - [Remote Access & Zero-WAN](remote-access-zero-wan.md) — Secure architecture for remote development
 - [GIAP](giap.md) — GRC automation platform using similar pipeline patterns
 
