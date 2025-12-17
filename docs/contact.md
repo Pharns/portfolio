@@ -46,14 +46,17 @@ Code samples and project repos
 - Cloud Security Engineer (GRC/compliance focus)
 - Security Controls Implementation Specialist
 - Detection Engineering
+- AAM/UAV Security · Cyber-Physical Systems
 
 **Work preferences:**
 
-- Remote-first (US time zones preferred)
+- Remote-first preferred; comfortable with US/EU/LatAm time zones
+- **Open to relocation** for the right opportunity
 - Open to contract or full-time
 - Available for consulting engagements
+- **International roles welcome** — experienced collaborating across time zones
 
-**Compensation:** Targeting $120K+ base for full-time roles. Happy to discuss scope and compensation for contract work.
+**Compensation:** Negotiable based on role scope, responsibilities, and total package. Happy to discuss.
 
 ---
 
