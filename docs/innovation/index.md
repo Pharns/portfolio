@@ -1,14 +1,24 @@
-# 💡 **Innovation — Overview**
+# Innovation — Advanced Air Mobility (AAM) & RF Security
 
 !!! danger "Legal Review"
     This project is currently undergoing legal review to ensure compliance with NDAs, intellectual property protections, and security considerations. Details may be limited until cleared for publication.
 
+**I don't just secure drones — I've designed, built, and fielded UAV systems.**
 
-This section highlights **UAV systems, RF security research, and patent-pending innovations** that combine engineering and cybersecurity. The work reflects expertise in **designing, building, and securing advanced platforms**, with projects bridging physical systems, wireless security, and enterprise applications.  
+This section highlights **UAV systems, RF security research, and patent-pending innovations** that combine engineering and cybersecurity. The work reflects expertise in **designing, building, and fielding operational platforms**, with projects bridging physical systems, wireless security, and enterprise applications.
+
+| Capability | Evidence |
+|------------|----------|
+| **UAV Engineering** | Designed, built, and fielded operational UAV systems |
+| **USPTO Patents** | Granted patents in UAV payload and delivery architectures |
+| **RF Threat Detection** | TraceLock™ with ADS-B integration for drone surveillance detection |
+| **Aviation Credentials** | FAA Part 107 certified drone pilot |
+| **SDR/Wireless** | HackRF, RTL-SDR, Kismet — spectrum analysis and signal intelligence |
+| **Consulting** | AAM Cyber, LLC — cyber-physical security services |  
 
 ---
 
-## 🚁 **Projects in This Section**
+## Projects in this section
 
 - **[TraceLock™ RF Threat Detection](../cybersecurity/tracelock.md)** → patent-pending multi-domain RF surveillance detection platform with forensic-grade logging (Wi-Fi/Bluetooth/SDR/GPS/ADS-B).
 - **[Drone Payload Systems](drone-payload-systems.md)** → patented and patent-pending UAV payload architectures designed for wireless security testing and mission adaptability.
@@ -18,14 +28,14 @@ This section highlights **UAV systems, RF security research, and patent-pending 
 
 ---
 
-## 🧩 **Key Competencies**  
+## Key competencies  
 - **System Innovation** → patented UAV payload architectures and modular hardware design  
 - **RF & SDR Security** → applied wireless interception and UAV integration for security research  
 - **Cross-Domain Expertise** → bridging UAV engineering with cybersecurity applications  
 
 ---
 
-## 💼 **Professional Applications**  
+## Professional applications  
 - **Secure UAV & RF Systems** → apply cybersecurity to next-gen aerial platforms  
 - **Innovation & IP Development** → create, patent, and deploy technical solutions  
 - **Cyber-Physical Security** → integrate physical UAV systems with enterprise-grade security models  

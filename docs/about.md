@@ -1,12 +1,12 @@
 ---
-description: "Pharns Genece — GRC engineer and cloud security practitioner. Evidence-first compliance, AI-augmented workflows, and hands-on technical implementation."
+description: "Pharns Genece — GRC engineer, cloud security, and AAM cybersecurity practitioner. Evidence-first compliance, AI-augmented workflows, and hands-on technical implementation."
 ---
 
 # About Pharns
 
-I build and secure systems end-to-end: cloud governance frameworks, GRC automation, endpoint hardening, detection tuning, and evidence-ready workflows. I blend compliance discipline, AI-augmented engineering, and hands-on technical depth (cloud, RF/SDR, detection) with a patented UAV background to deliver fast, audit-ready results.
+I build and secure systems end-to-end: cloud governance frameworks, GRC automation, endpoint hardening, detection tuning, and evidence-ready workflows. Rare hybrid: GRC discipline meets RF/aviation security and cyber-physical systems expertise. I blend compliance discipline, AI-augmented engineering, and hands-on technical depth (cloud, RF/SDR, detection) with a patented UAV background to deliver fast, audit-ready results.
 
-**Who I am:** GRC engineer and cloud security practitioner with production hardening experience and wireless/RF security expertise; service-disabled veteran and FAA Part 107.
+**Who I am:** GRC engineer, cloud security practitioner, and AAM cybersecurity specialist. Production hardening experience, wireless/RF security expertise, USPTO patent holder. Service-disabled veteran and FAA Part 107 certified.
 
 **How I work:** Evidence-first (controls, logs, screenshots), plain-English reporting, AI-assisted with human review, rapid iterations and clear handoffs.
 
@@ -51,7 +51,7 @@ I build and secure systems end-to-end: cloud governance frameworks, GRC automati
 
 **Future/Expanding:** Penetration Testing · Offensive Security (active lab, CySA+/PenTest+ Dec 2025)
 
-**Specialty niches:** RF/UAS/Wireless Security Engineer · AI-Augmented Security Engineering
+**Specialty niches:** AAM/UAV Security · RF/Wireless Security · Cyber-Physical Systems · AI-Augmented Security Engineering
 
 Remote-first; open to international collaboration (US/EU/LatAm time zones) and relocation for the right opportunity.
 

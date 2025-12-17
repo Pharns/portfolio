@@ -1,14 +1,14 @@
 ---
-description: "GRC Engineer portfolio — audit-ready control frameworks, cloud security automation, and compliance implementation. AI-augmented delivery at 10× capacity."
+description: "GRC Engineer portfolio — audit-ready control frameworks, cloud security automation, and AAM cybersecurity. AI-augmented delivery at 10× capacity."
 ---
 
 # Pharns Genece
 
-**GRC Engineer & Cloud Security Specialist**
+**GRC Engineer · Cloud Security · Advanced Air Mobility (AAM) Cybersecurity**
 
-I build audit-ready control frameworks, evidence pipelines, and compliance automation — then implement the technical controls, not just document them. AI-augmented delivery at 10× capacity.
+I build audit-ready control frameworks, evidence pipelines, and compliance automation — then implement the technical controls, not just document them. Rare hybrid: GRC discipline meets RF/aviation security and cyber-physical systems expertise. AI-augmented delivery at 10× capacity.
 
-**Targeting:** GRC Engineer · Cloud Security Engineer · Security Controls Implementation · Detection Engineering
+**Targeting:** GRC Engineer · Cloud Security Engineer · AAM/UAV Security · Detection Engineering · Cyber-Physical Systems
 
 [View GRC Projects](grc/index.md){ .btn-primary } [Contact](contact.md){ .btn-ghost }
 
@@ -17,7 +17,7 @@ I build audit-ready control frameworks, evidence pipelines, and compliance autom
   "@context": "https://schema.org",
   "@type": "Person",
   "name": "Pharns Genece",
-  "jobTitle": "GRC Engineer & Cloud Security Specialist",
+  "jobTitle": "GRC Engineer · Cloud Security · AAM Cybersecurity",
   "url": "https://portfolio.pharns.com",
   "sameAs": [
     "https://linkedin.com/in/pharns",
@@ -30,7 +30,12 @@ I build audit-ready control frameworks, evidence pipelines, and compliance autom
     "Detection Engineering",
     "NIST CSF",
     "PCI-DSS",
-    "AWS Security"
+    "AWS Security",
+    "Advanced Air Mobility",
+    "UAV Security",
+    "Drone Cybersecurity",
+    "RF Security",
+    "Cyber-Physical Systems"
   ],
   "alumniOf": {
     "@type": "Organization",
@@ -189,9 +194,23 @@ ISC² CCSP (Certified Cloud Security Professional)
 
 ---
 
-## Innovation & patents
+## AAM cybersecurity specialization
 
-Patent holder in UAV payload and delivery systems. **TraceLock™** (RF threat detection platform) provisional patent filed. See [Innovation](innovation/index.md) for RF/UAS research.
+**I don't just secure drones — I've designed, built, and fielded UAV systems.**
+
+Advanced Air Mobility (AAM) security requires practitioners who understand the engineering, not just the vulnerabilities. I bring hands-on experience across the full lifecycle:
+
+| Capability | Evidence |
+|------------|----------|
+| **UAV Engineering** | Designed, built, and fielded operational UAV systems |
+| **USPTO Patents** | Granted patents in UAV payload and delivery architectures |
+| **RF Threat Detection** | TraceLock™ with ADS-B integration for drone surveillance detection |
+| **Aviation Credentials** | FAA Part 107 certified drone pilot |
+| **SDR/Wireless** | HackRF, RTL-SDR, Kismet — spectrum analysis and signal intelligence |
+| **Consulting** | AAM Cyber, LLC — cyber-physical security services |
+| **Military Aviation** | USAF aeromedical operations background |
+
+[View Innovation Projects](innovation/index.md){ .btn-ghost }
 
 ---
 
