@@ -10,7 +10,7 @@ I build and secure systems end-to-end: cloud governance frameworks, GRC automati
 
 **How I work:** Evidence-first (controls, logs, screenshots), plain-English reporting, AI-assisted with human review, rapid iterations and clear handoffs.
 
-**Signals:** WGU B.S. Cybersecurity (Dec 2025), Security+/Net+/A+, ITIL4, ISC² CC/SSCP (Assoc.), LPI, FAA Part 107, HAM/GMRS; AWS CP/CySA+/Pentest+ scheduled Dec 2025.
+**Signals:** WGU B.S. Cybersecurity (Dec 2025), Security+/Net+/A+, ITIL4, ISC² CC/SSCP (Assoc.), LPI, FAA Part 107, HAM/GMRS; CySA+/PenTest+ scheduled Dec 2025; AWS CP planned Q1 2026.
 
 **Trust signals:**
 

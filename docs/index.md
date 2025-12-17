@@ -166,11 +166,11 @@ Security+, Network+, A+, ITIL4, ISC² CC, SSCP (Assoc.), LPI, Project+
 </div>
 <div class="stat-tile" markdown>
 **Scheduled Dec 2025**
-AWS Cloud Practitioner, CySA+, PenTest+
+CySA+, PenTest+
 </div>
 <div class="stat-tile" markdown>
 **Planned Q1 2026**
-ISC² CCSP (Certified Cloud Security Professional)
+AWS Cloud Practitioner, ISC² CCSP
 </div>
 </div>
 
