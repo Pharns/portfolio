@@ -9,7 +9,7 @@ description: TraceLock™ — Patent-pending multi-domain RF threat detection pl
 
     **What I Built:** Real-time RF surveillance detection system that monitors 6 wireless domains simultaneously, correlates threats across sensors, and produces forensic-grade evidence logs. *(Provisional patent filed)*
 
-    **Technical Stack:** Python · Raspberry Pi 4 · RTL-SDR · HackRF · Kismet · GPS · SQLite · GitHub Actions CI
+    **Technical Stack:** Python 3.10+ · Raspberry Pi 4 (8GB) · Kismet · RTL-SDR V4 · HackRF H4M · Ubertooth · SQLite · GitHub Actions CI
 
     **Detection Engineering Skills Demonstrated:**
 
@@ -21,7 +21,7 @@ description: TraceLock™ — Patent-pending multi-domain RF threat detection pl
 
     **Why This Matters:** If I can build detection logic for RF threats across 6 sensor domains, I can build detection content for your SIEM/EDR platform.
 
-[:fontawesome-brands-github: View on GitHub](https://github.com/Pharns/Tracelock-SSD){ .md-button .md-button--primary }
+[View on GitHub](https://github.com/Pharns/Tracelock-SSD){ .md-button .md-button--primary }
 
 ---
 
@@ -41,19 +41,23 @@ Executive protection and security teams face a critical gap: **12-18 minutes of 
 
 ## What I Built
 
-### Hardware Platform (Pelican-Cased Rapid Response Kit)
+### Hardware Platform (Field-Deployable Rapid Response Kit)
 
-| Component | Purpose |
-|-----------|---------|
-| Raspberry Pi 4B (8GB) | Core processing |
-| RTL-SDR v3 | ISM band monitoring (433MHz, 915MHz) |
-| HackRF One + PortaPack | Wideband SDR analysis |
-| Alfa AWUS036ACH | Dual-band Wi-Fi monitoring |
-| Ubertooth One | Bluetooth/BLE sniffing |
-| GPS + LTE Modem | Location correlation + connectivity |
-| 10Ah Battery Pack | 4+ hours field operation |
+| Component | Purpose | Capabilities |
+|-----------|---------|--------------|
+| **Raspberry Pi 4B (8GB)** | Core processing | Runs Kismet + all TraceLock™ modules |
+| **Panda PAU09 N600** | Wi-Fi monitoring | Monitor mode, packet capture, injection (2.4/5GHz) |
+| **RTL-SDR Blog V4** | ISM band + ADS-B | Sub-GHz (433/868/915MHz), ADS-B (1090MHz) |
+| **HackRF One H4M + PortaPack** | Wideband SDR TX/RX | 1MHz-6GHz, Mayhem firmware, signal analysis |
+| **StarTech USB BT5.3 Class-1** | Long-range Bluetooth | Extended BLE scanning with external antenna |
+| **ASUS USB-BT500 Nano** | Short-range Bluetooth | Dense environment device detection |
+| **Ubertooth One** | BLE research | Advanced BLE protocol analysis and sniffing |
+| **SIM7600G-H HAT** | GPS + LTE | GNSS positioning, remote telemetry/VPN |
+| **7" IPS DSI Touchscreen** | Field interface | 800×480 capacitive, local GUI for Kismet/CYT |
 
 ### Software Architecture
+
+**Codebase:** 8+ Python modules, 52 shell scripts, GitHub Actions CI
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
@@ -63,12 +67,35 @@ Executive protection and security teams face a critical gap: **12-18 minutes of 
 │  ─────────────    │  ─────────────────  │  ──────────────   │
 │  • Kismet (Wi-Fi) │  • Rule matching    │  • JSON logs      │
 │  • rtl_433 (ISM)  │  • Threshold tuning │  • Markdown reports│
-│  • Ubertooth (BT) │  • Correlation      │  • KML maps       │
-│  • GPS feed       │  • Allowlisting     │  • MQTT alerts    │
-│  • ADS-B decoder  │  • AI-assisted FP   │  • Audit export   │
-│                   │    reduction        │                   │
+│  • linuxbluetooth │  • Correlation      │  • KML maps       │
+│  • gpsd (GPS)     │  • Allowlisting     │  • MQTT alerts    │
+│  • dump1090(ADSB) │  • Persistence      │  • HTML reports   │
+│  • HackRF capture │    scoring          │  • Audit export   │
 └─────────────────────────────────────────────────────────────┘
 ```
+
+### Python Module Breakdown
+
+| Module | Purpose |
+|--------|---------|
+| `chasing_your_tail.py` | Core monitoring engine — real-time Kismet DB queries |
+| `cyt_gui.py` | Tkinter GUI for operator interface (BlackHat Arsenal ready) |
+| `surveillance_analyzer.py` | GPS surveillance detection with KML export |
+| `surveillance_detector.py` | Persistence detection engine with scoring |
+| `probe_analyzer.py` | Post-processing with WiGLE API integration |
+| `ism_analyzer.py` | ISM433 signal classifier for rtl_433 feeds |
+| `ble_analyzer.py` | Bluetooth Low Energy analysis |
+| `gps_tracker.py` | Location clustering and KML generation |
+
+### Security Modules (Hardened)
+
+| Module | Protection |
+|--------|------------|
+| `secure_database.py` | SQL injection prevention — parameterized queries only |
+| `secure_credentials.py` | Fernet encryption with PBKDF2 key derivation (100k iterations) |
+| `secure_ignore_loader.py` | Safe allowlist loading — eliminated `exec()` calls |
+| `input_validation.py` | Dedicated InputValidator class for all sensor inputs |
+| `mode_controller.py` | Role-based capture profiles (lab/demo/field) |
 
 ---
 
@@ -238,14 +265,16 @@ def correlate_threat(wifi_event, bt_event, gps_fix):
 
 | Phase | Status | Notes |
 |-------|--------|-------|
-| Hardware Assembly | Complete | Pelican case, all 6 modules |
-| Software Core | Complete | Detection engine operational |
-| WGU Task 1 (Topic) | Approved | Official capstone approval |
-| WGU Task 2 (Proposal) | 85% | Final sections in progress |
-| WGU Task 3 (Implementation) | 40% | Field validation pending |
-| Portfolio Documentation | Current | This page |
+| Hardware Assembly | ✅ Complete | 9 RF modules integrated, field-ready |
+| Software Core | ✅ Complete | Detection engine operational on Pi |
+| Security Hardening | ✅ Complete | All 5 security modules implemented |
+| WGU Task 1 (Topic) | ✅ Approved | Official capstone approval received |
+| WGU Task 2 (Proposal) | ✅ Complete | Submitted and approved |
+| WGU Task 3 (Final Report) | 🔄 In Progress | Field validation and documentation |
+| Provisional Patent | ✅ Filed | Patent pending |
+| GitHub CI/CD | ✅ Active | Smoke tests on push |
 
-**Expected Completion:** December 2025 (BSCIA Capstone)
+**Expected Graduation:** December 2025 (BSCIA Capstone)
 
 ---
 
@@ -267,6 +296,6 @@ def correlate_threat(wifi_event, bt_event, gps_fix):
 
 ---
 
-[:fontawesome-brands-github: GitHub Repository](https://github.com/Pharns/Tracelock-SSD){ .md-button .md-button--primary }
-[:fontawesome-brands-linkedin: Connect on LinkedIn](https://www.linkedin.com/in/pharns/){ .md-button }
+[GitHub Repository](https://github.com/Pharns/Tracelock-SSD){ .md-button .md-button--primary }
+[Connect on LinkedIn](https://www.linkedin.com/in/pharns/){ .md-button }
 [Contact Me](../contact.md){ .md-button }
