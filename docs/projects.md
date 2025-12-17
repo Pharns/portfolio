@@ -1,3 +1,7 @@
+---
+description: "GRC engineering projects and case studies: cloud security, compliance automation, detection engineering, and evidence pipelines. Technical implementation with audit-ready documentation."
+---
+
 # Projects & Case Studies
 
 Browse the core portfolio work with quick outcomes and role-fit tags.

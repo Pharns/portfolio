@@ -1,4 +1,8 @@
-# 🏠 **Homelab Infrastructure**
+---
+description: "Proxmox homelab infrastructure: Security Onion, Wazuh, Nessus, TheHive/Cortex, Kali Linux. Network segmentation, Zero Trust pilots, and SOC tool deployment."
+---
+
+# Homelab Infrastructure
 
 **TL;DR:** Realistic “mini-SOC” lab: built and segmented a network, deployed monitoring tools (Security Onion/Wazuh/Nessus/TheHive), and tested Zero Trust access (Tailscale/Twingate/Netbird). Shows end-to-end security ops with plain-English notes for non-technical reviewers. Outcome: full lab stood up and documented in <3 days.
 

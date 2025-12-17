@@ -1,3 +1,7 @@
+---
+description: "Penetration testing lab and training: Kali Linux, Metasploit, hardware toolkit (HackRF, Flipper Zero). CySA+ and PenTest+ Dec 2025. Purple team perspective for GRC."
+---
+
 # Penetration Testing (Expanding Capability)
 
 !!! tldr "For recruiters & hiring managers"

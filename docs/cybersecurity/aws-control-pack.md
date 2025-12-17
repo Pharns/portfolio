@@ -1,3 +1,7 @@
+---
+description: "AWS Cloud Control Pack: S3 default-deny storage, GuardDuty findings export, scoped IAM roles with CIS/NIST mapping. Production-ready cloud GRC baseline."
+---
+
 # Cloud Control Pack (AWS)
 
 !!! tldr "For recruiters & hiring managers"

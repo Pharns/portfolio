@@ -1,3 +1,7 @@
+---
+description: "Detection and incident response lab: Security Onion SIEM, TheHive case management, Cortex enrichment. Alert tuning, IR playbooks, and SOC workflow practice."
+---
+
 # Detection & IR Lab (Security Onion + TheHive/Cortex)
 
 **TL;DR:** Small SOC lab to practice finding alerts, triaging cases, and enriching evidence (Security Onion + TheHive/Cortex). Shows clear playbooks, tuned detections, and easy-to-read reports for non-technical stakeholders. Outcome: cut false positives ~20% in lab drills with documented runbooks.
