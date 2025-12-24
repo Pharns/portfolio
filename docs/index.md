@@ -69,7 +69,7 @@ Most GRC professionals write policies and manage spreadsheets. I architect and b
 
 - **Detection & response** — Operate active Security Onion + TheHive/Cortex lab. Author SIEM rules, tune false positives, write IR playbooks. Understand security operations, not just governance.
 
-- **AI-augmented delivery** — Use multi-agent LLM workflows to draft policies, map controls, and generate documentation at 10× speed with human review. Deliver in hours what takes others weeks.
+- **AI-augmented delivery** — Built [AgenticOS](innovation/agenticos.md), a deterministic AI orchestration layer with audit-grade logging. Use multi-agent LLM workflows to draft policies, map controls, and generate documentation at 10× speed with human review. Deliver in hours what takes others weeks.
 
 **Bottom line:** Hire me if you need someone who can design a control framework, implement the technical architecture, document everything with evidence, and hand auditors a clean package — all while working at AI-augmented velocity.
 
@@ -110,6 +110,14 @@ Evidence-grade wireless surveillance detection system with SDR/ADS-B/Bluetooth p
 <span class="tag-chip">RF</span> <span class="tag-chip">Detection</span> <span class="tag-chip">Evidence</span>
 [View Project](cybersecurity/tracelock.md)
 <small>Why it matters for GRC: demonstrates logging architecture, evidence collection, and control implementation at systems level.</small>
+</div>
+
+<div class="stat-tile" markdown>
+**AgenticOS — AI Governance Layer**
+Deterministic AI orchestration with 72 health checks, 4 providers, and audit-grade logging.
+<span class="tag-chip">AI</span> <span class="tag-chip">Automation</span> <span class="tag-chip">Governance</span>
+[View Project](innovation/agenticos.md)
+<small>What it demonstrates: I build the AI tooling, not just use it — 6,361 lines of auditable automation.</small>
 </div>
 </div>
 
