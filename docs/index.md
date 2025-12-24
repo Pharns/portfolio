@@ -65,7 +65,7 @@ Most GRC professionals write policies and manage spreadsheets. I architect and b
 
 - **AI-augmented delivery** — Built [AgenticOS](innovation/agenticos.md), a deterministic AI orchestration layer with audit-grade logging. Use multi-agent LLM workflows to draft policies, map controls, and generate documentation at 10× speed with human review. Deliver in hours what takes others weeks.
 
-- **Compliance automation** — Architecting GIAP™ intake platform: Nextcloud + n8n workflows + SuiteCRM with RBAC, retention policies, consent management, and structured JSON outputs. Design complete, implementation Q1 2026.
+- **Compliance automation** — Deployed GIAP™ intake platform infrastructure: Nextcloud + n8n + SuiteCRM on self-hosted Proxmox VMs. RBAC, retention policies, consent management, and workflow automation in progress.
 
 - **Detection & response** — Operate active Security Onion + TheHive/Cortex lab. Author SIEM rules, tune false positives, write IR playbooks. Understand security operations, not just governance.
 
@@ -105,9 +105,9 @@ Deterministic AI orchestration with 72 health checks, 4 providers, and audit-gra
 </div>
 
 <div class="stat-tile" markdown>
-**GIAP™ — Governance Automation** *(In Progress)*
-AI-powered intake workflows with consent management, retention policies, and control mapping.
-<span class="tag-chip">GRC</span> <span class="tag-chip">Automation</span> <span class="tag-chip">Q1 2026</span>
+**GIAP™ — Governance Automation** *(Infrastructure Live)*
+Self-hosted Nextcloud + n8n + SuiteCRM on Proxmox VMs. Workflow integration in progress.
+<span class="tag-chip">GRC</span> <span class="tag-chip">Automation</span> <span class="tag-chip">Self-Hosted</span>
 [View Case Study](cybersecurity/giap.md)
 <small>What it demonstrates: structured evidence collection with audit trails and NIST alignment.</small>
 </div>

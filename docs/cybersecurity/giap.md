@@ -16,11 +16,11 @@ description: GRC intake and evidence automation case — Nextcloud+n8n+SuiteCRM 
 ---
 
 !!! warning "Project Status: In Progress"
-    **Architecture:** Complete — Nextcloud + n8n + SuiteCRM stack designed with RBAC, retention, and consent patterns.
+    **Infrastructure:** Deployed — Nextcloud, n8n, SuiteCRM, and MySQL running on self-hosted Proxmox VMs.
 
-    **Implementation:** Q1 2026 — Wizard UI partially built. Infrastructure deployment and workflow automation pending.
+    **Integration:** Q1 2026 — Workflow automation, system integration, and evidence pipelines in progress.
 
-    **What's here now:** Control design, architecture documentation, partial intake wizard, and framework mapping. Full deployment evidence coming soon.
+    **What's here now:** Live infrastructure, control design, architecture documentation, partial intake wizard, and framework mapping. Integration evidence coming soon.
 
 ---
 
@@ -47,12 +47,13 @@ description: GRC intake and evidence automation case — Nextcloud+n8n+SuiteCRM 
 - Automate workflow steps (notifications, routing, logging) via n8n.
 - Map outputs to SOC 2/NIST-style controls; feed a structured intake JSON for downstream processing.
 
-## Architecture (public-safe)
+## Architecture (deployed on self-hosted Proxmox)
+- **Infrastructure:** Self-hosted Proxmox hypervisor with dedicated VMs for each service component.
 - **Edge/Access:** Reverse proxy + TLS + DNS/email hardening.
-- **Portal & Workflow:** Nextcloud for intake, n8n automation for routing/notifications, SuiteCRM with remote MySQL for case data.
+- **Portal & Workflow:** Nextcloud for intake, n8n automation for routing/notifications, SuiteCRM with MySQL for case data.
 - **Data & Integrity:** Checksums on upload, role-based folders, retention policies, logged workflow steps.
 - **Audit & Monitoring:** Portal/workflow logs retained; access review checklist; consent banners on intake flows.
-- **Export:** Structured intake JSON (schema stub) to evidence pipeline (GIAP).
+- **Export:** Structured intake JSON (schema stub) to evidence pipeline (GIAP™).
 
 ## Controls & mapping (examples)
 | Control area | Implementation | Frameworks |
@@ -69,19 +70,25 @@ description: GRC intake and evidence automation case — Nextcloud+n8n+SuiteCRM 
 |-------|--------|--------|
 | Architecture design | ✅ Complete | — |
 | Control framework mapping | ✅ Complete | — |
+| Nextcloud deployment | ✅ Complete | — |
+| n8n deployment | ✅ Complete | — |
+| SuiteCRM + MySQL deployment | ✅ Complete | — |
 | Intake wizard UI | 🔄 Partial | Q1 2026 |
-| Nextcloud deployment | ⏳ Pending | Q1 2026 |
-| n8n workflow automation | ⏳ Pending | Q1 2026 |
-| SuiteCRM integration | ⏳ Pending | Q1 2026 |
+| n8n workflow automation | 🔄 In Progress | Q1 2026 |
+| System integration | ⏳ Pending | Q1 2026 |
 | Evidence capture & validation | ⏳ Pending | Q1 2026 |
 
 ## Current Artifacts
 
 | Component | Design | Implementation |
 |-----------|--------|----------------|
+| Proxmox VM infrastructure | ✅ Complete | ✅ Deployed |
+| Nextcloud file portal | ✅ Complete | ✅ Running |
+| n8n automation server | ✅ Complete | ✅ Running |
+| SuiteCRM + MySQL | ✅ Complete | ✅ Running |
 | Intake wizard (HTML/JS) | ✅ Complete | 🔄 Partial |
-| RBAC role matrix | ✅ Complete | ⏳ Pending |
-| n8n workflow definitions | ✅ Designed | ⏳ Pending |
+| RBAC role matrix | ✅ Complete | 🔄 In Progress |
+| n8n workflow definitions | ✅ Designed | 🔄 In Progress |
 | Retention policy template | ✅ Complete | ⏳ Pending |
 | JSON output schema | ✅ Complete | ⏳ Pending |
 
