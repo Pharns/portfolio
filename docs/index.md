@@ -59,17 +59,17 @@ I build audit-ready control frameworks, evidence pipelines, and compliance autom
 
 Most GRC professionals write policies and manage spreadsheets. I architect and build the technical systems that satisfy those controls:
 
-- **Cloud governance** — Built AWS Control Pack with S3 default-deny, GuardDuty export pipelines, scoped IAM roles, and CIS/NIST mapping. Can deploy production-ready cloud baselines in hours.
-
 - **Endpoint compliance** — Delivered PCI-DSS Windows 11 hardening (BitLocker, GPO, firewall rules, patch automation, EDR) with complete evidence pack in <48 hours. Know how to actually secure endpoints, not just check boxes.
-
-- **Compliance automation** — Architected GIAP™ intake platform: Nextcloud + n8n workflows + SuiteCRM with RBAC, retention policies, consent management, and structured JSON outputs. Automated what others do manually.
 
 - **Evidence pipelines** — Built TraceLock™ RF/SDR telemetry system with audit-grade logging, structured schemas, and evidence export workflows. Same skills used for cloud logs, access controls, and compliance data.
 
-- **Detection & response** — Operate active Security Onion + TheHive/Cortex lab. Author SIEM rules, tune false positives, write IR playbooks. Understand security operations, not just governance.
+- **Compliance automation** — Architected GIAP™ intake platform: Nextcloud + n8n workflows + SuiteCRM with RBAC, retention policies, consent management, and structured JSON outputs. Automated what others do manually.
 
 - **AI-augmented delivery** — Built [AgenticOS](innovation/agenticos.md), a deterministic AI orchestration layer with audit-grade logging. Use multi-agent LLM workflows to draft policies, map controls, and generate documentation at 10× speed with human review. Deliver in hours what takes others weeks.
+
+- **Detection & response** — Operate active Security Onion + TheHive/Cortex lab. Author SIEM rules, tune false positives, write IR playbooks. Understand security operations, not just governance.
+
+- **Cloud governance** — Designing AWS Control Pack with S3 default-deny, GuardDuty export pipelines, scoped IAM roles, and CIS/NIST mapping. Implementation scheduled Q1 2026.
 
 **Bottom line:** Hire me if you need someone who can design a control framework, implement the technical architecture, document everything with evidence, and hand auditors a clean package — all while working at AI-augmented velocity.
 
