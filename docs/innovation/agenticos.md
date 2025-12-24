@@ -55,35 +55,36 @@ aos -p myproject d "Add logging"    # Work on specific project
 ### Core Architecture
 
 ```
-┌─────────────────────────────────────────────────────────────┐
-│                      AgenticOS Core                          │
-├─────────────────────────────────────────────────────────────┤
-│  ROUTING           │  EXECUTION        │  PERSISTENCE        │
-│  ──────────────    │  ──────────────   │  ──────────────     │
-│  • Keyword rules   │  • Profile-based  │  • Session memory   │
-│  • AI classification│ • Provider agnostic│ • JSON logs        │
-│  • Precedence order│  • Timeout control │  • Delta tracking   │
-│  • Dry-run mode    │  • Structured output│ • Project isolation │
-└─────────────────────────────────────────────────────────────┘
+┌───────────────────────────────────────────────────────────────┐
+│                       AgenticOS Core                          │
+├───────────────────────────────────────────────────────────────┤
+│  ROUTING             │  EXECUTION          │  PERSISTENCE     │
+│  ─────────────────   │  ─────────────────  │  ──────────────  │
+│  • Keyword rules     │  • Profile-based    │  • Session memory│
+│  • AI classification │  • Provider agnostic│  • JSON logs     │
+│  • Precedence order  │  • Timeout control  │  • Delta tracking│
+│  • Dry-run mode      │  • Structured output│  • Project isolation│
+└───────────────────────────────────────────────────────────────┘
 ```
 
 ### Script Breakdown
 
 | Script | Lines | Purpose |
 |--------|-------|---------|
-| `scripts/agent` | ~2,200 | Core execution engine with output normalization |
-| `scripts/router` | ~1,300 | Routing with auto, keyword, and AI classification |
-| `scripts/doctor` | ~1,000 | 40+ health checks with auto-fix capability |
-| `scripts/aos` | ~900 | Unified CLI wrapper with project management |
-| `scripts/memory` | ~300 | Memory management and session continuity |
+| `scripts/agent` | 2,721 | Core execution engine with output normalization |
+| `scripts/router` | 1,332 | Routing with auto, keyword, and AI classification |
+| `scripts/doctor` | 1,046 | 72 health checks with auto-fix capability |
+| `scripts/aos` | 948 | Unified CLI wrapper with project management |
+| `scripts/memory` | 314 | Memory management and session continuity |
 
 ### Provider Integration
 
-| Provider | Profile | Use Case |
-|----------|---------|----------|
+| Provider | Profiles | Use Case |
+|----------|----------|----------|
 | **Claude** | grc, research | Compliance writing, deep analysis |
 | **Codex** | dev, ops | Code generation, debugging |
 | **Gemini** | quick | Fast questions, brainstorming |
+| **Cursor-Agent** | refactor | Multi-file refactoring, complex edits |
 
 ---
 
@@ -131,7 +132,7 @@ aos -p giap auto "Fix auth"      # Work on GIAP project
 
 ### 4. Health Validation
 
-40+ automated checks with self-repair capability:
+72 automated checks with self-repair capability:
 
 ```bash
 aos doctor              # Run all checks
@@ -209,11 +210,13 @@ Session state persists across invocations:
 
 | Metric | Value |
 |--------|-------|
-| Total Python LOC | ~5,700 |
-| Health checks | 40+ |
-| Supported providers | 3 (Claude, Codex, Gemini) |
+| Total Python LOC | 6,361 |
+| Health checks | 72 |
+| Supported providers | 4 (Claude, Codex, Gemini, Cursor-Agent) |
+| Profiles | 6 (dev, grc, research, ops, quick, refactor) |
 | Output modes | 7 |
 | Auto-routing rules | 8 default + custom |
+| Logged executions | 180+ |
 
 ---
 
@@ -301,13 +304,30 @@ aos q "Explain the difference between SAST and DAST"
 
 ---
 
+## Project Status
+
+| Component | Status | Notes |
+|-----------|--------|-------|
+| Core CLI (`aos`) | ✅ Complete | Unified interface operational |
+| Execution Engine (`agent`) | ✅ Complete | 2,721 lines, all providers working |
+| Routing Engine (`router`) | ✅ Complete | 8 auto-routing rules active |
+| Health Validation (`doctor`) | ✅ Complete | 72 checks with auto-fix |
+| Memory Persistence | ✅ Complete | Session continuity working |
+| Documentation | ✅ Complete | User guide + 13 reference docs |
+| GitHub Release | ✅ Published | MIT License |
+| Install Script | ✅ Complete | One-command setup |
+
+**Status:** Production-ready for personal/team use. Active development for additional workflows.
+
+---
+
 ## What This Proves
 
 1. **I can build secure automation** — Not just use AI tools, but orchestrate them safely
 2. **I understand audit requirements** — Every decision logged, every action traceable
 3. **I design for governance** — Deterministic, explainable, no hidden behaviors
-4. **I build production-ready tools** — 40+ health checks, self-repair, multi-project support
-5. **I integrate multiple systems** — Three AI providers, unified interface
+4. **I build production-ready tools** — 72 health checks, self-repair, multi-project support
+5. **I integrate multiple systems** — Four AI providers, unified interface, 6 specialized profiles
 
 ---
 
