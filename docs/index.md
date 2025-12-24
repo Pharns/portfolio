@@ -81,27 +81,11 @@ Most GRC professionals write policies and manage spreadsheets. I architect and b
 
 <div class="stat-grid" markdown>
 <div class="stat-tile" markdown>
-**AWS Cloud Control Pack** *(In Progress)*
-S3 default-deny storage, GuardDuty findings export, scoped IAM with CIS/NIST mapping.
-<span class="tag-chip">Cloud/GRC</span> <span class="tag-chip">Controls</span> <span class="tag-chip">Q1 2026</span>
-[View Case Study](cybersecurity/aws-control-pack.md)
-<small>What it demonstrates: cloud guardrails, evidence pipeline, and compliance mapping.</small>
-</div>
-
-<div class="stat-tile" markdown>
 **PCI-DSS Windows 11 Hardening**
 Complete endpoint hardening with GPO, firewall rules, service lockdown, and evidence pack.
 <span class="tag-chip">Compliance</span> <span class="tag-chip">Hardening</span> <span class="tag-chip">Audit</span>
 [View Case Study](cybersecurity/pci-dss/index.md)
 <small>What it demonstrates: rapid compliance builds with complete control evidence.</small>
-</div>
-
-<div class="stat-tile" markdown>
-**GIAP™ — Governance Automation**
-AI-powered intake workflows with consent management, retention policies, and control mapping.
-<span class="tag-chip">GRC</span> <span class="tag-chip">Automation</span> <span class="tag-chip">AI</span>
-[View Case Study](cybersecurity/giap.md)
-<small>What it demonstrates: structured evidence collection with audit trails and NIST alignment.</small>
 </div>
 
 <div class="stat-tile" markdown>
@@ -113,11 +97,27 @@ Evidence-grade wireless surveillance detection system with SDR/ADS-B/Bluetooth p
 </div>
 
 <div class="stat-tile" markdown>
+**GIAP™ — Governance Automation**
+AI-powered intake workflows with consent management, retention policies, and control mapping.
+<span class="tag-chip">GRC</span> <span class="tag-chip">Automation</span> <span class="tag-chip">AI</span>
+[View Case Study](cybersecurity/giap.md)
+<small>What it demonstrates: structured evidence collection with audit trails and NIST alignment.</small>
+</div>
+
+<div class="stat-tile" markdown>
 **AgenticOS — AI Governance Layer**
 Deterministic AI orchestration with 72 health checks, 4 providers, and audit-grade logging.
 <span class="tag-chip">AI</span> <span class="tag-chip">Automation</span> <span class="tag-chip">Governance</span>
 [View Project](innovation/agenticos.md)
 <small>What it demonstrates: I build the AI tooling, not just use it — 6,361 lines of auditable automation.</small>
+</div>
+
+<div class="stat-tile" markdown>
+**AWS Cloud Control Pack** *(In Progress)*
+S3 default-deny storage, GuardDuty findings export, scoped IAM with CIS/NIST mapping.
+<span class="tag-chip">Cloud/GRC</span> <span class="tag-chip">Controls</span> <span class="tag-chip">Q1 2026</span>
+[View Case Study](cybersecurity/aws-control-pack.md)
+<small>What it demonstrates: cloud guardrails, evidence pipeline, and compliance mapping.</small>
 </div>
 </div>
 
