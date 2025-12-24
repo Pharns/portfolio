@@ -15,14 +15,25 @@ description: GRC intake and evidence automation case — Nextcloud+n8n+SuiteCRM 
 
 ---
 
-## Impact metrics
+!!! warning "Project Status: In Progress"
+    **Architecture:** Complete — Nextcloud + n8n + SuiteCRM stack designed with RBAC, retention, and consent patterns.
 
-| Metric | Before | After | Improvement |
-|--------|--------|-------|-------------|
-| Intake processing time | 2-3 hours manual | 15 min automated | 85% reduction |
-| Evidence completeness | 70% (missing fields) | 100% (enforced schema) | 30% improvement |
-| Audit prep time | 4+ hours per case | 30 min export | 87% reduction |
+    **Implementation:** Q1 2026 — Wizard UI partially built. Infrastructure deployment and workflow automation pending.
+
+    **What's here now:** Control design, architecture documentation, partial intake wizard, and framework mapping. Full deployment evidence coming soon.
+
+---
+
+## Target metrics
+
+| Metric | Current State | Target | Expected Improvement |
+|--------|---------------|--------|----------------------|
+| Intake processing time | 2-3 hours manual | 15 min automated | ~85% reduction |
+| Evidence completeness | 70% (missing fields) | 100% (enforced schema) | ~30% improvement |
+| Audit prep time | 4+ hours per case | 30 min export | ~87% reduction |
 | Data integrity verification | Manual spot-check | Automatic hashing | 100% coverage |
+
+*Metrics represent design targets — actual measurements pending implementation.*
 
 ---
 
@@ -52,44 +63,66 @@ description: GRC intake and evidence automation case — Nextcloud+n8n+SuiteCRM 
 | Provisioning/deprovisioning | Runbook and periodic access review | SOC 2 CC6, NIST PR.AC |
 | Logging/monitoring | Workflow and portal logs retained; alerts on failed auth/unusual runs | SOC 2 CC7, NIST DE.CM |
 
+## Implementation Roadmap
+
+| Phase | Status | Target |
+|-------|--------|--------|
+| Architecture design | ✅ Complete | — |
+| Control framework mapping | ✅ Complete | — |
+| Intake wizard UI | 🔄 Partial | Q1 2026 |
+| Nextcloud deployment | ⏳ Pending | Q1 2026 |
+| n8n workflow automation | ⏳ Pending | Q1 2026 |
+| SuiteCRM integration | ⏳ Pending | Q1 2026 |
+| Evidence capture & validation | ⏳ Pending | Q1 2026 |
+
+## Current Artifacts
+
+| Component | Design | Implementation |
+|-----------|--------|----------------|
+| Intake wizard (HTML/JS) | ✅ Complete | 🔄 Partial |
+| RBAC role matrix | ✅ Complete | ⏳ Pending |
+| n8n workflow definitions | ✅ Designed | ⏳ Pending |
+| Retention policy template | ✅ Complete | ⏳ Pending |
+| JSON output schema | ✅ Complete | ⏳ Pending |
+
 ## Evidence checklist
-- [x] Intake JSON sample (sanitized) — see below
+- [ ] Intake JSON output (actual system output)
 - [ ] Redacted screenshots of intake flow and CRM roles
 - [ ] TLS/email security validation snippet
 - [ ] Retention policy excerpt
 - [ ] Access review record (redacted)
 
-## Sample evidence artifact
+## Designed output schema
 
 ```json
 {
-  "intake_id": "GIAP-2025-0847",
-  "timestamp": "2025-11-15T14:32:07Z",
+  "intake_id": "GIAP-2025-XXXX",
+  "timestamp": "2025-XX-XXTXX:XX:XXZ",
   "client_type": "small_business",
   "consent_captured": true,
-  "consent_timestamp": "2025-11-15T14:30:22Z",
+  "consent_timestamp": "2025-XX-XXTXX:XX:XXZ",
   "documents_received": 4,
   "integrity_hashes": {
-    "doc_001": "sha256:a3f2...[REDACTED]",
-    "doc_002": "sha256:b7c1...[REDACTED]",
-    "doc_003": "sha256:e9d4...[REDACTED]",
-    "doc_004": "sha256:f2a8...[REDACTED]"
+    "doc_001": "sha256:...",
+    "doc_002": "sha256:...",
+    "doc_003": "sha256:...",
+    "doc_004": "sha256:..."
   },
   "workflow_status": "intake_complete",
   "retention_policy": "7_years",
   "access_tier": "case_manager",
   "controls_mapped": ["SOC2_CC6.1", "SOC2_CC6.3", "NIST_PR.AC-1"],
   "audit_trail": [
-    {"action": "intake_started", "user": "system", "timestamp": "2025-11-15T14:30:00Z"},
-    {"action": "consent_captured", "user": "client", "timestamp": "2025-11-15T14:30:22Z"},
-    {"action": "documents_uploaded", "user": "client", "timestamp": "2025-11-15T14:31:45Z"},
-    {"action": "integrity_verified", "user": "system", "timestamp": "2025-11-15T14:32:07Z"},
-    {"action": "workflow_complete", "user": "system", "timestamp": "2025-11-15T14:32:10Z"}
+    {"action": "intake_started", "user": "system", "timestamp": "..."},
+    {"action": "consent_captured", "user": "client", "timestamp": "..."},
+    {"action": "documents_uploaded", "user": "client", "timestamp": "..."},
+    {"action": "integrity_verified", "user": "system", "timestamp": "..."},
+    {"action": "workflow_complete", "user": "system", "timestamp": "..."}
   ]
 }
 ```
 
-*Sanitized sample — actual intake records contain additional fields and client-specific data.*
+*Schema design — actual system outputs will be captured after deployment.*
 
 ## Validation checklist
 - [ ] TLS enforced (HSTS) and email security validated.
