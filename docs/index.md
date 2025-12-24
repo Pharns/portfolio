@@ -81,9 +81,9 @@ Most GRC professionals write policies and manage spreadsheets. I architect and b
 
 <div class="stat-grid" markdown>
 <div class="stat-tile" markdown>
-**AWS Cloud Control Pack**
+**AWS Cloud Control Pack** *(In Progress)*
 S3 default-deny storage, GuardDuty findings export, scoped IAM with CIS/NIST mapping.
-<span class="tag-chip">Cloud/GRC</span> <span class="tag-chip">Controls</span> <span class="tag-chip">Evidence</span>
+<span class="tag-chip">Cloud/GRC</span> <span class="tag-chip">Controls</span> <span class="tag-chip">Q1 2026</span>
 [View Case Study](cybersecurity/aws-control-pack.md)
 <small>What it demonstrates: cloud guardrails, evidence pipeline, and compliance mapping.</small>
 </div>

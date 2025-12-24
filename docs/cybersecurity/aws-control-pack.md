@@ -15,7 +15,14 @@ description: "AWS Cloud Control Pack: S3 default-deny storage, GuardDuty finding
 
 ---
 
-Default-deny storage, evidence capture, and least-privilege IAM patterns demonstrating cloud GRC fundamentals. AWS Cloud Practitioner is pending; CLI validation will be added after the exam.
+!!! warning "Project Status: In Progress"
+    **Architecture:** Complete — S3, GuardDuty, and IAM patterns designed with CIS/NIST mapping.
+
+    **Implementation:** Q1 2026 — CLI validation and evidence capture scheduled after AWS Cloud Practitioner exam.
+
+    **What's here now:** Control design, policy skeletons, and framework alignment. Full CLI outputs and screenshots coming soon.
+
+Default-deny storage, evidence capture, and least-privilege IAM patterns demonstrating cloud GRC fundamentals.
 
 **Target roles:** Cloud GRC Engineer, Security Compliance Engineer/Analyst, Cloud Security Engineer (GRC focus).
 
@@ -38,19 +45,32 @@ Default-deny storage, evidence capture, and least-privilege IAM patterns demonst
 | IAM least privilege | Scoped app role to bucket + Param Store path; optional KMS constraint | CIS IAM, NIST PR.AC |
 | Network enforcement | TLS-only denies for S3 + Param Store access | CIS Network/Encryption, NIST PR.DS |
 
-## Artifacts (public summaries)
-- S3 baseline: commands and policy elements summarized here; full CLI run to be added post-exam.
-- GuardDuty export: detector creation and S3 destination summary; sample-finding check pending CLI capture.
-- IAM LP role: policy skeleton with TLS-only deny and scoped resources; optional KMS context restriction.
+## Artifacts (architecture complete, CLI pending)
 
-## Validation checklist (post AWS CP)
-- [ ] Capture `aws s3api get-bucket-policy` and PAB settings for baseline bucket.
-- [ ] Show `aws guardduty list-detectors` + export destination config; include sample findings run.
-- [ ] Validate IAM role policy with TLS-only deny and resource scoping; attach trust policy screenshot.
-- [ ] Provide redacted ARNs/account IDs; prove versioning/lifecycle status.
-- [ ] Map controls to CIS/NIST table above in the case study.
+| Component | Design | CLI Evidence |
+|-----------|--------|--------------|
+| S3 baseline | ✅ Policy elements defined | 🔄 Q1 2026 |
+| GuardDuty export | ✅ Detector + S3 destination designed | 🔄 Q1 2026 |
+| IAM least-privilege role | ✅ Scoped policy skeleton ready | 🔄 Q1 2026 |
 
-## Next Steps (post AWS CP)
-- Capture CLI outputs for S3 baseline, GuardDuty export, and IAM LP role creation/validation.
-- Add screenshots or code blocks with redacted ARNs/account IDs.
-- Map each control to CIS/NIST in a short table for quick recruiter reference.
+## Implementation Roadmap
+
+| Phase | Status | Target |
+|-------|--------|--------|
+| Control architecture design | ✅ Complete | — |
+| CIS/NIST framework mapping | ✅ Complete | — |
+| AWS Cloud Practitioner exam | 🔄 Scheduled | Q1 2026 |
+| CLI implementation + capture | ⏳ Pending | Q1 2026 |
+| Evidence artifacts (screenshots, outputs) | ⏳ Pending | Q1 2026 |
+| Portfolio page update with proof | ⏳ Pending | Q1 2026 |
+
+## Validation Checklist
+
+- [ ] Capture `aws s3api get-bucket-policy` and PAB settings for baseline bucket
+- [ ] Show `aws guardduty list-detectors` + export destination config
+- [ ] Run sample findings and capture output
+- [ ] Validate IAM role policy with TLS-only deny and resource scoping
+- [ ] Attach trust policy screenshot
+- [ ] Provide redacted ARNs/account IDs
+- [ ] Prove versioning/lifecycle status
+- [ ] Map controls to CIS/NIST table with evidence links
