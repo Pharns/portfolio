@@ -39,6 +39,19 @@ Executive protection and security teams face a critical gap: **12-18 minutes of 
 
 ---
 
+## Use Cases & Transferable Skills
+
+| Scenario | Domain | Skills Demonstrated |
+|----------|--------|---------------------|
+| **Executive Protection** | Physical Security | Surveillance detection, persistence scoring, threat correlation |
+| **Detection Engineering** | SOC/SIEM | Multi-source correlation, threshold tuning, false positive reduction |
+| **Forensic Evidence** | Legal/GRC | Audit-grade logging, KML visualization, chain of custody |
+| **Drone Surveillance** | AAM/Critical Infrastructure | ADS-B decoding, airspace monitoring, RF signal analysis |
+
+*TraceLock™ addresses 25+ documented scenarios — from border security to disaster response. The same detection logic applies to any domain requiring multi-sensor correlation.*
+
+---
+
 ## What I Built Beyond the Original
 
 TraceLock™ is a security-hardened fork of CYT (Chasing Your Tail). Here's what I added:
