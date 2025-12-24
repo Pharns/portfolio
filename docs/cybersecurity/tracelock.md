@@ -9,7 +9,7 @@ description: TraceLock™ — Patent-pending multi-domain RF threat detection pl
 
     **What I Built:** Real-time RF surveillance detection system that monitors 6 wireless domains simultaneously, correlates threats across sensors, and produces forensic-grade evidence logs. *(Provisional patent filed)*
 
-    **Technical Stack:** Python 3.10+ · Raspberry Pi 4 (8GB) · Kismet · RTL-SDR V4 · HackRF H4M · Ubertooth · SQLite · GitHub Actions CI
+    **Technical Stack:** Python 3.10+ · Raspberry Pi 4 (8GB) · Kismet · RTL-SDR V4 · Ubertooth · SQLite · GitHub Actions CI
 
     **Detection Engineering Skills Demonstrated:**
 
@@ -49,7 +49,7 @@ TraceLock™ is a security-hardened fork of CYT (Chasing Your Tail). Here's what
 | **Security** | Basic | 6 hardened modules (SQL injection prevention, encrypted credentials, input validation) |
 | **Detection** | Probe logging | Multi-domain correlation engine with persistence scoring |
 | **Visualization** | Text logs | KML with Google Earth integration, HTML reports |
-| **Hardware** | Single adapter | 9-component field kit (RTL-SDR, HackRF, Ubertooth, etc.) |
+| **Hardware** | Single adapter | 8-component core kit (RTL-SDR, Ubertooth, GPS, etc.) + HackRF extension |
 | **Status** | Proof of concept | Patent pending, WGU BSCIA capstone |
 | **Codebase** | ~2,000 LOC | ~12,500 LOC (25 Python modules, 81 shell scripts) |
 
@@ -64,7 +64,7 @@ TraceLock™ is a security-hardened fork of CYT (Chasing Your Tail). Here's what
 | **Raspberry Pi 4B (8GB)** | Core processing | Runs Kismet + all TraceLock™ modules |
 | **Panda PAU09 N600** | Wi-Fi monitoring | Monitor mode, packet capture, injection (2.4/5GHz) |
 | **RTL-SDR Blog V4** | ISM band + ADS-B | Sub-GHz (433/868/915MHz), ADS-B (1090MHz) |
-| **HackRF One H4M + PortaPack** | Wideband SDR TX/RX | 1MHz-6GHz, Mayhem firmware, signal analysis |
+| **HackRF One H4M + PortaPack** *(Extension)* | Wideband SDR TX/RX | 1MHz-6GHz, Mayhem firmware — optional expansion module |
 | **StarTech USB BT5.3 Class-1** | Long-range Bluetooth | Extended BLE scanning with external antenna |
 | **ASUS USB-BT500 Nano** | Short-range Bluetooth | Dense environment device detection |
 | **Ubertooth One** | BLE research | Advanced BLE protocol analysis and sniffing |
@@ -288,9 +288,9 @@ def correlate_threat(wifi_event, bt_event, gps_fix):
 
 | Phase | Status | Notes |
 |-------|--------|-------|
-| Hardware Assembly | ✅ Complete | 9 RF modules integrated, field-ready |
+| Hardware Assembly | ✅ Complete | 8 core RF modules integrated, field-ready |
 | Software Core | ✅ Complete | Detection engine operational on Pi |
-| Security Hardening | ✅ Complete | All 5 security modules implemented |
+| Security Hardening | ✅ Complete | All 6 security modules implemented |
 | WGU Task 1 (Topic) | ✅ Approved | Official capstone approval received |
 | WGU Task 2 (Proposal) | ✅ Complete | Submitted and approved |
 | WGU Task 3 (Final Report) | 🔄 In Progress | Field validation and documentation |
