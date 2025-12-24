@@ -39,6 +39,22 @@ Executive protection and security teams face a critical gap: **12-18 minutes of 
 
 ---
 
+## What I Built Beyond the Original
+
+TraceLock™ is a security-hardened fork of CYT (Chasing Your Tail). Here's what I added:
+
+| Component | Original CYT | TraceLock™ (My Fork) |
+|-----------|--------------|----------------------|
+| **RF Domains** | Wi-Fi only | Wi-Fi + Bluetooth + SDR + GPS + ADS-B |
+| **Security** | Basic | 6 hardened modules (SQL injection prevention, encrypted credentials, input validation) |
+| **Detection** | Probe logging | Multi-domain correlation engine with persistence scoring |
+| **Visualization** | Text logs | KML with Google Earth integration, HTML reports |
+| **Hardware** | Single adapter | 9-component field kit (RTL-SDR, HackRF, Ubertooth, etc.) |
+| **Status** | Proof of concept | Patent pending, WGU BSCIA capstone |
+| **Codebase** | ~2,000 LOC | ~12,500 LOC (25 Python modules, 81 shell scripts) |
+
+---
+
 ## What I Built
 
 ### Hardware Platform (Field-Deployable Rapid Response Kit)
@@ -57,7 +73,7 @@ Executive protection and security teams face a critical gap: **12-18 minutes of 
 
 ### Software Architecture
 
-**Codebase:** 8+ Python modules, 52 shell scripts, GitHub Actions CI
+**Codebase:** 25 Python modules, 81 shell scripts, ~12,500 LOC, GitHub Actions CI
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
@@ -76,26 +92,33 @@ Executive protection and security teams face a critical gap: **12-18 minutes of 
 
 ### Python Module Breakdown
 
-| Module | Purpose |
-|--------|---------|
-| `chasing_your_tail.py` | Core monitoring engine — real-time Kismet DB queries |
-| `cyt_gui.py` | Tkinter GUI for operator interface (BlackHat Arsenal ready) |
-| `surveillance_analyzer.py` | GPS surveillance detection with KML export |
-| `surveillance_detector.py` | Persistence detection engine with scoring |
-| `probe_analyzer.py` | Post-processing with WiGLE API integration |
-| `ism_analyzer.py` | ISM433 signal classifier for rtl_433 feeds |
-| `ble_analyzer.py` | Bluetooth Low Energy analysis |
-| `gps_tracker.py` | Location clustering and KML generation |
+| Module | Purpose | LOC |
+|--------|---------|----:|
+| `gps_tracker.py` | Location clustering and KML generation | 1,010 |
+| `surveillance_detector.py` | Persistence detection engine with scoring | 871 |
+| `mylocation_analyzer.py` | Multi-location tracking algorithms | 844 |
+| `rf_analyzer.py` | Wideband RF signal analysis (HackRF) | 842 |
+| `cyt_gui.py` | Tkinter GUI for operator interface | 839 |
+| `ble_analyzer.py` | Bluetooth Low Energy analysis | 576 |
+| `surveillance_analyzer.py` | GPS surveillance detection with KML export | 457 |
+| `probe_analyzer.py` | Post-processing with WiGLE API integration | 346 |
+| `ism_analyzer.py` | ISM433 signal classifier for rtl_433 feeds | 329 |
+| `chasing_your_tail.py` | Core monitoring engine — real-time Kismet DB queries | 137 |
+
+*Top 10 of 25 Python modules — 6,251 LOC shown, ~8,200 total Python LOC*
 
 ### Security Modules (Hardened)
 
-| Module | Protection |
-|--------|------------|
-| `secure_database.py` | SQL injection prevention — parameterized queries only |
-| `secure_credentials.py` | Fernet encryption with PBKDF2 key derivation (100k iterations) |
-| `secure_ignore_loader.py` | Safe allowlist loading — eliminated `exec()` calls |
-| `input_validation.py` | Dedicated InputValidator class for all sensor inputs |
-| `mode_controller.py` | Role-based capture profiles (lab/demo/field) |
+| Module | Protection | LOC |
+|--------|------------|----:|
+| `mode_controller.py` | Role-based capture profiles (lab/demo/field) | 304 |
+| `input_validation.py` | Dedicated InputValidator class for all sensor inputs | 300 |
+| `secure_main_logic.py` | Secure monitoring logic with audit logging | 262 |
+| `secure_database.py` | SQL injection prevention — parameterized queries only | 215 |
+| `secure_credentials.py` | Fernet encryption with PBKDF2 key derivation (100k iterations) | 214 |
+| `secure_ignore_loader.py` | Safe allowlist loading — eliminated `exec()` calls | 174 |
+
+*6 security modules — 1,469 LOC of hardened code*
 
 ---
 
