@@ -14,6 +14,9 @@ USAF Veteran (service-disabled) · USPTO Patent Holder · Security+ · B.S. Cybe
 
 [View GRC Projects](grc/index.md){ .btn-primary } [Contact](contact.md){ .btn-ghost }
 
+!!! tip "Aerospace & Defense Recruiters"
+    **Looking for AAM/drone cybersecurity expertise?** I've designed, built, and fielded operational UAV systems — not just studied them. USPTO patents in UAV payload systems, FAA Part 107 certified, with RF/SDR security research (TraceLock™). [View AAM credentials →](#aam-cybersecurity-specialization)
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
