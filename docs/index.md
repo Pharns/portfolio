@@ -1,5 +1,5 @@
 ---
-description: "GRC Engineer portfolio — audit-ready control frameworks, cloud security automation, and AAM cybersecurity. AI-augmented delivery at 10× capacity."
+description: "GRC Engineer portfolio — audit-ready control frameworks, evidence pipelines, cloud security automation, and AAM cybersecurity. AI-augmented delivery at 10× capacity."
 ---
 
 # Pharns Genece
@@ -9,6 +9,8 @@ description: "GRC Engineer portfolio — audit-ready control frameworks, cloud s
 I build audit-ready control frameworks, evidence pipelines, and compliance automation — then implement the technical controls, not just document them. Rare hybrid: GRC discipline meets RF/aviation security and cyber-physical systems expertise. AI-augmented delivery at 10× capacity.
 
 **Targeting:** GRC Engineer · Cloud Security Engineer · AAM/UAV Security · Detection Engineering · Cyber-Physical Systems
+
+**Trust signals:** USAF Veteran (service-disabled) · USPTO Patent Holder · Security+ · B.S. Cybersecurity (Dec 2025)
 
 [View GRC Projects](grc/index.md){ .btn-primary } [Contact](contact.md){ .btn-ghost }
 

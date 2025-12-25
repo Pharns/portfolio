@@ -1,6 +1,6 @@
 site_name: Pharns Génécé — Cybersecurity & Python Portfolio
 site_url: https://portfolio.pharns.com
-site_description: GRC Engineer portfolio — audit-ready control frameworks, cloud security automation, and compliance implementation. AI-augmented delivery at 10× capacity.
+site_description: GRC Engineer portfolio — audit-ready control frameworks, evidence pipelines, cloud security automation, and compliance implementation. AI-augmented delivery at 10× capacity.
 site_author: Pharns Génécé
 repo_url: https://github.com/Pharns/portfolio
 repo_name: pharns/portfolio
@@ -47,7 +47,7 @@ extra:
   - property: og:title
     content: "Pharns Genece | GRC Engineer & Cloud Security Portfolio"
   - property: og:description
-    content: "Audit-ready control frameworks, cloud security automation, and compliance implementation. AI-augmented delivery."
+    content: "Audit-ready control frameworks, evidence pipelines, cloud security automation, and compliance implementation. AI-augmented delivery."
   - property: og:type
     content: "website"
   - property: og:url

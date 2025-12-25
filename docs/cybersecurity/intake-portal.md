@@ -6,6 +6,9 @@ description: Security compliance intake portal case — IAM, TLS/email hardening
 
 <!-- Tags: grc, compliance, automation, intake, cloud -->
 
+!!! info "Relationship to GIAP™"
+    This page documents the **anonymized consulting engagement** that established the intake portal architecture. The lessons learned here evolved into [GIAP™ — Governance Intake Automation Platform](giap.md), which is now deployed on self-hosted Proxmox infrastructure with expanded automation.
+
 **TL;DR:** Secure intake portal (Nextcloud + n8n + SuiteCRM) with TLS, clear roles, email security, and retention/audit trails. Shows how evidence comes in, stays organized, and is ready for auditors. Outcome: auditable intake flow with role-scoped access and logged workflows.
 
 **Target roles:** Security Compliance Engineer/Analyst, GRC Engineer, GRC Automation Engineer, Cloud Security Engineer (GRC focus).
