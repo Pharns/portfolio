@@ -6,94 +6,132 @@ description: "GRC engineering projects and case studies: cloud security, complia
 
 Browse the core portfolio work with quick outcomes and role-fit tags.
 
-## Signature & GRC
+**Role fit:** GRC Engineer · Cloud Security · Detection Engineering · Controls Implementation
+
+---
+
+## Signature & GRC Projects
 <div class="section-panel" markdown>
 <div class="stat-grid" markdown>
 <div class="stat-tile" markdown>
-**Cloud Control Pack (AWS)** *(In Progress)*
+**Cloud Control Pack (AWS)** <span class="status-badge">In Progress</span>
 Default-deny S3 + GuardDuty export; scoped IAM with CIS/NIST mapping.
-<span class="tag-chip">Cloud/GRC</span> <span class="tag-chip">Controls</span> <span class="tag-chip">Q1 2026</span>
+<span class="tag-chip">Cloud</span> <span class="tag-chip">GRC</span> <span class="tag-chip">AWS</span>
+**Tech:** AWS IAM, S3, GuardDuty, CloudTrail, Terraform
 [Read](cybersecurity/aws-control-pack.md)
-<br/><small>What it demonstrates: cloud guardrails, evidence pipeline, and compliance mapping.</small>
+<small>**Demonstrates:** Cloud guardrails, evidence pipeline, compliance mapping</small>
 </div>
 <div class="stat-tile" markdown>
-**TraceLock™ (RF/SDR telemetry)**
-Evidence-first RF/SDR pipeline with AI-assisted parsing and detections.
-<span class="tag-chip">RF</span> <span class="tag-chip">Detection</span> <span class="tag-chip">AI</span>
+**TraceLock™ (RF/SDR Security)** <span class="status-badge">Active</span>
+Evidence-first RF/SDR pipeline with AI-assisted parsing across 6 wireless domains.
+<span class="tag-chip">RF</span> <span class="tag-chip">Detection</span> <span class="tag-chip">Python</span>
+**Tech:** Python, HackRF, RTL-SDR, SQLite, Kismet
 [Read](cybersecurity/tracelock.md)
-<br/><small>What it demonstrates: wireless threat detection and evidence logging.</small>
+<small>**Demonstrates:** Wireless threat detection, evidence logging, detection engineering</small>
 </div>
 <div class="stat-tile" markdown>
-**GIAP™ — GRC Intake & Evidence Automation** *(Infrastructure Live)*
-Self-hosted Nextcloud + n8n + SuiteCRM on Proxmox. Workflow integration in progress.
+**GIAP™ — GRC Intake Automation** <span class="status-badge">Infra Live</span>
+Self-hosted Nextcloud + n8n + SuiteCRM on Proxmox VMs.
 <span class="tag-chip">GRC</span> <span class="tag-chip">Automation</span> <span class="tag-chip">Self-Hosted</span>
+**Tech:** Proxmox, Nextcloud, n8n, SuiteCRM, Nginx, MySQL
 [Read](cybersecurity/giap.md)
-<br/><small>What it demonstrates: automation for intake, retention, and audit-ready outputs.</small>
+<small>**Demonstrates:** Intake automation, retention policies, audit-ready workflows</small>
 </div>
 <div class="stat-tile" markdown>
-**Baseline Evidence Drop**  
-Consent-first Windows evidence collector with hashes, manifest, and control mapping.  
-<span class="tag-chip">GRC</span> <span class="tag-chip">Evidence</span> <span class="tag-chip">Automation</span>  
+**Baseline Evidence Drop** <span class="status-badge">Complete</span>
+Consent-first Windows evidence collector with hashes, manifest, and control mapping.
+<span class="tag-chip">GRC</span> <span class="tag-chip">Evidence</span> <span class="tag-chip">PowerShell</span>
+**Tech:** PowerShell, SHA-256, JSON manifest
 [Read](cybersecurity/baseline-evidence-drop.md)
-<br/><small>What it demonstrates: quick, agentless evidence with integrity for audits.</small>
+<small>**Demonstrates:** Agentless evidence collection with integrity verification</small>
 </div>
 <div class="stat-tile" markdown>
-**PCI DSS Endpoint Hardening (Win11)**  
-Rapid hardening (<2 days) with controls matrix and evidence pack.  
-<span class="tag-chip">Compliance</span> <span class="tag-chip">Hardening</span> <span class="tag-chip">Audit</span>  
+**PCI-DSS Endpoint Hardening** <span class="status-badge">Complete</span>
+Rapid hardening (<48 hours) with 47+ controls mapped and evidence pack.
+<span class="tag-chip">Compliance</span> <span class="tag-chip">Hardening</span> <span class="tag-chip">PCI-DSS</span>
+**Tech:** GPO, BitLocker, Windows Firewall, PowerShell
 [Read](cybersecurity/pci-dss/index.md)
-<br/><small>What it demonstrates: compliance-ready endpoint builds with proof.</small>
+<small>**Demonstrates:** Compliance-ready endpoint builds with audit evidence</small>
 </div>
 <div class="stat-tile" markdown>
-**Secure Intake & Evidence Portal**  
-Nextcloud + n8n + SuiteCRM intake with IAM, retention, and audit trails (anonymized).  
-<span class="tag-chip">Compliance</span> <span class="tag-chip">Intake</span> <span class="tag-chip">Automation</span>  
+**Secure Intake Portal** <span class="status-badge">Active</span>
+Nextcloud + n8n + SuiteCRM intake with RBAC, retention, and audit trails.
+<span class="tag-chip">Compliance</span> <span class="tag-chip">Intake</span> <span class="tag-chip">Automation</span>
+**Tech:** Nextcloud, n8n, SuiteCRM, LDAP
 [Read](cybersecurity/intake-portal.md)
-<br/><small>What it demonstrates: governed intake, role-based access, and logged workflows.</small>
+<small>**Demonstrates:** Governed intake, role-based access, logged workflows</small>
 </div>
 </div>
 </div>
 
-## Detection, IR, and Telemetry
+---
+
+## Detection, IR & Telemetry
 <div class="section-panel" markdown>
 <div class="stat-grid" markdown>
 <div class="stat-tile" markdown>
-**Detection & IR Lab**  
-SIEM/IDS tuning, incident drills, authored detections with enrichment/FP reduction.  
-<span class="tag-chip">Detection</span> <span class="tag-chip">IR</span> <span class="tag-chip">Lab</span>  
+**Detection & IR Lab** <span class="status-badge">Active</span>
+SIEM/IDS tuning, incident drills, authored detections with enrichment.
+<span class="tag-chip">Detection</span> <span class="tag-chip">IR</span> <span class="tag-chip">SIEM</span>
+**Tech:** Security Onion, TheHive, Cortex, Suricata, Zeek
 [Read](cybersecurity/incident-response.md)
-<br/><small>What it demonstrates: alert tuning, triage discipline, and runbook execution.</small>
+<small>**Demonstrates:** Alert tuning, triage discipline, runbook execution</small>
 </div>
 <div class="stat-tile" markdown>
-**Zero Trust Pilots**  
-Tailscale/Twingate/Netbird evaluation for secure remote access and IAM posture.  
-<span class="tag-chip">Access</span> <span class="tag-chip">IAM</span> <span class="tag-chip">ZTNA</span>  
+**Zero Trust Access Pilots** <span class="status-badge">Evaluated</span>
+Tailscale/Twingate/Netbird evaluation for secure remote access.
+<span class="tag-chip">ZTNA</span> <span class="tag-chip">IAM</span> <span class="tag-chip">Access</span>
+**Tech:** Tailscale, Twingate, Netbird, WireGuard
 [Read](cybersecurity/homelab-infrastructure.md)
-<br/><small>What it demonstrates: tested secure access patterns with documented tradeoffs.</small>
+<small>**Demonstrates:** Tested access patterns with documented tradeoffs</small>
 </div>
 </div>
 </div>
 
-## Platform Hardening & Innovation
+---
+
+## Platform Hardening & Infrastructure
 <div class="section-panel" markdown>
 <div class="stat-grid" markdown>
 <div class="stat-tile" markdown>
-**Self-hosted Stack Hardening**  
-SuiteCRM, Docuseal, Nextcloud, Wiki.js, SearXNG with IAM, backups, patch automation.  
-<span class="tag-chip">Hardening</span> <span class="tag-chip">Infra</span>  
+**Self-Hosted Stack Hardening** <span class="status-badge">Active</span>
+SuiteCRM, Docuseal, Nextcloud, Wiki.js with IAM, backups, patch automation.
+<span class="tag-chip">Hardening</span> <span class="tag-chip">Infrastructure</span> <span class="tag-chip">Linux</span>
+**Tech:** Proxmox, Ubuntu, Nginx, Let's Encrypt, Fail2ban
 [Read](cybersecurity/homelab-journey.md)
+<small>**Demonstrates:** Production-grade self-hosted infrastructure security</small>
 </div>
 <div class="stat-tile" markdown>
-**Remote access & Zero-WAN**  
-Tailscale/RustDesk-based remote access with IAM, backups, patch automation—no exposed WAN.  
-<span class="tag-chip">Access</span> <span class="tag-chip">Hardening</span>  
+**Remote Access & Zero-WAN** <span class="status-badge">Active</span>
+Tailscale/RustDesk remote access with no exposed WAN ports.
+<span class="tag-chip">Access</span> <span class="tag-chip">Hardening</span> <span class="tag-chip">Zero-Trust</span>
+**Tech:** Tailscale, RustDesk, UFW, SSH hardening
 [Read](cybersecurity/remote-access-zero-wan.md)
+<small>**Demonstrates:** Secure remote access without attack surface exposure</small>
 </div>
 <div class="stat-tile" markdown>
-**RF/UAS Security Research**  
-SDR payloads, BLE/Sub-GHz recon, mitigations, and 3D-printed housings.  
-<span class="tag-chip">RF</span> <span class="tag-chip">Innovation</span>  
-[Read](cybersecurity/tracelock.md)
+**RF/UAS Security Research** <span class="status-badge">Ongoing</span>
+SDR payloads, BLE/Sub-GHz reconnaissance, and 3D-printed sensor housings.
+<span class="tag-chip">RF</span> <span class="tag-chip">Innovation</span> <span class="tag-chip">Hardware</span>
+**Tech:** HackRF, Flipper Zero, ESP32, FreeCAD
+[Read](innovation/rf-security.md)
+<small>**Demonstrates:** Hardware security research with practical applications</small>
+</div>
+</div>
+</div>
+
+---
+
+## Innovation & AI
+<div class="section-panel" markdown>
+<div class="stat-grid" markdown>
+<div class="stat-tile" markdown>
+**AgenticOS — AI Orchestration** <span class="status-badge">Active</span>
+Deterministic AI agent layer with 72 health checks and audit-grade logging.
+<span class="tag-chip">AI</span> <span class="tag-chip">Automation</span> <span class="tag-chip">Python</span>
+**Tech:** Python, YAML, JSON, Multi-provider LLM APIs
+[Read](innovation/agenticos.md)
+<small>**Demonstrates:** 6,361 LOC of production-grade AI governance tooling</small>
 </div>
 </div>
 </div>

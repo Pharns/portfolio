@@ -125,24 +125,32 @@ S3 default-deny storage, GuardDuty findings export, scoped IAM with CIS/NIST map
 
 ---
 
-## GRC metrics & proof points
+## Results at a glance
 
 <div class="stat-grid" markdown>
 <div class="stat-tile" markdown>
 **<48 hours**
-PCI-DSS Windows 11 hardening with complete evidence pack
+PCI-DSS endpoint hardening with complete evidence pack delivered
 </div>
 <div class="stat-tile" markdown>
-**100% evidence coverage**
-Every control mapped to logs, screenshots, or configuration artifacts
+**47+ controls**
+Mapped and documented with audit-ready evidence artifacts
 </div>
 <div class="stat-tile" markdown>
-**AI-augmented workflows**
-Multi-agent prompting for policy, detections, and documentation
+**6,361 LOC**
+AgenticOS orchestration layer — auditable, production-grade automation
 </div>
 <div class="stat-tile" markdown>
-**Cloud + endpoint**
-AWS guardrails, Windows hardening, intake automation
+**6 wireless domains**
+TraceLock™ RF detection: Wi-Fi, BLE, SDR, GPS, ADS-B, Sub-GHz
+</div>
+<div class="stat-tile" markdown>
+**10+ certifications**
+Security+, Network+, SSCP (Assoc.), ITIL4, ISC² CC, and more
+</div>
+<div class="stat-tile" markdown>
+**2 USPTO patents**
+Granted patents in UAV payload and delivery systems
 </div>
 </div>
 

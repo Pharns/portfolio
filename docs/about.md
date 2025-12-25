@@ -23,6 +23,24 @@ I build and secure systems end-to-end: cloud governance frameworks, GRC automati
 
 ---
 
+## Skills snapshot (ATS keywords)
+
+<div class="skills-grid" markdown>
+
+**GRC & Compliance:** Risk Assessment · Vendor Management · Security Architecture · Compliance Audit · Control Implementation · Evidence Collection · Policy Development · Third-Party Risk
+
+**Frameworks:** NIST CSF · CIS Controls v8 · PCI-DSS v4.0 · SOC 2 · ISO 27001 · FedRAMP (foundational)
+
+**Cloud Security:** AWS (IAM, GuardDuty, CloudTrail, S3) · Cloud Governance · Secure Defaults · Logging Pipelines
+
+**Detection & IR:** SIEM Tuning · Incident Response · Detection Engineering · Log Analysis · Threat Hunting · RF/Wireless Security
+
+**Tools:** Security Onion · TheHive/Cortex · Nessus · Terraform · n8n · Proxmox · Nextcloud · HackRF · RTL-SDR
+
+</div>
+
+---
+
 ## What I deliver (GRC focus)
 
 **Cloud governance & control implementation:**
@@ -47,11 +65,22 @@ I build and secure systems end-to-end: cloud governance frameworks, GRC automati
 
 ## Open to roles
 
-**Primary:** GRC Engineer · Cloud Compliance Automation · Security Controls Implementation · Cloud Security Engineer (GRC focus) · Detection Engineering
+**Primary focus (what I'm targeting):**
 
-**Future/Expanding:** Penetration Testing · Offensive Security (active lab, CySA+/PenTest+ Dec 2025)
+- GRC Engineer (technical implementation)
+- Cloud Security Engineer (compliance/governance focus)
+- Security Controls Implementation Specialist
+- Detection Engineer
 
-**Specialty niches:** AAM/UAV Security · RF/Wireless Security · Cyber-Physical Systems · AI-Augmented Security Engineering
+**Specialized depth (differentiators, not distractions):**
+
+- AAM/UAV Security — hands-on drone engineering + security
+- RF/Wireless Security — SDR, spectrum analysis, TraceLock™
+- Cyber-Physical Systems — hardware + software security integration
+
+**Growth trajectory:**
+
+- Penetration Testing · Offensive Security (active lab, CySA+/PenTest+ Dec 2025)
 
 Remote-first; open to international collaboration (US/EU/LatAm time zones) and relocation for the right opportunity.
 

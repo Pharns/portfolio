@@ -56,6 +56,8 @@ Code samples and project repos
 - Available for consulting engagements
 - **International roles welcome** — experienced collaborating across time zones
 
+**Availability:** Immediate / 2-week notice
+
 **Compensation:** Negotiable based on role scope, responsibilities, and total package. Happy to discuss.
 
 ---
