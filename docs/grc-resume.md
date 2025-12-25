@@ -18,7 +18,7 @@ AI-augmented Cloud/GRC and Detection Engineer who builds audit-ready cloud and h
 
 ## Projects (selected)
 - **GIAP™ – GRC Intake Automation Platform:** Nextcloud+n8n+SuiteCRM with role matrix, retention, consent, TLS/email hardening; intake JSON for evidence pipelines; SOC2/NIST control mapping; evidence checklist and validation runbook.
-- **Baseline Evidence Drop:** Consent-first, agentless Windows collector (BitLocker, Secure Boot, firewall, audit policy, EDR/AV, patches, listeners); manifest + hashes; control IDs (CIS/NIST/ISO); ready for GIAP intake.
+- **Baseline Evidence Drop:** Consent-first, agentless Windows collector (BitLocker, Secure Boot, firewall, audit policy, EDR/AV, patches, listeners); manifest + hashes; control IDs (CIS/NIST/ISO); ready for GIAP™ intake.
 - **Cloud Control Pack (AWS):** S3 default-deny baseline, GuardDuty → TLS-only S3 evidence export, scoped IAM with TLS-only denies; CIS/NIST mapping and validation checklist.
 - **PCI DSS Endpoint Hardening (Win11):** <48h lockdown (encryption, EDR, outbound monitoring, audit view); CIS/NIST table; full evidence gallery.
 - **Secure Intake & Evidence Portal (consulting, anonymized):** Role-based intake, retention, integrity checks, logged workflows; SOC2/NIST mapping; evidence checklist.

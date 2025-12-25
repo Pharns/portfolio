@@ -328,7 +328,7 @@ def correlate_threat(wifi_event, bt_event, gps_fix):
 
 - [Homelab Infrastructure](homelab-infrastructure.md) — The lab where TraceLock™ was developed
 - [Remote Access & Zero-WAN](remote-access-zero-wan.md) — Secure architecture for remote development
-- [GIAP](giap.md) — GRC automation platform using similar pipeline patterns
+- [GIAP™](giap.md) — GRC automation platform using similar pipeline patterns
 
 ---
 

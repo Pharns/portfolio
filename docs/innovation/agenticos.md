@@ -334,7 +334,7 @@ aos q "Explain the difference between SAST and DAST"
 ## Related Projects
 
 - [TraceLock™](../cybersecurity/tracelock.md) — Multi-domain RF threat detection (uses similar logging patterns)
-- [GIAP](../cybersecurity/giap.md) — GRC automation platform (powered by AgenticOS)
+- [GIAP™](../cybersecurity/giap.md) — GRC automation platform (powered by AgenticOS)
 - [Homelab Infrastructure](../cybersecurity/homelab-infrastructure.md) — Development environment
 
 ---

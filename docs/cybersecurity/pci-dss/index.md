@@ -14,6 +14,8 @@ description: Standalone Windows 11 endpoint architecture designed to meet PCI DS
 
     **Skills:** PCI DSS v4.0 · Endpoint Hardening · BitLocker · GPO · Windows Defender · Patch Management · Evidence Collection · Control Mapping · Compliance Documentation
 
+    **Completed:** November 2025
+
 ---
 
 *"Compliance isn't a product — it's an environment."*
@@ -50,7 +52,7 @@ The system integrates:
 - **Event Viewer + PowerShell Logging** — Comprehensive audit trail aligned with PCI DSS logging requirements.  
 - **Secure Network Path** — Router with hardware firewall → Encrypted VoIP phone → Workstation (isolated VLAN).  
 
-![Architecture Diagram](../../assets/diagrams/pci-architecture-overview.png)  
+![PCI-DSS Windows 11 architecture diagram showing BitLocker encryption, Windows Defender and Malwarebytes dual-layer protection, Windows Firewall with all profiles enabled, Patch My PC automation, Macrium Reflect backup, GlassWire network monitoring, and secure network path through hardware firewall and encrypted VoIP to isolated workstation](../../assets/diagrams/pci-architecture-overview.png)
 *Figure: Windows 11 PCI-DSS Hardening — Secure standalone workstation architecture.*
 
 ---
