@@ -1,5 +1,5 @@
 ---
-description: "Penetration testing lab and training: Kali Linux, Metasploit, hardware toolkit (HackRF, Flipper Zero). CySA+ and PenTest+ Dec 2025. Purple team perspective for GRC."
+description: "Penetration testing lab and training: Kali Linux, Metasploit, hardware toolkit (HackRF, Flipper Zero, LoRa/Meshtastic, O.MG Cable). CySA+ and PenTest+ Dec 2025. Purple team perspective for GRC."
 ---
 
 # Penetration Testing (Expanding Capability)
@@ -67,6 +67,12 @@ Versatile WiFi/Bluetooth development board for custom attack tools: deauth attac
 Bluetooth/BLE monitoring and analysis tool for wireless security testing, device enumeration, protocol analysis, and LE (Low Energy) sniffing.
 <span class="tag-chip">BLUETOOTH</span> <span class="tag-chip">BLE</span> <span class="tag-chip">SNIFFING</span>
 </div>
+
+<div class="stat-tile" markdown>
+**LoRa/Meshtastic Research Kit**
+Multi-device LoRa 915MHz research platform: RAKwireless WisBlock (RAK4631), Heltec ESP32 LoRa V4 (27dBm SX1262), LILYGO T-Echo (NRF52840 + GPS + NFC), MakerFocus ESP32 LoRa V3. Used for long-range mesh network security research, protocol analysis, and IoT attack surface assessment.
+<span class="tag-chip">LORA</span> <span class="tag-chip">MESHTASTIC</span> <span class="tag-chip">IOT</span>
+</div>
 </div>
 
 **Why this toolkit matters for GRC:**
@@ -119,6 +125,7 @@ Bluetooth/BLE monitoring and analysis tool for wireless security testing, device
 - GNU Radio (SDR processing)
 - Universal Radio Hacker
 - inspectrum, gqrx
+- Meshtastic firmware/CLI tools
 
 **Post-exploitation:**
 - Mimikatz, BloodHound
@@ -171,6 +178,7 @@ Bluetooth/BLE monitoring and analysis tool for wireless security testing, device
 - WPA/WPA2/WPA3 attacks (lab-only)
 - Bluetooth/BLE vulnerabilities
 - RF signal analysis and replay attacks
+- LoRa/Meshtastic mesh network security research
 
 **Physical security:**
 - USB HID attacks (Rubber Ducky, Flipper Zero)
