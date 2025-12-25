@@ -12,7 +12,7 @@ I build and secure systems end-to-end: cloud governance frameworks, GRC automati
 
 **Signals:** WGU B.S. Cybersecurity (Dec 2025), Security+/Net+/A+, ITIL4, ISC² CC/SSCP (Assoc.), LPI, FAA Part 107, HAM/GMRS; CySA+/PenTest+ scheduled Dec 2025; AWS CP planned Q1 2026.
 
-**Trust signals:**
+**Verifiable credentials:**
 
 - Service-disabled veteran (USAF) — security clearance eligible
 - Patent holder in UAV systems — demonstrates innovation and IP ownership
