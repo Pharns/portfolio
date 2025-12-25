@@ -26,7 +26,7 @@ I build and secure systems end-to-end: cloud governance frameworks, GRC automati
 ## What I deliver (GRC focus)
 
 **Cloud governance & control implementation:**
-- AWS Control Pack: S3 default-deny, GuardDuty findings export with scoped IAM, CIS/NIST mapping — deployed in hours.
+- AWS Control Pack: S3 default-deny, GuardDuty findings export with scoped IAM, CIS/NIST mapping — architecture designed, implementation Q1 2026.
 - IAM least privilege, logging foundations, secure defaults with audit trails.
 
 **Compliance automation & evidence:**

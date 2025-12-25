@@ -267,7 +267,7 @@ Traditional GRC work is documentation-heavy: control matrices, policy drafting, 
 
 <div class="stat-grid" markdown>
 <div class="stat-tile" markdown>
-**🛡️ AWS Cloud Control Pack**
+**🛡️ AWS Cloud Control Pack** *(In Progress)*
 S3 default-deny, GuardDuty export, scoped IAM with CIS/NIST mapping
 [View Project](../cybersecurity/aws-control-pack.md)
 </div>
@@ -279,8 +279,8 @@ Complete endpoint hardening with evidence pack in <48 hours
 </div>
 
 <div class="stat-tile" markdown>
-**🤖 GIAP™ — Governance Automation**
-AI-powered intake workflows with consent, retention, and control mapping
+**🤖 GIAP™ — Governance Automation** *(Infrastructure Live)*
+Self-hosted intake platform on Proxmox. Workflow integration in progress.
 [View Project](../cybersecurity/giap.md)
 </div>
 

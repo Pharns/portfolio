@@ -10,9 +10,9 @@ Browse the core portfolio work with quick outcomes and role-fit tags.
 <div class="section-panel" markdown>
 <div class="stat-grid" markdown>
 <div class="stat-tile" markdown>
-**Cloud Control Pack (AWS)**  
-Default-deny S3 + GuardDuty export; scoped IAM with CIS/NIST mapping.  
-<span class="tag-chip">Cloud/GRC</span> <span class="tag-chip">Controls</span> <span class="tag-chip">Evidence</span>  
+**Cloud Control Pack (AWS)** *(In Progress)*
+Default-deny S3 + GuardDuty export; scoped IAM with CIS/NIST mapping.
+<span class="tag-chip">Cloud/GRC</span> <span class="tag-chip">Controls</span> <span class="tag-chip">Q1 2026</span>
 [Read](cybersecurity/aws-control-pack.md)
 <br/><small>What it demonstrates: cloud guardrails, evidence pipeline, and compliance mapping.</small>
 </div>
@@ -24,9 +24,9 @@ Evidence-first RF/SDR pipeline with AI-assisted parsing and detections.
 <br/><small>What it demonstrates: wireless threat detection and evidence logging.</small>
 </div>
 <div class="stat-tile" markdown>
-**GIAP™ — GRC Intake & Evidence Automation**  
-Structured intake JSON, consent, retention, and control mapping.  
-<span class="tag-chip">GRC</span> <span class="tag-chip">Automation</span> <span class="tag-chip">Evidence</span>  
+**GIAP™ — GRC Intake & Evidence Automation** *(Infrastructure Live)*
+Self-hosted Nextcloud + n8n + SuiteCRM on Proxmox. Workflow integration in progress.
+<span class="tag-chip">GRC</span> <span class="tag-chip">Automation</span> <span class="tag-chip">Self-Hosted</span>
 [Read](cybersecurity/giap.md)
 <br/><small>What it demonstrates: automation for intake, retention, and audit-ready outputs.</small>
 </div>
