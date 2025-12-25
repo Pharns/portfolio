@@ -4,22 +4,21 @@ description: "Pharns Genece — GRC engineer, cloud security, and AAM cybersecur
 
 # About Pharns
 
-I build and secure systems end-to-end: cloud governance frameworks, GRC automation, endpoint hardening, detection tuning, and evidence-ready workflows. Rare hybrid: GRC discipline meets RF/aviation security and cyber-physical systems expertise. I blend compliance discipline, AI-augmented engineering, and hands-on technical depth (cloud, RF/SDR, detection) with a patented UAV background to deliver fast, audit-ready results.
+GRC engineer, cloud security practitioner, and AAM cybersecurity specialist. I build and secure systems end-to-end: cloud governance frameworks, compliance automation, endpoint hardening, detection tuning, and evidence-ready workflows.
 
-**Who I am:** GRC engineer, cloud security practitioner, and AAM cybersecurity specialist. Production hardening experience, wireless/RF security expertise, USPTO patent holder. Service-disabled veteran and FAA Part 107 certified.
+Rare hybrid: GRC discipline meets RF/aviation security and cyber-physical systems expertise. Production hardening experience, wireless/RF security research, USPTO patent holder. Service-disabled veteran (USAF) and FAA Part 107 certified.
 
-**How I work:** Evidence-first (controls, logs, screenshots), plain-English reporting, AI-assisted with human review, rapid iterations and clear handoffs.
+Evidence-first methodology (controls, logs, screenshots), plain-English reporting, AI-assisted with human review, rapid iterations and clear handoffs.
 
-**Signals:** WGU B.S. Cybersecurity (Dec 2025), Security+/Net+/A+, ITIL4, ISC² CC/SSCP (Assoc.), LPI, FAA Part 107, HAM/GMRS; CySA+/PenTest+ scheduled Dec 2025; AWS CP planned Q1 2026.
-
-**Verifiable credentials:**
+**Credentials:** WGU B.S. Cybersecurity (Dec 2025) · Security+/Net+/A+ · ITIL4 · ISC² CC/SSCP (Assoc.) · LPI · FAA Part 107 · HAM/GMRS
+**Scheduled:** CySA+/PenTest+ (Dec 2025) · AWS CP (Q1 2026)
 
 - Service-disabled veteran (USAF) — security clearance eligible
-- Patent holder in UAV systems — demonstrates innovation and IP ownership
-- Active GitHub with public project repos — code is verifiable
+- Patent holder in UAV systems — [View patents](https://patents.google.com/?inventor=Pharns+Genece)
+- Active GitHub with public repos — [View code](https://github.com/Pharns)
 - Credly-verified certifications — [View badges](https://www.credly.com/users/pharns)
 
-**Leadership & discipline:** Led AAM Cyber and USOG client work; built governance and safety controls. Disciplined execution shaped by high-stakes USAF aeromedical operations.
+Led AAM Cyber and USOG client work; built governance and safety controls. Disciplined execution shaped by high-stakes USAF aeromedical operations.
 
 ---
 
