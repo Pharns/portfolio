@@ -82,4 +82,23 @@ This combination enables me to audit, design, implement, and document security c
 
 ---
 
+## AAM cybersecurity: from builder to defender
+
+I don't just study drone security — I've designed, built, and fielded operational UAV systems.
+
+**Hands-on engineering background:**
+
+- Designed and deployed small UAS (SUAS) for real-world missions, including beyond-line-of-sight (BLOS) operations
+- Developed swarm-deployable payload systems with custom avionics integration
+- Authored USPTO patents for UAV delivery and payload mechanisms
+- Built RF telemetry and command/control systems from the ground up
+
+**Why this matters for cybersecurity:**
+
+When I assess drone security, I understand the attack surface from the inside: firmware vulnerabilities, RF link exploitation, GPS spoofing vectors, and payload tampering. This operational experience — combined with SDR/RF research (TraceLock™) and FAA Part 107 certification — positions me to secure the systems I once built.
+
+**Advanced Air Mobility (AAM)** is an emerging domain where few practitioners have both engineering depth and security discipline. I bring both.
+
+---
+
 **Connect:** [LinkedIn](https://linkedin.com/in/pharns) | [Contact](contact.md)
