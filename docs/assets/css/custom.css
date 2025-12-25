@@ -456,9 +456,41 @@
     padding: var(--space-4) 0;
   }
 
+  /* Improved tag chip mobile sizing */
   .tag-chip {
-    font-size: 0.7rem;
-    padding: 0.15rem 0.5rem;
+    font-size: 0.65rem;
+    padding: 0.125rem 0.4rem;
+    margin-right: 0.25rem;
+    margin-bottom: 0.25rem;
+    white-space: nowrap;
+  }
+
+  /* Better tag chip container wrapping */
+  .stat-tile p:has(.tag-chip) {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.25rem;
+    line-height: 1.8;
+  }
+
+  /* Mobile table improvements */
+  .md-typeset table {
+    display: block;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    white-space: nowrap;
+    font-size: 0.8rem;
+  }
+
+  .md-typeset table th,
+  .md-typeset table td {
+    padding: 0.5rem 0.625rem;
+    min-width: 100px;
+  }
+
+  /* Ensure tables in content scroll properly */
+  .md-content__inner {
+    overflow-x: hidden;
   }
 
   .md-typeset blockquote {

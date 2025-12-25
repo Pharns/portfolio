@@ -171,8 +171,8 @@ AWS guardrails, Windows hardening, intake automation
 B.S. Cybersecurity & Information Assurance (WGU) — Dec 2025
 </div>
 <div class="stat-tile" markdown>
-**Core Certifications**
-Security+, Network+, A+, ITIL4, ISC² CC, SSCP (Assoc.), LPI, Project+
+**10 Active Certifications**
+Security+, Network+, A+, ITIL4, ISC² CC, SSCP (Assoc.), LPI, Project+, CSIS, CIOS
 </div>
 <div class="stat-tile" markdown>
 **Scheduled Dec 2025**

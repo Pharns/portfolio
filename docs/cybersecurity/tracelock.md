@@ -335,3 +335,31 @@ def correlate_threat(wifi_event, bt_event, gps_fix):
 [GitHub Repository](https://github.com/Pharns/Tracelock-SSD){ .md-button .md-button--primary }
 [Connect on LinkedIn](https://www.linkedin.com/in/pharns/){ .md-button }
 [Contact Me](../contact.md){ .md-button }
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "TechArticle",
+  "headline": "TraceLock™ — Multi-Domain RF Threat Detection Platform",
+  "description": "Patent-pending multi-domain RF threat detection platform with real-time monitoring across Wi-Fi, Bluetooth, SDR, GPS, and ADS-B. Detection engineering with Python automation and forensic-grade logging.",
+  "author": {
+    "@type": "Person",
+    "name": "Pharns Genece",
+    "url": "https://portfolio.pharns.com"
+  },
+  "datePublished": "2025-12-01",
+  "dateModified": "2025-12-25",
+  "publisher": {
+    "@type": "Person",
+    "name": "Pharns Genece"
+  },
+  "mainEntityOfPage": "https://portfolio.pharns.com/cybersecurity/tracelock/",
+  "keywords": ["RF security", "detection engineering", "SDR", "wireless security", "Python", "threat detection"],
+  "about": {
+    "@type": "SoftwareApplication",
+    "name": "TraceLock",
+    "applicationCategory": "Security Software",
+    "operatingSystem": "Linux"
+  }
+}
+</script>

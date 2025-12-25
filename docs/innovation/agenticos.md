@@ -342,3 +342,31 @@ aos q "Explain the difference between SAST and DAST"
 [GitHub Repository](https://github.com/Pharns/AgenticOS){ .md-button .md-button--primary }
 [Connect on LinkedIn](https://www.linkedin.com/in/pharns/){ .md-button }
 [Contact Me](../contact.md){ .md-button }
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "TechArticle",
+  "headline": "AgenticOS — Deterministic AI Agent Orchestration",
+  "description": "Deterministic AI agent orchestration framework with explainable routing, structured logging, and audit-grade execution for security workflows. Python-based CLI for multi-provider AI automation.",
+  "author": {
+    "@type": "Person",
+    "name": "Pharns Genece",
+    "url": "https://portfolio.pharns.com"
+  },
+  "datePublished": "2025-12-01",
+  "dateModified": "2025-12-25",
+  "publisher": {
+    "@type": "Person",
+    "name": "Pharns Genece"
+  },
+  "mainEntityOfPage": "https://portfolio.pharns.com/innovation/agenticos/",
+  "keywords": ["AI orchestration", "security automation", "Python", "audit logging", "multi-agent", "DevSecOps"],
+  "about": {
+    "@type": "SoftwareApplication",
+    "name": "AgenticOS",
+    "applicationCategory": "Developer Tools",
+    "operatingSystem": "Cross-platform"
+  }
+}
+</script>

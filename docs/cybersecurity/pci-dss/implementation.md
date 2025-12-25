@@ -137,3 +137,79 @@ After completing all phases, the workstation achieved:
 
 > *System validated on Windows 11 23H2 — All screenshots captured from live hardened build.*
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Windows 11 PCI DSS Hardening Implementation Guide",
+  "description": "Step-by-step configuration guide for implementing PCI DSS-aligned controls on a standalone Windows 11 workstation, including encryption, access control, endpoint protection, and evidence collection.",
+  "totalTime": "PT4H",
+  "estimatedCost": {
+    "@type": "MonetaryAmount",
+    "currency": "USD",
+    "value": "0"
+  },
+  "tool": [
+    "Windows 11 Pro",
+    "BitLocker",
+    "Windows Defender",
+    "Malwarebytes",
+    "Patch My PC",
+    "GlassWire",
+    "Macrium Reflect"
+  ],
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Hardware & BIOS Preparation",
+      "text": "Enable TPM 2.0 and Secure Boot in BIOS/UEFI, set firmware password, verify boot order"
+    },
+    {
+      "@type": "HowToStep",
+      "name": "BitLocker Drive Encryption",
+      "text": "Enable BitLocker with TPM + PIN protection, save recovery key securely, verify encryption status"
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Account & Access Control",
+      "text": "Create standard user account, rename Administrator, enforce password policy and account lockout"
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Endpoint Protection",
+      "text": "Configure Windows Defender and Malwarebytes with real-time protection and scheduled scans"
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Patch Management",
+      "text": "Install Patch My PC, configure automatic updates, verify Windows Update settings"
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Monitoring & Logging",
+      "text": "Configure Event Viewer audit policies, enable PowerShell transcription, install GlassWire"
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Backup & Recovery",
+      "text": "Create system image with Macrium Reflect, verify backup integrity, establish rotation schedule"
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Network Segmentation",
+      "text": "Place workstation in isolated VLAN, verify network visibility with GlassWire"
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Evidence Collection",
+      "text": "Capture screenshots of all controls, store with timestamps, create SHA-256 hash manifest"
+    }
+  ],
+  "author": {
+    "@type": "Person",
+    "name": "Pharns Genece",
+    "url": "https://portfolio.pharns.com"
+  }
+}
+</script>
+
