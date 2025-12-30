@@ -98,7 +98,7 @@ GIAP™ implements a two-phase workflow with a clear **deposit gate** separating
 
 ---
 
-## Platform Roles (Option C Architecture)
+## Platform Roles
 
 | Platform | Phase | Role | Why |
 |----------|-------|------|-----|
@@ -146,7 +146,7 @@ GIAP™ is a modular, multi-agent GRC automation platform with MCP integration f
 
 ---
 
-## Multi-Agent Pipeline (7 Agents)
+## Multi-Agent Pipeline
 
 | Agent | Phase | Function | Output |
 |-------|-------|----------|--------|
@@ -223,7 +223,7 @@ poam_agent = {
 
 ---
 
-## AI/LLM Integration (MCP Protocol)
+## MCP Integration
 
 GIAP™ integrates with Claude and other AI assistants via **Model Context Protocol (MCP)**, enabling natural language queries against GRC data:
 
@@ -436,7 +436,7 @@ GIAP™ supports 90-day recurring assessment cycles for vCISO engagements:
 
 ## Output Artifacts
 
-### POA&M Example (POAMAgent Output)
+### POA&M Example
 
 ```json
 {
