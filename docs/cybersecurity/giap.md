@@ -30,16 +30,16 @@ GIAP™ implements a two-phase workflow with a clear **deposit gate** separating
 
 ```mermaid
 flowchart TB
-    subgraph PRE["<b>PRE-ENGAGEMENT PHASE</b><br/><i>Qualification & Sales</i>"]
+    subgraph PRE[PRE-ENGAGEMENT]
         direction TB
-        P["👤 Prospect"]
-        PIF["📋 Pre-Intake Form"]
-        CA["🔍 CISO Assistant"]
-        QG["Quick Gap<br/>Assessment"]
-        FS["Framework<br/>Selection"]
-        RP["Risk<br/>Profile"]
-        CRM["📊 SuiteCRM<br/><i>Client Record</i>"]
-        DS["📝 DocuSeal<br/><i>Engagement Letter</i>"]
+        P[Prospect]
+        PIF[Pre-Intake]
+        CA[CISO Assistant]
+        QG[Gap Analysis]
+        FS[Framework Fit]
+        RP[Risk Profile]
+        CRM[SuiteCRM]
+        DS[DocuSeal]
 
         P --> PIF --> CA
         CA --> QG & FS & RP
@@ -47,18 +47,18 @@ flowchart TB
         CRM --> DS
     end
 
-    DG["💰 <b>DEPOSIT GATE</b>"]
+    DG[DEPOSIT GATE]
 
-    subgraph POST["<b>POST-ENGAGEMENT PHASE</b><br/><i>Paid Consulting Work</i>"]
+    subgraph POST[POST-ENGAGEMENT]
         direction TB
-        EXP["📤 CISO Assistant Export<br/><i>YAML/JSON → Eramba</i>"]
-        ERA1["🏢 Eramba CE<br/><i>Full GRC Engagement</i>"]
-        RM["Risk Register<br/>Management"]
-        CT["Control Testing<br/>& Audits"]
-        EC["Evidence<br/>Collection"]
-        POA["⚙️ POAMAgent<br/><i>MD / CSV / PDF</i>"]
-        ERA2["🏢 Eramba CE<br/><i>Remediation Tracking</i>"]
-        VCISO["🔄 <b>90-Day vCISO Cycle</b>"]
+        EXP[Data Export]
+        ERA1[Eramba CE]
+        RM[Risk Register]
+        CT[Control Testing]
+        EC[Evidence Vault]
+        POA[POAMAgent]
+        ERA2[Remediation]
+        VCISO[vCISO Cycle]
 
         EXP --> ERA1
         ERA1 --> RM & CT & EC
@@ -68,7 +68,7 @@ flowchart TB
 
     DS --> DG
     DG --> EXP
-    VCISO -.->|"Recurring"| EXP
+    VCISO -.-> EXP
 
     style PRE fill:#e8f4ea,stroke:#2e7d32,stroke-width:2px
     style POST fill:#e3f2fd,stroke:#1565c0,stroke-width:2px
