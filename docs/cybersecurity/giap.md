@@ -34,15 +34,15 @@ flowchart TB
         direction TB
         P[Prospect]
         PIF[Pre-Intake]
-        CA[CISO Assistant]
+        CA1[CISO Assistant]
         QG[Gap Analysis]
         FS[Framework Fit]
         RP[Risk Profile]
         CRM[SuiteCRM]
         DS[DocuSeal]
 
-        P --> PIF --> CA
-        CA --> QG & FS & RP
+        P --> PIF --> CA1
+        CA1 --> QG & FS & RP
         QG & FS & RP --> CRM
         CRM --> DS
     end
@@ -52,18 +52,19 @@ flowchart TB
     subgraph POST[POST-ENGAGEMENT]
         direction TB
         EXP[Data Export]
-        ERA1[Eramba CE]
+        ERA[Eramba CE]
+        CA2[CISO Assistant]
         RM[Risk Register]
         CT[Control Testing]
         EC[Evidence Vault]
-        POA[POAMAgent]
-        ERA2[Remediation]
+        POA[POAM Agent]
+        REM[Remediation]
         VCISO[vCISO Cycle]
 
-        EXP --> ERA1
-        ERA1 --> RM & CT & EC
+        EXP --> ERA --> CA2
+        CA2 --> RM & CT & EC
         RM & CT & EC --> POA
-        POA --> ERA2 --> VCISO
+        POA --> REM --> VCISO
     end
 
     DS --> DG
@@ -71,7 +72,7 @@ flowchart TB
     VCISO -.-> EXP
 
     style PRE fill:#e8f4ea,stroke:#2e7d32,stroke-width:2px
-    style POST fill:#e8f4ea,stroke:#2e7d32,stroke-width:2px
+    style POST fill:#f3e8ff,stroke:#7c3aed,stroke-width:2px
     style DG fill:#fff3e0,stroke:#ef6c00,stroke-width:3px
 ```
 
@@ -160,18 +161,19 @@ flowchart TB
 
     subgraph POST[POST-ENGAGEMENT]
         direction TB
-        CA2[CISO Assistant] --> MA[MapperAgent]
-        MA --> ERA[Eramba CE]
-        ERA --> PA[POAMAgent]
+        EXP[Data Export] --> ERA[Eramba CE]
+        ERA --> MA[MapperAgent]
+        MA --> PA[POAMAgent]
         PA --> RA[RemediationAgent]
-        RA --> ERA2[Eramba CE]
+        RA --> VCISO[vCISO Cycle]
     end
 
     DSA --> DG
-    DG --> CA2
+    DG --> EXP
+    VCISO -.-> EXP
 
     style PRE fill:#e8f4ea,stroke:#2e7d32,stroke-width:2px
-    style POST fill:#e8f4ea,stroke:#2e7d32,stroke-width:2px
+    style POST fill:#f3e8ff,stroke:#7c3aed,stroke-width:2px
     style DG fill:#fff3e0,stroke:#ef6c00,stroke-width:3px
 ```
 
