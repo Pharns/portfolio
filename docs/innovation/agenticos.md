@@ -350,15 +350,15 @@ aos q "Explain the difference between SAST and DAST"
 
 ## Related Projects
 
-- [TraceLock™](02%20-%20Areas/05.%20Cybersecurity/09.%20Online%20Portfolio/01.%20code_portfolio/portfolio/docs/cybersecurity/tracelock.md) — Multi-domain RF threat detection (uses similar logging patterns)
-- [GIAP™](giap.md) — GRC automation platform (powered by AgenticOS)
-- [Homelab Infrastructure](homelab-infrastructure.md) — Development environment
+- [TraceLock™](../cybersecurity/tracelock.md) — Multi-domain RF threat detection (uses similar logging patterns)
+- [GIAP™](../cybersecurity/giap.md) — GRC automation platform (powered by AgenticOS)
+- [Homelab Infrastructure](../cybersecurity/homelab-infrastructure.md) — Development environment
 
 ---
 
 [GitHub Repository](https://github.com/Pharns/AgenticOS){ .md-button .md-button--primary }
 [Connect on LinkedIn](https://www.linkedin.com/in/pharns/){ .md-button }
-[Contact Me](contact.md){ .md-button }
+[Contact Me](../contact.md){ .md-button }
 
 <script type="application/ld+json">
 {

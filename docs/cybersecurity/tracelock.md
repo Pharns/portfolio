@@ -355,7 +355,7 @@ flowchart TB
 
 [GitHub Repository](https://github.com/Pharns/Tracelock-SSD){ .md-button .md-button--primary }
 [Connect on LinkedIn](https://www.linkedin.com/in/pharns/){ .md-button }
-[Contact Me](contact.md){ .md-button }
+[Contact Me](../contact.md){ .md-button }
 
 <script type="application/ld+json">
 {
