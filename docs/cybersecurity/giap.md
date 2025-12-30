@@ -28,72 +28,41 @@ description: Multi-agent GRC automation platform with MCP integration — 7-agen
 
 GIAP™ implements a two-phase workflow with a clear **deposit gate** separating pre-engagement qualification from paid consulting work:
 
-```
-┌─────────────────────────────────────────────────────────────────────┐
-│                      PRE-ENGAGEMENT PHASE                            │
-│                   (Qualification & Sales)                            │
-├─────────────────────────────────────────────────────────────────────┤
-│                                                                      │
-│   [Prospect] ──→ [Pre-Intake Form] ──→ [CISO Assistant]             │
-│                                              │                       │
-│                          ┌───────────────────┼───────────────────┐  │
-│                          ▼                   ▼                   ▼  │
-│                    Quick Gap           Framework            Risk    │
-│                    Assessment          Selection          Profile   │
-│                          │                   │                   │  │
-│                          └───────────────────┴───────────────────┘  │
-│                                              │                       │
-│                                              ▼                       │
-│                                       [SuiteCRM]                     │
-│                                    Client Record Created             │
-│                                              │                       │
-│                                              ▼                       │
-│                                       [DocuSeal]                     │
-│                              Engagement Letter + DPA/BAA             │
-│                                              │                       │
-│                                              ▼                       │
-│                                    ┌─────────────────┐              │
-│                                    │  💰 DEPOSIT     │              │
-│                                    │     GATE        │              │
-│                                    └────────┬────────┘              │
-│                                              │                       │
-└──────────────────────────────────────────────┼──────────────────────┘
-                                               │
-┌──────────────────────────────────────────────┼──────────────────────┐
-│                      POST-ENGAGEMENT PHASE                           │
-│                   (Paid Consulting Work)                             │
-├──────────────────────────────────────────────┼──────────────────────┤
-│                                              ▼                       │
-│                                 [CISO Assistant Export]              │
-│                                    YAML/JSON → Eramba                │
-│                                              │                       │
-│                                              ▼                       │
-│                                       [Eramba CE]                    │
-│                               Full GRC Engagement Begins             │
-│                                              │                       │
-│                    ┌─────────────────────────┼─────────────────────┐│
-│                    ▼                         ▼                     ▼││
-│              Risk Register            Control Testing         Evidence│
-│              Management               & Audits              Collection│
-│                    │                         │                     │││
-│                    └─────────────────────────┴─────────────────────┘│
-│                                              │                       │
-│                                              ▼                       │
-│                                       [POAMAgent]                    │
-│                              Custom POA&M Generator (Python)         │
-│                                    MD / CSV / PDF output             │
-│                                              │                       │
-│                                              ▼                       │
-│                                       [Eramba CE]                    │
-│                               Remediation Tracking & Closure         │
-│                                              │                       │
-│                                              ▼                       │
-│                                    ┌─────────────────┐              │
-│                                    │  90-Day vCISO   │              │
-│                                    │     Cycle ↺     │              │
-│                                    └─────────────────┘              │
-│                                                                      │
-└─────────────────────────────────────────────────────────────────────┘
+```mermaid
+flowchart TB
+    subgraph PRE["<b>PRE-ENGAGEMENT PHASE</b><br/><i>Qualification & Sales</i>"]
+        direction TB
+        P["👤 Prospect"] --> PIF["📋 Pre-Intake Form"]
+        PIF --> CA["🔍 CISO Assistant"]
+        CA --> QG["Quick Gap<br/>Assessment"]
+        CA --> FS["Framework<br/>Selection"]
+        CA --> RP["Risk<br/>Profile"]
+        QG --> CRM["📊 SuiteCRM<br/><i>Client Record Created</i>"]
+        FS --> CRM
+        RP --> CRM
+        CRM --> DS["📝 DocuSeal<br/><i>Engagement Letter + DPA/BAA</i>"]
+        DS --> DG["💰 <b>DEPOSIT GATE</b>"]
+    end
+
+    subgraph POST["<b>POST-ENGAGEMENT PHASE</b><br/><i>Paid Consulting Work</i>"]
+        direction TB
+        EXP["📤 CISO Assistant Export<br/><i>YAML/JSON → Eramba</i>"] --> ERA1["🏢 Eramba CE<br/><i>Full GRC Engagement</i>"]
+        ERA1 --> RM["Risk Register<br/>Management"]
+        ERA1 --> CT["Control Testing<br/>& Audits"]
+        ERA1 --> EC["Evidence<br/>Collection"]
+        RM --> POA["⚙️ POAMAgent<br/><i>MD / CSV / PDF</i>"]
+        CT --> POA
+        EC --> POA
+        POA --> ERA2["🏢 Eramba CE<br/><i>Remediation Tracking</i>"]
+        ERA2 --> VCISO["🔄 <b>90-Day vCISO Cycle</b>"]
+        VCISO -.-> EXP
+    end
+
+    DG --> EXP
+
+    style PRE fill:#e8f4ea,stroke:#2e7d32,stroke-width:2px
+    style POST fill:#e3f2fd,stroke:#1565c0,stroke-width:2px
+    style DG fill:#fff3e0,stroke:#ef6c00,stroke-width:3px
 ```
 
 ---
