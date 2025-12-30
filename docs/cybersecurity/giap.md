@@ -32,33 +32,43 @@ GIAP™ implements a two-phase workflow with a clear **deposit gate** separating
 flowchart TB
     subgraph PRE["<b>PRE-ENGAGEMENT PHASE</b><br/><i>Qualification & Sales</i>"]
         direction TB
-        P["👤 Prospect"] --> PIF["📋 Pre-Intake Form"]
-        PIF --> CA["🔍 CISO Assistant"]
-        CA --> QG["Quick Gap<br/>Assessment"]
-        CA --> FS["Framework<br/>Selection"]
-        CA --> RP["Risk<br/>Profile"]
-        QG --> CRM["📊 SuiteCRM<br/><i>Client Record Created</i>"]
-        FS --> CRM
-        RP --> CRM
-        CRM --> DS["📝 DocuSeal<br/><i>Engagement Letter + DPA/BAA</i>"]
-        DS --> DG["💰 <b>DEPOSIT GATE</b>"]
+        P["👤 Prospect"]
+        PIF["📋 Pre-Intake Form"]
+        CA["🔍 CISO Assistant"]
+        QG["Quick Gap<br/>Assessment"]
+        FS["Framework<br/>Selection"]
+        RP["Risk<br/>Profile"]
+        CRM["📊 SuiteCRM<br/><i>Client Record</i>"]
+        DS["📝 DocuSeal<br/><i>Engagement Letter</i>"]
+
+        P --> PIF --> CA
+        CA --> QG & FS & RP
+        QG & FS & RP --> CRM
+        CRM --> DS
     end
+
+    DG["💰 <b>DEPOSIT GATE</b>"]
 
     subgraph POST["<b>POST-ENGAGEMENT PHASE</b><br/><i>Paid Consulting Work</i>"]
         direction TB
-        EXP["📤 CISO Assistant Export<br/><i>YAML/JSON → Eramba</i>"] --> ERA1["🏢 Eramba CE<br/><i>Full GRC Engagement</i>"]
-        ERA1 --> RM["Risk Register<br/>Management"]
-        ERA1 --> CT["Control Testing<br/>& Audits"]
-        ERA1 --> EC["Evidence<br/>Collection"]
-        RM --> POA["⚙️ POAMAgent<br/><i>MD / CSV / PDF</i>"]
-        CT --> POA
-        EC --> POA
-        POA --> ERA2["🏢 Eramba CE<br/><i>Remediation Tracking</i>"]
-        ERA2 --> VCISO["🔄 <b>90-Day vCISO Cycle</b>"]
-        VCISO -.-> EXP
+        EXP["📤 CISO Assistant Export<br/><i>YAML/JSON → Eramba</i>"]
+        ERA1["🏢 Eramba CE<br/><i>Full GRC Engagement</i>"]
+        RM["Risk Register<br/>Management"]
+        CT["Control Testing<br/>& Audits"]
+        EC["Evidence<br/>Collection"]
+        POA["⚙️ POAMAgent<br/><i>MD / CSV / PDF</i>"]
+        ERA2["🏢 Eramba CE<br/><i>Remediation Tracking</i>"]
+        VCISO["🔄 <b>90-Day vCISO Cycle</b>"]
+
+        EXP --> ERA1
+        ERA1 --> RM & CT & EC
+        RM & CT & EC --> POA
+        POA --> ERA2 --> VCISO
     end
 
+    DS --> DG
     DG --> EXP
+    VCISO -.->|"Recurring"| EXP
 
     style PRE fill:#e8f4ea,stroke:#2e7d32,stroke-width:2px
     style POST fill:#e3f2fd,stroke:#1565c0,stroke-width:2px
