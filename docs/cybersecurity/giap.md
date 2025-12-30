@@ -94,33 +94,40 @@ flowchart TB
 
 GIAP™ is a modular, multi-agent GRC automation platform with MCP integration for AI-assisted queries:
 
-```
-┌─────────────────────────────────────────────────────────────────────┐
-│                     Claude / AI Assistant                            │
-└─────────────────────────────────────────────────────────────────────┘
-                                 │ MCP Protocol
-                                 ▼
-┌─────────────────────────────────────────────────────────────────────┐
-│                       MCP Server Layer                               │
-│  ┌──────────┐ ┌──────────┐ ┌─────────────┐ ┌──────────┐ ┌────────┐  │
-│  │ giap-crm │ │giap-risk │ │giap-controls│ │giap-evid │ │giap-poa│  │
-│  └────┬─────┘ └────┬─────┘ └──────┬──────┘ └────┬─────┘ └───┬────┘  │
-└───────┼────────────┼──────────────┼─────────────┼───────────┼───────┘
-        │            │              │             │           │
-        ▼            ▼              ▼             ▼           ▼
-┌───────────┐  ┌───────────┐  ┌───────────┐  ┌─────────┐  ┌─────────┐
-│ SuiteCRM  │  │ Eramba CE │  │   CISO    │  │Nextcloud│  │  GIAP   │
-│ (Clients) │  │(Risk/GRC) │  │ Assistant │  │(Evidence│  │Database │
-└───────────┘  └───────────┘  └───────────┘  └─────────┘  └─────────┘
-                    │               │
-        ┌───────────┴───────┐      │
-        │  Post-Engagement: │      │  Pre-Engagement:
-        │  • Risk Registers │      │  • Quick Assessments
-        │  • Compliance Ops │      │  • Framework Selection
-        │  • Audit Workflows│      │  • Gap Identification
-        │  • Incidents      │      │  • YAML Export
-        │  • Remediation    │      │
-        └───────────────────┘      └──────────────────
+```mermaid
+flowchart TB
+    subgraph AI[AI LAYER]
+        CLAUDE[Claude / AI Assistant]
+    end
+
+    subgraph MCP[MCP SERVER LAYER]
+        direction LR
+        M1[giap-crm]
+        M2[giap-risk]
+        M3[giap-controls]
+        M4[giap-evidence]
+        M5[giap-poam]
+    end
+
+    subgraph DATA[DATA LAYER]
+        direction LR
+        D1[SuiteCRM]
+        D2[Eramba CE]
+        D3[CISO Assistant]
+        D4[Nextcloud]
+        D5[GIAP Database]
+    end
+
+    CLAUDE -->|MCP Protocol| MCP
+    M1 --> D1
+    M2 --> D2
+    M3 --> D3
+    M4 --> D4
+    M5 --> D5
+
+    style AI fill:#f3e8ff,stroke:#7c3aed,stroke-width:2px
+    style MCP fill:#fef3c7,stroke:#d97706,stroke-width:2px
+    style DATA fill:#e0f2fe,stroke:#0284c7,stroke-width:2px
 ```
 
 ---
@@ -139,28 +146,33 @@ GIAP™ is a modular, multi-agent GRC automation platform with MCP integration f
 
 ### Data Flow
 
-```
-PRE-ENGAGEMENT:
-[BrainAgent] → [IntakeAgent] → [CISO Assistant] → Quick Assessment
-                                      ↓
-                               [CRMAgent] → SuiteCRM
-                                      ↓
-                            [DocuSealAgent] → Engagement Docs
-                                      ↓
-                                DEPOSIT GATE
-                                      ↓
-POST-ENGAGEMENT:
-                            [CISO Assistant] → Export YAML
-                                      ↓
-                             [MapperAgent] → Eramba CE Import
-                                      ↓
-                              [Eramba CE] → Full Assessment
-                                      ↓
-                             [POAMAgent] → POA&M Deliverables
-                                      ↓
-                          [RemediationAgent] → Eramba Tasks
-                                      ↓
-                              [Eramba CE] → Track to Closure
+```mermaid
+flowchart TB
+    subgraph PRE[PRE-ENGAGEMENT]
+        direction TB
+        BA1[BrainAgent] --> IA[IntakeAgent]
+        IA --> CA1[CISO Assistant]
+        CA1 --> CRMA[CRMAgent]
+        CRMA --> DSA[DocuSealAgent]
+    end
+
+    DG[DEPOSIT GATE]
+
+    subgraph POST[POST-ENGAGEMENT]
+        direction TB
+        CA2[CISO Assistant] --> MA[MapperAgent]
+        MA --> ERA[Eramba CE]
+        ERA --> PA[POAMAgent]
+        PA --> RA[RemediationAgent]
+        RA --> ERA2[Eramba CE]
+    end
+
+    DSA --> DG
+    DG --> CA2
+
+    style PRE fill:#e8f4ea,stroke:#2e7d32,stroke-width:2px
+    style POST fill:#e3f2fd,stroke:#1565c0,stroke-width:2px
+    style DG fill:#fff3e0,stroke:#ef6c00,stroke-width:3px
 ```
 
 ---
