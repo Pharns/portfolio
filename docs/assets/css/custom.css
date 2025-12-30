@@ -618,3 +618,55 @@ html {
 [data-md-color-scheme="slate"] .skills-grid strong {
   color: var(--pg-accent-light);
 }
+
+/* ============================================
+   Mermaid Diagram Styling
+   ============================================ */
+
+/* Container: full-width and centered */
+.md-typeset .mermaid {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: var(--space-6) 0;
+  padding: var(--space-4);
+  background: var(--tile-bg-light);
+  border-radius: var(--pg-radius);
+  border: 1px solid var(--tile-border-light);
+  box-shadow: var(--pg-shadow);
+  overflow-x: auto;
+}
+
+/* SVG inside: scale to fit container width */
+.md-typeset .mermaid svg {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Dark mode support */
+[data-md-color-scheme="slate"] .md-typeset .mermaid {
+  background: var(--tile-bg-dark);
+  border-color: var(--tile-border-dark);
+}
+
+/* Ensure subgraphs have readable text in dark mode */
+[data-md-color-scheme="slate"] .md-typeset .mermaid .nodeLabel,
+[data-md-color-scheme="slate"] .md-typeset .mermaid .label {
+  color: var(--tile-text-dark);
+}
+
+/* Mobile responsiveness */
+@media screen and (max-width: 768px) {
+  .md-typeset .mermaid {
+    padding: var(--space-3);
+    margin: var(--space-4) 0;
+    overflow-x: scroll;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .md-typeset .mermaid svg {
+    min-width: 600px;
+  }
+}
