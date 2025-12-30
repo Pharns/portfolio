@@ -54,17 +54,34 @@ aos -p myproject d "Add logging"    # Work on specific project
 
 ### Core Architecture
 
-```
-┌───────────────────────────────────────────────────────────────┐
-│                       AgenticOS Core                          │
-├───────────────────────────────────────────────────────────────┤
-│  ROUTING             │  EXECUTION          │  PERSISTENCE     │
-│  ─────────────────   │  ─────────────────  │  ──────────────  │
-│  • Keyword rules     │  • Profile-based    │  • Session memory│
-│  • AI classification │  • Provider agnostic│  • JSON logs     │
-│  • Precedence order  │  • Timeout control  │  • Delta tracking│
-│  • Dry-run mode      │  • Structured output│  • Project isolation│
-└───────────────────────────────────────────────────────────────┘
+```mermaid
+flowchart LR
+    subgraph CORE[AGENTICOS CORE]
+        direction LR
+        subgraph R[ROUTING]
+            R1[Keyword Rules]
+            R2[AI Classification]
+            R3[Precedence Order]
+            R4[Dry-run Mode]
+        end
+        subgraph E[EXECUTION]
+            E1[Profile-based]
+            E2[Provider Agnostic]
+            E3[Timeout Control]
+            E4[Structured Output]
+        end
+        subgraph P[PERSISTENCE]
+            P1[Session Memory]
+            P2[JSON Logs]
+            P3[Delta Tracking]
+            P4[Project Isolation]
+        end
+    end
+
+    style CORE fill:#f8fafc,stroke:#334155,stroke-width:2px
+    style R fill:#e8f4ea,stroke:#2e7d32,stroke-width:2px
+    style E fill:#e0f2fe,stroke:#0284c7,stroke-width:2px
+    style P fill:#fef3c7,stroke:#d97706,stroke-width:2px
 ```
 
 ### Script Breakdown
@@ -333,15 +350,15 @@ aos q "Explain the difference between SAST and DAST"
 
 ## Related Projects
 
-- [TraceLock™](../cybersecurity/tracelock.md) — Multi-domain RF threat detection (uses similar logging patterns)
-- [GIAP™](../cybersecurity/giap.md) — GRC automation platform (powered by AgenticOS)
-- [Homelab Infrastructure](../cybersecurity/homelab-infrastructure.md) — Development environment
+- [TraceLock™](02%20-%20Areas/05.%20Cybersecurity/09.%20Online%20Portfolio/01.%20code_portfolio/portfolio/docs/cybersecurity/tracelock.md) — Multi-domain RF threat detection (uses similar logging patterns)
+- [GIAP™](giap.md) — GRC automation platform (powered by AgenticOS)
+- [Homelab Infrastructure](homelab-infrastructure.md) — Development environment
 
 ---
 
 [GitHub Repository](https://github.com/Pharns/AgenticOS){ .md-button .md-button--primary }
 [Connect on LinkedIn](https://www.linkedin.com/in/pharns/){ .md-button }
-[Contact Me](../contact.md){ .md-button }
+[Contact Me](contact.md){ .md-button }
 
 <script type="application/ld+json">
 {

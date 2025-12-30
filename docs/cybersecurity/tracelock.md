@@ -88,19 +88,38 @@ TraceLock™ is a security-hardened fork of CYT (Chasing Your Tail). Here's what
 
 **Codebase:** 25 Python modules, 81 shell scripts, ~12,500 LOC, GitHub Actions CI
 
-```
-┌─────────────────────────────────────────────────────────────┐
-│                    TraceLock™ Core                          │
-├─────────────────────────────────────────────────────────────┤
-│  SENSORS          │  DETECTION ENGINE   │  OUTPUT           │
-│  ─────────────    │  ─────────────────  │  ──────────────   │
-│  • Kismet (Wi-Fi) │  • Rule matching    │  • JSON logs      │
-│  • rtl_433 (ISM)  │  • Threshold tuning │  • Markdown reports│
-│  • linuxbluetooth │  • Correlation      │  • KML maps       │
-│  • gpsd (GPS)     │  • Allowlisting     │  • MQTT alerts    │
-│  • dump1090(ADSB) │  • Persistence      │  • HTML reports   │
-│  • HackRF capture │    scoring          │  • Audit export   │
-└─────────────────────────────────────────────────────────────┘
+```mermaid
+flowchart LR
+    subgraph CORE[TRACELOCK CORE]
+        direction LR
+        subgraph S[SENSORS]
+            S1[Kismet Wi-Fi]
+            S2[rtl_433 ISM]
+            S3[Bluetooth]
+            S4[gpsd GPS]
+            S5[dump1090 ADSB]
+            S6[HackRF SDR]
+        end
+        subgraph D[DETECTION ENGINE]
+            D1[Rule Matching]
+            D2[Threshold Tuning]
+            D3[Correlation]
+            D4[Allowlisting]
+            D5[Persistence Scoring]
+        end
+        subgraph O[OUTPUT]
+            O1[JSON Logs]
+            O2[Markdown Reports]
+            O3[KML Maps]
+            O4[MQTT Alerts]
+            O5[HTML Reports]
+        end
+    end
+
+    style CORE fill:#f8fafc,stroke:#334155,stroke-width:2px
+    style S fill:#e8f4ea,stroke:#2e7d32,stroke-width:2px
+    style D fill:#e0f2fe,stroke:#0284c7,stroke-width:2px
+    style O fill:#fef3c7,stroke:#d97706,stroke-width:2px
 ```
 
 ### Python Module Breakdown
@@ -193,36 +212,38 @@ def correlate_threat(wifi_event, bt_event, gps_fix):
 
 ### Architecture Diagram
 
-```
-┌─────────────────────────────────────────────────────────────────────┐
-│                      TraceLock™ System Architecture                  │
-├─────────────────────────────────────────────────────────────────────┤
-│                                                                      │
-│   ┌──────────┐  ┌──────────┐  ┌──────────┐  ┌──────────┐           │
-│   │  Wi-Fi   │  │Bluetooth │  │   SDR    │  │   GPS    │           │
-│   │ (Kismet) │  │(Ubertooth│  │(rtl_433) │  │  Module  │           │
-│   └────┬─────┘  └────┬─────┘  └────┬─────┘  └────┬─────┘           │
-│        │             │             │             │                  │
-│        └─────────────┴──────┬──────┴─────────────┘                  │
-│                             │                                        │
-│                    ┌────────▼────────┐                              │
-│                    │  Normalization  │                              │
-│                    │     Layer       │                              │
-│                    └────────┬────────┘                              │
-│                             │                                        │
-│                    ┌────────▼────────┐                              │
-│                    │   Correlation   │                              │
-│                    │     Engine      │◄──── Detection Rules         │
-│                    └────────┬────────┘      + Allowlists            │
-│                             │                                        │
-│           ┌─────────────────┼─────────────────┐                     │
-│           │                 │                 │                      │
-│    ┌──────▼──────┐  ┌───────▼──────┐  ┌──────▼──────┐              │
-│    │  JSON Logs  │  │  KML Export  │  │ MQTT Alerts │              │
-│    │  (Forensic) │  │ (Mapping)    │  │ (Real-time) │              │
-│    └─────────────┘  └──────────────┘  └─────────────┘              │
-│                                                                      │
-└─────────────────────────────────────────────────────────────────────┘
+```mermaid
+flowchart TB
+    subgraph SENSORS[SENSOR LAYER]
+        direction LR
+        W[Wi-Fi<br/>Kismet]
+        B[Bluetooth<br/>Ubertooth]
+        S[SDR<br/>rtl_433]
+        G[GPS<br/>Module]
+    end
+
+    subgraph PROCESSING[PROCESSING LAYER]
+        direction TB
+        N[Normalization Layer]
+        C[Correlation Engine]
+        R[Detection Rules<br/>+ Allowlists]
+    end
+
+    subgraph OUTPUT[OUTPUT LAYER]
+        direction LR
+        J[JSON Logs<br/>Forensic]
+        K[KML Export<br/>Mapping]
+        M[MQTT Alerts<br/>Real-time]
+    end
+
+    W & B & S & G --> N
+    N --> C
+    R --> C
+    C --> J & K & M
+
+    style SENSORS fill:#e8f4ea,stroke:#2e7d32,stroke-width:2px
+    style PROCESSING fill:#e0f2fe,stroke:#0284c7,stroke-width:2px
+    style OUTPUT fill:#fef3c7,stroke:#d97706,stroke-width:2px
 ```
 
 *Multi-domain sensor integration with correlation engine*
@@ -334,7 +355,7 @@ def correlate_threat(wifi_event, bt_event, gps_fix):
 
 [GitHub Repository](https://github.com/Pharns/Tracelock-SSD){ .md-button .md-button--primary }
 [Connect on LinkedIn](https://www.linkedin.com/in/pharns/){ .md-button }
-[Contact Me](../contact.md){ .md-button }
+[Contact Me](contact.md){ .md-button }
 
 <script type="application/ld+json">
 {

@@ -30,14 +30,26 @@ The workstation environment is structured around **five key security layers**:
 The system operates within a **segmented home/office lab environment** that emulates PCI DSS network separation.  
 All connections are routed through an encrypted and monitored VLAN.
 
-```
-[ISP Router]
-     │
-     ▼
-[GL.iNet MT6000 Router] ─► VLAN 2 (PCI Zone)
-     │
-     ├─ [Polycom VVX311 VoIP Phone] (Encrypted SIP/TLS)
-     └─ [Windows 11 Workstation] (PCI-DSS Hardened)
+```mermaid
+flowchart TB
+    ISP[ISP Router]
+
+    subgraph NETWORK[SEGMENTED NETWORK]
+        direction TB
+        ROUTER[GL.iNet MT6000]
+
+        subgraph PCI[VLAN 2 - PCI ZONE]
+            direction LR
+            VOIP[Polycom VVX311<br/>Encrypted SIP/TLS]
+            WS[Windows 11<br/>PCI-DSS Hardened]
+        end
+    end
+
+    ISP --> ROUTER
+    ROUTER --> PCI
+
+    style NETWORK fill:#f8fafc,stroke:#334155,stroke-width:2px
+    style PCI fill:#e0f2fe,stroke:#0284c7,stroke-width:2px
 ```
 
 Each VLAN enforces:
@@ -64,7 +76,7 @@ Each VLAN enforces:
 
 ## 🧠 Logical Architecture Diagram
 
-![Windows 11 PCI-DSS Hardening](../../assets/diagrams/pci-architecture-overview.png)
+![Windows 11 PCI-DSS Hardening](02%20-%20Areas/05.%20Cybersecurity/09.%20Online%20Portfolio/01.%20code_portfolio/portfolio/docs/assets/diagrams/pci-architecture-overview.png)
 *Figure: Logical PCI-DSS endpoint architecture — encryption, monitoring, and audit layers.*
 
 ---

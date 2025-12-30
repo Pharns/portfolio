@@ -72,7 +72,7 @@ flowchart TB
     VCISO -.-> EXP
 
     style PRE fill:#e8f4ea,stroke:#2e7d32,stroke-width:2px
-    style POST fill:#f3e8ff,stroke:#7c3aed,stroke-width:2px
+    style POST fill:#e0f2fe,stroke:#0284c7,stroke-width:2px
     style DG fill:#fff3e0,stroke:#ef6c00,stroke-width:3px
 ```
 
@@ -173,7 +173,7 @@ flowchart TB
     VCISO -.-> EXP
 
     style PRE fill:#e8f4ea,stroke:#2e7d32,stroke-width:2px
-    style POST fill:#f3e8ff,stroke:#7c3aed,stroke-width:2px
+    style POST fill:#e0f2fe,stroke:#0284c7,stroke-width:2px
     style DG fill:#fff3e0,stroke:#ef6c00,stroke-width:3px
 ```
 
