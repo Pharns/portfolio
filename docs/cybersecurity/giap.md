@@ -71,7 +71,7 @@ flowchart TB
     VCISO -.-> EXP
 
     style PRE fill:#e8f4ea,stroke:#2e7d32,stroke-width:2px
-    style POST fill:#e3f2fd,stroke:#1565c0,stroke-width:2px
+    style POST fill:#e8f4ea,stroke:#2e7d32,stroke-width:2px
     style DG fill:#fff3e0,stroke:#ef6c00,stroke-width:3px
 ```
 
@@ -171,7 +171,7 @@ flowchart TB
     DG --> CA2
 
     style PRE fill:#e8f4ea,stroke:#2e7d32,stroke-width:2px
-    style POST fill:#e3f2fd,stroke:#1565c0,stroke-width:2px
+    style POST fill:#e8f4ea,stroke:#2e7d32,stroke-width:2px
     style DG fill:#fff3e0,stroke:#ef6c00,stroke-width:3px
 ```
 
