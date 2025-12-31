@@ -68,9 +68,9 @@ Taught drone technology courses, demonstrating communication skills and subject 
 
 <div class="skills-grid" markdown>
 
-**GRC & Compliance:** Risk Assessment · Vendor Management · Security Architecture · Compliance Audit · Control Implementation · Evidence Collection · Policy Development · Third-Party Risk
+**GRC & Compliance:** Risk Assessment · Vendor Risk Management · Privacy Policy Analysis · Security Architecture · Compliance Audit · Control Implementation · Evidence Collection · Policy Development · Third-Party Risk · Compliance Exception Management
 
-**Frameworks:** NIST CSF · CIS Controls v8 · PCI-DSS v4.0 · SOC 2 · ISO 27001 · FedRAMP (foundational)
+**Frameworks:** NIST CSF · CIS Controls v8 · PCI-DSS v4.0 · SOC 2 · ISO 27001 · FedRAMP (foundational) · IoT/PropTech Privacy
 
 **Cloud Security:** AWS (IAM, GuardDuty, CloudTrail, S3) · Cloud Governance · Secure Defaults · Logging Pipelines
 

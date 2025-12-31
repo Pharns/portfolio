@@ -218,6 +218,24 @@ Nessus, vulnerability databases, CVSS scoring, patch automation, risk matrices
 
 ---
 
+### 🔍 Vendor & Third-Party Risk Management
+
+**What I deliver:**
+- Vendor security assessment and due diligence
+- Privacy policy analysis and data sharing evaluation
+- Control gap identification (vendor capabilities vs compliance requirements)
+- Third-party risk documentation and risk memos
+- Compliance exception requests with technical justification
+- Evidence preservation and audit trail maintenance
+
+**Tools & frameworks:**
+Privacy policy review, vendor questionnaires, control mapping, NIST/CIS/SOC2 alignment, IoT/PropTech security evaluation
+
+**Approach:**
+Translate compliance requirements into concrete vendor control criteria. Document gaps between vendor architecture and required controls. Maintain defensible evidence trails for governance decisions.
+
+---
+
 ### 🚨 Incident Response & Detection
 
 **What I deliver:**
