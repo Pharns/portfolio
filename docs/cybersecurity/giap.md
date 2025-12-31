@@ -82,7 +82,7 @@ flowchart TB
 |----------|-------|------|--------|
 | **GIAC UI (React)** | Both | Client portal, intake forms | ✅ Deployed |
 | **n8n** | Both | Workflow orchestration, notifications | ✅ Running |
-| **CISO Assistant** | Both | Full GRC platform — assessments, risk, controls, 100+ frameworks | ⬜ Deploy next |
+| **CISO Assistant** | Both | Full GRC platform — assessments, risk, controls, 100+ frameworks | ✅ Deployed |
 | **Nextcloud** | Both | Evidence vault, document storage, WebDAV | ✅ Running |
 | **SuiteCRM** | Both | Client records, engagement tracking | ✅ Running |
 | **DocuSeal** | Pre-Engagement | Legal documents (engagement letter, DPA, BAA) | ⬜ Configure |
@@ -258,7 +258,7 @@ Ready to create intake in SuiteCRM?
 |-------|------------|---------|--------|
 | **Frontend** | React + Vite | Client portal, intake forms | ✅ Deployed |
 | **Orchestration** | n8n | Workflow automation, notifications | ✅ Running |
-| **GRC Platform** | CISO Assistant | Assessments, risk, controls, 100+ frameworks | ⬜ Deploy next |
+| **GRC Platform** | CISO Assistant | Assessments, risk, controls, 100+ frameworks | ✅ Deployed |
 | **Files** | Nextcloud | Evidence vault, document storage | ✅ Running |
 | **CRM** | SuiteCRM | Client records, intake tracking | ✅ Running |
 | **Signatures** | DocuSeal (self-hosted) | Engagement letters, DPAs, BAAs, NDAs | ⬜ Configure |
@@ -396,7 +396,7 @@ GIAP™ supports 90-day recurring assessment cycles for vCISO engagements:
 | n8n Orchestration | ✅ Running | Workflow automation ready |
 | Nextcloud | ✅ Running | Evidence vault operational |
 | SuiteCRM | ✅ Running | CRM operational |
-| CISO Assistant | ⬜ Deploy next | Primary GRC platform |
+| CISO Assistant | ✅ Deployed | Primary GRC platform |
 | DocuSeal | ⬜ Configure | E-signature automation |
 | POAMAgent | ⬜ Future | Custom POA&M generation |
 | n8n Workflows | ⬜ Build | Intake → CRM → CISO Assistant flows |
