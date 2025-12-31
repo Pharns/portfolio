@@ -32,16 +32,20 @@ Security consulting practice focused on compliance automation and GRC engineerin
 
 Built GIAP™ governance automation platform (CISO Assistant + n8n + Nextcloud) for scalable client delivery.
 
-### USOG — CEO
+### USOG — CEO & Systems Administrator
 *2018 – 2025 · Drone Logistics & Operations (Winding Down)*
 
-Led $5.6M revenue drone logistics company with 18 employees through full lifecycle:
+Led $5.6M revenue drone logistics company with 18 employees. As a startup, served as both executive and hands-on sysadmin — built the entire IT security infrastructure from a single email address to production-grade systems:
 
-- Managed security vulnerability remediation across infrastructure (15,000+ issues resolved)
-- Implemented dark web monitoring and threat intelligence
-- Deployed self-hosted infrastructure (Nextcloud, M365, secure remote access)
-- Developed operational security protocols for drone operations
-- Currently winding down operations; transitioning fully to cybersecurity
+- **Built enterprise infrastructure from scratch** — Self-hosted email, file storage (Nextcloud), remote access, backup systems, and security monitoring
+- **Implemented CIS Controls v8 (IG1-IG2)** — Mapped security baseline to NIST CSF and SOC 2 trust criteria
+- **Managed vulnerability remediation** — 15,000+ issues identified and resolved across infrastructure
+- **Deployed security stack** — Dark web monitoring, threat intelligence feeds, endpoint protection, access controls
+- **Maintained compliance posture** — Documentation, evidence collection, and audit-ready configurations
+
+This wasn't delegated — I architected, deployed, hardened, and maintained every system. Real-world GRC implementation at scale.
+
+*Currently winding down operations; transitioning fully to cybersecurity.*
 
 ### United States Air Force — Aeromedical Evacuation Technician
 *1990 – 2007 · 18 Years Active Duty*
