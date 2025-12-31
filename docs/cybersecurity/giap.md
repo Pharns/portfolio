@@ -322,6 +322,57 @@ GIAP™ supports HIPAA Security Rule and Privacy Rule compliance for healthcare 
 | §164.308(a) Security Management | Risk analysis, sanctions, review | CISO Assistant Risk |
 | §164.310 Physical Safeguards | Facility access, workstation security | Policy documentation |
 
+### PropTech/IoT Compliance (Emerging Use Case)
+
+GIAP™ extends to **PropTech and IoT vendor compliance** — an emerging challenge for regulated workspaces operating in smart buildings or residential environments:
+
+| Challenge | GIAP™ Solution |
+|-----------|----------------|
+| IoT vendor deploys cloud-managed devices (locks, sensors, thermostats) | Vendor intake workflow captures architecture and capabilities |
+| Regulated workspace needs specific controls (admin access, audit logs, telemetry limits) | Control requirements mapped to NIST/CIS/SOC2 criteria |
+| Vendor architecture may not support required controls | Gap analysis documents vendor limitations vs compliance requirements |
+| Need defensible decision trail | Evidence pipeline captures vendor docs, policies, communication timeline |
+| Exception or accommodation needed | Compliance exception workflow with technical justification |
+
+**PropTech Compliance Workflow:**
+
+```mermaid
+flowchart LR
+    subgraph INTAKE[VENDOR INTAKE]
+        VI[Vendor Info]
+        PP[Privacy Policy]
+        TC[Technical Capabilities]
+    end
+
+    subgraph ANALYSIS[GAP ANALYSIS]
+        CR[Control Requirements]
+        GA[Gap Assessment]
+        RS[Risk Score]
+    end
+
+    subgraph OUTPUT[DECISION]
+        RM[Risk Memo]
+        ER[Exception Request]
+        ET[Evidence Trail]
+    end
+
+    VI --> CR
+    PP --> GA
+    TC --> GA
+    CR --> GA
+    GA --> RS
+    RS --> RM
+    RS --> ER
+    RM --> ET
+    ER --> ET
+
+    style INTAKE fill:#e8f4ea,stroke:#2e7d32
+    style ANALYSIS fill:#fff3e0,stroke:#ef6c00
+    style OUTPUT fill:#e0f2fe,stroke:#0284c7
+```
+
+**Why this matters:** Remote work and regulated home offices are increasing. Smart building technology creates compliance conflicts that traditional GRC tools don't address. GIAP™ provides a structured approach to vendor risk assessment for IoT deployments.
+
 ### AAM Unified Controls
 
 Proprietary control framework that normalizes intake responses and maps to all supported frameworks:
