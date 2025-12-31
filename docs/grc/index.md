@@ -8,6 +8,35 @@ I build audit-ready control frameworks, evidence pipelines, and compliance autom
 
 ---
 
+## Production experience
+
+<div class="section-panel" markdown>
+
+### USOG — Enterprise Security Infrastructure (7 Years)
+
+As CEO and Systems Administrator of a $5.6M drone logistics company (18 employees), I built the entire IT security infrastructure from scratch — not inherited, not delegated:
+
+| What I Built | Framework Alignment |
+|--------------|---------------------|
+| Self-hosted email, calendar, contacts | CIS v8: 4.1, 4.2 (Email Security) |
+| Nextcloud file storage with encryption | CIS v8: 3.1-3.14 (Data Protection) |
+| Remote access (VPN, secure RDP) | CIS v8: 12.1-12.8 (Network Security) |
+| Endpoint protection and EDR | CIS v8: 10.1-10.7 (Malware Defenses) |
+| Backup systems with offsite replication | CIS v8: 11.1-11.5 (Data Recovery) |
+| Security monitoring and alerting | CIS v8: 8.1-8.12 (Audit Logging) |
+| Vulnerability scanning and remediation | CIS v8: 7.1-7.7 (Vuln Management) |
+| Access controls and MFA | CIS v8: 5.1-5.6, 6.1-6.8 (Access Control) |
+
+**Framework implementation:** CIS Controls v8 (IG1-IG2) mapped to NIST CSF and SOC 2 trust criteria.
+
+**Scale:** 15,000+ vulnerabilities identified and remediated over 7 years of continuous operation.
+
+**This wasn't a lab project** — it was production infrastructure supporting 18 employees and $5.6M in business operations.
+
+</div>
+
+---
+
 ## Client engagements
 
 <div class="stat-grid" markdown>
@@ -25,18 +54,18 @@ PCI-DSS Windows 11 endpoint hardening. 47 controls mapped to CIS benchmarks, com
 
 <div class="stat-tile" markdown>
 **Law Firm Security Assessment**
-Comprehensive vulnerability assessment and remediation across infrastructure. 15,000+ issues identified, prioritized by risk, and systematically resolved. Dark web monitoring and M365 hardening included.
+Comprehensive vulnerability assessment and remediation across infrastructure. Dark web monitoring, M365 hardening, endpoint protection deployment.
 <span class="tag-chip">Assessment</span> <span class="tag-chip">Remediation</span> <span class="tag-chip">M365</span>
 </div>
 
 <div class="stat-tile" markdown>
 **SMB Mortgage Company**
-Windows 11 baseline hardening for compliance-sensitive environment. BitLocker enforcement, Defender configuration, patch automation, and audit logging. Documented for regulatory review.
+Windows 11 baseline hardening for compliance-sensitive environment. BitLocker enforcement, Defender configuration, patch automation, and audit logging.
 <span class="tag-chip">Compliance</span> <span class="tag-chip">Hardening</span> <span class="tag-chip">Financial</span>
 </div>
 </div>
 
-<small>*Engagements via AAM Cyber, LLC. Client details anonymized for confidentiality. References available upon request.*</small>
+<small>*Client engagements via AAM Cyber, LLC. References available upon request.*</small>
 
 ---
 

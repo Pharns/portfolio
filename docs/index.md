@@ -16,29 +16,35 @@ USAF Veteran (service-disabled) · Security Clearance Eligible · Security+/SSCP
 
 ---
 
-## Proven delivery
+## Production experience
 
 <div class="stat-grid" markdown>
 <div class="stat-tile" markdown>
+**USOG — Enterprise Infrastructure (7 Years)**
+Built entire IT security stack from scratch for $5.6M drone logistics company. Implemented **CIS Controls v8 (IG1-IG2)** mapped to NIST CSF and SOC 2. Self-hosted email, Nextcloud, remote access, security monitoring. 15,000+ vulnerabilities remediated.
+<span class="tag-chip">CIS v8</span> <span class="tag-chip">NIST</span> <span class="tag-chip">Production</span>
+</div>
+
+<div class="stat-tile" markdown>
 **Healthcare MSP**
-HIPAA + SOC 2 readiness assessment. Identified 12 control gaps, delivered prioritized remediation roadmap.
-<span class="tag-chip">GRC</span> <span class="tag-chip">Healthcare</span>
+HIPAA + SOC 2 readiness assessment. Identified 12 control gaps, delivered prioritized remediation roadmap with 90-day implementation timeline.
+<span class="tag-chip">HIPAA</span> <span class="tag-chip">SOC 2</span> <span class="tag-chip">Healthcare</span>
 </div>
 
 <div class="stat-tile" markdown>
 **Financial Services SMB**
-PCI-DSS Windows 11 endpoint hardening. 47 controls mapped, audit-ready evidence pack delivered in <48 hours.
-<span class="tag-chip">PCI-DSS</span> <span class="tag-chip">Compliance</span>
+PCI-DSS Windows 11 endpoint hardening. 47 controls mapped to CIS benchmarks, audit-ready evidence pack delivered in <48 hours.
+<span class="tag-chip">PCI-DSS</span> <span class="tag-chip">CIS</span> <span class="tag-chip">Endpoint</span>
 </div>
 
 <div class="stat-tile" markdown>
 **Law Firm Security**
-Comprehensive security assessment and vulnerability remediation. 15,000+ issues identified and resolved across infrastructure.
-<span class="tag-chip">Assessment</span> <span class="tag-chip">Remediation</span>
+Comprehensive security assessment and vulnerability remediation. M365 hardening, dark web monitoring, endpoint protection deployment.
+<span class="tag-chip">Assessment</span> <span class="tag-chip">M365</span> <span class="tag-chip">Remediation</span>
 </div>
 </div>
 
-<small>*Client engagements via AAM Cyber, LLC. Details anonymized for confidentiality.*</small>
+<small>*USOG: Internal infrastructure I built and maintained as CEO/Sysadmin. Client engagements via AAM Cyber, LLC.*</small>
 
 !!! tip "Aerospace & Defense Recruiters"
     **Looking for AAM/drone cybersecurity expertise?** I've designed, built, and fielded operational UAV systems — not just studied them. USPTO patents in UAV payload systems, FAA Part 107 certified, with RF/SDR security research (TraceLock™). [View AAM credentials →](#aam-cybersecurity-specialization)
@@ -160,20 +166,20 @@ Security Onion + TheHive/Cortex. Custom SIEM rules, alert tuning, IR playbooks.
 
 <div class="stat-grid" markdown>
 <div class="stat-tile" markdown>
-**<48 hours**
-PCI-DSS endpoint hardening with complete evidence pack — client delivery
+**7 years**
+Production infrastructure security — built enterprise stack from scratch
 </div>
 <div class="stat-tile" markdown>
-**47+ controls**
-Mapped and documented with audit-ready evidence artifacts
+**CIS v8 IG1-IG2**
+Framework implementation mapped to NIST CSF and SOC 2
 </div>
 <div class="stat-tile" markdown>
 **15,000+ issues**
-Identified and remediated across client infrastructure assessments
+Vulnerabilities identified and remediated across production systems
 </div>
 <div class="stat-tile" markdown>
-**100+ frameworks**
-CISO Assistant coverage: SOC 2, NIST CSF, CIS, HIPAA, PCI-DSS, ISO 27001
+**<48 hours**
+PCI-DSS endpoint hardening with audit-ready evidence pack
 </div>
 <div class="stat-tile" markdown>
 **10+ certifications**
@@ -181,7 +187,7 @@ Security+, Network+, SSCP (Assoc.), ITIL4, ISC² CC, and more
 </div>
 <div class="stat-tile" markdown>
 **18 years USAF**
-Mission-critical operations experience, security clearance eligible
+Mission-critical operations, security clearance eligible
 </div>
 </div>
 
