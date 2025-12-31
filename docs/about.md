@@ -9,7 +9,7 @@ GRC engineer, cloud security practitioner, and AAM cybersecurity specialist. I b
 Evidence-first methodology (controls, logs, screenshots), plain-English reporting, AI-assisted with human review, rapid iterations and clear handoffs.
 
 **Credentials:** WGU B.S. Cybersecurity (Dec 2025) · Security+/Net+/A+ · ITIL4 · ISC² CC/SSCP (Assoc.) · LPI · FAA Part 107 · HAM/GMRS
-**Scheduled:** CySA+/PenTest+ (Dec 2025) · AWS CP/CCSP (Q1 2026)
+**Scheduled:** CySA+/PenTest+ (Jan 2026) · AWS CP/CCSP (Q1 2026)
 
 - Service-disabled veteran (USAF) — security clearance eligible
 - Patent holder in UAV systems — [View patents](https://patents.google.com/?inventor=Pharns+Genece)
@@ -117,7 +117,7 @@ Taught drone technology courses, demonstrating communication skills and subject 
 
 **Growth trajectory:**
 
-- Penetration Testing · Offensive Security (active lab, CySA+/PenTest+ Dec 2025)
+- Penetration Testing · Offensive Security (active lab, CySA+/PenTest+ Jan 2026)
 
 Remote-first; open to international collaboration (US/EU/LatAm time zones) and relocation for the right opportunity.
 

@@ -290,7 +290,7 @@ Traditional GRC work is documentation-heavy: control matrices, policy drafting, 
 - Detection Engineering (compliance-adjacent)
 
 **Future expansion:**
-- Penetration Testing (active lab, CySA+/PenTest+ Dec 2025)
+- Penetration Testing (active lab, CySA+/PenTest+ Jan 2026)
 - Offensive security with compliance lens (purple team)
 
 ---

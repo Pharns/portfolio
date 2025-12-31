@@ -193,7 +193,7 @@ Mission-critical operations experience, security clearance eligible
 
 **Current capability:** Active detection/IR lab with Security Onion, TheHive/Cortex, custom SIEM rules, and authored detections. TraceLock™ RF/SDR telemetry demonstrates detection engineering fundamentals across 6 wireless domains.
 
-**Growth trajectory:** CySA+ and PenTest+ scheduled December 2025. Building penetration testing portfolio through lab work and vulnerability assessments.
+**Growth trajectory:** CySA+ and PenTest+ scheduled January 2026. Building penetration testing portfolio through lab work and vulnerability assessments.
 
 **Why this matters:** GRC engineers who understand offensive techniques write better controls. Detection experience informs what to log and monitor.
 
@@ -214,7 +214,7 @@ B.S. Cybersecurity & Information Assurance (WGU) — Dec 2025
 Security+, Network+, A+, ITIL4, ISC² CC, SSCP (Assoc.), LPI, Project+, CSIS, CIOS
 </div>
 <div class="stat-tile" markdown>
-**Scheduled Dec 2025**
+**Scheduled Jan 2026**
 CySA+, PenTest+
 </div>
 <div class="stat-tile" markdown>
