@@ -116,7 +116,6 @@ nav:
     - Verification & Evidence: cybersecurity/pci-dss/verification.md
     - Lessons Learned: cybersecurity/pci-dss/lessons-learned.md
   - GIAP™ — Governance Automation: cybersecurity/giap.md
-  - PropTech Compliance (Article): cybersecurity/proptech-compliance-article.md
   - Secure Intake Portal: cybersecurity/intake-portal.md
   - Baseline Evidence Drop: cybersecurity/baseline-evidence-drop.md
   - Detection & IR Lab: cybersecurity/incident-response.md
