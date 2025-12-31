@@ -44,21 +44,35 @@ Code samples and project repos
 
 - GRC Engineer (technical implementation focus)
 - Cloud Security Engineer (GRC/compliance focus)
+- Detection Engineer
 - Security Controls Implementation Specialist
-- Detection Engineering
 - AAM/UAV Security · Cyber-Physical Systems
 
-**Work preferences:**
+---
+
+## Work details
+
+| Category | Details |
+|----------|---------|
+| **Citizenship** | US Citizen |
+| **Clearance** | Service-disabled veteran, eligible for federal security clearance |
+| **Availability** | Immediate / 2-week notice |
+| **Work Style** | Remote-first preferred; open to hybrid for the right role |
+| **Time Zones** | US/EU/LatAm compatible |
+| **Travel** | Open to occasional travel; relocation considered for right opportunity |
+| **Engagement** | Full-time W-2 preferred; open to contract or consulting |
+| **Target Compensation** | $120K–$150K base (negotiable based on role scope and total package) |
+
+---
+
+## Work preferences
 
 - Remote-first preferred; comfortable with US/EU/LatAm time zones
 - **Open to relocation** for the right opportunity
 - Open to contract or full-time
 - Available for consulting engagements
 - **International roles welcome** — experienced collaborating across time zones
-
-**Availability:** Immediate / 2-week notice
-
-**Compensation:** Negotiable based on role scope, responsibilities, and total package. Happy to discuss.
+- **Defense/Federal** — Veteran preference eligible, clearance-ready
 
 ---
 

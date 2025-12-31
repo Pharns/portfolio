@@ -1,18 +1,44 @@
 ---
-description: "GRC Engineer portfolio — audit-ready control frameworks, evidence pipelines, cloud security automation, and AAM cybersecurity. AI-augmented delivery at 10× capacity."
+description: "GRC Engineer portfolio — audit-ready control frameworks, evidence pipelines, cloud security automation, and AAM cybersecurity. Full-stack compliance: policy through implementation."
 ---
 
 # Pharns Genece
 
-**GRC Engineer · Cloud Security · Advanced Air Mobility (AAM) Cybersecurity**
+**GRC Engineer · Cloud Security · Detection Engineering**
 
-I build audit-ready control frameworks, evidence pipelines, and compliance automation — then implement the technical controls, not just document them. Rare hybrid: GRC discipline meets RF/aviation security and cyber-physical systems expertise. AI-augmented delivery at 10× capacity.
+I design, implement, and document security controls end-to-end. Not just policies and spreadsheets — the actual technical systems that satisfy auditors. Full-stack GRC: from framework mapping to cloud governance to endpoint hardening, with evidence-ready deliverables.
 
-**Targeting:** GRC Engineer · Cloud Security Engineer · AAM/UAV Security · Detection Engineering · Cyber-Physical Systems
+**Targeting:** GRC Engineer · Cloud Security Engineer · Detection Engineering · Security Automation
 
-USAF Veteran (service-disabled) · USPTO Patent Holder · Security+ · B.S. Cybersecurity (Dec 2025)
+USAF Veteran (service-disabled) · Security Clearance Eligible · Security+/SSCP · B.S. Cybersecurity (Dec 2025)
 
 [View GRC Projects](grc/index.md){ .btn-primary } [Contact](contact.md){ .btn-ghost }
+
+---
+
+## Proven delivery
+
+<div class="stat-grid" markdown>
+<div class="stat-tile" markdown>
+**Healthcare MSP**
+HIPAA + SOC 2 readiness assessment. Identified 12 control gaps, delivered prioritized remediation roadmap.
+<span class="tag-chip">GRC</span> <span class="tag-chip">Healthcare</span>
+</div>
+
+<div class="stat-tile" markdown>
+**Financial Services SMB**
+PCI-DSS Windows 11 endpoint hardening. 47 controls mapped, audit-ready evidence pack delivered in <48 hours.
+<span class="tag-chip">PCI-DSS</span> <span class="tag-chip">Compliance</span>
+</div>
+
+<div class="stat-tile" markdown>
+**Law Firm Security**
+Comprehensive security assessment and vulnerability remediation. 15,000+ issues identified and resolved across infrastructure.
+<span class="tag-chip">Assessment</span> <span class="tag-chip">Remediation</span>
+</div>
+</div>
+
+<small>*Client engagements via AAM Cyber, LLC. Details anonymized for confidentiality.*</small>
 
 !!! tip "Aerospace & Defense Recruiters"
     **Looking for AAM/drone cybersecurity expertise?** I've designed, built, and fielded operational UAV systems — not just studied them. USPTO patents in UAV payload systems, FAA Part 107 certified, with RF/SDR security research (TraceLock™). [View AAM credentials →](#aam-cybersecurity-specialization)
@@ -64,19 +90,19 @@ USAF Veteran (service-disabled) · USPTO Patent Holder · Security+ · B.S. Cybe
 
 Most GRC professionals write policies and manage spreadsheets. I architect and build the technical systems that satisfy those controls:
 
-- **Endpoint compliance** — Delivered PCI-DSS Windows 11 hardening (BitLocker, GPO, firewall rules, patch automation, EDR) with complete evidence pack in <48 hours. Know how to actually secure endpoints, not just check boxes.
+- **Endpoint compliance** — Delivered PCI-DSS Windows 11 hardening (BitLocker, GPO, firewall rules, patch automation, EDR) with complete evidence pack in <48 hours for financial services client.
 
-- **Evidence pipelines** — Built TraceLock™ RF/SDR telemetry system with audit-grade logging, structured schemas, and evidence export workflows. Same skills used for cloud logs, access controls, and compliance data.
+- **Compliance automation** — Deployed GIAP™ intake platform: CISO Assistant + n8n + Nextcloud + SuiteCRM on self-hosted Proxmox. RBAC, retention policies, consent management, and 100+ framework coverage.
 
-- **AI-augmented delivery** — Built [AgenticOS](innovation/agenticos.md), a deterministic AI orchestration layer with audit-grade logging. Use multi-agent LLM workflows to draft policies, map controls, and generate documentation at 10× speed with human review. Deliver in hours what takes others weeks.
-
-- **Compliance automation** — Deployed GIAP™ intake platform infrastructure: Nextcloud + n8n + SuiteCRM on self-hosted Proxmox VMs. RBAC, retention policies, consent management, and workflow automation in progress.
+- **Evidence pipelines** — Built audit-grade logging systems with structured schemas and evidence export workflows. Applied across cloud logs, access controls, and compliance data collection.
 
 - **Detection & response** — Operate active Security Onion + TheHive/Cortex lab. Author SIEM rules, tune false positives, write IR playbooks. Understand security operations, not just governance.
 
-- **Cloud governance** — Designing AWS Control Pack with S3 default-deny, GuardDuty export pipelines, scoped IAM roles, and CIS/NIST mapping. Implementation scheduled Q1 2026.
+- **Cloud governance** — Designing AWS Control Pack with S3 default-deny, GuardDuty export pipelines, scoped IAM roles, and CIS/NIST mapping.
 
-**Bottom line:** Hire me if you need someone who can design a control framework, implement the technical architecture, document everything with evidence, and hand auditors a clean package — all while working at AI-augmented velocity.
+- **AI-assisted workflows** — Use LLM tools for policy drafting, control mapping, and documentation generation with human review. Faster delivery without sacrificing rigor.
+
+**Bottom line:** Hire me if you need someone who can design a control framework, implement the technical architecture, document everything with evidence, and hand auditors a clean package.
 
 </div>
 
@@ -87,42 +113,44 @@ Most GRC professionals write policies and manage spreadsheets. I architect and b
 <div class="stat-grid" markdown>
 <div class="stat-tile" markdown>
 **PCI-DSS Windows 11 Hardening**
-Complete endpoint hardening with GPO, firewall rules, service lockdown, and evidence pack.
-<span class="tag-chip">Compliance</span> <span class="tag-chip">Hardening</span> <span class="tag-chip">Audit</span>
+Complete endpoint hardening with GPO, firewall rules, service lockdown, and evidence pack. Delivered for financial services client in <48 hours.
+<span class="tag-chip">Compliance</span> <span class="tag-chip">Hardening</span> <span class="tag-chip">Client Work</span>
 [View Case Study](cybersecurity/pci-dss/index.md)
-<small>What it demonstrates: rapid compliance builds with complete control evidence.</small>
 </div>
 
 <div class="stat-tile" markdown>
-**TraceLock™ — RF/SDR Security** *(Patent Pending)*
-Evidence-grade wireless surveillance detection system with SDR/ADS-B/Bluetooth pipelines.
-<span class="tag-chip">RF</span> <span class="tag-chip">Detection</span> <span class="tag-chip">Evidence</span>
-[View Project](cybersecurity/tracelock.md)
-<small>Why it matters for GRC: demonstrates logging architecture, evidence collection, and control implementation at systems level.</small>
-</div>
-
-<div class="stat-tile" markdown>
-**AgenticOS — AI Governance Layer**
-Deterministic AI orchestration with 72 health checks, 4 providers, and audit-grade logging.
-<span class="tag-chip">AI</span> <span class="tag-chip">Automation</span> <span class="tag-chip">Governance</span>
-[View Project](innovation/agenticos.md)
-<small>What it demonstrates: I build the AI tooling, not just use it — 6,361 lines of auditable automation.</small>
-</div>
-
-<div class="stat-tile" markdown>
-**GIAP™ — Governance Automation** *(Infrastructure Live)*
-Self-hosted Nextcloud + n8n + SuiteCRM on Proxmox VMs. Workflow integration in progress.
-<span class="tag-chip">GRC</span> <span class="tag-chip">Automation</span> <span class="tag-chip">Self-Hosted</span>
+**GIAP™ — GRC Automation Platform**
+CISO Assistant + n8n + Nextcloud + SuiteCRM. 100+ frameworks, automated intake workflows, evidence pipelines.
+<span class="tag-chip">GRC</span> <span class="tag-chip">Automation</span> <span class="tag-chip">Deployed</span>
 [View Case Study](cybersecurity/giap.md)
-<small>What it demonstrates: structured evidence collection with audit trails and NIST alignment.</small>
 </div>
 
 <div class="stat-tile" markdown>
-**AWS Cloud Control Pack** *(In Progress)*
+**AWS Cloud Control Pack**
 S3 default-deny storage, GuardDuty findings export, scoped IAM with CIS/NIST mapping.
-<span class="tag-chip">Cloud/GRC</span> <span class="tag-chip">Controls</span> <span class="tag-chip">Q1 2026</span>
+<span class="tag-chip">Cloud</span> <span class="tag-chip">Controls</span> <span class="tag-chip">Architecture</span>
 [View Case Study](cybersecurity/aws-control-pack.md)
-<small>What it demonstrates: cloud guardrails, evidence pipeline, and compliance mapping.</small>
+</div>
+
+<div class="stat-tile" markdown>
+**TraceLock™ — Detection Engineering**
+Evidence-grade wireless monitoring with 6-domain correlation. Demonstrates logging architecture and detection rule authoring.
+<span class="tag-chip">Detection</span> <span class="tag-chip">Evidence</span> <span class="tag-chip">Python</span>
+[View Project](cybersecurity/tracelock.md)
+</div>
+
+<div class="stat-tile" markdown>
+**Secure Intake Portal**
+Nextcloud + n8n + SuiteCRM with RBAC, audit trails, and consent management. Multi-tier access controls.
+<span class="tag-chip">Infrastructure</span> <span class="tag-chip">RBAC</span> <span class="tag-chip">Deployed</span>
+[View Case Study](cybersecurity/intake-portal.md)
+</div>
+
+<div class="stat-tile" markdown>
+**Detection & IR Lab**
+Security Onion + TheHive/Cortex. Custom SIEM rules, alert tuning, IR playbooks.
+<span class="tag-chip">SIEM</span> <span class="tag-chip">Detection</span> <span class="tag-chip">IR</span>
+[View Project](cybersecurity/incident-response.md)
 </div>
 </div>
 
@@ -133,27 +161,27 @@ S3 default-deny storage, GuardDuty findings export, scoped IAM with CIS/NIST map
 <div class="stat-grid" markdown>
 <div class="stat-tile" markdown>
 **<48 hours**
-PCI-DSS endpoint hardening with complete evidence pack delivered
+PCI-DSS endpoint hardening with complete evidence pack — client delivery
 </div>
 <div class="stat-tile" markdown>
 **47+ controls**
 Mapped and documented with audit-ready evidence artifacts
 </div>
 <div class="stat-tile" markdown>
-**6,361 LOC**
-AgenticOS orchestration layer — auditable, production-grade automation
+**15,000+ issues**
+Identified and remediated across client infrastructure assessments
 </div>
 <div class="stat-tile" markdown>
-**6 wireless domains**
-TraceLock™ RF detection: Wi-Fi, BLE, SDR, GPS, ADS-B, Sub-GHz
+**100+ frameworks**
+CISO Assistant coverage: SOC 2, NIST CSF, CIS, HIPAA, PCI-DSS, ISO 27001
 </div>
 <div class="stat-tile" markdown>
 **10+ certifications**
 Security+, Network+, SSCP (Assoc.), ITIL4, ISC² CC, and more
 </div>
 <div class="stat-tile" markdown>
-**2 USPTO patents**
-Granted patents in UAV payload and delivery systems
+**18 years USAF**
+Mission-critical operations experience, security clearance eligible
 </div>
 </div>
 

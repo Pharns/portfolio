@@ -8,6 +8,38 @@ I build audit-ready control frameworks, evidence pipelines, and compliance autom
 
 ---
 
+## Client engagements
+
+<div class="stat-grid" markdown>
+<div class="stat-tile" markdown>
+**Healthcare MSP (25 employees)**
+HIPAA + SOC 2 readiness assessment. Identified 12 control gaps across access management, logging, and data protection. Delivered prioritized remediation roadmap with 90-day implementation timeline.
+<span class="tag-chip">HIPAA</span> <span class="tag-chip">SOC 2</span> <span class="tag-chip">Healthcare</span>
+</div>
+
+<div class="stat-tile" markdown>
+**Financial Services SMB**
+PCI-DSS Windows 11 endpoint hardening. 47 controls mapped to CIS benchmarks, complete evidence pack with screenshots, GPO exports, and configuration validation. Delivered in <48 hours.
+<span class="tag-chip">PCI-DSS</span> <span class="tag-chip">CIS</span> <span class="tag-chip">Endpoint</span>
+</div>
+
+<div class="stat-tile" markdown>
+**Law Firm Security Assessment**
+Comprehensive vulnerability assessment and remediation across infrastructure. 15,000+ issues identified, prioritized by risk, and systematically resolved. Dark web monitoring and M365 hardening included.
+<span class="tag-chip">Assessment</span> <span class="tag-chip">Remediation</span> <span class="tag-chip">M365</span>
+</div>
+
+<div class="stat-tile" markdown>
+**SMB Mortgage Company**
+Windows 11 baseline hardening for compliance-sensitive environment. BitLocker enforcement, Defender configuration, patch automation, and audit logging. Documented for regulatory review.
+<span class="tag-chip">Compliance</span> <span class="tag-chip">Hardening</span> <span class="tag-chip">Financial</span>
+</div>
+</div>
+
+<small>*Engagements via AAM Cyber, LLC. Client details anonymized for confidentiality. References available upon request.*</small>
+
+---
+
 ## What makes full-stack GRC engineering different
 
 **Traditional GRC:**
@@ -212,16 +244,16 @@ Every project includes comprehensive documentation designed for auditors, not ju
 
 ---
 
-## AI-augmented GRC delivery
+## AI-assisted GRC delivery
 
-Traditional GRC work is documentation-heavy: control matrices, policy drafting, evidence collection, runbooks. I use multi-agent LLM workflows to:
+Traditional GRC work is documentation-heavy: control matrices, policy drafting, evidence collection, runbooks. I use LLM tools to accelerate without sacrificing quality:
 
-- **Draft policies and control mapping** — 5-10× faster with human review and technical validation
-- **Generate evidence documentation** — Automatically from logs, screenshots, and configuration exports
+- **Draft policies and control mapping** — Faster first drafts with thorough human review and technical validation
+- **Generate evidence documentation** — Structured outputs from logs, screenshots, and configuration exports
 - **Produce audit-ready runbooks** — Consistent formatting, complete procedures, tested steps
 - **Maintain living documentation** — Version-controlled, evolves with infrastructure changes
 
-**Result:** Same rigor and quality as traditional approaches, delivered in hours instead of weeks. More time for high-value work: architecture, implementation, and validation.
+**Result:** Same rigor and quality as traditional approaches, with faster turnaround. More time for high-value work: architecture, implementation, and validation.
 
 ---
 
@@ -248,7 +280,7 @@ Traditional GRC work is documentation-heavy: control matrices, policy drafting, 
 - **Technical accuracy** — Controls aren't theoretical; they're implemented and validated
 - **Audit readiness** — Evidence is collected during implementation, not retroactively
 - **Cost efficiency** — One person covering policy, implementation, and documentation
-- **AI velocity** — 10× capacity on documentation-heavy work with quality review loops
+- **Proven client work** — Healthcare, financial services, and legal sector engagements delivered
 
 **Ideal roles:**
 - GRC Engineer (technical implementation focus)

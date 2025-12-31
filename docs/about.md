@@ -6,19 +6,56 @@ description: "Pharns Genece — GRC engineer, cloud security, and AAM cybersecur
 
 GRC engineer, cloud security practitioner, and AAM cybersecurity specialist. I build and secure systems end-to-end: cloud governance frameworks, compliance automation, endpoint hardening, detection tuning, and evidence-ready workflows.
 
-Rare hybrid: GRC discipline meets RF/aviation security and cyber-physical systems expertise. Production hardening experience, wireless/RF security research, USPTO patent holder. Service-disabled veteran (USAF) and FAA Part 107 certified.
-
 Evidence-first methodology (controls, logs, screenshots), plain-English reporting, AI-assisted with human review, rapid iterations and clear handoffs.
 
 **Credentials:** WGU B.S. Cybersecurity (Dec 2025) · Security+/Net+/A+ · ITIL4 · ISC² CC/SSCP (Assoc.) · LPI · FAA Part 107 · HAM/GMRS
-**Scheduled:** CySA+/PenTest+ (Dec 2025) · AWS CP (Q1 2026)
+**Scheduled:** CySA+/PenTest+ (Dec 2025) · AWS CP/CCSP (Q1 2026)
 
 - Service-disabled veteran (USAF) — security clearance eligible
 - Patent holder in UAV systems — [View patents](https://patents.google.com/?inventor=Pharns+Genece)
 - Active GitHub with public repos — [View code](https://github.com/Pharns)
 - Credly-verified certifications — [View badges](https://www.credly.com/users/pharns)
 
-Led AAM Cyber and USOG client work; built governance and safety controls. Disciplined execution shaped by high-stakes USAF aeromedical operations.
+---
+
+## Professional experience
+
+### AAM Cyber, LLC — Founder/Operator
+*2023 – Present · GRC Consulting*
+
+Security consulting practice focused on compliance automation and GRC engineering for SMBs:
+
+- **Healthcare MSP** — HIPAA + SOC 2 readiness assessment, 12 control gaps identified, 90-day remediation roadmap
+- **Financial Services** — PCI-DSS Windows 11 endpoint hardening, 47 controls mapped, <48-hour delivery
+- **Law Firm** — Comprehensive security assessment, 15,000+ vulnerabilities remediated, M365 hardening
+- **Mortgage Company** — Windows 11 baseline hardening for regulatory compliance
+
+Built GIAP™ governance automation platform (CISO Assistant + n8n + Nextcloud) for scalable client delivery.
+
+### USOG — CEO
+*2018 – Present · Drone Logistics & Operations*
+
+Led $5.6M revenue drone logistics company with 18 employees:
+
+- Managed security vulnerability remediation across infrastructure (15,000+ issues resolved)
+- Implemented dark web monitoring and threat intelligence
+- Deployed self-hosted infrastructure (Nextcloud, M365, secure remote access)
+- Developed operational security protocols for drone operations
+
+### United States Air Force — Aeromedical Evacuation Technician
+*1990 – 2007 · 18 Years Active Duty*
+
+Flight nurse with mission-critical operations experience:
+
+- High-pressure medical operations with strict protocols and documentation
+- Security clearance experience (eligible for reinstatement)
+- Disciplined execution in life-safety environments
+- Service-disabled veteran status
+
+### MiraCosta College — Adjunct Educator
+*UAS/Drone Technology*
+
+Taught drone technology courses, demonstrating communication skills and subject matter expertise in aviation systems.
 
 ---
 
@@ -56,9 +93,9 @@ Led AAM Cyber and USOG client work; built governance and safety controls. Discip
 - TraceLock™ RF/SDR telemetry pipeline: evidence-grade wireless surveillance detection with logging architecture.
 - Built and secured multi-component stacks (Proxmox, Nextcloud, Nginx reverse proxy, SuiteCRM + remote MySQL, SMTP/DNS/certs) with hardened access.
 
-**AI-augmented delivery:**
-- Multi-agent LLM workflows for policy drafting, control mapping, detection tuning, and documentation generation.
-- 10× execution velocity on complex projects that typically require teams.
+**AI-assisted delivery:**
+- LLM workflows for policy drafting, control mapping, detection tuning, and documentation generation
+- Faster turnaround on complex projects with thorough human review and validation
 
 ---
 
@@ -85,15 +122,16 @@ Remote-first; open to international collaboration (US/EU/LatAm time zones) and r
 
 ---
 
-## Why AI-augmented engineering matters for GRC
+## AI-assisted GRC workflows
 
-Traditional GRC work is documentation-heavy: control matrices, policy drafting, evidence collection, runbooks. I use multi-agent LLM workflows to:
-- Draft policy and control mapping 5-10× faster with human review
-- Generate evidence documentation from logs/screenshots automatically
+Traditional GRC work is documentation-heavy: control matrices, policy drafting, evidence collection, runbooks. I use LLM tools to accelerate delivery:
+
+- Draft policy and control mapping faster with thorough human review
+- Generate structured evidence documentation from logs and screenshots
 - Produce audit-ready runbooks with consistent formatting
 - Maintain living documentation that evolves with infrastructure
 
-**Result:** Same rigor and quality as traditional approaches, delivered in hours instead of weeks. More time for high-value work: architecture, implementation, and validation.
+**Result:** Same rigor and quality as traditional approaches, with faster turnaround. More time for high-value work: architecture, implementation, and validation.
 
 ---
 
