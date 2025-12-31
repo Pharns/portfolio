@@ -61,7 +61,6 @@ Code samples and project repos
 | **Time Zones** | US/EU/LatAm compatible |
 | **Travel** | Open to occasional travel; relocation considered for right opportunity |
 | **Engagement** | Full-time W-2 preferred; open to contract or consulting |
-| **Target Compensation** | $120K–$150K base (negotiable based on role scope and total package) |
 
 ---
 
