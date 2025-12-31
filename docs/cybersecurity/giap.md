@@ -5,22 +5,30 @@ description: Multi-agent GRC automation platform with n8n orchestration — stre
 *Updated: {{ page.meta.git_revision_date_localized or "" }}*
 
 !!! tldr "For recruiters & hiring managers"
-    **What:** Streamlined GRC automation platform with n8n orchestration. Single GRC platform (CISO Assistant) handles both pre-engagement assessment and post-engagement delivery. Orchestrates client intake, CRM sync, legal document automation, cross-framework control mapping, and POA&M generation.
+    **What:** Streamlined GRC automation platform with n8n orchestration. End-to-end intake workflow operational (Portal → n8n → Nextcloud). Single GRC platform (CISO Assistant) for both pre-engagement assessment and post-engagement delivery. Orchestrates client intake, CRM sync, legal document automation, cross-framework control mapping, and POA&M generation.
 
-    **Why this matters:** Demonstrates senior-level systems architecture, API-first design, and practical automation — reducing operational overhead while maintaining audit-ready workflows.
+    **Why this matters:** Demonstrates senior-level systems architecture, API-first design, and practical automation — reducing operational overhead while maintaining audit-ready workflows. Portal security hardening shows application security discipline (XSS prevention, WCAG 2.1 AA).
 
     **Impact:** Reduces audit prep time by ~70%; automates end-to-end GRC lifecycle from intake to remediation tracking with a single, API-first GRC platform.
 
-    **Skills:** Systems Architecture · n8n Orchestration · FastAPI · React · CISO Assistant · GRC Automation · Control Mapping · SOC 2 · NIST CSF · CIS v8 · HIPAA · CPRA · Evidence Pipelines · API Design · RBAC · Audit Logging
+    **Skills:** Systems Architecture · n8n Orchestration · Webhook Integration · Application Security · WCAG 2.1 AA · CISO Assistant · GRC Automation · Control Mapping · SOC 2 · NIST CSF · CIS v8 · HIPAA · CPRA · Evidence Pipelines · API Design · RBAC · Audit Logging
 
 ---
 
-!!! info "Project Status: Architecture Locked, Implementation Active"
-    **Infrastructure:** Deployed — Proxmox stack with CISO Assistant (pending), Nextcloud, n8n, SuiteCRM, and DocuSeal.
+!!! info "Project Status: Architecture Locked, End-to-End Intake Working"
+    **Infrastructure:** Deployed — Proxmox stack with Nextcloud, n8n, SuiteCRM, and DocuSeal. CISO Assistant deployment pending.
 
     **Architecture:** Locked — Streamlined single-GRC-platform design with n8n orchestration.
 
-    **Implementation:** Active — React frontend deployed; CISO Assistant deployment next; DocuSeal configuration pending.
+    **Implementation:** Active — Portal v2.2 deployed with security hardening (WCAG 2.1 AA); n8n intake workflow operational; end-to-end intake → Nextcloud logging verified.
+
+    **Live Domains:**
+
+    - `portal.aamcyber.work` — Client intake wizard
+    - `flows.aamcyber.work` — n8n workflow automation
+    - `files.aamcyber.work` — Nextcloud evidence vault
+    - `crm.aamcyber.work` — SuiteCRM client management
+    - `docs.aamcyber.work` — DocuSeal (pending configuration)
 
 ---
 
@@ -80,12 +88,14 @@ flowchart TB
 
 | Platform | Phase | Role | Status |
 |----------|-------|------|--------|
-| **GIAC UI (React)** | Both | Client portal, intake forms | ✅ Deployed |
+| **Portal (Static)** | Pre-Engagement | Client intake wizard (v2.2, WCAG 2.1 AA) | ✅ Deployed |
 | **n8n** | Both | Workflow orchestration, notifications | ✅ Running |
-| **CISO Assistant** | Both | Full GRC platform — assessments, risk, controls, 100+ frameworks | ✅ Deployed |
 | **Nextcloud** | Both | Evidence vault, document storage, WebDAV | ✅ Running |
 | **SuiteCRM** | Both | Client records, engagement tracking | ✅ Running |
+| **CISO Assistant** | Both | Full GRC platform — assessments, risk, controls, 100+ frameworks | ⬜ Deploy |
 | **DocuSeal** | Pre-Engagement | Legal documents (engagement letter, DPA, BAA) | ⬜ Configure |
+| **GIAC API (FastAPI)** | Both | RBAC, audit log, API endpoints | ⬜ Future |
+| **GIAC UI (React)** | Both | Full-featured portal (replaces static) | ⬜ Future |
 | **POAMAgent** | Post-Engagement | Custom POA&M generation | ⬜ Future |
 
 ### Why Single GRC Platform?
@@ -135,15 +145,31 @@ flowchart TB
 
 ## n8n Workflow Pipeline
 
-| Workflow | Phase | Function | Output |
+| Workflow | Phase | Function | Status |
 |----------|-------|----------|--------|
-| **Intake Processing** | Pre | Portal form → normalize → CRM sync | SuiteCRM records |
-| **Assessment Trigger** | Pre | Create CISO Assistant project from intake | Framework assessment |
-| **Document Generation** | Pre | Trigger DocuSeal for engagement letter | Signed PDFs |
-| **Evidence Collection** | Post | Upload artifacts to Nextcloud folders | Organized evidence vault |
-| **Gap Analysis** | Post | CISO Assistant API → extract gaps | Control status report |
-| **POA&M Generation** | Post | Gaps → POAMAgent templates | MD/CSV/PDF deliverables |
-| **Notifications** | Both | Status updates, reminders, alerts | Email/webhook triggers |
+| **Intake Simple** | Pre | Portal → webhook → Nextcloud JSON logging | ✅ Working |
+| **Intake Processing** | Pre | Normalize intake → CRM sync | ⬜ Build |
+| **Assessment Trigger** | Pre | Create CISO Assistant project from intake | ⬜ Build |
+| **Document Generation** | Pre | Trigger DocuSeal for engagement letter | ⬜ Build |
+| **Evidence Collection** | Post | Upload artifacts to Nextcloud folders | ⬜ Build |
+| **Gap Analysis** | Post | CISO Assistant API → extract gaps | ⬜ Build |
+| **POA&M Generation** | Post | Gaps → POAMAgent templates | ⬜ Future |
+| **Notifications** | Both | Status updates, reminders, alerts | ⬜ Build |
+
+### Working Workflow: GIAP Intake Simple
+
+The first n8n workflow is operational and logging intake submissions to Nextcloud:
+
+```
+Portal (v2.2) → POST /webhook/giap-simple → n8n → Nextcloud WebDAV
+                                              │
+                                              ├── Edit Fields (filename, content)
+                                              └── HTTP Request (PUT to Nextcloud)
+
+Output: /GIAP-Intakes/YYYY-MM-DD_HH-mm-ss_intake.json
+```
+
+**Verified:** End-to-end test successful (2025-12-31). Intake JSON files automatically created in Nextcloud `GIAP-Intakes/` folder.
 
 ### Data Flow
 
@@ -256,9 +282,11 @@ Ready to create intake in SuiteCRM?
 
 | Layer | Technology | Purpose | Status |
 |-------|------------|---------|--------|
-| **Frontend** | React + Vite | Client portal, intake forms | ✅ Deployed |
+| **Frontend** | Static HTML/JS | Pre-intake wizard (v2.2, security hardened) | ✅ Deployed |
+| **Frontend (Future)** | React + Vite | Full-featured GIAC UI | ⬜ Future |
+| **Backend (Future)** | FastAPI | GIAC API with RBAC, audit logging | ⬜ Future |
 | **Orchestration** | n8n | Workflow automation, notifications | ✅ Running |
-| **GRC Platform** | CISO Assistant | Assessments, risk, controls, 100+ frameworks | ✅ Deployed |
+| **GRC Platform** | CISO Assistant | Assessments, risk, controls, 100+ frameworks | ⬜ Deploy |
 | **Files** | Nextcloud | Evidence vault, document storage | ✅ Running |
 | **CRM** | SuiteCRM | Client records, intake tracking | ✅ Running |
 | **Signatures** | DocuSeal (self-hosted) | Engagement letters, DPAs, BAAs, NDAs | ⬜ Configure |
@@ -443,14 +471,17 @@ GIAP™ supports 90-day recurring assessment cycles for vCISO engagements:
 | Component | Status | Notes |
 |-----------|--------|-------|
 | Architecture design | ✅ Locked | Streamlined single-GRC-platform design |
-| GIAC UI (React) | ✅ Deployed | Client portal operational |
-| n8n Orchestration | ✅ Running | Workflow automation ready |
-| Nextcloud | ✅ Running | Evidence vault operational |
+| Portal (Static) | ✅ Deployed | v2.2 with security hardening, WCAG 2.1 AA |
+| n8n Orchestration | ✅ Running | Workflow automation operational |
+| n8n Intake Workflow | ✅ Working | End-to-end intake → Nextcloud logging verified |
+| Nextcloud | ✅ Running | Evidence vault operational, WebDAV API working |
 | SuiteCRM | ✅ Running | CRM operational |
-| CISO Assistant | ✅ Deployed | Primary GRC platform |
+| CISO Assistant | ⬜ Deploy | Primary GRC platform (Docker Compose ready) |
 | DocuSeal | ⬜ Configure | E-signature automation |
+| n8n CRM Workflow | ⬜ Build | Intake → SuiteCRM lead creation |
+| GIAC API (FastAPI) | ⬜ Future | RBAC, audit logging, API endpoints |
+| GIAC UI (React) | ⬜ Future | Full-featured portal (replaces static) |
 | POAMAgent | ⬜ Future | Custom POA&M generation |
-| n8n Workflows | ⬜ Build | Intake → CRM → CISO Assistant flows |
 | MCP Integration | ⬜ Future | AI-assisted queries |
 
 ---
@@ -467,6 +498,19 @@ GIAP™ supports 90-day recurring assessment cycles for vCISO engagements:
 | **Secrets** | Environment variables; never in code or logs |
 | **BAA Support** | DocuSeal templates for Business Associate Agreements |
 | **Deposit Gate** | No full intake work without signed engagement + deposit |
+
+### Portal Security Hardening (v2.2)
+
+The intake portal underwent comprehensive security hardening with expert panel review:
+
+| Category | Implementations |
+|----------|----------------|
+| **Input Validation** | XSS prevention (stripHtml sanitization), RFC 5322 email validation |
+| **Anti-Abuse** | 5-second rate limiting, honeypot field for bot detection |
+| **Accessibility** | WCAG 2.1 AA compliant, skip navigation, ARIA live regions |
+| **Mobile UX** | 48px touch targets, 16px font-size (prevents iOS zoom), 375px breakpoint |
+| **Compliance** | CCPA/CPRA disclosures, COPPA children's privacy statement |
+| **Hardened Endpoint** | Webhook URL hardcoded (eliminates localStorage injection vulnerability) |
 
 ---
 
@@ -537,12 +581,14 @@ GIAP™ supports 90-day recurring assessment cycles for vCISO engagements:
 | **Architecture** | Multi-agent orchestration, two-phase workflow design, API-first design, MCP protocol |
 | **GRC** | Framework mapping, risk management, control assessment, POA&M generation, evidence pipelines, vCISO delivery |
 | **GRC Platforms** | CISO Assistant administration, 100+ framework coverage, API-first integration, multi-platform orchestration |
+| **Workflow Automation** | n8n workflow design, webhook integration, WebDAV API, JSON data pipelines |
 | **Custom Tooling** | POAMAgent development, Jinja2 templating, PDF generation, API integration |
 | **Healthcare Compliance** | HIPAA Security Rule, Privacy Rule, BAA management, PHI protection |
 | **AI/LLM** | MCP server design, natural language GRC queries, LLM-assisted documentation |
 | **Backend** | FastAPI, SQLAlchemy, Alembic migrations, RBAC enforcement, audit logging |
-| **Frontend** | React, Vite, API consumption patterns |
-| **DevOps** | Proxmox virtualization, Tailscale networking, GitHub Actions CI |
+| **Frontend** | Static HTML/JS (security hardened), React, Vite, API consumption patterns |
+| **Application Security** | XSS prevention, input sanitization, rate limiting, honeypot bot detection, WCAG 2.1 AA |
+| **DevOps** | Proxmox virtualization, Tailscale networking, GitHub Actions CI, Nginx Proxy Manager |
 | **Security** | Append-only audit logs, PHI/PII protection, TLS enforcement, least-privilege design |
 
 ---
@@ -550,14 +596,17 @@ GIAP™ supports 90-day recurring assessment cycles for vCISO engagements:
 ## What This Demonstrates
 
 - **Senior-level systems architecture** — Multi-agent orchestration with clear two-phase workflow
+- **Operational automation** — End-to-end intake workflow with n8n, webhooks, and WebDAV integration
+- **Security engineering discipline** — Comprehensive portal hardening with XSS prevention, rate limiting, and WCAG 2.1 AA compliance
 - **Right tool for the job** — CISO Assistant for both speed and depth with 100+ frameworks
 - **Custom tooling capability** — POAMAgent built in-house for branded deliverables
 - **Enterprise GRC platform experience** — CISO Assistant for production risk, compliance, and control management
 - **AI/LLM integration expertise** — MCP protocol for natural language GRC queries
 - **Healthcare compliance depth** — HIPAA Security/Privacy Rule implementation
 - **Production-grade security** — RBAC, audit logging, PHI protection, deposit gate
+- **Emerging vertical expertise** — PropTech/IoT compliance for regulated workspaces
 - **GRC domain depth** — Cross-framework mapping, POA&M generation, evidence pipelines
-- **Full-stack capability** — FastAPI + React + infrastructure automation
+- **Full-stack capability** — Static portal + n8n workflows + infrastructure automation
 - **Consulting delivery model** — Productized vCISO service with 90-day cycles
 
 Pairs with [Cloud Control Pack](aws-control-pack.md) for cloud governance and [TraceLock™](tracelock.md) for RF/physical security — demonstrating end-to-end security engineering capability.
