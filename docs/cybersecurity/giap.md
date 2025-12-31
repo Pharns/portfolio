@@ -1,32 +1,32 @@
 ---
-description: Multi-agent GRC automation platform with MCP integration — 7-agent pipeline orchestrating intake, CRM sync, legal automation, control mapping, and POA&M generation across SOC 2, NIST CSF, CIS v8, HIPAA, and CPRA frameworks.
+description: Multi-agent GRC automation platform with n8n orchestration — streamlined pipeline for intake, CRM sync, legal automation, control mapping, and POA&M generation across 100+ frameworks including SOC 2, NIST CSF, CIS v8, HIPAA, and CPRA.
 ---
 # GIAP™ — Multi-Agent GRC Automation Platform
 *Updated: {{ page.meta.git_revision_date_localized or "" }}*
 
 !!! tldr "For recruiters & hiring managers"
-    **What:** 7-agent GRC automation platform with AI/LLM integration via Model Context Protocol (MCP). Orchestrates client intake, CRM sync, legal document automation, cross-framework control mapping, POA&M generation, and remediation task creation. Two-phase workflow: CISO Assistant for rapid pre-engagement assessment, Eramba CE for full operational GRC.
+    **What:** Streamlined GRC automation platform with n8n orchestration. Single GRC platform (CISO Assistant) handles both pre-engagement assessment and post-engagement delivery. Orchestrates client intake, CRM sync, legal document automation, cross-framework control mapping, and POA&M generation.
 
-    **Why this matters:** Demonstrates senior-level systems architecture, multi-agent orchestration, API-first design, and AI integration — the kind of automation that transforms manual GRC processes into scalable, audit-ready workflows.
+    **Why this matters:** Demonstrates senior-level systems architecture, API-first design, and practical automation — reducing operational overhead while maintaining audit-ready workflows.
 
-    **Impact:** Reduces audit prep time by ~70% through natural language queries; automates end-to-end GRC lifecycle from intake to remediation tracking.
+    **Impact:** Reduces audit prep time by ~70%; automates end-to-end GRC lifecycle from intake to remediation tracking with a single, API-first GRC platform.
 
-    **Skills:** Multi-Agent Architecture · MCP/LLM Integration · FastAPI · React · Eramba CE · CISO Assistant · GRC Automation · Control Mapping · SOC 2 · NIST CSF · CIS v8 · HIPAA · CPRA · Evidence Pipelines · API Design · RBAC · Audit Logging
+    **Skills:** Systems Architecture · n8n Orchestration · FastAPI · React · CISO Assistant · GRC Automation · Control Mapping · SOC 2 · NIST CSF · CIS v8 · HIPAA · CPRA · Evidence Pipelines · API Design · RBAC · Audit Logging
 
 ---
 
-!!! info "Project Status: Architecture Complete, Implementation Active"
-    **Infrastructure:** Deployed — Multi-VM Proxmox stack with Eramba CE, CISO Assistant, Nextcloud, n8n, SuiteCRM, and DocuSeal.
+!!! info "Project Status: Architecture Locked, Implementation Active"
+    **Infrastructure:** Deployed — Proxmox stack with CISO Assistant (pending), Nextcloud, n8n, SuiteCRM, and DocuSeal.
 
-    **Architecture:** Complete — 7-agent pipeline designed, MCP integration specified, API scaffolded.
+    **Architecture:** Locked — Streamlined single-GRC-platform design with n8n orchestration.
 
-    **Implementation:** Active — FastAPI backend and React frontend in development; agent integration in progress.
+    **Implementation:** Active — React frontend deployed; CISO Assistant deployment next; DocuSeal configuration pending.
 
 ---
 
 ## End-to-End Workflow
 
-GIAP™ implements a two-phase workflow with a clear **deposit gate** separating pre-engagement qualification from paid consulting work:
+GIAP™ implements a two-phase workflow with a clear **deposit gate** separating pre-engagement qualification from paid consulting work. **CISO Assistant** serves as the single GRC platform for both phases — API-first with 100+ framework mappings.
 
 ```mermaid
 flowchart TB
@@ -34,15 +34,15 @@ flowchart TB
         direction TB
         P[Prospect]
         PIF[Pre-Intake]
-        CA1[CISO Assistant]
+        CA[CISO Assistant]
         QG[Gap Analysis]
         FS[Framework Fit]
         RP[Risk Profile]
         CRM[SuiteCRM]
         DS[DocuSeal]
 
-        P --> PIF --> CA1
-        CA1 --> QG & FS & RP
+        P --> PIF --> CA
+        CA --> QG & FS & RP
         QG & FS & RP --> CRM
         CRM --> DS
     end
@@ -51,25 +51,23 @@ flowchart TB
 
     subgraph POST[POST-ENGAGEMENT]
         direction TB
-        EXP[Data Export]
-        ERA[Eramba CE]
         CA2[CISO Assistant]
         RM[Risk Register]
         CT[Control Testing]
-        EC[Evidence Vault]
+        NC[Nextcloud]
         POA[POAM Agent]
         REM[Remediation]
         VCISO[vCISO Cycle]
 
-        EXP --> ERA --> CA2
-        CA2 --> RM & CT & EC
-        RM & CT & EC --> POA
+        CA2 --> RM & CT
+        RM & CT --> NC
+        NC --> POA
         POA --> REM --> VCISO
     end
 
     DS --> DG
-    DG --> EXP
-    VCISO -.-> EXP
+    DG --> CA2
+    VCISO -.-> CA2
 
     style PRE fill:#e8f4ea,stroke:#2e7d32,stroke-width:2px
     style POST fill:#e0f2fe,stroke:#0284c7,stroke-width:2px
@@ -80,70 +78,72 @@ flowchart TB
 
 ## Platform Roles
 
-| Platform | Phase | Role | Why |
-|----------|-------|------|-----|
-| **CISO Assistant** | Pre-Engagement | Rapid framework assessment, gap identification | Lightweight, fast, YAML-native |
-| **SuiteCRM** | Both | Client records, engagement tracking | Single source of truth for sales |
-| **DocuSeal** | Pre-Engagement | Legal documents (engagement letter, DPA, BAA) | E-signature automation |
-| **Eramba CE** | Post-Engagement | Full GRC operations (risk, audits, policies, incidents) | Enterprise-grade, audit-ready |
-| **POAMAgent** | Post-Engagement | Custom POA&M generation | Branded deliverables, multi-format |
-| **Nextcloud** | Both | Evidence vault, document storage | Self-hosted, encrypted |
+| Platform | Phase | Role | Status |
+|----------|-------|------|--------|
+| **GIAC UI (React)** | Both | Client portal, intake forms | ✅ Deployed |
+| **n8n** | Both | Workflow orchestration, notifications | ✅ Running |
+| **CISO Assistant** | Both | Full GRC platform — assessments, risk, controls, 100+ frameworks | ⬜ Deploy next |
+| **Nextcloud** | Both | Evidence vault, document storage, WebDAV | ✅ Running |
+| **SuiteCRM** | Both | Client records, engagement tracking | ✅ Running |
+| **DocuSeal** | Pre-Engagement | Legal documents (engagement letter, DPA, BAA) | ⬜ Configure |
+| **POAMAgent** | Post-Engagement | Custom POA&M generation | ⬜ Future |
+
+### Why Single GRC Platform?
+
+| Decision | Choice | Rationale |
+|----------|--------|-----------|
+| GRC Platform | **CISO Assistant only** | API-first, 100+ frameworks, auto-mapping, reduces operational overhead |
+| ~~Eramba CE~~ | **Removed** | No API, manual imports only — doesn't fit automation-first architecture |
+| File Storage | **Nextcloud** | Separation of concerns, WebDAV API, self-hosted encryption |
 
 ---
 
 ## Architecture Overview
 
-GIAP™ is a modular, multi-agent GRC automation platform with MCP integration for AI-assisted queries:
+GIAP™ is a streamlined GRC automation platform with **n8n orchestration** and a **single GRC platform** (CISO Assistant):
 
 ```mermaid
 flowchart TB
-    subgraph AI[AI LAYER]
-        CLAUDE[Claude / AI Assistant]
+    subgraph UI[PRESENTATION LAYER]
+        PORTAL[GIAC UI - React]
     end
 
-    subgraph MCP[MCP SERVER LAYER]
-        direction LR
-        M1[giap-crm]
-        M2[giap-risk]
-        M3[giap-controls]
-        M4[giap-evidence]
-        M5[giap-poam]
+    subgraph ORCH[ORCHESTRATION LAYER]
+        N8N[n8n Workflows]
     end
 
     subgraph DATA[DATA LAYER]
         direction LR
-        D1[SuiteCRM]
-        D2[Eramba CE]
-        D3[CISO Assistant]
-        D4[Nextcloud]
-        D5[GIAP Database]
+        CA[CISO Assistant]
+        CRM[SuiteCRM]
+        NC[Nextcloud]
+        DS[DocuSeal]
     end
 
-    CLAUDE -->|MCP Protocol| MCP
-    M1 --> D1
-    M2 --> D2
-    M3 --> D3
-    M4 --> D4
-    M5 --> D5
+    PORTAL --> N8N
+    N8N --> CA
+    N8N --> CRM
+    N8N --> NC
+    N8N --> DS
 
-    style AI fill:#f3e8ff,stroke:#7c3aed,stroke-width:2px
-    style MCP fill:#fef3c7,stroke:#d97706,stroke-width:2px
+    style UI fill:#f3e8ff,stroke:#7c3aed,stroke-width:2px
+    style ORCH fill:#fef3c7,stroke:#d97706,stroke-width:2px
     style DATA fill:#e0f2fe,stroke:#0284c7,stroke-width:2px
 ```
 
 ---
 
-## Multi-Agent Pipeline
+## n8n Workflow Pipeline
 
-| Agent | Phase | Function | Output |
-|-------|-------|----------|--------|
-| **BrainAgent** | Both | Orchestrator — routes work, validates data, maintains state | Job routing decisions |
-| **IntakeAgent** | Pre | Normalizes form inputs → structured JSON | Industry, risk profile, frameworks |
-| **CRMAgent** | Both | SuiteCRM sync — single source of truth | Account/Contact/Intake records |
-| **DocuSealAgent** | Pre | Engagement letter + DPA/BAA automation | Signed PDFs via e-signature |
-| **MapperAgent** | Post | Intake → AAM Unified Controls → Eramba | Cross-framework gap analysis |
-| **POAMAgent** | Post | Custom POA&M generation from Eramba gaps | MD/CSV/PDF remediation plan |
-| **RemediationAgent** | Post | Creates tasks, imports to Eramba for tracking | Eramba tasks, evidence checklists |
+| Workflow | Phase | Function | Output |
+|----------|-------|----------|--------|
+| **Intake Processing** | Pre | Portal form → normalize → CRM sync | SuiteCRM records |
+| **Assessment Trigger** | Pre | Create CISO Assistant project from intake | Framework assessment |
+| **Document Generation** | Pre | Trigger DocuSeal for engagement letter | Signed PDFs |
+| **Evidence Collection** | Post | Upload artifacts to Nextcloud folders | Organized evidence vault |
+| **Gap Analysis** | Post | CISO Assistant API → extract gaps | Control status report |
+| **POA&M Generation** | Post | Gaps → POAMAgent templates | MD/CSV/PDF deliverables |
+| **Notifications** | Both | Status updates, reminders, alerts | Email/webhook triggers |
 
 ### Data Flow
 
@@ -151,26 +151,26 @@ flowchart TB
 flowchart TB
     subgraph PRE[PRE-ENGAGEMENT]
         direction TB
-        BA1[BrainAgent] --> IA[IntakeAgent]
-        IA --> CA1[CISO Assistant]
-        CA1 --> CRMA[CRMAgent]
-        CRMA --> DSA[DocuSealAgent]
+        PORTAL[GIAC Portal] --> N8N1[n8n: Intake]
+        N8N1 --> CA[CISO Assistant]
+        CA --> CRM[SuiteCRM]
+        CRM --> DS[DocuSeal]
     end
 
     DG[DEPOSIT GATE]
 
     subgraph POST[POST-ENGAGEMENT]
         direction TB
-        EXP[Data Export] --> ERA[Eramba CE]
-        ERA --> MA[MapperAgent]
-        MA --> PA[POAMAgent]
-        PA --> RA[RemediationAgent]
-        RA --> VCISO[vCISO Cycle]
+        CA2[CISO Assistant] --> N8N2[n8n: Assessment]
+        N8N2 --> NC[Nextcloud]
+        NC --> POA[POAMAgent]
+        POA --> REM[Remediation]
+        REM --> VCISO[vCISO Cycle]
     end
 
-    DSA --> DG
-    DG --> EXP
-    VCISO -.-> EXP
+    DS --> DG
+    DG --> CA2
+    VCISO -.-> CA2
 
     style PRE fill:#e8f4ea,stroke:#2e7d32,stroke-width:2px
     style POST fill:#e0f2fe,stroke:#0284c7,stroke-width:2px
@@ -193,11 +193,11 @@ No dedicated open-source POA&M generator exists. For a boutique consulting firm,
 ```python
 # POAMAgent outputs
 poam_agent = {
-    "inputs": ["eramba_gaps", "aam_unified_controls", "client_context"],
+    "inputs": ["ciso_assistant_gaps", "aam_unified_controls", "client_context"],
     "outputs": {
         "executive_summary": "1-page risk overview (PDF)",
         "detailed_poam": "Full remediation plan with milestones (MD/CSV/PDF)",
-        "eramba_import": "Task list for remediation tracking (JSON)"
+        "task_export": "Task list for remediation tracking (JSON)"
     },
     "templates": "Jinja2 → Markdown → WeasyPrint PDF",
     "branding": "AAM Cyber deliverable format"
@@ -208,25 +208,23 @@ poam_agent = {
 
 | Component | Complexity | Status |
 |-----------|------------|--------|
-| Eramba API query | Low | Designed |
-| Severity/priority logic | Low | Designed |
-| Jinja2 templates | Low | Designed |
-| PDF generation | Medium | Planned |
-| Eramba task import | Low | Planned |
+| CISO Assistant API query | Low | ⬜ Future |
+| Severity/priority logic | Low | ⬜ Future |
+| Jinja2 templates | Low | ⬜ Future |
+| PDF generation | Medium | ⬜ Future |
 
 ---
 
-## MCP Integration
+## Future: MCP Integration
 
-GIAP™ integrates with Claude and other AI assistants via **Model Context Protocol (MCP)**, enabling natural language queries against GRC data:
+GIAP™ can integrate with Claude and other AI assistants via **Model Context Protocol (MCP)** for natural language queries against GRC data:
 
-| MCP Server | Data Source | Phase | Example Queries |
-|------------|-------------|-------|-----------------|
-| `giap-crm` | SuiteCRM | Both | "Show all pending intakes" / "What's the engagement status for Client X?" |
-| `giap-controls` | CISO Assistant | Pre | "Run a quick SOC 2 gap check for new prospect" / "What frameworks fit this client?" |
-| `giap-risk` | Eramba CE | Post | "Show high-risk items for Client X" / "What's our overall risk posture?" |
-| `giap-evidence` | Nextcloud | Post | "Show the signed NDA for Client X" / "What evidence is missing for CC6.1?" |
-| `giap-poam` | GIAP Database | Post | "Generate a POA&M for Client X" / "What are the top 5 high-risk items?" |
+| MCP Server | Data Source | Example Queries |
+|------------|-------------|-----------------|
+| `giap-crm` | SuiteCRM | "Show all pending intakes" / "What's the engagement status for Client X?" |
+| `giap-controls` | CISO Assistant | "Run a quick SOC 2 gap check" / "What frameworks fit this client?" |
+| `giap-evidence` | Nextcloud | "Show the signed NDA for Client X" / "What evidence is missing for CC6.1?" |
+| `giap-poam` | POAMAgent | "Generate a POA&M for Client X" / "What are the top 5 high-risk items?" |
 
 ### Example Conversation
 
@@ -256,76 +254,73 @@ Ready to create intake in SuiteCRM?
 
 ## Technology Stack
 
-| Layer | Technology | Purpose |
-|-------|------------|---------|
-| **Backend** | Python 3.11 + FastAPI | API-first GRC primitives, RBAC, audit logging |
-| **Frontend** | React + Vite | Thin UI consuming API (security logic server-side) |
-| **Database** | PostgreSQL / SQLite | Intake data, POA&M, audit trails |
-| **ORM** | SQLAlchemy + Alembic | Schema management, migrations |
-| **Automation** | n8n | Workflow orchestration, notifications |
-| **CRM** | SuiteCRM (remote MySQL) | Client records, intake tracking |
-| **Signatures** | DocuSeal (self-hosted) | Engagement letters, DPAs, BAAs, NDAs |
-| **Files** | Nextcloud | Evidence vault, document storage |
-| **Pre-Engagement GRC** | CISO Assistant | Rapid assessments, framework selection, YAML export |
-| **Post-Engagement GRC** | Eramba CE | Risk management, compliance ops, audits, remediation |
-| **POA&M Generation** | POAMAgent (custom) | Branded deliverables, multi-format output |
-| **Proxy** | Nginx Proxy Manager | TLS termination, routing |
-| **Infrastructure** | Proxmox LXC/VM | Isolated service VMs |
-| **Access** | Tailscale | Admin routes restricted by CGNAT + ACL |
-| **CI/CD** | GitHub Actions | Lint, test, build validation |
+| Layer | Technology | Purpose | Status |
+|-------|------------|---------|--------|
+| **Frontend** | React + Vite | Client portal, intake forms | ✅ Deployed |
+| **Orchestration** | n8n | Workflow automation, notifications | ✅ Running |
+| **GRC Platform** | CISO Assistant | Assessments, risk, controls, 100+ frameworks | ⬜ Deploy next |
+| **Files** | Nextcloud | Evidence vault, document storage | ✅ Running |
+| **CRM** | SuiteCRM | Client records, intake tracking | ✅ Running |
+| **Signatures** | DocuSeal (self-hosted) | Engagement letters, DPAs, BAAs, NDAs | ⬜ Configure |
+| **POA&M** | POAMAgent (custom) | Branded deliverables, multi-format output | ⬜ Future |
+| **Proxy** | Nginx Proxy Manager | TLS termination, routing | ✅ Running |
+| **Infrastructure** | Proxmox LXC/VM | Isolated service VMs | ✅ Running |
+| **Access** | Tailscale | Admin routes restricted by CGNAT + ACL | ✅ Running |
 
-### Eramba CE — Operational GRC Platform
+### CISO Assistant — Single GRC Platform
 
-[Eramba CE](https://www.eramba.org/) is an open-source, enterprise-grade GRC platform for post-engagement work:
+[CISO Assistant](https://github.com/intuitem/ciso-assistant-community) serves as the **single GRC platform** for both pre-engagement and post-engagement work:
 
 | Capability | Description |
 |------------|-------------|
-| **Risk Management** | Custom risk frameworks, risk registers, risk assessments |
-| **Compliance Tracking** | Pre-mapped control libraries (ISO 27001, PCI-DSS, SOC 2, HIPAA) |
-| **Policy Management** | Policy lifecycle, reviews, versioning |
-| **Internal Controls & Audits** | Control testing, audit workflows, evidence collection |
-| **Incident Management** | Incident tracking, response workflows |
-| **Remediation Tracking** | Task management, milestone tracking, closure verification |
-| **REST APIs & Webhooks** | Full integration with POAMAgent and GIAP pipeline |
+| **100+ Frameworks** | Pre-loaded SOC 2, NIST CSF, CIS v8, HIPAA, ISO 27001, and more |
+| **API-First** | Full REST API for automation and integration |
+| **Risk Management** | Risk registers, assessments, treatment plans |
+| **Control Mapping** | Auto-mapping across frameworks |
+| **Gap Analysis** | Identify compliance gaps with scoring |
+| **Evidence Collection** | Link evidence to controls |
+| **YAML/JSON Export** | Clean export formats for reporting |
 
-### CISO Assistant — Pre-Engagement Assessment
+**Why CISO Assistant over Eramba CE?**
 
-[CISO Assistant](https://github.com/intuitem/ciso-assistant-community) provides lightweight, rapid assessments:
-
-| Capability | Description |
-|------------|-------------|
-| **Quick Assessments** | Fast framework gap identification |
-| **Framework Libraries** | Pre-loaded SOC 2, NIST, HIPAA, etc. |
-| **YAML Export** | Clean export format for Eramba import |
-| **Low Overhead** | No complex setup for prospect evaluation |
+| Factor | CISO Assistant | ~~Eramba CE~~ |
+|--------|----------------|---------------|
+| API | ✅ Full REST API | ❌ No API (manual only) |
+| Frameworks | 100+ pre-loaded | Limited |
+| Automation | ✅ n8n compatible | ❌ Manual imports |
+| Overhead | Low | High |
 
 ---
 
 ## Framework Coverage
 
-| Framework | Status | Pre-Engagement | Post-Engagement |
-|-----------|--------|----------------|-----------------|
-| **SOC 2** | Full mapping | CISO Assistant | Eramba CE |
-| **NIST CSF v2.0** | Full mapping | CISO Assistant | Eramba CE |
-| **CIS Controls v8** | Full mapping | CISO Assistant | Eramba CE |
-| **HIPAA** | Full mapping | CISO Assistant | Eramba CE |
-| **CPRA** | Full mapping | CISO Assistant | Eramba CE |
-| **ISO 27001** | Partial | — | Eramba CE |
-| **AAM Unified Controls** | Proprietary | — | Cross-framework master |
+CISO Assistant provides **100+ pre-loaded frameworks** with auto-mapping:
+
+| Framework | Status | Platform |
+|-----------|--------|----------|
+| **SOC 2** | Full mapping | CISO Assistant |
+| **NIST CSF v2.0** | Full mapping | CISO Assistant |
+| **CIS Controls v8** | Full mapping | CISO Assistant |
+| **HIPAA** | Full mapping | CISO Assistant |
+| **CPRA** | Full mapping | CISO Assistant |
+| **ISO 27001** | Full mapping | CISO Assistant |
+| **PCI-DSS** | Full mapping | CISO Assistant |
+| **GDPR** | Full mapping | CISO Assistant |
+| **AAM Unified Controls** | Proprietary | Cross-framework mapping |
 
 ### HIPAA Coverage
 
 GIAP™ supports HIPAA Security Rule and Privacy Rule compliance for healthcare clients and business associates:
 
-| HIPAA Requirement | Implementation | Eramba Control |
-|-------------------|----------------|----------------|
+| HIPAA Requirement | Implementation | AAM Control |
+|-------------------|----------------|-------------|
 | §164.312(a) Access Control | RBAC, unique user IDs, auto-logoff | AAM.ACCESS-01 |
 | §164.312(b) Audit Controls | Append-only logs, activity monitoring | AAM.AUDIT-01 |
 | §164.312(c) Integrity | SHA-256 checksums, tamper detection | AAM.INTEG-01 |
 | §164.312(d) Authentication | MFA enforcement, credential management | AAM.AUTH-01 |
 | §164.312(e) Transmission Security | TLS everywhere, encrypted transit | AAM.TRANS-01 |
-| §164.308(a) Security Management | Risk analysis, sanctions, review | Eramba Risk Module |
-| §164.310 Physical Safeguards | Facility access, workstation security | Policy Module |
+| §164.308(a) Security Management | Risk analysis, sanctions, review | CISO Assistant Risk |
+| §164.310 Physical Safeguards | Facility access, workstation security | Policy documentation |
 
 ### AAM Unified Controls
 
@@ -382,12 +377,11 @@ controls:
 
 GIAP™ supports 90-day recurring assessment cycles for vCISO engagements:
 
-1. **CISO Assistant** → Quick delta assessment questionnaire
-2. **Eramba CE** → Risk register updates, control re-testing
-3. **MapperAgent** → Updated control status (delta analysis)
+1. **CISO Assistant** → Delta assessment questionnaire, control re-testing
+2. **n8n Workflow** → Trigger assessment, collect evidence, update records
+3. **Nextcloud** → Evidence vault updates
 4. **POAMAgent** → Updated POA&M (new gaps vs. closed items)
-5. **RemediationAgent** → Task updates, evidence requests
-6. **CRMAgent** → Timestamped audit trail, billing trigger
+5. **SuiteCRM** → Timestamped audit trail, billing trigger
 
 **Business Impact:** Enables recurring vCISO engagements with automated quarterly reviews and continuous compliance monitoring.
 
@@ -395,20 +389,18 @@ GIAP™ supports 90-day recurring assessment cycles for vCISO engagements:
 
 ## Implementation Status
 
-| Phase | Status | Notes |
-|-------|--------|-------|
-| Architecture design | ✅ Complete | 7-agent pipeline, two-phase workflow |
-| Infrastructure deployment | ✅ Complete | Proxmox VMs running all services |
-| CISO Assistant deployment | ✅ Complete | Pre-engagement assessments active |
-| Eramba CE deployment | ✅ Complete | Risk, compliance, audit modules active |
-| Framework mapping | ✅ Complete | SOC 2, NIST CSF, CIS v8, HIPAA, CPRA |
-| FastAPI backend scaffold | ✅ Complete | giac-api with Poetry, Makefile |
-| React frontend scaffold | ✅ Complete | giac-ui with pnpm, Makefile |
-| MCP server architecture | ✅ Complete | 5 servers specified |
-| Agent implementation | 🔄 In Progress | BrainAgent, IntakeAgent first |
-| POAMAgent development | 🔄 In Progress | Templates and Eramba integration |
-| System integration | 🔄 In Progress | CISO Assistant → Eramba export flow |
-| MCP server implementation | ⏳ Pending | Post-core agent completion |
+| Component | Status | Notes |
+|-----------|--------|-------|
+| Architecture design | ✅ Locked | Streamlined single-GRC-platform design |
+| GIAC UI (React) | ✅ Deployed | Client portal operational |
+| n8n Orchestration | ✅ Running | Workflow automation ready |
+| Nextcloud | ✅ Running | Evidence vault operational |
+| SuiteCRM | ✅ Running | CRM operational |
+| CISO Assistant | ⬜ Deploy next | Primary GRC platform |
+| DocuSeal | ⬜ Configure | E-signature automation |
+| POAMAgent | ⬜ Future | Custom POA&M generation |
+| n8n Workflows | ⬜ Build | Intake → CRM → CISO Assistant flows |
+| MCP Integration | ⬜ Future | AI-assisted queries |
 
 ---
 
@@ -453,7 +445,7 @@ GIAP™ supports 90-day recurring assessment cycles for vCISO engagements:
       "recommended_action": "Implement offboarding checklist and admin access revocation SOP",
       "target_date": "2025-02-01",
       "frameworks": ["SOC2_CC6.2", "HIPAA_164.312(a)"],
-      "eramba_task_id": "ERM-TASK-4521"
+      "ciso_assistant_task_id": "CA-TASK-4521"
     }
   ]
 }
@@ -478,7 +470,7 @@ GIAP™ supports 90-day recurring assessment cycles for vCISO engagements:
     "engagement_signed": "2025-01-10T14:30:00Z"
   },
   "post_engagement": {
-    "eramba_project_id": "ERM-PRJ-2025-0042",
+    "ciso_assistant_project_id": "CA-PRJ-2025-0042",
     "full_gaps_identified": 12,
     "poam_generated": true
   }
@@ -493,7 +485,7 @@ GIAP™ supports 90-day recurring assessment cycles for vCISO engagements:
 |----------|--------|
 | **Architecture** | Multi-agent orchestration, two-phase workflow design, API-first design, MCP protocol |
 | **GRC** | Framework mapping, risk management, control assessment, POA&M generation, evidence pipelines, vCISO delivery |
-| **GRC Platforms** | Eramba CE administration, CISO Assistant, multi-platform integration, data migration |
+| **GRC Platforms** | CISO Assistant administration, 100+ framework coverage, API-first integration, multi-platform orchestration |
 | **Custom Tooling** | POAMAgent development, Jinja2 templating, PDF generation, API integration |
 | **Healthcare Compliance** | HIPAA Security Rule, Privacy Rule, BAA management, PHI protection |
 | **AI/LLM** | MCP server design, natural language GRC queries, LLM-assisted documentation |
@@ -507,9 +499,9 @@ GIAP™ supports 90-day recurring assessment cycles for vCISO engagements:
 ## What This Demonstrates
 
 - **Senior-level systems architecture** — Multi-agent orchestration with clear two-phase workflow
-- **Right tool for the job** — CISO Assistant for speed, Eramba CE for depth
+- **Right tool for the job** — CISO Assistant for both speed and depth with 100+ frameworks
 - **Custom tooling capability** — POAMAgent built in-house for branded deliverables
-- **Enterprise GRC platform experience** — Eramba CE for production risk and compliance management
+- **Enterprise GRC platform experience** — CISO Assistant for production risk, compliance, and control management
 - **AI/LLM integration expertise** — MCP protocol for natural language GRC queries
 - **Healthcare compliance depth** — HIPAA Security/Privacy Rule implementation
 - **Production-grade security** — RBAC, audit logging, PHI protection, deposit gate
