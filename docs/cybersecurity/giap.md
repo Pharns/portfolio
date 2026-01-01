@@ -16,19 +16,20 @@ description: Multi-agent GRC automation platform with n8n orchestration — stre
 ---
 
 !!! info "Project Status: Architecture Locked, End-to-End Intake Working"
-    **Infrastructure:** Deployed — Proxmox stack with Nextcloud, n8n, SuiteCRM, and DocuSeal. CISO Assistant deployment pending.
+    **Infrastructure:** Deployed — Proxmox stack with CISO Assistant, Nextcloud, n8n, and SuiteCRM operational. DocuSeal pending deployment.
 
     **Architecture:** Locked — Streamlined single-GRC-platform design with n8n orchestration.
 
-    **Implementation:** Active — Portal v2.2 deployed with security hardening (WCAG 2.1 AA); n8n intake workflow operational; end-to-end intake → Nextcloud logging verified.
+    **Implementation:** Active — Portal v2.2 deployed with security hardening (WCAG 2.1 AA); n8n intake workflow operational; CISO Assistant running; end-to-end intake → Nextcloud logging verified.
 
     **Live Domains:**
 
     - `portal.aamcyber.work` — Client intake wizard
     - `flows.aamcyber.work` — n8n workflow automation
     - `files.aamcyber.work` — Nextcloud evidence vault
+    - `grc.aamcyber.work` — CISO Assistant GRC platform
     - `crm.aamcyber.work` — SuiteCRM client management
-    - `docs.aamcyber.work` — DocuSeal (pending configuration)
+    - `docs.aamcyber.work` — DocuSeal (pending deployment)
 
 ---
 
@@ -92,8 +93,8 @@ flowchart TB
 | **n8n** | Both | Workflow orchestration, notifications | ✅ Running |
 | **Nextcloud** | Both | Evidence vault, document storage, WebDAV | ✅ Running |
 | **SuiteCRM** | Both | Client records, engagement tracking | ✅ Running |
-| **CISO Assistant** | Both | Full GRC platform — assessments, risk, controls, 100+ frameworks | ⬜ Deploy |
-| **DocuSeal** | Pre-Engagement | Legal documents (engagement letter, DPA, BAA) | ⬜ Configure |
+| **CISO Assistant** | Both | Full GRC platform — assessments, risk, controls, 100+ frameworks | ✅ Running |
+| **DocuSeal** | Pre-Engagement | Legal documents (engagement letter, DPA, BAA) | ⬜ Deploy |
 | **GIAC API (FastAPI)** | Both | RBAC, audit log, API endpoints | ⬜ Future |
 | **GIAC UI (React)** | Both | Full-featured portal (replaces static) | ⬜ Future |
 | **POAMAgent** | Post-Engagement | Custom POA&M generation | ⬜ Future |
@@ -148,6 +149,7 @@ flowchart TB
 | Workflow | Phase | Function | Status |
 |----------|-------|----------|--------|
 | **Intake Simple** | Pre | Portal → webhook → Nextcloud JSON logging | ✅ Working |
+| **Backup Automation** | Ops | Daily n8n + CISO Assistant backups → Nextcloud | ⬜ Configure |
 | **Intake Processing** | Pre | Normalize intake → CRM sync | ⬜ Build |
 | **Assessment Trigger** | Pre | Create CISO Assistant project from intake | ⬜ Build |
 | **Document Generation** | Pre | Trigger DocuSeal for engagement letter | ⬜ Build |
@@ -286,10 +288,10 @@ Ready to create intake in SuiteCRM?
 | **Frontend (Future)** | React + Vite | Full-featured GIAC UI | ⬜ Future |
 | **Backend (Future)** | FastAPI | GIAC API with RBAC, audit logging | ⬜ Future |
 | **Orchestration** | n8n | Workflow automation, notifications | ✅ Running |
-| **GRC Platform** | CISO Assistant | Assessments, risk, controls, 100+ frameworks | ⬜ Deploy |
+| **GRC Platform** | CISO Assistant | Assessments, risk, controls, 100+ frameworks | ✅ Running |
 | **Files** | Nextcloud | Evidence vault, document storage | ✅ Running |
 | **CRM** | SuiteCRM | Client records, intake tracking | ✅ Running |
-| **Signatures** | DocuSeal (self-hosted) | Engagement letters, DPAs, BAAs, NDAs | ⬜ Configure |
+| **Signatures** | DocuSeal (self-hosted) | Engagement letters, DPAs, BAAs, NDAs | ⬜ Deploy |
 | **POA&M** | POAMAgent (custom) | Branded deliverables, multi-format output | ⬜ Future |
 | **Proxy** | Nginx Proxy Manager | TLS termination, routing | ✅ Running |
 | **Infrastructure** | Proxmox LXC/VM | Isolated service VMs | ✅ Running |
@@ -476,8 +478,9 @@ GIAP™ supports 90-day recurring assessment cycles for vCISO engagements:
 | n8n Intake Workflow | ✅ Working | End-to-end intake → Nextcloud logging verified |
 | Nextcloud | ✅ Running | Evidence vault operational, WebDAV API working |
 | SuiteCRM | ✅ Running | CRM operational |
-| CISO Assistant | ⬜ Deploy | Primary GRC platform (Docker Compose ready) |
-| DocuSeal | ⬜ Configure | E-signature automation |
+| CISO Assistant | ✅ Running | Primary GRC platform with 100+ frameworks |
+| n8n Backup Workflow | ⬜ Configure | Workflow created, pending credential setup |
+| DocuSeal | ⬜ Deploy | Container needs restart/fix |
 | n8n CRM Workflow | ⬜ Build | Intake → SuiteCRM lead creation |
 | GIAC API (FastAPI) | ⬜ Future | RBAC, audit logging, API endpoints |
 | GIAC UI (React) | ⬜ Future | Full-featured portal (replaces static) |
