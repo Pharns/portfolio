@@ -670,3 +670,45 @@ html {
     min-width: 600px;
   }
 }
+
+/* ============================================
+   Feature Grid for Homepage
+   ============================================ */
+
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: var(--space-5); /* Use existing spacing variable */
+  margin: var(--space-6) 0;
+}
+
+.feature-tile {
+  background: var(--tile-bg-light);
+  border-radius: var(--pg-radius);
+  padding: var(--space-5);
+  box-shadow: var(--pg-shadow-sm);
+  border: 1px solid var(--tile-border-light);
+  transition: all 200ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.feature-tile:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--pg-shadow-lg);
+  border-color: var(--pg-accent);
+}
+
+.feature-tile h3 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  display: flex;
+  align-items: center;
+  font-size: 1.1rem; /* Slightly larger for feature titles */
+  color: var(--tile-text-light);
+}
+
+.feature-tile p {
+  margin-bottom: 0;
+  font-size: 0.9rem;
+  color: var(--pg-muted); /* Use muted color for less emphasis */
+  line-height: 1.6;
+}

@@ -384,3 +384,16 @@ flowchart TB
   }
 }
 </script>
+
+<br>
+---
+<div style="display: flex; justify-content: space-between; align-items: center;">
+    <a href="incident-response.md" class="btn-ghost" style="text-align: left;">
+        &larr; Previous Project<br>
+        <span style="font-weight: bold; font-size: 1.1em;">Detection & IR Lab</span>
+    </a>
+    <a href="homelab-infrastructure.md" class="btn-ghost" style="text-align: right;">
+        Next Project &rarr;<br>
+        <span style="font-weight: bold; font-size: 1.1em;">Homelab Infrastructure</span>
+    </a>
+</div>

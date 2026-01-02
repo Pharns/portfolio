@@ -90,27 +90,43 @@ Comprehensive security assessment and vulnerability remediation. M365 hardening,
 
 ## Why hire me for GRC engineering
 
-<div class="section-panel" markdown>
+**I implement the controls, not just document them.** Most GRC professionals write policies and manage spreadsheets. I architect and build the technical systems that satisfy those controls.
 
-**I implement the controls, not just document them.**
+<div class="feature-grid" markdown>
 
-Most GRC professionals write policies and manage spreadsheets. I architect and build the technical systems that satisfy those controls:
+<div class="feature-tile" markdown>
+### :material-desktop-classic: &nbsp; Endpoint Compliance
+Delivered PCI-DSS Windows 11 hardening (BitLocker, GPO, EDR) with a complete evidence pack in <48 hours.
+</div>
 
-- **Endpoint compliance** — Delivered PCI-DSS Windows 11 hardening (BitLocker, GPO, firewall rules, patch automation, EDR) with complete evidence pack in <48 hours for financial services client.
+<div class="feature-tile" markdown>
+### :material-robot-industrial: &nbsp; Compliance Automation
+Deployed GIAP™, an intake platform (n8n, Nextcloud) with RBAC, retention policies, and 100+ framework coverage.
+</div>
 
-- **Compliance automation** — Deployed GIAP™ intake platform: CISO Assistant + n8n + Nextcloud + SuiteCRM on self-hosted Proxmox. RBAC, retention policies, consent management, and 100+ framework coverage.
+<div class="feature-tile" markdown>
+### :material-file-document-multiple: &nbsp; Evidence Pipelines
+Built audit-grade logging systems with structured schemas and export workflows for cloud and access control data.
+</div>
 
-- **Evidence pipelines** — Built audit-grade logging systems with structured schemas and evidence export workflows. Applied across cloud logs, access controls, and compliance data collection.
+<div class="feature-tile" markdown>
+### :material-magnify-scan: &nbsp; Detection & Response
+Operate a Security Onion + TheHive/Cortex lab to author SIEM rules, tune alerts, and write IR playbooks.
+</div>
 
-- **Detection & response** — Operate active Security Onion + TheHive/Cortex lab. Author SIEM rules, tune false positives, write IR playbooks. Understand security operations, not just governance.
+<div class="feature-tile" markdown>
+### :material-cloud-lock: &nbsp; Cloud Governance
+Designing an AWS Control Pack with S3 default-deny, GuardDuty pipelines, and scoped IAM mapped to CIS/NIST.
+</div>
 
-- **Cloud governance** — Designing AWS Control Pack with S3 default-deny, GuardDuty export pipelines, scoped IAM roles, and CIS/NIST mapping.
-
-- **AI-assisted workflows** — Use LLM tools for policy drafting, control mapping, and documentation generation with human review. Faster delivery without sacrificing rigor.
-
-**Bottom line:** Hire me if you need someone who can design a control framework, implement the technical architecture, document everything with evidence, and hand auditors a clean package.
+<div class="feature-tile" markdown>
+### :material-brain: &nbsp; AI-Assisted Workflows
+Use LLM tools for accelerated policy drafting, control mapping, and documentation with rigorous human review.
+</div>
 
 </div>
+
+**Bottom line:** I design the framework, build the architecture, and deliver audit-ready evidence.
 
 ---
 

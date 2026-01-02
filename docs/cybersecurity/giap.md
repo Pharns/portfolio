@@ -617,3 +617,16 @@ Pairs with [Cloud Control Pack](aws-control-pack.md) for cloud governance and [T
 ---
 
 [Contact](../contact.md){ .md-button .md-button--primary } [LinkedIn](https://www.linkedin.com/in/pharns/){ .md-button }
+
+<br>
+---
+<div style="display: flex; justify-content: space-between; align-items: center;">
+    <a href="pci-dss/index.md" class="btn-ghost" style="text-align: left;">
+        &larr; Previous Project<br>
+        <span style="font-weight: bold; font-size: 1.1em;">PCI-DSS Compliance</span>
+    </a>
+    <a href="intake-portal.md" class="btn-ghost" style="text-align: right;">
+        Next Project &rarr;<br>
+        <span style="font-weight: bold; font-size: 1.1em;">Secure Intake Portal</span>
+    </a>
+</div>
