@@ -162,13 +162,18 @@ flowchart TB
 
 The first n8n workflow is operational and logging intake submissions to Nextcloud:
 
-```
-Portal (v2.2) → POST /webhook/giap-simple → n8n → Nextcloud WebDAV
-                                              │
-                                              ├── Edit Fields (filename, content)
-                                              └── HTTP Request (PUT to Nextcloud)
+```mermaid
+flowchart TD
+    subgraph GIAP Intake Simple Workflow
+        direction LR
+        A["Portal (v2.2)"] -- "POST /webhook/giap-simple" --> B(n8n);
+        B -- "Edit Fields (filename, content)" --> B;
+        B -- "HTTP Request (PUT)" --> C[/"Nextcloud WebDAV"/];
+    end
+    C -- "Output: /GIAP-Intakes/....json" --> D((Log File));
 
-Output: /GIAP-Intakes/YYYY-MM-DD_HH-mm-ss_intake.json
+    style C fill:#f9f,stroke:#333,stroke-width:2px
+    style D fill:#bbf,stroke:#333,stroke-width:2px
 ```
 
 **Verified:** End-to-end test successful (2025-12-31). Intake JSON files automatically created in Nextcloud `GIAP-Intakes/` folder.
