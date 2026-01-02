@@ -121,11 +121,11 @@ nav:
   - Baseline Evidence Drop: cybersecurity/baseline-evidence-drop.md
   - Detection & IR Lab: cybersecurity/incident-response.md
   - TraceLock™ (RF Security): cybersecurity/tracelock.md
-  - Homelab Infrastructure: cybersecurity/homelab-infrastructure.md
-  - Homelab Build Journey: cybersecurity/homelab-journey.md
   - Remote Access & Zero-WAN: cybersecurity/remote-access-zero-wan.md
   - Penetration Testing: cybersecurity/penetration-testing.md
   - Vulnerability Assessment: cybersecurity/vulnerability-assessment.md
+  - Homelab Infrastructure: cybersecurity/homelab-infrastructure.md
+  - Homelab Build Journey: cybersecurity/homelab-journey.md
 - Innovation:
   - Overview: innovation/index.md
   - AgenticOS — AI Orchestration: innovation/agenticos.md
