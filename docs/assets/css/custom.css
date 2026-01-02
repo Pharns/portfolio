@@ -416,15 +416,17 @@
 /* Skip link for accessibility */
 .skip-link {
   position: absolute;
-  top: -40px;
+  top: -99px; /* Hide it further off-screen */
   left: 0;
   background: var(--pg-accent);
   color: #ffffff;
-  padding: 8px 16px;
+  padding: 0.25rem 0.75rem; /* Reduced padding */
   z-index: 9999;
-  font-weight: 600;
+  font-size: 0.875rem; /* Smaller font */
+  font-weight: 500; /* Less bold */
   text-decoration: none;
   border-radius: 0 0 4px 0;
+  transition: top 0.1s ease-in-out;
 }
 
 .skip-link:focus {
