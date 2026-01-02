@@ -8,7 +8,7 @@ GRC engineer, cloud security practitioner, and AAM cybersecurity specialist. I b
 
 Evidence-first methodology (controls, logs, screenshots), plain-English reporting, AI-assisted with human review, rapid iterations and clear handoffs.
 
-**Credentials:** WGU B.S. Cybersecurity (Dec 2025) · Security+/Net+/A+ · ITIL4 · ISC² CC/SSCP (Assoc.) · LPI · FAA Part 107 · HAM/GMRS
+**Credentials:** WGU B.S. Cybersecurity (Feb 2026) · Security+/Net+/A+ · ITIL4 · ISC² CC/SSCP (Assoc.) · LPI · FAA Part 107 · HAM/GMRS
 **Scheduled:** CySA+/PenTest+ (Jan 2026) · AWS CP/CCSP (Q1 2026)
 
 - Service-disabled veteran (USAF) — security clearance eligible
