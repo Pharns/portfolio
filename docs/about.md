@@ -21,7 +21,7 @@ Evidence-first methodology (controls, logs, screenshots), plain-English reportin
 ## Professional experience
 
 ### AAM Cyber, LLC — Founder/Operator
-*2023 – Present · GRC Consulting*
+*2024 – Present · GRC Consulting*
 
 Security consulting practice focused on compliance automation and GRC engineering for SMBs:
 
