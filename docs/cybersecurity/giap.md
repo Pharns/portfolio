@@ -15,21 +15,21 @@ description: Multi-agent GRC automation platform with n8n orchestration — stre
 
 ---
 
-!!! info "Project Status: Architecture Locked, End-to-End Intake Working"
-    **Infrastructure:** Deployed — Proxmox stack with CISO Assistant, Nextcloud, n8n, and SuiteCRM operational. DocuSeal pending deployment.
+!!! info "Project Status: Production MVP — 4 Automated Workflows Operational"
+    **Infrastructure:** Deployed — Proxmox stack with CISO Assistant, Nextcloud, n8n, SuiteCRM, and SMTP relay (Postfix) operational. DocuSeal callback workflow configured.
 
     **Architecture:** Locked — Streamlined single-GRC-platform design with n8n orchestration.
 
-    **Implementation:** Active — Portal v2.2 deployed with security hardening (WCAG 2.1 AA); n8n intake workflow operational; CISO Assistant running; end-to-end intake → Nextcloud logging verified.
+    **Implementation:** Active — Portal v2.2 deployed with security hardening (WCAG 2.1 AA); 4 n8n workflows operational (intake ingestion, Nextcloud logging, DocuSeal callbacks, backup automation); SuiteCRM Lead + Case creation working; CISO Assistant running.
 
     **Live Domains:**
 
-    - `portal.aamcyber.work` — Client intake wizard
-    - `flows.aamcyber.work` — n8n workflow automation
+    - `portal.aamcyber.work` — Client intake wizard (v2.2, security hardened)
+    - `flows.aamcyber.work` — n8n workflow automation (4 workflows)
     - `files.aamcyber.work` — Nextcloud evidence vault
     - `grc.aamcyber.work` — CISO Assistant GRC platform
     - `crm.aamcyber.work` — SuiteCRM client management
-    - `docs.aamcyber.work` — DocuSeal (pending deployment)
+    - `docs.aamcyber.work` — DocuSeal signature automation
 
 ---
 
@@ -148,15 +148,15 @@ flowchart TB
 
 | Workflow | Phase | Function | Status |
 |----------|-------|----------|--------|
-| **Intake Simple** | Pre | Portal → webhook → Nextcloud JSON logging | ✅ Working |
-| **Backup Automation** | Ops | Daily n8n + CISO Assistant backups → Nextcloud | ⬜ Configure |
-| **Intake Processing** | Pre | Normalize intake → CRM sync | ⬜ Build |
+| **Intake Ingestion** | Pre | Portal → webhook → SuiteCRM Lead + Case → Nextcloud JSON | ✅ Working |
+| **Nextcloud Logging** | Pre | WebDAV upload of intake JSON to evidence vault | ✅ Working |
+| **DocuSeal Callback** | Pre | Signature webhook → update SuiteCRM Case status | ✅ Configured |
+| **Backup Automation** | Ops | Daily n8n + CISO Assistant backups → Nextcloud | ✅ Created |
 | **Assessment Trigger** | Pre | Create CISO Assistant project from intake | ⬜ Build |
-| **Document Generation** | Pre | Trigger DocuSeal for engagement letter | ⬜ Build |
 | **Evidence Collection** | Post | Upload artifacts to Nextcloud folders | ⬜ Build |
 | **Gap Analysis** | Post | CISO Assistant API → extract gaps | ⬜ Build |
 | **POA&M Generation** | Post | Gaps → POAMAgent templates | ⬜ Future |
-| **Notifications** | Both | Status updates, reminders, alerts | ⬜ Build |
+| **Notifications** | Both | SMTP relay (Postfix) for status updates | ⬜ Configure |
 
 ### Working Workflow: GIAP Intake Simple
 
@@ -479,14 +479,16 @@ GIAP™ supports 90-day recurring assessment cycles for vCISO engagements:
 |-----------|--------|-------|
 | Architecture design | ✅ Locked | Streamlined single-GRC-platform design |
 | Portal (Static) | ✅ Deployed | v2.2 with security hardening, WCAG 2.1 AA |
-| n8n Orchestration | ✅ Running | Workflow automation operational |
-| n8n Intake Workflow | ✅ Working | End-to-end intake → Nextcloud logging verified |
+| n8n Orchestration | ✅ Running | 4 workflows operational |
+| n8n Intake Workflow | ✅ Working | Portal → webhook → SuiteCRM + Nextcloud |
+| n8n DocuSeal Callback | ✅ Configured | Signature webhook → Case status update |
+| n8n Backup Workflow | ✅ Created | Daily backups to Nextcloud |
 | Nextcloud | ✅ Running | Evidence vault operational, WebDAV API working |
-| SuiteCRM | ✅ Running | CRM operational |
+| SuiteCRM | ✅ Running | Lead + Case creation, custom status dropdown |
 | CISO Assistant | ✅ Running | Primary GRC platform with 100+ frameworks |
-| n8n Backup Workflow | ⬜ Configure | Workflow created, pending credential setup |
-| DocuSeal | ⬜ Deploy | Container needs restart/fix |
-| n8n CRM Workflow | ⬜ Build | Intake → SuiteCRM lead creation |
+| SMTP Relay | ✅ Deployed | Postfix container on port 587 |
+| DocuSeal | ✅ Configured | Callback workflow ready, templates pending |
+| n8n Notifications | ⬜ Configure | SMTP credentials pending |
 | GIAC API (FastAPI) | ⬜ Future | RBAC, audit logging, API endpoints |
 | GIAC UI (React) | ⬜ Future | Full-featured portal (replaces static) |
 | POAMAgent | ⬜ Future | Custom POA&M generation |
@@ -519,6 +521,32 @@ The intake portal underwent comprehensive security hardening with expert panel r
 | **Mobile UX** | 48px touch targets, 16px font-size (prevents iOS zoom), 375px breakpoint |
 | **Compliance** | CCPA/CPRA disclosures, COPPA children's privacy statement |
 | **Hardened Endpoint** | Webhook URL hardcoded (eliminates localStorage injection vulnerability) |
+
+**Code Sample — Security Implementation:**
+
+```javascript
+// XSS Prevention - strips HTML tags to prevent injection
+const stripHtml = (str) => {
+  if (typeof str !== "string") return "";
+  return str.replace(/<[^>]*>/g, "").trim();
+};
+
+// RFC 5322 compliant email validation
+const isValidEmail = (email) => {
+  const emailRegex = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$/;
+  return emailRegex.test(email) && email.length <= 254;
+};
+
+// Rate limiting - 5 second throttle prevents form spam
+let lastSubmission = 0;
+const THROTTLE_MS = 5000;
+
+// Honeypot - fake success for bots filling hidden field
+if (error === "HONEYPOT") {
+  showAlert("Thank you! Your request has been submitted.", "success");
+  return; // Don't actually submit
+}
+```
 
 ---
 
