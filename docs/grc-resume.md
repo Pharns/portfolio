@@ -30,7 +30,7 @@ AI-augmented Cloud/GRC and Detection Engineer who builds audit-ready cloud and h
 - Developed TraceLock™ RF telemetry platform with evidence-grade logging; CI/smoke tests and secure coding patterns.
 
 ## Education & Certifications
-- B.S. Cybersecurity & Information Assurance (WGU) — in progress (Dec 2025)
+- B.S. Cybersecurity & Information Assurance (WGU) — in progress (Feb 2026)
 - CompTIA Security+; ISC² SSCP (Assoc.); ISC2 CC
 - CompTIA CSIS, Network+, CIOS, A+, Project+, LPI Linux Essentials, ITIL Foundations
 - Pending: AWS Cloud Practitioner; CySA+; PenTest+

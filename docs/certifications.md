@@ -4,7 +4,7 @@ description: "Security+, Network+, SSCP Associate, ISC2 CC, ITIL4, LPI. CySA+, P
 
 # Certifications & Education
 
-- **Education & licenses:** B.S. Cybersecurity & Information Assurance (WGU) — Dec 2025 (in progress)
+- **Education & licenses:** B.S. Cybersecurity & Information Assurance (WGU) — Feb 2026 (in progress)
 - **Licenses:** FAA Part 107 Remote Pilot · HAM/GMRS
 
 **Verify badges:** [Credly profile](https://www.credly.com/users/pharns)

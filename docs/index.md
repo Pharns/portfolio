@@ -10,7 +10,7 @@ I design, implement, and document security controls end-to-end. Not just policie
 
 **Targeting:** GRC Engineer · Cloud Security Engineer · Detection Engineering · Security Automation
 
-USAF Veteran (service-disabled) · Security Clearance Eligible · Security+/SSCP · B.S. Cybersecurity (Dec 2025)
+USAF Veteran (service-disabled) · Security Clearance Eligible · Security+/SSCP · B.S. Cybersecurity (Feb 2026)
 
 [View GRC Projects](grc/index.md){ .btn-primary } [Contact](contact.md){ .btn-ghost }
 
@@ -46,8 +46,15 @@ Comprehensive security assessment and vulnerability remediation. M365 hardening,
 
 <small>*USOG: Internal infrastructure I built and maintained as CEO/Sysadmin. Client engagements via AAM Cyber, LLC.*</small>
 
-!!! tip "Aerospace & Defense Recruiters"
-    **Looking for AAM/drone cybersecurity expertise?** I've designed, built, and fielded operational UAV systems — not just studied them. USPTO patents in UAV payload systems, FAA Part 107 certified, with RF/SDR security research (TraceLock™). [View AAM credentials →](#aam-cybersecurity-specialization)
+!!! abstract "Aerospace & Defense Recruiters — Unique AAM/UAS Credentials"
+    **I don't just study drone security — I've designed, built, and fielded operational UAV systems.**
+
+    - **CEO of $5.6M drone logistics company** (USOG) — 7 years operational experience
+    - **USPTO patents** in UAV payload and delivery architectures
+    - **TraceLock™** — Patent-pending RF threat detection platform (Wi-Fi/BLE/SDR/GPS/ADS-B)
+    - **FAA Part 107** certified | **HAM/GMRS** licensed | **18-year USAF veteran**
+
+    Few practitioners combine drone operations, RF/SDR expertise, and cybersecurity credentials. [View full AAM credentials →](#aam-cybersecurity-specialization)
 
 <script type="application/ld+json">
 {
@@ -224,12 +231,39 @@ Mission-critical operations, security clearance eligible
 
 ---
 
+## AI-augmented security engineering
+
+<div class="section-panel" markdown>
+
+**I build AI systems, not just use them.** CareerOS — the multi-agent system powering my job search — demonstrates production-grade prompt engineering, context management, and workflow orchestration.
+
+**What I've built:**
+
+- **CareerOS** — 1,100+ line system prompt with 36-expert advisory panel, structured JSON schemas, multi-model orchestration (Claude, GPT, Gemini)
+- **GIAP™** — GRC automation with n8n workflows, webhook pipelines, and planned MCP integration for natural language compliance queries
+- **TraceLock™** — AI-assisted detection tuning and false positive reduction through pattern extraction
+
+**Why this matters for security roles:**
+
+| Traditional Approach | AI-Augmented Approach |
+|---------------------|----------------------|
+| Manual SIEM rule authoring | LLM-assisted detection content with human validation |
+| Copy-paste policy templates | Structured prompt → consistent, auditable output |
+| Spreadsheet control mapping | AI-driven cross-framework mapping at scale |
+| Ad-hoc documentation | Living docs generated from structured schemas |
+
+**Skills:** Prompt Engineering · Multi-Agent Orchestration · Context Management · Structured Output Design · AI-Assisted Code Review · MCP Protocol
+
+</div>
+
+---
+
 ## Credentials & frameworks
 
 <div class="stat-grid" markdown>
 <div class="stat-tile" markdown>
 **Education**
-B.S. Cybersecurity & Information Assurance (WGU) — Dec 2025
+B.S. Cybersecurity & Information Assurance (WGU) — Feb 2026
 </div>
 <div class="stat-tile" markdown>
 **10 Active Certifications**
