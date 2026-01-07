@@ -5,13 +5,13 @@ description: Multi-agent GRC automation platform with n8n orchestration — stre
 *Updated: {{ page.meta.git_revision_date_localized or "" }}*
 
 !!! tldr "For recruiters & hiring managers"
-    **What:** Streamlined GRC automation platform with n8n orchestration. End-to-end intake workflow operational (Portal → n8n → Nextcloud). Single GRC platform (CISO Assistant) for both pre-engagement assessment and post-engagement delivery. Orchestrates client intake, CRM sync, legal document automation, cross-framework control mapping, and POA&M generation.
+    **What:** Streamlined GRC automation platform with n8n orchestration. End-to-end intake workflow operational (Portal → HMAC-authenticated webhook → n8n → Nextcloud). Single GRC platform (CISO Assistant) for both pre-engagement assessment and post-engagement delivery. Orchestrates client intake, CRM sync, legal document automation, cross-framework control mapping, and POA&M generation.
 
-    **Why this matters:** Demonstrates senior-level systems architecture, API-first design, and practical automation — reducing operational overhead while maintaining audit-ready workflows. Portal security hardening shows application security discipline (XSS prevention, WCAG 2.1 AA).
+    **Why this matters:** Demonstrates senior-level systems architecture, API-first design, and practical automation — reducing operational overhead while maintaining audit-ready workflows. Portal security hardening shows application security discipline (XSS prevention, HMAC webhook authentication, replay attack prevention, WCAG 2.1 AA).
 
     **Impact:** Reduces audit prep time by ~70%; automates end-to-end GRC lifecycle from intake to remediation tracking with a single, API-first GRC platform.
 
-    **Skills:** Systems Architecture · n8n Orchestration · Webhook Integration · Application Security · WCAG 2.1 AA · CISO Assistant · GRC Automation · Control Mapping · SOC 2 · NIST CSF · CIS v8 · HIPAA · CPRA · Evidence Pipelines · API Design · RBAC · Audit Logging
+    **Skills:** Systems Architecture · n8n Orchestration · Webhook Security (HMAC-SHA256) · API Authentication · Application Security · WCAG 2.1 AA · CISO Assistant · GRC Automation · Control Mapping · SOC 2 · NIST CSF · CIS v8 · HIPAA · CPRA · Evidence Pipelines · API Design · RBAC · Audit Logging
 
 ---
 
@@ -148,7 +148,7 @@ flowchart TB
 
 | Workflow | Phase | Function | Status |
 |----------|-------|----------|--------|
-| **Intake Ingestion** | Pre | Portal → webhook → SuiteCRM Lead + Case → Nextcloud JSON | ✅ Working |
+| **Intake Ingestion** | Pre | Portal → HMAC-authenticated webhook → SuiteCRM Lead + Case → Nextcloud JSON | ✅ Working |
 | **Nextcloud Logging** | Pre | WebDAV upload of intake JSON to evidence vault | ✅ Working |
 | **DocuSeal Callback** | Pre | Signature webhook → update SuiteCRM Case status | ✅ Configured |
 | **Backup Automation** | Ops | Daily n8n + CISO Assistant backups → Nextcloud | ✅ Created |
@@ -548,6 +548,63 @@ if (error === "HONEYPOT") {
 }
 ```
 
+### Webhook Authentication (HMAC-SHA256)
+
+Portal-to-n8n webhook communication uses **HMAC-SHA256 signature verification** to ensure request authenticity, payload integrity, and replay prevention:
+
+```mermaid
+sequenceDiagram
+    participant P as Portal
+    participant N as n8n Webhook
+
+    P->>P: Build payload
+    P->>P: Get timestamp (epoch ms)
+    P->>P: Compute HMAC-SHA256(timestamp.payload, secret)
+    P->>N: POST with headers:<br/>X-GIAP-Timestamp<br/>X-GIAP-Signature: sha256=...
+    N->>N: Extract timestamp & signature
+    N->>N: Recompute HMAC with same secret
+    N->>N: Compare signatures
+    N->>N: Verify timestamp < 5 min old
+    alt Valid
+        N->>N: ✅ Process request
+    else Invalid
+        N->>P: ❌ Reject (401)
+    end
+```
+
+**Attack Prevention:**
+
+| Attack | How HMAC Stops It |
+|--------|-------------------|
+| **Unauthorized submissions** | Attacker doesn't know the signing secret |
+| **Replay attacks** | Timestamp expires after 5 minutes |
+| **Payload tampering** | Any modification invalidates the signature |
+
+**Code Sample — HMAC Signature Generation:**
+
+```javascript
+// Generate HMAC-SHA256 signature for webhook authentication
+async function generateSignature(payload, secret) {
+  const timestamp = Date.now();
+  const message = `${timestamp}.${JSON.stringify(payload)}`;
+
+  const encoder = new TextEncoder();
+  const key = await crypto.subtle.importKey(
+    'raw', encoder.encode(secret),
+    { name: 'HMAC', hash: 'SHA-256' }, false, ['sign']
+  );
+
+  const signature = await crypto.subtle.sign('HMAC', key, encoder.encode(message));
+  const hex = Array.from(new Uint8Array(signature))
+    .map(b => b.toString(16).padStart(2, '0')).join('');
+
+  return { timestamp, signature: `sha256=${hex}` };
+}
+```
+
+!!! warning "Defense-in-Depth Limitation"
+    For a public form, the signing secret is visible in browser DevTools (client-side JavaScript). This implementation **raises the bar** for attackers but isn't cryptographically bulletproof — true end-to-end security would require a backend proxy. This is an intentional trade-off: defense-in-depth protection without backend infrastructure overhead.
+
 ---
 
 ## Output Artifacts
@@ -624,6 +681,7 @@ if (error === "HONEYPOT") {
 | **Backend** | FastAPI, SQLAlchemy, Alembic migrations, RBAC enforcement, audit logging |
 | **Frontend** | Static HTML/JS (security hardened), React, Vite, API consumption patterns |
 | **Application Security** | XSS prevention, input sanitization, rate limiting, honeypot bot detection, WCAG 2.1 AA |
+| **API/Webhook Security** | HMAC-SHA256 authentication, replay attack prevention, timestamp validation, cryptographic integrity |
 | **DevOps** | Proxmox virtualization, Tailscale networking, GitHub Actions CI, Nginx Proxy Manager |
 | **Security** | Append-only audit logs, PHI/PII protection, TLS enforcement, least-privilege design |
 
@@ -634,6 +692,7 @@ if (error === "HONEYPOT") {
 - **Senior-level systems architecture** — Multi-agent orchestration with clear two-phase workflow
 - **Operational automation** — End-to-end intake workflow with n8n, webhooks, and WebDAV integration
 - **Security engineering discipline** — Comprehensive portal hardening with XSS prevention, rate limiting, and WCAG 2.1 AA compliance
+- **API security maturity** — HMAC-SHA256 webhook authentication with replay attack prevention and cryptographic integrity verification
 - **Right tool for the job** — CISO Assistant for both speed and depth with 100+ frameworks
 - **Custom tooling capability** — POAMAgent built in-house for branded deliverables
 - **Enterprise GRC platform experience** — CISO Assistant for production risk, compliance, and control management
