@@ -15,12 +15,20 @@ description: Multi-agent GRC automation platform with n8n orchestration — stre
 
 ---
 
-!!! info "Project Status: Production MVP — 4 Automated Workflows Operational"
-    **Infrastructure:** Deployed — Proxmox stack with CISO Assistant, Nextcloud, n8n, SuiteCRM, and SMTP relay (Postfix) operational. DocuSeal callback workflow configured.
+!!! info "Project Status: Production MVP — E2E Pipeline Verified"
+    **Infrastructure:** Deployed — Proxmox stack with CISO Assistant, Nextcloud, n8n, SuiteCRM, and SMTP relay (Postfix) operational. DocuSeal callback workflow configured. Cloudflare DNS with DDoS protection.
 
     **Architecture:** Locked — Streamlined single-GRC-platform design with n8n orchestration.
 
-    **Implementation:** Active — Portal v2.2 deployed with security hardening (WCAG 2.1 AA); 4 n8n workflows operational (intake ingestion, Nextcloud logging, DocuSeal callbacks, backup automation); SuiteCRM Lead + Case creation working; CISO Assistant running.
+    **Implementation:** Active — Portal v2.2 deployed with security hardening (WCAG 2.1 AA); 4 n8n workflows operational (intake ingestion, Nextcloud logging, DocuSeal callbacks, backup automation); SuiteCRM Lead + Case creation working; CISO Assistant running; Resend email notifications configured.
+
+    **Project Metrics:**
+
+    - Portal: 829 lines (HTML/JS/CSS)
+    - n8n Workflows: 4 active, 2,374 lines JSON
+    - Documentation: 33+ markdown files
+    - Services: 6 integrated (Portal, n8n, Nextcloud, SuiteCRM, DocuSeal, CISO Assistant)
+    - Roadmap: ~60% complete
 
     **Live Domains:**
 
@@ -115,12 +123,18 @@ GIAP™ is a streamlined GRC automation platform with **n8n orchestration** and 
 
 ```mermaid
 flowchart TB
+    subgraph EDGE[EDGE LAYER]
+        CF[Cloudflare DNS/WAF]
+        NPM[Nginx Proxy Manager]
+    end
+
     subgraph UI[PRESENTATION LAYER]
-        PORTAL[GIAC UI - React]
+        PORTAL[Intake Portal v2.2]
     end
 
     subgraph ORCH[ORCHESTRATION LAYER]
         N8N[n8n Workflows]
+        RESEND[Resend API]
     end
 
     subgraph DATA[DATA LAYER]
@@ -131,12 +145,17 @@ flowchart TB
         DS[DocuSeal]
     end
 
-    PORTAL --> N8N
+    CF --> NPM
+    NPM --> PORTAL
+    NPM --> N8N
+    PORTAL -->|HMAC Webhook| N8N
     N8N --> CA
     N8N --> CRM
     N8N --> NC
     N8N --> DS
+    N8N --> RESEND
 
+    style EDGE fill:#fef2f2,stroke:#dc2626,stroke-width:2px
     style UI fill:#f3e8ff,stroke:#7c3aed,stroke-width:2px
     style ORCH fill:#fef3c7,stroke:#d97706,stroke-width:2px
     style DATA fill:#e0f2fe,stroke:#0284c7,stroke-width:2px
@@ -184,26 +203,29 @@ flowchart TD
 flowchart TB
     subgraph PRE[PRE-ENGAGEMENT]
         direction TB
-        PORTAL[GIAC Portal] --> N8N1[n8n: Intake]
-        N8N1 --> CA[CISO Assistant]
-        CA --> CRM[SuiteCRM]
+        PORTAL[Intake Portal] --> N8N1[n8n: Intake]
+        N8N1 --> NC1[Nextcloud JSON]
+        N8N1 --> CRM[SuiteCRM Lead]
+        N8N1 --> RESEND1[Resend: Notification]
         CRM --> DS[DocuSeal]
+        DS --> N8N2[n8n: Signed Callback]
+        N8N2 --> RESEND2[Resend: Confirmation]
     end
 
     DG[DEPOSIT GATE]
 
     subgraph POST[POST-ENGAGEMENT]
         direction TB
-        CA2[CISO Assistant] --> N8N2[n8n: Assessment]
-        N8N2 --> NC[Nextcloud]
-        NC --> POA[POAMAgent]
+        CA[CISO Assistant] --> N8N3[n8n: Assessment]
+        N8N3 --> NC2[Nextcloud Evidence]
+        NC2 --> POA[POAMAgent]
         POA --> REM[Remediation]
         REM --> VCISO[vCISO Cycle]
     end
 
     DS --> DG
-    DG --> CA2
-    VCISO -.-> CA2
+    DG --> CA
+    VCISO -.-> CA
 
     style PRE fill:#e8f4ea,stroke:#2e7d32,stroke-width:2px
     style POST fill:#e0f2fe,stroke:#0284c7,stroke-width:2px
@@ -297,8 +319,10 @@ Ready to create intake in SuiteCRM?
 | **Files** | Nextcloud | Evidence vault, document storage | ✅ Running |
 | **CRM** | SuiteCRM | Client records, intake tracking | ✅ Running |
 | **Signatures** | DocuSeal (self-hosted) | Engagement letters, DPAs, BAAs, NDAs | ⬜ Deploy |
+| **Email** | Resend | Transactional notifications, status alerts | ✅ Configured |
 | **POA&M** | POAMAgent (custom) | Branded deliverables, multi-format output | ⬜ Future |
 | **Proxy** | Nginx Proxy Manager | TLS termination, routing | ✅ Running |
+| **DNS** | Cloudflare | DNS management, DDoS protection, WAF | ✅ Running |
 | **Infrastructure** | Proxmox LXC/VM | Isolated service VMs | ✅ Running |
 | **Access** | Tailscale | Admin routes restricted by CGNAT + ACL | ✅ Running |
 
@@ -329,19 +353,20 @@ Ready to create intake in SuiteCRM?
 
 ## Framework Coverage
 
-CISO Assistant provides **100+ pre-loaded frameworks** with auto-mapping:
+CISO Assistant provides **100+ pre-loaded frameworks** with auto-mapping. Current implementation depth for GIAP™ intake workflows:
 
-| Framework | Status | Platform |
-|-----------|--------|----------|
-| **SOC 2** | Full mapping | CISO Assistant |
-| **NIST CSF v2.0** | Full mapping | CISO Assistant |
-| **CIS Controls v8** | Full mapping | CISO Assistant |
-| **HIPAA** | Full mapping | CISO Assistant |
-| **CPRA** | Full mapping | CISO Assistant |
-| **ISO 27001** | Full mapping | CISO Assistant |
-| **PCI-DSS** | Full mapping | CISO Assistant |
-| **GDPR** | Full mapping | CISO Assistant |
-| **AAM Unified Controls** | Proprietary | Cross-framework mapping |
+| Framework | Implementation | Notes |
+|-----------|----------------|-------|
+| **CIS Controls v8** | 80% | IG1/IG2 complete, targeted IG3 controls |
+| **NIST CSF 2.0** | 80% | All 5 functions, moderate depth |
+| **HIPAA** | 80% | Security Rule strong, Privacy Rule partial |
+| **SOC 2** | 70% | CC6/CC7 focus, other criteria partial |
+| **NIST 800-53** | 60% | Moderate baseline started |
+| **CPRA** | Full | California privacy requirements mapped |
+| **ISO 27001** | Full | Control mapping via CISO Assistant |
+| **PCI-DSS** | Full | Control mapping via CISO Assistant |
+| **GDPR** | Full | Control mapping via CISO Assistant |
+| **AAM Unified Controls** | Proprietary | Cross-framework normalization layer |
 
 ### HIPAA Coverage
 
@@ -356,6 +381,19 @@ GIAP™ supports HIPAA Security Rule and Privacy Rule compliance for healthcare 
 | §164.312(e) Transmission Security | TLS everywhere, encrypted transit | AAM.TRANS-01 |
 | §164.308(a) Security Management | Risk analysis, sanctions, review | CISO Assistant Risk |
 | §164.310 Physical Safeguards | Facility access, workstation security | Policy documentation |
+
+### Industry Profiles
+
+GIAP™ intake schema includes **jurisdiction-aware, industry-specific modules** with auto-detected compliance requirements:
+
+| Industry | Compliance Requirements | GIAP™ Support |
+|----------|------------------------|---------------|
+| **Law Firms** | CA Bar Rules, ABA Formal Opinion 477R, client confidentiality | Jurisdiction-aware intake (CA/AZ/CONUS), evidence vault isolation |
+| **Healthcare** | HIPAA Security/Privacy Rule, HITECH, BAA requirements | Auto-detect PHI flag, BAA templates in DocuSeal |
+| **SaaS/Technology** | SOC 2 Type II, vendor security questionnaires | TSC mapping, evidence collection workflows |
+| **Financial Services** | GLBA, state regulations, PCI-DSS (if payment) | Multi-framework mapping, audit trail |
+| **Government Contractors** | NIST 800-53, CMMC, FedRAMP (if cloud) | Federal baseline controls, CUI handling |
+| **HNWI/Public Figures** | Privacy-first, minimal data retention, OPSEC | Data minimization, encrypted storage, access logging |
 
 ### PropTech/IoT Compliance (Emerging Use Case)
 
