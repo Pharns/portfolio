@@ -1,5 +1,5 @@
 ---
-description: Security compliance intake portal case — IAM, TLS/email hardening, retention, and evidence logging for GRC/Compliance Analyst roles.
+description: "Security compliance intake portal — IAM, TLS hardening, retention, and evidence logging for GRC Engineer and Cloud Security Analyst roles."
 ---
 # Secure Intake & Evidence Portal
 *Updated: {{ page.meta.git_revision_date_localized or "" }}*

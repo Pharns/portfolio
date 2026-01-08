@@ -1,5 +1,5 @@
 ---
-description: AgenticOS — Deterministic AI agent orchestration framework with explainable routing, structured logging, and audit-grade execution for security workflows. Python-based CLI for multi-provider AI automation.
+description: "AgenticOS — Deterministic AI agent orchestration with explainable routing, structured logging, and audit-grade execution for security automation workflows."
 ---
 # AgenticOS — Deterministic AI Agent Orchestration
 

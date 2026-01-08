@@ -1,5 +1,5 @@
 ---
-description: Egress-only remote access stack with Tailscale + RustDesk + GL.iNet (OpenWrt) for Zero-WAN exposure and evidence-ready hardening.
+description: "Egress-only remote access with Tailscale + RustDesk + GL.iNet (OpenWrt) for Zero-WAN exposure. Cloud Security and GRC evidence-ready hardening."
 ---
 # Remote access & Zero-WAN (GL.iNet + Tailscale + RustDesk)
 *Updated: {{ page.meta.git_revision_date_localized or "" }}*

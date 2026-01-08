@@ -1,5 +1,5 @@
 ---
-description: "Penetration testing lab and training: Kali Linux, Metasploit, hardware toolkit (HackRF, Flipper Zero, LoRa/Meshtastic, O.MG Cable). CySA+ and PenTest+ Jan 2026. Purple team perspective for GRC."
+description: "Pentesting lab with CySA+/PenTest+ training — hardware toolkit (HackRF, Flipper Zero, LoRa). Purple team perspective strengthens GRC and detection engineering."
 ---
 
 # Penetration Testing (Expanding Capability)

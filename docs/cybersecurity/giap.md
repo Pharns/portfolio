@@ -1,5 +1,5 @@
 ---
-description: Multi-agent GRC automation platform with n8n orchestration — streamlined pipeline for intake, CRM sync, legal automation, control mapping, and POA&M generation across 100+ frameworks including SOC 2, NIST CSF, CIS v8, HIPAA, and CPRA.
+description: "GIAP — Multi-agent GRC automation with n8n and CISO Assistant. Intake, control mapping, and POA&M generation across 100+ frameworks for GRC Engineers."
 ---
 # GIAP™ — Multi-Agent GRC Automation Platform
 *Updated: {{ page.meta.git_revision_date_localized or "" }}*

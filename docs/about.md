@@ -1,5 +1,5 @@
 ---
-description: "Pharns Genece — GRC engineer, cloud security, and AAM cybersecurity practitioner. Evidence-first compliance, AI-augmented workflows, and hands-on technical implementation."
+description: "Pharns Genece — GRC Engineer and Cloud Security practitioner. Evidence-first compliance, AI-augmented workflows, and hands-on implementation."
 ---
 
 # About Pharns

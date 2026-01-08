@@ -1,5 +1,5 @@
 ---
-description: "AWS Cloud Control Pack: S3 default-deny storage, GuardDuty findings export, scoped IAM roles with CIS/NIST mapping. Production-ready cloud GRC baseline."
+description: "AWS Cloud Control Pack: S3 default-deny, GuardDuty export, scoped IAM with CIS/NIST mapping. Cloud Security Engineer and GRC production baseline."
 ---
 
 # Cloud Control Pack (AWS)

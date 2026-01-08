@@ -1,5 +1,5 @@
 ---
-description: Consent-first Windows evidence collector with hashes, manifest, and control mapping for Security Compliance Analyst/GRC roles.
+description: "Consent-first Windows evidence collector with hashes, manifest, and control mapping. Evidence automation for GRC Engineers and Security Analysts."
 ---
 # Baseline Evidence Drop (Consent-First Collector)
 *Updated: {{ page.meta.git_revision_date_localized or "" }}*

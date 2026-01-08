@@ -1,5 +1,5 @@
 ---
-description: "Detection and incident response lab: Security Onion SIEM, TheHive case management, Cortex enrichment. Custom Sigma rules, alert tuning, and SOC workflow practice."
+description: "Detection & IR lab: Security Onion SIEM, TheHive, Cortex enrichment. Custom Sigma rules, alert tuning for Detection Engineers and Security Analysts."
 ---
 
 # Detection & IR Lab
