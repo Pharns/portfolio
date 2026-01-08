@@ -4,24 +4,161 @@ description: "Security+, Network+, SSCP Associate, ISC2 CC, ITIL4, LPI. CySA+, P
 
 # Certifications & Education
 
-- **Education & licenses:** B.S. Cybersecurity & Information Assurance (WGU) — Feb 2026 (in progress)
-- **Licenses:** FAA Part 107 Remote Pilot · HAM/GMRS
+!!! success "For Hiring Managers"
+    **10 active certifications** aligned with GRC Engineering, Cloud Security, and Detection Engineering roles. CySA+ and PenTest+ scheduled January 2026 to strengthen offensive/defensive hybrid positioning.
 
-**Verify badges:** [Credly profile](https://www.credly.com/users/pharns)
+    [Verify on Credly](https://www.credly.com/users/pharns){ .md-button }
 
-| Date       | Credential                                      | Status | Artifact/Notes |
-|------------|-------------------------------------------------|--------|----------------|
-| 2025-01-17 | CompTIA Security+ ce                            | <span class="badge-complete">✅</span> | 2025-0117 CompTIA Security+ ce certificate.pdf |
-| 2025-08-21 | ISC² SSCP (Associate)                           | <span class="badge-complete">✅</span> | 2025-0821 ISC2-SSCP.md |
-| 2023-03-17 | ISC2 CC                                         | <span class="badge-complete">✅</span> | 2023-0317 ISC2-CC Coursera 7PXNLJBZX593.pdf |
-| 2025-01-17 | CompTIA Secure Infrastructure Specialist (CSIS) | <span class="badge-complete">✅</span> | 2025 0117 CompTIA Secure Infrastructure Specialist – CSIS.pdf |
-| 2025-01-07 | CompTIA Network+ ce                             | <span class="badge-complete">✅</span> | 2025-0107 CompTIA Network+ ce certificate.pdf |
-| 2025-01-07 | CompTIA IT Operations Specialist (CIOS)         | <span class="badge-complete">✅</span> | 2025-0107 CompTIA IT Operations Specialist – CIOS.pdf |
-| 2024-02-27 | CompTIA A+                                      | <span class="badge-complete">✅</span> | 2024-0227 CompTIA A+.pdf |
-| 2025-09-09 | Linux Professional Institute (LPI)              | <span class="badge-complete">✅</span> | 2025-0909 Linux Professional Institute - LPI.pdf |
-| 2025-05-07 | ITIL Foundations                                | <span class="badge-complete">✅</span> | 2025-0507 ITIL Foundations.pdf |
-| 2025-11-20 | CompTIA Project+ ce                             | <span class="badge-complete">✅</span> | 2025-1120 CompTIA Project+ ce certificate.pdf |
-| 2026-01    | CompTIA CySA+ (CS0-004)                         | <span class="badge-pending">Scheduled</span> | Jan 2026 |
-| 2026-01    | CompTIA Pentest+ (PT0-002)                      | <span class="badge-pending">Scheduled</span> | Jan 2026 |
-| 2026-Q1    | AWS Cloud Practitioner (CLF-C02)                | <span class="badge-pending">Planned</span> | Q1 2026 |
-| 2026-Q1    | ISC² CCSP (Certified Cloud Security Professional) | <span class="badge-pending">Planned</span> | Q1 2026 |
+---
+
+## Certification Roadmap
+
+```mermaid
+gantt
+    title Certification Timeline — GRC + Detection Engineering Path
+    dateFormat YYYY-MM
+    axisFormat %b %Y
+
+    section Foundation
+    A+ (Complete)           :done, 2024-02, 2024-03
+    Network+ (Complete)     :done, 2025-01, 2025-02
+    Security+ (Complete)    :done, 2025-01, 2025-02
+
+    section Security Specialist
+    ISC2 CC (Complete)      :done, 2023-03, 2023-04
+    SSCP Associate (Complete) :done, 2025-08, 2025-09
+    CySA+ (Scheduled)       :active, 2026-01, 2026-02
+    PenTest+ (Scheduled)    :active, 2026-01, 2026-02
+
+    section Cloud & GRC
+    AWS Cloud Practitioner  :2026-02, 2026-03
+    ISC2 CCSP              :2026-03, 2026-04
+
+    section Management
+    ITIL4 (Complete)        :done, 2025-05, 2025-06
+    Project+ (Complete)     :done, 2025-11, 2025-12
+```
+
+---
+
+## In Progress — January 2026
+
+<div class="stat-grid" markdown>
+<div class="stat-tile" markdown>
+**CompTIA CySA+ (CS0-004)**
+Threat detection, security analytics, incident response. Validates SOC analyst and detection engineering skills.
+<span class="tag-chip">Detection</span> <span class="tag-chip">SIEM</span> <span class="tag-chip">IR</span>
+**Status:** Exam scheduled January 2026
+</div>
+
+<div class="stat-tile" markdown>
+**CompTIA PenTest+ (PT0-002)**
+Penetration testing, vulnerability assessment, exploitation techniques. Validates offensive security fundamentals.
+<span class="tag-chip">Offensive</span> <span class="tag-chip">Pentest</span> <span class="tag-chip">Red Team</span>
+**Status:** Exam scheduled January 2026
+</div>
+</div>
+
+**Why these certifications matter:**
+
+- **CySA+** → Detection engineering roles require demonstrated threat analysis capability
+- **PenTest+** → Understanding offensive techniques improves defensive control design
+- **Together** → Purple team perspective: know how to attack, know how to detect
+
+---
+
+## Active Certifications
+
+### Security & Risk
+
+| Credential | Issued | Validates | Target Roles |
+|------------|--------|-----------|--------------|
+| **CompTIA Security+ ce** | Jan 2025 | Core security concepts, risk management, compliance | All security roles |
+| **ISC² SSCP (Associate)** | Aug 2025 | Security operations, access controls, incident response | SOC, Security Ops |
+| **ISC² CC** | Mar 2023 | Foundational security principles | Entry-level validation |
+| **CompTIA CSIS** | Jan 2025 | Infrastructure security (Security+ + Network+ + A+) | Security Engineering |
+
+### Networking & Infrastructure
+
+| Credential | Issued | Validates | Target Roles |
+|------------|--------|-----------|--------------|
+| **CompTIA Network+ ce** | Jan 2025 | Network architecture, troubleshooting, security | Infrastructure Security |
+| **CompTIA A+** | Feb 2024 | Hardware, OS, troubleshooting fundamentals | Foundation |
+| **CompTIA CIOS** | Jan 2025 | IT operations (Network+ + A+) | Operations |
+| **Linux Professional Institute (LPI)** | Sep 2025 | Linux administration, command line, system management | Cloud/DevSecOps |
+
+### Management & Process
+
+| Credential | Issued | Validates | Target Roles |
+|------------|--------|-----------|--------------|
+| **ITIL 4 Foundation** | May 2025 | Service management, change control, incident management | GRC, Security Ops |
+| **CompTIA Project+** | Nov 2025 | Project management, stakeholder communication | Team Lead, GRC |
+
+---
+
+## Planned — Q1 2026
+
+| Credential | Target | Why This Matters |
+|------------|--------|------------------|
+| **AWS Cloud Practitioner (CLF-C02)** | Feb 2026 | Validates cloud fundamentals for AWS security work |
+| **ISC² CCSP** | Mar 2026 | Cloud security architecture, validates senior cloud security positioning |
+
+**Cloud roadmap rationale:** AWS Control Pack portfolio project demonstrates hands-on cloud security. Certifications validate the underlying knowledge for hiring managers who require formal credentials.
+
+---
+
+## Education
+
+<div class="section-panel" markdown>
+
+### B.S. Cybersecurity & Information Assurance
+**Western Governors University** | Expected: **February 2026**
+
+**Capstone:** TraceLock™ — Multi-domain RF threat detection platform (patent pending)
+
+**Program coverage:**
+- Security frameworks (NIST, ISO 27001, PCI-DSS)
+- Network security and architecture
+- Penetration testing and ethical hacking
+- Security operations and incident response
+- Cloud security fundamentals
+- Governance, risk, and compliance
+
+**Accelerated completion:** Competency-based program allows certification stacking — 10 industry certifications earned during degree.
+
+</div>
+
+---
+
+## Licenses
+
+| License | Issued | Purpose |
+|---------|--------|---------|
+| **FAA Part 107 Remote Pilot** | Active | Legal commercial drone operations — validates AAM/UAS credibility |
+| **HAM Radio License** | Active | RF experimentation and emergency communications |
+| **GMRS License** | Active | Extended-range radio communications |
+
+---
+
+## Role Alignment
+
+| Target Role | Key Certifications | Status |
+|-------------|-------------------|--------|
+| **GRC Engineer** | Security+, SSCP, ITIL4, Project+ | ✅ Ready |
+| **Cloud Security Engineer** | Security+, Network+, AWS CP (planned), CCSP (planned) | 🔄 In Progress |
+| **Detection Engineer** | Security+, SSCP, CySA+ (Jan 2026), PenTest+ (Jan 2026) | 🔄 In Progress |
+| **Security Analyst** | Security+, CySA+ (Jan 2026), Network+ | 🔄 Jan 2026 |
+
+---
+
+## Verification
+
+All certifications verified via official channels:
+
+- **CompTIA:** [Credly profile](https://www.credly.com/users/pharns)
+- **ISC²:** Member ID verifiable upon request
+- **FAA:** Certificate available upon request
+
+---
+
+[View GRC Projects](grc/index.md){ .md-button .md-button--primary } [Contact](contact.md){ .md-button }

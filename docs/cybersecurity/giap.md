@@ -312,8 +312,8 @@ Ready to create intake in SuiteCRM?
 | Layer | Technology | Purpose | Status |
 |-------|------------|---------|--------|
 | **Frontend** | Static HTML/JS | Pre-intake wizard (v2.2, security hardened) | ✅ Deployed |
-| **Frontend (Future)** | React + Vite | Full-featured GIAC UI | ⬜ Future |
-| **Backend (Future)** | FastAPI | GIAC API with RBAC, audit logging | ⬜ Future |
+| **Frontend (Future)** | React + Vite | Full-featured GIAC UI (monorepo: `giac-ui`) | ⬜ Scaffold Ready |
+| **Backend (Future)** | FastAPI | GIAC API with RBAC, audit logging (monorepo: `giac-api`) | ⬜ Scaffold Ready |
 | **Orchestration** | n8n | Workflow automation, notifications | ✅ Running |
 | **GRC Platform** | CISO Assistant | Assessments, risk, controls, 100+ frameworks | ✅ Running |
 | **Files** | Nextcloud | Evidence vault, document storage | ✅ Running |
@@ -527,8 +527,8 @@ GIAP™ supports 90-day recurring assessment cycles for vCISO engagements:
 | SMTP Relay | ✅ Deployed | Postfix container on port 587 |
 | DocuSeal | ✅ Configured | Callback workflow ready, templates pending |
 | n8n Notifications | ⬜ Configure | SMTP credentials pending |
-| GIAC API (FastAPI) | ⬜ Future | RBAC, audit logging, API endpoints |
-| GIAC UI (React) | ⬜ Future | Full-featured portal (replaces static) |
+| GIAC API (FastAPI) | ⬜ Scaffold Ready | Monorepo structure, RBAC and audit logging planned |
+| GIAC UI (React) | ⬜ Scaffold Ready | Monorepo structure, will replace static portal |
 | POAMAgent | ⬜ Future | Custom POA&M generation |
 | MCP Integration | ⬜ Future | AI-assisted queries |
 

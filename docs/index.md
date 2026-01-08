@@ -189,24 +189,24 @@ Security Onion + TheHive/Cortex. Custom SIEM rules, alert tuning, IR playbooks.
 
 <div class="stat-grid" markdown>
 <div class="stat-tile" markdown>
-**7 years**
-Production infrastructure security — built enterprise stack from scratch
+**7 years (2017-2024)**
+Production infrastructure security — built enterprise stack from scratch at USOG
 </div>
 <div class="stat-tile" markdown>
 **CIS v8 IG1-IG2**
 Framework implementation mapped to NIST CSF and SOC 2
 </div>
 <div class="stat-tile" markdown>
-**15,000+ issues**
-Vulnerabilities identified and remediated across production systems
+**15,000+ issues (2017-2024)**
+Vulnerabilities identified and remediated across production systems over 7 years
 </div>
 <div class="stat-tile" markdown>
-**<48 hours**
-PCI-DSS endpoint hardening with audit-ready evidence pack
+**<48 hours (Dec 2024)**
+PCI-DSS endpoint hardening with audit-ready evidence pack for financial services client
 </div>
 <div class="stat-tile" markdown>
-**10+ certifications**
-Security+, Network+, SSCP (Assoc.), ITIL4, ISC² CC, and more
+**10 active certifications**
+Security+, Network+, SSCP (Assoc.), ITIL4, ISC² CC, LPI, Project+ [→ View all](certifications.md)
 </div>
 <div class="stat-tile" markdown>
 **18 years USAF**

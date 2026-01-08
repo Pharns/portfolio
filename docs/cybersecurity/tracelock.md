@@ -84,6 +84,64 @@ TraceLock™ is a security-hardened fork of CYT (Chasing Your Tail). Here's what
 | **SIM7600G-H HAT** | GPS + LTE | GNSS positioning, remote telemetry/VPN |
 | **7" IPS DSI Touchscreen** | Field interface | 800×480 capacitive, local GUI for Kismet/CYT |
 
+### Physical System Architecture
+
+```mermaid
+flowchart TB
+    subgraph POWER["⚡ POWER & CONNECTIVITY"]
+        PWR[USB-C PD<br/>Power Supply]
+        ETH[Ethernet/LTE<br/>Backhaul]
+    end
+
+    subgraph COMPUTE["🖥️ COMPUTE CORE"]
+        PI[Raspberry Pi 4B<br/>8GB RAM<br/>Debian/Kismet]
+        DSP[7" IPS Touchscreen<br/>Field Interface]
+    end
+
+    subgraph RF_SENSORS["📡 RF SENSOR ARRAY"]
+        direction TB
+        subgraph WIFI["Wi-Fi Domain"]
+            PANDA[Panda PAU09<br/>2.4/5GHz Monitor]
+        end
+        subgraph BLE["Bluetooth Domain"]
+            BT1[StarTech BT5.3<br/>Long-Range]
+            BT2[ASUS BT500<br/>Dense Env]
+            UBT[Ubertooth One<br/>Protocol Analysis]
+        end
+        subgraph SDR["SDR Domain"]
+            RTL[RTL-SDR V4<br/>ISM + ADS-B]
+            HRF[HackRF One<br/>1MHz-6GHz]
+        end
+        subgraph NAV["Navigation"]
+            GPS[SIM7600G HAT<br/>GNSS + LTE]
+        end
+    end
+
+    subgraph OUTPUT["📤 OUTPUT CHANNELS"]
+        direction LR
+        LOG[JSON Logs<br/>Forensic Grade]
+        KML[KML Export<br/>Google Earth]
+        MQTT[MQTT Alerts<br/>Real-time]
+        RPT[HTML Reports<br/>Evidence Pack]
+    end
+
+    PWR --> PI
+    ETH --> PI
+    PI --> DSP
+    PANDA --> PI
+    BT1 & BT2 & UBT --> PI
+    RTL & HRF --> PI
+    GPS --> PI
+    PI --> LOG & KML & MQTT & RPT
+
+    style POWER fill:#fef3c7,stroke:#d97706,stroke-width:2px
+    style COMPUTE fill:#dbeafe,stroke:#2563eb,stroke-width:2px
+    style RF_SENSORS fill:#dcfce7,stroke:#16a34a,stroke-width:2px
+    style OUTPUT fill:#f3e8ff,stroke:#9333ea,stroke-width:2px
+```
+
+*8-component RF sensor array with centralized processing and multi-channel output — demonstrates hardware integration and systems engineering*
+
 ### Software Architecture
 
 **Codebase:** 25 Python modules, 81 shell scripts, ~12,500 LOC, GitHub Actions CI
