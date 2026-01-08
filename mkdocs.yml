@@ -101,8 +101,6 @@ plugins:
     minify_html: true
 extra_css:
 - assets/css/custom.css
-extra_javascript:
-- https://unpkg.com/mermaid@10/dist/mermaid.min.js
 nav:
 - Home: index.md
 - About: about.md
