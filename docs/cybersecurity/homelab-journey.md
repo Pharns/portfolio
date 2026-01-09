@@ -22,7 +22,7 @@ Just like in a professional deployment, I started with careful planning:
 - Designed for **security-first** from day one  
 - Documented each step for repeatability  
 
-![Beelink SER5 Mini PC](../assets/images/beelink-ser5-mini-pc.png)
+![Beelink SER5 Mini PC](../assets/images/beelink-ser5-mini-pc.webp)
 *Beelink SER5 Mini PC : Chosen as the base system for virtualization and SOC tools deployment.* 
 
 ---
@@ -75,7 +75,7 @@ Just like in a professional deployment, I started with careful planning:
 - Introduced backup policies  
 - Layered extra security controls over time  
 
-![Proxmox Dashboard](../assets/screenshots/Proxmox-Environment.png)  
+![Proxmox Dashboard](../assets/screenshots/Proxmox-Environment.webp)  
 *Proxmox Dashboard : Active SOC, red team, and service VMs.*  
 
 ---

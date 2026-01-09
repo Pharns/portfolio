@@ -76,7 +76,7 @@ Each VLAN enforces:
 
 ## 🧠 Logical Architecture Diagram
 
-![Windows 11 PCI-DSS Hardening](../../assets/diagrams/pci-architecture-overview.png)
+![Windows 11 PCI-DSS Hardening](../../assets/diagrams/pci-architecture-overview.webp)
 *Figure: Logical PCI-DSS endpoint architecture — encryption, monitoring, and audit layers.*
 
 ---

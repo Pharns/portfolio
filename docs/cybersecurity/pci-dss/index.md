@@ -52,7 +52,7 @@ The system integrates:
 - **Event Viewer + PowerShell Logging** — Comprehensive audit trail aligned with PCI DSS logging requirements.  
 - **Secure Network Path** — Router with hardware firewall → Encrypted VoIP phone → Workstation (isolated VLAN).  
 
-![PCI-DSS Windows 11 architecture diagram showing BitLocker encryption, Windows Defender and Malwarebytes dual-layer protection, Windows Firewall with all profiles enabled, Patch My PC automation, Macrium Reflect backup, GlassWire network monitoring, and secure network path through hardware firewall and encrypted VoIP to isolated workstation](../../assets/diagrams/pci-architecture-overview.png)
+![PCI-DSS Windows 11 architecture diagram showing BitLocker encryption, Windows Defender and Malwarebytes dual-layer protection, Windows Firewall with all profiles enabled, Patch My PC automation, Macrium Reflect backup, GlassWire network monitoring, and secure network path through hardware firewall and encrypted VoIP to isolated workstation](../../assets/diagrams/pci-architecture-overview.webp)
 *Figure: Windows 11 PCI-DSS Hardening — Secure standalone workstation architecture.*
 
 ---
