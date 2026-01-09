@@ -45,43 +45,53 @@ VirusTotal, AbuseIPDB, Shodan, GreyNoise, MISP feeds integrated via Cortex
 
 ```mermaid
 flowchart TB
-    subgraph TARGETS["🎯 TARGET ENVIRONMENT"]
+    subgraph TARGETS["TARGET ENVIRONMENT"]
         direction LR
-        WIN[Windows 10/11<br/>Endpoints]
-        AD[Windows Server<br/>Active Directory]
-        LNX[Ubuntu/Docker<br/>Services]
-        WEB[DVWA/bWAPP<br/>Vulnerable Apps]
+        WIN["Windows 10/11 Endpoints"]
+        AD["Windows Server Active Directory"]
+        LNX["Ubuntu/Docker Services"]
+        WEB["DVWA/bWAPP Vulnerable Apps"]
     end
 
-    subgraph DETECTION["🔍 DETECTION LAYER"]
+    subgraph DETECTION["DETECTION LAYER"]
         direction TB
-        SO[Security Onion<br/>IDS/SIEM]
-        WAZ[Wazuh<br/>Host-Based]
-        NES[Nessus<br/>Vuln Scanning]
+        SO["Security Onion IDS/SIEM"]
+        WAZ["Wazuh Host-Based"]
+        NES["Nessus Vuln Scanning"]
     end
 
-    subgraph IR["📋 IR LAYER"]
+    subgraph IR["IR LAYER"]
         direction TB
-        HIVE[TheHive<br/>Case Management]
-        CTX[Cortex<br/>Enrichment]
-        MISP[MISP Feeds<br/>Threat Intel]
+        HIVE["TheHive Case Management"]
+        CTX["Cortex Enrichment"]
+        MISP["MISP Feeds Threat Intel"]
     end
 
-    subgraph OUTPUT["📤 OUTPUTS"]
+    subgraph OUTPUT["OUTPUTS"]
         direction LR
-        CASE[Case Reports]
-        PLAY[IR Playbooks]
-        METRICS[Detection Metrics]
+        CASE["Case Reports"]
+        PLAY["IR Playbooks"]
+        METRICS["Detection Metrics"]
     end
 
-    WIN & AD & LNX & WEB --> SO
-    WIN & AD & LNX --> WAZ
-    WIN & AD & LNX & WEB --> NES
+    WIN --> SO
+    AD --> SO
+    LNX --> SO
+    WEB --> SO
+    WIN --> WAZ
+    AD --> WAZ
+    LNX --> WAZ
+    WIN --> NES
+    AD --> NES
+    LNX --> NES
+    WEB --> NES
     SO --> HIVE
     WAZ --> HIVE
     CTX --> HIVE
     MISP --> CTX
-    HIVE --> CASE & PLAY & METRICS
+    HIVE --> CASE
+    HIVE --> PLAY
+    HIVE --> METRICS
 
     style TARGETS fill:#fef3c7,stroke:#d97706,stroke-width:2px
     style DETECTION fill:#dbeafe,stroke:#2563eb,stroke-width:2px

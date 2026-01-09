@@ -47,37 +47,43 @@ GIAP™ implements a two-phase workflow with a clear **deposit gate** separating
 
 ```mermaid
 flowchart TB
-    subgraph PRE[PRE-ENGAGEMENT]
+    subgraph PRE["PRE-ENGAGEMENT"]
         direction TB
-        P[Prospect]
-        PIF[Pre-Intake]
-        CA[CISO Assistant]
-        QG[Gap Analysis]
-        FS[Framework Fit]
-        RP[Risk Profile]
-        CRM[SuiteCRM]
-        DS[DocuSeal]
+        P["Prospect"]
+        PIF["Pre-Intake"]
+        CA["CISO Assistant"]
+        QG["Gap Analysis"]
+        FS["Framework Fit"]
+        RP["Risk Profile"]
+        CRM["SuiteCRM"]
+        DS["DocuSeal"]
 
         P --> PIF --> CA
-        CA --> QG & FS & RP
-        QG & FS & RP --> CRM
+        CA --> QG
+        CA --> FS
+        CA --> RP
+        QG --> CRM
+        FS --> CRM
+        RP --> CRM
         CRM --> DS
     end
 
-    DG[DEPOSIT GATE]
+    DG["DEPOSIT GATE"]
 
-    subgraph POST[POST-ENGAGEMENT]
+    subgraph POST["POST-ENGAGEMENT"]
         direction TB
-        CA2[CISO Assistant]
-        RM[Risk Register]
-        CT[Control Testing]
-        NC[Nextcloud]
-        POA[POAM Agent]
-        REM[Remediation]
-        VCISO[vCISO Cycle]
+        CA2["CISO Assistant"]
+        RM["Risk Register"]
+        CT["Control Testing"]
+        NC["Nextcloud"]
+        POA["POAM Agent"]
+        REM["Remediation"]
+        VCISO["vCISO Cycle"]
 
-        CA2 --> RM & CT
-        RM & CT --> NC
+        CA2 --> RM
+        CA2 --> CT
+        RM --> NC
+        CT --> NC
         NC --> POA
         POA --> REM --> VCISO
     end
@@ -183,13 +189,17 @@ The first n8n workflow is operational and logging intake submissions to Nextclou
 
 ```mermaid
 flowchart TD
-    subgraph GIAP Intake Simple Workflow
+    subgraph WORKFLOW["GIAP Intake Simple Workflow"]
         direction LR
-        A["Portal (v2.2)"] -- "POST /webhook/giap-simple" --> B(n8n);
-        B -- "Edit Fields (filename, content)" --> B;
-        B -- "HTTP Request (PUT)" --> C[/"Nextcloud WebDAV"/];
+        A["Portal v2.2"]
+        B["n8n"]
+        C["Nextcloud WebDAV"]
     end
-    C -- "Output: /GIAP-Intakes/....json" --> D((Log File));
+    D["Log File"]
+
+    A -->|"POST /webhook/giap-simple"| B
+    B -->|"HTTP Request PUT"| C
+    C -->|"Output: /GIAP-Intakes/....json"| D
 
     style C fill:#f9f,stroke:#333,stroke-width:2px
     style D fill:#bbf,stroke:#333,stroke-width:2px
@@ -201,26 +211,26 @@ flowchart TD
 
 ```mermaid
 flowchart TB
-    subgraph PRE[PRE-ENGAGEMENT]
+    subgraph PRE["PRE-ENGAGEMENT"]
         direction TB
-        PORTAL[Intake Portal] --> N8N1[n8n: Intake]
-        N8N1 --> NC1[Nextcloud JSON]
-        N8N1 --> CRM[SuiteCRM Lead]
-        N8N1 --> RESEND1[Resend: Notification]
-        CRM --> DS[DocuSeal]
-        DS --> N8N2[n8n: Signed Callback]
-        N8N2 --> RESEND2[Resend: Confirmation]
+        PORTAL["Intake Portal"] --> N8N1["n8n: Intake"]
+        N8N1 --> NC1["Nextcloud JSON"]
+        N8N1 --> CRM["SuiteCRM Lead"]
+        N8N1 --> RESEND1["Resend: Notification"]
+        CRM --> DS["DocuSeal"]
+        DS --> N8N2["n8n: Signed Callback"]
+        N8N2 --> RESEND2["Resend: Confirmation"]
     end
 
-    DG[DEPOSIT GATE]
+    DG["DEPOSIT GATE"]
 
-    subgraph POST[POST-ENGAGEMENT]
+    subgraph POST["POST-ENGAGEMENT"]
         direction TB
-        CA[CISO Assistant] --> N8N3[n8n: Assessment]
-        N8N3 --> NC2[Nextcloud Evidence]
-        NC2 --> POA[POAMAgent]
-        POA --> REM[Remediation]
-        REM --> VCISO[vCISO Cycle]
+        CA["CISO Assistant"] --> N8N3["n8n: Assessment"]
+        N8N3 --> NC2["Nextcloud Evidence"]
+        NC2 --> POA["POAMAgent"]
+        POA --> REM["Remediation"]
+        REM --> VCISO["vCISO Cycle"]
     end
 
     DS --> DG
@@ -597,16 +607,16 @@ sequenceDiagram
 
     P->>P: Build payload
     P->>P: Get timestamp (epoch ms)
-    P->>P: Compute HMAC-SHA256(timestamp.payload, secret)
-    P->>N: POST with headers:<br/>X-GIAP-Timestamp<br/>X-GIAP-Signature: sha256=...
-    N->>N: Extract timestamp & signature
+    P->>P: Compute HMAC-SHA256
+    P->>N: POST with X-GIAP-Timestamp and X-GIAP-Signature headers
+    N->>N: Extract timestamp and signature
     N->>N: Recompute HMAC with same secret
     N->>N: Compare signatures
-    N->>N: Verify timestamp < 5 min old
+    N->>N: Verify timestamp less than 5 min old
     alt Valid
-        N->>N: ✅ Process request
+        N->>N: Process request
     else Invalid
-        N->>P: ❌ Reject (401)
+        N->>P: Reject 401
     end
 ```
 

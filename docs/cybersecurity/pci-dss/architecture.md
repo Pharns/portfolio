@@ -32,16 +32,16 @@ All connections are routed through an encrypted and monitored VLAN.
 
 ```mermaid
 flowchart TB
-    ISP[ISP Router]
+    ISP["ISP Router"]
 
-    subgraph NETWORK[SEGMENTED NETWORK]
+    subgraph NETWORK["SEGMENTED NETWORK"]
         direction TB
-        ROUTER[GL.iNet MT6000]
+        ROUTER["GL.iNet MT6000"]
 
-        subgraph PCI[VLAN 2 - PCI ZONE]
+        subgraph PCI["VLAN 2 - PCI ZONE"]
             direction LR
-            VOIP[Polycom VVX311<br/>Encrypted SIP/TLS]
-            WS[Windows 11<br/>PCI-DSS Hardened]
+            VOIP["Polycom VVX311 Encrypted SIP/TLS"]
+            WS["Windows 11 PCI-DSS Hardened"]
         end
     end
 
