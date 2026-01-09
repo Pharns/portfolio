@@ -1001,3 +1001,50 @@ html {
   color: #f9a8d4;
   background-color: rgba(249, 168, 212, 0.15);
 }
+
+/*
+ * Link accessibility — underlines for non-color distinction
+ * Fixes: "Links rely on color to be distinguishable" (WCAG 1.4.1)
+ */
+
+/* Content area links - always underlined */
+.md-typeset a:not(.md-button):not(.md-nav__link):not(.md-header__button):not(.md-logo):not(.md-footer__link):not(.md-social__link):not(.md-tabs__link):not(.headerlink):not(.btn-ghost):not(.btn-primary) {
+  text-decoration: underline;
+  text-decoration-color: currentColor;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+}
+
+.md-typeset a:not(.md-button):not(.md-nav__link):not(.md-header__button):not(.md-logo):not(.md-footer__link):not(.md-social__link):not(.md-tabs__link):not(.headerlink):not(.btn-ghost):not(.btn-primary):hover {
+  text-decoration-thickness: 2px;
+}
+
+/* Admonition and details links */
+.md-typeset .admonition a,
+.md-typeset details a {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+/* Table links */
+.md-typeset table a {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+/* Navigation links - underline on focus for keyboard users */
+.md-nav__link:focus,
+.md-tabs__link:focus {
+  text-decoration: underline;
+}
+
+/* Footer links - underlined for accessibility */
+.md-footer a:not(.md-social__link):not(.md-footer__link--prev):not(.md-footer__link--next) {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+/* TOC links - subtle underline on hover */
+.md-nav--secondary .md-nav__link:hover {
+  text-decoration: underline;
+}
