@@ -20,20 +20,21 @@ description: "GIAP — Multi-agent GRC automation with n8n and CISO Assistant. I
 
     **Architecture:** Locked — Streamlined single-GRC-platform design with n8n orchestration.
 
-    **Implementation:** Active — Portal v2.2 deployed with security hardening (WCAG 2.1 AA); 4 n8n workflows operational (intake ingestion, Nextcloud logging, DocuSeal callbacks, backup automation); SuiteCRM Lead + Case creation working; CISO Assistant running; Resend email notifications configured.
+    **Implementation:** Active — Portal v2.2 deployed with security hardening (WCAG 2.1 AA); 7 n8n workflows operational (intake ingestion, DocuSeal signed, CISO sync, deposit gate, intake complete, backup automation, Signal command bot); SuiteCRM Lead + Case creation working; CISO Assistant running; Resend email + Signal notifications configured.
 
     **Project Metrics:**
 
     - Portal: 829 lines (HTML/JS/CSS)
-    - n8n Workflows: 4 active, 2,374 lines JSON
+    - n8n Workflows: 7 active
+    - Signal Bot Commands: 10 operational
     - Documentation: 33+ markdown files
-    - Services: 6 integrated (Portal, n8n, Nextcloud, SuiteCRM, DocuSeal, CISO Assistant)
-    - Roadmap: ~60% complete
+    - Services: 7 integrated (Portal, n8n, Nextcloud, SuiteCRM, DocuSeal, CISO Assistant, Signal)
+    - Roadmap: ~75% complete
 
     **Live Domains:**
 
     - `portal.aamcyber.work` — Client intake wizard (v2.2, security hardened)
-    - `flows.aamcyber.work` — n8n workflow automation (4 workflows)
+    - `flows.aamcyber.work` — n8n workflow automation (7 workflows)
     - `files.aamcyber.work` — Nextcloud evidence vault
     - `grc.aamcyber.work` — CISO Assistant GRC platform
     - `crm.aamcyber.work` — SuiteCRM client management
@@ -171,17 +172,18 @@ flowchart TB
 
 ## n8n Workflow Pipeline
 
-| Workflow | Phase | Function | Status |
-|----------|-------|----------|--------|
-| **Intake Ingestion** | Pre | Portal → HMAC-authenticated webhook → SuiteCRM Lead + Case → Nextcloud JSON | ✅ Working |
-| **Nextcloud Logging** | Pre | WebDAV upload of intake JSON to evidence vault | ✅ Working |
-| **DocuSeal Callback** | Pre | Signature webhook → update SuiteCRM Case status | ✅ Configured |
-| **Backup Automation** | Ops | Daily n8n + CISO Assistant backups → Nextcloud | ✅ Created |
-| **Assessment Trigger** | Pre | Create CISO Assistant project from intake | ⬜ Build |
-| **Evidence Collection** | Post | Upload artifacts to Nextcloud folders | ⬜ Build |
-| **Gap Analysis** | Post | CISO Assistant API → extract gaps | ⬜ Build |
-| **POA&M Generation** | Post | Gaps → POAMAgent templates | ⬜ Future |
-| **Notifications** | Both | SMTP relay (Postfix) for status updates | ⬜ Configure |
+| Workflow | ID | Phase | Function | Status |
+|----------|-----|-------|----------|--------|
+| **Flow #1 - Intake Ingestion** | bt88Jgh8PHJZzPB2 | Pre | Portal → HMAC webhook → SuiteCRM Lead + Case → Nextcloud JSON | ✅ Active |
+| **Flow #2 - DocuSeal Signed** | ej2XIt1c8buQpENj | Pre | Signature webhook → update SuiteCRM Case status → notify | ✅ Active |
+| **Flow #3 - CISO Sync** | xSed4DSAjwdIZLUD | Pre | Sync intake data to CISO Assistant | ✅ Active |
+| **Flow #4 - Deposit Gate** | Ty9o9C0Bc2IELweX | Pre | Poll for deposit → unlock engagement phase | ✅ Active |
+| **Flow #5 - Intake Complete** | 1ROo6OaM7PITA6oV | Pre | Intake finalization → client + admin notifications | ✅ Active |
+| **Backup Automation** | xnqCRqYPpek1qFN2 | Ops | Daily n8n + CISO Assistant backups → Nextcloud | ✅ Active |
+| **Signal Command Bot** | rltZO4DtegZgygRO | Ops | 10 commands: /status, /test, /uptime, /pending, /leads, /backup, etc. | ✅ Active |
+| **Evidence Collection** | — | Post | Upload artifacts to Nextcloud folders | ⬜ Build |
+| **Gap Analysis** | — | Post | CISO Assistant API → extract gaps | ⬜ Build |
+| **POA&M Generation** | — | Post | Gaps → POAMAgent templates | ⬜ Future |
 
 ### Working Workflow: GIAP Intake Simple
 
@@ -329,7 +331,8 @@ Ready to create intake in SuiteCRM?
 | **Files** | Nextcloud | Evidence vault, document storage | ✅ Running |
 | **CRM** | SuiteCRM | Client records, intake tracking | ✅ Running |
 | **Signatures** | DocuSeal (self-hosted) | Engagement letters, DPAs, BAAs, NDAs | ⬜ Deploy |
-| **Email** | Resend | Transactional notifications, status alerts | ✅ Configured |
+| **Email** | Resend | Transactional notifications, status alerts | ✅ Working |
+| **Signal** | signal-cli REST API | Encrypted alerts, command bot (10 commands) | ✅ Working |
 | **POA&M** | POAMAgent (custom) | Branded deliverables, multi-format output | ⬜ Future |
 | **Proxy** | Nginx Proxy Manager | TLS termination, routing | ✅ Running |
 | **DNS** | Cloudflare | DNS management, DDoS protection, WAF | ✅ Running |
@@ -527,16 +530,21 @@ GIAP™ supports 90-day recurring assessment cycles for vCISO engagements:
 |-----------|--------|-------|
 | Architecture design | ✅ Locked | Streamlined single-GRC-platform design |
 | Portal (Static) | ✅ Deployed | v2.2 with security hardening, WCAG 2.1 AA |
-| n8n Orchestration | ✅ Running | 4 workflows operational |
-| n8n Intake Workflow | ✅ Working | Portal → webhook → SuiteCRM + Nextcloud |
-| n8n DocuSeal Callback | ✅ Configured | Signature webhook → Case status update |
-| n8n Backup Workflow | ✅ Created | Daily backups to Nextcloud |
+| n8n Orchestration | ✅ Running | 7 workflows operational |
+| Flow #1 - Intake Ingestion | ✅ Active | Portal → HMAC webhook → SuiteCRM + Nextcloud |
+| Flow #2 - DocuSeal Signed | ✅ Active | Signature webhook → Case status + notification |
+| Flow #3 - CISO Sync | ✅ Active | Intake → CISO Assistant project creation |
+| Flow #4 - Deposit Gate | ✅ Active | Polling every 5 min for deposit status |
+| Flow #5 - Intake Complete | ✅ Active | Client + admin notifications on completion |
+| Backup Automation | ✅ Active | Daily n8n + CISO Assistant backups |
+| Signal Command Bot | ✅ Active | 10 commands, 15s polling |
 | Nextcloud | ✅ Running | Evidence vault operational, WebDAV API working |
 | SuiteCRM | ✅ Running | Lead + Case creation, custom status dropdown |
 | CISO Assistant | ✅ Running | Primary GRC platform with 100+ frameworks |
 | SMTP Relay | ✅ Deployed | Postfix container on port 587 |
+| Email Notifications | ✅ Working | Resend API (SOC 2 compliant) |
+| Signal Notifications | ✅ Working | Hybrid model: Signal + Email for all alerts |
 | DocuSeal | ✅ Configured | Callback workflow ready, templates pending |
-| n8n Notifications | ⬜ Configure | SMTP credentials pending |
 | GIAC API (FastAPI) | ⬜ Scaffold Ready | Monorepo structure, RBAC and audit logging planned |
 | GIAC UI (React) | ⬜ Scaffold Ready | Monorepo structure, will replace static portal |
 | POAMAgent | ⬜ Future | Custom POA&M generation |
@@ -655,6 +663,48 @@ async function generateSignature(payload, secret) {
 
 ---
 
+## Signal Integration
+
+GIAP™ implements a **hybrid notification model** using both Signal and email for operational alerts and status monitoring.
+
+### Signal Command Bot
+
+A dedicated Signal bot (`+16026938732`) monitors the GIAP Alerts group and responds to 10 operational commands:
+
+| Command | Function |
+|---------|----------|
+| `/help` | List all available commands |
+| `/ping` | Quick alive check (latency test) |
+| `/status` | System status with timestamp |
+| `/test` | Consolidated health check of all 6 GIAP services |
+| `/uptime` | Service uptime percentages (30-day window) |
+| `/pending` | Leads awaiting deposit payment |
+| `/today` | Today's activity summary |
+| `/leads` | Lead counts by status |
+| `/backup` | Backup status and last run time |
+| `/version` | Bot version and configuration info |
+
+### Notification Events
+
+| Event | Email | Signal |
+|-------|-------|--------|
+| New intake received | ✅ Admin | ✅ Admin |
+| Engagement letter signed | ✅ Admin | ✅ Admin |
+| Deposit received | ✅ Admin + Client | ✅ Admin |
+| Intake complete | ✅ Admin + Client | ✅ Admin |
+| Backup success | ⏸️ Disabled | ✅ Admin |
+
+### Technical Implementation
+
+- **Bot Infrastructure:** `signal-cli-rest-api` container (`bbernhard/signal-cli-rest-api:latest`)
+- **Polling Interval:** 15 seconds for command responsiveness
+- **API Version:** signal-cli v0.96
+- **Group:** GIAP Alerts (base64-encoded group ID)
+
+**Why Signal?** End-to-end encryption, no vendor lock-in, mobile-first alerts for time-sensitive GRC operations. The hybrid model ensures redundancy — if email is delayed, Signal provides immediate notification.
+
+---
+
 ## Output Artifacts
 
 ### POA&M Example
@@ -722,7 +772,7 @@ async function generateSignature(payload, secret) {
 | **Architecture** | Multi-agent orchestration, two-phase workflow design, API-first design, MCP protocol |
 | **GRC** | Framework mapping, risk management, control assessment, POA&M generation, evidence pipelines, vCISO delivery |
 | **GRC Platforms** | CISO Assistant administration, 100+ framework coverage, API-first integration, multi-platform orchestration |
-| **Workflow Automation** | n8n workflow design, webhook integration, WebDAV API, JSON data pipelines |
+| **Workflow Automation** | n8n workflow design, webhook integration, WebDAV API, JSON data pipelines, Signal bot integration |
 | **Custom Tooling** | POAMAgent development, Jinja2 templating, PDF generation, API integration |
 | **Healthcare Compliance** | HIPAA Security Rule, Privacy Rule, BAA management, PHI protection |
 | **AI/LLM** | MCP server design, natural language GRC queries, LLM-assisted documentation |
