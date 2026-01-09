@@ -88,51 +88,57 @@ TraceLock™ is a security-hardened fork of CYT (Chasing Your Tail). Here's what
 
 ```mermaid
 flowchart TB
-    subgraph POWER["⚡ POWER & CONNECTIVITY"]
-        PWR[USB-C PD<br/>Power Supply]
-        ETH[Ethernet/LTE<br/>Backhaul]
+    subgraph POWER["POWER AND CONNECTIVITY"]
+        PWR["USB-C PD Power Supply"]
+        ETH["Ethernet/LTE Backhaul"]
     end
 
-    subgraph COMPUTE["🖥️ COMPUTE CORE"]
-        PI[Raspberry Pi 4B<br/>8GB RAM<br/>Debian/Kismet]
-        DSP[7" IPS Touchscreen<br/>Field Interface]
+    subgraph COMPUTE["COMPUTE CORE"]
+        PI["Raspberry Pi 4B 8GB RAM Debian/Kismet"]
+        DSP["7in IPS Touchscreen Field Interface"]
     end
 
-    subgraph RF_SENSORS["📡 RF SENSOR ARRAY"]
+    subgraph RF_SENSORS["RF SENSOR ARRAY"]
         direction TB
         subgraph WIFI["Wi-Fi Domain"]
-            PANDA[Panda PAU09<br/>2.4/5GHz Monitor]
+            PANDA["Panda PAU09 2.4/5GHz Monitor"]
         end
         subgraph BLE["Bluetooth Domain"]
-            BT1[StarTech BT5.3<br/>Long-Range]
-            BT2[ASUS BT500<br/>Dense Env]
-            UBT[Ubertooth One<br/>Protocol Analysis]
+            BT1["StarTech BT5.3 Long-Range"]
+            BT2["ASUS BT500 Dense Env"]
+            UBT["Ubertooth One Protocol Analysis"]
         end
         subgraph SDR["SDR Domain"]
-            RTL[RTL-SDR V4<br/>ISM + ADS-B]
-            HRF[HackRF One<br/>1MHz-6GHz]
+            RTL["RTL-SDR V4 ISM + ADS-B"]
+            HRF["HackRF One 1MHz-6GHz"]
         end
         subgraph NAV["Navigation"]
-            GPS[SIM7600G HAT<br/>GNSS + LTE]
+            GPS["SIM7600G HAT GNSS + LTE"]
         end
     end
 
-    subgraph OUTPUT["📤 OUTPUT CHANNELS"]
+    subgraph OUTPUT["OUTPUT CHANNELS"]
         direction LR
-        LOG[JSON Logs<br/>Forensic Grade]
-        KML[KML Export<br/>Google Earth]
-        MQTT[MQTT Alerts<br/>Real-time]
-        RPT[HTML Reports<br/>Evidence Pack]
+        LOG["JSON Logs Forensic Grade"]
+        KML["KML Export Google Earth"]
+        MQTT["MQTT Alerts Real-time"]
+        RPT["HTML Reports Evidence Pack"]
     end
 
     PWR --> PI
     ETH --> PI
     PI --> DSP
     PANDA --> PI
-    BT1 & BT2 & UBT --> PI
-    RTL & HRF --> PI
+    BT1 --> PI
+    BT2 --> PI
+    UBT --> PI
+    RTL --> PI
+    HRF --> PI
     GPS --> PI
-    PI --> LOG & KML & MQTT & RPT
+    PI --> LOG
+    PI --> KML
+    PI --> MQTT
+    PI --> RPT
 
     style POWER fill:#fef3c7,stroke:#d97706,stroke-width:2px
     style COMPUTE fill:#dbeafe,stroke:#2563eb,stroke-width:2px
@@ -148,29 +154,29 @@ flowchart TB
 
 ```mermaid
 flowchart LR
-    subgraph CORE[TRACELOCK CORE]
+    subgraph CORE["TRACELOCK CORE"]
         direction LR
-        subgraph S[SENSORS]
-            S1[Kismet Wi-Fi]
-            S2[rtl_433 ISM]
-            S3[Bluetooth]
-            S4[gpsd GPS]
-            S5[dump1090 ADSB]
-            S6[HackRF SDR]
+        subgraph S["SENSORS"]
+            S1["Kismet Wi-Fi"]
+            S2["rtl_433 ISM"]
+            S3["Bluetooth"]
+            S4["gpsd GPS"]
+            S5["dump1090 ADSB"]
+            S6["HackRF SDR"]
         end
-        subgraph D[DETECTION ENGINE]
-            D1[Rule Matching]
-            D2[Threshold Tuning]
-            D3[Correlation]
-            D4[Allowlisting]
-            D5[Persistence Scoring]
+        subgraph D["DETECTION ENGINE"]
+            D1["Rule Matching"]
+            D2["Threshold Tuning"]
+            D3["Correlation"]
+            D4["Allowlisting"]
+            D5["Persistence Scoring"]
         end
-        subgraph O[OUTPUT]
-            O1[JSON Logs]
-            O2[Markdown Reports]
-            O3[KML Maps]
-            O4[MQTT Alerts]
-            O5[HTML Reports]
+        subgraph O["OUTPUT"]
+            O1["JSON Logs"]
+            O2["Markdown Reports"]
+            O3["KML Maps"]
+            O4["MQTT Alerts"]
+            O5["HTML Reports"]
         end
     end
 
@@ -272,32 +278,37 @@ def correlate_threat(wifi_event, bt_event, gps_fix):
 
 ```mermaid
 flowchart TB
-    subgraph SENSORS[SENSOR LAYER]
+    subgraph SENSORS["SENSOR LAYER"]
         direction LR
-        W[Wi-Fi<br/>Kismet]
-        B[Bluetooth<br/>Ubertooth]
-        S[SDR<br/>rtl_433]
-        G[GPS<br/>Module]
+        W["Wi-Fi Kismet"]
+        B["Bluetooth Ubertooth"]
+        S["SDR rtl_433"]
+        G["GPS Module"]
     end
 
-    subgraph PROCESSING[PROCESSING LAYER]
+    subgraph PROCESSING["PROCESSING LAYER"]
         direction TB
-        N[Normalization Layer]
-        C[Correlation Engine]
-        R[Detection Rules<br/>+ Allowlists]
+        N["Normalization Layer"]
+        C["Correlation Engine"]
+        R["Detection Rules + Allowlists"]
     end
 
-    subgraph OUTPUT[OUTPUT LAYER]
+    subgraph OUTPUT["OUTPUT LAYER"]
         direction LR
-        J[JSON Logs<br/>Forensic]
-        K[KML Export<br/>Mapping]
-        M[MQTT Alerts<br/>Real-time]
+        J["JSON Logs Forensic"]
+        K["KML Export Mapping"]
+        M["MQTT Alerts Real-time"]
     end
 
-    W & B & S & G --> N
+    W --> N
+    B --> N
+    S --> N
+    G --> N
     N --> C
     R --> C
-    C --> J & K & M
+    C --> J
+    C --> K
+    C --> M
 
     style SENSORS fill:#e8f4ea,stroke:#2e7d32,stroke-width:2px
     style PROCESSING fill:#e0f2fe,stroke:#0284c7,stroke-width:2px

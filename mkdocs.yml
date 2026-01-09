@@ -40,10 +40,13 @@ extra:
   social:
   - icon: fontawesome/brands/github
     link: https://github.com/Pharns
+    name: GitHub Profile - Pharns Genece
   - icon: fontawesome/brands/linkedin
     link: https://www.linkedin.com/in/pharns
+    name: LinkedIn Profile - Pharns Genece
   - icon: fontawesome/solid/envelope
     link: mailto:careers@pharns.com
+    name: Email - careers@pharns.com
   meta:
   - property: og:title
     content: "Pharns Genece | GRC Engineer & Cloud Security Portfolio"
@@ -101,6 +104,8 @@ plugins:
     minify_html: true
 extra_css:
 - assets/css/custom.css
+extra_javascript:
+- assets/js/a11y.js
 nav:
 - Home: index.md
 - About: about.md
