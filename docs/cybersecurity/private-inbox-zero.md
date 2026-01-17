@@ -15,12 +15,14 @@ description: "Privacy-First Email Automation — Self-hosted email triage with m
 
 ---
 
-!!! info "Project Status: Architecture Complete — Implementation Active"
+!!! info "Project Status: ~40% Complete — Infrastructure Operational"
     **Design Phase:** Complete — 51 documentation files, 9 architecture diagrams, full threat model, control mapping to NIST/ISO/GDPR.
 
-    **Infrastructure:** Deployed — Two Proxmox VMs (Mail Connector + Mail Intelligence) running on Tailscale. Docker containers operational.
+    **Infrastructure:** Operational — Two Proxmox LXC containers running on Tailscale. Webhook integration verified and working.
 
-    **Implementation:** Active — OAuth configuration in progress for Gmail/Outlook integration.
+    **Implementation:** Active — OAuth configuration for Gmail/Outlook is current phase. Action queue and worker architecture coded.
+
+    **Stack:** 100% open-source — Custom Node.js connector (ImapFlow + Microsoft Graph API) replaced commercial EmailEngine. No licensing constraints.
 
     **Project Metrics:**
 
@@ -29,6 +31,7 @@ description: "Privacy-First Email Automation — Self-hosted email triage with m
     - Threat model: 6 threats identified with mitigations
     - Framework alignment: NIST CSF, ISO 27001, GDPR
     - Services: 2 split (Connector + Intelligence)
+    - Webhook events: Flowing and logged to Postgres
 
 ---
 
@@ -206,13 +209,14 @@ Uncertain classifications → "Read Later" or "Quarantine" folder (never deleted
 
 | Component | Technology | Purpose |
 |-----------|-----------|---------|
-| **Mail Connector** | Node.js, ImapFlow, Microsoft Graph API | Email protocol handling |
-| **Mail Intelligence** | FastAPI (Python), PostgreSQL, Redis | Decision layer & classification |
+| **Mail Connector** | Node.js, ImapFlow, Microsoft Graph API | Email protocol handling (100% open-source) |
+| **Mail Intelligence** | FastAPI (Python), PostgreSQL, Redis | Decision layer, audit logs, action queue |
+| **Action Worker** | Python, Redis Queue | Async action execution with status tracking |
 | **Local AI** | Ollama (optional) | Privacy-first ML alternative |
-| **Deployment** | Docker Compose | Containerized services |
-| **Networking** | Tailscale | Secure inter-VM communication |
+| **Deployment** | Docker Compose | Containerized services with profiles |
+| **Networking** | Tailscale | Secure inter-VM communication (MagicDNS) |
 | **Configuration** | YAML | Rule definitions |
-| **Infrastructure** | Proxmox LXC | Isolated service VMs |
+| **Infrastructure** | Proxmox LXC | Isolated service containers |
 
 ---
 
@@ -220,14 +224,25 @@ Uncertain classifications → "Read Later" or "Quarantine" folder (never deleted
 
 | Phase | Status | Description |
 |-------|--------|-------------|
-| **Phase 0** | ✅ Complete | Infrastructure — VMs created, Docker, Tailscale |
-| **Phase 1** | ✅ Complete | Mail Connector deployed (Node.js) |
-| **Phase 2** | ✅ Complete | Mail Intelligence deployed (FastAPI) |
-| **Phase 3** | ✅ Complete | Webhook integration verified |
+| **Phase 0** | ✅ Complete | Infrastructure — LXC containers, Docker, Tailscale networking |
+| **Phase 1** | ✅ Complete | Mail Connector deployed (100% open-source Node.js) |
+| **Phase 2** | ✅ Complete | Mail Intelligence deployed (FastAPI + Postgres + Redis) |
+| **Phase 3** | ✅ Complete | Webhook integration verified and working |
 | **Phase 1.5** | 🔄 Active | OAuth configuration for Gmail/Outlook |
-| **Phase 4** | ⏳ Pending | Classification logic |
+| **Phase 4** | ⏳ Pending | Classification logic + PII redaction |
 | **Phase 5** | ⏳ Pending | Folder taxonomy deployment |
 | **Phase 6** | ⏳ Pending | Testing & tuning |
+
+### What's Operational Now
+
+| Component | Status | Details |
+|-----------|--------|---------|
+| **Mail Connector** | ✅ Running | Node.js service on port 3000 |
+| **Mail Intelligence** | ✅ Running | FastAPI service on port 8080 |
+| **Webhook Integration** | ✅ Working | Events flowing connector → intelligence |
+| **Audit Logging** | ✅ Working | Events logged to Postgres |
+| **Action Queue** | ✅ Coded | Redis queue + worker architecture ready |
+| **Email Providers** | ⏳ Pending | OAuth credentials needed |
 
 ---
 
