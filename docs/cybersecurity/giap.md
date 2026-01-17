@@ -670,7 +670,7 @@ GIAP™ implements a **hybrid notification model** using both Signal and email f
 
 ### Signal Command Bot
 
-A dedicated Signal bot (`+16026938732`) monitors the GIAP Alerts group and responds to 10 operational commands:
+A dedicated Signal bot monitors the GIAP Alerts group and responds to 10 operational commands:
 
 | Command | Function |
 |---------|----------|
