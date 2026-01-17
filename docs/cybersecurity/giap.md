@@ -20,12 +20,12 @@ description: "GIAP — Multi-agent GRC automation with n8n and CISO Assistant. I
 
     **Architecture:** Locked — Streamlined single-GRC-platform design with n8n orchestration.
 
-    **Implementation:** Active — Portal v2.2 deployed with security hardening (WCAG 2.1 AA); 8 n8n workflows (7 active + 1 marketing form); SuiteCRM Lead + Case creation working; CISO Assistant running; DocuSeal e-signature operational; Resend email + Signal notifications configured.
+    **Implementation:** Active — Portal v2.2 deployed with security hardening (WCAG 2.1 AA); 9 n8n workflows (all active); SuiteCRM Lead + Case creation working; CISO Assistant running; DocuSeal e-signature operational; Resend email + Signal notifications configured; Error notifications verified.
 
     **Project Metrics:**
 
     - Portal: 829 lines (HTML/JS/CSS)
-    - n8n Workflows: 8 total (7 active)
+    - n8n Workflows: 9 total (all active)
     - Signal Bot Commands: 10 operational
     - Documentation: 33+ markdown files
     - Services: 7 integrated (Portal, n8n, Nextcloud, SuiteCRM, DocuSeal, CISO Assistant, Signal)
@@ -34,7 +34,7 @@ description: "GIAP — Multi-agent GRC automation with n8n and CISO Assistant. I
     **Live Domains:**
 
     - `portal.aamcyber.work` — Client intake wizard (v2.2, security hardened)
-    - `flows.aamcyber.work` — n8n workflow automation (7 workflows)
+    - `flows.aamcyber.work` — n8n workflow automation (9 workflows)
     - `files.aamcyber.work` — Nextcloud evidence vault
     - `grc.aamcyber.work` — CISO Assistant GRC platform
     - `crm.aamcyber.work` — SuiteCRM client management
@@ -181,7 +181,7 @@ flowchart TB
 | **Flow #5 - Intake Complete** | 1ROo6OaM7PITA6oV | Pre | Intake finalization → client + admin notifications | ✅ Active |
 | **Backup Automation** | xnqCRqYPpek1qFN2 | Ops | Daily n8n + CISO Assistant backups → Nextcloud | ✅ Active |
 | **Signal Command Bot** | EVtHrSr5FYtraSnM | Ops | 10 commands: /status, /test, /uptime, /pending, /leads, /backup, etc. | ✅ Active |
-| **AAM Cyber Contact** | fG7S5oRouxyrr94R | Marketing | Marketing form → SuiteCRM lead | ⬜ Inactive |
+| **AAM Cyber Contact** | fG7S5oRouxyrr94R | Marketing | Marketing form → SuiteCRM lead | ✅ Active |
 | **Evidence Collection** | — | Post | Upload artifacts to Nextcloud folders | ⬜ Build |
 | **Gap Analysis** | — | Post | CISO Assistant API → extract gaps | ⬜ Build |
 | **POA&M Generation** | — | Post | Gaps → POAMAgent templates | ⬜ Future |
@@ -531,7 +531,7 @@ GIAP™ supports 90-day recurring assessment cycles for vCISO engagements:
 |-----------|--------|-------|
 | Architecture design | ✅ Locked | Streamlined single-GRC-platform design |
 | Portal (Static) | ✅ Deployed | v2.2 with security hardening, WCAG 2.1 AA |
-| n8n Orchestration | ✅ Running | 7 workflows operational |
+| n8n Orchestration | ✅ Running | 9 workflows operational |
 | Flow #1 - Intake Ingestion | ✅ Active | Portal → HMAC webhook → SuiteCRM + Nextcloud |
 | Flow #2 - DocuSeal Signed | ✅ Active | Signature webhook → Case status + notification |
 | Flow #3 - CISO Sync | ✅ Active | Intake → CISO Assistant project creation |
