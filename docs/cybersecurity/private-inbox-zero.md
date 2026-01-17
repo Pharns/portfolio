@@ -205,6 +205,52 @@ Uncertain classifications → "Read Later" or "Quarantine" folder (never deleted
 
 ---
 
+## Classification Decision Tree
+
+The system uses a **safety-biased** decision tree: deterministic rules first, AI assist last.
+
+```mermaid
+flowchart TD
+  S[New Email] --> H{Deterministic Rules<br/>Strong Match?}
+
+  H -->|Yes| C1[Assign Category + Priority]
+  H -->|No| L{Mailing List Signals?<br/>List-Unsubscribe/List-Id}
+
+  L -->|Yes| NL[Newsletter/Marketing<br/>→ Read Later or Suggestions]
+  L -->|No| T{Known Thread?<br/>Reply Relationship?}
+
+  T -->|Yes| HUM[Human/Threaded<br/>→ Priority Now or Category]
+  T -->|No| A{Ambiguous enough<br/>for AI assist?}
+
+  A -->|No| SAFE[Default Safe Routing<br/>→ Read Later or Quarantine]
+  A -->|Yes| RED[Redact PII Locally]
+  RED --> AI[AI Assist on Redacted Text]
+  AI --> DEC[Decision + Confidence]
+  DEC -->|High confidence| APPLY[Apply server-side label/move]
+  DEC -->|Low confidence| REVIEW[Route to Suggestions<br/>for human review]
+```
+
+### Decision Logic
+
+| Priority | Check | Rationale |
+|----------|-------|-----------|
+| 1st | Deterministic rules | Pattern matching, sender reputation — fast and predictable |
+| 2nd | Structural signals | List headers, thread relationships — no content analysis needed |
+| 3rd | AI assist (last resort) | Only when rules are uncertain — always on redacted content |
+
+### Confidence Thresholds
+
+| Confidence | Action |
+|------------|--------|
+| > 0.90 | Auto-apply (non-destructive only) |
+| 0.70 - 0.90 | Auto-apply with audit flag |
+| 0.50 - 0.70 | Route to Suggestions |
+| < 0.50 | Quarantine for review |
+
+**Key principle:** The tree fails safe. Unknown senders go to Quarantine, not trash. Low confidence triggers human review, not auto-action.
+
+---
+
 ## Technology Stack
 
 | Component | Technology | Purpose |
