@@ -191,6 +191,9 @@ flowchart TB
 | **Gap Analysis** | — | Post | CISO Assistant API → extract gaps | ⬜ Build |
 | **POA&M Generation** | — | Post | Gaps → POAMAgent templates | ⬜ Future |
 
+![n8n Flow #1 - Intake Ingestion workflow canvas](../assets/screenshots/n8n-flow1-intake-ingestion.png)
+*Flow #1 shows the complete intake pipeline: HMAC-authenticated webhook → JSON conversion → Nextcloud storage → SuiteCRM OAuth2 lead creation → email + Signal notifications.*
+
 ### Working Workflow: GIAP Intake Simple
 
 The first n8n workflow is operational and logging intake submissions to Nextcloud:

@@ -24,8 +24,14 @@ A Proxmox-based homelab designed as a practical testbed to build, break, and sec
 ---
 
 ## 🌐 **Lab Topology**
-![Homelab Network Diagram](../assets/images/homelab-network-diagram-github.jpg)  
+![Homelab Network Diagram](../assets/images/homelab-network-diagram-github.jpg)
 *Homelab Network Diagram — Proxmox, pfSense VLANs, SOC & red team tools, self-hosted services, and Zero Trust pilots.*
+
+---
+
+## 🖥️ **Proxmox VM Overview**
+![Proxmox VM List showing 48 VMs across 2 nodes](../assets/screenshots/proxmox-vm-list.png)
+*Proxmox VE dashboard — 48 VMs across 2 nodes including GIAP stack, security tools (Security Onion, Wazuh, Caldera), infrastructure services, and isolated lab environments.*
 
 ---
 
