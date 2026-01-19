@@ -33,6 +33,7 @@ description: "GIAP — Multi-agent GRC automation with n8n and CISO Assistant. I
 
     **Live Domains:**
 
+    - `aamcyber.com` — Marketing site (Astro + Cloudflare Pages, contact form integrated)
     - `portal.aamcyber.work` — Client intake wizard (v2.2, security hardened)
     - `flows.aamcyber.work` — n8n workflow automation (9 workflows)
     - `files.aamcyber.work` — Nextcloud evidence vault
@@ -180,9 +181,9 @@ flowchart TB
 | **Flow #4 - Deposit Gate** | Ty9o9C0Bc2IELweX | Pre | Poll for deposit → unlock engagement phase | ✅ Active |
 | **Flow #5 - Intake Complete** | 1ROo6OaM7PITA6oV | Pre | Intake finalization → client + admin notifications | ✅ Active |
 | **Backup Automation** | xnqCRqYPpek1qFN2 | Ops | Daily n8n + CISO Assistant backups → Nextcloud | ✅ Active |
-| **Signal Command Bot** | MEgbgAbNfosqufHT | Ops | 11 commands: /status, /test, /uptime, /pending, /leads, /backup, /lastbackup, etc. | ✅ Active |
+| **Signal Command Bot v3.5** | adWw9sCyGBplqlnZ | Ops | 11 commands: /status, /test, /uptime, /pending, /leads, /backup, /lastbackup, etc. | ✅ Active |
 | **Error Notifications** | g6DcvZN3w5vG5t5S | Ops | n8n Error Trigger → Signal alert + Resend email | ✅ Active |
-| **AAM Cyber Contact** | fG7S5oRouxyrr94R | Marketing | Marketing form → SuiteCRM lead | ✅ Active |
+| **AAM Cyber Contact** | fG7S5oRouxyrr94R | Marketing | [aamcyber.com](https://aamcyber.com) form → SuiteCRM lead | ✅ Active |
 | **Evidence Collection** | — | Post | Upload artifacts to Nextcloud folders | ⬜ Build |
 | **Gap Analysis** | — | Post | CISO Assistant API → extract gaps | ⬜ Build |
 | **POA&M Generation** | — | Post | Gaps → POAMAgent templates | ⬜ Future |
@@ -703,6 +704,23 @@ A dedicated Signal bot monitors the GIAP Alerts group and responds to 11 operati
 - **Polling Interval:** 15 seconds for command responsiveness
 - **API Version:** signal-cli v0.96
 - **Group:** GIAP Alerts (base64-encoded group ID)
+- **Architecture:** v3.5 with chained Merge nodes (race condition fix)
+
+**v3.5 Architecture Fix (January 2026):** The bot evolved from v3.0 (race condition causing multiple responses) to v3.5 using chained Merge nodes. The root cause was n8n's parallel execution model — Code nodes execute when ANY input arrives rather than waiting for ALL inputs. The solution chains Merge nodes (mode: "append") to synchronize 5 parallel data sources before processing:
+
+```
+Signal ──┐
+         ├→ Merge1 ──┐
+Status ──┘           │
+                     ├→ Merge2 ──┐
+Heartbeats ──────────┘           │
+                                 ├→ Merge3 ──┐
+Backups ─────────────────────────┘           │
+                                             ├→ Merge4 → Code → Send
+CRM Auth → Leads ────────────────────────────┘
+```
+
+**Why this matters:** Demonstrates n8n workflow architecture expertise, debugging complex async patterns, and production-grade operational tooling.
 
 **Security Hardening (January 2026):**
 
@@ -785,7 +803,7 @@ A dedicated Signal bot monitors the GIAP Alerts group and responds to 11 operati
 | **Architecture** | Multi-agent orchestration, two-phase workflow design, API-first design, MCP protocol |
 | **GRC** | Framework mapping, risk management, control assessment, POA&M generation, evidence pipelines, vCISO delivery |
 | **GRC Platforms** | CISO Assistant administration, 100+ framework coverage, API-first integration, multi-platform orchestration |
-| **Workflow Automation** | n8n workflow design, webhook integration, WebDAV API, JSON data pipelines, Signal bot integration |
+| **Workflow Automation** | n8n workflow design, webhook integration, WebDAV API, JSON data pipelines, Signal bot integration, async race condition resolution |
 | **Custom Tooling** | POAMAgent development, Jinja2 templating, PDF generation, API integration |
 | **Healthcare Compliance** | HIPAA Security Rule, Privacy Rule, BAA management, PHI protection |
 | **AI/LLM** | MCP server design, natural language GRC queries, LLM-assisted documentation |
@@ -801,7 +819,7 @@ A dedicated Signal bot monitors the GIAP Alerts group and responds to 11 operati
 ## What This Demonstrates
 
 - **Senior-level systems architecture** — Multi-agent orchestration with clear two-phase workflow
-- **Operational automation** — End-to-end intake workflow with n8n, webhooks, and WebDAV integration
+- **Operational automation** — End-to-end intake workflow with n8n, webhooks, and WebDAV integration; v3.5 bot architecture resolved complex async race conditions
 - **Security engineering discipline** — Comprehensive portal hardening with XSS prevention, rate limiting, and WCAG 2.1 AA compliance
 - **API security maturity** — HMAC-SHA256 webhook authentication with replay attack prevention and cryptographic integrity verification
 - **Right tool for the job** — CISO Assistant for both speed and depth with 100+ frameworks
