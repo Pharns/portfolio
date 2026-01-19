@@ -1,17 +1,17 @@
 ---
-description: "Security-hardened intake portal with expert panel review methodology — XSS prevention, HMAC authentication, WCAG 2.1 AA compliance, and CCPA/CPRA privacy engineering."
+description: "Security-hardened intake portal — XSS prevention, HMAC authentication, WCAG 2.1 AA compliance, and CCPA/CPRA privacy engineering."
 ---
 # Security-Hardened Intake Portal
 *Updated: {{ page.meta.git_revision_date_localized or "" }}*
 
 !!! tldr "For recruiters & hiring managers"
-    **What:** Production security hardening project with structured expert panel review — 5 domain experts identified 38 findings including 1 CRITICAL vulnerability. Implemented XSS prevention, HMAC-SHA256 webhook authentication, RFC-compliant email validation, rate limiting, honeypot bot protection, and WCAG 2.1 AA accessibility compliance. Added CCPA/CPRA privacy disclosures with California-specific rights language.
+    **What:** Production security hardening project — identified and remediated 1 CRITICAL vulnerability plus 37 additional findings across security, accessibility, and compliance domains. Implemented XSS prevention, HMAC-SHA256 webhook authentication, RFC-compliant email validation, rate limiting, honeypot bot protection, and WCAG 2.1 AA accessibility compliance. Added CCPA/CPRA privacy disclosures with California-specific rights language.
 
-    **Why this matters:** Demonstrates structured security review methodology, application security discipline, and compliance engineering depth. The expert panel approach shows how to systematically identify and remediate vulnerabilities across security, accessibility, legal, UX, and brand dimensions.
+    **Why this matters:** Demonstrates application security discipline and compliance engineering depth — systematically identifying and remediating vulnerabilities across security, accessibility, privacy, and UX dimensions.
 
     **Impact:** Eliminated CRITICAL localStorage injection vulnerability, achieved WCAG 2.1 AA compliance, implemented defense-in-depth security controls, and future-proofed privacy compliance for California market.
 
-    **Skills:** Application Security · Input Validation · XSS Prevention · HMAC Authentication · WCAG 2.1 AA · CCPA/CPRA · Rate Limiting · Bot Protection · Expert Panel Review · Security Architecture · Compliance Engineering
+    **Skills:** Application Security · Input Validation · XSS Prevention · HMAC Authentication · WCAG 2.1 AA · CCPA/CPRA · Rate Limiting · Bot Protection · Security Architecture · Compliance Engineering
 
 ---
 
@@ -22,7 +22,7 @@ description: "Security-hardened intake portal with expert panel review methodolo
 
 ## Overview
 
-The intake portal serves as the public-facing entry point for client engagement. A comprehensive expert panel review identified 38 findings across 5 domains, including a **CRITICAL severity** localStorage injection vulnerability. This case study documents the structured review methodology and technical remediation.
+The intake portal serves as the public-facing entry point for client engagement. A comprehensive security review identified 38 findings across security, accessibility, privacy, and UX domains, including a **CRITICAL severity** localStorage injection vulnerability. This case study documents the technical remediation.
 
 ### Portal Specifications
 
@@ -35,23 +35,7 @@ The intake portal serves as the public-facing entry point for client engagement.
 | **Compliance** | WCAG 2.1 AA, GDPR, CCPA/CPRA, COPPA statement |
 | **Mobile** | Responsive, 48px touch targets, iOS zoom prevention |
 
----
-
-## Expert Panel Review Methodology
-
-Rather than ad-hoc security testing, the portal underwent structured review by 5 simulated domain experts, each focused on their specialty area. This methodology ensures comprehensive coverage across security, usability, compliance, and brand dimensions.
-
-### Panel Composition
-
-| Expert | Focus Area | Findings |
-|--------|------------|----------|
-| **Security Expert** | Input validation, injection vulnerabilities, XSS, authentication | 8 findings (1 CRITICAL) |
-| **UX/Accessibility Expert** | WCAG 2.1 AA, keyboard navigation, screen readers | 7 findings |
-| **Legal/Privacy Expert** | GDPR, CCPA, CPRA, international data transfer | 9 findings |
-| **Mobile/Responsive Expert** | Touch targets, viewport behavior, iOS quirks | 6 findings |
-| **Brand/Copywriting Expert** | HNWI positioning, trust signals, tone alignment | 8 findings |
-
-### Review Statistics
+### Review Summary
 
 - **Total Findings:** 38 across all domains
 - **Critical Severity:** 1 (localStorage injection)
@@ -61,7 +45,7 @@ Rather than ad-hoc security testing, the portal underwent structured review by 5
 
 ---
 
-## Critical Security Findings
+## Security Findings
 
 ### Finding SEC-01: localStorage Injection (CRITICAL)
 
@@ -342,7 +326,7 @@ Although the business is Arizona-based (CCPA doesn't technically apply), we impl
 
 ## Brand Alignment
 
-The expert panel identified casual language that undermined the HNWI market positioning.
+The review identified casual language that undermined the HNWI market positioning.
 
 ### Copy Refinements
 
@@ -392,7 +376,7 @@ The expert panel identified casual language that undermined the HNWI market posi
 
 ### Security Engineering
 
-- **Vulnerability identification** — Structured expert panel methodology
+- **Vulnerability identification** — Systematic review across security domains
 - **Defense-in-depth** — Multiple layers (sanitization, rate limiting, HMAC, honeypot)
 - **Secure defaults** — Hardcoded endpoints, no localStorage dependencies
 - **Cryptographic authentication** — HMAC-SHA256 with replay prevention
@@ -409,19 +393,13 @@ The expert panel identified casual language that undermined the HNWI market posi
 - **Bot protection** — Privacy-respecting honeypot pattern
 - **Rate limiting** — Client-side throttling (defense-in-depth)
 
-### Structured Review Process
-
-- **Expert panel methodology** — Comprehensive coverage across domains
-- **Finding classification** — Severity-based prioritization
-- **Documentation** — Audit trail for compliance evidence
-
 ---
 
 ## Evidence Artifacts
 
 | Artifact | Description | Status |
 |----------|-------------|--------|
-| Expert panel session log | 5-domain review findings and remediation | ✅ Documented |
+| Security review log | Findings and remediation documentation | ✅ Documented |
 | HMAC implementation guide | Setup and validation procedures | ✅ Complete |
 | WCAG compliance checklist | Accessibility validation record | ✅ Complete |
 | Privacy policy (CCPA) | California-specific disclosures | ✅ Deployed |
