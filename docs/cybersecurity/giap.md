@@ -57,7 +57,7 @@ description: "GIAP — Multi-agent GRC automation with n8n and CISO Assistant. I
     **Live Domains:**
 
     - [aamcyber.com](https://aamcyber.com){target=_blank} — Marketing site (Astro + Cloudflare Pages, contact form integrated)
-    - [status.aamcyber.com](https://status.aamcyber.com){target=_blank} — Public status page (Uptime Kuma, operational transparency)
+    - [status.aamcyber.com](https://status.aamcyber.com/status/giap){target=_blank} — Public status page (Uptime Kuma, operational transparency)
     - [**portal.aamcyber.work**](https://portal.aamcyber.work/){target=_blank} — **Client intake wizard (v2.2, security hardened) ← Try the demo!**
     - `flows.aamcyber.work` — n8n workflow automation (9 workflows) *[admin access]*
     - `files.aamcyber.work` — Nextcloud evidence vault *[admin access]*
@@ -955,7 +955,7 @@ Pairs with [Cloud Control Pack](aws-control-pack.md) for cloud governance and [T
 !!! tip "See It In Action"
     Don't just read about it — **experience the production system yourself.**
 
-    [🚀 Launch Client Portal Demo](https://portal.aamcyber.work/){ .md-button .md-button--primary target=_blank } [📊 View Live Status](https://status.aamcyber.com){ .md-button target=_blank }
+    [🚀 Launch Client Portal Demo](https://portal.aamcyber.work/){ .md-button .md-button--primary target=_blank } [📊 View Live Status](https://status.aamcyber.com/status/giap){ .md-button target=_blank }
 
 ---
 
