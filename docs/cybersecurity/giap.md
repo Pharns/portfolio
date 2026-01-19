@@ -855,7 +855,7 @@ flowchart LR
 - **AI/LLM integration expertise** — MCP protocol for natural language GRC queries
 - **Healthcare compliance depth** — HIPAA Security/Privacy Rule implementation
 - **Production-grade security** — RBAC, audit logging, PHI protection, deposit gate
-- **Operational transparency** — Public status page ([status.aamcyber.com](https://status.aamcyber.com)) demonstrates "practice what we preach" approach to availability monitoring
+- **Operational transparency** — Public status page ([status.aamcyber.com](https://status.aamcyber.com/status/giap)) demonstrates "practice what we preach" approach to availability monitoring
 - **Emerging vertical expertise** — PropTech/IoT compliance for regulated workspaces
 - **GRC domain depth** — Cross-framework mapping, POA&M generation, evidence pipelines
 - **Full-stack capability** — Static portal + n8n workflows + infrastructure automation
