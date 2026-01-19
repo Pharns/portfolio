@@ -417,7 +417,7 @@ Ready to create intake in SuiteCRM?
 |-------|------------|---------|--------|
 | **Frontend** | Static HTML/JS | Pre-intake wizard (v2.2, security hardened) | ✅ Deployed |
 | **Frontend** | React 18 + Vite 5 | Full-featured GIAC UI (13 sections, 67 files, demo + real mode) | ✅ Deployed |
-| **Backend** | FastAPI + SQLAlchemy | GIAC API with token validation, submissions, templates | ✅ Deployed |
+| **Backend** | FastAPI + SQLAlchemy | GIAC API with token validation, rate limiting, IP audit logging | ✅ Hardened |
 | **Orchestration** | n8n | Workflow automation, notifications | ✅ Running |
 | **GRC Platform** | CISO Assistant | Assessments, risk, controls, 100+ frameworks | ✅ Running |
 | **Files** | Nextcloud | Evidence vault, document storage | ✅ Running |
@@ -638,7 +638,7 @@ GIAP™ supports 90-day recurring assessment cycles for vCISO engagements:
 | Email Notifications | ✅ Working | Resend API (SOC 2 compliant) |
 | Signal Notifications | ✅ Working | Hybrid model: Signal + Email for all alerts |
 | DocuSeal | ✅ Deployed | Template ID: 14 configured, callback workflow active |
-| GIAC API (FastAPI) | ✅ Deployed | Token validation, submissions, templates, nginx proxy |
+| GIAC API (FastAPI) | ✅ Hardened | Rate limiting (5/15min), IP audit logging, 72h JWT expiry, token binding |
 | GIAC UI (React) | ✅ Deployed | 13 sections, 67 files, demo + real mode |
 | E2E Pipeline | ✅ Verified | 8 test leads processed: Deposit → Token → Submission → CISO → Email → Signal |
 | POAMAgent | ⬜ Future | Custom POA&M generation |
@@ -754,6 +754,39 @@ async function generateSignature(payload, secret) {
 
 !!! warning "Defense-in-Depth Limitation"
     For a public form, the signing secret is visible in browser DevTools (client-side JavaScript). This implementation **raises the bar** for attackers but isn't cryptographically bulletproof — true end-to-end security would require a backend proxy. This is an intentional trade-off: defense-in-depth protection without backend infrastructure overhead.
+
+### GIAC API Security Hardening (January 2026)
+
+The GIAC API (FastAPI backend) implements production-grade security controls for token management and intake processing:
+
+| Control | Implementation | CIS v8 Mapping |
+|---------|----------------|----------------|
+| **Rate Limiting** | 5 requests per 15 minutes per IP (slowapi) | 13.1 |
+| **IP Audit Logging** | All token generation attempts logged with IP, timestamp, outcome | 8.2, 8.5 |
+| **JWT Expiry** | 72-hour token lifetime (reduced from 7 days) | 6.2 |
+| **Token Binding** | intake_token + external_id passed through deposit flow | 6.3 |
+
+**Why these controls matter:**
+
+- **Rate limiting** prevents brute-force token enumeration and abuse
+- **IP audit logging** enables forensic analysis of suspicious activity
+- **Shortened JWT expiry** reduces window of token compromise
+- **Token binding** ensures deposit workflow integrity (Flow #4 fix)
+
+```python
+# Rate limiting with slowapi
+from slowapi import Limiter
+from slowapi.util import get_remote_address
+
+limiter = Limiter(key_func=get_remote_address)
+
+@app.post("/api/token")
+@limiter.limit("5/15minutes")
+async def generate_token(request: Request):
+    # IP logged on every attempt
+    logger.info(f"Token request from {request.client.host}")
+    ...
+```
 
 ---
 
