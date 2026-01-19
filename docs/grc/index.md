@@ -346,9 +346,15 @@ Traditional GRC work is documentation-heavy: control matrices, policy drafting, 
 
 <div class="stat-grid" markdown>
 <div class="stat-tile" markdown>
-**🛡️ AWS Cloud Control Pack** *(In Progress)*
-S3 default-deny, GuardDuty export, scoped IAM with CIS/NIST mapping
-[View Project](../cybersecurity/aws-control-pack.md)
+**🤖 GIAP™ — Governance Automation** ⭐ *(MVP Complete)*
+Production GRC platform with [live demo](https://portal.aamcyber.work/){target=_blank}. 100+ frameworks, HMAC webhooks, end-to-end automation.
+[View Project](../cybersecurity/giap.md)
+</div>
+
+<div class="stat-tile" markdown>
+**📡 TraceLock™ — RF Threat Detection**
+Patent-pending 6-domain wireless monitoring. Evidence-grade logging and detection engineering.
+[View Project](../cybersecurity/tracelock.md)
 </div>
 
 <div class="stat-tile" markdown>
@@ -358,15 +364,9 @@ Complete endpoint hardening with evidence pack in <48 hours
 </div>
 
 <div class="stat-tile" markdown>
-**🤖 GIAP™ — Governance Automation** *(Infrastructure Live)*
-Self-hosted intake platform on Proxmox. Workflow integration in progress.
-[View Project](../cybersecurity/giap.md)
-</div>
-
-<div class="stat-tile" markdown>
-**📡 TraceLock™ RF/SDR Telemetry**
-Evidence-grade wireless detection (demonstrates logging pipeline skills)
-[View Project](../cybersecurity/tracelock.md)
+**🛡️ AWS Cloud Control Pack** *(In Progress)*
+S3 default-deny, GuardDuty export, scoped IAM with CIS/NIST mapping
+[View Project](../cybersecurity/aws-control-pack.md)
 </div>
 
 <div class="stat-tile" markdown>

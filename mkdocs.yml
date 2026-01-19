@@ -111,7 +111,8 @@ nav:
 - About: about.md
 - GRC & Security:
   - Overview: grc/index.md
-  - Cloud Control Pack (AWS): cybersecurity/aws-control-pack.md
+  - GIAP™ — Governance Automation: cybersecurity/giap.md
+  - TraceLock™ (RF Security): cybersecurity/tracelock.md
   - PCI-DSS Compliance:
     - Overview: cybersecurity/pci-dss/index.md
     - System Architecture: cybersecurity/pci-dss/architecture.md
@@ -119,12 +120,11 @@ nav:
     - Controls & Mapping: cybersecurity/pci-dss/security-controls.md
     - Verification & Evidence: cybersecurity/pci-dss/verification.md
     - Lessons Learned: cybersecurity/pci-dss/lessons-learned.md
-  - GIAP™ — Governance Automation: cybersecurity/giap.md
+  - Cloud Control Pack (AWS): cybersecurity/aws-control-pack.md
   - Private Inbox Zero: cybersecurity/private-inbox-zero.md
   - Secure Intake Portal: cybersecurity/intake-portal.md
   - Baseline Evidence Drop: cybersecurity/baseline-evidence-drop.md
   - Detection & IR Lab: cybersecurity/incident-response.md
-  - TraceLock™ (RF Security): cybersecurity/tracelock.md
   - Remote Access & Zero-WAN: cybersecurity/remote-access-zero-wan.md
   - Penetration Testing: cybersecurity/penetration-testing.md
   - Vulnerability Assessment: cybersecurity/vulnerability-assessment.md

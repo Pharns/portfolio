@@ -141,6 +141,20 @@ Use LLM tools for accelerated policy drafting, control mapping, and documentatio
 
 <div class="stat-grid" markdown>
 <div class="stat-tile" markdown>
+**GIAP™ — GRC Automation Platform** ⭐
+Production GRC platform with live demo. CISO Assistant + n8n + Nextcloud + SuiteCRM. 100+ frameworks, HMAC-authenticated webhooks, end-to-end intake automation.
+<span class="tag-chip">GRC</span> <span class="tag-chip">Automation</span> <span class="tag-chip">Live Demo</span>
+[View Case Study](cybersecurity/giap.md) · [Try Live Demo](https://portal.aamcyber.work/){target=_blank}
+</div>
+
+<div class="stat-tile" markdown>
+**TraceLock™ — RF Threat Detection**
+Patent-pending 6-domain wireless monitoring (Wi-Fi/BLE/SDR/GPS/ADS-B). Evidence-grade logging architecture and detection engineering.
+<span class="tag-chip">Detection</span> <span class="tag-chip">RF/SDR</span> <span class="tag-chip">Python</span>
+[View Project](cybersecurity/tracelock.md)
+</div>
+
+<div class="stat-tile" markdown>
 **PCI-DSS Windows 11 Hardening**
 Complete endpoint hardening with GPO, firewall rules, service lockdown, and evidence pack. Delivered for financial services client in <48 hours.
 <span class="tag-chip">Compliance</span> <span class="tag-chip">Hardening</span> <span class="tag-chip">Client Work</span>
@@ -148,24 +162,10 @@ Complete endpoint hardening with GPO, firewall rules, service lockdown, and evid
 </div>
 
 <div class="stat-tile" markdown>
-**GIAP™ — GRC Automation Platform**
-CISO Assistant + n8n + Nextcloud + SuiteCRM. 100+ frameworks, automated intake workflows, evidence pipelines.
-<span class="tag-chip">GRC</span> <span class="tag-chip">Automation</span> <span class="tag-chip">Deployed</span>
-[View Case Study](cybersecurity/giap.md)
-</div>
-
-<div class="stat-tile" markdown>
 **AWS Cloud Control Pack**
 S3 default-deny storage, GuardDuty findings export, scoped IAM with CIS/NIST mapping.
 <span class="tag-chip">Cloud</span> <span class="tag-chip">Controls</span> <span class="tag-chip">Architecture</span>
 [View Case Study](cybersecurity/aws-control-pack.md)
-</div>
-
-<div class="stat-tile" markdown>
-**TraceLock™ — Detection Engineering**
-Evidence-grade wireless monitoring with 6-domain correlation. Demonstrates logging architecture and detection rule authoring.
-<span class="tag-chip">Detection</span> <span class="tag-chip">Evidence</span> <span class="tag-chip">Python</span>
-[View Project](cybersecurity/tracelock.md)
 </div>
 
 <div class="stat-tile" markdown>
