@@ -17,6 +17,26 @@ description: "GIAP — Multi-agent GRC automation with n8n and CISO Assistant. I
 
 ---
 
+!!! example "🔗 Live Demo — Try It Now"
+    **Experience the production intake portal yourself.** This is the actual client-facing system — security hardened, WCAG 2.1 AA compliant, and processing real engagements.
+
+    <div style="text-align: center; margin: 1em 0;">
+    <a href="https://portal.aamcyber.work/" target="_blank" rel="noopener" class="md-button md-button--primary" style="font-size: 1.1em; padding: 0.8em 2em;">
+    🚀 Launch Client Portal Demo
+    </a>
+    </div>
+
+    **What you'll see:**
+
+    - Multi-step intake wizard with real-time validation
+    - XSS prevention and input sanitization in action
+    - Mobile-responsive design (test on your phone)
+    - HMAC-authenticated webhook architecture (form submissions route to production n8n)
+
+    *Note: Demo submissions are flagged and do not create real client records.*
+
+---
+
 !!! success "Project Status: ✅ MVP Complete"
     **Infrastructure:** Deployed — Proxmox stack with CISO Assistant, Nextcloud, n8n, SuiteCRM, DocuSeal (Template ID: 14), and SMTP relay (Postfix) operational. Signal-CLI hardened with localhost binding and GPG-encrypted backups. Cloudflare DNS with DDoS protection.
 
@@ -36,14 +56,14 @@ description: "GIAP — Multi-agent GRC automation with n8n and CISO Assistant. I
 
     **Live Domains:**
 
-    - `aamcyber.com` — Marketing site (Astro + Cloudflare Pages, contact form integrated)
-    - `status.aamcyber.com` — Public status page (Uptime Kuma, operational transparency)
-    - `portal.aamcyber.work` — Client intake wizard (v2.2, security hardened)
-    - `flows.aamcyber.work` — n8n workflow automation (9 workflows)
-    - `files.aamcyber.work` — Nextcloud evidence vault
-    - `grc.aamcyber.work` — CISO Assistant GRC platform
-    - `crm.aamcyber.work` — SuiteCRM client management
-    - `docs.aamcyber.work` — DocuSeal signature automation
+    - [aamcyber.com](https://aamcyber.com){target=_blank} — Marketing site (Astro + Cloudflare Pages, contact form integrated)
+    - [status.aamcyber.com](https://status.aamcyber.com){target=_blank} — Public status page (Uptime Kuma, operational transparency)
+    - [**portal.aamcyber.work**](https://portal.aamcyber.work/){target=_blank} — **Client intake wizard (v2.2, security hardened) ← Try the demo!**
+    - `flows.aamcyber.work` — n8n workflow automation (9 workflows) *[admin access]*
+    - `files.aamcyber.work` — Nextcloud evidence vault *[admin access]*
+    - `grc.aamcyber.work` — CISO Assistant GRC platform *[admin access]*
+    - `crm.aamcyber.work` — SuiteCRM client management *[admin access]*
+    - `docs.aamcyber.work` — DocuSeal signature automation *[admin access]*
 
 ---
 
@@ -931,6 +951,11 @@ flowchart LR
 - **Consulting delivery model** — Productized vCISO service with 90-day cycles
 
 Pairs with [Cloud Control Pack](aws-control-pack.md) for cloud governance and [TraceLock™](tracelock.md) for RF/physical security — demonstrating end-to-end security engineering capability.
+
+!!! tip "See It In Action"
+    Don't just read about it — **experience the production system yourself.**
+
+    [🚀 Launch Client Portal Demo](https://portal.aamcyber.work/){ .md-button .md-button--primary target=_blank } [📊 View Live Status](https://status.aamcyber.com){ .md-button target=_blank }
 
 ---
 
