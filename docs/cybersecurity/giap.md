@@ -708,16 +708,41 @@ A dedicated Signal bot monitors the GIAP Alerts group and responds to 11 operati
 
 **v3.5 Architecture Fix (January 2026):** The bot evolved from v3.0 (race condition causing multiple responses) to v3.5 using chained Merge nodes. The root cause was n8n's parallel execution model — Code nodes execute when ANY input arrives rather than waiting for ALL inputs. The solution chains Merge nodes (mode: "append") to synchronize 5 parallel data sources before processing:
 
-```
-Signal ──┐
-         ├→ Merge1 ──┐
-Status ──┘           │
-                     ├→ Merge2 ──┐
-Heartbeats ──────────┘           │
-                                 ├→ Merge3 ──┐
-Backups ─────────────────────────┘           │
-                                             ├→ Merge4 → Code → Send
-CRM Auth → Leads ────────────────────────────┘
+```mermaid
+flowchart LR
+    subgraph SOURCES["Data Sources"]
+        SIG[Signal API]
+        STAT[Status Check]
+        HB[Heartbeats]
+        BK[Backups]
+        CRM[CRM Auth] --> LEADS[Leads Query]
+    end
+
+    subgraph MERGE["Chained Merge Pattern"]
+        M1[Merge 1]
+        M2[Merge 2]
+        M3[Merge 3]
+        M4[Merge 4]
+    end
+
+    subgraph OUTPUT["Processing"]
+        CODE[Code Node]
+        SEND[Send Response]
+    end
+
+    SIG --> M1
+    STAT --> M1
+    M1 --> M2
+    HB --> M2
+    M2 --> M3
+    BK --> M3
+    M3 --> M4
+    LEADS --> M4
+    M4 --> CODE --> SEND
+
+    style SOURCES fill:#e8f4ea,stroke:#2e7d32
+    style MERGE fill:#fff3e0,stroke:#ef6c00
+    style OUTPUT fill:#e0f2fe,stroke:#0284c7
 ```
 
 **Why this matters:** Demonstrates n8n workflow architecture expertise, debugging complex async patterns, and production-grade operational tooling.
