@@ -198,7 +198,7 @@ flowchart TB
 | **CISO Assistant** | Both | Full GRC platform — assessments, risk, controls, 100+ frameworks | ✅ Running |
 | **DocuSeal** | Pre-Engagement | Legal documents (engagement letter, DPA, BAA) | ✅ Deployed |
 | **GIAC API (FastAPI)** | Both | RBAC, audit log, API endpoints | ✅ Scaffolded |
-| **GIAC UI (React)** | Both | Full-featured portal (replaces static) | ⬜ Future |
+| **GIAC UI (React)** | Both | Full-featured portal (replaces static) | ✅ Deployed |
 | **POAMAgent** | Post-Engagement | Custom POA&M generation | ⬜ Future |
 
 ### Why Single GRC Platform?
