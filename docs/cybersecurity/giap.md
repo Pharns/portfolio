@@ -1,7 +1,7 @@
 ---
 description: "GIAP — Multi-agent GRC automation with n8n and CISO Assistant. Intake, control mapping, and POA&M generation across 100+ frameworks for GRC Engineers."
 ---
-# GIAP™ — Multi-Agent GRC Automation Platform
+# GIAP™ — GRC Integrated Automation Platform
 *Updated: {{ page.meta.git_revision_date_localized or "" }}*
 
 **Role:** Sole architect and implementer | 829 lines of portal code | 9 n8n workflows | 8 integrated services

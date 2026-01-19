@@ -139,7 +139,7 @@ Windows GPO, BitLocker, Defender, GlassWire, Patch My PC, Macrium Reflect, PCI-D
 n8n, Python automation, Nextcloud, SuiteCRM, NIST CSF, SOC 2 control mapping
 
 **Project examples:**
-[GIAP™ — Governance Automation](../cybersecurity/giap.md) — AI-powered intake workflows with consent, retention, and control mapping
+[GIAP™ — GRC Integrated Automation](../cybersecurity/giap.md) — Production platform with 100+ frameworks, HMAC webhooks, end-to-end automation
 [Secure Intake Portal](../cybersecurity/intake-portal.md) — Nextcloud + n8n + SuiteCRM with IAM and audit trails
 [Baseline Evidence Drop](../cybersecurity/baseline-evidence-drop.md) — Agentless Windows evidence collector
 
@@ -346,7 +346,7 @@ Traditional GRC work is documentation-heavy: control matrices, policy drafting, 
 
 <div class="stat-grid" markdown>
 <div class="stat-tile" markdown>
-**🤖 GIAP™ — Governance Automation** ⭐ *(MVP Complete)*
+**🤖 GIAP™ — GRC Integrated Automation** ⭐ *(MVP Complete)*
 Production GRC platform with [live demo](https://portal.aamcyber.work/){target=_blank}. 100+ frameworks, HMAC webhooks, end-to-end automation.
 [View Project](../cybersecurity/giap.md)
 </div>

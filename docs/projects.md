@@ -14,7 +14,7 @@ Browse the core portfolio work with quick outcomes and role-fit tags.
 <div class="section-panel" markdown>
 <div class="stat-grid" markdown>
 <div class="stat-tile" markdown>
-**GIAP™ — GRC Automation Platform** ⭐ <span class="status-badge">MVP Complete</span>
+**GIAP™ — GRC Integrated Automation Platform** ⭐ <span class="status-badge">MVP Complete</span>
 Production GRC platform with [live demo](https://portal.aamcyber.work/){target=_blank}. CISO Assistant + n8n + Nextcloud + SuiteCRM. 100+ frameworks, HMAC webhooks, end-to-end automation.
 <span class="tag-chip">GRC</span> <span class="tag-chip">Automation</span> <span class="tag-chip">Live Demo</span>
 **Tech:** Proxmox, CISO Assistant, n8n, Nextcloud, SuiteCRM, FastAPI, React

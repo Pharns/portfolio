@@ -141,7 +141,7 @@ Use LLM tools for accelerated policy drafting, control mapping, and documentatio
 
 <div class="stat-grid" markdown>
 <div class="stat-tile" markdown>
-**GIAP™ — GRC Automation Platform** ⭐
+**GIAP™ — GRC Integrated Automation Platform** ⭐
 Production GRC platform with live demo. CISO Assistant + n8n + Nextcloud + SuiteCRM. 100+ frameworks, HMAC-authenticated webhooks, end-to-end intake automation.
 <span class="tag-chip">GRC</span> <span class="tag-chip">Automation</span> <span class="tag-chip">Live Demo</span>
 [View Case Study](cybersecurity/giap.md) · [Try Live Demo](https://portal.aamcyber.work/){target=_blank}
