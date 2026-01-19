@@ -4,6 +4,8 @@ description: "GIAP — Multi-agent GRC automation with n8n and CISO Assistant. I
 # GIAP™ — Multi-Agent GRC Automation Platform
 *Updated: {{ page.meta.git_revision_date_localized or "" }}*
 
+**Role:** Sole architect and implementer | 829 lines of portal code | 9 n8n workflows | 8 integrated services
+
 !!! tldr "For recruiters & hiring managers"
     **What:** Production GRC automation platform (85% MVP complete) with n8n orchestration and 8 self-hosted services. End-to-end intake workflow operational (Portal → HMAC-authenticated webhook → n8n → Nextcloud → SuiteCRM → DocuSeal). Single GRC platform (CISO Assistant) with 100+ frameworks for pre-engagement assessment and post-engagement delivery. Orchestrates client intake, CRM sync, e-signature automation, cross-framework control mapping, and POA&M generation.
 

@@ -5,6 +5,8 @@ description: TraceLock™ — Patent-pending multi-domain RF threat detection pl
 
 *Patent Pending · WGU BSCIA Capstone · February 2026*
 
+**Role:** Sole developer | Security-hardened fork | ~12,500 LOC (25 Python modules, 81 shell scripts) | 6 RF domains
+
 !!! success "For Hiring Managers — Detection Engineer / Security Automation"
 
     **What I Built:** Real-time RF surveillance detection system that monitors 6 wireless domains simultaneously, correlates threats across sensors, and produces forensic-grade evidence logs. *(Provisional patent filed)*

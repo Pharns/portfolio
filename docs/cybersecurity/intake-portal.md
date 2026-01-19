@@ -4,6 +4,8 @@ description: "Security-hardened intake portal — XSS prevention, HMAC authentic
 # Security-Hardened Intake Portal
 *Updated: {{ page.meta.git_revision_date_localized or "" }}*
 
+**Role:** Sole implementer | 829 lines (HTML/JS/CSS) | 38 findings identified and remediated
+
 !!! tldr "For recruiters & hiring managers"
     **What:** Production security hardening project — identified and remediated 1 CRITICAL vulnerability plus 37 additional findings across security, accessibility, and compliance domains. Implemented XSS prevention, HMAC-SHA256 webhook authentication, RFC-compliant email validation, rate limiting, honeypot bot protection, and WCAG 2.1 AA accessibility compliance. Added CCPA/CPRA privacy disclosures with California-specific rights language.
 
