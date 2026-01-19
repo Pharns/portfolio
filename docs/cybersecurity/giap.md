@@ -267,7 +267,7 @@ flowchart TB
 | **Flow #4 - Deposit Gate** | Ty9o9C0Bc2IELweX | Pre | Poll for deposit → unlock engagement phase | ✅ Active |
 | **Flow #5 - Intake Complete** | 1ROo6OaM7PITA6oV | Pre | Intake finalization → client + admin notifications | ✅ Active |
 | **Backup Automation** | xnqCRqYPpek1qFN2 | Ops | Daily n8n + CISO Assistant backups → Nextcloud | ✅ Active |
-| **Signal Command Bot v3.5** | adWw9sCyGBplqlnZ | Ops | 11 commands: /status, /test, /uptime, /pending, /leads, /backup, /lastbackup, etc. | ✅ Active |
+| **Signal Command Bot v3.5** | adWw9sCyGBplqlnZ | Ops | 11 commands (+1 planned: /runbackup for on-demand backups) | ✅ Active |
 | **Error Notifications** | g6DcvZN3w5vG5t5S | Ops | n8n Error Trigger → Signal alert + Resend email | ✅ Active |
 | **AAM Cyber Contact** | fG7S5oRouxyrr94R | Marketing | [aamcyber.com](https://aamcyber.com) form → SuiteCRM lead | ✅ Active |
 | **Evidence Collection** | — | Post | Upload artifacts to Nextcloud folders | ⬜ Build |
@@ -810,6 +810,7 @@ A dedicated Signal bot monitors the GIAP Alerts group and responds to 11 operati
 | `/leads` | Lead counts by status |
 | `/backup` | Backup schedule and automation info |
 | `/lastbackup` | Last backup execution time (LIVE from n8n API) |
+| `/runbackup` | **⬜ Planned:** Trigger on-demand backup to Nextcloud |
 | `/version` | Bot version and configuration info |
 
 ### Notification Events
