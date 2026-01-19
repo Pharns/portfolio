@@ -14,6 +14,30 @@ Browse the core portfolio work with quick outcomes and role-fit tags.
 <div class="section-panel" markdown>
 <div class="stat-grid" markdown>
 <div class="stat-tile" markdown>
+**GIAP™ — GRC Automation Platform** ⭐ <span class="status-badge">MVP Complete</span>
+Production GRC platform with [live demo](https://portal.aamcyber.work/){target=_blank}. CISO Assistant + n8n + Nextcloud + SuiteCRM. 100+ frameworks, HMAC webhooks, end-to-end automation.
+<span class="tag-chip">GRC</span> <span class="tag-chip">Automation</span> <span class="tag-chip">Live Demo</span>
+**Tech:** Proxmox, CISO Assistant, n8n, Nextcloud, SuiteCRM, FastAPI, React
+[Read](cybersecurity/giap.md) · [Try Demo](https://portal.aamcyber.work/){target=_blank}
+<small>**Demonstrates:** Production GRC automation, API security, systems architecture</small>
+</div>
+<div class="stat-tile" markdown>
+**TraceLock™ — RF Threat Detection** <span class="status-badge">Active</span>
+Patent-pending 6-domain wireless monitoring (Wi-Fi/BLE/SDR/GPS/ADS-B). Evidence-grade logging and detection engineering.
+<span class="tag-chip">RF</span> <span class="tag-chip">Detection</span> <span class="tag-chip">Python</span>
+**Tech:** Python, HackRF, RTL-SDR, SQLite, Kismet
+[Read](cybersecurity/tracelock.md)
+<small>**Demonstrates:** Wireless threat detection, evidence logging, detection engineering</small>
+</div>
+<div class="stat-tile" markdown>
+**PCI-DSS Endpoint Hardening** <span class="status-badge">Complete</span>
+Rapid hardening (<48 hours) with 47+ controls mapped and evidence pack. Financial services client delivery.
+<span class="tag-chip">Compliance</span> <span class="tag-chip">Hardening</span> <span class="tag-chip">Client Work</span>
+**Tech:** GPO, BitLocker, Windows Firewall, PowerShell
+[Read](cybersecurity/pci-dss/index.md)
+<small>**Demonstrates:** Compliance-ready endpoint builds with audit evidence</small>
+</div>
+<div class="stat-tile" markdown>
 **Cloud Control Pack (AWS)** <span class="status-badge">In Progress</span>
 Default-deny S3 + GuardDuty export; scoped IAM with CIS/NIST mapping.
 <span class="tag-chip">Cloud</span> <span class="tag-chip">GRC</span> <span class="tag-chip">AWS</span>
@@ -22,20 +46,12 @@ Default-deny S3 + GuardDuty export; scoped IAM with CIS/NIST mapping.
 <small>**Demonstrates:** Cloud guardrails, evidence pipeline, compliance mapping</small>
 </div>
 <div class="stat-tile" markdown>
-**TraceLock™ (RF/SDR Security)** <span class="status-badge">Active</span>
-Evidence-first RF/SDR pipeline with AI-assisted parsing across 6 wireless domains.
-<span class="tag-chip">RF</span> <span class="tag-chip">Detection</span> <span class="tag-chip">Python</span>
-**Tech:** Python, HackRF, RTL-SDR, SQLite, Kismet
-[Read](cybersecurity/tracelock.md)
-<small>**Demonstrates:** Wireless threat detection, evidence logging, detection engineering</small>
-</div>
-<div class="stat-tile" markdown>
-**GIAP™ — GRC Intake Automation** <span class="status-badge">Infra Live</span>
-Self-hosted Nextcloud + n8n + SuiteCRM on Proxmox VMs.
-<span class="tag-chip">GRC</span> <span class="tag-chip">Automation</span> <span class="tag-chip">Self-Hosted</span>
-**Tech:** Proxmox, Nextcloud, n8n, SuiteCRM, Nginx, MySQL
-[Read](cybersecurity/giap.md)
-<small>**Demonstrates:** Intake automation, retention policies, audit-ready workflows</small>
+**Secure Intake Portal** <span class="status-badge">Active</span>
+Nextcloud + n8n + SuiteCRM intake with RBAC, retention, and audit trails.
+<span class="tag-chip">Compliance</span> <span class="tag-chip">Intake</span> <span class="tag-chip">Automation</span>
+**Tech:** Nextcloud, n8n, SuiteCRM, LDAP
+[Read](cybersecurity/intake-portal.md)
+<small>**Demonstrates:** Governed intake, role-based access, logged workflows</small>
 </div>
 <div class="stat-tile" markdown>
 **Baseline Evidence Drop** <span class="status-badge">Complete</span>
@@ -44,22 +60,6 @@ Consent-first Windows evidence collector with hashes, manifest, and control mapp
 **Tech:** PowerShell, SHA-256, JSON manifest
 [Read](cybersecurity/baseline-evidence-drop.md)
 <small>**Demonstrates:** Agentless evidence collection with integrity verification</small>
-</div>
-<div class="stat-tile" markdown>
-**PCI-DSS Endpoint Hardening** <span class="status-badge">Complete</span>
-Rapid hardening (<48 hours) with 47+ controls mapped and evidence pack.
-<span class="tag-chip">Compliance</span> <span class="tag-chip">Hardening</span> <span class="tag-chip">PCI-DSS</span>
-**Tech:** GPO, BitLocker, Windows Firewall, PowerShell
-[Read](cybersecurity/pci-dss/index.md)
-<small>**Demonstrates:** Compliance-ready endpoint builds with audit evidence</small>
-</div>
-<div class="stat-tile" markdown>
-**Secure Intake Portal** <span class="status-badge">Active</span>
-Nextcloud + n8n + SuiteCRM intake with RBAC, retention, and audit trails.
-<span class="tag-chip">Compliance</span> <span class="tag-chip">Intake</span> <span class="tag-chip">Automation</span>
-**Tech:** Nextcloud, n8n, SuiteCRM, LDAP
-[Read](cybersecurity/intake-portal.md)
-<small>**Demonstrates:** Governed intake, role-based access, logged workflows</small>
 </div>
 </div>
 </div>

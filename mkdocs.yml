@@ -130,6 +130,7 @@ nav:
   - Vulnerability Assessment: cybersecurity/vulnerability-assessment.md
   - Homelab Infrastructure: cybersecurity/homelab-infrastructure.md
   - Homelab Build Journey: cybersecurity/homelab-journey.md
+- Projects: projects.md
 - Innovation:
   - Overview: innovation/index.md
   - AgenticOS — AI Orchestration: innovation/agenticos.md
@@ -137,6 +138,5 @@ nav:
   - SDR & RF Security Research: innovation/rf-security.md
   - 3D-Printed & Modular Systems: innovation/modular-designs.md
   - Innovation Write-Ups: innovation/innovation-blogs.md
-- Projects: projects.md
 - Certifications: certifications.md
 - Contact: contact.md
