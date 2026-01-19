@@ -102,6 +102,68 @@ flowchart TB
     style DG fill:#fff3e0,stroke:#ef6c00,stroke-width:3px
 ```
 
+### Client Engagement Lifecycle (Detailed)
+
+The following diagram expands each phase with technical integration points:
+
+```mermaid
+flowchart TB
+    subgraph P1["<b>PHASE 1: QUALIFICATION</b>"]
+        A[Client Discovery] --> B[Pre-Intake Form<br/>portal.aamcyber.work]
+        B --> C{Qualify & Decide}
+        C -->|No| D[Decline / Referral]
+        C -->|Yes| E[Proceed to Engagement]
+    end
+
+    subgraph P2["<b>PHASE 2: ENGAGEMENT</b>"]
+        F[DocuSeal: NDA +<br/>Engagement Letter] -->|n8n Flow #2| G[Client Signs]
+        G -->|n8n Flow #3| H[Signed PDF → Nextcloud<br/>Update SuiteCRM Case]
+    end
+
+    subgraph GATE["DEPOSIT GATE<br/><i>n8n Flow #4 polls status</i>"]
+        I{Deposit<br/>Received?}
+        I -->|No| J[Hold - Follow Up]
+        I -->|Yes| K[Send Full Intake Link]
+    end
+
+    subgraph P3["<b>PHASE 3: FULL INTAKE</b>"]
+        L[Full Intake Wizard<br/>13 sections, 67 fields] -->|HMAC webhook| M[n8n Flow #1]
+        M --> N[JSON log → Nextcloud<br/>Lead/Case → SuiteCRM<br/>Sync → CISO Assistant]
+    end
+
+    subgraph P4["<b>PHASE 4: ASSESSMENT</b>"]
+        O[CISO Assistant<br/>API import] --> P[Assessment Work<br/>Physical / Remote]
+        P --> Q[Findings → CISO Assistant<br/>Risk Register]
+    end
+
+    subgraph P5["<b>PHASE 5: OUTPUT</b>"]
+        R[CISO Assistant Reports] --> S[Nextcloud Delivery<br/>10-Legal / 20-Intake<br/>30-Assessment / 40-Reports]
+        S --> T[Final Invoice<br/>Engagement Closed]
+    end
+
+    E --> F
+    H --> I
+    K --> L
+    N --> O
+    Q --> R
+
+    style GATE fill:#fff3e0,stroke:#ef6c00,stroke-width:3px
+    style P1 fill:#e7f5ff,stroke:#1971c2
+    style P2 fill:#fff3bf,stroke:#f59f00
+    style P3 fill:#d3f9d8,stroke:#2f9e44
+    style P4 fill:#e5dbff,stroke:#7950f2
+    style P5 fill:#ffe8cc,stroke:#e8590c
+```
+
+| Phase | n8n Workflow | Key Integrations |
+|-------|--------------|------------------|
+| **Qualification** | — | Portal form, SuiteCRM Lead |
+| **Engagement** | Flow #2, #3 | DocuSeal, Nextcloud, SuiteCRM |
+| **Deposit Gate** | Flow #4 | SuiteCRM status polling |
+| **Full Intake** | Flow #1 | HMAC webhook, Nextcloud, CISO Assistant |
+| **Assessment** | Flow #3 | CISO Assistant API sync |
+| **Output** | — | CISO Assistant reports, Nextcloud delivery |
+
 ---
 
 ## Platform Roles
