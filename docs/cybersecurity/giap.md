@@ -5,7 +5,7 @@ description: "GIAP — Multi-agent GRC automation with n8n and CISO Assistant. I
 *Updated: {{ page.meta.git_revision_date_localized or "" }}*
 
 !!! tldr "For recruiters & hiring managers"
-    **What:** Production GRC automation platform (85% MVP complete) with n8n orchestration and 7 self-hosted services. End-to-end intake workflow operational (Portal → HMAC-authenticated webhook → n8n → Nextcloud → SuiteCRM → DocuSeal). Single GRC platform (CISO Assistant) with 100+ frameworks for pre-engagement assessment and post-engagement delivery. Orchestrates client intake, CRM sync, e-signature automation, cross-framework control mapping, and POA&M generation.
+    **What:** Production GRC automation platform (85% MVP complete) with n8n orchestration and 8 self-hosted services. End-to-end intake workflow operational (Portal → HMAC-authenticated webhook → n8n → Nextcloud → SuiteCRM → DocuSeal). Single GRC platform (CISO Assistant) with 100+ frameworks for pre-engagement assessment and post-engagement delivery. Orchestrates client intake, CRM sync, e-signature automation, cross-framework control mapping, and POA&M generation.
 
     **Why this matters:** Demonstrates senior-level systems architecture, API-first design, and practical automation — reducing operational overhead while maintaining audit-ready workflows. Portal security hardening shows application security discipline (XSS prevention, HMAC webhook authentication, replay attack prevention, WCAG 2.1 AA). Infrastructure hardening (Signal-CLI localhost binding, GPG-encrypted backups) demonstrates defense-in-depth thinking.
 
@@ -28,12 +28,13 @@ description: "GIAP — Multi-agent GRC automation with n8n and CISO Assistant. I
     - n8n Workflows: 9 total (all active)
     - Signal Bot Commands: 11 operational
     - Documentation: 33+ markdown files
-    - Services: 7 integrated (Portal, n8n, Nextcloud, SuiteCRM, DocuSeal, CISO Assistant, Signal)
+    - Services: 8 integrated (Portal, n8n, Nextcloud, SuiteCRM, DocuSeal, CISO Assistant, Signal, Uptime Kuma)
     - Roadmap: ~85% complete (as of January 2026)
 
     **Live Domains:**
 
     - `aamcyber.com` — Marketing site (Astro + Cloudflare Pages, contact form integrated)
+    - `status.aamcyber.com` — Public status page (Uptime Kuma, operational transparency)
     - `portal.aamcyber.work` — Client intake wizard (v2.2, security hardened)
     - `flows.aamcyber.work` — n8n workflow automation (9 workflows)
     - `files.aamcyber.work` — Nextcloud evidence vault
@@ -336,6 +337,7 @@ Ready to create intake in SuiteCRM?
 | **Signatures** | DocuSeal (self-hosted) | Engagement letters, DPAs, BAAs, NDAs | ✅ Deployed |
 | **Email** | Resend | Transactional notifications, status alerts | ✅ Working |
 | **Signal** | signal-cli REST API | Encrypted alerts, command bot (11 commands), security hardened | ✅ Hardened |
+| **Monitoring** | Uptime Kuma | Public status page, service health, incident tracking | ✅ Running |
 | **POA&M** | POAMAgent (custom) | Branded deliverables, multi-format output | ⬜ Future |
 | **Proxy** | Nginx Proxy Manager | TLS termination, routing | ✅ Running |
 | **DNS** | Cloudflare | DNS management, DDoS protection, WAF | ✅ Running |
@@ -836,7 +838,7 @@ flowchart LR
 | **Frontend** | Static HTML/JS (security hardened), React, Vite, API consumption patterns |
 | **Application Security** | XSS prevention, input sanitization, rate limiting, honeypot bot detection, WCAG 2.1 AA |
 | **API/Webhook Security** | HMAC-SHA256 authentication, replay attack prevention, timestamp validation, cryptographic integrity |
-| **DevOps** | Proxmox virtualization, Tailscale networking, GitHub Actions CI, Nginx Proxy Manager |
+| **DevOps** | Proxmox virtualization, Tailscale networking, GitHub Actions CI, Nginx Proxy Manager, Uptime Kuma monitoring |
 | **Security** | Append-only audit logs, PHI/PII protection, TLS enforcement, least-privilege design |
 
 ---
@@ -853,6 +855,7 @@ flowchart LR
 - **AI/LLM integration expertise** — MCP protocol for natural language GRC queries
 - **Healthcare compliance depth** — HIPAA Security/Privacy Rule implementation
 - **Production-grade security** — RBAC, audit logging, PHI protection, deposit gate
+- **Operational transparency** — Public status page ([status.aamcyber.com](https://status.aamcyber.com)) demonstrates "practice what we preach" approach to availability monitoring
 - **Emerging vertical expertise** — PropTech/IoT compliance for regulated workspaces
 - **GRC domain depth** — Cross-framework mapping, POA&M generation, evidence pipelines
 - **Full-stack capability** — Static portal + n8n workflows + infrastructure automation
