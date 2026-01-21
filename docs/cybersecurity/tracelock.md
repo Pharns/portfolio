@@ -23,7 +23,7 @@ description: TraceLock™ — Patent-pending multi-domain RF threat detection pl
 
     **Why This Matters:** If I can build detection logic for RF threats across 6 sensor domains, I can build detection content for your SIEM/EDR platform.
 
-[View on GitHub](https://github.com/Pharns/Tracelock-SSD){ .md-button .md-button--primary }
+[View on GitHub](https://github.com/Pharns/tracelock-public){ .md-button .md-button--primary }
 
 ---
 
@@ -424,7 +424,7 @@ flowchart TB
 
 ---
 
-[GitHub Repository](https://github.com/Pharns/Tracelock-SSD){ .md-button .md-button--primary }
+[GitHub Repository](https://github.com/Pharns/tracelock-public){ .md-button .md-button--primary }
 [Connect on LinkedIn](https://www.linkedin.com/in/pharns/){ .md-button }
 [Contact Me](../contact.md){ .md-button }
 
