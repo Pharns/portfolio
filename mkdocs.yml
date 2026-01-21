@@ -137,7 +137,7 @@ nav:
   - Homelab Infrastructure: cybersecurity/homelab-infrastructure.md
   - Homelab Build Journey: cybersecurity/homelab-journey.md
   - Blog Writeups: cybersecurity/blog-writeups.md
-  - PropTech Compliance Article: cybersecurity/proptech-compliance-article.md
+  - PropTech BLE Case Study: cybersecurity/proptech-compliance-article.md
 - Projects: projects.md
 - Python:
   - Overview: python/index.md

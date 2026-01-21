@@ -38,6 +38,14 @@ Rapid hardening (<48 hours) with 47+ controls mapped and evidence pack. Financia
 <small>**Demonstrates:** Compliance-ready endpoint builds with audit evidence</small>
 </div>
 <div class="stat-tile" markdown>
+**PropTech BLE Security & Privacy** <span class="status-badge">Complete</span>
+Passive RF governance case study in a smart-building deployment with scope control and privacy policy alignment.
+<span class="tag-chip">GRC</span> <span class="tag-chip">Privacy</span> <span class="tag-chip">RF</span>
+**Tech:** TraceLock, Kismet, BLE
+[Read](cybersecurity/proptech-compliance-article.md)
+<small>**Demonstrates:** RF governance, scope discipline, privacy-to-technical alignment</small>
+</div>
+<div class="stat-tile" markdown>
 **Cloud Control Pack (AWS)** <span class="status-badge">In Progress</span>
 Default-deny S3 + GuardDuty export; scoped IAM with CIS/NIST mapping.
 <span class="tag-chip">Cloud</span> <span class="tag-chip">GRC</span> <span class="tag-chip">AWS</span>

@@ -1,197 +1,101 @@
 ---
-description: "PropTech compliance challenges: when IoT devices in smart buildings conflict with regulated workspace requirements. A GRC framework for remote workers."
+description: "PropTech BLE security and privacy case study using passive RF analysis (TraceLock/Kismet). GRC-focused scope control, risk assessment, and policy alignment."
 ---
 
-# When Smart Buildings Meet Compliance: A GRC Framework for PropTech
+# PropTech BLE security and privacy case study
 
-!!! abstract "TL;DR for Compliance Teams"
-    Smart building IoT devices often cannot meet enterprise compliance requirements. This article provides a framework for assessing vendor capabilities, documenting gaps, and making defensible risk decisions when regulated workspaces operate in PropTech-enabled environments.
-
----
-
-## The emerging compliance gap
-
-Remote work has created a new category of compliance challenge: **regulated workspaces operating inside smart buildings**.
-
-Consider the scenario: A healthcare professional working from home needs HIPAA-compliant workspace controls. Their apartment building deploys IoT sensors for "smart building" features — air quality monitoring, occupancy detection, energy management. The landlord mandates participation.
-
-**The compliance question:** Can cloud-managed IoT devices in residential spaces meet enterprise security requirements?
-
-For most PropTech vendors, the answer is no — not because they're negligent, but because residential IoT was never designed for regulated environments.
+!!! abstract "TL;DR"
+    Passive BLE/RF survey of a smart-building PropTech deployment. No device interaction or exploitation. Findings align with vendor privacy disclosures; meaningful risk concentrates in app and backend controls, not BLE advertising. Includes scope-control decision record and GRC-aligned guidance for regulated professionals.
 
 ---
 
-## Why this matters now
+## Context
 
-Three trends are converging:
+Modern apartment complexes increasingly deploy PropTech platforms using Bluetooth Low Energy (BLE) for access control, sensors, lighting, and automation. This case study evaluates how those deployments affect resident privacy, security posture, and regulated professionals working from home.
 
-| Trend | Impact |
-|-------|--------|
-| **Remote work permanence** | 40%+ of knowledge workers now work from home at least part-time |
-| **PropTech expansion** | Smart building deployments grew 35% in 2024, including residential |
-| **Compliance scope creep** | HIPAA, PCI-DSS, SOC 2 requirements now apply to home offices |
+## Objective
 
-The result: millions of regulated workers operating in spaces with IoT devices they don't control, managed by vendors who never considered enterprise compliance requirements.
+- Understand the BLE environment created by PropTech infrastructure
+- Classify devices using behavioral fingerprints
+- Evaluate resident privacy and security impact
+- Align observed behavior with vendor privacy disclosures
+- Provide role-based guidance for regulated and security-sensitive professionals
 
----
+## Method (passive RF only)
 
-## The control gap analysis
+- TraceLock (Kismet-based) passive capture
+- Advertising-only observation (no pairing, no connections)
+- Behavioral fingerprinting: name patterns, UUIDs, RSSI stability, persistence
 
-When I assess PropTech vendors against compliance frameworks, the same gaps appear repeatedly:
+## Evidence snapshots (redacted)
 
-### Access control failures
+![Kismet BLE overview (passive scan)](../assets/screenshots/proptech-ble-kismet-overview.png)
 
-**Requirement (CIS v8 5.1-5.6, NIST PR.AC):** Establish and maintain an inventory of authorized accounts with appropriate access controls.
+![Wi-Fi infrastructure capture (supporting layer)](../assets/screenshots/proptech-wifi-infrastructure-capture.png)
 
-**Typical PropTech reality:**
-- Single admin account shared across property management
-- No RBAC for multi-tenant environments
-- No MFA options for resident-facing portals
-- No audit logging of account access
+## Scope and ethical constraints
 
-### Data governance gaps
-
-**Requirement (CIS v8 3.1-3.14, NIST PR.DS):** Data protection including encryption, retention policies, and access controls.
-
-**Typical PropTech reality:**
-- Unclear data ownership (landlord vs. vendor vs. resident)
-- No documented retention policies
-- Cloud storage with unspecified geographic locations
-- No data deletion capabilities for residents
-
-### Monitoring blind spots
-
-**Requirement (CIS v8 8.1-8.12, NIST DE.CM):** Audit logging and continuous monitoring.
-
-**Typical PropTech reality:**
-- No access to raw sensor data
-- Limited or no audit trail visibility
-- No alerting capabilities for residents
-- Vendor-controlled monitoring without transparency
+This project is intentionally limited to passive observation of RF metadata. No attempts were made to authenticate to networks, pair with devices, decrypt traffic, or interfere with normal operation. Wi-Fi observations are documented only to acknowledge supporting infrastructure and governance complexity, not to identify vulnerabilities.
 
 ---
 
-## A framework for assessment
+## Architecture (high level)
 
-When PropTech devices enter regulated workspaces, use this assessment framework:
+![PropTech BLE architecture diagram](../assets/images/proptech-ble-architecture-diagram.png)
 
-### Step 1: Vendor intake
+Illustrative only; passive RF observation captures BLE advertising, not backend access.
 
-Collect basic architecture information:
+![RF ecosystem overview](../assets/diagrams/proptech-rf-ecosystem.png)
 
-- Device types and sensor capabilities
-- Data transmission methods and destinations
-- Cloud infrastructure and geographic scope
-- Account management model
-- Update and patch mechanisms
-
-### Step 2: Control requirement mapping
-
-Map your compliance requirements to vendor capabilities:
-
-```
-Framework Control → Required Capability → Vendor Status
-──────────────────────────────────────────────────────
-HIPAA 164.312(a) → Unique user ID        → NOT SUPPORTED
-HIPAA 164.312(b) → Audit controls        → PARTIAL
-CIS 5.4          → MFA enforcement       → NOT SUPPORTED
-CIS 8.2          → Audit log collection  → NOT AVAILABLE
-```
-
-### Step 3: Gap documentation
-
-For each gap, document:
-
-- Control requirement and framework reference
-- Vendor limitation (technical or policy)
-- Risk impact to regulated operations
-- Potential compensating controls
-- Residual risk assessment
-
-### Step 4: Decision output
-
-Generate one of three outcomes:
-
-1. **Compliant** — Vendor meets requirements (rare for residential PropTech)
-2. **Conditionally acceptable** — Gaps exist but compensating controls are viable
-3. **Non-compliant** — Gaps cannot be adequately mitigated
+Figure: Conceptual RF ecosystem showing coexistence of BLE and Wi-Fi layers with resident, operator, and vendor stakeholders.
 
 ---
 
-## Compensating controls that work
+## Key findings
 
-When PropTech gaps can't be eliminated, consider these compensating approaches:
+- BLE density is expected in modern smart-building deployments
+- "Unknown manufacturer" BLE devices are common and benign
+- Observed devices align with smart locks, sensors, lighting, and gateway nodes
+- No evidence of covert tracking beacons or surveillance behavior
+- Risk is driven by apps and backend systems, not BLE advertising
 
-| Gap | Compensating Control |
-|-----|---------------------|
-| No RBAC | Network segmentation isolating IoT from workspace |
-| No audit logs | Independent monitoring of IoT network traffic |
-| Unclear data retention | Documented risk acceptance with data minimization |
-| No MFA | Physical access controls and device isolation |
-| Uncontrolled updates | VLAN isolation with firewall rules |
+## Governance decision record: scope control
 
-**Critical:** Compensating controls must be documented, tested, and reviewed regularly. An undocumented workaround is not a control.
+During RF monitoring, an isolated consumer Wi-Fi access point was observed. Evidence indicated it was resident-owned (non-managed configuration, non-repeating SSID, consumer security profile). It was explicitly excluded from PropTech scope to prevent false positives and preserve risk clarity. Mature GRC practice is defined by what is intentionally excluded as much as by what is flagged.
 
----
+## Risk and privacy implications
 
-## The compliance exception path
+For general residents, risk from passive BLE advertising is low. The meaningful privacy inflection point is optional app installation and backend logging, not RF presence.
 
-Sometimes the answer is: **accept the risk with documentation**.
-
-A properly documented compliance exception includes:
-
-1. **Control requirement** being excepted
-2. **Business justification** (why the requirement cannot be met)
-3. **Risk assessment** (likelihood × impact)
-4. **Mitigating factors** (compensating controls in place)
-5. **Review schedule** (when to reassess)
-6. **Approval chain** (who authorized the exception)
-
-This creates a defensible audit trail showing due diligence even when full compliance isn't achievable.
+For regulated and security-sensitive professionals, the environment is best treated as semi-trusted. Controls should focus on endpoints, permissions, identity, and segmentation rather than RF countermeasures.
 
 ---
 
-## What compliance teams should do now
+## Artifacts (available on request)
 
-### Immediate actions
+- Executive summary
+- Methodology
+- BLE fingerprint table
+- Risk assessment
+- Privacy policy review
+- Regulated professionals impact analysis
 
-- [ ] Inventory PropTech devices in regulated workspaces
-- [ ] Request vendor security documentation and SOC reports
-- [ ] Assess gaps against applicable frameworks
-- [ ] Document findings with evidence
+## What this demonstrates
 
-### Policy updates
-
-- [ ] Define PropTech assessment requirements for remote workers
-- [ ] Create vendor intake workflow for IoT devices
-- [ ] Establish compensating control approval process
-- [ ] Build compliance exception template
-
-### Long-term strategy
-
-- [ ] Engage PropTech vendors on enterprise requirements
-- [ ] Develop standard contract language for data governance
-- [ ] Create resident notification requirements
-- [ ] Build audit procedures for PropTech environments
+- Evidence-based risk assessment (not assumption-driven)
+- Scope discipline and false-positive control
+- Privacy policy to technical behavior correlation
+- GRC as an engineering discipline, not a checklist
+- Risk communication without alarmism
 
 ---
 
-## The bigger picture
+## Related work
 
-PropTech compliance isn't just a remote work problem — it's a preview of broader IoT governance challenges.
-
-As connected devices proliferate in workspaces, healthcare facilities, and critical infrastructure, the gap between consumer-grade IoT and enterprise compliance requirements will widen.
-
-Organizations that build PropTech assessment capabilities now will be prepared for the broader IoT compliance challenges ahead.
+- [TraceLock RF threat detection](tracelock.md)
+- [GRC overview](../grc/index.md)
+- [Contact](../contact.md)
 
 ---
 
-## About the author
-
-Pharns Genece is a GRC engineer specializing in compliance automation and cloud security. His work includes GIAP™, a governance automation platform designed for scalable compliance workflows including vendor risk assessment.
-
-[View GRC Portfolio](../grc/index.md) | [Contact](../contact.md)
-
----
-
-*This article reflects industry observations and general compliance principles. It does not constitute legal advice. Consult qualified compliance and legal professionals for specific situations.*
+*Disclaimer: This project is a defensive, passive analysis intended for education, governance evaluation, and portfolio documentation. It does not include exploitation or device interaction.*
