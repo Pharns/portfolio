@@ -96,6 +96,9 @@ markdown_extensions:
     smart_enable: all
 exclude_docs: |
   assets/README.md
+  tags.md
+  python/index.md
+  python/projects/index.md
 plugins:
 - search
 - git-revision-date-localized:
@@ -139,9 +142,6 @@ nav:
   - Blog Writeups: cybersecurity/blog-writeups.md
   - PropTech RF Governance: cybersecurity/proptech-compliance-article.md
 - Projects: projects.md
-- Python:
-  - Overview: python/index.md
-  - Projects: python/projects/index.md
 - Innovation:
   - Overview: innovation/index.md
   - AgenticOS — AI Orchestration: innovation/agenticos.md
@@ -151,5 +151,4 @@ nav:
   - Innovation Write-Ups: innovation/innovation-blogs.md
 - Certifications: certifications.md
 - GRC Resume: grc-resume.md
-- Tags: tags.md
 - Contact: contact.md
