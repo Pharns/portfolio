@@ -162,6 +162,13 @@ Complete endpoint hardening with GPO, firewall rules, service lockdown, and evid
 </div>
 
 <div class="stat-tile" markdown>
+**PropTech RF Governance & Scope Control**
+Governance-focused RF assessment of BLE and Wi-Fi activity in smart-building deployments. Emphasizes scope discipline to prevent false positives and protect regulated work-from-home posture.
+<span class="tag-chip">GRC</span> <span class="tag-chip">Privacy</span> <span class="tag-chip">RF</span>
+[View Case Study](cybersecurity/proptech-compliance-article.md)
+</div>
+
+<div class="stat-tile" markdown>
 **AWS Cloud Control Pack**
 S3 default-deny storage, GuardDuty findings export, scoped IAM with CIS/NIST mapping.
 <span class="tag-chip">Cloud</span> <span class="tag-chip">Controls</span> <span class="tag-chip">Architecture</span>
@@ -175,12 +182,6 @@ Nextcloud + n8n + SuiteCRM with RBAC, audit trails, and consent management. Mult
 [View Case Study](cybersecurity/intake-portal.md)
 </div>
 
-<div class="stat-tile" markdown>
-**Detection & IR Lab**
-Security Onion + TheHive/Cortex. Custom SIEM rules, alert tuning, IR playbooks.
-<span class="tag-chip">SIEM</span> <span class="tag-chip">Detection</span> <span class="tag-chip">IR</span>
-[View Project](cybersecurity/incident-response.md)
-</div>
 </div>
 
 ---
@@ -320,5 +321,3 @@ Advanced Air Mobility (AAM) security requires practitioners who understand the e
 ---
 
 [View All Projects](projects.md){ .btn-primary } [Contact](contact.md){ .btn-ghost }
-
-

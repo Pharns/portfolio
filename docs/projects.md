@@ -38,10 +38,16 @@ Rapid hardening (<48 hours) with 47+ controls mapped and evidence pack. Financia
 <small>**Demonstrates:** Compliance-ready endpoint builds with audit evidence</small>
 </div>
 <div class="stat-tile" markdown>
-**PropTech BLE Security & Privacy** <span class="status-badge">Complete</span>
-Passive RF governance case study in a smart-building deployment with scope control and privacy policy alignment.
+**PropTech RF Governance & Scope Control** <span class="status-badge">Complete</span>
+**Category:** Governance, Risk & Compliance (GRC)  
+**Focus:** Asset classification, RF governance, privacy risk, scope discipline  
+
+**Summary:** Governance-focused assessment of BLE and Wi-Fi RF activity following a PropTech deployment in a high-density residential environment. The project emphasizes disciplined scope control by distinguishing managed infrastructure from consumer-owned networks to prevent false positives and preserve risk clarity—particularly for regulated work-from-home professionals.
 <span class="tag-chip">GRC</span> <span class="tag-chip">Privacy</span> <span class="tag-chip">RF</span>
-**Tech:** TraceLock, Kismet, BLE
+**Framework Alignment:**  
+- NIST CSF: ID.RA, PR.DS, DE.CM  
+- SOC 2: CC3.2, CC4.1  
+- ISO/IEC 27001: A.6.1.2, A.8.1, A.12.1  
 [Read](cybersecurity/proptech-compliance-article.md)
 <small>**Demonstrates:** RF governance, scope discipline, privacy-to-technical alignment</small>
 </div>

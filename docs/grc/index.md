@@ -364,6 +364,12 @@ Complete endpoint hardening with evidence pack in <48 hours
 </div>
 
 <div class="stat-tile" markdown>
+**🏢 PropTech RF Governance & Scope Control**
+Governance-focused RF assessment of a smart-building deployment with disciplined scope control and privacy risk guidance for regulated work-from-home roles.
+[View Project](../cybersecurity/proptech-compliance-article.md)
+</div>
+
+<div class="stat-tile" markdown>
 **🛡️ AWS Cloud Control Pack** *(In Progress)*
 S3 default-deny, GuardDuty export, scoped IAM with CIS/NIST mapping
 [View Project](../cybersecurity/aws-control-pack.md)

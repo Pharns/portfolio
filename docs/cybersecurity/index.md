@@ -6,6 +6,8 @@ Focused on detection, hardening, and compliance automation with a wireless/RF ed
 - **PCI DSS Endpoint Hardening (Win11)** — Encryption, EDR, patch automation, outbound monitoring in <48 hours; includes controls matrix and screenshots.  
 - **Detection & IR Lab** — Security Onion + TheHive/Cortex + Nessus on Proxmox; authored sample detections, ran incident drills, tuned IDS noise.  
 - **Zero Trust Pilots** — Tailscale vs Twingate vs Netbird; IAM and device posture notes for small teams.  
+- **TraceLock™ — RF Threat Detection** — RF telemetry and evidence-grade logging across six wireless domains.  
+- **PropTech RF Governance & Scope Control** — Governance case study on RF scope control and privacy risk in smart-building deployments.  
 - **RF/Wireless Security Research** — SDR + UAV payload tests; BLE/Sub-GHz recon; mitigations and safe-by-design notes.  
 
 ## Cloud Control Pack (AWS)
@@ -16,7 +18,9 @@ Focused on detection, hardening, and compliance automation with a wireless/RF ed
 - Certification context: AWS Cloud Practitioner (pending). Remove “pending” and add CLI outputs/screens once the exam is passed.
 
 ## TraceLock™ (signature project)
-Placeholder until sanitized details are provided: summarize goal, stack, telemetry, detections, and outcomes. Include architecture sketch and 3–5 measurable results (no secrets).
+TraceLock™ is a custom, author-built RF monitoring platform for defensive wireless awareness across Wi-Fi, BLE, SDR, GPS, and ADS-B. It emphasizes evidence-grade logging, repeatable capture workflows, and safe, non-interactive observation.
+
+[View TraceLock™ project](tracelock.md)
 
 ## Additional Work
 - Offensive toolkit evaluations (WiFi Pineapple, HackRF, Flipper, Rubber Ducky) with mitigations.  
