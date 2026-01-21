@@ -6,9 +6,9 @@ description: "GRC Engineer portfolio — audit-ready control frameworks, evidenc
 
 **GRC Engineer · Cloud Security · Detection Engineering**
 
-I design, implement, and document security controls end-to-end. Not just policies and spreadsheets — the actual technical systems that satisfy auditors. Full-stack GRC: from framework mapping to cloud governance to endpoint hardening, with evidence-ready deliverables.
+I build the controls I document: cloud guardrails, endpoint hardening, and evidence pipelines. Full-stack GRC from framework mapping to implementation.
 
-**Targeting:** GRC Engineer · Cloud Security Engineer · Detection Engineering · Security Automation
+**Target roles:** GRC Engineer · Cloud Security Engineer · Detection Engineering · Security Controls Implementation
 
 USAF Veteran (service-disabled) · Security Clearance Eligible · Security+/SSCP · B.S. Cybersecurity (Feb 2026)
 
@@ -21,7 +21,7 @@ USAF Veteran (service-disabled) · Security Clearance Eligible · Security+/SSCP
 <div class="stat-grid" markdown>
 <div class="stat-tile" markdown>
 **USOG — Enterprise Infrastructure (7 Years)**
-Built entire IT security stack from scratch for $5.6M drone logistics company. Implemented **CIS Controls v8 (IG1-IG2)** mapped to NIST CSF and SOC 2. Self-hosted email, Nextcloud, remote access, security monitoring. 15,000+ vulnerabilities remediated.
+Built entire IT security stack from scratch for $5.6M drone logistics company. Implemented **CIS Controls v8 (IG1-IG2)** mapped to NIST CSF and SOC 2. Self-hosted email, Nextcloud, remote access, security monitoring. 15,000+ vulnerabilities remediated across multi-year infrastructure.
 <span class="tag-chip">CIS v8</span> <span class="tag-chip">NIST</span> <span class="tag-chip">Production</span>
 </div>
 
@@ -39,12 +39,12 @@ PCI-DSS Windows 11 endpoint hardening. 47 controls mapped to CIS benchmarks, aud
 
 <div class="stat-tile" markdown>
 **Law Firm Security**
-Comprehensive security assessment and vulnerability remediation. M365 hardening, dark web monitoring, endpoint protection deployment.
+Comprehensive security assessment and remediation. M365 hardening, dark web monitoring, endpoint protection deployment.
 <span class="tag-chip">Assessment</span> <span class="tag-chip">M365</span> <span class="tag-chip">Remediation</span>
 </div>
 </div>
 
-<small>*USOG: Internal infrastructure I built and maintained as CEO/Sysadmin. Client engagements via AAM Cyber, LLC.*</small>
+<small>*USOG: Internal infrastructure I built and maintained as CEO/Sysadmin (company winding down post-exit). Client engagements via AAM Cyber.*</small>
 
 !!! abstract "Aerospace & Defense Recruiters — Unique AAM/UAS Credentials"
     **I don't just study drone security — I've designed, built, and fielded operational UAV systems.**

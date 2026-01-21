@@ -94,6 +94,8 @@ markdown_extensions:
 - pymdownx.tilde
 - pymdownx.betterem:
     smart_enable: all
+exclude_docs: |
+  assets/README.md
 plugins:
 - search
 - git-revision-date-localized:
@@ -110,9 +112,12 @@ nav:
 - Home: index.md
 - About: about.md
 - GRC & Security:
-  - Overview: grc/index.md
+  - GRC Overview: grc/index.md
+  - Cybersecurity Overview: cybersecurity/index.md
   - GIAP™ — Governance Automation: cybersecurity/giap.md
-  - TraceLock™ (RF Security): cybersecurity/tracelock.md
+  - TraceLock™ (RF Security):
+    - Overview: cybersecurity/tracelock.md
+    - Architecture Diagram: cybersecurity/trace-lock-diagram.md
   - PCI-DSS Compliance:
     - Overview: cybersecurity/pci-dss/index.md
     - System Architecture: cybersecurity/pci-dss/architecture.md
@@ -120,6 +125,7 @@ nav:
     - Controls & Mapping: cybersecurity/pci-dss/security-controls.md
     - Verification & Evidence: cybersecurity/pci-dss/verification.md
     - Lessons Learned: cybersecurity/pci-dss/lessons-learned.md
+    - Windows 11 Hardening: cybersecurity/windows11-pcidss-hardening.md
   - Cloud Control Pack (AWS): cybersecurity/aws-control-pack.md
   - Private Inbox Zero: cybersecurity/private-inbox-zero.md
   - Secure Intake Portal: cybersecurity/intake-portal.md
@@ -130,7 +136,12 @@ nav:
   - Vulnerability Assessment: cybersecurity/vulnerability-assessment.md
   - Homelab Infrastructure: cybersecurity/homelab-infrastructure.md
   - Homelab Build Journey: cybersecurity/homelab-journey.md
+  - Blog Writeups: cybersecurity/blog-writeups.md
+  - PropTech Compliance Article: cybersecurity/proptech-compliance-article.md
 - Projects: projects.md
+- Python:
+  - Overview: python/index.md
+  - Projects: python/projects/index.md
 - Innovation:
   - Overview: innovation/index.md
   - AgenticOS — AI Orchestration: innovation/agenticos.md
@@ -139,4 +150,6 @@ nav:
   - 3D-Printed & Modular Systems: innovation/modular-designs.md
   - Innovation Write-Ups: innovation/innovation-blogs.md
 - Certifications: certifications.md
+- GRC Resume: grc-resume.md
+- Tags: tags.md
 - Contact: contact.md

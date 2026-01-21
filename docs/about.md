@@ -6,28 +6,28 @@ description: "Pharns Genece — GRC Engineer and Cloud Security practitioner. Ev
 
 GRC engineer, cloud security practitioner, and AAM cybersecurity specialist. I build and secure systems end-to-end: cloud governance frameworks, compliance automation, endpoint hardening, detection tuning, and evidence-ready workflows.
 
-Evidence-first methodology (controls, logs, screenshots), plain-English reporting, AI-assisted with human review, rapid iterations and clear handoffs.
+**Core proof (7-second scan):**
+- **Built and secured production infrastructure** for a drone logistics startup; CIS v8 (IG1-IG2) mapped to NIST CSF/SOC 2
+- **Delivered client compliance wins** in healthcare, financial services, and legal services (HIPAA, SOC 2, PCI-DSS)
+- **AAM/UAS depth** with patents and operational experience; FAA Part 107, RF/SDR research
 
-**Credentials:** WGU B.S. Cybersecurity (Feb 2026) · Security+/Net+/A+ · ITIL4 · ISC² CC/SSCP (Assoc.) · LPI · FAA Part 107 · HAM/GMRS
+**Credentials:** WGU B.S. Cybersecurity (Feb 2026) · Security+/Net+/A+ · ITIL4 · ISC² CC/SSCP (Assoc.) · LPI · FAA Part 107 · HAM/GMRS  
 **Scheduled:** CySA+/PenTest+ (Jan 2026) · AWS CP/CCSP (Q1 2026)
 
-- Service-disabled veteran (USAF) — security clearance eligible
-- Patent holder in UAV systems — [View patents](https://patents.google.com/?inventor=Pharns+Genece)
-- Active GitHub with public repos — [View code](https://github.com/Pharns)
-- Credly-verified certifications — [View badges](https://www.credly.com/users/pharns)
+**Links:** [Patents](https://patents.google.com/?inventor=Pharns+Genece) · [GitHub](https://github.com/Pharns) · [Credly](https://www.credly.com/users/pharns)
 
 ---
 
 ## Professional experience
 
-### AAM Cyber, LLC — Founder/Operator
+### AAM Cyber — Founder/Operator
 *2024 – Present · GRC Consulting*
 
 Security consulting practice focused on compliance automation and GRC engineering for SMBs:
 
 - **Healthcare MSP** — HIPAA + SOC 2 readiness assessment, 12 control gaps identified, 90-day remediation roadmap
 - **Financial Services** — PCI-DSS Windows 11 endpoint hardening, 47 controls mapped, <48-hour delivery
-- **Law Firm** — Comprehensive security assessment, 15,000+ vulnerabilities remediated, M365 hardening
+- **Law Firm** — Comprehensive security assessment, high-volume vulnerability remediation, M365 hardening
 - **Mortgage Company** — Windows 11 baseline hardening for regulatory compliance
 
 Built GIAP™ governance automation platform (CISO Assistant + n8n + Nextcloud) for scalable client delivery.
@@ -39,7 +39,7 @@ Led $5.6M revenue drone logistics company with 18 employees. As a startup, serve
 
 - **Built enterprise infrastructure from scratch** — Self-hosted email, file storage (Nextcloud), remote access, backup systems, and security monitoring
 - **Implemented CIS Controls v8 (IG1-IG2)** — Mapped security baseline to NIST CSF and SOC 2 trust criteria
-- **Managed vulnerability remediation** — 15,000+ issues identified and resolved across infrastructure
+- **Managed vulnerability remediation** — 15,000+ issues identified and resolved across multi-year infrastructure
 - **Deployed security stack** — Dark web monitoring, threat intelligence feeds, endpoint protection, access controls
 - **Maintained compliance posture** — Documentation, evidence collection, and audit-ready configurations
 

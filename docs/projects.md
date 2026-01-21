@@ -4,9 +4,9 @@ description: "GRC engineering projects and case studies: cloud security, complia
 
 # Projects & Case Studies
 
-Browse the core portfolio work with quick outcomes and role-fit tags.
+Core portfolio work with outcomes, tech stacks, and role-fit tags. Built to show implementation depth and audit-ready delivery.
 
-**Role fit:** GRC Engineer · Cloud Security · Detection Engineering · Controls Implementation
+**Role fit:** GRC Engineer · Cloud Security · Detection Engineering · Security Controls Implementation
 
 ---
 
