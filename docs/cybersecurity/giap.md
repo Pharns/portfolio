@@ -972,6 +972,7 @@ flowchart LR
 - **Operational automation** — End-to-end intake workflow with n8n, webhooks, and WebDAV integration; v3.5 bot architecture resolved complex async race conditions
 - **Security engineering discipline** — Comprehensive portal hardening with XSS prevention, rate limiting, and WCAG 2.1 AA compliance
 - **API security maturity** — HMAC-SHA256 webhook authentication with replay attack prevention and cryptographic integrity verification
+- **CI/CD in production** — GitHub Actions lint/test gates and portal deploy workflow with secrets checks and secure remote sync
 - **Right tool for the job** — CISO Assistant for both speed and depth with 100+ frameworks
 - **Custom tooling capability** — POAMAgent built in-house for branded deliverables
 - **Enterprise GRC platform experience** — CISO Assistant for production risk, compliance, and control management
