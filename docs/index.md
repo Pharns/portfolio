@@ -21,7 +21,7 @@ USAF Veteran (service-disabled) · Security Clearance Eligible · Security+/SSCP
 <div class="stat-grid" markdown>
 <div class="stat-tile" markdown>
 **USOG — Enterprise Infrastructure (7 Years)**
-Built entire IT security stack from scratch for $5.6M drone logistics company. Implemented **CIS Controls v8 (IG1-IG2)** mapped to NIST CSF and SOC 2. Self-hosted email, Nextcloud, remote access, security monitoring. 15,000+ vulnerabilities remediated across multi-year infrastructure.
+Built the IT security stack for a $5.6M drone logistics company. Implemented **CIS Controls v8 (IG1-IG2)** mapped to NIST CSF and SOC 2. Deployed secure email, Nextcloud, remote access, and monitoring. Remediated 15,000+ vulnerabilities over multiple years.
 <span class="tag-chip">CIS v8</span> <span class="tag-chip">NIST</span> <span class="tag-chip">Production</span>
 </div>
 
