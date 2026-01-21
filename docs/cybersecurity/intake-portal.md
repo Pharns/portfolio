@@ -31,7 +31,7 @@ The intake portal serves as the public-facing entry point for client engagement.
 | Attribute | Value |
 |-----------|-------|
 | **Version** | 2.2 (Production) |
-| **Live URL** | portal.aamcyber.work |
+| **Live URL** | portal.aamcyber.work/demo |
 | **Codebase** | 829 lines (HTML/JS/CSS) |
 | **Security** | HMAC-SHA256 webhook auth, XSS sanitization, rate limiting, honeypot |
 | **Compliance** | WCAG 2.1 AA, GDPR, CCPA/CPRA, COPPA statement |

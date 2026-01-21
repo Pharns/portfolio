@@ -347,7 +347,7 @@ Traditional GRC work is documentation-heavy: control matrices, policy drafting, 
 <div class="stat-grid" markdown>
 <div class="stat-tile" markdown>
 **🤖 GIAP™ — GRC Integrated Automation** ⭐ *(MVP Complete)*
-Production GRC platform with [live demo](https://portal.aamcyber.work/){target=_blank}. 100+ frameworks, HMAC webhooks, end-to-end automation.
+Production GRC platform with [live demo](https://portal.aamcyber.work/demo/){target=_blank}. 100+ frameworks, HMAC webhooks, end-to-end automation.
 [View Project](../cybersecurity/giap.md)
 </div>
 
