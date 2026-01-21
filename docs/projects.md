@@ -26,7 +26,7 @@ Production GRC platform with [live demo](https://portal.aamcyber.work/demo/){tar
 Patent-pending 6-domain wireless monitoring (Wi-Fi/BLE/SDR/GPS/ADS-B). Evidence-grade logging and detection engineering.
 <span class="tag-chip">RF</span> <span class="tag-chip">Detection</span> <span class="tag-chip">Python</span>
 **Tech:** Python, HackRF, RTL-SDR, SQLite, Kismet
-[Read](cybersecurity/tracelock.md)
+[Read](cybersecurity/tracelock.md) · [GitHub](https://github.com/Pharns/tracelock-public){target=_blank}
 <small>**Demonstrates:** Wireless threat detection, evidence logging, detection engineering</small>
 </div>
 <div class="stat-tile" markdown>
