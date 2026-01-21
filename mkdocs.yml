@@ -99,6 +99,7 @@ exclude_docs: |
   tags.md
   python/index.md
   python/projects/index.md
+  grc-resume.md
 plugins:
 - search
 - git-revision-date-localized:
@@ -150,5 +151,4 @@ nav:
   - 3D-Printed & Modular Systems: innovation/modular-designs.md
   - Innovation Write-Ups: innovation/innovation-blogs.md
 - Certifications: certifications.md
-- GRC Resume: grc-resume.md
 - Contact: contact.md
