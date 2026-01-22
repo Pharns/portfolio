@@ -123,6 +123,8 @@ flowchart TB
     style DG fill:#fff3e0,stroke:#ef6c00,stroke-width:3px
 ```
 
+*Figure: Two-phase GRC workflow diagram. Pre-engagement (green) flows from prospect through intake, CISO Assistant gap analysis, CRM, to DocuSeal. Orange deposit gate separates phases. Post-engagement (blue) continues through risk register, control testing, Nextcloud evidence, POA&M, and vCISO cycle.*
+
 ### Client Engagement Lifecycle (Detailed)
 
 The following diagram expands each phase with technical integration points:
@@ -175,6 +177,8 @@ flowchart TB
     style P4 fill:#e5dbff,stroke:#7950f2
     style P5 fill:#ffe8cc,stroke:#e8590c
 ```
+
+*Figure: Detailed 5-phase client engagement lifecycle. Phase 1 (Qualification) handles discovery and pre-intake. Phase 2 (Engagement) manages DocuSeal NDA signing. Deposit gate polls for payment status. Phase 3 (Full Intake) processes the 13-section wizard via HMAC webhook. Phase 4 (Assessment) imports to CISO Assistant. Phase 5 (Output) delivers reports via Nextcloud.*
 
 | Phase | n8n Workflow | Key Integrations |
 |-------|--------------|------------------|
@@ -255,6 +259,8 @@ flowchart TB
     style DATA fill:#e0f2fe,stroke:#0284c7,stroke-width:2px
 ```
 
+*Figure: Four-layer GIAP architecture. Edge layer (red) handles Cloudflare DNS/WAF and Nginx Proxy Manager. Presentation layer (purple) serves the intake portal. Orchestration layer (orange) manages n8n workflows and Resend email API. Data layer (blue) contains CISO Assistant, SuiteCRM, Nextcloud, and DocuSeal.*
+
 ---
 
 ## n8n Workflow Pipeline
@@ -299,6 +305,8 @@ flowchart TD
     style D fill:#bbf,stroke:#333,stroke-width:2px
 ```
 
+*Figure: Simple intake workflow showing Portal v2.2 sending POST requests to n8n webhook, which then stores JSON logs to Nextcloud via WebDAV HTTP PUT.*
+
 **Verified:** End-to-end test successful (January 2026). Intake JSON files automatically created in Nextcloud `GIAP-Intakes/` folder. 20+ consecutive successful workflow executions after Signal-CLI hardening.
 
 ### Data Flow
@@ -335,6 +343,8 @@ flowchart TB
     style POST fill:#e0f2fe,stroke:#0284c7,stroke-width:2px
     style DG fill:#fff3e0,stroke:#ef6c00,stroke-width:3px
 ```
+
+*Figure: Complete data flow through GIAP. Pre-engagement (green) routes from intake portal through n8n to Nextcloud, SuiteCRM, and DocuSeal for signatures. Deposit gate (orange) separates phases. Post-engagement (blue) flows through CISO Assistant to evidence storage, POA&M generation, remediation tracking, and vCISO cycles.*
 
 ---
 
@@ -550,6 +560,8 @@ flowchart LR
     style OUTPUT fill:#e0f2fe,stroke:#0284c7
 ```
 
+*Figure: PropTech vendor compliance workflow. Vendor intake (green) captures vendor info, privacy policy, and technical capabilities. Gap analysis (orange) maps control requirements to assessment and risk scoring. Decision output (blue) produces risk memos, exception requests, and evidence trails.*
+
 **Why this matters:** Remote work and regulated home offices are increasing. Smart building technology creates compliance conflicts that traditional GRC tools don't address. GIAP™ provides a structured approach to vendor risk assessment for IoT deployments.
 
 ### AAM Unified Controls
@@ -722,6 +734,8 @@ sequenceDiagram
     end
 ```
 
+*Figure: HMAC-SHA256 webhook authentication sequence. Portal builds payload, generates timestamp, computes HMAC signature, and sends POST with authentication headers. n8n webhook extracts timestamp/signature, recomputes HMAC, compares signatures, validates timestamp freshness (5-minute window), then processes or rejects the request.*
+
 **Attack Prevention:**
 
 | Attack | How HMAC Stops It |
@@ -869,6 +883,8 @@ flowchart LR
     style MERGE fill:#fff3e0,stroke:#ef6c00
     style OUTPUT fill:#e0f2fe,stroke:#0284c7
 ```
+
+*Figure: Signal bot v3.5 architecture solving async race conditions. Five data sources (Signal API, Status Check, Heartbeats, Backups, CRM/Leads) feed into chained Merge nodes (mode: append) that synchronize all inputs before processing. Final Code node handles routing logic and sends response.*
 
 **Why this matters:** Demonstrates n8n workflow architecture expertise, debugging complex async patterns, and production-grade operational tooling.
 

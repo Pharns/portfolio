@@ -180,6 +180,8 @@ sequenceDiagram
     end
 ```
 
+*Figure: HMAC webhook authentication flow. Portal creates payload, generates timestamp, computes HMAC-SHA256 signature. n8n webhook validates 5-minute timestamp window, recomputes HMAC, and compares signatures before processing or rejecting.*
+
 ### Implementation
 
 **Portal (Client-side):**

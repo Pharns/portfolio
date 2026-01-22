@@ -52,6 +52,8 @@ flowchart TB
     style PCI fill:#e0f2fe,stroke:#0284c7,stroke-width:2px
 ```
 
+*Figure: Network segmentation diagram showing ISP router connecting to GL.iNet MT6000 router, which isolates VLAN 2 (PCI Zone) containing the Windows 11 PCI-DSS hardened workstation and Polycom VVX311 encrypted VoIP phone.*
+
 Each VLAN enforces:
 - **Strict inbound/outbound rules**
 - **No peer-to-peer workstation visibility**

@@ -99,6 +99,8 @@ flowchart TB
     style OUTPUT fill:#f3e8ff,stroke:#9333ea,stroke-width:2px
 ```
 
+*Figure: Detection & IR lab architecture. Target environment (orange) includes Windows endpoints, Active Directory, Ubuntu/Docker services, and vulnerable web apps (DVWA/bWAPP). Detection layer (blue) contains Security Onion IDS/SIEM, Wazuh host-based detection, and Nessus vulnerability scanning. IR layer (green) integrates TheHive case management, Cortex enrichment, and MISP threat intel feeds. Outputs (purple) include case reports, IR playbooks, and detection metrics.*
+
 ---
 
 ## Tool Stack

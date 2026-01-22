@@ -132,6 +132,8 @@ flowchart LR
     style O fill:#fef3c7,stroke:#d97706,stroke-width:2px
 ```
 
+*Figure: Software architecture showing data flow from 6 sensor types (Wi-Fi, ISM, Bluetooth, GPS, ADS-B, HackRF) through a detection engine (rule matching, threshold tuning, correlation, allowlisting, persistence scoring) to 5 output formats (JSON logs, Markdown reports, KML maps, MQTT alerts, HTML reports).*
+
 ### Python Module Breakdown
 
 | Module | Purpose | LOC |

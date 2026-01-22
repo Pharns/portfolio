@@ -25,4 +25,6 @@ flowchart LR
     style J fill:#0f1b3f,stroke:#2cb1ff,stroke-width:1px,color:#e5e7eb
 ```
 
+*Figure: TraceLock sensor data flow. Four sensor types (Kismet Wi-Fi/BLE, rtl_433 ISM, ADS-B Feed, GPS) feed into a Parser/Normalizer, then to Mode Controller (Lab/Field/Demo modes). Output branches to Storage + Retention, Detections (Rogue AP, ADS-B anomalies, BLE classes), Alerts/Dashboards, and Evidence Export (logs/KML).*
+
 Use this placeholder diagram for public-safe visuals. Replace with sanitized PNG/SVG if preferred.

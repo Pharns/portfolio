@@ -84,6 +84,8 @@ flowchart LR
     style P fill:#fef3c7,stroke:#d97706,stroke-width:2px
 ```
 
+*Figure: AgenticOS core architecture with three subsystems. Routing (green) handles keyword rules, AI classification, precedence order, and dry-run mode. Execution (blue) manages profile-based routing, provider-agnostic calls, timeout control, and structured output. Persistence (orange) maintains session memory, JSON logs, delta tracking, and project isolation.*
+
 ### Script Breakdown
 
 | Script | Lines | Purpose |

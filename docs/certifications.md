@@ -39,6 +39,8 @@ gantt
     Project+ (Complete)     :done, 2025-11, 2025-12
 ```
 
+*Figure: Gantt chart showing certification timeline from 2024-2026, organized by Foundation, Security Specialist, Cloud & GRC, and Management tracks. Completed certifications in green, scheduled in blue, planned in gray.*
+
 ---
 
 ## In Progress — January 2026

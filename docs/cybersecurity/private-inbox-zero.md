@@ -97,6 +97,8 @@ flowchart LR
     style INTEL fill:#e0f2fe,stroke:#0284c7
 ```
 
+*Figure: Split-service architecture for privacy isolation. Email providers (Gmail, Outlook, IMAP) connect to Mail Connector LXC 240 (green) which handles OAuth and webhooks but has no AI or content analysis. Mail Intelligence LXC 242 (blue) handles rules, PII redaction, AI assist, and audit logging but has no credentials or OAuth tokens. Client email apps receive processed results.*
+
 **Why this matters:** If either service is compromised, the damage is contained:
 
 - **Connector compromise:** Attacker gets OAuth tokens but no AI logic, no classification rules
@@ -229,6 +231,8 @@ flowchart TD
   DEC -->|High confidence| APPLY[Apply server-side label/move]
   DEC -->|Low confidence| REVIEW[Route to Suggestions<br/>for human review]
 ```
+
+*Figure: Safety-biased email classification decision tree. New emails first check deterministic rules (strong match routes directly). If no match, checks mailing list signals (routes to Read Later). Then checks thread relationships (routes to Priority). Only ambiguous emails go through PII redaction before AI assist. High-confidence AI results auto-apply; low-confidence routes to human review. Unknown cases default to safe routing (Quarantine).*
 
 ### Decision Logic
 
