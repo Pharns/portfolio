@@ -90,6 +90,7 @@ TraceLock™ is a security-hardened fork of CYT (Chasing Your Tail). Here's what
 ### Physical System Architecture
 
 ```mermaid
+%%{init: {"flowchart": {"nodeSpacing": 50, "rankSpacing": 50}, "themeVariables": {"fontSize": "18px"}}}%%
 flowchart TB
     subgraph POWER["POWER AND CONNECTIVITY"]
         PWR["USB-C PD Power Supply"]
