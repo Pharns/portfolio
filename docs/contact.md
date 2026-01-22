@@ -42,6 +42,14 @@ Open to connection requests
 
 Code samples and project repos
 </div>
+
+<div class="stat-tile" markdown>
+**Resume**
+
+[View Resume](resume.md)
+
+Snapshot and download options
+</div>
 </div>
 
 ---

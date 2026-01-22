@@ -188,4 +188,4 @@ When I assess drone security, I understand the attack surface from the inside: f
 
 ---
 
-**Connect:** [LinkedIn](https://linkedin.com/in/pharns) | [Contact](contact.md)
+**Connect:** [LinkedIn](https://linkedin.com/in/pharns) | [View Resume](resume.md) | [Contact](contact.md)
