@@ -44,6 +44,7 @@ VirusTotal, AbuseIPDB, Shodan, GreyNoise, MISP feeds integrated via Cortex
 ## Lab Architecture
 
 ```mermaid
+%%{init: {"themeVariables": {"fontSize": "18px"}}}%%
 flowchart TB
     subgraph TARGETS["TARGET ENVIRONMENT"]
         direction LR
