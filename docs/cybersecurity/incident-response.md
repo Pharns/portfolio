@@ -44,55 +44,37 @@ VirusTotal, AbuseIPDB, Shodan, GreyNoise, MISP feeds integrated via Cortex
 ## Lab Architecture
 
 ```mermaid
-%%{init: {"themeVariables": {"fontSize": "24px", "nodeTextSize": "20px"}}}%%
-flowchart TB
-    subgraph TARGETS["TARGET ENVIRONMENT"]
-        direction LR
-        WIN["Windows 10/11 Endpoints"]
-        AD["Windows Server Active Directory"]
-        LNX["Ubuntu/Docker Services"]
-        WEB["DVWA/bWAPP Vulnerable Apps"]
+%%{init: {"themeVariables": {"fontSize": "16px"}}}%%
+flowchart LR
+    subgraph TARGETS["🎯 TARGETS"]
+        T1["Windows"]
+        T2["Active Directory"]
+        T3["Ubuntu/Docker"]
+        T4["Vuln Apps"]
     end
 
-    subgraph DETECTION["DETECTION LAYER"]
-        direction TB
-        SO["Security Onion IDS/SIEM"]
-        WAZ["Wazuh Host-Based"]
-        NES["Nessus Vuln Scanning"]
+    subgraph DETECTION["🔍 DETECTION"]
+        D1["Security Onion"]
+        D2["Wazuh"]
+        D3["Nessus"]
     end
 
-    subgraph IR["IR LAYER"]
-        direction TB
-        HIVE["TheHive Case Management"]
-        CTX["Cortex Enrichment"]
-        MISP["MISP Feeds Threat Intel"]
+    subgraph IR["🚨 INCIDENT RESPONSE"]
+        I1["TheHive"]
+        I2["Cortex"]
+        I3["MISP"]
     end
 
-    subgraph OUTPUT["OUTPUTS"]
-        direction LR
-        CASE["Case Reports"]
-        PLAY["IR Playbooks"]
-        METRICS["Detection Metrics"]
+    subgraph OUTPUT["📊 OUTPUTS"]
+        O1["Cases"]
+        O2["Playbooks"]
+        O3["Metrics"]
     end
 
-    WIN --> SO
-    AD --> SO
-    LNX --> SO
-    WEB --> SO
-    WIN --> WAZ
-    AD --> WAZ
-    LNX --> WAZ
-    WIN --> NES
-    AD --> NES
-    LNX --> NES
-    WEB --> NES
-    SO --> HIVE
-    WAZ --> HIVE
-    CTX --> HIVE
-    MISP --> CTX
-    HIVE --> CASE
-    HIVE --> PLAY
-    HIVE --> METRICS
+    TARGETS --> DETECTION
+    DETECTION --> IR
+    I3 --> I2 --> I1
+    IR --> OUTPUT
 
     style TARGETS fill:#fef3c7,stroke:#d97706,stroke-width:2px
     style DETECTION fill:#dbeafe,stroke:#2563eb,stroke-width:2px
@@ -100,7 +82,7 @@ flowchart TB
     style OUTPUT fill:#f3e8ff,stroke:#9333ea,stroke-width:2px
 ```
 
-*Figure: Detection & IR lab architecture. Target environment (orange) includes Windows endpoints, Active Directory, Ubuntu/Docker services, and vulnerable web apps (DVWA/bWAPP). Detection layer (blue) contains Security Onion IDS/SIEM, Wazuh host-based detection, and Nessus vulnerability scanning. IR layer (green) integrates TheHive case management, Cortex enrichment, and MISP threat intel feeds. Outputs (purple) include case reports, IR playbooks, and detection metrics.*
+*Figure: Detection & IR lab architecture. Targets (Windows, AD, Ubuntu, vulnerable apps) feed into detection tools (Security Onion SIEM, Wazuh host-based, Nessus scanning), which route alerts to TheHive for case management with Cortex enrichment and MISP threat intel. Outputs include case reports, IR playbooks, and detection metrics.*
 
 ---
 
