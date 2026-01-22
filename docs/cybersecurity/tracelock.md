@@ -90,7 +90,7 @@ TraceLock™ is a security-hardened fork of CYT (Chasing Your Tail). Here's what
 ### Physical System Architecture
 
 ```mermaid
-%%{init: {"flowchart": {"nodeSpacing": 90, "rankSpacing": 90}, "themeVariables": {"fontSize": "26px"}}}%%
+%%{init: {"flowchart": {"nodeSpacing": 110, "rankSpacing": 110}, "themeVariables": {"fontSize": "32px"}}}%%
 flowchart TB
     subgraph POWER["POWER AND CONNECTIVITY"]
         PWR["USB-C PD Power Supply"]
@@ -157,7 +157,7 @@ flowchart TB
 **Codebase:** 25 Python modules, 81 shell scripts, ~12,500 LOC, GitHub Actions CI
 
 ```mermaid
-%%{init: {"themeVariables": {"fontSize": "26px"}}}%%
+%%{init: {"themeVariables": {"fontSize": "32px"}}}%%
 flowchart LR
     subgraph CORE["TRACELOCK CORE"]
         direction LR
