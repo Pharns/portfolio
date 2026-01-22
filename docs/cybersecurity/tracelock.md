@@ -3,7 +3,7 @@ description: TraceLock™ — Patent-pending multi-domain RF threat detection pl
 ---
 # TraceLock™ — Multi-Domain RF Threat Detection Platform
 
-*Patent Pending · WGU BSCIA Capstone · February 2026*
+*Patent Pending (Filed November 2025) · WGU BSCIA Capstone · February 2026*
 
 **Role:** Sole developer | Security-hardened fork | ~12,500 LOC (25 Python modules, 81 shell scripts) | 6 RF domains
 
@@ -343,7 +343,7 @@ flowchart TB
 | WGU Task 1 (Topic) | ✅ Approved | Official capstone approval received |
 | WGU Task 2 (Proposal) | ✅ Complete | Submitted and approved |
 | WGU Task 3 (Final Report) | 🔄 In Progress | Field validation and documentation |
-| Provisional Patent | ✅ Filed | Patent pending |
+| Provisional Patent | ✅ Filed | Patent pending (November 2025) |
 | GitHub CI/CD | ✅ Active | Smoke tests on push |
 
 **Expected Graduation:** February 2026 (BSCIA Capstone)

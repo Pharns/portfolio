@@ -365,7 +365,7 @@ Complete endpoint hardening with evidence pack in <48 hours
 
 <div class="stat-tile" markdown>
 **🏢 PropTech RF Governance & Scope Control**
-Governance-focused RF assessment of a smart-building deployment with disciplined scope control and privacy risk guidance for regulated work-from-home roles.
+Governance-focused RF assessment of a smart-building deployment. *(PropTech = Property Technology: smart locks, IoT sensors, building automation.)* Disciplined scope control and privacy risk guidance for regulated work-from-home roles.
 [View Project](../cybersecurity/proptech-compliance-article.md)
 </div>
 

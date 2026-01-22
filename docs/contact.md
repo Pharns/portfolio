@@ -20,6 +20,14 @@ Typical response: < 24 hours
 </div>
 
 <div class="stat-tile" markdown>
+**Schedule a Call**
+
+[Book 15-min intro](https://calendly.com/pharns){target=_blank}
+
+Quick intro conversations welcome
+</div>
+
+<div class="stat-tile" markdown>
 **LinkedIn**
 
 [linkedin.com/in/pharns](https://linkedin.com/in/pharns)
@@ -40,13 +48,23 @@ Code samples and project repos
 
 ## What I'm looking for
 
-**Primary roles:**
+**Target roles ($120K–$180K+ range):**
 
 - GRC Engineer (technical implementation focus)
 - Cloud Security Engineer (GRC/compliance focus)
 - Detection Engineer
 - Security Controls Implementation Specialist
 - AAM/UAV Security · Cyber-Physical Systems
+
+**Best fit if your role involves:**
+
+- Building controls, not just documenting them
+- Cloud security architecture (AWS preferred)
+- Compliance automation and evidence pipelines
+- Detection engineering or SIEM rule authoring
+- Cross-functional work bridging security and engineering teams
+
+**I bring unique value to:** AAM/drone security, RF threat detection, cyber-physical systems — domains where few practitioners combine operational experience with cybersecurity credentials
 
 ---
 
@@ -56,7 +74,7 @@ Code samples and project repos
 |----------|---------|
 | **Citizenship** | US Citizen |
 | **Clearance** | Service-disabled veteran, eligible for federal security clearance |
-| **Availability** | Immediate / 2-week notice |
+| **Availability** | February 2026 (B.S. graduation) |
 | **Work Style** | Remote-first preferred; open to hybrid for the right role |
 | **Time Zones** | US/EU/LatAm compatible |
 | **Travel** | Open to occasional travel; relocation considered for right opportunity |

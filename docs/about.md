@@ -64,6 +64,22 @@ Taught drone technology courses, demonstrating communication skills and subject 
 
 ---
 
+## Career journey: Mission-critical → Builder → Defender
+
+**Each phase built capabilities that compound in cybersecurity:**
+
+| Phase | Role | What I Learned | How It Applies |
+|-------|------|----------------|----------------|
+| **USAF (18 years)** | Aeromedical Evacuation | Mission-critical operations, protocols, documentation, clearance experience | Disciplined execution, compliance mindset, audit culture |
+| **USOG (7 years)** | CEO + Sysadmin | Built IT infrastructure for $5.6M company from scratch | Hands-on implementation, vulnerability management, production security |
+| **AAM Cyber (current)** | GRC Consultant | Client delivery across HIPAA, PCI-DSS, SOC 2 | Framework expertise, evidence pipelines, compliance automation |
+
+**The thread:** I've operated in environments where failure has consequences — medical missions, business operations, client compliance. That operational discipline carries into how I approach security: systematic, documented, evidence-ready.
+
+**What this means for hiring managers:** I'm not learning on the job. I've managed production systems, delivered under deadlines, and maintained compliance across years of operations. The cybersecurity certifications formalize experience I already have.
+
+---
+
 ## Skills snapshot (ATS keywords)
 
 <div class="skills-grid" markdown>
@@ -142,7 +158,7 @@ Traditional GRC work is documentation-heavy: control matrices, policy drafting, 
 
 ## Rare combination
 
-Most GRC engineers focus on policy and documentation. I implement the technical controls being documented:
+Where most GRC engineers stop at policy, I continue through implementation:
 - **GRC discipline:** Frameworks (NIST, CIS, PCI-DSS), evidence collection, control matrices
 - **Cloud security:** AWS IAM/GuardDuty/CloudTrail, secure defaults, logging pipelines
 - **Systems engineering:** Endpoint hardening, network segmentation, access controls

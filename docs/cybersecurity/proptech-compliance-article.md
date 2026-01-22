@@ -9,6 +9,9 @@ description: "PropTech BLE security and privacy case study using passive RF anal
 
 This governance case study demonstrates evidence-based risk classification and scope discipline applied to IoT and PropTech RF environments, with a focus on protecting regulated work-from-home posture.
 
+!!! info "What is PropTech?"
+    **PropTech** (Property Technology) refers to digital technology applied to real estate and building management — smart locks, occupancy sensors, BLE beacons, building automation, and IoT infrastructure. As smart buildings become standard, security and privacy assessment of these systems is increasingly relevant for GRC practitioners.
+
 **Framework alignment:**  
 NIST CSF: ID.RA, PR.DS, DE.CM  
 SOC 2: CC3.2, CC4.1  

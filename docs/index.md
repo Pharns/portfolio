@@ -12,6 +12,8 @@ I build the controls I document: cloud guardrails, endpoint hardening, and evide
 
 USAF Veteran (service-disabled) · Security Clearance Eligible · Security+/SSCP · B.S. Cybersecurity (Feb 2026)
 
+<span class="availability-badge">📅 Available February 2026</span>
+
 [View GRC Projects](grc/index.md){ .btn-primary } [Contact](contact.md){ .btn-ghost }
 
 ---
@@ -97,7 +99,7 @@ Comprehensive security assessment and remediation. M365 hardening, dark web moni
 
 ## Why hire me for GRC engineering
 
-**I implement the controls, not just document them.** Most GRC professionals write policies and manage spreadsheets. I architect and build the technical systems that satisfy those controls.
+Most GRC professionals write policies and manage spreadsheets. I architect and deploy the technical systems that satisfy those controls — then document them with audit-ready evidence.
 
 <div class="feature-grid" markdown>
 
@@ -163,7 +165,7 @@ Complete endpoint hardening with GPO, firewall rules, service lockdown, and evid
 
 <div class="stat-tile" markdown>
 **PropTech RF Governance & Scope Control**
-Governance-focused RF assessment of BLE and Wi-Fi activity in smart-building deployments. Emphasizes scope discipline to prevent false positives and protect regulated work-from-home posture.
+Governance-focused RF assessment of BLE and Wi-Fi activity in smart-building deployments. *(PropTech = Property Technology: smart locks, IoT sensors, building automation.)* Emphasizes scope discipline to prevent false positives and protect regulated work-from-home posture.
 <span class="tag-chip">GRC</span> <span class="tag-chip">Privacy</span> <span class="tag-chip">RF</span>
 [View Case Study](cybersecurity/proptech-compliance-article.md)
 </div>
