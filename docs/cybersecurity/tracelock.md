@@ -90,55 +90,43 @@ TraceLock™ is a security-hardened fork of CYT (Chasing Your Tail). Here's what
 ### Physical System Architecture
 
 ```mermaid
-%%{init: {"flowchart": {"nodeSpacing": 110, "rankSpacing": 110}, "themeVariables": {"fontSize": "32px"}}}%%
+%%{init: {"flowchart": {"nodeSpacing": 130, "rankSpacing": 130}, "themeVariables": {"fontSize": "32px"}}}%%
 flowchart TB
-    subgraph POWER["POWER AND CONNECTIVITY"]
-        PWR["USB-C PD Power Supply"]
-        ETH["Ethernet/LTE Backhaul"]
+    subgraph POWER["POWER + BACKHAUL"]
+        PWR["USB-C Power"]
+        ETH["Ethernet/LTE"]
     end
 
     subgraph COMPUTE["COMPUTE CORE"]
-        PI["Raspberry Pi 4B 8GB RAM Debian/Kismet"]
-        DSP["7in IPS Touchscreen Field Interface"]
+        PI["Raspberry Pi 4B"]
+        DSP["7in Field Screen"]
     end
 
-    subgraph RF_SENSORS["RF SENSOR ARRAY"]
+    subgraph RF_SENSORS["RF SENSOR ARRAY (PASSIVE)"]
         direction TB
-        subgraph WIFI["Wi-Fi Domain"]
-            PANDA["Panda PAU09 2.4/5GHz Monitor"]
-        end
-        subgraph BLE["Bluetooth Domain"]
-            BT1["StarTech BT5.3 Long-Range"]
-            BT2["ASUS BT500 Dense Env"]
-            UBT["Ubertooth One Protocol Analysis"]
-        end
-        subgraph SDR["SDR Domain"]
-            RTL["RTL-SDR V4 ISM + ADS-B"]
-            HRF["HackRF One 1MHz-6GHz"]
-        end
-        subgraph NAV["Navigation"]
-            GPS["SIM7600G HAT GNSS + LTE"]
-        end
+        WIFI["Wi-Fi Monitor"]
+        BLE["BLE Long/Short Range"]
+        SDR["SDR Wideband"]
+        GPS["GNSS + LTE"]
+        ADSB["ADS-B Receiver"]
     end
 
-    subgraph OUTPUT["OUTPUT CHANNELS"]
+    subgraph OUTPUT["OUTPUTS"]
         direction LR
-        LOG["JSON Logs Forensic Grade"]
-        KML["KML Export Google Earth"]
-        MQTT["MQTT Alerts Real-time"]
-        RPT["HTML Reports Evidence Pack"]
+        LOG["JSON Logs"]
+        KML["KML Map"]
+        MQTT["MQTT Alerts"]
+        RPT["HTML Report"]
     end
 
     PWR --> PI
     ETH --> PI
     PI --> DSP
-    PANDA --> PI
-    BT1 --> PI
-    BT2 --> PI
-    UBT --> PI
-    RTL --> PI
-    HRF --> PI
+    WIFI --> PI
+    BLE --> PI
+    SDR --> PI
     GPS --> PI
+    ADSB --> PI
     PI --> LOG
     PI --> KML
     PI --> MQTT
