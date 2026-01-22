@@ -157,6 +157,7 @@ flowchart TB
 **Codebase:** 25 Python modules, 81 shell scripts, ~12,500 LOC, GitHub Actions CI
 
 ```mermaid
+%%{init: {"themeVariables": {"fontSize": "22px"}}}%%
 flowchart LR
     subgraph CORE["TRACELOCK CORE"]
         direction LR
