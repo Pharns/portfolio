@@ -44,36 +44,30 @@ VirusTotal, AbuseIPDB, Shodan, GreyNoise, MISP feeds integrated via Cortex
 ## Lab Architecture
 
 ```mermaid
-%%{init: {"themeVariables": {"fontSize": "16px"}}}%%
-flowchart LR
+%%{init: {"themeVariables": {"fontSize": "20px"}}}%%
+flowchart TB
     subgraph TARGETS["🎯 TARGETS"]
-        T1["Windows"]
-        T2["Active Directory"]
-        T3["Ubuntu/Docker"]
-        T4["Vuln Apps"]
+        direction LR
+        T1["Windows"] ~~~ T2["Active Directory"] ~~~ T3["Ubuntu/Docker"] ~~~ T4["Vuln Apps"]
     end
 
     subgraph DETECTION["🔍 DETECTION"]
-        D1["Security Onion"]
-        D2["Wazuh"]
-        D3["Nessus"]
+        direction LR
+        D1["Security Onion"] ~~~ D2["Wazuh"] ~~~ D3["Nessus"]
     end
 
     subgraph IR["🚨 INCIDENT RESPONSE"]
-        I1["TheHive"]
-        I2["Cortex"]
-        I3["MISP"]
+        direction LR
+        I3["MISP"] --> I2["Cortex"] --> I1["TheHive"]
     end
 
     subgraph OUTPUT["📊 OUTPUTS"]
-        O1["Cases"]
-        O2["Playbooks"]
-        O3["Metrics"]
+        direction LR
+        O1["Cases"] ~~~ O2["Playbooks"] ~~~ O3["Metrics"]
     end
 
     TARGETS --> DETECTION
     DETECTION --> IR
-    I3 --> I2 --> I1
     IR --> OUTPUT
 
     style TARGETS fill:#fef3c7,stroke:#d97706,stroke-width:2px
