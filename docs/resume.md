@@ -34,7 +34,8 @@ GRC Engineer · Cloud Security · Detection Engineering
 | **Certifications** | Security+ · Network+ · SSCP (Assoc.) · ITIL4 · ISC² CC · 10 total |
 | **Upcoming** | CySA+ · PenTest+ (Jan 2026) |
 | **Clearance** | Eligible (USAF veteran, service-disabled) |
-| **Location** | Remote-first · US Citizen |
+| **Location** | Remote-first · US Citizen · International opportunities welcome |
+| **Engagement** | W-2, contract, or consulting — contractor available for non-US companies |
 
 ---
 

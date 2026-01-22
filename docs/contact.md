@@ -83,22 +83,23 @@ Snapshot and download options
 | **Citizenship** | US Citizen |
 | **Clearance** | Service-disabled veteran, eligible for federal security clearance |
 | **Availability** | February 2026 (B.S. graduation) |
-| **Work Style** | Remote-first preferred; open to hybrid for the right role |
-| **Time Zones** | US/EU/LatAm compatible |
-| **Travel** | Open to occasional travel; relocation considered for right opportunity |
-| **Engagement** | Full-time W-2 preferred; open to contract or consulting |
+| **Work Style** | Remote-first; async-ready with distributed team experience |
+| **Time Zones** | US/EU/LatAm — flexible overlap hours |
+| **International** | Actively seeking global opportunities; visa sponsorship required for non-US |
+| **Travel** | Open to travel; relocation considered for right opportunity |
+| **Engagement** | W-2, contract, or consulting — contractor/1099 available for international companies |
 | **Compensation** | Competitive and negotiable based on role scope, responsibilities, and total package |
 
 ---
 
 ## Work preferences
 
-- Remote-first preferred; comfortable with US/EU/LatAm time zones
-- **Open to relocation** for the right opportunity
-- Open to contract or full-time
-- Available for consulting engagements
-- **International roles welcome** — experienced collaborating across time zones
-- **Defense/Federal** — Veteran preference eligible, clearance-ready
+- **Actively seeking international opportunities** — EU, UK, Canada, APAC welcome
+- Remote-first with async collaboration experience (distributed teams across US/EU/LatAm)
+- **Contractor/1099 available** for international companies without US entity
+- Open to relocation for the right opportunity (visa sponsorship required)
+- W-2, contract, or consulting — flexible engagement models
+- **Defense/Federal** — US veteran preference eligible, clearance-ready
 
 ---
 

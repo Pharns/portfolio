@@ -139,7 +139,7 @@ Taught drone technology courses, demonstrating communication skills and subject 
 
 - Penetration Testing · Offensive Security (active lab, CySA+/PenTest+ Jan 2026)
 
-Remote-first; open to international collaboration (US/EU/LatAm time zones) and relocation for the right opportunity.
+**Actively seeking international opportunities.** Remote-first with async collaboration experience across US/EU/LatAm time zones. Contractor/consulting available for non-US companies; visa sponsorship required for relocation.
 
 ---
 
