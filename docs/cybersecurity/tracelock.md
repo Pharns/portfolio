@@ -89,54 +89,7 @@ TraceLock™ is a security-hardened fork of CYT (Chasing Your Tail). Here's what
 
 ### Physical System Architecture
 
-```mermaid
-%%{init: {"flowchart": {"nodeSpacing": 130, "rankSpacing": 130}, "themeVariables": {"fontSize": "32px"}}}%%
-flowchart TB
-    subgraph POWER["POWER + BACKHAUL"]
-        PWR["USB-C Power"]
-        ETH["Ethernet/LTE"]
-    end
-
-    subgraph COMPUTE["COMPUTE CORE"]
-        PI["Raspberry Pi 4B"]
-        DSP["7in Field Screen"]
-    end
-
-    subgraph RF_SENSORS["RF SENSOR ARRAY (PASSIVE)"]
-        direction TB
-        WIFI["Wi-Fi Monitor"]
-        BLE["BLE Long/Short Range"]
-        SDR["SDR Wideband"]
-        GPS["GNSS + LTE"]
-        ADSB["ADS-B Receiver"]
-    end
-
-    subgraph OUTPUT["OUTPUTS"]
-        direction LR
-        LOG["JSON Logs"]
-        KML["KML Map"]
-        MQTT["MQTT Alerts"]
-        RPT["HTML Report"]
-    end
-
-    PWR --> PI
-    ETH --> PI
-    PI --> DSP
-    WIFI --> PI
-    BLE --> PI
-    SDR --> PI
-    GPS --> PI
-    ADSB --> PI
-    PI --> LOG
-    PI --> KML
-    PI --> MQTT
-    PI --> RPT
-
-    style POWER fill:#fef3c7,stroke:#d97706,stroke-width:2px
-    style COMPUTE fill:#dbeafe,stroke:#2563eb,stroke-width:2px
-    style RF_SENSORS fill:#dcfce7,stroke:#16a34a,stroke-width:2px
-    style OUTPUT fill:#f3e8ff,stroke:#9333ea,stroke-width:2px
-```
+![TraceLock physical system architecture](../assets/Sensor%20system.png)
 
 *8-component RF sensor array with centralized processing and multi-channel output — demonstrates hardware integration and systems engineering*
 
