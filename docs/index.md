@@ -1,14 +1,14 @@
 ---
-description: "GRC Engineer portfolio — audit-ready control frameworks, evidence pipelines, cloud security automation, and AAM cybersecurity. Full-stack compliance: policy through implementation."
+description: "GRC Engineer portfolio — audit-ready frameworks, cloud security, detection engineering, and RF/SDR hardware security. Full-stack compliance with AAM cybersecurity specialization."
 ---
 
 # Pharns Genece
 
-**GRC Engineer · Cloud Security · Detection Engineering**
+**GRC Engineer · Cloud Security · Detection Engineering · RF/SDR Security**
 
 I build the controls I document: cloud guardrails, endpoint hardening, and evidence pipelines. Full-stack GRC from framework mapping to implementation.
 
-**Target roles:** GRC Engineer · Cloud Security Engineer · Detection Engineering · Security Controls Implementation
+**Target roles:** GRC Engineer · Cloud Security Engineer · Detection Engineering · RF/Wireless Security
 
 USAF Veteran (service-disabled) · Security Clearance Eligible · Security+/SSCP · B.S. Cybersecurity (Feb 2026)
 
