@@ -8,18 +8,18 @@ View my full resume below or download for offline use.
 
 <div class="stat-grid" markdown>
 <div class="stat-tile" markdown>
-**View Full Resume**
+**Download PDF**
 
-[View Resume Page](resume-full.md){ .md-button .md-button--primary }
+[Download Resume (PDF)](assets/resume/Pharns_Genece_Resume.pdf){ .md-button .md-button--primary target=_blank }
 
-*Print-friendly format*
+*ATS-optimized format*
 </div>
 <div class="stat-tile" markdown>
-**Download**
+**View Online**
 
-[Download Markdown](assets/resume/Pharns_Genece_Resume.md){ .md-button download="Pharns_Genece_Resume.md" }
+[View Full Resume](resume-full.md){ .md-button }
 
-*For ATS systems, copy/paste to Word*
+*Print-friendly web version*
 </div>
 </div>
 
