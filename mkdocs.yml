@@ -117,11 +117,10 @@ nav:
 - About: about.md
 - GRC & Security:
   - GRC Overview: grc/index.md
-  - Cybersecurity Overview: cybersecurity/index.md
-  - GIAP™ — Governance Automation: cybersecurity/giap.md
-  - TraceLock™ (RF Security):
-    - Overview: cybersecurity/tracelock.md
-    - Architecture Diagram: cybersecurity/trace-lock-diagram.md
+  - Detection Engineering: cybersecurity/detection-engineering.md
+  - GIAP™ — GRC Automation: cybersecurity/giap.md
+  - TraceLock™ — RF Security: cybersecurity/tracelock.md
+  - Cloud Control Pack (AWS): cybersecurity/aws-control-pack.md
   - PCI-DSS Compliance:
     - Overview: cybersecurity/pci-dss/index.md
     - System Architecture: cybersecurity/pci-dss/architecture.md
@@ -130,18 +129,22 @@ nav:
     - Verification & Evidence: cybersecurity/pci-dss/verification.md
     - Lessons Learned: cybersecurity/pci-dss/lessons-learned.md
     - Windows 11 Hardening: cybersecurity/windows11-pcidss-hardening.md
-  - Cloud Control Pack (AWS): cybersecurity/aws-control-pack.md
-  - Private Inbox Zero: cybersecurity/private-inbox-zero.md
-  - Secure Intake Portal: cybersecurity/intake-portal.md
-  - Baseline Evidence Drop: cybersecurity/baseline-evidence-drop.md
-  - Detection & IR Lab: cybersecurity/incident-response.md
-  - Remote Access & Zero-WAN: cybersecurity/remote-access-zero-wan.md
-  - Penetration Testing: cybersecurity/penetration-testing.md
-  - Vulnerability Assessment: cybersecurity/vulnerability-assessment.md
-  - Homelab Infrastructure: cybersecurity/homelab-infrastructure.md
-  - Homelab Build Journey: cybersecurity/homelab-journey.md
-  - Blog Writeups: cybersecurity/blog-writeups.md
-  - PropTech RF Governance: cybersecurity/proptech-compliance-article.md
+  - Security Projects:
+    - Cybersecurity Overview: cybersecurity/index.md
+    - Private Inbox Zero: cybersecurity/private-inbox-zero.md
+    - Secure Intake Portal: cybersecurity/intake-portal.md
+    - Baseline Evidence Drop: cybersecurity/baseline-evidence-drop.md
+    - Remote Access & Zero-WAN: cybersecurity/remote-access-zero-wan.md
+    - PropTech RF Governance: cybersecurity/proptech-compliance-article.md
+  - Offensive Security:
+    - Detection & IR Lab: cybersecurity/incident-response.md
+    - Penetration Testing: cybersecurity/penetration-testing.md
+    - Vulnerability Assessment: cybersecurity/vulnerability-assessment.md
+  - Homelab:
+    - Infrastructure: cybersecurity/homelab-infrastructure.md
+    - Build Journey: cybersecurity/homelab-journey.md
+    - TraceLock Architecture: cybersecurity/trace-lock-diagram.md
+    - Blog Writeups: cybersecurity/blog-writeups.md
 - Projects: projects.md
 - Innovation:
   - Overview: innovation/index.md
