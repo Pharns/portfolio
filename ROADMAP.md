@@ -10,7 +10,7 @@ This roadmap tracks portfolio improvements identified through comprehensive anal
 ## Completed (This Session)
 
 - [x] Add availability badge to homepage hero ("Available February 2026")
-- [x] Add Calendly scheduling link placeholder to contact page
+- [x] Add Cal.com scheduling link to contact page
 - [x] Add patent filing date (November 2025) to TraceLock page
 - [x] Tier projects into Flagship/Featured/Additional structure
 - [x] Enhance "What I'm Looking For" section with salary signals ($120K–$180K range)
@@ -28,8 +28,8 @@ This roadmap tracks portfolio improvements identified through comprehensive anal
 - [ ] Add link to contact page and about page footer
 - **Why:** Some recruiters need ATS-compatible format
 
-### Calendly Link Update
-- [ ] Replace placeholder `https://calendly.com/pharns` with actual link
+### Cal.com Link Update
+- [x] Replaced Calendly placeholder with `https://cal.pharns.com/meet/intro`
 - [ ] Verify booking works correctly
 - **Why:** Removes friction from scheduling conversations
 

@@ -52,4 +52,4 @@ View my full resume below or download for offline use.
 
 ## Prefer to connect directly?
 
-[Schedule a Call](https://calendly.com/pharns){target=_blank .md-button .md-button--primary } [Email Me](mailto:careers@pharns.com){ .md-button } [LinkedIn](https://linkedin.com/in/pharns){ .md-button }
+[Schedule a Call](https://cal.pharns.com/meet/intro){target=_blank .md-button .md-button--primary } [Email Me](mailto:careers@pharns.com){ .md-button } [LinkedIn](https://linkedin.com/in/pharns){ .md-button }

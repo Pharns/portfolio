@@ -22,7 +22,7 @@ Typical response: < 24 hours
 <div class="stat-tile" markdown>
 **Schedule a Call**
 
-[Book 15-min intro](https://calendly.com/pharns){target=_blank}
+[Book 15-min intro](https://cal.pharns.com/meet/intro){target=_blank}
 
 Quick intro conversations welcome
 </div>

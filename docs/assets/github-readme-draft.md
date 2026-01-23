@@ -126,7 +126,7 @@ Advanced Air Mobility security requires practitioners who understand engineering
 | **Portfolio** | [portfolio.pharns.com](https://portfolio.pharns.com) |
 | **LinkedIn** | [linkedin.com/in/pharns](https://linkedin.com/in/pharns) |
 | **Certifications** | [Credly](https://www.credly.com/users/pharns) |
-| **Schedule Call** | [Calendly](https://calendly.com/pharns) |
+| **Schedule Call** | [Cal.com](https://cal.pharns.com/meet/intro) |
 
 ---
 
