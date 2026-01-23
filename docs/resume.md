@@ -1,24 +1,25 @@
 ---
-description: "Download Pharns Genece's resume — GRC Engineer, Cloud Security, Detection Engineering, RF/SDR Security. ATS-optimized PDF format."
+description: "Download Pharns Genece's resume — GRC Engineer, Cloud Security, Detection Engineering, RF/SDR Security. ATS-optimized format."
 ---
 
 # Resume
 
-Download my resume in ATS-optimized PDF format.
-
----
-
-## Download options
+View my full resume below or download for offline use.
 
 <div class="stat-grid" markdown>
 <div class="stat-tile" markdown>
-**Primary Resume**
+**View Full Resume**
 
-GRC Engineer · Cloud Security · Detection Engineering · RF/SDR Security
+[View Resume Page](resume-full.md){ .md-button .md-button--primary }
 
-*Coming February 2026*
+*Print-friendly format*
+</div>
+<div class="stat-tile" markdown>
+**Download**
 
-<!-- [Download PDF](assets/resume/Pharns_Genece_Resume.pdf){target=_blank .btn-primary} -->
+[Download Markdown](assets/resume/Pharns_Genece_Resume.md){ .md-button download="Pharns_Genece_Resume.md" }
+
+*For ATS systems, copy/paste to Word*
 </div>
 </div>
 
@@ -51,8 +52,4 @@ GRC Engineer · Cloud Security · Detection Engineering · RF/SDR Security
 
 ## Prefer to connect directly?
 
-[Schedule a Call](https://calendly.com/pharns){target=_blank .btn-primary} [Email Me](mailto:careers@pharns.com){ .btn-ghost } [LinkedIn](https://linkedin.com/in/pharns){ .btn-ghost }
-
----
-
-<small>*Resume PDF will be available February 2026 upon degree completion. For immediate needs, please contact directly.*</small>
+[Schedule a Call](https://calendly.com/pharns){target=_blank .md-button .md-button--primary } [Email Me](mailto:careers@pharns.com){ .md-button } [LinkedIn](https://linkedin.com/in/pharns){ .md-button }
