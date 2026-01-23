@@ -18,7 +18,7 @@ description: "Detection Engineer portfolio: Custom Sigma rules, SIEM tuning, Sec
 
     **Why this matters:** I don't just consume detection content — I create it. If I can build and tune detections in my own lab, I can contribute to your SOC/SIEM platform from day one.
 
-[View Detection Lab Details](#detection-lab) | [See Sigma Rules](#authored-detection-rules) | [Contact](../contact.md){ .md-button }
+[View Detection Lab Details](#detection-lab) | [See Sigma Rules](#authored-detection-rules) | [:material-github: GitHub Repo](https://github.com/Pharns/detection-rules){target=_blank} | [Contact](../contact.md){ .md-button }
 
 ---
 
@@ -226,6 +226,7 @@ Detection engineering extends beyond network/host telemetry. **TraceLock™** ap
 
 ## Related projects
 
+- [:material-github: detection-rules](https://github.com/Pharns/detection-rules){target=_blank} — All 12 Sigma rules with CI validation
 - [Detection & IR Lab](incident-response.md) — Full lab documentation with additional drill scenarios
 - [TraceLock™](tracelock.md) — RF/wireless detection engineering across 6 domains
 - [GIAP™](giap.md) — Automation platform demonstrating similar pipeline thinking applied to GRC
@@ -236,4 +237,4 @@ Detection engineering extends beyond network/host telemetry. **TraceLock™** ap
 !!! question "Want to discuss detection engineering?"
     I'm actively seeking Detection Engineer roles where I can contribute authored detection content, tune alert pipelines, and build IR workflows.
 
-    [Contact Me](../contact.md){ .md-button .md-button--primary } [View Resume](../resume.md){ .md-button }
+    [:material-github: View Rules on GitHub](https://github.com/Pharns/detection-rules){target=_blank .md-button .md-button--primary } [Contact Me](../contact.md){ .md-button } [View Resume](../resume.md){ .md-button }
