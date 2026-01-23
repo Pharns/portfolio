@@ -1,5 +1,5 @@
 ---
-description: "Download Pharns Genece's resume — GRC Engineer, Cloud Security, Detection Engineering. ATS-optimized PDF format."
+description: "Download Pharns Genece's resume — GRC Engineer, Cloud Security, Detection Engineering, RF/SDR Security. ATS-optimized PDF format."
 ---
 
 # Resume
@@ -14,7 +14,7 @@ Download my resume in ATS-optimized PDF format.
 <div class="stat-tile" markdown>
 **Primary Resume**
 
-GRC Engineer · Cloud Security · Detection Engineering
+GRC Engineer · Cloud Security · Detection Engineering · RF/SDR Security
 
 *Coming February 2026*
 
@@ -28,7 +28,7 @@ GRC Engineer · Cloud Security · Detection Engineering
 
 | Category | Details |
 |----------|---------|
-| **Target roles** | GRC Engineer · Cloud Security Engineer · Detection Engineer |
+| **Target roles** | GRC Engineer · Cloud Security Engineer · Detection Engineer · RF/Wireless Security |
 | **Experience** | 7 years enterprise infrastructure (USOG) · 18 years USAF |
 | **Education** | B.S. Cybersecurity & Information Assurance (WGU) — Feb 2026 |
 | **Certifications** | Security+ · Network+ · SSCP (Assoc.) · ITIL4 · ISC² CC · 10 total |
