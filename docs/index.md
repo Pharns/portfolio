@@ -242,9 +242,9 @@ Mission-critical operations, security clearance eligible
 
 **What I've built:**
 
-- **CareerOS** — 1,100+ line system prompt with 36-expert advisory panel, structured JSON schemas, multi-model orchestration (Claude, GPT, Gemini)
-- **GIAP™** — GRC automation with n8n workflows, webhook pipelines, and planned MCP integration for natural language compliance queries
-- **TraceLock™** — AI-assisted detection tuning and false positive reduction through pattern extraction
+- **GIAP™** — Production GRC automation platform with n8n workflows, webhook pipelines, and planned MCP integration for natural language compliance queries
+- **TraceLock™** — Patent-pending RF threat detection with AI-assisted detection tuning and false positive reduction through pattern extraction
+- **CareerOS** — 1,100+ line multi-agent system demonstrating production-grade prompt engineering, structured JSON schemas, and multi-model orchestration (Claude, GPT, Gemini)
 
 **Why this matters for security roles:**
 
