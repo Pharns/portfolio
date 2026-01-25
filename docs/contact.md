@@ -56,7 +56,7 @@ Snapshot and download options
 
 ## What I'm looking for
 
-**Target roles ($120K–$180K+ range):**
+**Target roles:**
 
 - GRC Engineer (technical implementation focus)
 - Cloud Security Engineer (GRC/compliance focus)

@@ -80,7 +80,7 @@ Taught drone technology courses, demonstrating communication skills and subject 
 
 ---
 
-## Skills snapshot (ATS keywords)
+## Skills snapshot
 
 <div class="skills-grid" markdown>
 
@@ -98,7 +98,7 @@ Taught drone technology courses, demonstrating communication skills and subject 
 
 ---
 
-## What I deliver (GRC focus)
+## What I deliver
 
 **Cloud governance & control implementation:**
 - AWS Control Pack: S3 default-deny, GuardDuty findings export with scoped IAM, CIS/NIST mapping — architecture designed, implementation Q1 2026.
@@ -122,14 +122,14 @@ Taught drone technology courses, demonstrating communication skills and subject 
 
 ## Open to roles
 
-**Primary focus (what I'm targeting):**
+**Primary focus:**
 
 - GRC Engineer (technical implementation)
 - Cloud Security Engineer (compliance/governance focus)
 - Security Controls Implementation Specialist
 - Detection Engineer
 
-**Specialized depth (differentiators, not distractions):**
+**Specialized depth:**
 
 - AAM/UAV Security — hands-on drone engineering + security
 - RF/Wireless Security — SDR, spectrum analysis, TraceLock™
