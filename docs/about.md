@@ -175,7 +175,7 @@ I don't just study drone security — I've designed, built, and fielded operatio
 
 **Hands-on engineering background:**
 
-- Designed and deployed small UAS (SUAS) for real-world missions, including beyond-line-of-sight (BLOS) operations
+- Designed and deployed small UAS (SUAS) for real-world missions, including beyond-visual-line-of-sight (BVLOS) operations
 - Developed swarm-deployable payload systems with custom avionics integration
 - Authored USPTO patents for UAV delivery and payload mechanisms
 - Built RF telemetry and command/control systems from the ground up
