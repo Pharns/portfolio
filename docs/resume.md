@@ -30,7 +30,7 @@ View my full resume below or download for offline use.
 | Category | Details |
 |----------|---------|
 | **Target roles** | GRC Engineer · Cloud Security Engineer · Detection Engineer · RF/Wireless Security |
-| **Experience** | 7 years enterprise infrastructure (USOG) · 18 years USAF |
+| **Experience** | 7 years enterprise infrastructure (USOG) · career USAF veteran |
 | **Education** | B.S. Cybersecurity & Information Assurance (WGU) — Feb 2026 |
 | **Certifications** | Security+ · Network+ · SSCP (Assoc.) · ITIL4 · ISC² CC · 10 total |
 | **Upcoming** | CySA+ · PenTest+ (Jan 2026) |

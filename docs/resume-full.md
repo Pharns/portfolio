@@ -15,7 +15,7 @@ hide:
 
 ## Professional Summary
 
-GRC Engineer with 7 years of production infrastructure security experience and 18 years of mission-critical operations (USAF). I build audit-ready control frameworks, evidence pipelines, and compliance automation—then implement the technical controls, not just document them. Unique combination of GRC discipline, cloud security, detection engineering, and RF/hardware security expertise.
+GRC Engineer with 7 years of production infrastructure security experience and a career of mission-critical operations (USAF). I build audit-ready control frameworks, evidence pipelines, and compliance automation—then implement the technical controls, not just document them. Unique combination of GRC discipline, cloud security, detection engineering, and RF/hardware security expertise.
 
 **Core Competencies:** CIS Controls v8 · NIST CSF · PCI-DSS v4.0 · SOC 2 · HIPAA · ISO 27001 · AWS Security · SIEM/Detection Engineering · RF/SDR Security · Python Automation
 
@@ -45,7 +45,7 @@ Led $5.6M revenue drone logistics company (18 employees) while serving as hands-
 - **Architected, deployed, hardened, and maintained** all systems—no delegation; real-world GRC implementation at scale
 
 ### United States Air Force — Aeromedical Evacuation Technician
-*1990 – 2007 · 18 Years Active Duty*
+*1990 – 2007 · Active Duty*
 
 Flight medical technician with mission-critical operations experience in high-pressure environments.
 

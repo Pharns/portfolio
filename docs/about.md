@@ -48,7 +48,7 @@ This wasn't delegated — I architected, deployed, hardened, and maintained ever
 *Currently winding down operations; transitioning fully to cybersecurity.*
 
 ### United States Air Force — Aeromedical Evacuation Technician
-*1990 – 2007 · 18 Years Active Duty*
+*1990 – 2007 · Active Duty*
 
 Flight nurse with mission-critical operations experience:
 
@@ -70,7 +70,7 @@ Taught drone technology courses, demonstrating communication skills and subject 
 
 | Phase | Role | What I Learned | How It Applies |
 |-------|------|----------------|----------------|
-| **USAF (18 years)** | Aeromedical Evacuation | Mission-critical operations, protocols, documentation, clearance experience | Disciplined execution, compliance mindset, audit culture |
+| **USAF (career)** | Aeromedical Evacuation | Mission-critical operations, protocols, documentation, clearance experience | Disciplined execution, compliance mindset, audit culture |
 | **USOG (7 years)** | CEO + Sysadmin | Built IT infrastructure for $5.6M company from scratch | Hands-on implementation, vulnerability management, production security |
 | **AAM Cyber (current)** | GRC Consultant | Client delivery across HIPAA, PCI-DSS, SOC 2 | Framework expertise, evidence pipelines, compliance automation |
 

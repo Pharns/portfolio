@@ -54,7 +54,7 @@ Comprehensive security assessment and remediation. M365 hardening, dark web moni
     - **CEO of $5.6M drone logistics company** (USOG) — 7 years operational experience
     - **USPTO patents** in UAV payload and delivery architectures
     - **TraceLock™** — Patent-pending RF threat detection platform (Wi-Fi/BLE/SDR/GPS/ADS-B)
-    - **FAA Part 107** certified | **HAM/GMRS** licensed | **18-year USAF veteran**
+    - **FAA Part 107** certified | **HAM/GMRS** licensed | **career USAF veteran**
 
     Few practitioners combine drone operations, RF/SDR expertise, and cybersecurity credentials. [View full AAM credentials →](#aam-cybersecurity-specialization)
 
@@ -212,7 +212,7 @@ PCI-DSS endpoint hardening with audit-ready evidence pack for financial services
 Security+, Network+, SSCP (Assoc.), ITIL4, ISC² CC, LPI, Project+ [→ View all](certifications.md)
 </div>
 <div class="stat-tile" markdown>
-**18 years USAF**
+**Career USAF veteran**
 Mission-critical operations, security clearance eligible
 </div>
 </div>
