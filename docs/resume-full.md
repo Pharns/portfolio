@@ -45,7 +45,7 @@ Led $5.6M revenue drone logistics company (18 employees) while serving as hands-
 - **Architected, deployed, hardened, and maintained** all systems—no delegation; real-world GRC implementation at scale
 
 ### United States Air Force — Aeromedical Evacuation Technician
-*1990 – 2007 · Active Duty*
+*1990 – 2007 · Military Career*
 
 Flight medical technician with mission-critical operations experience in high-pressure environments.
 
