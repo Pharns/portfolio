@@ -40,7 +40,7 @@ Led $5.6M revenue drone logistics company (18 employees) while serving as hands-
 ### United States Air Force — Aeromedical Evacuation Technician
 *1990 – 2007 · Military Career*
 
-Flight medical technician with mission-critical operations experience in high-pressure environments.
+Flight nurse with mission-critical operations experience in high-pressure environments.
 
 - Executed life-safety medical operations with strict protocols, documentation, and compliance requirements
 - Maintained security clearance throughout service (eligible for reinstatement)
