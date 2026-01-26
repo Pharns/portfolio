@@ -49,7 +49,7 @@ description: "GIAP — Multi-agent GRC automation with n8n and CISO Assistant. I
     - Portal: 829 lines (HTML/JS/CSS) + GIAC UI: 67 files (React 18 + Vite 5)
     - GIAC API: FastAPI + SQLAlchemy with token validation
     - n8n Workflows: 9 total (all active)
-    - Signal Bot Commands: 11 operational
+    - Signal Bot Commands: 12 operational
     - Documentation: 33+ markdown files
     - Services: 8 integrated (Portal, n8n, Nextcloud, SuiteCRM, DocuSeal, CISO Assistant, Signal, Uptime Kuma)
     - E2E Pipeline: Verified — Deposit → Token → GIAC Submission → CISO Folder → Email → Signal
@@ -273,7 +273,7 @@ flowchart TB
 | **Flow #4 - Deposit Gate** | Ty9o9C0Bc2IELweX | Pre | Poll for deposit → unlock engagement phase | ✅ Active |
 | **Flow #5 - Intake Complete** | 1ROo6OaM7PITA6oV | Pre | Intake finalization → client + admin notifications | ✅ Active |
 | **Backup Automation** | xnqCRqYPpek1qFN2 | Ops | Daily n8n + CISO Assistant backups → Nextcloud | ✅ Active |
-| **Signal Command Bot v3.5** | adWw9sCyGBplqlnZ | Ops | 11 commands (+1 planned: /runbackup for on-demand backups) | ✅ Active |
+| **Signal Command Bot v3.8** | adWw9sCyGBplqlnZ | Ops | 12 commands, 30s polling, 5s execution | ✅ Active |
 | **Error Notifications** | g6DcvZN3w5vG5t5S | Ops | n8n Error Trigger → Signal alert + Resend email | ✅ Active |
 | **AAM Cyber Contact** | fG7S5oRouxyrr94R | Marketing | [aamcyber.com](https://aamcyber.com) form → SuiteCRM lead | ✅ Active |
 | **Evidence Collection** | — | Post | Upload artifacts to Nextcloud folders | ⬜ Build |
@@ -642,7 +642,7 @@ GIAP™ supports 90-day recurring assessment cycles for vCISO engagements:
 | Flow #4 - Deposit Gate | ✅ Active | Polling every 5 min for deposit status |
 | Flow #5 - Intake Complete | ✅ Active | Client + admin notifications on completion |
 | Backup Automation | ✅ Active | Daily n8n + CISO Assistant backups |
-| Signal Command Bot | ✅ Active | 11 commands, 15s polling |
+| Signal Command Bot | ✅ Active | 12 commands, 30s polling, 5s execution (v3.8) |
 | Nextcloud | ✅ Running | Evidence vault operational, WebDAV API working |
 | SuiteCRM | ✅ Running | Lead + Case creation, custom status dropdown |
 | CISO Assistant | ✅ Running | Primary GRC platform with 100+ frameworks |
@@ -810,22 +810,22 @@ GIAP™ implements a **hybrid notification model** using both Signal and email f
 
 ### Signal Command Bot
 
-A dedicated Signal bot monitors the GIAP Alerts group and responds to 11 operational commands:
+A dedicated Signal bot monitors the GIAP Alerts group and responds to 12 operational commands:
 
 | Command | Function |
 |---------|----------|
-| `/help` | List all available commands |
-| `/ping` | Quick alive check (latency test) |
-| `/status` | System status with timestamp |
-| `/test` | Consolidated health check of all 6 GIAP services |
-| `/uptime` | Service uptime percentages (30-day window) |
+| `/help` | List all available commands (organized by category) |
+| `/ping` | Quick alive check + service count |
+| `/status` | Service health with status indicators |
+| `/test` | Detailed diagnostics for all 6 GIAP services |
+| `/uptime` | 24-hour uptime with progress bars |
 | `/pending` | Leads awaiting deposit payment |
-| `/today` | Today's activity summary |
-| `/leads` | Lead counts by status |
+| `/today` | Daily activity metrics |
+| `/leads` | Pipeline summary by status |
 | `/backup` | Backup schedule and automation info |
-| `/lastbackup` | Last backup execution time (LIVE from n8n API) |
-| `/runbackup` | **⬜ Planned:** Trigger on-demand backup to Nextcloud |
+| `/lastbackup` | Last 3 backup runs (LIVE from n8n API) |
 | `/version` | Bot version and configuration info |
+| `/debug` | Debug data counts for troubleshooting |
 
 ### Notification Events
 
@@ -840,12 +840,20 @@ A dedicated Signal bot monitors the GIAP Alerts group and responds to 11 operati
 ### Technical Implementation
 
 - **Bot Infrastructure:** `signal-cli-rest-api` container (`bbernhard/signal-cli-rest-api:latest`)
-- **Polling Interval:** 15 seconds for command responsiveness
-- **API Version:** signal-cli v0.96
+- **Registration:** Primary device (not linked) — maintains persistent websocket connection
+- **Polling Interval:** 30 seconds
+- **Execution Time:** ~5 seconds per cycle (optimized from 275s in v3.7)
+- **API Version:** signal-cli v0.13.x
 - **Group:** GIAP Alerts (base64-encoded group ID)
-- **Architecture:** v3.5 with chained Merge nodes (race condition fix)
+- **Architecture:** v3.8 with chained Merge nodes and LAN IP routing
 
-**v3.5 Architecture Fix (January 2026):** The bot evolved from v3.0 (race condition causing multiple responses) to v3.5 using chained Merge nodes. The root cause was n8n's parallel execution model — Code nodes execute when ANY input arrives rather than waiting for ALL inputs. The solution chains Merge nodes (mode: "append") to synchronize 5 parallel data sources before processing:
+**Architecture Evolution (v3.0 → v3.8):**
+
+- **v3.5:** Fixed race condition (multiple responses) using chained Merge nodes. Root cause: n8n Code nodes execute when ANY input arrives, not ALL. Solution: chain Merge nodes (mode: "append") to synchronize 5 parallel data sources.
+- **v3.7 → v3.8:** Diagnosed 275-second execution time caused by Tailscale IP routing failure to Uptime Kuma. Fixed by switching to LAN IP (`192.168.8.177`), reducing execution to ~5 seconds.
+- **Primary Device Fix:** Re-registered signal-cli as primary device (not linked) to maintain persistent websocket connection — linked devices lose connection when idle.
+
+**Chained Merge Pattern (v3.5+):**
 
 ```mermaid
 flowchart LR
@@ -884,9 +892,9 @@ flowchart LR
     style OUTPUT fill:#e0f2fe,stroke:#0284c7
 ```
 
-*Figure: Signal bot v3.5 architecture solving async race conditions. Five data sources (Signal API, Status Check, Heartbeats, Backups, CRM/Leads) feed into chained Merge nodes (mode: append) that synchronize all inputs before processing. Final Code node handles routing logic and sends response.*
+*Figure: Signal bot v3.8 architecture solving async race conditions. Five data sources (Signal API, Status Check, Heartbeats, Backups, CRM/Leads) feed into chained Merge nodes (mode: append) that synchronize all inputs before processing. Final Code node handles routing logic and sends response.*
 
-**Why this matters:** Demonstrates n8n workflow architecture expertise, debugging complex async patterns, and production-grade operational tooling.
+**Why this matters:** Demonstrates n8n workflow architecture expertise, debugging complex async patterns, network troubleshooting (Tailscale vs LAN routing), Signal protocol knowledge (primary vs linked device), and production-grade operational tooling. The 275s → 5s optimization shows systematic root cause analysis.
 
 **Security Hardening (January 2026):**
 
@@ -969,7 +977,7 @@ flowchart LR
 | **Architecture** | Multi-agent orchestration, two-phase workflow design, API-first design, MCP protocol |
 | **GRC** | Framework mapping, risk management, control assessment, POA&M generation, evidence pipelines, vCISO delivery |
 | **GRC Platforms** | CISO Assistant administration, 100+ framework coverage, API-first integration, multi-platform orchestration |
-| **Workflow Automation** | n8n workflow design, webhook integration, WebDAV API, JSON data pipelines, Signal bot integration, async race condition resolution |
+| **Workflow Automation** | n8n workflow design, webhook integration, WebDAV API, JSON data pipelines, Signal bot integration, async race condition resolution, performance optimization (275s → 5s) |
 | **Custom Tooling** | POAMAgent development, Jinja2 templating, PDF generation, API integration |
 | **Healthcare Compliance** | HIPAA Security Rule, Privacy Rule, BAA management, PHI protection |
 | **AI/LLM** | MCP server design, natural language GRC queries, LLM-assisted documentation |
@@ -985,7 +993,7 @@ flowchart LR
 ## What This Demonstrates
 
 - **Senior-level systems architecture** — Multi-agent orchestration with clear two-phase workflow
-- **Operational automation** — End-to-end intake workflow with n8n, webhooks, and WebDAV integration; v3.5 bot architecture resolved complex async race conditions
+- **Operational automation** — End-to-end intake workflow with n8n, webhooks, and WebDAV integration; Signal bot v3.8 resolved async race conditions and achieved 98% execution time reduction (275s → 5s) through systematic network troubleshooting
 - **Security engineering discipline** — Comprehensive portal hardening with XSS prevention, rate limiting, and WCAG 2.1 AA compliance
 - **API security maturity** — HMAC-SHA256 webhook authentication with replay attack prevention and cryptographic integrity verification
 - **CI/CD in production** — GitHub Actions lint/test gates and portal deploy workflow with secrets checks and secure remote sync
