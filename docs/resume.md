@@ -1,5 +1,5 @@
 ---
-description: "Download Pharns Genece's resume — GRC Engineer, Cloud Security, Detection Engineering, RF/SDR Security. ATS-optimized format."
+description: "Download Pharns Genece's resume — GRC Engineer, Cloud Security, Detection Engineering, RF/SDR Security."
 ---
 
 # Resume
@@ -12,7 +12,7 @@ View my full resume below or download for offline use.
 
 [Download Resume (PDF)](assets/resume/Pharns_Genece_Resume.pdf){ .md-button .md-button--primary target=_blank }
 
-*ATS-optimized format*
+*PDF format*
 </div>
 <div class="stat-tile" markdown>
 **View Online**
