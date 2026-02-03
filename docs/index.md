@@ -1,5 +1,5 @@
 ---
-description: "GRC Engineer portfolio — audit-ready frameworks, cloud security, detection engineering, and RF/SDR hardware security. Full-stack compliance with AAM cybersecurity specialization."
+description: "Portfolio showcasing how I design and build security programs that translate governance into operational defense, including GIAP™ compliance automation, TraceLock™ detection engineering, AWS cloud security, PCI-DSS implementation, and RF/drone security research."
 ---
 
 # Pharns Genece
@@ -10,7 +10,7 @@ I build the controls I document: cloud guardrails, endpoint hardening, and evide
 
 **Target roles:** GRC Engineer · Cloud Security Engineer · Detection Engineering · RF/Wireless Security
 
-USAF Veteran (service-disabled) · Security Clearance Eligible · Security+/SSCP · B.S. Cybersecurity (Feb 2026)
+USAF Veteran (service-disabled) · Security Clearance Eligible · Security+/CySA+/PenTest+/SSCP · B.S. Cybersecurity (Feb 2026)
 
 <span class="availability-badge">📅 Available February 2026</span>
 
@@ -208,8 +208,8 @@ Vulnerabilities identified and remediated across production systems over 7 years
 PCI-DSS endpoint hardening with audit-ready evidence pack for financial services client
 </div>
 <div class="stat-tile" markdown>
-**10 active certifications**
-Security+, Network+, SSCP (Assoc.), ITIL4, ISC² CC, LPI, Project+ [→ View all](certifications.md)
+**13 active certifications**
+Security+, CySA+, PenTest+, CSAP, Network+, SSCP (Assoc.), ITIL4, ISC² CC, LPI, Project+ [→ View all](certifications.md)
 </div>
 <div class="stat-tile" markdown>
 **Career USAF veteran**
@@ -225,7 +225,7 @@ Mission-critical operations, security clearance eligible
 
 **Current capability:** Active detection/IR lab with Security Onion, TheHive/Cortex, custom SIEM rules, and authored detections. TraceLock™ RF/SDR telemetry demonstrates detection engineering fundamentals across 6 wireless domains.
 
-**Growth trajectory:** CySA+ and PenTest+ scheduled January 2026. Building penetration testing portfolio through lab work and vulnerability assessments.
+**Growth trajectory:** CySA+ and PenTest+ earned February 2026. CSAP stackable validates purple team capability. Building penetration testing portfolio through lab work and vulnerability assessments.
 
 **Why this matters:** GRC engineers who understand offensive techniques write better controls. Detection experience informs what to log and monitor.
 
@@ -269,12 +269,12 @@ Mission-critical operations, security clearance eligible
 B.S. Cybersecurity & Information Assurance (WGU) — Feb 2026
 </div>
 <div class="stat-tile" markdown>
-**10 Active Certifications**
-Security+, Network+, A+, ITIL4, ISC² CC, SSCP (Assoc.), LPI, Project+, CSIS, CIOS
+**13 Active Certifications**
+Security+, CySA+, PenTest+, CSAP, Network+, A+, ITIL4, ISC² CC, SSCP (Assoc.), LPI, Project+, CSIS, CIOS
 </div>
 <div class="stat-tile" markdown>
-**Scheduled Jan 2026**
-CySA+, PenTest+
+**Newly Earned Feb 2026**
+CySA+, PenTest+, CSAP
 </div>
 <div class="stat-tile" markdown>
 **Planned Q1 2026**

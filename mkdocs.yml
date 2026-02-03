@@ -1,6 +1,6 @@
-site_name: Pharns Génécé — GRC & Cybersecurity Portfolio
+site_name: Security Program & GRC Engineering Portfolio | Pharns Genece
 site_url: https://portfolio.pharns.com
-site_description: "GRC Engineer portfolio — audit-ready control frameworks, evidence pipelines, cloud security automation, and compliance implementation. Full-stack: policy through technical controls."
+site_description: "Portfolio showcasing how I design and build security programs that translate governance into operational defense, including GIAP™ compliance automation, TraceLock™ detection engineering, AWS cloud security, PCI-DSS implementation, and RF/drone security research."
 site_author: Pharns Génécé
 repo_url: https://github.com/Pharns/portfolio
 repo_name: pharns/portfolio
@@ -49,9 +49,9 @@ extra:
     name: Email - careers@pharns.com
   meta:
   - property: og:title
-    content: "Pharns Genece | GRC Engineer & Cloud Security Portfolio"
+    content: "Security Program & GRC Engineering Portfolio | Pharns Genece"
   - property: og:description
-    content: "Audit-ready control frameworks, evidence pipelines, cloud security automation, and compliance implementation. AI-augmented delivery."
+    content: "Portfolio showcasing how I design and build security programs that translate governance into operational defense, including GIAP™ compliance automation, TraceLock™ detection engineering, AWS cloud security, PCI-DSS implementation, and RF/drone security research."
   - property: og:type
     content: "website"
   - property: og:url
@@ -59,9 +59,9 @@ extra:
   - name: twitter:card
     content: "summary_large_image"
   - name: twitter:title
-    content: "Pharns Genece | GRC Engineer Portfolio"
+    content: "Security Program & GRC Engineering Portfolio | Pharns Genece"
   - name: twitter:description
-    content: "GRC engineering, cloud security, and compliance automation portfolio."
+    content: "Portfolio showcasing how I design and build security programs that translate governance into operational defense, including GIAP™ compliance automation, TraceLock™ detection engineering, AWS cloud security, PCI-DSS implementation, and RF/drone security research."
 markdown_extensions:
 - admonition
 - attr_list

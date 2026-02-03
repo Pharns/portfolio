@@ -1,11 +1,11 @@
 ---
-description: "Security+, Network+, CySA+, SSCP Associate, ISC2 CC, ITIL4, LPI. PenTest+ scheduled Feb 2026. AWS CP, CCSP planned Q1 2026. Verified on Credly."
+description: "Security+, Network+, CySA+, PenTest+, CSAP, SSCP Associate, ISC2 CC, ITIL4, LPI, Project+. 13 active certifications. AWS CP, CCSP planned Q1 2026. Verified on Credly."
 ---
 
 # Certifications & Education
 
 !!! success "For Hiring Managers"
-    **11 active certifications** aligned with GRC Engineering, Cloud Security, and Detection Engineering roles. CySA+ earned February 2026; PenTest+ scheduled to complete offensive/defensive hybrid positioning.
+    **13 active certifications** aligned with GRC Engineering, Cloud Security, and Detection Engineering roles. CySA+ and PenTest+ earned February 2026 — CSAP stackable certification validates purple team capability.
 
     [Verify on Credly](https://www.credly.com/users/pharns){ .md-button }
 
@@ -27,8 +27,9 @@ gantt
     section Security Specialist
     ISC2 CC (Complete)      :done, 2023-03, 2023-04
     SSCP Associate (Complete) :done, 2025-08, 2025-09
-    CySA+ (Complete)        :done, 2026-01, 2026-02
-    PenTest+ (Scheduled)    :active, 2026-02, 2026-03
+    CySA+ (Complete)        :done, 2026-02, 2026-02
+    PenTest+ (Complete)     :done, 2026-02, 2026-02
+    CSAP (Complete)         :done, 2026-02, 2026-02
 
     section Cloud & GRC
     AWS Cloud Practitioner  :2026-02, 2026-03
@@ -39,25 +40,40 @@ gantt
     Project+ (Complete)     :done, 2025-11, 2025-12
 ```
 
-*Figure: Gantt chart showing certification timeline from 2024-2026, organized by Foundation, Security Specialist, Cloud & GRC, and Management tracks. Completed certifications in green (including CySA+ Feb 2026), scheduled in blue, planned in gray.*
+*Figure: Gantt chart showing certification timeline from 2024-2026, organized by Foundation, Security Specialist, Cloud & GRC, and Management tracks. Completed certifications in green, planned in gray.*
 
 ---
 
-## In Progress — February 2026
+## Recently Earned — February 2026
 
 <div class="stat-grid" markdown>
 <div class="stat-tile" markdown>
-**CompTIA PenTest+ (PT0-002)**
+**CompTIA CySA+ (CS0-004)** ✅
+Threat detection, security analytics, incident response. Validates SOC analyst and detection engineering skills.
+<span class="tag-chip">Detection</span> <span class="tag-chip">SIEM</span> <span class="tag-chip">IR</span>
+**Earned:** February 2026
+</div>
+
+<div class="stat-tile" markdown>
+**CompTIA PenTest+ (PT0-002)** ✅
 Penetration testing, vulnerability assessment, exploitation techniques. Validates offensive security fundamentals.
 <span class="tag-chip">Offensive</span> <span class="tag-chip">Pentest</span> <span class="tag-chip">Red Team</span>
-**Status:** Exam scheduled February 2026
+**Earned:** February 2026
+</div>
+
+<div class="stat-tile" markdown>
+**CompTIA CSAP (Stackable)** ✅
+Cybersecurity Analyst Professional — stackable credential combining CySA+ and PenTest+. Validates purple team capability.
+<span class="tag-chip">Purple Team</span> <span class="tag-chip">Stackable</span> <span class="tag-chip">Advanced</span>
+**Earned:** February 2026
 </div>
 </div>
 
-**Why this certification matters:**
+**Why these certifications matter:**
 
+- **CySA+** → Detection engineering roles require demonstrated threat analysis capability
 - **PenTest+** → Understanding offensive techniques improves defensive control design
-- **Purple team perspective** → With CySA+ complete, PenTest+ adds the offensive capability to complement defensive detection skills
+- **CSAP** → Purple team perspective: know how to attack, know how to detect
 
 ---
 
@@ -67,7 +83,9 @@ Penetration testing, vulnerability assessment, exploitation techniques. Validate
 
 | Credential | Issued | Validates | Target Roles |
 |------------|--------|-----------|--------------|
-| **CompTIA CySA+** | Feb 2026 | Threat detection, security analytics, incident response | Detection Engineer, SOC Analyst |
+| **CompTIA CySA+ (CS0-004)** | Feb 2026 | Threat detection, security analytics, incident response | Detection Engineer, SOC |
+| **CompTIA PenTest+ (PT0-002)** | Feb 2026 | Penetration testing, vulnerability assessment | Offensive Security |
+| **CompTIA CSAP** | Feb 2026 | Purple team capability (CySA+ + PenTest+ stackable) | Security Engineer |
 | **CompTIA Security+ ce** | Jan 2025 | Core security concepts, risk management, compliance | All security roles |
 | **ISC² SSCP (Associate)** | Aug 2025 | Security operations, access controls, incident response | SOC, Security Ops |
 | **ISC² CC** | Mar 2023 | Foundational security principles | Entry-level validation |
@@ -119,7 +137,7 @@ Penetration testing, vulnerability assessment, exploitation techniques. Validate
 - Cloud security fundamentals
 - Governance, risk, and compliance
 
-**Accelerated completion:** Competency-based program allows certification stacking — 10 industry certifications earned during degree.
+**Accelerated completion:** Competency-based program allows certification stacking — 13 industry certifications earned during degree.
 
 </div>
 
@@ -141,8 +159,9 @@ Penetration testing, vulnerability assessment, exploitation techniques. Validate
 |-------------|-------------------|--------|
 | **GRC Engineer** | Security+, SSCP, ITIL4, Project+ | ✅ Ready |
 | **Cloud Security Engineer** | Security+, Network+, AWS CP (planned), CCSP (planned) | 🔄 In Progress |
-| **Detection Engineer** | Security+, SSCP, CySA+, PenTest+ (Feb 2026) | ✅ Ready |
+| **Detection Engineer** | Security+, SSCP, CySA+, PenTest+, CSAP | ✅ Ready |
 | **Security Analyst** | Security+, CySA+, Network+ | ✅ Ready |
+| **Penetration Tester** | PenTest+, Security+, Network+ | ✅ Ready |
 
 ---
 
