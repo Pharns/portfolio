@@ -17,6 +17,14 @@ description: "GIAP — Multi-agent GRC automation with n8n and CISO Assistant. I
 
 ---
 
+### Stack Positioning
+
+GIAP™ operates as the **Agentic GRC Layer** within the Governed Agentic Security Stack. While the Agentic Infrastructure layer governs the AI execution environment and the Agentic Detection layer monitors external and behavioral signals, GIAP governs the compliance workflows those agents execute.
+
+In this architecture, AI is not merely assisting documentation — it is embedded into operational governance. GIAP ensures that intake, control mapping, risk scoring, and POA&M generation occur within a structured, deposit-gated, audit-ready framework.
+
+---
+
 !!! example "🔗 Live Demo — Try It Now"
     **Experience the production intake portal yourself.** This is the actual client-facing system — security hardened, WCAG 2.1 AA compliant, and processing real engagements.
 
@@ -216,6 +224,8 @@ flowchart TB
 ---
 
 ## Architecture Overview
+
+GIAP's orchestration layer assumes infrastructure congruence across AI execution environments. Without drift-controlled agent infrastructure, intake processing and control mapping can produce non-reproducible outputs. This dependency is intentionally governed by the Agentic Infrastructure layer of the stack.
 
 GIAP™ is a streamlined GRC automation platform with **n8n orchestration** and a **single GRC platform** (CISO Assistant):
 
@@ -990,7 +1000,7 @@ flowchart LR
 
 ---
 
-## What This Demonstrates
+## What This Demonstrates (Agentic GRC Layer Capabilities)
 
 - **Senior-level systems architecture** — Multi-agent orchestration with clear two-phase workflow
 - **Operational automation** — End-to-end intake workflow with n8n, webhooks, and WebDAV integration; Signal bot v3.8 resolved async race conditions and achieved 98% execution time reduction (275s → 5s) through systematic network troubleshooting
@@ -1017,6 +1027,8 @@ Pairs with [Cloud Control Pack](aws-control-pack.md) for cloud governance and [T
     [🚀 Launch Client Portal Demo](https://portal.aamcyber.work/demo/){ .md-button .md-button--primary target=_blank } [📊 View Live Status](https://status.aamcyber.com/status/giap){ .md-button target=_blank }
 
 ---
+
+GIAP™ demonstrates how AI-driven compliance workflows can be governed as a production security system — not merely automated as a convenience tool.
 
 [Contact](../contact.md){ .md-button .md-button--primary } [LinkedIn](https://www.linkedin.com/in/pharns/){ .md-button }
 

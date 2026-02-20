@@ -28,6 +28,18 @@ description: TraceLock™ — Patent-pending multi-domain RF threat detection pl
 
 ---
 
+!!! abstract "Governed Agentic Security Stack — Agentic Detection & Adversarial Validation Layer"
+
+    **Stack Position:** TraceLock™ is the Agentic Detection & Adversarial Validation Layer of the Governed Agentic Security Stack — the layer that detects adversarial signals in the environment where AI-governed security workflows operate.
+
+    **Architectural Risk Reduced:** RF-layer blind spots that leave security operations without environmental threat visibility. A GRC platform that automates compliance workflows is only defensible if the physical environment it operates within is actively monitored.
+
+    **Stack Layer:** Agentic Detection (primary) · Adversarial Validation (secondary) · Evidence & Assurance (cross-layer) | [Governed Agentic Security Stack](../innovation/agentic-infrastructure-audit.md#governed-agentic-security-stack-context)
+
+    **Relationship to GIAP™:** GIAP governs compliance intake workflows. TraceLock monitors the physical RF environment those workflows operate within. Without detection coverage at this layer, GIAP's audit trails lack environmental context — a session conducted during active RF surveillance leaves no record of that condition.
+
+---
+
 ## The Problem
 
 Executive protection and security teams face a critical gap: **12-18 minutes of RF blind spots** during sweep operations. Existing tools monitor single domains (Wi-Fi OR Bluetooth OR SDR) without correlation, missing sophisticated threats that hop frequencies or use multiple channels.
@@ -94,6 +106,8 @@ TraceLock™ is a security-hardened fork of CYT (Chasing Your Tail). Here's what
 *8-component RF sensor array with centralized processing and multi-channel output — demonstrates hardware integration and systems engineering*
 
 ### Software Architecture
+
+TraceLock's detection architecture depends on the Agentic Infrastructure layer for reproducibility: the same detection rules must produce consistent output on every deployment. Hook-driven context loading and canonical install standards — established by the [Agentic Infrastructure Audit](../innovation/agentic-infrastructure-audit.md) — ensure that the agents operating TraceLock sessions produce audit-comparable results across machines.
 
 **Codebase:** 25 Python modules, 81 shell scripts, ~12,500 LOC, GitHub Actions CI
 
@@ -352,7 +366,7 @@ flowchart TB
 
 ---
 
-## What This Proves
+## What This Demonstrates (Agentic Detection & Adversarial Validation Capabilities)
 
 1. **I can build detection systems** — Not just use them, but architect and implement custom detection logic
 2. **I understand multi-domain correlation** — The same thinking applies to SIEM correlation rules
@@ -367,6 +381,10 @@ flowchart TB
 - [Homelab Infrastructure](homelab-infrastructure.md) — The lab where TraceLock™ was developed
 - [Remote Access & Zero-WAN](remote-access-zero-wan.md) — Secure architecture for remote development
 - [GIAP™](giap.md) — GRC automation platform using similar pipeline patterns
+
+---
+
+TraceLock™ demonstrates how adversarial signal detection can be governed as an architectural layer — not merely implemented as a collection of monitoring scripts.
 
 ---
 

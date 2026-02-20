@@ -115,6 +115,8 @@ extra_javascript:
 nav:
 - Home: index.md
 - About: about.md
+- Governed Agentic Security Stack:
+  - Overview: stack/index.md
 - GRC & Security:
   - GRC Overview: grc/index.md
   - Detection Engineering: cybersecurity/detection-engineering.md
