@@ -149,6 +149,7 @@ nav:
 - Innovation:
   - Overview: innovation/index.md
   - AgenticOS — AI Orchestration: innovation/agenticos.md
+  - Agentic Infrastructure Audit: innovation/agentic-infrastructure-audit.md
   - Drone Payload Systems: innovation/drone-payload-systems.md
   - SDR & RF Security Research: innovation/rf-security.md
   - 3D-Printed & Modular Systems: innovation/modular-designs.md

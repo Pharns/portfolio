@@ -20,6 +20,8 @@ This section highlights **UAV systems, RF security research, and patent-pending 
 
 ## Projects in this section
 
+- **[Agentic Infrastructure Audit](agentic-infrastructure-audit.md)** → multi-machine AI governance audit; drift detection, canonical architecture standard (8 ADRs), automated congruence validation. Agentic Infrastructure + Agentic Governance layers of the Governed Agentic Security Stack.
+- **[AgenticOS — AI Orchestration](agenticos.md)** → deterministic, auditable AI agent orchestration layer with explainable routing, structured logging, and multi-provider execution.
 - **[TraceLock™ RF Threat Detection](../cybersecurity/tracelock.md)** → patent-pending multi-domain RF surveillance detection platform with forensic-grade logging (Wi-Fi/Bluetooth/SDR/GPS/ADS-B).
 - **[Drone Payload Systems](drone-payload-systems.md)** → patented and patent-pending UAV payload architectures designed for wireless security testing and mission adaptability.
 - **[SDR & RF Security Research](rf-security.md)** → applied software-defined radio (SDR) for UAV interception, wireless analysis, and payload integration.
