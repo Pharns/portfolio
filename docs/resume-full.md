@@ -79,7 +79,7 @@ Taught drone technology courses demonstrating technical communication skills and
 
 **Active (11):** Security+ · Network+ · A+ · Project+ · ISC² CC · SSCP (Assoc.) · ITIL 4 · LPI Linux Essentials · CSIS · CIOS · CySA+
 
-**Scheduled:** PenTest+ (Next Week)
+**Pending (Feb 2026):** PenTest+
 
 **Planned (Q1 2026):** AWS Cloud Practitioner · CCSP
 
