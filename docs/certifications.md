@@ -130,7 +130,7 @@ Advanced analytics and detection specialization built on Security+ and CySA+. Va
 - Cloud security fundamentals
 - Governance, risk, and compliance
 
-**Accelerated completion:** Competency-based program allows certification stacking — 13 industry certifications earned during degree.
+**Accelerated completion:** Competency-based program allows certification stacking — 12 industry certifications earned during degree.
 
 </div>
 
