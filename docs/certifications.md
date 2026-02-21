@@ -1,11 +1,11 @@
 ---
-description: "Security+, Network+, CySA+, CASP+, SSCP Associate, ISC2 CC, ITIL4, LPI, Project+. 12 active certifications. PenTest+ scheduled Feb 20, 2026. AWS CP, CCSP planned Q1 2026. Verified on Credly."
+description: "Security+, Network+, CySA+, CSAP, SSCP Associate, ISC2 CC, ITIL4, LPI, Project+. 12 active certifications. PenTest+ scheduled Feb 20, 2026. AWS CP, CCSP planned Q1 2026. Verified on Credly."
 ---
 
 # Certifications & Education
 
 !!! success "For Hiring Managers"
-    **12 active certifications** aligned with GRC Engineering, Cloud Security, and Detection Engineering roles. CySA+ and CASP+ earned February 2026; PenTest+ scheduled **Feb 20, 2026** to complete purple team positioning.
+    **12 active certifications** aligned with GRC Engineering, Cloud Security, and Detection Engineering roles. CySA+ and CSAP earned February 2026; PenTest+ scheduled **Feb 20, 2026** to complete purple team positioning.
 
     [Verify on Credly](https://www.credly.com/users/pharns){ .md-button }
 
@@ -28,7 +28,7 @@ gantt
     ISC2 CC (Complete)      :done, 2023-03, 2023-04
     SSCP Associate (Complete) :done, 2025-08, 2025-09
     CySA+ (Complete)        :done, 2026-02, 2026-02
-    CASP+ (Complete)        :done, 2026-02, 2026-02
+    CSAP (Complete)         :done, 2026-02, 2026-02
     PenTest+ (Scheduled)    :active, 2026-02, 2026-02
 
     section Cloud & GRC
@@ -55,9 +55,9 @@ Threat detection, security analytics, incident response. Validates SOC analyst a
 </div>
 
 <div class="stat-tile" markdown>
-**CompTIA CASP+ (CAS-004)** ✅
-Advanced security engineering, architecture, and enterprise defense. Validates senior practitioner capability.
-<span class="tag-chip">Architecture</span> <span class="tag-chip">Engineering</span> <span class="tag-chip">Advanced</span>
+**CompTIA Security Analytics Professional (CSAP)** ✅
+Advanced analytics and detection specialization built on Security+ and CySA+. Validates purple team capability.
+<span class="tag-chip">Analytics</span> <span class="tag-chip">Detection</span> <span class="tag-chip">Stackable</span>
 **Earned:** February 2026
 </div>
 
@@ -66,7 +66,7 @@ Advanced security engineering, architecture, and enterprise defense. Validates s
 **Why these certifications matter:**
 
 - **CySA+** → Detection engineering roles require demonstrated threat analysis capability
-- **CASP+** → Senior security engineering credibility for architecture and enterprise defense
+- **CSAP** → Advanced analytics and detection specialization built on Security+ and CySA+
 
 ---
 
@@ -77,7 +77,7 @@ Advanced security engineering, architecture, and enterprise defense. Validates s
 | Credential | Issued | Validates | Target Roles |
 |------------|--------|-----------|--------------|
 | **CompTIA CySA+ (CS0-004)** | Feb 2026 | Threat detection, security analytics, incident response | Detection Engineer, SOC |
-| **CompTIA CASP+ (CAS-004)** | Feb 2026 | Advanced security engineering and architecture | Senior Security Engineer |
+| **CompTIA CSAP (Stackable)** | Feb 2026 | Advanced analytics and detection (Security+ + CySA+) | Detection Engineer, Security Engineer |
 | **CompTIA Security+ ce** | Jan 2025 | Core security concepts, risk management, compliance | All security roles |
 | **ISC² SSCP (Associate)** | Aug 2025 | Security operations, access controls, incident response | SOC, Security Ops |
 | **ISC² CC** | Mar 2023 | Foundational security principles | Entry-level validation |
@@ -152,7 +152,7 @@ Advanced security engineering, architecture, and enterprise defense. Validates s
 |-------------|-------------------|--------|
 | **GRC Engineer** | Security+, SSCP, ITIL4, Project+ | ✅ Ready |
 | **Cloud Security Engineer** | Security+, Network+, AWS CP (planned), CCSP (planned) | 🔄 In Progress |
-| **Detection Engineer** | Security+, SSCP, CySA+, CASP+ | ✅ Ready |
+| **Detection Engineer** | Security+, SSCP, CySA+, CSAP | ✅ Ready |
 | **Security Analyst** | Security+, CySA+, Network+ | ✅ Ready |
 | **Penetration Tester** | PenTest+ (scheduled Feb 20, 2026), Security+, Network+ | 🔄 In Progress |
 

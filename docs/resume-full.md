@@ -77,7 +77,7 @@ Taught drone technology courses demonstrating technical communication skills and
 
 ## Certifications
 
-**Active (11):** Security+ · Network+ · A+ · Project+ · ISC² CC · SSCP (Assoc.) · ITIL 4 · LPI Linux Essentials · CSIS · CIOS · CySA+
+**Active (12):** Security+ · Network+ · A+ · Project+ · ISC² CC · SSCP (Assoc.) · ITIL 4 · LPI Linux Essentials · CSIS · CIOS · CySA+ · CSAP
 
 **Pending (Feb 2026):** PenTest+
 
