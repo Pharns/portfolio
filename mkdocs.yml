@@ -37,6 +37,9 @@ theme:
       icon: material/weather-night
       name: Switch to light mode
 extra:
+  version: "2026.02.20"
+  stack_version: "v4.0"
+
   social:
   - icon: fontawesome/brands/github
     link: https://github.com/Pharns
