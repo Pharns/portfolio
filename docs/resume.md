@@ -32,8 +32,8 @@ View my full resume below or download for offline use.
 | **Target roles** | Security Engineer · Cloud Security Engineer · Detection Engineer |
 | **Experience** | 7 years enterprise infrastructure (USOG) · career USAF veteran |
 | **Education** | B.S. Cybersecurity & Information Assurance (WGU) — Feb 2026 |
-| **Certifications** | Security+ · Network+ · SSCP (Assoc.) · ITIL4 · ISC² CC · 10 total |
-| **Upcoming** | CySA+ · PenTest+ (Jan 2026) |
+| **Certifications** | Security+ · CySA+ · CASP+ · Network+ · SSCP (Assoc.) · ITIL4 · ISC² CC · 12 total |
+| **Upcoming** | PenTest+ (Feb 20, 2026) |
 | **Clearance** | Eligible (USAF veteran, service-disabled) |
 | **Location** | Remote-first · US Citizen · International opportunities welcome |
 | **Engagement** | W-2, contract, or consulting — contractor available for non-US companies |
