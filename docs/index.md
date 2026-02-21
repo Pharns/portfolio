@@ -182,7 +182,7 @@ Nextcloud + n8n + SuiteCRM with RBAC, audit trails, and consent management. Mult
 <div class="stat-tile" markdown>
 **Agentic Infrastructure Audit** — Foundational Architecture
 Governed two-machine AI agent environment: fixed-schema audit, 8 Architectural Decision Records, automated drift detection (28 PASS · 1 WARN · 0 FAIL), security hardening. Reduces the risk of non-reproducible AI outputs across production sessions. Part of the Governed Agentic Security Stack.
-<span class="tag-chip">Agentic Infrastructure</span> <span class="tag-chip">Governance</span> <span class="tag-chip">Detection</span>
+<span class="tag-chip">Agentic AI</span> <span class="tag-chip">Infrastructure</span> <span class="tag-chip">Governance</span> <span class="tag-chip">Detection</span>
 [View Case Study](innovation/agentic-infrastructure-audit.md)
 </div>
 
