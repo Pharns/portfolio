@@ -8,3 +8,5 @@ backups/
 
 # session logs
 .session-logs/
+.codemap/
+**/.DS_Store
