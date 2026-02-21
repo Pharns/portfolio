@@ -7,7 +7,7 @@ hide:
 
 # PHARNS GENECE
 
-**GRC Engineer · Cloud Security · Detection Engineering · RF/SDR Security**
+**Security Engineer | GRC, Cloud Security & Detection Engineering**
 
 📧 careers@pharns.com · 🌐 portfolio.pharns.com · 💼 linkedin.com/in/pharns · 📍 Remote (US/EU/International)
 
@@ -15,7 +15,7 @@ hide:
 
 ## Professional Summary
 
-GRC Engineer with 7 years of production infrastructure security experience and a career of mission-critical operations (USAF). I build audit-ready control frameworks, evidence pipelines, and compliance automation—then implement the technical controls, not just document them. Unique combination of GRC discipline, cloud security, detection engineering, and RF/hardware security expertise.
+Security Engineer with 7 years of production infrastructure security experience and a career of mission-critical operations (USAF). I design and implement cloud guardrails, detection pipelines, and audit-ready control frameworks—bridging governance requirements with real-world engineering execution.
 
 **Core Competencies:** CIS Controls v8 · NIST CSF · PCI-DSS v4.0 · SOC 2 · HIPAA · ISO 27001 · AWS Security · SIEM/Detection Engineering · RF/SDR Security · Python Automation
 
@@ -23,7 +23,7 @@ GRC Engineer with 7 years of production infrastructure security experience and a
 
 ## Professional Experience
 
-### AAM Cyber, LLC — Founder & GRC Consultant
+### AAM Cyber, LLC — Security Engineer & Founder
 *2024 – Present · Remote*
 
 Security consulting practice delivering compliance automation and GRC engineering for SMBs across regulated industries.
@@ -43,6 +43,7 @@ Led $5.6M revenue drone logistics company (18 employees) while serving as hands-
 - **Deployed enterprise security stack:** Self-hosted email, Nextcloud file storage, VPN remote access, backup systems, dark web monitoring, endpoint protection
 - **Maintained audit-ready posture** with documented evidence collection, access controls, and compliance configurations
 - **Architected, deployed, hardened, and maintained** all systems—no delegation; real-world GRC implementation at scale
+- **Led end-to-end security architecture** across endpoints, cloud services, and internal infrastructure with zero dedicated security staff
 
 ### United States Air Force — Aeromedical Evacuation Technician
 *1990 – 2007 · Military Career*
@@ -76,9 +77,9 @@ Taught drone technology courses demonstrating technical communication skills and
 
 ## Certifications
 
-**Active (10):** Security+ · Network+ · A+ · Project+ · ISC² CC · SSCP (Assoc.) · ITIL 4 · LPI Linux Essentials · CSIS · CIOS
+**Active (11):** Security+ · Network+ · A+ · Project+ · ISC² CC · SSCP (Assoc.) · ITIL 4 · LPI Linux Essentials · CSIS · CIOS · CySA+
 
-**Scheduled (Jan 2026):** CySA+ · PenTest+
+**Scheduled:** PenTest+ (Next Week)
 
 **Planned (Q1 2026):** AWS Cloud Practitioner · CCSP
 
