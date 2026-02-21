@@ -4,9 +4,11 @@ description: "Portfolio showcasing how I design and build security programs that
 
 # Pharns Genece
 
-**GRC Engineer · Cloud Security · Detection Engineering · RF/SDR Security**
+**Security Engineer | GRC, Cloud Security & Detection Engineering**
 
 I build the controls I document: cloud guardrails, endpoint hardening, and evidence pipelines. Full-stack GRC from framework mapping to implementation.
+
+I design controls, implement detection logic, and deliver audit-ready evidence across cloud and on-prem environments.
 
 **Target roles:** GRC Engineer · Cloud Security Engineer · Detection Engineering · RF/Wireless Security
 
@@ -63,7 +65,7 @@ Comprehensive security assessment and remediation. M365 hardening, dark web moni
   "@context": "https://schema.org",
   "@type": "Person",
   "name": "Pharns Genece",
-  "jobTitle": "GRC Engineer · Cloud Security · AAM Cybersecurity",
+  "jobTitle": "Security Engineer | GRC, Cloud Security & Detection Engineering",
   "url": "https://portfolio.pharns.com",
   "sameAs": [
     "https://linkedin.com/in/pharns",
@@ -150,13 +152,6 @@ Production GRC platform with live demo. CISO Assistant + n8n + Nextcloud + Suite
 </div>
 
 <div class="stat-tile" markdown>
-**TraceLock™ — RF Threat Detection**
-Patent-pending 6-domain wireless monitoring (Wi-Fi/BLE/SDR/GPS/ADS-B). Evidence-grade logging architecture and detection engineering.
-<span class="tag-chip">Detection</span> <span class="tag-chip">RF/SDR</span> <span class="tag-chip">Python</span>
-[View Project](cybersecurity/tracelock.md)
-</div>
-
-<div class="stat-tile" markdown>
 **PCI-DSS Windows 11 Hardening**
 Complete endpoint hardening with GPO, firewall rules, service lockdown, and evidence pack. Delivered for financial services client in <48 hours.
 <span class="tag-chip">Compliance</span> <span class="tag-chip">Hardening</span> <span class="tag-chip">Client Work</span>
@@ -164,17 +159,17 @@ Complete endpoint hardening with GPO, firewall rules, service lockdown, and evid
 </div>
 
 <div class="stat-tile" markdown>
-**PropTech RF Governance & Scope Control**
-Governance-focused RF assessment of BLE and Wi-Fi activity in smart-building deployments. *(PropTech = Property Technology: smart locks, IoT sensors, building automation.)* Emphasizes scope discipline to prevent false positives and protect regulated work-from-home posture.
-<span class="tag-chip">GRC</span> <span class="tag-chip">Privacy</span> <span class="tag-chip">RF</span>
-[View Case Study](cybersecurity/proptech-compliance-article.md)
-</div>
-
-<div class="stat-tile" markdown>
 **AWS Cloud Control Pack**
 S3 default-deny storage, GuardDuty findings export, scoped IAM with CIS/NIST mapping.
 <span class="tag-chip">Cloud</span> <span class="tag-chip">Controls</span> <span class="tag-chip">Architecture</span>
 [View Case Study](cybersecurity/aws-control-pack.md)
+</div>
+
+<div class="stat-tile" markdown>
+**TraceLock™ — RF Threat Detection**
+Patent-pending 6-domain wireless monitoring (Wi-Fi/BLE/SDR/GPS/ADS-B). Evidence-grade logging architecture and detection engineering.
+<span class="tag-chip">Detection</span> <span class="tag-chip">RF/SDR</span> <span class="tag-chip">Python</span>
+[View Project](cybersecurity/tracelock.md)
 </div>
 
 <div class="stat-tile" markdown>
@@ -189,6 +184,13 @@ Nextcloud + n8n + SuiteCRM with RBAC, audit trails, and consent management. Mult
 Governed two-machine AI agent environment: fixed-schema audit, 8 Architectural Decision Records, automated drift detection (28 PASS · 1 WARN · 0 FAIL), security hardening. Reduces the risk of non-reproducible AI outputs across production sessions. Part of the Governed Agentic Security Stack.
 <span class="tag-chip">Agentic Infrastructure</span> <span class="tag-chip">Governance</span> <span class="tag-chip">Detection</span>
 [View Case Study](innovation/agentic-infrastructure-audit.md)
+</div>
+
+<div class="stat-tile" markdown>
+**PropTech RF Governance & Scope Control**
+Governance-focused RF assessment of BLE and Wi-Fi activity in smart-building deployments. *(PropTech = Property Technology: smart locks, IoT sensors, building automation.)* Emphasizes scope discipline to prevent false positives and protect regulated work-from-home posture.
+<span class="tag-chip">GRC</span> <span class="tag-chip">Privacy</span> <span class="tag-chip">RF</span>
+[View Case Study](cybersecurity/proptech-compliance-article.md)
 </div>
 
 </div>
