@@ -137,7 +137,7 @@ Taught drone technology courses, demonstrating communication skills and subject 
 
 **Growth trajectory:**
 
-- Penetration Testing · Offensive Security (active lab, CySA+/PenTest+ Jan 2026)
+- Penetration Testing · Offensive Security (active lab, CySA+ earned Feb 2026, PenTest+ pending)
 
 **Actively seeking international opportunities.** Remote-first with async collaboration experience across US/EU/LatAm time zones. Contractor/consulting available for non-US companies; visa sponsorship required for relocation.
 

@@ -217,8 +217,8 @@ Vulnerabilities identified and remediated across production systems over 7 years
 PCI-DSS endpoint hardening with audit-ready evidence pack for financial services client
 </div>
 <div class="stat-tile" markdown>
-**13 active certifications**
-Security+, CySA+, PenTest+, CSAP, Network+, SSCP (Assoc.), ITIL4, ISC² CC, LPI, Project+ [→ View all](certifications.md)
+**12 active certifications**
+Security+, CySA+, CSAP, Network+, SSCP (Assoc.), ITIL4, ISC² CC, LPI, Project+ · PenTest+ pending [→ View all](certifications.md)
 </div>
 <div class="stat-tile" markdown>
 **Career USAF veteran**
@@ -234,7 +234,7 @@ Mission-critical operations, security clearance eligible
 
 **Current capability:** Active detection/IR lab with Security Onion, TheHive/Cortex, custom SIEM rules, and authored detections. TraceLock™ RF/SDR telemetry demonstrates detection engineering fundamentals across 6 wireless domains.
 
-**Growth trajectory:** CySA+ and PenTest+ earned February 2026. CSAP stackable validates purple team capability. Building penetration testing portfolio through lab work and vulnerability assessments.
+**Growth trajectory:** CySA+ and CSAP earned February 2026. PenTest+ pending. Building penetration testing portfolio through lab work and vulnerability assessments.
 
 **Why this matters:** GRC engineers who understand offensive techniques write better controls. Detection experience informs what to log and monitor.
 
@@ -278,12 +278,12 @@ Mission-critical operations, security clearance eligible
 B.S. Cybersecurity & Information Assurance (WGU) — Feb 2026
 </div>
 <div class="stat-tile" markdown>
-**13 Active Certifications**
-Security+, CySA+, PenTest+, CSAP, Network+, A+, ITIL4, ISC² CC, SSCP (Assoc.), LPI, Project+, CSIS, CIOS
+**12 Active Certifications**
+Security+, CySA+, CSAP, Network+, A+, ITIL4, ISC² CC, SSCP (Assoc.), LPI, Project+, CSIS, CIOS
 </div>
 <div class="stat-tile" markdown>
 **Newly Earned Feb 2026**
-CySA+, PenTest+, CSAP
+CySA+, CSAP · PenTest+ pending
 </div>
 <div class="stat-tile" markdown>
 **Planned Q1 2026**
