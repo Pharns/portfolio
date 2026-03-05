@@ -1,11 +1,11 @@
 ---
-description: "Security+, Network+, CySA+, CSAP, PenTest+, SSCP Associate, ISC2 CC, ITIL4, LPI, Project+. 13 active certifications. AWS CP, CCSP planned Q1 2026. Verified on Credly."
+description: "Security+, Network+, CySA+, CSAP, PenTest+, SSCP, CNSP, CNVP, ITIL4, LPI, Project+. 14 active certifications. AWS CP, CCSP planned 2026. Verified on Credly."
 ---
 
 # Certifications & Education
 
 !!! success "For Hiring Managers"
-    **13 active certifications** aligned with GRC Engineering, Cloud Security, and Detection Engineering roles. CySA+, CSAP, and PenTest+ earned 2026 — full purple team positioning complete.
+    **14 active certifications** aligned with GRC Engineering, Cloud Security, and Detection Engineering roles. PenTest+, CNSP, CNVP, CySA+, and CSAP earned 2026 — full purple team positioning complete.
 
     [Verify on Credly](https://www.credly.com/users/pharns){ .md-button }
 
@@ -25,11 +25,12 @@ gantt
     Security+ (Complete)    :done, 2025-01, 2025-02
 
     section Security Specialist
-    ISC2 CC (Complete)      :done, 2023-03, 2023-04
-    SSCP Associate (Complete) :done, 2025-08, 2025-09
+    SSCP (Complete)         :done, 2025-08, 2025-09
     CySA+ (Complete)        :done, 2026-02, 2026-02
     CSAP (Complete)         :done, 2026-02, 2026-02
     PenTest+ (Complete)     :done, 2026-03, 2026-03
+    CNSP (Complete)         :done, 2026-03, 2026-03
+    CNVP (Complete)         :done, 2026-03, 2026-03
 
     section Cloud & GRC
     AWS Cloud Practitioner  :2026-02, 2026-03
@@ -55,6 +56,20 @@ Penetration testing, vulnerability assessment, and offensive security. Completes
 </div>
 
 <div class="stat-tile" markdown>
+**CNSP — Certified Network Security Practitioner** ✅
+Network security architecture, defense strategies, and secure infrastructure design. Validates hands-on network defense capability.
+<span class="tag-chip">Network Security</span> <span class="tag-chip">Defense</span> <span class="tag-chip">Infrastructure</span>
+**Earned:** March 2026
+</div>
+
+<div class="stat-tile" markdown>
+**CNVP — Certified Network Vulnerability Practitioner** ✅
+Vulnerability assessment, network scanning, and remediation strategies. Validates offensive network analysis skills.
+<span class="tag-chip">Vulnerability</span> <span class="tag-chip">Assessment</span> <span class="tag-chip">Network</span>
+**Earned:** March 2026
+</div>
+
+<div class="stat-tile" markdown>
 **CompTIA CySA+ (CS0-004)** ✅
 Threat detection, security analytics, incident response. Validates SOC analyst and detection engineering skills.
 <span class="tag-chip">Detection</span> <span class="tag-chip">SIEM</span> <span class="tag-chip">IR</span>
@@ -73,6 +88,7 @@ Advanced analytics and detection specialization built on Security+ and CySA+. Va
 **Why these certifications matter:**
 
 - **PenTest+** → Offensive security fundamentals complete purple team positioning
+- **CNSP/CNVP** → Network security and vulnerability assessment from The SecOps Group
 - **CySA+** → Detection engineering roles require demonstrated threat analysis capability
 - **CSAP** → Advanced analytics and detection specialization built on Security+ and CySA+
 
@@ -88,8 +104,9 @@ Advanced analytics and detection specialization built on Security+ and CySA+. Va
 | **CompTIA CySA+ (CS0-004)** | Feb 2026 | Threat detection, security analytics, incident response | Detection Engineer, SOC |
 | **CompTIA CSAP (Stackable)** | Feb 2026 | Advanced analytics and detection (Security+ + CySA+) | Detection Engineer, Security Engineer |
 | **CompTIA Security+ ce** | Jan 2025 | Core security concepts, risk management, compliance | All security roles |
-| **ISC² SSCP (Associate)** | Aug 2025 | Security operations, access controls, incident response | SOC, Security Ops |
-| **ISC² CC** | Mar 2023 | Foundational security principles | Entry-level validation |
+| **CNSP (SecOps Group)** | Mar 2026 | Network security architecture, defense strategies, secure infrastructure | Network Security, Purple Team |
+| **CNVP (SecOps Group)** | Mar 2026 | Vulnerability assessment, network scanning, remediation | Vulnerability Management, PenTest |
+| **ISC² SSCP** | Aug 2025 | Security operations, access controls, incident response | SOC, Security Ops |
 | **CompTIA CSIS** | Jan 2025 | Infrastructure security (Security+ + Network+ + A+) | Security Engineering |
 
 ### Networking & Infrastructure
@@ -138,7 +155,7 @@ Advanced analytics and detection specialization built on Security+ and CySA+. Va
 - Cloud security fundamentals
 - Governance, risk, and compliance
 
-**Accelerated completion:** Competency-based program allows certification stacking — 12 industry certifications earned during degree.
+**Accelerated completion:** Competency-based program allows certification stacking — 14 industry certifications earned during degree.
 
 </div>
 
@@ -162,7 +179,7 @@ Advanced analytics and detection specialization built on Security+ and CySA+. Va
 | **Cloud Security Engineer** | Security+, Network+, AWS CP (planned), CCSP (planned) | 🔄 In Progress |
 | **Detection Engineer** | Security+, SSCP, CySA+, CSAP | ✅ Ready |
 | **Security Analyst** | Security+, CySA+, Network+ | ✅ Ready |
-| **Penetration Tester** | PenTest+, Security+, Network+ | ✅ Ready |
+| **Penetration Tester** | PenTest+, CNSP, CNVP, Security+, Network+ | ✅ Ready |
 
 ---
 
