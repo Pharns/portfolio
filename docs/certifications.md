@@ -1,11 +1,11 @@
 ---
-description: "Security+, Network+, CySA+, CSAP, SSCP Associate, ISC2 CC, ITIL4, LPI, Project+. 12 active certifications. PenTest+ scheduled Feb 20, 2026. AWS CP, CCSP planned Q1 2026. Verified on Credly."
+description: "Security+, Network+, CySA+, CSAP, PenTest+, SSCP Associate, ISC2 CC, ITIL4, LPI, Project+. 13 active certifications. AWS CP, CCSP planned Q1 2026. Verified on Credly."
 ---
 
 # Certifications & Education
 
 !!! success "For Hiring Managers"
-    **12 active certifications** aligned with GRC Engineering, Cloud Security, and Detection Engineering roles. CySA+ and CSAP earned February 2026; PenTest+ scheduled **Feb 20, 2026** to complete purple team positioning.
+    **13 active certifications** aligned with GRC Engineering, Cloud Security, and Detection Engineering roles. CySA+, CSAP, and PenTest+ earned 2026 — full purple team positioning complete.
 
     [Verify on Credly](https://www.credly.com/users/pharns){ .md-button }
 
@@ -29,7 +29,7 @@ gantt
     SSCP Associate (Complete) :done, 2025-08, 2025-09
     CySA+ (Complete)        :done, 2026-02, 2026-02
     CSAP (Complete)         :done, 2026-02, 2026-02
-    PenTest+ (Scheduled)    :active, 2026-02, 2026-02
+    PenTest+ (Complete)     :done, 2026-03, 2026-03
 
     section Cloud & GRC
     AWS Cloud Practitioner  :2026-02, 2026-03
@@ -44,9 +44,16 @@ gantt
 
 ---
 
-## Recently Earned — February 2026
+## Recently Earned — 2026
 
 <div class="stat-grid" markdown>
+<div class="stat-tile" markdown>
+**CompTIA PenTest+ (PT0-002)** ✅
+Penetration testing, vulnerability assessment, and offensive security. Completes purple team positioning alongside CySA+.
+<span class="tag-chip">Offensive</span> <span class="tag-chip">PenTest</span> <span class="tag-chip">Purple Team</span>
+**Earned:** March 2026
+</div>
+
 <div class="stat-tile" markdown>
 **CompTIA CySA+ (CS0-004)** ✅
 Threat detection, security analytics, incident response. Validates SOC analyst and detection engineering skills.
@@ -65,6 +72,7 @@ Advanced analytics and detection specialization built on Security+ and CySA+. Va
 
 **Why these certifications matter:**
 
+- **PenTest+** → Offensive security fundamentals complete purple team positioning
 - **CySA+** → Detection engineering roles require demonstrated threat analysis capability
 - **CSAP** → Advanced analytics and detection specialization built on Security+ and CySA+
 
@@ -76,6 +84,7 @@ Advanced analytics and detection specialization built on Security+ and CySA+. Va
 
 | Credential | Issued | Validates | Target Roles |
 |------------|--------|-----------|--------------|
+| **CompTIA PenTest+ (PT0-002)** | Mar 2026 | Penetration testing, vulnerability assessment, offensive security | Penetration Tester, Purple Team |
 | **CompTIA CySA+ (CS0-004)** | Feb 2026 | Threat detection, security analytics, incident response | Detection Engineer, SOC |
 | **CompTIA CSAP (Stackable)** | Feb 2026 | Advanced analytics and detection (Security+ + CySA+) | Detection Engineer, Security Engineer |
 | **CompTIA Security+ ce** | Jan 2025 | Core security concepts, risk management, compliance | All security roles |
@@ -101,13 +110,12 @@ Advanced analytics and detection specialization built on Security+ and CySA+. Va
 
 ---
 
-## Planned — Q1 2026
+## Planned — 2026
 
 | Credential | Target | Why This Matters |
 |------------|--------|------------------|
-| **CompTIA PenTest+ (PT0-002)** | **Feb 20, 2026** | Validates offensive security fundamentals to complete purple team positioning |
-| **AWS Cloud Practitioner (CLF-C02)** | Feb 2026 | Validates cloud fundamentals for AWS security work |
-| **ISC² CCSP** | Mar 2026 | Cloud security architecture, validates senior cloud security positioning |
+| **AWS Cloud Practitioner (CLF-C02)** | Q1 2026 | Validates cloud fundamentals for AWS security work |
+| **ISC² CCSP** | Q2 2026 | Cloud security architecture, validates senior cloud security positioning |
 
 **Cloud roadmap rationale:** AWS Control Pack portfolio project demonstrates hands-on cloud security. Certifications validate the underlying knowledge for hiring managers who require formal credentials.
 
@@ -118,7 +126,7 @@ Advanced analytics and detection specialization built on Security+ and CySA+. Va
 <div class="section-panel" markdown>
 
 ### B.S. Cybersecurity & Information Assurance
-**Western Governors University** | Expected: **February 2026**
+**Western Governors University** | **March 2026**
 
 **Capstone:** TraceLock™ — Multi-domain RF threat detection platform (patent pending)
 
@@ -154,7 +162,7 @@ Advanced analytics and detection specialization built on Security+ and CySA+. Va
 | **Cloud Security Engineer** | Security+, Network+, AWS CP (planned), CCSP (planned) | 🔄 In Progress |
 | **Detection Engineer** | Security+, SSCP, CySA+, CSAP | ✅ Ready |
 | **Security Analyst** | Security+, CySA+, Network+ | ✅ Ready |
-| **Penetration Tester** | PenTest+ (scheduled Feb 20, 2026), Security+, Network+ | 🔄 In Progress |
+| **Penetration Tester** | PenTest+, Security+, Network+ | ✅ Ready |
 
 ---
 

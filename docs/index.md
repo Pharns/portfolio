@@ -12,9 +12,9 @@ I design controls, implement detection logic, and deliver audit-ready evidence a
 
 **Target roles:** GRC Engineer · Cloud Security Engineer · Detection Engineering · RF/Wireless Security
 
-USAF Veteran (service-disabled) · Security Clearance Eligible · Security+/CySA+/PenTest+/SSCP · B.S. Cybersecurity (Feb 2026)
+USAF Veteran (service-disabled) · Security Clearance Eligible · Security+/CySA+/PenTest+/SSCP · B.S. Cybersecurity (Mar 2026)
 
-<span class="availability-badge">📅 Available February 2026</span>
+<span class="availability-badge">📅 Available Now</span>
 
 [View GRC Projects](grc/index.md){ .btn-primary } [Contact](contact.md){ .btn-ghost }
 
@@ -91,6 +91,8 @@ Comprehensive security assessment and remediation. M365 hardening, dark web moni
   },
   "hasCredential": [
     {"@type": "EducationalOccupationalCredential", "name": "CompTIA Security+"},
+    {"@type": "EducationalOccupationalCredential", "name": "CompTIA CySA+"},
+    {"@type": "EducationalOccupationalCredential", "name": "CompTIA PenTest+"},
     {"@type": "EducationalOccupationalCredential", "name": "CompTIA Network+"},
     {"@type": "EducationalOccupationalCredential", "name": "ISC2 SSCP Associate"}
   ]
@@ -217,8 +219,8 @@ Vulnerabilities identified and remediated across production systems over 7 years
 PCI-DSS endpoint hardening with audit-ready evidence pack for financial services client
 </div>
 <div class="stat-tile" markdown>
-**12 active certifications**
-Security+, CySA+, CSAP, Network+, SSCP (Assoc.), ITIL4, ISC² CC, LPI, Project+ · PenTest+ pending [→ View all](certifications.md)
+**13 active certifications**
+Security+, CySA+, CSAP, PenTest+, Network+, SSCP (Assoc.), ITIL4, ISC² CC, LPI, Project+ [→ View all](certifications.md)
 </div>
 <div class="stat-tile" markdown>
 **Career USAF veteran**
@@ -234,7 +236,7 @@ Mission-critical operations, security clearance eligible
 
 **Current capability:** Active detection/IR lab with Security Onion, TheHive/Cortex, custom SIEM rules, and authored detections. TraceLock™ RF/SDR telemetry demonstrates detection engineering fundamentals across 6 wireless domains.
 
-**Growth trajectory:** CySA+ and CSAP earned February 2026. PenTest+ pending. Building penetration testing portfolio through lab work and vulnerability assessments.
+**Growth trajectory:** CySA+, CSAP, and PenTest+ earned 2026. Full purple team positioning complete. Building penetration testing portfolio through lab work and vulnerability assessments.
 
 **Why this matters:** GRC engineers who understand offensive techniques write better controls. Detection experience informs what to log and monitor.
 
@@ -275,15 +277,15 @@ Mission-critical operations, security clearance eligible
 <div class="stat-grid" markdown>
 <div class="stat-tile" markdown>
 **Education**
-B.S. Cybersecurity & Information Assurance (WGU) — Feb 2026
+B.S. Cybersecurity & Information Assurance (WGU) — Mar 2026
 </div>
 <div class="stat-tile" markdown>
-**12 Active Certifications**
-Security+, CySA+, CSAP, Network+, A+, ITIL4, ISC² CC, SSCP (Assoc.), LPI, Project+, CSIS, CIOS
+**13 Active Certifications**
+Security+, CySA+, CSAP, PenTest+, Network+, A+, ITIL4, ISC² CC, SSCP (Assoc.), LPI, Project+, CSIS, CIOS
 </div>
 <div class="stat-tile" markdown>
-**Newly Earned Feb 2026**
-CySA+, CSAP · PenTest+ pending
+**Newly Earned 2026**
+CySA+, CSAP, PenTest+
 </div>
 <div class="stat-tile" markdown>
 **Planned Q1 2026**

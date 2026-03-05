@@ -11,8 +11,8 @@ GRC engineer, cloud security practitioner, and AAM cybersecurity specialist. I b
 - **Delivered client compliance wins** in healthcare, financial services, and legal services (HIPAA, SOC 2, PCI-DSS)
 - **AAM/UAS depth** with patents and operational experience; FAA Part 107, RF/SDR research
 
-**Credentials:** WGU B.S. Cybersecurity (Feb 2026) · Security+/Net+/A+ · ITIL4 · ISC² CC/SSCP (Assoc.) · LPI · FAA Part 107 · HAM/GMRS  
-**Earned (Feb 2026):** CySA+ · CSAP · **Pending:** PenTest+ · **Planned:** AWS CP/CCSP (Q1 2026)
+**Credentials:** WGU B.S. Cybersecurity (Mar 2026) · Security+/Net+/A+ · ITIL4 · ISC² CC/SSCP (Assoc.) · LPI · FAA Part 107 · HAM/GMRS
+**Earned (2026):** CySA+ · CSAP · PenTest+ · **Planned:** AWS CP/CCSP (2026)
 
 **Links:** [Patents](https://patents.google.com/?inventor=Pharns+Genece) · [GitHub](https://github.com/Pharns) · [Credly](https://www.credly.com/users/pharns)
 
@@ -137,7 +137,7 @@ Taught drone technology courses, demonstrating communication skills and subject 
 
 **Growth trajectory:**
 
-- Penetration Testing · Offensive Security (active lab, CySA+ earned Feb 2026, PenTest+ pending)
+- Penetration Testing · Offensive Security (active lab, CySA+ and PenTest+ earned 2026)
 
 **Actively seeking international opportunities.** Remote-first with async collaboration experience across US/EU/LatAm time zones. Contractor/consulting available for non-US companies; visa sponsorship required for relocation.
 
