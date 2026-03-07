@@ -293,7 +293,7 @@ Security+, CySA+, CSAP, PenTest+, CNSP, CNVP, Network+, A+, ITIL4, SSCP (Assoc.)
 CySA+, CSAP, PenTest+, CNSP, CNVP
 </div>
 <div class="stat-tile" markdown>
-**Planned Q1 2026**
+**Planned Q2/Q3 2026**
 AWS Cloud Practitioner, ISC² CCSP
 </div>
 </div>

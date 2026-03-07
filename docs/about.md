@@ -101,7 +101,7 @@ Taught drone technology courses, demonstrating communication skills and subject 
 ## What I deliver
 
 **Cloud governance & control implementation:**
-- AWS Control Pack: S3 default-deny, GuardDuty findings export with scoped IAM, CIS/NIST mapping — architecture designed, implementation Q1 2026.
+- AWS Control Pack: S3 default-deny, GuardDuty findings export with scoped IAM, CIS/NIST mapping — architecture designed, implementation Q2 2026.
 - IAM least privilege, logging foundations, secure defaults with audit trails.
 
 **Compliance automation & evidence:**

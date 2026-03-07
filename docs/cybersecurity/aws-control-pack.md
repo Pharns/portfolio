@@ -18,7 +18,7 @@ description: "AWS Cloud Control Pack: S3 default-deny, GuardDuty export, scoped 
 !!! warning "Project Status: In Progress"
     **Architecture:** Complete — S3, GuardDuty, and IAM patterns designed with CIS/NIST mapping.
 
-    **Implementation:** Q1 2026 — CLI validation and evidence capture scheduled after AWS Cloud Practitioner exam.
+    **Implementation:** Q2 2026 — CLI validation and evidence capture scheduled after AWS Cloud Practitioner exam.
 
     **What's here now:** Control design, policy skeletons, and framework alignment. Full CLI outputs and screenshots coming soon.
 
@@ -49,9 +49,9 @@ Default-deny storage, evidence capture, and least-privilege IAM patterns demonst
 
 | Component | Design | CLI Evidence |
 |-----------|--------|--------------|
-| S3 baseline | ✅ Policy elements defined | 🔄 Q1 2026 |
-| GuardDuty export | ✅ Detector + S3 destination designed | 🔄 Q1 2026 |
-| IAM least-privilege role | ✅ Scoped policy skeleton ready | 🔄 Q1 2026 |
+| S3 baseline | ✅ Policy elements defined | 🔄 Q2 2026 |
+| GuardDuty export | ✅ Detector + S3 destination designed | 🔄 Q2 2026 |
+| IAM least-privilege role | ✅ Scoped policy skeleton ready | 🔄 Q2 2026 |
 
 ## Implementation Roadmap
 
@@ -59,10 +59,10 @@ Default-deny storage, evidence capture, and least-privilege IAM patterns demonst
 |-------|--------|--------|
 | Control architecture design | ✅ Complete | — |
 | CIS/NIST framework mapping | ✅ Complete | — |
-| AWS Cloud Practitioner exam | 🔄 Scheduled | Q1 2026 |
-| CLI implementation + capture | ⏳ Pending | Q1 2026 |
-| Evidence artifacts (screenshots, outputs) | ⏳ Pending | Q1 2026 |
-| Portfolio page update with proof | ⏳ Pending | Q1 2026 |
+| AWS Cloud Practitioner exam | 🔄 Scheduled | Q2 2026 |
+| CLI implementation + capture | ⏳ Pending | Q2 2026 |
+| Evidence artifacts (screenshots, outputs) | ⏳ Pending | Q2 2026 |
+| Portfolio page update with proof | ⏳ Pending | Q2 2026 |
 
 ## Validation Checklist
 

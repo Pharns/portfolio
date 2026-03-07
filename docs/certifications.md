@@ -33,8 +33,8 @@ gantt
     CNVP (Complete)         :done, 2026-03, 2026-03
 
     section Cloud & GRC
-    AWS Cloud Practitioner  :2026-02, 2026-03
-    ISC2 CCSP              :2026-03, 2026-04
+    AWS Cloud Practitioner  :2026-04, 2026-06
+    ISC2 CCSP              :2026-07, 2026-09
 
     section Management
     ITIL4 (Complete)        :done, 2025-05, 2025-06
@@ -131,8 +131,8 @@ Advanced analytics and detection specialization built on Security+ and CySA+. Va
 
 | Credential | Target | Why This Matters |
 |------------|--------|------------------|
-| **AWS Cloud Practitioner (CLF-C02)** | Q1 2026 | Validates cloud fundamentals for AWS security work |
-| **ISC² CCSP** | Q2 2026 | Cloud security architecture, validates senior cloud security positioning |
+| **AWS Cloud Practitioner (CLF-C02)** | Q2 2026 | Validates cloud fundamentals for AWS security work |
+| **ISC² CCSP** | Q3 2026 | Cloud security architecture, validates senior cloud security positioning |
 
 **Cloud roadmap rationale:** AWS Control Pack portfolio project demonstrates hands-on cloud security. Certifications validate the underlying knowledge for hiring managers who require formal credentials.
 

@@ -84,7 +84,7 @@ Taught drone technology courses demonstrating technical communication skills and
 - CompTIA CySA+
 - CompTIA PenTest+
 
-### Planned (Q1 2026)
+### Planned (Q2-Q3 2026)
 - AWS Cloud Practitioner
 - ISC² CCSP
 

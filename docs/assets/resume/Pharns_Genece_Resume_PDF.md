@@ -73,7 +73,7 @@ Taught drone technology courses demonstrating technical communication skills and
 
 **Scheduled (Jan 2026):** CySA+ | PenTest+
 
-**Planned (Q1 2026):** AWS Cloud Practitioner | CCSP
+**Planned (Q2-Q3 2026):** AWS Cloud Practitioner | CCSP
 
 **Licenses:** FAA Part 107 | HAM Radio | GMRS
 
