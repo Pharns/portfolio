@@ -5,6 +5,7 @@
 Security systems fail when governance, detection, automation, and decision workflows evolve independently. Architecture decisions make those tradeoffs explicit, traceable, and reviewable over time.
 
 This portfolio includes selected ADR-style artifacts to show how system design choices are made with security, governance, and operational coherence in mind.
+These ADR summaries represent selected architecture decisions across governance automation, detection engineering, and agent orchestration systems in this portfolio.
 
 ## ADR Thinking in Practice
 
@@ -14,6 +15,16 @@ An Architecture Decision Record (ADR) captures:
 - why that decision was selected over alternatives
 
 Disciplined decision logging reduces architectural drift, improves reproducibility, and keeps security systems aligned as they scale.
+
+## Architecture Relationship at a Glance
+
+```mermaid
+flowchart TD
+    GSA[Governed Security Architecture] --> ADR[Architecture Decisions]
+    ADR --> GIAP[GIAP]
+    ADR --> TRACELOCK[TraceLock]
+    ADR --> AOS[AgenticOS]
+```
 
 ## Curated Architecture Decision Summaries
 
@@ -49,6 +60,17 @@ Use deterministic routing, structured logging, and governed execution boundaries
 
 **Why it matters**  
 This keeps automation accountable and architecture-safe. It aligns with AgenticOS and governed stack artifacts emphasizing traceability and controlled execution.
+
+### ADR-004 — Governed Security Architecture
+
+**Context**  
+Security programs fragment when governance, detection, and automation evolve independently.
+
+**Decision**  
+Adopt a governed security architecture model that intentionally aligns governance systems, architecture decisions, detection systems, and automation layers.
+
+**Why it matters**  
+This prevents drift across the security program and reinforces a coherent operating model across GIAP, TraceLock, AgenticOS, and related architecture artifacts.
 
 ## Closing
 
