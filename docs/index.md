@@ -224,8 +224,8 @@ Vulnerabilities identified and remediated across production systems over 7 years
 PCI-DSS endpoint hardening with audit-ready evidence pack for financial services client
 </div>
 <div class="stat-tile" markdown>
-**13 active certifications**
-Security+, CySA+, CSAP, PenTest+, Network+, SSCP (Assoc.), ITIL4, ISC² CC, LPI, Project+ [→ View all](certifications.md)
+**14 active certifications**
+Security+, CySA+, CSAP, PenTest+, CNSP, CNVP, Network+, SSCP (Assoc.), ITIL4, LPI, Project+ [→ View all](certifications.md)
 </div>
 <div class="stat-tile" markdown>
 **Career USAF veteran**
@@ -285,12 +285,12 @@ Mission-critical operations, security clearance eligible
 B.S. Cybersecurity & Information Assurance (WGU) — Mar 2026
 </div>
 <div class="stat-tile" markdown>
-**13 Active Certifications**
-Security+, CySA+, CSAP, PenTest+, Network+, A+, ITIL4, ISC² CC, SSCP (Assoc.), LPI, Project+, CSIS, CIOS
+**14 Active Certifications**
+Security+, CySA+, CSAP, PenTest+, CNSP, CNVP, Network+, A+, ITIL4, SSCP (Assoc.), LPI, Project+, CSIS, CIOS
 </div>
 <div class="stat-tile" markdown>
 **Newly Earned 2026**
-CySA+, CSAP, PenTest+
+CySA+, CSAP, PenTest+, CNSP, CNVP
 </div>
 <div class="stat-tile" markdown>
 **Planned Q1 2026**

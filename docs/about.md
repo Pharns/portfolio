@@ -12,7 +12,7 @@ GRC engineer, cloud security practitioner, and AAM cybersecurity specialist. I b
 - **AAM/UAS depth** with patents and operational experience; FAA Part 107, RF/SDR research
 
 **Credentials:** WGU B.S. Cybersecurity (Mar 2026) · Security+/Net+/A+ · ITIL4 · ISC² CC/SSCP (Assoc.) · LPI · FAA Part 107 · HAM/GMRS
-**Earned (2026):** CySA+ · CSAP · PenTest+ · **Planned:** AWS CP/CCSP (2026)
+**Earned (2026):** CySA+ · CSAP · PenTest+ · CNSP · CNVP · **Planned:** AWS CP/CCSP (2026)
 
 **Links:** [Patents](https://patents.google.com/?inventor=Pharns+Genece) · [GitHub](https://github.com/Pharns) · [Credly](https://www.credly.com/users/pharns)
 
