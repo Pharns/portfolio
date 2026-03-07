@@ -1019,7 +1019,7 @@ flowchart LR
 - **Full-stack capability** — Static portal + n8n workflows + infrastructure automation
 - **Consulting delivery model** — Productized vCISO service with 90-day cycles
 
-Pairs with [Cloud Control Pack](aws-control-pack.md) for cloud governance and [TraceLock™](02%20-%20Areas/Cybersecurity/09.%20Online%20Portfolio/01.%20code_portfolio/portfolio/docs/cybersecurity/tracelock.md) for RF/physical security — demonstrating end-to-end security engineering capability.
+Pairs with [Cloud Control Pack](aws-control-pack.md) for cloud governance and [TraceLock™](tracelock.md) for RF/physical security — demonstrating end-to-end security engineering capability.
 
 !!! tip "See It In Action"
     Don't just read about it — **experience the production system yourself.**
