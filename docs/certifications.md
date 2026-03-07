@@ -20,28 +20,31 @@ gantt
     axisFormat %b %Y
 
     section Foundation
-    A+ (Complete)           :done, 2024-02, 2024-03
-    Network+ (Complete)     :done, 2025-01, 2025-02
-    Security+ (Complete)    :done, 2025-01, 2025-02
+    A+ (Complete)                  :done, 2024-02, 2024-03
+    Network+ (Complete)            :done, 2025-01, 2025-02
+    Security+ (Complete)           :done, 2025-01, 2025-02
+    CIOS – IT Ops (Complete)       :done, 2025-01, 2025-02
+    CSIS – Secure Infra (Complete) :done, 2025-01, 2025-02
+
+    section Ops & Management
+    ITIL4 (Complete)               :done, 2025-05, 2025-06
+    LPI Linux (Complete)           :done, 2025-09, 2025-10
+    Project+ (Complete)            :done, 2025-11, 2025-12
 
     section Security Specialist
-    SSCP (Complete)         :done, 2025-08, 2025-09
-    CySA+ (Complete)        :done, 2026-02, 2026-02
-    CSAP (Complete)         :done, 2026-02, 2026-02
-    PenTest+ (Complete)     :done, 2026-03, 2026-03
-    CNSP (Complete)         :done, 2026-03, 2026-03
-    CNVP (Complete)         :done, 2026-03, 2026-03
+    SSCP (Complete)                :done, 2025-08, 2025-09
+    CySA+ (Complete)               :done, 2026-02, 2026-03
+    CSAP (Complete)                :done, 2026-02, 2026-03
+    PenTest+ (Complete)            :done, 2026-03, 2026-04
+    CNSP (Complete)                :done, 2026-03, 2026-04
+    CNVP (Complete)                :done, 2026-03, 2026-04
 
     section Cloud & GRC
-    AWS Cloud Practitioner  :2026-04, 2026-06
-    ISC2 CCSP              :2026-07, 2026-09
-
-    section Management
-    ITIL4 (Complete)        :done, 2025-05, 2025-06
-    Project+ (Complete)     :done, 2025-11, 2025-12
+    AWS Cloud Practitioner         :active, 2026-04, 2026-06
+    ISC2 CCSP                      :2026-07, 2026-09
 ```
 
-*Figure: Gantt chart showing certification timeline from 2024-2026, organized by Foundation, Security Specialist, Cloud & GRC, and Management tracks. Completed certifications in green, planned in gray.*
+*Figure: Gantt chart showing certification timeline from 2024–2026, organized by Foundation, Ops & Management, Security Specialist, and Cloud & GRC tracks. Completed certifications in green, active/planned in blue/gray.*
 
 ---
 
