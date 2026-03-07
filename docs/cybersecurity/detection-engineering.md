@@ -196,7 +196,7 @@ Detection engineering extends beyond network/host telemetry. **TraceLock™** ap
 | **GPS** | Spoofing detection via multi-receiver correlation | Location integrity |
 | **ADS-B** | Drone proximity, aircraft tracking | Airspace awareness |
 
-[View TraceLock™ Project →](tracelock.md)
+[View TraceLock™ Project →](02%20-%20Areas/Cybersecurity/09.%20Online%20Portfolio/01.%20code_portfolio/portfolio/docs/cybersecurity/tracelock.md)
 
 ---
 
@@ -228,7 +228,7 @@ Detection engineering extends beyond network/host telemetry. **TraceLock™** ap
 
 - [:material-github: detection-rules](https://github.com/Pharns/detection-rules){target=_blank} — All 12 Sigma rules with CI validation
 - [Detection & IR Lab](incident-response.md) — Full lab documentation with additional drill scenarios
-- [TraceLock™](tracelock.md) — RF/wireless detection engineering across 6 domains
+- [TraceLock™](02%20-%20Areas/Cybersecurity/09.%20Online%20Portfolio/01.%20code_portfolio/portfolio/docs/cybersecurity/tracelock.md) — RF/wireless detection engineering across 6 domains
 - [GIAP™](giap.md) — Automation platform demonstrating similar pipeline thinking applied to GRC
 - [Homelab Infrastructure](homelab-infrastructure.md) — The lab environment where this runs
 

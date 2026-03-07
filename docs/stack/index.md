@@ -4,6 +4,8 @@ The **Governed Agentic Security Stack** is an evolving architecture model for de
 
 The stack is intentionally iterative. Layers are interdependent and often overlap; the goal is not rigid categorization but coherent, defensible system design.
 
+For a system-of-systems view across KnowledgeOS, AgenticOS, GIAP, TraceLock, and SDOM, see [Governed Security Architecture](../architecture/governed-security-architecture.md).
+
 ---
 
 ## Current Visible Layers (with portfolio evidence)

@@ -20,7 +20,7 @@ Focused on detection, hardening, and compliance automation with a wireless/RF ed
 ## TraceLock™ (signature project)
 TraceLock™ is a custom, author-built RF monitoring platform for defensive wireless awareness across Wi-Fi, BLE, SDR, GPS, and ADS-B. It emphasizes evidence-grade logging, repeatable capture workflows, and safe, non-interactive observation.
 
-[View TraceLock™ project](tracelock.md)
+[View TraceLock™ project](02%20-%20Areas/Cybersecurity/09.%20Online%20Portfolio/01.%20code_portfolio/portfolio/docs/cybersecurity/tracelock.md)
 
 ## Additional Work
 - Offensive toolkit evaluations (WiFi Pineapple, HackRF, Flipper, Rubber Ducky) with mitigations.  

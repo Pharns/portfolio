@@ -102,7 +102,7 @@ For regulated and security-sensitive professionals, the environment is best trea
 
 ## Related work
 
-- [TraceLock RF threat detection](tracelock.md)
+- [TraceLock RF threat detection](02%20-%20Areas/Cybersecurity/09.%20Online%20Portfolio/01.%20code_portfolio/portfolio/docs/cybersecurity/tracelock.md)
 - [GRC overview](../grc/index.md)
 - [Contact](../contact.md)
 

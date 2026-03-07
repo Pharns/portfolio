@@ -18,6 +18,11 @@ USAF Veteran (service-disabled) · Security Clearance Eligible · Security+/CySA
 
 [View GRC Projects](grc/index.md){ .btn-primary } [Contact](contact.md){ .btn-ghost }
 
+!!! info "Featured Architecture Artifact"
+    **Governed Security Architecture** presents how KnowledgeOS, AgenticOS, GIAP, TraceLock, and SDOM operate as one decision-driven security model.
+
+    [View Architecture Model](architecture/governed-security-architecture.md)
+
 ---
 
 ## Production experience

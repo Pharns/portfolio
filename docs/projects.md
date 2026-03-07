@@ -32,6 +32,13 @@ Patent-pending (Nov 2025) 6-domain wireless monitoring (Wi-Fi/BLE/SDR/GPS/ADS-B)
 [Read Full Case Study](cybersecurity/tracelock.md) · [GitHub](https://github.com/Pharns/tracelock-public){target=_blank}
 <small>**Why this matters:** If I can build detection logic for 6 RF domains, I can build detection content for your SIEM</small>
 </div>
+<div class="stat-tile" markdown>
+**Governed Security Architecture** <span class="status-badge">Architecture Artifact</span>
+System-level model connecting KnowledgeOS, AgenticOS, GIAP, TraceLock, and SDOM into one governed security design.
+<span class="tag-chip">Security Architecture</span> <span class="tag-chip">Systems Design</span> <span class="tag-chip">Governance + Detection</span>
+[Read Architecture](architecture/governed-security-architecture.md)
+<small>**Why this matters:** Shows architecture thinking that integrates governance, detection, automation, and decision flow.</small>
+</div>
 </div>
 </div>
 

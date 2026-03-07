@@ -217,7 +217,7 @@ tags:
 
 ## Related Projects
 
-- [TraceLock™](tracelock.md) — Multi-domain RF detection (detection engineering in wireless domain)
+- [TraceLock™](02%20-%20Areas/Cybersecurity/09.%20Online%20Portfolio/01.%20code_portfolio/portfolio/docs/cybersecurity/tracelock.md) — Multi-domain RF detection (detection engineering in wireless domain)
 - [Homelab Infrastructure](homelab-infrastructure.md) — The lab environment where this runs
 - [GIAP™](giap.md) — GRC automation (similar pipeline thinking applied to compliance)
 

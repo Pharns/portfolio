@@ -262,7 +262,7 @@ Future additions after CySA+/PenTest+ completion:
 
 ## 🔗 Related projects
 
-- [TraceLock™ RF/SDR Security](tracelock.md) — Wireless telemetry detection (offensive research applied to defensive monitoring)
+- [TraceLock™ RF/SDR Security](02%20-%20Areas/Cybersecurity/09.%20Online%20Portfolio/01.%20code_portfolio/portfolio/docs/cybersecurity/tracelock.md) — Wireless telemetry detection (offensive research applied to defensive monitoring)
 - [Detection & IR Lab](incident-response.md) — SIEM tuning, alert engineering (blue team perspective)
 - [Homelab Infrastructure](homelab-infrastructure.md) — Segmented testing environment with proper isolation
 - [Vulnerability Assessment](vulnerability-assessment.md) — Nessus scanning, remediation tracking

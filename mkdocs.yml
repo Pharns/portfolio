@@ -120,6 +120,9 @@ nav:
 - About: about.md
 - Governed Agentic Security Stack:
   - Overview: stack/index.md
+- Architecture:
+  - Governed Security Architecture: architecture/governed-security-architecture.md
+  - Architecture Decisions: architecture/architecture-decisions.md
 - GRC & Security:
   - GRC Overview: grc/index.md
   - Detection Engineering: cybersecurity/detection-engineering.md
