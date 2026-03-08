@@ -152,6 +152,7 @@ nav:
     - Infrastructure: cybersecurity/homelab-infrastructure.md
     - Build Journey: cybersecurity/homelab-journey.md
     - TraceLock Architecture: cybersecurity/trace-lock-diagram.md
+    - TraceLock Telemetry-to-Decision: cybersecurity/trace-lock-telemetry-to-decision.md
     - Blog Writeups: cybersecurity/blog-writeups.md
 - Projects: projects.md
 - Innovation:

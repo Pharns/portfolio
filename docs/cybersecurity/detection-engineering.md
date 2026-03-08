@@ -197,6 +197,7 @@ Detection engineering extends beyond network/host telemetry. **TraceLock™** ap
 | **ADS-B** | Drone proximity, aircraft tracking | Airspace awareness |
 
 [View TraceLock™ Project →](tracelock.md)
+[TraceLock™ Telemetry-to-Decision Model →](trace-lock-telemetry-to-decision.md)
 
 ---
 
