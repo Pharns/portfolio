@@ -92,6 +92,7 @@ This telemetry architecture supports detection engineering by making cross-domai
 
 - [TraceLock™ — RF Security](tracelock.md)
 - [TraceLock™ — Telemetry-to-Decision Model](trace-lock-telemetry-to-decision.md)
+- [Security Telemetry → Governance → Decision Architecture](security-architecture-system-map.md)
 - [Detection Engineering](detection-engineering.md)
 - [Architecture Decisions](../architecture/architecture-decisions.md)
 - [GIAP™ — GRC Integrated Automation Platform](giap.md)

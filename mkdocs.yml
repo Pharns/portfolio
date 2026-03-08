@@ -123,6 +123,7 @@ nav:
 - Architecture:
   - Governed Security Architecture: architecture/governed-security-architecture.md
   - Architecture Decisions: architecture/architecture-decisions.md
+  - Security Architecture System Map: cybersecurity/security-architecture-system-map.md
 - GRC & Security:
   - GRC Overview: grc/index.md
   - Detection Engineering: cybersecurity/detection-engineering.md
