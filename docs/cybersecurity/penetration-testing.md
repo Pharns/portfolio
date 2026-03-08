@@ -1,5 +1,5 @@
 ---
-description: "Pentesting lab with CySA+/PenTest+ training — hardware toolkit (HackRF, Flipper Zero, LoRa). Purple team perspective strengthens GRC and detection engineering."
+description: "Pentesting lab with CySA+/PenTest+ credentials — hardware toolkit (HackRF, Flipper Zero, LoRa). Purple team perspective strengthens GRC and detection engineering."
 ---
 
 # Penetration Testing (Expanding Capability)
@@ -7,7 +7,7 @@ description: "Pentesting lab with CySA+/PenTest+ training — hardware toolkit (
 !!! tldr "For recruiters & hiring managers"
     **Current state:** Active lab operational with vulnerability scanning, exploitation practice, and detection engineering workflows. Hardware toolkit assembled (HackRF One, Flipper Zero, WiFi Pineapple, etc.).
 
-    **Training timeline:** CySA+ (Jan 2026), PenTest+ (Jan 2026) — formal certifications in progress alongside hands-on practice.
+    **Certifications earned:** CySA+ (Jan 2026, 760) · PenTest+ (Mar 2026, 759) — formal credentials complement hands-on practice.
 
     **Why this matters for GRC:** Understanding offensive security techniques strengthens defensive controls, audit validation, and security architecture design. "Purple team" perspective enhances GRC implementation.
 
@@ -21,7 +21,7 @@ I'm actively building offensive security skills to complement my GRC engineering
 
 **Timeline:**
 - **Active lab:** Operational with DVWA, Metasploitable, Security Onion integration
-- **Certifications:** CySA+ scheduled Jan 2026, PenTest+ scheduled Jan 2026
+- **Certifications:** CySA+ earned Jan 2026 (760), PenTest+ earned Mar 2026 (759)
 - **Hardware toolkit:** Assembled and testing (see below)
 - **Focus:** Lab-only practice, ethical methodology, clear documentation
 
@@ -190,9 +190,9 @@ Multi-device LoRa 915MHz research platform: RAKwireless WisBlock (RAK4631), Helt
 
 ## 📖 Training & certifications
 
-**Scheduled (Jan 2026):**
-- **CompTIA CySA+** — Cybersecurity Analyst (threat detection, blue team focus)
-- **CompTIA PenTest+** — Penetration testing methodologies and hands-on skills
+**Earned (2026):**
+- **CompTIA CySA+** — Cybersecurity Analyst (Jan 2026, 760)
+- **CompTIA PenTest+** — Penetration testing methodologies (Mar 2026, 759)
 
 **Current practice:**
 - TryHackMe, HackTheBox labs
@@ -250,9 +250,9 @@ GRC roles increasingly require understanding of offensive security to properly a
 
 ---
 
-## 📊 Proof points (when certification complete)
+## 📊 Proof points
 
-Future additions after CySA+/PenTest+ completion:
+Expanding with CySA+/PenTest+ now earned:
 - Lab writeups with exploit → remediation documentation
 - Control validation reports (tested vs. theoretical)
 - Purple team case studies (attack + defense perspectives)
@@ -269,6 +269,6 @@ Future additions after CySA+/PenTest+ completion:
 
 ---
 
-**Status:** Expanding capability with active lab, hardware toolkit, and scheduled certifications (Jan 2026). Goal: Combine GRC engineering expertise with offensive security knowledge for senior-level security roles.
+**Status:** Active lab with hardware toolkit. CySA+ (Jan 2026) and PenTest+ (Mar 2026) earned. Combining GRC engineering expertise with offensive security credentials for senior-level security roles.
 
 [Contact](../contact.md){ .btn-primary } [LinkedIn](https://www.linkedin.com/in/pharns){ .btn-ghost }

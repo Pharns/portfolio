@@ -221,7 +221,7 @@ Detection engineering extends beyond network/host telemetry. **TraceLock™** ap
 | Purple team automation (Caldera) | 🔄 Installed | Q1 2026 |
 | Detection-as-code CI/CD pipeline | ⏳ Planned | Q2 2026 |
 | Formal detection efficacy dashboard | ⏳ Planned | Q2 2026 |
-| CySA+ certification | 📅 Scheduled | January 2026 |
+| CySA+ certification | ✅ Earned | January 2026 (760) |
 
 ---
 

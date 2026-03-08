@@ -82,7 +82,7 @@ Snapshot and download options
 |----------|---------|
 | **Citizenship** | US Citizen |
 | **Clearance** | Service-disabled veteran, eligible for federal security clearance |
-| **Availability** | February 2026 (B.S. graduation) |
+| **Availability** | Available now |
 | **Work Style** | Remote-first; async-ready with distributed team experience |
 | **Time Zones** | US/EU/LatAm — flexible overlap hours |
 | **International** | Actively seeking global opportunities; visa sponsorship required for non-US |

@@ -103,6 +103,7 @@ exclude_docs: |
   python/index.md
   python/projects/index.md
   grc-resume.md
+  assets/resume/Pharns_Genece_Resume.md
 plugins:
 - search
 - git-revision-date-localized:
