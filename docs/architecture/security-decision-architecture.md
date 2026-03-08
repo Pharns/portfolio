@@ -20,39 +20,43 @@ Security Decision Architecture addresses this by structuring the flow from telem
 
 ## Security decision architecture pipeline
 
-SDA organizes security systems into a layered decision pipeline.
+SDA organizes security systems into a layered decision pipeline with a governance feedback loop. Security decisions feed back into detection tuning, automation policy, and governance refinement — creating a closed-loop architecture rather than a one-way data flow.
 
-```mermaid
-flowchart LR
-    A[Telemetry Sources] --> B[Detection and Correlation]
-    B --> C[Automation and AI Workflows]
-    C --> D[Governance and Risk Processing]
-    D --> E[Security Decisions]
+![Security Decision Architecture — pipeline and feedback loop showing telemetry sources flowing through detection, automation, governance, and into security decisions, with portfolio system mapping (TraceLock, Detection Engineering, AgenticOS, GIAP, Architecture Decisions) and governance feedback loop from decisions back into upstream layers](../assets/diagrams/SDA-signature-diagram.svg)
 
-    subgraph Telemetry
-        A
-    end
-
-    subgraph Detection
-        B
-    end
-
-    subgraph Automation
-        C
-    end
-
-    subgraph Governance
-        D
-    end
-
-    subgraph Decisions
-        E
-    end
-```
-
-*Security Decision Architecture pipeline: layered model showing how telemetry, detection engineering, automation workflows, governance processes, and decision logic combine to produce defensible security decisions.*
+*Security Decision Architecture pipeline: telemetry flows through detection, automation, and governance into defensible security decisions. The governance feedback loop ensures decisions refine upstream detection tuning, automation policy, and governance controls. Portfolio systems are mapped to their corresponding architecture layers.*
 
 Each layer plays a distinct role in transforming raw security signals into structured decision inputs.
+
+??? note "Mermaid source (simplified pipeline view)"
+
+    ```mermaid
+    flowchart LR
+        A[Telemetry Sources] --> B[Detection and Correlation]
+        B --> C[Automation and AI Workflows]
+        C --> D[Governance and Risk Processing]
+        D --> E[Security Decisions]
+
+        subgraph Telemetry
+            A
+        end
+
+        subgraph Detection
+            B
+        end
+
+        subgraph Automation
+            C
+        end
+
+        subgraph Governance
+            D
+        end
+
+        subgraph Decisions
+            E
+        end
+    ```
 
 ## Architecture layers
 
