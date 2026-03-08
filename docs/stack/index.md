@@ -1,5 +1,7 @@
 # Governed Agentic Security Stack
 
+*A layered architecture connecting telemetry systems, detection engineering, governance automation, and AI-assisted workflows into defensible security decisions.*
+
 The **Governed Agentic Security Stack** is an evolving architecture model for designing AI-enabled security systems that remain **reproducible, auditable, and defensible**. As AI workflows become embedded across security operations, governance automation, and detection engineering, the infrastructure running those workflows must be governed with the same rigor applied to production security systems. This stack represents both an emerging industry pattern and the operational approach I am implementing across my portfolio artifacts. The portfolio is organized as evidence of the stack in practice: each project demonstrates how a specific layer reduces architectural risk (e.g., context drift, non-reproducible outputs, or weak validation).
 
 The stack is intentionally iterative. Layers are interdependent and often overlap; the goal is not rigid categorization but coherent, defensible system design.
