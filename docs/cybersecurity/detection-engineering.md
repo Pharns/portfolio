@@ -232,6 +232,7 @@ Detection engineering extends beyond network/host telemetry. **TraceLock™** ap
 - [TraceLock™](tracelock.md) — RF/wireless detection engineering across 6 domains
 - [GIAP™](giap.md) — Automation platform demonstrating similar pipeline thinking applied to GRC
 - [Homelab Infrastructure](homelab-infrastructure.md) — The lab environment where this runs
+- [Security Telemetry → Governance → Decision Architecture](../architecture/security-telemetry-decision-architecture.md) — how detection feeds the governed decision pipeline
 
 ---
 

@@ -378,6 +378,9 @@ flowchart TB
 
 ## Related Projects
 
+- [Governed Security Architecture](../architecture/governed-security-architecture.md) — TraceLock's role in the integrated security model
+- [Security Telemetry → Governance → Decision Architecture](../architecture/security-telemetry-decision-architecture.md) — capstone architecture flow
+- [Security Decision Architecture (SDA)](../architecture/security-decision-architecture.md) — technical decision pipeline integrating detection, governance, and automation
 - [Homelab Infrastructure](homelab-infrastructure.md) — The lab where TraceLock™ was developed
 - [Remote Access & Zero-WAN](remote-access-zero-wan.md) — Secure architecture for remote development
 - [GIAP™](giap.md) — GRC automation platform using similar pipeline patterns

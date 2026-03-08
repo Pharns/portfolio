@@ -7,7 +7,7 @@ description: "Full-stack GRC engineering: cloud governance, endpoint compliance,
 I build audit-ready control frameworks, evidence pipelines, and compliance automation systems for cloud and hybrid environments. Unlike traditional GRC roles focused on policy and documentation, I implement the technical controls being audited.
 
 !!! info "Featured Architecture Artifact"
-    [Governed Security Architecture](../architecture/governed-security-architecture.md) maps how KnowledgeOS, AgenticOS, GIAP, TraceLock, and SDOM integrate into one decision-driven security model.
+    [Governed Security Architecture](../architecture/governed-security-architecture.md) maps how KnowledgeOS, AgenticOS, GIAP, TraceLock, and SDOM integrate into one decision-driven security model. See also: [Security Telemetry → Governance → Decision Architecture](../architecture/security-telemetry-decision-architecture.md).
 
 ---
 

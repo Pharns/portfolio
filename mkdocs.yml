@@ -123,6 +123,8 @@ nav:
   - Overview: stack/index.md
 - Architecture:
   - Governed Security Architecture: architecture/governed-security-architecture.md
+  - Telemetry → Governance → Decision: architecture/security-telemetry-decision-architecture.md
+  - Security Decision Architecture (SDA): architecture/security-decision-architecture.md
   - Architecture Decisions: architecture/architecture-decisions.md
   - Security Architecture System Map: cybersecurity/security-architecture-system-map.md
 - GRC & Security:

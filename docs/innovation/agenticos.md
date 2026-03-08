@@ -355,6 +355,8 @@ aos q "Explain the difference between SAST and DAST"
 - [TraceLock™](../cybersecurity/tracelock.md) — Multi-domain RF threat detection (uses similar logging patterns)
 - [GIAP™](../cybersecurity/giap.md) — GRC automation platform (powered by AgenticOS)
 - [Homelab Infrastructure](../cybersecurity/homelab-infrastructure.md) — Development environment
+- [Security Telemetry → Governance → Decision Architecture](../architecture/security-telemetry-decision-architecture.md) — AgenticOS role in the governed decision pipeline
+- [Governed Security Architecture](../architecture/governed-security-architecture.md) — system-of-systems view
 
 ---
 
