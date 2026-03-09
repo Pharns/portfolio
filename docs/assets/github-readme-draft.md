@@ -9,7 +9,7 @@
 
 I build audit-ready control frameworks, evidence pipelines, and compliance automation — then implement the technical controls, not just document them. Rare hybrid: GRC discipline meets RF/aviation security and cyber-physical systems expertise.
 
-📧 [careers@pharns.com](mailto:careers@pharns.com) · 🌐 [portfolio.pharns.com](https://portfolio.pharns.com) · 💼 [LinkedIn](https://linkedin.com/in/pharns)
+📧 [career@pharns.com](mailto:career@pharns.com) · 🌐 [portfolio.pharns.com](https://portfolio.pharns.com) · 💼 [LinkedIn](https://linkedin.com/in/pharns)
 
 **USAF Veteran (Service-Disabled)** · **USPTO Patent Holder** · **Security+** · **10 Active Certifications**
 
@@ -122,7 +122,7 @@ Advanced Air Mobility security requires practitioners who understand engineering
 
 | Channel | Link |
 |---------|------|
-| **Email** | [careers@pharns.com](mailto:careers@pharns.com) |
+| **Email** | [career@pharns.com](mailto:career@pharns.com) |
 | **Portfolio** | [portfolio.pharns.com](https://portfolio.pharns.com) |
 | **LinkedIn** | [linkedin.com/in/pharns](https://linkedin.com/in/pharns) |
 | **Certifications** | [Credly](https://www.credly.com/users/pharns) |

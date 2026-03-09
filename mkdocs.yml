@@ -48,8 +48,8 @@ extra:
     link: https://www.linkedin.com/in/pharns
     name: LinkedIn Profile - Pharns Genece
   - icon: fontawesome/solid/envelope
-    link: mailto:careers@pharns.com
-    name: Email - careers@pharns.com
+    link: mailto:career@pharns.com
+    name: Email - career@pharns.com
   meta:
   - property: og:title
     content: "Security Program & GRC Engineering Portfolio | Pharns Genece"

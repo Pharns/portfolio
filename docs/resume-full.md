@@ -9,7 +9,7 @@ hide:
 
 **Security Engineer | GRC, Cloud Security & Detection Engineering**
 
-📧 careers@pharns.com · 🌐 portfolio.pharns.com · 💼 linkedin.com/in/pharns · 📍 Remote (US/EU/International)
+📧 career@pharns.com · 🌐 portfolio.pharns.com · 💼 linkedin.com/in/pharns · 📍 Remote (US/EU/International)
 
 ---
 

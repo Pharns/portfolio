@@ -2,7 +2,7 @@
 
 **GRC Engineer | Cloud Security | Detection Engineering | RF/SDR Security**
 
-careers@pharns.com | portfolio.pharns.com | linkedin.com/in/pharns | Remote (US/EU/International)
+career@pharns.com | portfolio.pharns.com | linkedin.com/in/pharns | Remote (US/EU/International)
 
 ---
 

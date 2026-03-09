@@ -14,7 +14,7 @@ Ready to discuss GRC engineering, cloud security, or compliance automation oppor
 <div class="stat-tile" markdown>
 **Email (Preferred)**
 
-[careers@pharns.com](mailto:careers@pharns.com)
+[career@pharns.com](mailto:career@pharns.com)
 
 Typical response: < 24 hours
 </div>
