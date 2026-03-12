@@ -10,6 +10,10 @@ This model connects telemetry systems, detection engineering, governed automatio
 
 ## SDA within the Security Decision Operating System
 
+![SDOS Signature Diagram — doctrine flows from the Security Decision Operating System through the operating model, architecture, frameworks, and engines](../assets/diagrams/SDOS-signature-diagram.svg)
+
+*SDOS shows how disciplined security decisions flow from doctrine to operating model, architecture, frameworks, and engines.*
+
 SDOS is the governing doctrine for disciplined security decision-making. SDOM defines how security decisions are made, prioritized, and authorized. SDA defines how those decisions are implemented through structure, connecting frameworks and engines into an operating architecture.
 
 Within this model:
