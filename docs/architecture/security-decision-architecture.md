@@ -2,9 +2,36 @@
 
 Security programs generate enormous volumes of telemetry, alerts, and compliance data. The objective is not alert volume; it is defensible security decisions.
 
-Security Decision Architecture (SDA) defines the technical implementation layer that transforms heterogeneous telemetry into structured analysis, governance inputs, and actionable security decisions. SDA is not a competing framework to SDOM; it is the architecture pipeline SDOM depends on.
+Security Decision Architecture (SDA) is the architectural layer of the Security Decision Operating System (SDOS), a doctrine for disciplined cybersecurity decision-making. SDA defines the technical implementation layer that transforms heterogeneous telemetry into structured analysis, governance inputs, and actionable security decisions.
+
+Security Decision Architecture (SDA) operationalizes disciplined cybersecurity decisions by structuring how frameworks and operational systems are implemented.
 
 This model connects telemetry systems, detection engineering, governed automation workflows, and governance processes into one decision pipeline.
+
+## SDA within the Security Decision Operating System
+
+SDOS is the governing doctrine for disciplined security decision-making. SDOM defines how security decisions are made, prioritized, and authorized. SDA defines how those decisions are implemented through structure, connecting frameworks and engines into an operating architecture.
+
+Within this model:
+
+- Guardian and SIRx function as frameworks that shape risk interpretation and decision discipline.
+- GIAP and TraceLock function as engines that operationalize approved workflows and capabilities.
+
+Security failures are often decision failures, not just tooling failures. SDA exists to ensure that architecture, automation, and telemetry pipelines remain aligned to disciplined decisions rather than tool-driven reactions.
+
+```text
+SDOS
+├── SDOM
+│   ├── AI Decision Governance
+│   └── AIDA
+├── SDA
+├── Frameworks
+│   ├── Guardian
+│   └── SIRx
+└── Engines
+    ├── GIAP
+    └── TraceLock
+```
 
 ## The problem with traditional security architectures
 
@@ -20,42 +47,43 @@ Security Decision Architecture addresses this by structuring the flow from telem
 
 ## Security decision architecture pipeline
 
-SDA organizes security systems into a layered decision pipeline with a governance feedback loop. Security decisions feed back into detection tuning, automation policy, and governance refinement — creating a closed-loop architecture rather than a one-way data flow.
+SDA organizes security systems into a layered decision pipeline with a governance feedback loop. Within SDOS, this is the implementation view: security decisions feed back into detection tuning, automation policy, and governance refinement, creating a closed-loop architecture rather than a one-way data flow.
 
 ![Security Decision Architecture — pipeline and feedback loop showing telemetry sources flowing through detection, automation, governance, and into security decisions, with portfolio system mapping (TraceLock, Detection Engineering, AgenticOS, GIAP, Architecture Decisions) and governance feedback loop from decisions back into upstream layers](../assets/diagrams/SDA-signature-diagram.svg)
 
-*Security Decision Architecture pipeline: telemetry flows through detection, automation, and governance into defensible security decisions. The governance feedback loop ensures decisions refine upstream detection tuning, automation policy, and governance controls. Portfolio systems are mapped to their corresponding architecture layers.*
+*Security Decision Architecture pipeline: telemetry flows through detection, automation, and governance into defensible security decisions. Within SDOS, SDOM governs how those decisions are made, while SDA structures how they are implemented through frameworks and engines. The governance feedback loop ensures decisions refine upstream detection tuning, automation policy, and governance controls. Portfolio systems are mapped to their corresponding architecture layers.*
 
 Each layer plays a distinct role in transforming raw security signals into structured decision inputs.
 
 ??? note "Mermaid source (simplified pipeline view)"
 
     ```mermaid
-    flowchart LR
-        A[Telemetry Sources] --> B[Detection and Correlation]
-        B --> C[Automation and AI Workflows]
-        C --> D[Governance and Risk Processing]
-        D --> E[Security Decisions]
+    flowchart TD
+        SDOS["SDOS<br/>Security Decision Operating System"]
+        SDOM["SDOM<br/>Security Decision Operating Model"]
+        AIG["AI Decision Governance"]
+        AIDA["AIDA<br/>AI Decision Authorization"]
+        SDA["SDA<br/>Security Decision Architecture"]
+        F["Frameworks"]
+        G["Guardian"]
+        S["SIRx"]
+        E["Engines"]
+        GIAP["GIAP"]
+        TL["TraceLock"]
 
-        subgraph Telemetry
-            A
-        end
+        SDOS --> SDOM
+        SDOS --> SDA
+        SDOS --> F
+        SDOS --> E
 
-        subgraph Detection
-            B
-        end
+        SDOM --> AIG
+        SDOM --> AIDA
 
-        subgraph Automation
-            C
-        end
+        F --> G
+        F --> S
 
-        subgraph Governance
-            D
-        end
-
-        subgraph Decisions
-            E
-        end
+        E --> GIAP
+        E --> TL
     ```
 
 ## Architecture layers
@@ -135,21 +163,28 @@ Within this portfolio, these decisions are documented through architecture decis
 
 [View Architecture Decisions →](architecture-decisions.md)
 
-## Relationship to the Security Decision Operating Model (SDOM)
+## Relationship to the Security Decision Operating System (SDOS)
 
-SDA is the technical implementation layer under SDOM.
+SDA is the architectural implementation layer within SDOS.
 
 Conceptually:
 
 ```text
+Security Decision Operating System (SDOS)
+Governing doctrine for disciplined security decisions
+            ↓
 Security Decision Operating Model (SDOM)
-Decision framework and governance logic
+Decision logic, prioritization, and authorization
             ↓
 Security Decision Architecture (SDA)
-Technical systems that produce decision inputs
+Technical systems, frameworks, and engines that operationalize decisions
 ```
 
-SDOM defines decision logic and governance structure. SDA implements the telemetry, detection, automation, and governance pipeline that produces those decision inputs.
+SDOM defines how decisions are made and governed. SDA structures the telemetry, detection, automation, and governance pipeline that operationalizes those decisions through architecture. This keeps the page focused on SDA while making its position inside SDOS explicit.
+
+## Why this matters
+
+Decision discipline improves security investment quality, risk alignment, and implementation coherence. By treating SDA as the architecture layer of SDOS, the model shows how security systems should be structured to support defensible decisions rather than disconnected tooling.
 
 ## Capability signals demonstrated in this portfolio
 
@@ -162,6 +197,8 @@ This architecture model reflects capability domains demonstrated by portfolio ar
 - Architecture-driven security decision processes
 
 These capabilities support decision-driven security operations rather than tool-centric security programs.
+
+SDA is one layer inside a broader evolving architecture model, but it remains the core implementation view for how disciplined security decisions become operational systems.
 
 ## Related architecture artifacts
 
