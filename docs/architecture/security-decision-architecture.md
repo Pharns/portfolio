@@ -25,16 +25,17 @@ Security failures are often decision failures, not just tooling failures. SDA ex
 
 ```text
 SDOS
-├── SDOM
-│   ├── AI Decision Governance
-│   └── AIDA
-├── SDA
-├── Frameworks
-│   ├── Guardian
-│   └── SIRx
-└── Engines
-    ├── GIAP
-    └── TraceLock
+└── SDOM
+    ├── AI Decision Governance
+    ├── AIDA
+    │   └── AI Decision Authorization
+    └── SDA
+        ├── Frameworks
+        │   ├── Guardian
+        │   └── SIRx
+        └── Engines
+            ├── GIAP
+            └── TraceLock
 ```
 
 ## The problem with traditional security architectures
@@ -76,16 +77,15 @@ Each layer plays a distinct role in transforming raw security signals into struc
         TL["TraceLock"]
 
         SDOS --> SDOM
-        SDOS --> SDA
-        SDOS --> F
-        SDOS --> E
-
         SDOM --> AIG
         SDOM --> AIDA
+        SDOM --> SDA
 
         F --> G
         F --> S
 
+        SDA --> F
+        SDA --> E
         E --> GIAP
         E --> TL
     ```
