@@ -34,7 +34,7 @@ Patent-pending (Nov 2025) 6-domain wireless monitoring (Wi-Fi/BLE/SDR/GPS/ADS-B)
 </div>
 <div class="stat-tile" markdown>
 **Governed Security Architecture** <span class="status-badge">Architecture Artifact</span>
-System-level model connecting KnowledgeOS, AgenticOS, GIAP, TraceLock, and SDOM into one governed security design.
+System-level model connecting KnowledgeOS, AgenticOS, GIAP™, TraceLock™, and SDOM into one governed security design.
 <span class="tag-chip">Security Architecture</span> <span class="tag-chip">Systems Design</span> <span class="tag-chip">Governance + Detection</span>
 [Read Architecture](architecture/governed-security-architecture.md)
 <small>**Why this matters:** Shows architecture thinking that integrates governance, detection, automation, and decision flow.</small>

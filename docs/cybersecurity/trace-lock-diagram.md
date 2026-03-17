@@ -1,6 +1,6 @@
 # TraceLock™ — Security Telemetry Architecture
 
-TraceLock is a security telemetry architecture designed to integrate heterogeneous wireless and RF signal sources into detection, evidence, and security decision pipelines.
+TraceLock™ is a security telemetry architecture designed to integrate heterogeneous wireless and RF signal sources into detection, evidence, and security decision pipelines.
 
 ## Architecture domains
 
@@ -11,7 +11,7 @@ TraceLock is a security telemetry architecture designed to integrate heterogeneo
 
 ## System capabilities
 
-TraceLock demonstrates several architectural capabilities:
+TraceLock™ demonstrates several architectural capabilities:
 
 - Multi-source telemetry ingestion
 - Heterogeneous signal normalization
@@ -28,7 +28,7 @@ Traditional security monitoring underutilizes nontraditional telemetry sources s
 
 ## Architecture overview
 
-TraceLock is modeled as a layered architecture that moves from collection to defensible outputs. The design emphasis is reproducible telemetry handling, controlled detection behavior, and public-safe evidence generation.
+TraceLock™ is modeled as a layered architecture that moves from collection to defensible outputs. The design emphasis is reproducible telemetry handling, controlled detection behavior, and public-safe evidence generation.
 
 ## Four-layer model
 
@@ -75,7 +75,7 @@ flowchart LR
     style J fill:#0f1b3f,stroke:#2cb1ff,stroke-width:1px,color:#e5e7eb
 ```
 
-*TraceLock telemetry architecture : multi-domain telemetry is normalized, controlled, correlated, and exported as defensible security evidence.*
+*TraceLock™ telemetry architecture : multi-domain telemetry is normalized, controlled, correlated, and exported as defensible security evidence.*
 
 ## Architecture context
 

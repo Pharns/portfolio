@@ -48,7 +48,7 @@ Governance programs degrade when control mapping, intake, and evidence workflows
 Implement governance as an operational system with structured intake, control mapping, workflow orchestration, and audit-oriented evidence handling.
 
 **Why it matters**  
-This creates repeatable governance operations rather than documentation-only compliance activity. It aligns with GIAP and related GRC architecture artifacts.
+This creates repeatable governance operations rather than documentation-only compliance activity. It aligns with GIAP™ and related GRC architecture artifacts.
 
 ### ADR-003 — AgenticOS Orchestration Design
 
@@ -70,7 +70,7 @@ Security programs fragment when governance, detection, and automation evolve ind
 Adopt a governed security architecture model that intentionally aligns governance systems, architecture decisions, detection systems, and automation layers.
 
 **Why it matters**  
-This prevents drift across the security program and reinforces a coherent operating model across GIAP, TraceLock, AgenticOS, and related architecture artifacts.
+This prevents drift across the security program and reinforces a coherent operating model across GIAP™, TraceLock™, AgenticOS, and related architecture artifacts.
 
 ## Closing
 

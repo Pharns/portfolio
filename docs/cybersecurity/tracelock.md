@@ -36,7 +36,7 @@ description: TraceLock™ — Patent-pending multi-domain RF threat detection pl
 
     **Stack Layer:** Agentic Detection (primary) · Adversarial Validation (secondary) · Evidence & Assurance (cross-layer) | [Governed Agentic Security Stack](../innovation/agentic-infrastructure-audit.md#governed-agentic-security-stack-context)
 
-    **Relationship to GIAP™:** GIAP governs compliance intake workflows. TraceLock monitors the physical RF environment those workflows operate within. Without detection coverage at this layer, GIAP's audit trails lack environmental context — a session conducted during active RF surveillance leaves no record of that condition.
+    **Relationship to GIAP™:** GIAP™ governs compliance intake workflows. TraceLock™ monitors the physical RF environment those workflows operate within. Without detection coverage at this layer, GIAP™'s audit trails lack environmental context — a session conducted during active RF surveillance leaves no record of that condition.
 
 ---
 

@@ -2,7 +2,7 @@
 
 Security programs generate enormous volumes of telemetry, alerts, and compliance data. The objective is not alert volume; it is defensible security decisions.
 
-Security Decision Architecture (SDA) is the architectural layer of the Security Decision Operating System (SDOS), a doctrine for disciplined cybersecurity decision-making. SDA defines the technical implementation layer that transforms heterogeneous telemetry into structured analysis, governance inputs, and actionable security decisions.
+Security Decision Architecture (SDA) is the architectural layer of the Security Decision Operating System (SDOS™), a doctrine for disciplined cybersecurity decision-making. SDA defines the technical implementation layer that transforms heterogeneous telemetry into structured analysis, governance inputs, and actionable security decisions.
 
 Security Decision Architecture (SDA) operationalizes disciplined cybersecurity decisions by structuring how frameworks and operational systems are implemented.
 
@@ -14,12 +14,12 @@ This model connects telemetry systems, detection engineering, governed automatio
 
 *SDOS shows how disciplined security decisions flow from doctrine to operating model, architecture, frameworks, and engines.*
 
-SDOS is the governing doctrine for disciplined security decision-making. SDOM defines how security decisions are made, prioritized, and authorized. SDA defines how those decisions are implemented through structure, connecting frameworks and engines into an operating architecture.
+SDOS™ is the governing doctrine for disciplined security decision-making. SDOM defines how security decisions are made, prioritized, and authorized. SDA defines how those decisions are implemented through structure, connecting frameworks and engines into an operating architecture.
 
 Within this model:
 
-- Guardian and SIRx function as frameworks that shape risk interpretation and decision discipline.
-- GIAP and TraceLock function as engines that operationalize approved workflows and capabilities.
+- Guardian™ and SIRx™ function as frameworks that shape risk interpretation and decision discipline.
+- GIAP™ and TraceLock™ function as engines that operationalize approved workflows and capabilities.
 
 Security failures are often decision failures, not just tooling failures. SDA exists to ensure that architecture, automation, and telemetry pipelines remain aligned to disciplined decisions rather than tool-driven reactions.
 
@@ -103,7 +103,7 @@ Examples include:
 - system logs and endpoint signals
 - environmental and sensor inputs
 
-Within this portfolio, TraceLock demonstrates telemetry fusion across multiple RF domains.
+Within this portfolio, TraceLock™ demonstrates telemetry fusion across multiple RF domains.
 
 [View TraceLock →](../cybersecurity/tracelock.md)
 
@@ -148,7 +148,7 @@ This includes:
 - governance workflows
 - audit evidence collection
 
-Within this portfolio, GIAP demonstrates automation of governance and risk workflows.
+Within this portfolio, GIAP™ demonstrates automation of governance and risk workflows.
 
 [View GIAP →](../cybersecurity/giap.md)
 

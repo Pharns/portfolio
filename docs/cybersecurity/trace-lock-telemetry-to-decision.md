@@ -1,10 +1,10 @@
 # TraceLock™ — Telemetry-to-Decision Model
 
-This page shows a public-safe architecture pattern for connecting telemetry from TraceLock to higher-level security decision systems. It is designed to communicate system thinking across detection, governance, and architecture decision workflows.
+This page shows a public-safe architecture pattern for connecting telemetry from TraceLock™ to higher-level security decision systems. It is designed to communicate system thinking across detection, governance, and architecture decision workflows.
 
 ## Current capability vs. integration pattern
 
-- **Current demonstrated capability:** Multi-domain telemetry collection, normalization, detection logic, and evidence export within TraceLock artifacts.
+- **Current demonstrated capability:** Multi-domain telemetry collection, normalization, detection logic, and evidence export within TraceLock™ artifacts.
 - **Architecture pattern (future-facing integration):** Routing validated telemetry outputs into analytics, governance/risk models, and architecture decision loops.
 
 ## Telemetry-to-decision flow

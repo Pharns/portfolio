@@ -41,13 +41,13 @@ flowchart TD
 
 ## System components
 
-### TraceLock
+### TraceLock™
 
-TraceLock provides telemetry fusion and detection pipelines across heterogeneous wireless and RF signal domains.
+TraceLock™ provides telemetry fusion and detection pipelines across heterogeneous wireless and RF signal domains.
 
-### GIAP
+### GIAP™
 
-GIAP provides governance automation patterns for intake, control mapping, and risk-oriented workflow execution.
+GIAP™ provides governance automation patterns for intake, control mapping, and risk-oriented workflow execution.
 
 ### AgenticOS
 

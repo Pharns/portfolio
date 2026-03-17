@@ -1,5 +1,5 @@
 ---
-description: "GIAP — Multi-agent GRC automation with n8n and CISO Assistant. Intake, control mapping, and POA&M generation across 100+ frameworks for GRC Engineers."
+description: "GIAP™ — Multi-agent GRC automation with n8n and CISO Assistant. Intake, control mapping, and POA&M generation across 100+ frameworks for GRC Engineers."
 ---
 # GIAP™ — GRC Integrated Automation Platform
 *Updated: {{ page.meta.git_revision_date_localized or "" }}*
@@ -19,9 +19,9 @@ description: "GIAP — Multi-agent GRC automation with n8n and CISO Assistant. I
 
 ### Stack Positioning
 
-GIAP™ operates as the **Agentic GRC Layer** within the Governed Agentic Security Stack. While the Agentic Infrastructure layer governs the AI execution environment and the Agentic Detection layer monitors external and behavioral signals, GIAP governs the compliance workflows those agents execute.
+GIAP™ operates as the **Agentic GRC Layer** within the Governed Agentic Security Stack. While the Agentic Infrastructure layer governs the AI execution environment and the Agentic Detection layer monitors external and behavioral signals, GIAP™ governs the compliance workflows those agents execute.
 
-In this architecture, AI is not merely assisting documentation — it is embedded into operational governance. GIAP ensures that intake, control mapping, risk scoring, and POA&M generation occur within a structured, deposit-gated, audit-ready framework.
+In this architecture, AI is not merely assisting documentation — it is embedded into operational governance. GIAP™ ensures that intake, control mapping, risk scoring, and POA&M generation occur within a structured, deposit-gated, audit-ready framework.
 
 ---
 

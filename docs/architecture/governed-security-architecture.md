@@ -25,7 +25,7 @@ flowchart TD
     TRACELOCK --> SDOM
 ```
 
-*Governed security architecture model: KnowledgeOS drives AgenticOS, which orchestrates both governance automation (GIAP) and detection architecture (TraceLock). Both feed the Security Decision Operating Model (SDOM) with structured inputs.*
+*Governed security architecture model: KnowledgeOS drives AgenticOS, which orchestrates both governance automation (GIAP™) and detection architecture (TraceLock™). Both feed the Security Decision Operating Model (SDOM) with structured inputs.*
 
 ## Why this architecture exists
 
@@ -49,15 +49,15 @@ The orchestration layer that operationalizes repeatable workflows with determini
 
 [View AgenticOS →](../innovation/agenticos.md)
 
-### GIAP — governance automation layer
+### GIAP™ — governance automation layer
 
-The governance engine for structured intake, cross-framework control mapping (100+ frameworks via CISO Assistant), evidence pipeline management, and POA&M generation. GIAP translates detection findings and architecture decisions into compliance-aligned artifacts with audit-ready evidence chains.
+The governance engine for structured intake, cross-framework control mapping (100+ frameworks via CISO Assistant), evidence pipeline management, and POA&M generation. GIAP™ translates detection findings and architecture decisions into compliance-aligned artifacts with audit-ready evidence chains.
 
 [View GIAP →](../cybersecurity/giap.md)
 
-### TraceLock — detection architecture layer
+### TraceLock™ — detection architecture layer
 
-The multi-domain detection platform for signal collection and correlation across six wireless domains (Wi-Fi, Bluetooth/BLE, SDR/RF, GPS, ADS-B, LoRa). TraceLock produces evidence-grade telemetry data that feeds both governance evaluation and security decision processes.
+The multi-domain detection platform for signal collection and correlation across six wireless domains (Wi-Fi, Bluetooth/BLE, SDR/RF, GPS, ADS-B, LoRa). TraceLock™ produces evidence-grade telemetry data that feeds both governance evaluation and security decision processes.
 
 [View TraceLock →](../cybersecurity/tracelock.md)
 
@@ -70,8 +70,8 @@ The Security Decision Operating Model is where governance and detection outputs 
 The architecture is designed so governance and detection do not operate as isolated tracks.
 
 - Knowledge models drive automation behavior through AgenticOS.
-- AgenticOS runs both governance automation (GIAP) and detection workflows (TraceLock).
-- GIAP and TraceLock feed SDOM with structured inputs for decision quality, prioritization, and defensibility.
+- AgenticOS runs both governance automation (GIAP™) and detection workflows (TraceLock™).
+- GIAP™ and TraceLock™ feed SDOM with structured inputs for decision quality, prioritization, and defensibility.
 - Architecture decisions (ADRs) govern how each layer evolves, preventing drift between systems.
 
 This produces a governed security architecture where controls, detection, and decisions stay aligned — and where that alignment is demonstrable during audits or architecture review.

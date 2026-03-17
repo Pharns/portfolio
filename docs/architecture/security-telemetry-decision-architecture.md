@@ -58,13 +58,13 @@ flowchart TD
     G2 --> S1
 ```
 
-*Architecture flow: telemetry from RF, network, host, and cloud sources feeds detection systems (TraceLock, Sigma/Suricata/Zeek), which pass structured findings through governed automation (AgenticOS) into governance evaluation (GIAP, ADR discipline), producing traceable security decisions (SDOM).*
+*Architecture flow: telemetry from RF, network, host, and cloud sources feeds detection systems (TraceLock™, Sigma/Suricata/Zeek), which pass structured findings through governed automation (AgenticOS) into governance evaluation (GIAP™, ADR discipline), producing traceable security decisions (SDOM).*
 
 ## Component roles
 
-### TraceLock — multi-domain telemetry and detection
+### TraceLock™ — multi-domain telemetry and detection
 
-TraceLock collects and correlates signals across six wireless domains (Wi-Fi, Bluetooth/BLE, SDR/RF, GPS, ADS-B, LoRa). It provides the raw telemetry layer and first-stage detection for RF and wireless threats. Its outputs feed the broader detection pipeline with evidence-grade signal data.
+TraceLock™ collects and correlates signals across six wireless domains (Wi-Fi, Bluetooth/BLE, SDR/RF, GPS, ADS-B, LoRa). It provides the raw telemetry layer and first-stage detection for RF and wireless threats. Its outputs feed the broader detection pipeline with evidence-grade signal data.
 
 **Architecture role:** Signal collection and multi-domain detection. Produces structured telemetry that downstream systems can correlate and act on.
 
@@ -86,9 +86,9 @@ AgenticOS provides deterministic, auditable orchestration for AI-assisted workfl
 
 [View AgenticOS project →](../innovation/agenticos.md)
 
-### GIAP — governance automation
+### GIAP™ — governance automation
 
-GIAP automates GRC lifecycle operations: structured intake, cross-framework control mapping (100+ frameworks), evidence pipeline management, and POA&M generation. It translates detection findings and architecture decisions into governance-aligned artifacts.
+GIAP™ automates GRC lifecycle operations: structured intake, cross-framework control mapping (100+ frameworks), evidence pipeline management, and POA&M generation. It translates detection findings and architecture decisions into governance-aligned artifacts.
 
 **Architecture role:** Governance evaluation. Maps detection outputs and architecture decisions to compliance frameworks, producing audit-ready evidence and remediation plans.
 
@@ -115,7 +115,7 @@ This architecture demonstrates integrated competency across:
 
 ## Related architecture artifacts
 
-- [Governed Security Architecture](governed-security-architecture.md) — system-of-systems view of KnowledgeOS, AgenticOS, GIAP, TraceLock, and SDOM
+- [Governed Security Architecture](governed-security-architecture.md) — system-of-systems view of KnowledgeOS, AgenticOS, GIAP™, TraceLock™, and SDOM
 - [Architecture Decisions](architecture-decisions.md) — ADR summaries for detection, governance, and automation design choices
 - [Security Decision Architecture (SDA)](security-decision-architecture.md) — technical implementation layer for telemetry-to-decision processing
 - [Governed Agentic Security Stack](../stack/index.md) — stack layers with portfolio evidence links
