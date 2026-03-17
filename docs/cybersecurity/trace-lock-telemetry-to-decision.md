@@ -39,4 +39,4 @@ As a roadmap direction, structured telemetry outputs can be consumed by governed
 - [TraceLock™ — RF Security](tracelock.md)
 - [Detection Engineering](detection-engineering.md)
 - [Architecture Decisions](../architecture/architecture-decisions.md)
-- [GIAP™ — GRC Integrated Automation Platform](giap.md)
+- [GIAP™ — Governed Intake and Analysis Platform](giap.md)

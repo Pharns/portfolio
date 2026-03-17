@@ -248,7 +248,7 @@ Nine deliverables produced, all archived:
 
 ## Related projects
 
-- [GIAP™ — GRC Intake Automation](../cybersecurity/giap.md) — Agentic GRC layer. This project ensures the agents running GIAP workflows produce reproducible, audit-ready outputs across machines.
+- [GIAP™ — Governed Intake and Analysis Platform](../cybersecurity/giap.md) — Agentic GRC layer. This project ensures the agents running GIAP workflows produce reproducible, audit-ready outputs across machines.
 - [TraceLock™ — RF Threat Detection](../cybersecurity/tracelock.md) — Agentic Detection layer. Shares the same fixed-schema evidence methodology applied to a different detection surface.
 - [AgenticOS — AI Orchestration](agenticos.md) — Agentic Infrastructure layer. Provides the multi-provider execution layer that this audit governs at the infrastructure level.
 

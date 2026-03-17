@@ -95,5 +95,5 @@ This telemetry architecture supports detection engineering by making cross-domai
 - [Security Telemetry → Governance → Decision Architecture](security-architecture-system-map.md)
 - [Detection Engineering](detection-engineering.md)
 - [Architecture Decisions](../architecture/architecture-decisions.md)
-- [GIAP™ — GRC Integrated Automation Platform](giap.md)
+- [GIAP™ — Governed Intake and Analysis Platform](giap.md)
 - [AgenticOS — Deterministic AI Agent Orchestration](../innovation/agenticos.md)

@@ -18,7 +18,7 @@ description: "Security-hardened intake portal — XSS prevention, HMAC authentic
 ---
 
 !!! info "Relationship to GIAP™"
-    This page documents the **security engineering deep dive** for the intake portal component of [GIAP™ — Governance Intake Automation Platform](giap.md). While GIAP™ covers the full platform architecture, this page focuses specifically on the portal security hardening methodology and implementation details.
+    This page documents the **security engineering deep dive** for the intake portal component of [GIAP™ — Governed Intake and Analysis Platform](giap.md). While GIAP™ covers the full platform architecture, this page focuses specifically on the portal security hardening methodology and implementation details.
 
 ---
 

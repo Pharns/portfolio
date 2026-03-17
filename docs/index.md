@@ -19,7 +19,7 @@ USAF Veteran (service-disabled) · Security Clearance Eligible · Security+/CySA
 [View GRC Projects](grc/index.md){ .btn-primary } [Contact](contact.md){ .btn-ghost }
 
 !!! info "Featured Architecture Artifact"
-    **Governed Security Architecture** presents how KnowledgeOS, AgenticOS, GIAP™, TraceLock™, and SDOM operate as one decision-driven security model.
+    **Governed Security Architecture** presents how KnowledgeOS, AgenticOS, GIAP™, TraceLock™, and SDOS™ operate as one decision-driven security model.
 
     [View Architecture Model](architecture/governed-security-architecture.md)
 
@@ -152,7 +152,7 @@ Use LLM tools for accelerated policy drafting, control mapping, and documentatio
 
 <div class="stat-grid" markdown>
 <div class="stat-tile" markdown>
-**GIAP™ — GRC Integrated Automation Platform** ⭐
+**GIAP™ — Governed Intake and Analysis Platform** ⭐
 Production GRC platform with live demo. CISO Assistant + n8n + Nextcloud + SuiteCRM. 100+ frameworks, HMAC-authenticated webhooks, end-to-end intake automation.
 <span class="tag-chip">GRC</span> <span class="tag-chip">Automation</span> <span class="tag-chip">Live Demo</span>
 [View Case Study](cybersecurity/giap.md) · [Try Live Demo](https://portal.aamcyber.work/demo/){target=_blank}

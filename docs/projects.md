@@ -17,7 +17,7 @@ These signature projects demonstrate production-grade implementation and unique 
 <div class="section-panel" markdown>
 <div class="stat-grid" markdown>
 <div class="stat-tile" markdown>
-**GIAP™ — GRC Integrated Automation Platform** <span class="status-badge">MVP Complete</span>
+**GIAP™ — Governed Intake and Analysis Platform** <span class="status-badge">MVP Complete</span>
 Production GRC platform with [live demo](https://portal.aamcyber.work/demo/){target=_blank}. CISO Assistant + n8n + Nextcloud + SuiteCRM. 100+ frameworks, HMAC webhooks, end-to-end automation.
 <span class="tag-chip">GRC</span> <span class="tag-chip">Automation</span> <span class="tag-chip">Live Demo</span>
 **Tech:** Proxmox, CISO Assistant, n8n, Nextcloud, SuiteCRM, FastAPI, React
@@ -34,7 +34,7 @@ Patent-pending (Nov 2025) 6-domain wireless monitoring (Wi-Fi/BLE/SDR/GPS/ADS-B)
 </div>
 <div class="stat-tile" markdown>
 **Governed Security Architecture** <span class="status-badge">Architecture Artifact</span>
-System-level model connecting KnowledgeOS, AgenticOS, GIAP™, TraceLock™, and SDOM into one governed security design.
+System-level model connecting KnowledgeOS, AgenticOS, GIAP™, TraceLock™, and SDOS™ into one governed security design.
 <span class="tag-chip">Security Architecture</span> <span class="tag-chip">Systems Design</span> <span class="tag-chip">Governance + Detection</span>
 [Read Architecture](architecture/governed-security-architecture.md)
 <small>**Why this matters:** Shows architecture thinking that integrates governance, detection, automation, and decision flow.</small>

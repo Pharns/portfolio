@@ -82,7 +82,7 @@ These decision summaries reflect a broader architecture philosophy: governed, de
 - [Security Telemetry → Governance → Decision Architecture](security-telemetry-decision-architecture.md)
 - [Security Decision Architecture (SDA)](security-decision-architecture.md)
 - [Governed Agentic Security Stack](../stack/index.md)
-- [GIAP™ — GRC Integrated Automation Platform](../cybersecurity/giap.md)
+- [GIAP™ — Governed Intake and Analysis Platform](../cybersecurity/giap.md)
 - [TraceLock™ — Multi-Domain RF Threat Detection Platform](../cybersecurity/tracelock.md)
 - [AgenticOS — Deterministic AI Agent Orchestration](../innovation/agenticos.md)
 - [Detection Engineering](../cybersecurity/detection-engineering.md)

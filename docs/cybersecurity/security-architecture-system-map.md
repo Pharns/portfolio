@@ -26,7 +26,7 @@ flowchart TD
     TL["TraceLock"]
     GIAP["GIAP"]
     AOS["AgenticOS"]
-    SDOM["SDOM"]
+    SDOS_D["SDOS™"]
 
     T --> D --> A --> O --> G --> S
 
@@ -34,7 +34,7 @@ flowchart TD
     TL --> D
     AOS --> O
     GIAP --> G
-    SDOM --> S
+    SDOS_D --> S
 ```
 
 *Unified security architecture map : telemetry flows through detection, analytics, automation, and governance into structured security architecture decisions.*
@@ -53,9 +53,9 @@ GIAP™ provides governance automation patterns for intake, control mapping, and
 
 AgenticOS provides governed orchestration patterns for repeatable, auditable AI-assisted workflow execution.
 
-### SDOM
+### SDOS™
 
-SDOM represents the decision architecture layer where telemetry, detection, and governance outputs become structured security decisions.
+SDOS™ represents the decision architecture where telemetry, detection, and governance outputs become structured security decisions.
 
 ## Portfolio capability signals
 
@@ -71,5 +71,5 @@ SDOM represents the decision architecture layer where telemetry, detection, and 
 - [TraceLock™ — Telemetry-to-Decision Model](trace-lock-telemetry-to-decision.md)
 - [Detection Engineering](detection-engineering.md)
 - [Architecture Decisions](../architecture/architecture-decisions.md)
-- [GIAP™ — GRC Integrated Automation Platform](giap.md)
-- [Governed Security Architecture (SDOM context)](../architecture/governed-security-architecture.md)
+- [GIAP™ — Governed Intake and Analysis Platform](giap.md)
+- [Governed Security Architecture (SDOS™ context)](../architecture/governed-security-architecture.md)

@@ -7,7 +7,7 @@ description: "Full-stack GRC engineering: cloud governance, endpoint compliance,
 I build audit-ready control frameworks, evidence pipelines, and compliance automation systems for cloud and hybrid environments. Unlike traditional GRC roles focused on policy and documentation, I implement the technical controls being audited.
 
 !!! info "Featured Architecture Artifact"
-    [Governed Security Architecture](../architecture/governed-security-architecture.md) maps how KnowledgeOS, AgenticOS, GIAP™, TraceLock™, and SDOM integrate into one decision-driven security model. See also: [Security Telemetry → Governance → Decision Architecture](../architecture/security-telemetry-decision-architecture.md).
+    [Governed Security Architecture](../architecture/governed-security-architecture.md) maps how KnowledgeOS, AgenticOS, GIAP™, TraceLock™, and SDOS™ integrate into one decision-driven security model. See also: [Security Telemetry → Governance → Decision Architecture](../architecture/security-telemetry-decision-architecture.md).
 
 ---
 
@@ -142,7 +142,7 @@ Windows GPO, BitLocker, Defender, GlassWire, Patch My PC, Macrium Reflect, PCI-D
 n8n, Python automation, Nextcloud, SuiteCRM, NIST CSF, SOC 2 control mapping
 
 **Project examples:**
-[GIAP™ — GRC Integrated Automation](../cybersecurity/giap.md) — Production platform with 100+ frameworks, HMAC webhooks, end-to-end automation
+[GIAP™ — Governed Intake and Analysis Platform](../cybersecurity/giap.md) — Production platform with 100+ frameworks, HMAC webhooks, end-to-end automation
 [Secure Intake Portal](../cybersecurity/intake-portal.md) — Nextcloud + n8n + SuiteCRM with IAM and audit trails
 [Baseline Evidence Drop](../cybersecurity/baseline-evidence-drop.md) — Agentless Windows evidence collector
 
@@ -349,7 +349,7 @@ Traditional GRC work is documentation-heavy: control matrices, policy drafting, 
 
 <div class="stat-grid" markdown>
 <div class="stat-tile" markdown>
-**🤖 GIAP™ — GRC Integrated Automation** ⭐ *(MVP Complete)*
+**🤖 GIAP™ — Governed Intake and Analysis Platform** ⭐ *(MVP Complete)*
 Production GRC platform with [live demo](https://portal.aamcyber.work/demo/){target=_blank}. 100+ frameworks, HMAC webhooks, end-to-end automation.
 [View Project](../cybersecurity/giap.md)
 </div>

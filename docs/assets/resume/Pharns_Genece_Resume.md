@@ -110,7 +110,7 @@ Multi-domain wireless monitoring system detecting threats across Wi-Fi, Bluetoot
 - **Technical:** 25 Python modules, 81 shell scripts, ~12,500 LOC
 - **Architecture:** 8-component sensor array with centralized processing and evidence-grade logging
 
-### GIAP™ — Governance Intake Automation Platform
+### GIAP™ — Governed Intake and Analysis Platform
 End-to-end GRC automation with multi-framework support and audit-ready evidence generation.
 - **Stack:** Portal + n8n + Nextcloud + SuiteCRM + CISO Assistant
 - **Status:** Production MVP with 4 operational workflows and HMAC webhook security

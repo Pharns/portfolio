@@ -7,7 +7,7 @@ This capstone artifact maps the full architecture path from raw signal collectio
 Security programs generate telemetry, detection alerts, compliance artifacts, and risk assessments — but these outputs rarely feed a unified decision process. This architecture makes that integration explicit. Each portfolio system occupies a defined role in a pipeline that converts raw signals into defensible, governance-aligned security decisions.
 
 The result is a security architecture where detection findings inform governance priorities, governance outputs shape operational automation, and decision quality is traceable back to the evidence that produced it.
-This capstone view is operationalized by [Security Decision Architecture (SDA)](security-decision-architecture.md), which defines the technical implementation pipeline beneath SDOM.
+This capstone view is operationalized by [Security Decision Architecture (SDA)](security-decision-architecture.md), which defines the technical implementation pipeline within SDOS™.
 
 ## Why this architecture matters
 
@@ -44,7 +44,7 @@ flowchart TD
     end
 
     subgraph DECISIONS["Decision Architecture"]
-        S1["SDOM<br/>Security Decision<br/>Operating Model"]
+        S1["SDOS™<br/>Secure Decision<br/>Operating System"]
     end
 
     T1 --> D1
@@ -58,7 +58,7 @@ flowchart TD
     G2 --> S1
 ```
 
-*Architecture flow: telemetry from RF, network, host, and cloud sources feeds detection systems (TraceLock™, Sigma/Suricata/Zeek), which pass structured findings through governed automation (AgenticOS) into governance evaluation (GIAP™, ADR discipline), producing traceable security decisions (SDOM).*
+*Architecture flow: telemetry from RF, network, host, and cloud sources feeds detection systems (TraceLock™, Sigma/Suricata/Zeek), which pass structured findings through governed automation (AgenticOS) into governance evaluation (GIAP™, ADR discipline), producing traceable security decisions (SDOS™).*
 
 ## Component roles
 
@@ -115,13 +115,13 @@ This architecture demonstrates integrated competency across:
 
 ## Related architecture artifacts
 
-- [Governed Security Architecture](governed-security-architecture.md) — system-of-systems view of KnowledgeOS, AgenticOS, GIAP™, TraceLock™, and SDOM
+- [Governed Security Architecture](governed-security-architecture.md) — system-of-systems view of KnowledgeOS, AgenticOS, GIAP™, TraceLock™, and SDOS™
 - [Architecture Decisions](architecture-decisions.md) — ADR summaries for detection, governance, and automation design choices
 - [Security Decision Architecture (SDA)](security-decision-architecture.md) — technical implementation layer for telemetry-to-decision processing
 - [Governed Agentic Security Stack](../stack/index.md) — stack layers with portfolio evidence links
 - [TraceLock™ — Multi-Domain RF Threat Detection](../cybersecurity/tracelock.md)
 - [Detection Engineering](../cybersecurity/detection-engineering.md)
-- [GIAP™ — GRC Integrated Automation Platform](../cybersecurity/giap.md)
+- [GIAP™ — Governed Intake and Analysis Platform](../cybersecurity/giap.md)
 - [AgenticOS — Deterministic AI Agent Orchestration](../innovation/agenticos.md)
 - [GRC & Compliance Engineering](../grc/index.md)
 

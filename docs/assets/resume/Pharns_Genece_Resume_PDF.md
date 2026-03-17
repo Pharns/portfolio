@@ -93,7 +93,7 @@ Western Governors University | Expected February 2026
 **TraceLock™ — RF Threat Detection Platform** *(Patent Pending)*
 Multi-domain wireless monitoring (Wi-Fi, Bluetooth, SDR, GPS, ADS-B). 25 Python modules, ~12,500 LOC.
 
-**GIAP™ — Governance Intake Automation Platform**
+**GIAP™ — Governed Intake and Analysis Platform**
 End-to-end GRC automation with n8n orchestration. Production MVP with 4 operational workflows.
 
 **Detection & IR Lab**

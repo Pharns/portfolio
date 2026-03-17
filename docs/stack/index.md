@@ -6,7 +6,7 @@ The **Governed Agentic Security Stack** is an evolving architecture model for de
 
 The stack is intentionally iterative. Layers are interdependent and often overlap; the goal is not rigid categorization but coherent, defensible system design.
 
-For a system-of-systems view across KnowledgeOS, AgenticOS, GIAP™, TraceLock™, and SDOM, see [Governed Security Architecture](../architecture/governed-security-architecture.md). For the detailed telemetry-to-decision pipeline, see [Security Telemetry → Governance → Decision Architecture](../architecture/security-telemetry-decision-architecture.md). For the technical implementation layer under SDOM, see [Security Decision Architecture (SDA)](../architecture/security-decision-architecture.md).
+For a system-of-systems view across KnowledgeOS, AgenticOS, GIAP™, TraceLock™, and SDOS™, see [Governed Security Architecture](../architecture/governed-security-architecture.md). For the detailed telemetry-to-decision pipeline, see [Security Telemetry → Governance → Decision Architecture](../architecture/security-telemetry-decision-architecture.md). For the technical implementation layer within SDOS™, see [Security Decision Architecture (SDA)](../architecture/security-decision-architecture.md).
 
 ---
 
@@ -22,7 +22,7 @@ Governed execution environments that prevent silent drift across AI agents and m
 
 AI-governed governance workflows: structured intake, control mapping, risk translation, and POA&M generation designed as a production system.
 
-**Evidence:** [GIAP™ — Governance Intake Automation Platform](../cybersecurity/giap.md)
+**Evidence:** [GIAP™ — Governed Intake and Analysis Platform](../cybersecurity/giap.md)
 
 ### 3) Agentic Detection & Adversarial Validation
 
