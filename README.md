@@ -1,48 +1,29 @@
-# 🌐 Pharns — Cybersecurity & Python Portfolio
+# portfolio.pharns.com
 
-Welcome to the source code for my **unified professional portfolio**.  
-This repository powers my live site built with [MkDocs Material](https://squidfunk.github.io/mkdocs-material/):
+## Purpose
 
-👉 **Live Portfolio:** [https://pharns.github.io/portfolio](https://pharns.github.io/portfolio)
+Personal portfolio site for artifacts, experiments, case studies, and hiring proof.
 
----
+## Audience
 
-## 📂 Contents
+- Hiring managers
+- Recruiters
+- Technical collaborators
 
-This portfolio is organized into two main domains:
+## Content Allowed Here
 
-### 🛡 Cybersecurity
-- **Homelab Setup** — Proxmox VE, Security Onion, Kali Linux  
-- **Vulnerability Assessment** — Nessus scans, remediation reporting  
-- **Incident Response Workflow** — TheHive + Cortex triage and playbooks  
-- **Penetration Testing** — Exploitation labs, DVWA  
-- **Blog Write-Ups** — CTFs and methodology walkthroughs  
+- Personal bio
+- Public project writeups
+- Case studies
+- Architecture thinking
+- Links to AAM Cyber and TraceLock Labs
 
-### 🐍 Python
-- **100 Days of Python (Bootcamp)** — Daily exercises and challenges  
-- **Projects Hub** — Independent work on automation, data visualization, and security tooling  
-- **WGU D335 Coursework** — Structured Python assignments for the Intro to Programming course  
+## Content That Does Not Belong Here
 
-### 📜 Certifications
-- CompTIA (A+, Network+, Security+, CSIS, CIOS)  
-- ISC² (Certified in Cybersecurity, SSCP Associate)  
-- ITIL4 Foundation  
-- LPI Linux Essentials  
+- Consulting sales copy
+- Full SDOS doctrine ownership
+- SBIR-lab positioning as the primary site identity
 
----
+## Deployment Rule
 
-## 🚀 Features
-- Built with **MkDocs + Material theme** for a clean, recruiter-friendly design  
-- Automated deployment via **GitHub Actions → Pages**  
-- Mobile-friendly with dark/light mode toggle  
-- Expandable navigation for easy browsing  
-
----
-
-## 🤝 Connect
-- **LinkedIn:** [linkedin.com/in/pharns](https://linkedin.com/in/pharns)  
-- **GitHub:** [github.com/pharns](https://github.com/pharns)  
-
----
-
-> *This repo is for hosting the portfolio website source. For individual code projects, visit my [Python Learning Repository](https://github.com/Pharns/python-learning).*  
+This folder is the new separated portfolio baseline. Do not assume it is the live deployment root until Cloudflare configuration is verified.
