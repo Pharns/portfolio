@@ -11,7 +11,7 @@ description: TraceLock™ — Patent-pending multi-domain RF threat detection pl
 
     **What I Built:** Real-time RF surveillance detection system that monitors 6 wireless domains simultaneously, correlates threats across sensors, and produces forensic-grade evidence logs. *(Provisional patent filed)*
 
-    **Technical Stack:** Python 3.10+ · Raspberry Pi 4 (8GB) · Kismet · RTL-SDR V4 · Ubertooth · SQLite · GitHub Actions CI
+    **Technical Stack:** Python 3.10+ · ARM SBC · Kismet · SDR Receivers · BLE Adapters · SQLite · GitHub Actions CI
 
     **Detection Engineering Skills Demonstrated:**
 
@@ -89,15 +89,15 @@ TraceLock™ is a security-hardened fork of CYT (Chasing Your Tail). Here's what
 
 | Component | Purpose | Capabilities |
 |-----------|---------|--------------|
-| **Raspberry Pi 4B (8GB)** | Core processing | Runs Kismet + all TraceLock™ modules |
-| **Panda PAU09 N600** | Wi-Fi monitoring | Monitor mode, packet capture, injection (2.4/5GHz) |
-| **RTL-SDR Blog V4** | ISM band + ADS-B | Sub-GHz (433/868/915MHz), ADS-B (1090MHz) |
-| **HackRF One H4M + PortaPack** *(Extension)* | Wideband SDR TX/RX | 1MHz-6GHz, Mayhem firmware — optional expansion module |
-| **StarTech USB BT5.3 Class-1** | Long-range Bluetooth | Extended BLE scanning with external antenna |
-| **ASUS USB-BT500 Nano** | Short-range Bluetooth | Dense environment device detection |
-| **Ubertooth One** | BLE research | Advanced BLE protocol analysis and sniffing |
-| **SIM7600G-H HAT** | GPS + LTE | GNSS positioning, remote telemetry/VPN |
-| **7" IPS DSI Touchscreen** | Field interface | 800×480 capacitive, local GUI for Kismet/CYT |
+| **SBC (ARM-based)** | Core processing | Runs Kismet + all TraceLock™ modules |
+| **Dual-band Wi-Fi adapter** | Wi-Fi monitoring | Monitor mode, packet capture (2.4/5GHz) |
+| **SDR receiver** | ISM band + ADS-B | Sub-GHz ISM bands, ADS-B (1090MHz) |
+| **Wideband SDR** *(Extension)* | Wideband SDR TX/RX | Extended frequency range — optional expansion module |
+| **Long-range BT adapter** | Long-range Bluetooth | Extended BLE scanning with external antenna |
+| **Short-range BT adapter** | Short-range Bluetooth | Dense environment device detection |
+| **BLE research adapter** | BLE research | Advanced BLE protocol analysis |
+| **GPS/LTE HAT** | GPS + LTE | GNSS positioning, remote telemetry/VPN |
+| **Touchscreen display** | Field interface | Local GUI for operator interface |
 
 ### Physical System Architecture
 
@@ -153,7 +153,7 @@ flowchart LR
 | Module | Purpose | LOC |
 |--------|---------|----:|
 | `gps_tracker.py` | Location clustering and KML generation | 1,010 |
-| `surveillance_detector.py` | Persistence detection engine with scoring | 871 |
+| `[persistence_engine]` | Persistence detection engine with scoring | 871 |
 | `mylocation_analyzer.py` | Multi-location tracking algorithms | 844 |
 | `rf_analyzer.py` | Wideband RF signal analysis (HackRF) | 842 |
 | `cyt_gui.py` | Tkinter GUI for operator interface | 839 |
@@ -186,31 +186,21 @@ flowchart LR
 
 TraceLock™ correlates signals across domains to identify sophisticated threats:
 
-```python
-# Simplified correlation example
-def correlate_threat(wifi_event, bt_event, gps_fix):
-    """
-    Correlate Wi-Fi probe + BLE beacon at same location
-    within 30-second window = potential tracking device
-    """
-    if (wifi_event.timestamp - bt_event.timestamp) < 30:
-        if haversine(wifi_event.location, gps_fix) < 50:  # meters
-            return ThreatAlert(
-                severity="HIGH",
-                type="TRACKING_DEVICE",
-                evidence=[wifi_event, bt_event, gps_fix]
-            )
-```
+TraceLock™ correlates events across sensor domains using temporal proximity, spatial clustering, and behavioral persistence scoring. When signals from multiple domains converge within configurable thresholds, the correlation engine elevates the combined observation into a structured threat alert with full evidence chain.
+
+*Implementation details are withheld pending patent prosecution.*
 
 ### 2. Detection Rules with Tunable Thresholds
 
-| Detection | Trigger | Threshold | False Positive Mitigation |
-|-----------|---------|-----------|---------------------------|
-| Rogue AP | SSID/BSSID mismatch | Allowlist delta | Vendor OUI validation |
-| BLE Tracker | Repeated UUID across locations | 3+ sightings in 1hr | Known device filtering |
-| ISM Trigger | 433MHz burst pattern | Signal strength + duration | Pattern library matching |
-| GPS Anomaly | Position jump > 100m/s | Velocity threshold | Multi-fix averaging |
-| Drone Proximity | ADS-B within 500m | Altitude + distance | Flight path prediction |
+| Detection | Trigger Category | False Positive Mitigation |
+|-----------|-----------------|---------------------------|
+| Rogue AP | Network identity anomaly | Vendor validation + allowlisting |
+| BLE Tracker | Repeated device across locations | Known device filtering |
+| ISM Trigger | Sub-GHz burst pattern | Pattern library matching |
+| GPS Anomaly | Position discontinuity | Multi-fix averaging |
+| Drone Proximity | ADS-B proximity alert | Flight path prediction |
+
+*Specific threshold values and trigger parameters are withheld pending patent prosecution.*
 
 ### 3. Security Hardening
 
@@ -236,71 +226,17 @@ def correlate_threat(wifi_event, bt_event, gps_fix):
 
 ## Evidence Artifacts
 
-### Architecture Diagram
+### Architecture Overview
 
-```mermaid
-flowchart TB
-    subgraph SENSORS["SENSOR LAYER"]
-        direction LR
-        W["Wi-Fi Kismet"]
-        B["Bluetooth Ubertooth"]
-        S["SDR rtl_433"]
-        G["GPS Module"]
-    end
+TraceLock™ uses a three-layer architecture: **Sensor Layer** (multi-domain RF inputs) → **Processing Layer** (normalization, correlation, detection) → **Output Layer** (forensic logs, geospatial exports, real-time alerts).
 
-    subgraph PROCESSING["PROCESSING LAYER"]
-        direction TB
-        N["Normalization Layer"]
-        C["Correlation Engine"]
-        R["Detection Rules + Allowlists"]
-    end
-
-    subgraph OUTPUT["OUTPUT LAYER"]
-        direction LR
-        J["JSON Logs Forensic"]
-        K["KML Export Mapping"]
-        M["MQTT Alerts Real-time"]
-    end
-
-    W --> N
-    B --> N
-    S --> N
-    G --> N
-    N --> C
-    R --> C
-    C --> J
-    C --> K
-    C --> M
-
-    style SENSORS fill:#e8f4ea,stroke:#2e7d32,stroke-width:2px
-    style PROCESSING fill:#e0f2fe,stroke:#0284c7,stroke-width:2px
-    style OUTPUT fill:#fef3c7,stroke:#d97706,stroke-width:2px
-```
-
-*Multi-domain sensor integration with correlation engine*
+*Detailed architecture diagrams are withheld pending patent prosecution.*
 
 ### Sample Detection Output
 
-```json
-{
-  "timestamp": "2025-12-14T14:32:07Z",
-  "alert_type": "ROGUE_AP_DETECTED",
-  "severity": "HIGH",
-  "details": {
-    "ssid": "CorpWiFi-Guest",
-    "bssid": "AA:BB:CC:DD:EE:FF",
-    "channel": 6,
-    "signal_strength": -45,
-    "reason": "BSSID not in allowlist, SSID mimics known network"
-  },
-  "location": {
-    "lat": "[REDACTED]",
-    "lon": "[REDACTED]",
-    "accuracy_m": 3.2
-  },
-  "correlation_id": "TL-2025-1214-0847"
-}
-```
+TraceLock™ produces structured JSON alerts with timestamp, alert classification, severity rating, sensor evidence, geolocation, and correlation identifiers. Output is designed for forensic chain-of-custody requirements and downstream SIEM ingestion.
+
+*Sample output schema withheld pending patent prosecution. Synthetic examples available in the [public repository](https://github.com/Pharns/tracelock-public/tree/main/examples).*
 
 ### KML Visualization
 *Threat locations mapped with temporal correlation — screenshots available on request*

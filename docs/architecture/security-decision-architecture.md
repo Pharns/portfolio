@@ -25,8 +25,7 @@ Security failures are often decision failures, not just tooling failures. SDA ex
 
 ```text
 SDOS™
-├── AI Decision Governance (AIDG)
-├── AI Decision Authorization (AIDA)
+├── AI Governance (dual-gate model)
 └── SDA (Security Decision Architecture)
         ├── Frameworks
         │   ├── Guardian
@@ -63,8 +62,7 @@ Each layer plays a distinct role in transforming raw security signals into struc
     ```mermaid
     flowchart TD
         SDOS["SDOS™<br/>Secure Decision Operating System"]
-        AIDG["AIDG<br/>AI Decision Governance"]
-        AIDA["AIDA<br/>AI Decision Authorization"]
+        AIG["AI Governance<br/>Dual-Gate Model"]
         SDA["SDA<br/>Security Decision Architecture"]
         F["Frameworks"]
         G["Guardian™"]
@@ -73,8 +71,7 @@ Each layer plays a distinct role in transforming raw security signals into struc
         GIAP["GIAP™"]
         TL["TraceLock™"]
 
-        SDOS --> AIDG
-        SDOS --> AIDA
+        SDOS --> AIG
         SDOS --> SDA
 
         F --> G
