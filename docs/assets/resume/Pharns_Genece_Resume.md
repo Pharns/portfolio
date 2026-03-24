@@ -69,7 +69,9 @@ Taught drone technology courses demonstrating technical communication skills and
 
 ## CERTIFICATIONS
 
-### Active (10)
+### Active (14)
+- CompTIA CySA+ (CS0-003)
+- CompTIA PenTest+ (PT0-003)
 - CompTIA Security+ (SY0-601)
 - CompTIA Network+ (N10-008)
 - CompTIA A+ (220-1101/1102)
@@ -78,11 +80,7 @@ Taught drone technology courses demonstrating technical communication skills and
 - ISC² SSCP (Associate)
 - ITIL 4 Foundation
 - LPI Linux Essentials
-- CSIS · CIOS
-
-### Scheduled (January 2026)
-- CompTIA CySA+
-- CompTIA PenTest+
+- CSIS · CIOS · CSAP · CNSP · CNVP
 
 ### Planned (Q2-Q3 2026)
 - AWS Cloud Practitioner
@@ -98,7 +96,7 @@ Taught drone technology courses demonstrating technical communication skills and
 ## EDUCATION
 
 **Bachelor of Science, Cybersecurity & Information Assurance**
-Western Governors University · Expected February 2026
+Western Governors University · Conferred March 2026
 - Capstone: TraceLock™ — Patent-pending RF threat detection system
 
 ---
@@ -132,7 +130,7 @@ Deterministic AI orchestration framework with audit-grade logging and explainabl
 - **Citizenship:** US Citizen
 - **Clearance:** Eligible (USAF veteran, service-disabled)
 - **Work Authorization:** No sponsorship required for US positions; visa sponsorship required for international relocation
-- **Availability:** February 2026
+- **Availability:** Immediate
 - **Work Style:** Remote-first with async collaboration experience across US/EU/LatAm time zones
 - **Patents:** USPTO grants in UAV payload and delivery systems
 

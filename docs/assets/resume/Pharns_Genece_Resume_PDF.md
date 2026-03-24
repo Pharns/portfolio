@@ -69,9 +69,7 @@ Taught drone technology courses demonstrating technical communication skills and
 
 ## CERTIFICATIONS
 
-**Active (10):** Security+ | Network+ | A+ | Project+ | ISC2 CC | SSCP (Assoc.) | ITIL 4 | LPI Linux Essentials | CSIS | CIOS
-
-**Scheduled (Jan 2026):** CySA+ | PenTest+
+**Active (14):** CySA+ | PenTest+ | Security+ | Network+ | A+ | Project+ | ISC2 CC | SSCP (Assoc.) | ITIL 4 | LPI Linux Essentials | CSIS | CIOS | CSAP | CNSP | CNVP
 
 **Planned (Q2-Q3 2026):** AWS Cloud Practitioner | CCSP
 
@@ -82,7 +80,7 @@ Taught drone technology courses demonstrating technical communication skills and
 ## EDUCATION
 
 **Bachelor of Science, Cybersecurity & Information Assurance**
-Western Governors University | Expected February 2026
+Western Governors University | Conferred March 2026
 
 - Capstone: TraceLock™ — Patent-pending RF threat detection system
 
@@ -108,7 +106,7 @@ Deterministic AI orchestration with audit-grade logging. 6,361 lines Python. git
 
 - **Citizenship:** US Citizen
 - **Clearance:** Eligible (USAF veteran, service-disabled)
-- **Availability:** February 2026
+- **Availability:** Immediate
 - **Work Style:** Remote-first | Async collaboration | US/EU/LatAm time zones
 - **International:** Open to global opportunities; visa sponsorship required for relocation
 - **Patents:** USPTO grants in UAV payload and delivery systems
