@@ -7,7 +7,7 @@ This page shows how the portfolio's core systems connect into a single security 
 ```mermaid
 flowchart TD
 
-    SDOS_D[SDOS™<br>Secure Decision Operating System]
+    SD[Security Decisions]
 
     subgraph Architecture[Governed Security Architecture]
         GIAP[GIAP<br>Governance Automation]
@@ -21,11 +21,11 @@ flowchart TD
     AGENTICOS --> GIAP
     AGENTICOS --> TRACELOCK
 
-    GIAP --> SDOS_D
-    TRACELOCK --> SDOS_D
+    GIAP --> SD
+    TRACELOCK --> SD
 ```
 
-*Governed security architecture model: KnowledgeOS drives AgenticOS, which orchestrates both governance automation (GIAP™) and detection architecture (TraceLock™). Both feed the Secure Decision Operating System (SDOS™) with structured inputs.*
+*Governed security architecture model: KnowledgeOS drives AgenticOS, which orchestrates both governance automation (GIAP™) and detection architecture (TraceLock™). Both feed structured inputs into the security decision process.*
 
 ## Why this architecture exists
 
@@ -61,9 +61,9 @@ The multi-domain detection platform for signal collection and correlation across
 
 [View TraceLock →](../cybersecurity/tracelock.md)
 
-### SDOS™ — decision architecture layer
+### Security decision layer
 
-The Secure Decision Operating System is the umbrella decision architecture where governance and detection outputs converge into structured security decisions. SDOS™ ensures that security priorities, risk acceptances, and remediation plans are traceable to the telemetry and governance evidence that produced them.
+The decision layer is where governance and detection outputs converge into structured security decisions. This ensures that security priorities, risk acceptances, and remediation plans are traceable to the telemetry and governance evidence that produced them.
 
 ## Integrated system narrative
 
@@ -71,18 +71,18 @@ The architecture is designed so governance and detection do not operate as isola
 
 - Knowledge models drive automation behavior through AgenticOS.
 - AgenticOS runs both governance automation (GIAP™) and detection workflows (TraceLock™).
-- GIAP™ and TraceLock™ feed SDOS™ with structured inputs for decision quality, prioritization, and defensibility.
+- GIAP™ and TraceLock™ feed the decision layer with structured inputs for decision quality, prioritization, and defensibility.
 - Architecture decisions (ADRs) govern how each layer evolves, preventing drift between systems.
 
 This produces a governed security architecture where controls, detection, and decisions stay aligned — and where that alignment is demonstrable during audits or architecture review.
 
 For a detailed view of the telemetry-to-decision pipeline, see [Security Telemetry → Governance → Decision Architecture](security-telemetry-decision-architecture.md).
-For the dedicated technical implementation layer within SDOS™, see [Security Decision Architecture (SDA)](security-decision-architecture.md).
+For the dedicated technical implementation layer, see [Security Decision Architecture (SDA)](security-decision-architecture.md).
 
 ## Portfolio evidence links
 
 - [Security Telemetry → Governance → Decision Architecture](security-telemetry-decision-architecture.md) — capstone architecture flow from signals to decisions
-- [Security Decision Architecture (SDA)](security-decision-architecture.md) — technical implementation pipeline within SDOS™
+- [Security Decision Architecture (SDA)](security-decision-architecture.md) — technical implementation pipeline
 - [Governed Agentic Security Stack](../stack/index.md) — stack layers with portfolio evidence
 - [Architecture Decisions](architecture-decisions.md) — ADR summaries for detection, governance, and automation
 - [GIAP™ — Governed Intake and Analysis Platform](../cybersecurity/giap.md)

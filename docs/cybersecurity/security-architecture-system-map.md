@@ -26,7 +26,7 @@ flowchart TD
     TL["TraceLock"]
     GIAP["GIAP"]
     AOS["AgenticOS"]
-    SDOS_D["SDOS™"]
+    SDOS_D["Security Decisions"]
 
     T --> D --> A --> O --> G --> S
 
@@ -53,9 +53,9 @@ GIAP™ provides governance automation patterns for intake, control mapping, and
 
 AgenticOS provides governed orchestration patterns for repeatable, auditable AI-assisted workflow execution.
 
-### SDOS™
+### Security Decision Layer
 
-SDOS™ represents the decision architecture where telemetry, detection, and governance outputs become structured security decisions.
+The decision architecture layer is where telemetry, detection, and governance outputs become structured security decisions.
 
 ## Portfolio capability signals
 
@@ -72,4 +72,4 @@ SDOS™ represents the decision architecture where telemetry, detection, and gov
 - [Detection Engineering](detection-engineering.md)
 - [Architecture Decisions](../architecture/architecture-decisions.md)
 - [GIAP™ — Governed Intake and Analysis Platform](giap.md)
-- [Governed Security Architecture (SDOS™ context)](../architecture/governed-security-architecture.md)
+- [Governed Security Architecture](../architecture/governed-security-architecture.md)

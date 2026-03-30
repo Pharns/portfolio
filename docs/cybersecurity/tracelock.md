@@ -1,15 +1,15 @@
 ---
-description: TraceLock™ — Patent-pending multi-domain RF threat detection platform with real-time monitoring across Wi-Fi, Bluetooth, SDR, GPS, and ADS-B. Detection engineering with Python automation and forensic-grade logging.
+description: TraceLock™ — Multi-domain RF threat detection platform with real-time monitoring across wireless domains. Detection engineering with Python automation and forensic-grade logging.
 ---
 # TraceLock™ — Multi-Domain RF Threat Detection Platform
 
-*Patent Pending (Filed November 2025) · WGU BSCSIA Capstone · Degree Conferred March 2026*
+*WGU BSCSIA Capstone · Degree Conferred March 2026*
 
 **Role:** Sole developer | Security-hardened fork | ~12,500 LOC (25 Python modules, 81 shell scripts) | 6 RF domains
 
 !!! success "For Hiring Managers — Detection Engineer / Security Automation"
 
-    **What I Built:** Real-time RF surveillance detection system that monitors 6 wireless domains simultaneously, correlates threats across sensors, and produces forensic-grade evidence logs. *(Provisional patent filed)*
+    **What I Built:** Real-time RF surveillance detection system that monitors 6 wireless domains simultaneously, correlates threats across sensors, and produces forensic-grade evidence logs.
 
     **Technical Stack:** Python 3.10+ · ARM SBC · Kismet · SDR Receivers · BLE Adapters · SQLite · GitHub Actions CI
 
@@ -78,7 +78,7 @@ TraceLock™ is a security-hardened fork of CYT (Chasing Your Tail). Here's what
 | **Detection** | Probe logging | Multi-domain correlation engine with persistence scoring |
 | **Visualization** | Text logs | KML with Google Earth integration, HTML reports |
 | **Hardware** | Single adapter | 8-component core kit (RTL-SDR, Ubertooth, GPS, etc.) + HackRF extension |
-| **Status** | Proof of concept | Patent pending, WGU BSCSIA capstone (complete) |
+| **Status** | Proof of concept | WGU BSCSIA capstone (complete) |
 | **Codebase** | ~2,000 LOC | ~12,500 LOC (25 Python modules, 81 shell scripts) |
 
 ---
@@ -111,59 +111,13 @@ TraceLock's detection architecture depends on the Agentic Infrastructure layer f
 
 **Codebase:** 25 Python modules, 81 shell scripts, ~12,500 LOC, GitHub Actions CI
 
-```mermaid
-%%{init: {"themeVariables": {"fontSize": "32px"}}}%%
-flowchart LR
-    subgraph CORE["TRACELOCK CORE"]
-        direction LR
-        subgraph S["SENSORS"]
-            S1["Kismet Wi-Fi"]
-            S2["rtl_433 ISM"]
-            S3["Bluetooth"]
-            S4["gpsd GPS"]
-            S5["dump1090 ADSB"]
-            S6["HackRF SDR"]
-        end
-        subgraph D["DETECTION ENGINE"]
-            D1["Rule Matching"]
-            D2["Threshold Tuning"]
-            D3["Correlation"]
-            D4["Allowlisting"]
-            D5["Persistence Scoring"]
-        end
-        subgraph O["OUTPUT"]
-            O1["JSON Logs"]
-            O2["Markdown Reports"]
-            O3["KML Maps"]
-            O4["MQTT Alerts"]
-            O5["HTML Reports"]
-        end
-    end
+*Software architecture diagram withheld — the system processes data from 6 sensor domains through a detection engine to multiple output formats including structured logs, geospatial exports, and real-time alerts.*
 
-    style CORE fill:#f8fafc,stroke:#334155,stroke-width:2px
-    style S fill:#e8f4ea,stroke:#2e7d32,stroke-width:2px
-    style D fill:#e0f2fe,stroke:#0284c7,stroke-width:2px
-    style O fill:#fef3c7,stroke:#d97706,stroke-width:2px
-```
+### Python Modules
 
-*Figure: Software architecture showing data flow from 6 sensor types (Wi-Fi, ISM, Bluetooth, GPS, ADS-B, HackRF) through a detection engine (rule matching, threshold tuning, correlation, allowlisting, persistence scoring) to 5 output formats (JSON logs, Markdown reports, KML maps, MQTT alerts, HTML reports).*
+25 Python modules covering GPS tracking, persistence detection, RF analysis, BLE enumeration, ISM signal classification, surveillance detection, and operator interface — ~8,200 total Python LOC.
 
-### Python Module Breakdown
-
-| Module | Purpose | LOC |
-|--------|---------|----:|
-| `gps_tracker.py` | Location clustering and KML generation | 1,010 |
-| `[persistence_engine]` | Persistence detection engine with scoring | 871 |
-| `mylocation_analyzer.py` | Multi-location tracking algorithms | 844 |
-| `rf_analyzer.py` | Wideband RF signal analysis (HackRF) | 842 |
-| `cyt_gui.py` | Tkinter GUI for operator interface | 839 |
-| `ble_analyzer.py` | Bluetooth Low Energy analysis | 576 |
-| `surveillance_analyzer.py` | GPS surveillance detection with KML export | 457 |
-| `probe_analyzer.py` | Post-processing with WiGLE API integration | 346 |
-| `ism_analyzer.py` | ISM433 signal classifier for rtl_433 feeds | 329 |
-| `chasing_your_tail.py` | Core monitoring engine — real-time Kismet DB queries | 137 |
-
-*Top 10 of 25 Python modules — 6,251 LOC shown, ~8,200 total Python LOC*
+*Module names and detailed breakdown withheld.*
 
 ### Security Modules (Hardened)
 
@@ -186,9 +140,9 @@ flowchart LR
 
 TraceLock™ correlates signals across domains to identify sophisticated threats:
 
-TraceLock™ correlates events across sensor domains using temporal proximity, spatial clustering, and behavioral persistence scoring. When signals from multiple domains converge within configurable thresholds, the correlation engine elevates the combined observation into a structured threat alert with full evidence chain.
+TraceLock™ correlates events across multiple sensor domains to identify compound threats that single-domain tools miss. When signals from multiple domains converge, the system elevates the combined observation into a structured threat alert with full evidence chain.
 
-*Implementation details are withheld pending patent prosecution.*
+*Implementation details withheld.*
 
 ### 2. Detection Rules with Tunable Thresholds
 
@@ -200,7 +154,7 @@ TraceLock™ correlates events across sensor domains using temporal proximity, s
 | GPS Anomaly | Position discontinuity | Multi-fix averaging |
 | Drone Proximity | ADS-B proximity alert | Flight path prediction |
 
-*Specific threshold values and trigger parameters are withheld pending patent prosecution.*
+*Specific threshold values and trigger parameters are proprietary.*
 
 ### 3. Security Hardening
 
@@ -230,13 +184,13 @@ TraceLock™ correlates events across sensor domains using temporal proximity, s
 
 TraceLock™ uses a three-layer architecture: **Sensor Layer** (multi-domain RF inputs) → **Processing Layer** (normalization, correlation, detection) → **Output Layer** (forensic logs, geospatial exports, real-time alerts).
 
-*Detailed architecture diagrams are withheld pending patent prosecution.*
+*Detailed architecture diagrams are proprietary.*
 
 ### Sample Detection Output
 
 TraceLock™ produces structured JSON alerts with timestamp, alert classification, severity rating, sensor evidence, geolocation, and correlation identifiers. Output is designed for forensic chain-of-custody requirements and downstream SIEM ingestion.
 
-*Sample output schema withheld pending patent prosecution. Synthetic examples available in the [public repository](https://github.com/Pharns/tracelock-public/tree/main/examples).*
+*Sample output schema is proprietary. Synthetic examples available in the [public repository](https://github.com/Pharns/tracelock-public/tree/main/examples).*
 
 ### KML Visualization
 *Threat locations mapped with temporal correlation — screenshots available on request*
@@ -295,7 +249,7 @@ TraceLock™ produces structured JSON alerts with timestamp, alert classificatio
 | WGU Task 1 (Topic) | ✅ Approved | Official capstone approval received |
 | WGU Task 2 (Proposal) | ✅ Complete | Submitted and approved |
 | WGU Task 3 (Final Report) | ✅ Complete | Submitted and approved |
-| Provisional Patent | ✅ Filed | Patent pending (November 2025) |
+| IP Protection | ✅ Active | Proprietary |
 | GitHub CI/CD | ✅ Active | Smoke tests on push |
 
 **Degree Conferred:** March 2026 (B.S. Cybersecurity & Information Assurance)
@@ -337,7 +291,7 @@ TraceLock™ demonstrates how adversarial signal detection can be governed as an
   "@context": "https://schema.org",
   "@type": "TechArticle",
   "headline": "TraceLock™ — Multi-Domain RF Threat Detection Platform",
-  "description": "Patent-pending multi-domain RF threat detection platform with real-time monitoring across Wi-Fi, Bluetooth, SDR, GPS, and ADS-B. Detection engineering with Python automation and forensic-grade logging.",
+  "description": "Multi-domain RF threat detection platform with real-time monitoring across wireless domains. Detection engineering with Python automation and forensic-grade logging.",
   "author": {
     "@type": "Person",
     "name": "Pharns Genece",

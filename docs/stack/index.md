@@ -6,7 +6,7 @@ The **Governed Agentic Security Stack** is an evolving architecture model for de
 
 The stack is intentionally iterative. Layers are interdependent and often overlap; the goal is not rigid categorization but coherent, defensible system design.
 
-For a system-of-systems view across KnowledgeOS, AgenticOS, GIAP™, TraceLock™, and SDOS™, see [Governed Security Architecture](../architecture/governed-security-architecture.md). For the detailed telemetry-to-decision pipeline, see [Security Telemetry → Governance → Decision Architecture](../architecture/security-telemetry-decision-architecture.md). For the technical implementation layer within SDOS™, see [Security Decision Architecture (SDA)](../architecture/security-decision-architecture.md).
+For a system-of-systems view across KnowledgeOS, AgenticOS, GIAP™, and TraceLock™, see [Governed Security Architecture](../architecture/governed-security-architecture.md). For the detailed telemetry-to-decision pipeline, see [Security Telemetry → Governance → Decision Architecture](../architecture/security-telemetry-decision-architecture.md). For the technical implementation layer, see [Security Decision Architecture (SDA)](../architecture/security-decision-architecture.md).
 
 ---
 
