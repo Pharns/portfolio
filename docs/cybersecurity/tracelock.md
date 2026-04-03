@@ -28,6 +28,19 @@ description: TraceLock™ — Multi-domain RF threat detection platform with rea
 
 ---
 
+## Case summary
+
+| | |
+|---|---|
+| **Problem** | Security teams face 12–18 minute RF blind spots during sweep operations; existing tools monitor single wireless domains with no cross-domain correlation |
+| **Environment** | Raspberry Pi 4 (8GB) · Python 3.10+ · Kismet · RTL-SDR V4 · Ubertooth · SQLite · GitHub Actions CI |
+| **What I built** | Real-time multi-domain sensor fusion: Wi-Fi + BLE + SDR + GPS + ADS-B correlation engine with forensic-grade logging and tunable detection thresholds |
+| **Framework mapping** | Detection engineering fundamentals · evidence-grade logging aligned with audit trail requirements · MITRE ATT&CK for ICS (RF threat vectors) |
+| **Measurable outcome** | Eliminates RF blind spots across 6 simultaneous domains; patent-pending architecture; WGU BSCSIA capstone (Mar 2026) |
+| **Artifacts** | [Public repo](https://github.com/Pharns/tracelock-public){target=_blank} · ~12,500 LOC · 25 Python modules · 81 shell scripts · example detection outputs |
+
+---
+
 !!! abstract "Governed Agentic Security Stack — Agentic Detection & Adversarial Validation Layer"
 
     **Stack Position:** TraceLock™ is the Agentic Detection & Adversarial Validation Layer of the Governed Agentic Security Stack — the layer that detects adversarial signals in the environment where AI-governed security workflows operate.

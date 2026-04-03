@@ -4,6 +4,21 @@ description: "Download Pharns Genece's resume — GRC Engineer, Cloud Security, 
 
 # Resume
 
+## Recruiter summary
+
+Security architect/operator with 7 years building and securing production infrastructure, plus hands-on client compliance delivery across HIPAA, PCI-DSS, and SOC 2. Differentiated by founder-level execution, RF/UAS specialization (USPTO patents, TraceLock™), and governed automation systems. Target roles: Security Architect, GRC Engineer, Cloud Security Engineer.
+
+**Scan-ready proof:**
+
+- 7 years production infrastructure security (USOG, $5.6M enterprise build)
+- 15,000+ vulnerabilities remediated
+- PCI-DSS endpoint hardening delivered in <48 hours with full evidence pack
+- CIS v8, NIST CSF, SOC 2, HIPAA — in production and client engagements
+- USAF veteran, service-disabled, federal clearance eligible
+- 14 active certifications · B.S. Cybersecurity (WGU, Mar 2026)
+
+---
+
 View my full resume below or download for offline use.
 
 <div class="stat-grid" markdown>
@@ -29,7 +44,7 @@ View my full resume below or download for offline use.
 
 | Category | Details |
 |----------|---------|
-| **Target roles** | Security Engineer · Cloud Security Engineer · Detection Engineer |
+| **Target roles** | Security Architect · GRC Engineer · Cloud Security Engineer · Detection Engineer |
 | **Experience** | 7 years enterprise infrastructure (USOG) · career USAF veteran |
 | **Education** | B.S. Cybersecurity & Information Assurance (WGU) — Mar 2026 |
 | **Certifications** | Security+ · CySA+ · CSAP · PenTest+ · CNSP · CNVP · Network+ · SSCP (Assoc.) · ITIL4 · 14 total |

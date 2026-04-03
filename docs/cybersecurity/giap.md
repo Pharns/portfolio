@@ -17,6 +17,19 @@ description: "GIAP™ — Multi-agent GRC automation with n8n and CISO Assistant
 
 ---
 
+## Case summary
+
+| | |
+|---|---|
+| **Problem** | GRC workflows are manual, inconsistent, and hard to audit — intake, control mapping, and evidence collection all disconnected |
+| **Environment** | Self-hosted Proxmox · CISO Assistant · n8n · Nextcloud · SuiteCRM · DocuSeal · Cloudflare |
+| **What I built** | Deposit-gated client portal → HMAC-authenticated webhook → n8n orchestration → CRM sync → e-signature → POA&M generation |
+| **Framework mapping** | NIST CSF · CIS Controls v8 · HIPAA · SOC 2 · PCI-DSS v4.0 · CPRA · 100+ frameworks via CISO Assistant |
+| **Measurable outcome** | ~70% reduction in audit prep time; automated full GRC lifecycle from intake to remediation; 9 active workflows; 8 test leads E2E verified |
+| **Artifacts** | [Live demo](https://portal.aamcyber.work/demo/){target=_blank} · 829-line portal · 67-file React UI · FastAPI backend |
+
+---
+
 ### Stack Positioning
 
 GIAP™ operates as the **Agentic GRC Layer** within the Governed Agentic Security Stack. While the Agentic Infrastructure layer governs the AI execution environment and the Agentic Detection layer monitors external and behavioral signals, GIAP™ governs the compliance workflows those agents execute.

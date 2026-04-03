@@ -6,6 +6,11 @@ description: "Contact Pharns Genece for GRC engineering, cloud security, or comp
 
 Ready to discuss GRC engineering, cloud security, or compliance automation opportunities.
 
+Two paths depending on what you need:
+
+- **[Hire Me](#hire-me)** — Employment, contract, or W-2 roles
+- **[Engage AAM Cyber](#engage-aam-cyber)** — Consulting engagements, assessments, project-based work
+
 ---
 
 ## Best ways to reach me
@@ -54,15 +59,9 @@ Snapshot and download options
 
 ---
 
-## What I'm looking for
+## Hire me
 
-**Target roles:**
-
-- GRC Engineer (technical implementation focus)
-- Cloud Security Engineer (GRC/compliance focus)
-- Detection Engineer
-- Security Controls Implementation Specialist
-- AAM/UAV Security · Cyber-Physical Systems
+**Target roles:** Security Architect · GRC Engineer · Cloud Security Engineer · Detection Engineer
 
 **Best fit if your role involves:**
 
@@ -73,6 +72,30 @@ Snapshot and download options
 - Cross-functional work bridging security and engineering teams
 
 **I bring unique value to:** AAM/drone security, RF threat detection, cyber-physical systems — domains where few practitioners combine operational experience with cybersecurity credentials
+
+### What I can deliver in the first 30/60/90 days
+
+| Timeline | Deliverable |
+|----------|-------------|
+| **Days 1–30** | Assess current control posture · identify priority gaps · map to applicable frameworks (NIST CSF, CIS v8, PCI-DSS, SOC 2) |
+| **Days 31–60** | Implement baseline guardrails · harden cloud/endpoint configurations · improve evidence collection workflows |
+| **Days 61–90** | Tune detections and alerts · deliver audit-ready documentation · establish ongoing monitoring and reporting cadence |
+
+---
+
+## Engage AAM Cyber
+
+**Best fit consulting engagements:**
+
+- HIPAA / SOC 2 readiness assessments and gap analysis
+- PCI-DSS endpoint hardening with evidence pack delivery
+- Cloud security governance (AWS — IAM, GuardDuty, S3, CloudTrail)
+- RF/UAS cyber-physical security assessment
+- Compliance automation architecture and implementation
+
+**Engagement models:** Project-based · Retainer · 1099 contract · International contractor available
+
+[Email for consulting →](mailto:career@pharns.com){ .btn-primary }
 
 ---
 

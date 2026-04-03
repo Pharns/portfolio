@@ -4,24 +4,54 @@ description: "Portfolio showcasing how I design and build security programs that
 
 # Pharns Genece
 
-**Security Engineer | GRC, Cloud Security & Detection Engineering**
+**Security Architect & GRC Engineer**
 
-I build the controls I document: cloud guardrails, endpoint hardening, and evidence pipelines. Full-stack GRC from framework mapping to implementation.
+I build the controls I document — cloud guardrails, endpoint hardening, evidence pipelines, and detection workflows that stand up in real operations and audits.
 
-I design controls, implement detection logic, and deliver audit-ready evidence across cloud and on-prem environments.
-
-**Target roles:** GRC Engineer · Cloud Security Engineer · Detection Engineering · RF/Wireless Security
+Best fit for teams that need implementation, not just policy decks.
 
 USAF Veteran (service-disabled) · Security Clearance Eligible · Security+/CySA+/PenTest+/SSCP · B.S. Cybersecurity (Mar 2026)
 
-<span class="availability-badge">📅 Available Now</span>
+[Hire Me →](contact.md#hire-me){ .btn-primary } [Engage AAM Cyber →](contact.md#engage-aam-cyber){ .btn-ghost }
 
-[View GRC Projects](grc/index.md){ .btn-primary } [Contact](contact.md){ .btn-ghost }
+---
 
-!!! info "Featured Architecture Artifact"
-    **Governed Security Architecture** presents how KnowledgeOS, AgenticOS, GIAP™, and TraceLock™ operate as one decision-driven security model.
+## Results at a glance
 
-    [View Architecture Model](architecture/governed-security-architecture.md)
+<div class="stat-grid" markdown>
+<div class="stat-tile" markdown>
+**7 years production security**
+Built enterprise IT security stack from scratch at USOG — CIS v8, NIST CSF, SOC 2
+</div>
+<div class="stat-tile" markdown>
+**15,000+ vulnerabilities remediated**
+Identified and resolved across production systems over 7-year infrastructure tenure
+</div>
+<div class="stat-tile" markdown>
+**<48 hours**
+PCI-DSS endpoint hardening with audit-ready evidence pack — financial services client
+</div>
+<div class="stat-tile" markdown>
+**14 active certifications**
+Security+, CySA+, CSAP, PenTest+, CNSP, CNVP, Network+, SSCP (Assoc.), ITIL4, LPI, Project+ [→ View all](certifications.md)
+</div>
+<div class="stat-tile" markdown>
+**B.S. Cybersecurity (WGU, Mar 2026)**
+CIS v8 IG1-IG2 mapped to NIST CSF and SOC 2
+</div>
+<div class="stat-tile" markdown>
+**Career USAF veteran**
+Mission-critical operations, service-disabled, security clearance eligible
+</div>
+</div>
+
+---
+
+## Why I'm different
+
+- **I implement controls, not just map them.** Framework requirements become working configurations, monitoring logic, and documented evidence — not recommendations in a report.
+- **I connect governance to operations.** My work spans control design, technical implementation, telemetry pipelines, and audit-ready outputs. The documentation reflects what actually runs.
+- **I bring edge-domain depth most candidates don't have.** RF/UAS security (USPTO patents, TraceLock™), governed automation systems, and real operator experience across USAF, a $5.6M startup build, and active consulting engagements.
 
 ---
 
@@ -70,7 +100,7 @@ Comprehensive security assessment and remediation. M365 hardening, dark web moni
   "@context": "https://schema.org",
   "@type": "Person",
   "name": "Pharns Genece",
-  "jobTitle": "Security Engineer | GRC, Cloud Security & Detection Engineering",
+  "jobTitle": "Security Architect & GRC Engineer",
   "url": "https://portfolio.pharns.com",
   "sameAs": [
     "https://linkedin.com/in/pharns",
@@ -204,37 +234,6 @@ Governance-focused RF assessment of BLE and Wi-Fi activity in smart-building dep
 
 ---
 
-## Results at a glance
-
-<div class="stat-grid" markdown>
-<div class="stat-tile" markdown>
-**7 years (2017-2024)**
-Production infrastructure security — built enterprise stack from scratch at USOG
-</div>
-<div class="stat-tile" markdown>
-**CIS v8 IG1-IG2**
-Framework implementation mapped to NIST CSF and SOC 2
-</div>
-<div class="stat-tile" markdown>
-**15,000+ issues (2017-2024)**
-Vulnerabilities identified and remediated across production systems over 7 years
-</div>
-<div class="stat-tile" markdown>
-**<48 hours (Dec 2024)**
-PCI-DSS endpoint hardening with audit-ready evidence pack for financial services client
-</div>
-<div class="stat-tile" markdown>
-**14 active certifications**
-Security+, CySA+, CSAP, PenTest+, CNSP, CNVP, Network+, SSCP (Assoc.), ITIL4, LPI, Project+ [→ View all](certifications.md)
-</div>
-<div class="stat-tile" markdown>
-**Career USAF veteran**
-Mission-critical operations, security clearance eligible
-</div>
-</div>
-
----
-
 ## Detection engineering & offensive security
 
 <div class="section-panel" markdown>
@@ -254,24 +253,18 @@ Mission-critical operations, security clearance eligible
 
 <div class="section-panel" markdown>
 
-**I build AI systems, not just use them.** CareerOS — the multi-agent system powering my job search — demonstrates production-grade prompt engineering, context management, and workflow orchestration.
+Security operations are documentation-heavy: control matrices, policy drafts, evidence collection, runbooks. I use governed automation to reduce that burden — faster delivery, same rigor.
 
-**What I've built:**
+| Outcome | How |
+|---------|-----|
+| Faster cross-framework control mapping | LLM-assisted mapping with structured prompts and human validation |
+| Consistent, auditable evidence | Reproducible documentation output from structured schemas |
+| Reduced manual SIEM authoring effort | LLM-assisted detection content with analyst review gate |
+| Repeatable compliance delivery at scale | GIAP™ workflow automation — intake → framework → evidence |
 
-- **GIAP™** — Production GRC automation platform with n8n workflows, webhook pipelines, and planned MCP integration for natural language compliance queries
-- **TraceLock™** — Patent-pending RF threat detection with AI-assisted detection tuning and false positive reduction through pattern extraction
-- **CareerOS** — 1,100+ line multi-agent system demonstrating production-grade prompt engineering, structured JSON schemas, and multi-model orchestration (Claude, GPT, Gemini)
+**Production systems:** GIAP™ (live GRC automation platform — [try the demo](https://portal.aamcyber.work/demo/){target=_blank}), TraceLock™ (RF threat detection with AI-assisted tuning and false-positive reduction), governed two-machine AI agent environment with fixed-schema audit outputs and drift detection.
 
-**Why this matters for security roles:**
-
-| Traditional Approach | AI-Augmented Approach |
-|---------------------|----------------------|
-| Manual SIEM rule authoring | LLM-assisted detection content with human validation |
-| Copy-paste policy templates | Structured prompt → consistent, auditable output |
-| Spreadsheet control mapping | AI-driven cross-framework mapping at scale |
-| Ad-hoc documentation | Living docs generated from structured schemas |
-
-**Skills:** Prompt Engineering · Multi-Agent Orchestration · Context Management · Structured Output Design · AI-Assisted Code Review · MCP Protocol
+**Skills:** Prompt Engineering · Multi-Agent Orchestration · Structured Output Design · n8n Workflow Automation · MCP Protocol · AI-Assisted Detection Tuning
 
 </div>
 
@@ -306,11 +299,11 @@ AWS Cloud Practitioner, ISC² CCSP
 
 ---
 
-## What others say
+## What clients say
 
 > "Pharns delivered a complete compliance package with documentation quality that rivals consultants with twice his experience. His ability to implement technical controls while maintaining audit-ready evidence is rare."
 >
-> — **Security stakeholder**, Client engagement via AAM Cyber, LLC
+> — **Compliance stakeholder**, Healthcare MSP engagement, 2024 (via AAM Cyber, LLC)
 
 <small>*Additional references available upon request.*</small>
 

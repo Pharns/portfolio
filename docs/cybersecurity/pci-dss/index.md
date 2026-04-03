@@ -18,6 +18,19 @@ description: Standalone Windows 11 endpoint architecture designed to meet PCI DS
 
 ---
 
+## Case summary
+
+| | |
+|---|---|
+| **Problem** | Mortgage company issued workstations with no disk encryption, no malware protection, and residual client data from previous users |
+| **Environment** | Windows 11 Home/Pro (standalone) · financial services SMB client |
+| **What I built** | BitLocker full-disk encryption · dual-layer malware defense (Defender + Malwarebytes) · GPO firewall enforcement · Patch My PC automation · GlassWire network monitoring · PowerShell audit logging |
+| **Framework mapping** | PCI-DSS v4.0 (47 controls) · CIS Benchmarks for Windows 11 |
+| **Measurable outcome** | Incident response to fully compliant workstation in <48 hours; complete audit-ready evidence pack delivered to client |
+| **Artifacts** | Architecture diagram · control mapping spreadsheet · evidence pack · GPO export |
+
+---
+
 *"Compliance isn't a product — it's an environment."*
 
 This project originated from a **real-world incident** where a mortgage company issued a workstation that was **entirely unsecured** — no disk encryption, no malware protection, and containing **residual client data from previous users**.
