@@ -1,3 +1,11 @@
+---
+description: "TraceLock telemetry-to-decision architecture pattern — routing RF detection outputs through analytics and governance models into security architecture decisions."
+---
+
+---
+description: "TraceLock telemetry-to-decision architecture pattern — routing RF detection outputs through analytics and governance into security architecture decisions."
+---
+
 # TraceLock™ — Telemetry-to-Decision Model
 
 This page shows a public-safe architecture pattern for connecting telemetry from TraceLock™ to higher-level security decision systems. It is designed to communicate system thinking across detection, governance, and architecture decision workflows.

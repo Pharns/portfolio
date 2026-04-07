@@ -1,3 +1,11 @@
+---
+description: "Research notes, prototypes, and technical deep dives connecting UAV innovation with cybersecurity — bridging physical systems and wireless security domains."
+---
+
+---
+description: "Research notes, prototypes, and technical deep dives connecting UAV innovation, drone engineering, and cybersecurity domains."
+---
+
 # ✍️ **Innovation Write-Ups**
 
 !!! danger "Legal Review"

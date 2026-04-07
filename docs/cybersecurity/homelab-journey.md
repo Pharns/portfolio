@@ -1,3 +1,11 @@
+---
+description: "Step-by-step Proxmox homelab build for cybersecurity testing — hardware selection, image validation, network segmentation, and secure remote access from day one."
+---
+
+---
+description: "Homelab build journey with Proxmox — hardware selection, image validation, network segmentation, and secure remote access for a virtual security lab."
+---
+
 # 🚀 **Homelab Build Journey: Building a Virtual Security Lab with Proxmox**
 
 **TL;DR:** Plain-English build story of the lab: how I chose hardware, validated images, segmented the network, and added secure remote access. Highlights repeatable steps and risk-thinking that non-technical stakeholders can follow. Outcome: validated Proxmox install with checksums/GPG and network segmentation completed day 1.

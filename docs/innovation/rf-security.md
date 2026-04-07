@@ -1,3 +1,11 @@
+---
+description: "Applied SDR research including UAV interception, C2 link analysis, wireless protocol reverse engineering, and HackRF/RTL-SDR security testing applications."
+---
+
+---
+description: "Applied SDR research including UAV interception, C2 link analysis, wireless protocol reverse engineering, and HackRF/RTL-SDR security testing applications."
+---
+
 # 📡 **SDR & RF Security Research**
 
 !!! danger "Legal Review"

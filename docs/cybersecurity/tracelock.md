@@ -67,6 +67,19 @@ Executive protection and security teams face a critical gap: **12-18 minutes of 
 
 ---
 
+## TraceLock vs. Traditional Wireless IDS
+
+| Capability | Traditional WIDS | TraceLock™ |
+|-----------|-----------------|------------|
+| Domains monitored | Wi-Fi only | 6 domains (Wi-Fi, BLE, SDR, GPS, ADS-B, cellular) |
+| Detection approach | Signature-based | Multi-domain correlation with behavioral analysis |
+| Evidence grade | Alert logs only | Forensic-grade structured logging with chain of custody |
+| Hardware | Enterprise appliances ($10K+) | Raspberry Pi + commodity SDR (~$200) |
+| Deployment | Fixed infrastructure | Portable, field-deployable |
+| Governance | None | SDOS-governed decision pipeline |
+
+---
+
 ## Use Cases & Transferable Skills
 
 | Scenario | Domain | Skills Demonstrated |
@@ -326,6 +339,22 @@ TraceLock™ demonstrates how adversarial signal detection can be governed as an
   }
 }
 </script>
+
+---
+
+## Frequently Asked Questions
+
+**What is TraceLock?**
+TraceLock is a multi-domain RF threat detection platform that monitors 6 wireless domains simultaneously — Wi-Fi, Bluetooth Low Energy, SDR (ISM band), GPS, ADS-B, and cellular — correlating threats across sensors to produce forensic-grade evidence logs.
+
+**How is TraceLock different from a traditional wireless IDS?**
+Traditional WIDS monitors Wi-Fi only using signature-based detection. TraceLock correlates activity across 6 RF domains with behavioral analysis, runs on a ~$200 Raspberry Pi instead of $10K+ enterprise appliances, and produces chain-of-custody-ready evidence logs.
+
+**What hardware does TraceLock require?**
+A Raspberry Pi 4/5, RTL-SDR dongle, HackRF One (optional), BLE-capable adapter, and GPS receiver. Total hardware cost is approximately $200, compared to $10,000+ for enterprise wireless security appliances.
+
+**What detection engineering skills does TraceLock demonstrate?**
+Multi-source correlation, custom detection rule authoring with tunable thresholds, false positive reduction through pattern extraction, real-time alerting, structured logging pipelines, and security hardening (parameterized queries, encrypted credentials, input validation).
 
 <br>
 ---

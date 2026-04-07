@@ -88,6 +88,19 @@ In this architecture, AI is not merely assisting documentation — it is embedde
 
 ---
 
+## GIAP vs. Traditional GRC Tooling
+
+| Capability | Spreadsheet/Manual GRC | GIAP™ |
+|-----------|----------------------|-------|
+| Framework coverage | 1-3 frameworks manually mapped | 100+ frameworks via CISO Assistant |
+| Intake process | Email-based, unstructured | HMAC-authenticated webhooks, automated routing |
+| Evidence collection | Manual screenshots and exports | Structured evidence pipelines with retention policies |
+| Scalability | Linear effort per client | Automated workflows scale across engagements |
+| Integration | Siloed tools | n8n + Nextcloud + SuiteCRM + CISO Assistant |
+| Cost | Enterprise GRC suite ($50K+/yr) | Self-hosted open source stack |
+
+---
+
 ## End-to-End Workflow
 
 GIAP™ implements a two-phase workflow with a clear **deposit gate** separating pre-engagement qualification from paid consulting work. **CISO Assistant** serves as the single GRC platform for both phases — API-first with 100+ framework mappings.
@@ -1044,6 +1057,44 @@ Pairs with [Cloud Control Pack](aws-control-pack.md) for cloud governance and [T
 GIAP™ demonstrates how AI-driven compliance workflows can be governed as a production security system — not merely automated as a convenience tool.
 
 [Contact](../contact.md){ .md-button .md-button--primary } [LinkedIn](https://www.linkedin.com/in/pharns/){ .md-button }
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "GIAP™ — Governed Intake and Analysis Platform",
+  "description": "Multi-agent GRC automation with n8n and CISO Assistant. Intake, control mapping, and POA&M generation across 100+ frameworks for GRC Engineers.",
+  "author": {
+    "@type": "Person",
+    "name": "Pharns Genece",
+    "url": "https://portfolio.pharns.com"
+  },
+  "datePublished": "2025-11-01",
+  "dateModified": "2026-02-20",
+  "publisher": {
+    "@type": "Person",
+    "name": "Pharns Genece"
+  },
+  "mainEntityOfPage": "https://portfolio.pharns.com/cybersecurity/giap/",
+  "keywords": ["GRC automation", "CISO Assistant", "n8n", "compliance", "HIPAA", "SOC 2", "NIST CSF", "security engineering"]
+}
+</script>
+
+---
+
+## Frequently Asked Questions
+
+**What is GIAP?**
+GIAP (Governed Intake and Analysis Platform) is a production GRC automation platform that orchestrates client intake, control mapping across 100+ frameworks, evidence collection, and POA&M generation using n8n workflows, CISO Assistant, Nextcloud, and SuiteCRM.
+
+**How does GIAP compare to enterprise GRC tools like ServiceNow or Archer?**
+GIAP achieves similar workflow automation at a fraction of the cost using open-source components (CISO Assistant, n8n, Nextcloud). It covers 100+ frameworks, provides HMAC-authenticated intake, and scales across client engagements — all self-hosted for data sovereignty.
+
+**Can I try a demo?**
+Yes. The live client intake portal demo is available at [portal.aamcyber.work/demo](https://portal.aamcyber.work/demo/). Demo submissions are flagged and do not create real client records.
+
+**What frameworks does GIAP support?**
+GIAP leverages CISO Assistant's 100+ framework library including NIST CSF, CIS Controls v8, PCI-DSS v4.0, SOC 2, HIPAA, ISO 27001, CPRA, and dozens of industry-specific standards with cross-framework control mapping.
 
 <br>
 ---

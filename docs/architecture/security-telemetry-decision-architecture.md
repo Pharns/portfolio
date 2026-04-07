@@ -1,3 +1,11 @@
+---
+description: "Capstone architecture mapping raw signal collection through governance evaluation to structured security decisions across TraceLock, GIAP, and AgenticOS."
+---
+
+---
+description: "Capstone architecture mapping raw signal collection through governance evaluation to structured security decisions — telemetry, detection, and risk in one pipeline."
+---
+
 # Security Telemetry → Governance → Decision Architecture
 
 This capstone artifact maps the full architecture path from raw signal collection through governance evaluation to structured security decisions. It shows how portfolio systems connect into one integrated security architecture rather than operating as independent tools.

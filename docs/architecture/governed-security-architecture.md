@@ -1,3 +1,11 @@
+---
+description: "Integrated security architecture connecting governance, detection, and automation layers into a unified decision model with KnowledgeOS, AgenticOS, GIAP, and TraceLock."
+---
+
+---
+description: "Integrated security architecture connecting governance, detection, and automation layers into one decision-driven model using KnowledgeOS, AgenticOS, GIAP, and TraceLock."
+---
+
 # Governed Security Architecture
 
 This page shows how the portfolio's core systems connect into a single security architecture model. The goal is to make governance, detection, automation, and decision layers visible as one integrated design — and to explain why that integration matters for security program quality.

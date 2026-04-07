@@ -1,3 +1,11 @@
+---
+description: "Cybersecurity portfolio featuring detection engineering, RF threat monitoring, compliance automation, cloud hardening, and hands-on vulnerability assessment work."
+---
+
+---
+description: "Cybersecurity portfolio covering detection engineering, compliance automation, RF threat detection, cloud security, vulnerability assessment, and homelab infrastructure."
+---
+
 # Cybersecurity Portfolio
 
 Focused on detection, hardening, and compliance automation with a wireless/RF edge.

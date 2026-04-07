@@ -1,3 +1,11 @@
+---
+description: "AJR (Agentic Job Radar) — decision-architecture system that scores, gates, and deduplicates cybersecurity job listings into a reviewable daily shortlist."
+---
+
+---
+description: "AJR (Agentic Job Radar) — decision architecture system that scores, gates, and deduplicates cybersecurity job listings into a reviewable daily shortlist."
+---
+
 # AJR: Opportunity intelligence decision architecture
 
 **One-line summary:** AJR (Agentic Job Radar) is a personal decision-architecture system that reduces job-market noise into a shortlist of high-fit cybersecurity opportunities through explainable scoring, gating, and human review.

@@ -116,3 +116,25 @@ This project emphasizes that **endpoint negligence** — even in small businesse
 By focusing on **workstation-level controls**, this design proves that PCI DSS compliance is achievable **without enterprise infrastructure**, provided each device is hardened, logged, and encrypted.
 
 > *All content is educational and sanitized for portfolio demonstration. No production systems, credentials, or client data are included.*
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "PCI DSS Compliance — Windows 11 Secure Workstation Design",
+  "description": "Standalone Windows 11 endpoint architecture designed to meet PCI DSS v4.0 standards for protecting cardholder data and sensitive financial information.",
+  "author": {
+    "@type": "Person",
+    "name": "Pharns Genece",
+    "url": "https://portfolio.pharns.com"
+  },
+  "datePublished": "2025-11-01",
+  "dateModified": "2025-12-25",
+  "publisher": {
+    "@type": "Person",
+    "name": "Pharns Genece"
+  },
+  "mainEntityOfPage": "https://portfolio.pharns.com/cybersecurity/pci-dss/",
+  "keywords": ["PCI DSS", "Windows 11", "endpoint hardening", "BitLocker", "compliance", "GRC", "security controls"]
+}
+</script>

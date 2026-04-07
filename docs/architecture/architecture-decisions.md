@@ -1,3 +1,11 @@
+---
+description: "Architecture Decision Records (ADRs) for governance automation, detection engineering, and agent orchestration — traceable design choices across security systems."
+---
+
+---
+description: "ADR-style architecture decision records for governance automation, detection engineering, and agent orchestration — traceable design choices over time."
+---
+
 # Architecture Decisions
 
 ## Why Architecture Decisions Matter

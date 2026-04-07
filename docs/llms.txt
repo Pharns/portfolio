@@ -1,0 +1,29 @@
+# portfolio.pharns.com
+
+> Security Program & GRC Engineering Portfolio by Pharns Genece
+
+## About
+Pharns Genece is a GRC Engineer, Cloud Security practitioner, and AAM cybersecurity specialist. This portfolio showcases security program design, compliance automation, detection engineering, and RF/drone security research.
+
+## Key Projects
+- GIAP™ — Governed Intake and Analysis Platform: Multi-agent GRC automation with n8n and CISO Assistant across 100+ frameworks
+- TraceLock™ — Multi-Domain RF Threat Detection: Patent-pending 6-domain wireless monitoring (Wi-Fi/BLE/SDR/GPS/ADS-B)
+- PCI-DSS Windows 11 Hardening: Endpoint compliance with audit-ready evidence delivered in <48 hours
+- AWS Cloud Control Pack: S3 default-deny, GuardDuty pipelines, scoped IAM with CIS/NIST mapping
+- AgenticOS — AI Agent Orchestration: Governed multi-agent security workflows
+
+## Credentials
+- B.S. Cybersecurity & Information Assurance (WGU, 2026)
+- CompTIA Security+, CySA+, PenTest+, Network+, A+
+- ISC2 SSCP (Associate), ITIL4, LPI
+- FAA Part 107, HAM/GMRS Licensed
+- USAF Veteran (Service-Disabled)
+
+## Expertise
+GRC Engineering, Cloud Security (AWS), Compliance Automation, Detection Engineering, NIST CSF, CIS Controls v8, PCI-DSS v4.0, SOC 2, ISO 27001, RF/Wireless Security, IoT Security, OSINT, Prompt Engineering
+
+## Links
+- Site: https://portfolio.pharns.com
+- GitHub: https://github.com/Pharns
+- LinkedIn: https://linkedin.com/in/pharns
+- Email: career@pharns.com

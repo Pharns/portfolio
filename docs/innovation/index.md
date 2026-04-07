@@ -1,3 +1,11 @@
+---
+description: "UAV engineering, RF security research, and patent-pending innovations combining drone systems, wireless threat detection, and cybersecurity consulting."
+---
+
+---
+description: "UAV systems, RF security research, and patent-pending innovations bridging drone engineering, wireless threat detection, and cybersecurity consulting."
+---
+
 # Innovation — Advanced Air Mobility (AAM) & RF Security
 
 !!! danger "Legal Review"

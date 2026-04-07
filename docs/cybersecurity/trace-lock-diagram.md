@@ -1,3 +1,11 @@
+---
+description: "TraceLock security telemetry architecture diagram — multi-source RF ingestion, signal normalization, detection correlation, and evidence-grade logging pipeline."
+---
+
+---
+description: "TraceLock security telemetry architecture diagram — multi-source RF ingestion, signal normalization, detection correlation, and evidence generation pipelines."
+---
+
 # TraceLock™ — Security Telemetry Architecture
 
 TraceLock™ is a security telemetry architecture designed to integrate heterogeneous wireless and RF signal sources into detection, evidence, and security decision pipelines.

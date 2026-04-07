@@ -1,3 +1,11 @@
+---
+description: "Security Decision Architecture (SDA) transforms telemetry, detection, and governance inputs into structured, defensible cybersecurity decisions — not just alerts."
+---
+
+---
+description: "Security Decision Architecture (SDA) transforms telemetry, detection, and governance inputs into structured, defensible cybersecurity decisions — not just alerts."
+---
+
 # Security Decision Architecture (SDA)
 
 Security programs generate enormous volumes of telemetry, alerts, and compliance data. The objective is not alert volume; it is defensible security decisions.

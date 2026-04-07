@@ -1,3 +1,11 @@
+---
+description: "Engineered 3D-printed modular housings and payload adapters for SDR hardware, penetration-testing tools, and field-deployable security platforms."
+---
+
+---
+description: "Engineered 3D-printed modular housings and payload adapters for SDR hardware, penetration-testing tools, and field-deployable security systems."
+---
+
 # 🛠 **3D-Printed & Modular Systems**
 
 !!! danger "Legal Review"

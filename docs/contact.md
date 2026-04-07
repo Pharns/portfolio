@@ -140,3 +140,52 @@ I respond to all legitimate inquiries. Looking forward to connecting.
 ---
 
 [View GRC Projects](grc/index.md){ .btn-primary } [View LinkedIn](https://linkedin.com/in/pharns){ .btn-ghost }
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What roles is Pharns Genece looking for?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Pharns is targeting GRC Engineer, Cloud Security Engineer (GRC/compliance focus), Detection Engineer, Security Controls Implementation Specialist, and AAM/UAV Security roles in cyber-physical systems."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is Pharns available for remote work?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Pharns is remote-first with async collaboration experience across distributed teams in US, EU, and LatAm time zones. Open to relocation for the right opportunity."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is Pharns Genece's current availability?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Available now for W-2, contract, or consulting engagements. Contractor/1099 arrangements are also available for international companies without a US entity."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does Pharns accept international opportunities?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Pharns is actively seeking global opportunities in the EU, UK, Canada, and APAC. Visa sponsorship is required for non-US positions. Flexible overlap hours across US, EU, and LatAm time zones."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the best way to contact Pharns Genece?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Email at career@pharns.com is preferred with a typical response time under 24 hours. You can also book a 15-minute intro call or connect on LinkedIn at linkedin.com/in/pharns."
+      }
+    }
+  ]
+}
+</script>

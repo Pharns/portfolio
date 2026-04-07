@@ -1,6 +1,20 @@
 {% extends "base.html" %}
 
 {% block extrahead %}
+{% if page %}
+<!-- Open Graph meta tags -->
+<meta property="og:title" content="{{ page.title }} | {{ config.site_name }}" />
+<meta property="og:description" content="{{ page.meta.description | default(config.site_description, true) }}" />
+<meta property="og:url" content="{{ page.canonical_url }}" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="portfolio.pharns.com" />
+
+<!-- Twitter Card meta tags -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="{{ page.title }} | {{ config.site_name }}" />
+<meta name="twitter:description" content="{{ page.meta.description | default(config.site_description, true) }}" />
+{% endif %}
+
 <!-- Plausible Analytics (self-hosted, privacy-respecting) -->
 <script async src="https://analytics.aamcyber.work/js/pa-08DCcspDKxkV7afkI6H7r.js"></script>
 <script>

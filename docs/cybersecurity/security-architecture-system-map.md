@@ -1,3 +1,7 @@
+---
+description: "Unified security system map connecting telemetry, detection, analytics, governance, and decision architecture across the full portfolio into one coherent model."
+---
+
 # Security Telemetry → Governance → Decision Architecture
 
 ## Executive overview
