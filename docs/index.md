@@ -6,6 +6,8 @@ description: "Portfolio showcasing how I design and build security programs that
 
 **Security Architect & GRC Engineer**
 
+AI can do things. I make AI trusted to do them. 
+
 I build the controls I document — cloud guardrails, endpoint hardening, evidence pipelines, and detection workflows that stand up in real operations and audits.
 
 Best fit for teams that need implementation, not just policy decks.
