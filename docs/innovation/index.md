@@ -26,9 +26,16 @@ This section highlights **UAV systems, RF security research, and patent-pending 
 
 ---
 
-## Projects in this section
+## Governed AI systems
 
-- **[Agentic Infrastructure Audit](agentic-infrastructure-audit.md)** → multi-machine AI governance audit; drift detection, canonical architecture standard (8 ADRs), automated congruence validation. Agentic Infrastructure + Agentic Governance layers of the Governed Agentic Security Stack.
+- **[SDOS — AI Governance Framework](sdos-governance-framework.md)** → patent-pending AI governance runtime with risk-tiered dispatch (R1/R2/R3), 7 policy enforcement points, and deny-all-default posture. 53 tools, 86 tests, production deployment.
+- **[OpenClaw — Agent Orchestration](openclaw-orchestration.md)** → dual-gateway federated AI agent platform separating governance from execution at the network level. 5 paired operators, 3-node inference fleet.
+- **[GRAM — Governed Memory](gram-memory-system.md)** → hybrid vector + BM25 semantic retrieval with trust-weighted scoring and allowlist-only ingestion. 50K+ chunks, 5 phases complete.
+- **[Patent Portfolio](patent-portfolio.md)** → 9 patent families, 77 dependent claims covering governed AI execution, multi-domain threat detection, and security decision architecture. USPTO 64/029,300.
+
+## Detection, RF & drone security
+
+- **[Agentic Infrastructure Audit](agentic-infrastructure-audit.md)** → multi-machine AI governance audit; drift detection, canonical architecture standard (8 ADRs), automated congruence validation.
 - **[AgenticOS — AI Orchestration](agenticos.md)** → deterministic, auditable AI agent orchestration layer with explainable routing, structured logging, and multi-provider execution.
 - **[TraceLock™ RF Threat Detection](../cybersecurity/tracelock.md)** → patent-pending multi-domain RF surveillance detection platform with forensic-grade logging (Wi-Fi/Bluetooth/SDR/GPS/ADS-B).
 - **[Drone Payload Systems](drone-payload-systems.md)** → patented and patent-pending UAV payload architectures designed for wireless security testing and mission adaptability.

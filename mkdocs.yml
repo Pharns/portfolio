@@ -161,6 +161,10 @@ nav:
 - Projects: projects.md
 - Innovation:
   - Overview: innovation/index.md
+  - SDOS — AI Governance Framework: innovation/sdos-governance-framework.md
+  - OpenClaw — Agent Orchestration: innovation/openclaw-orchestration.md
+  - GRAM — Governed Memory: innovation/gram-memory-system.md
+  - Patent Portfolio: innovation/patent-portfolio.md
   - AgenticOS — AI Orchestration: innovation/agenticos.md
   - Agentic Infrastructure Audit: innovation/agentic-infrastructure-audit.md
   - Drone Payload Systems: innovation/drone-payload-systems.md
