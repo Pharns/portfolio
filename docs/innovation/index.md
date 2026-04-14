@@ -29,7 +29,7 @@ This section highlights **UAV systems, RF security research, and patent-pending 
 ## Governed AI systems
 
 - **[SDOS — AI Governance Framework](sdos-governance-framework.md)** → patent-pending AI governance runtime with risk-tiered dispatch (R1/R2/R3), 7 policy enforcement points, and deny-all-default posture. 53 tools, 86 tests, production deployment.
-- **[OpenClaw — Agent Orchestration](openclaw-orchestration.md)** → dual-gateway federated AI agent platform separating governance from execution at the network level. 5 paired operators, 3-node inference fleet.
+- **[Governed Agent Gateway — Dual-Gateway Orchestration](openclaw-orchestration.md)** → dual-gateway federated AI agent platform separating governance from execution at the network level. 5 paired operators, 3-node inference fleet.
 - **[GRAM — Governed Memory](gram-memory-system.md)** → hybrid vector + BM25 semantic retrieval with trust-weighted scoring and allowlist-only ingestion. 50K+ chunks, 5 phases complete.
 - **[Patent Portfolio](patent-portfolio.md)** → 9 patent families, 77 dependent claims covering governed AI execution, multi-domain threat detection, and security decision architecture. USPTO 64/029,300.
 

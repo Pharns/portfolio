@@ -1,7 +1,7 @@
 ---
-description: "OpenClaw — Governed AI agent orchestration platform with dual-gateway federation separating governance from execution."
+description: "Governed Agent Gateway — Dual-gateway AI orchestration platform separating governance from execution at the network level."
 ---
-# OpenClaw — Governed AI agent orchestration
+# Governed Agent Gateway — Dual-gateway AI orchestration
 
 *Patent-Pending · Federated Agent Governance · 2025–2026*
 
@@ -31,13 +31,13 @@ That is not governance. That is hope.
 
 In regulated industries — healthcare, defense, financial services, critical infrastructure — hope is not a compliance strategy. When an AI agent processes patient data, executes a financial transaction, or interfaces with operational technology, the question is not whether the model intended to follow policy. The question is whether the infrastructure made it impossible not to.
 
-This is what I built OpenClaw to answer.
+This is what I built the governed agent gateway to answer.
 
 ---
 
 ## Dual-gateway federation
 
-OpenClaw separates governance from execution at the network level. Not at the prompt level. Not at the application layer. At the infrastructure boundary where it cannot be bypassed by a sufficiently creative model.
+The platform separates governance from execution at the network level. Not at the prompt level. Not at the application layer. At the infrastructure boundary where it cannot be bypassed by a sufficiently creative model.
 
 ### Governance gateway
 
@@ -103,7 +103,7 @@ flowchart LR
 
 ## Operational capabilities
 
-OpenClaw is not a whitepaper or a design document. It is running infrastructure with measurable operational metrics.
+The platform is not a whitepaper or a design document. It is running infrastructure with measurable operational metrics.
 
 ### Governed tool server
 
@@ -127,7 +127,7 @@ The classification is not advisory. An R3 task cannot execute on a lightweight m
 
 ### Multi-provider inference
 
-OpenClaw governs a three-node inference fleet running multiple model providers and sizes. The platform is model-agnostic — it does not care whether the underlying model is Ollama, Claude, Gemini, or any future provider. Governance wraps the model, not the other way around.
+The gateway governs a three-node inference fleet running multiple model providers and sizes. The platform is model-agnostic — it does not care whether the underlying model is Ollama, Claude, Gemini, or any future provider. Governance wraps the model, not the other way around.
 
 Five paired operators work across the fleet, each consisting of a governance-side dispatcher and an execution-side runner. This pairing ensures that every execution has a corresponding governance record.
 
@@ -145,13 +145,13 @@ Most AI governance approaches fall into one of two categories:
 
 2. **Application-level governance** — Middleware that checks model outputs after execution. By the time the check runs, the action has already happened. This is security by retrospection.
 
-OpenClaw implements a third category: **dispatch-level governance**. The governance decision happens before the model receives the task. The model never sees a task it is not authorized to process. It cannot access tools it is not authorized to use. It cannot escalate its own privileges because privilege assignment happens at a layer the model cannot reach.
+The platform implements a third category: **dispatch-level governance**. The governance decision happens before the model receives the task. The model never sees a task it is not authorized to process. It cannot access tools it is not authorized to use. It cannot escalate its own privileges because privilege assignment happens at a layer the model cannot reach.
 
 !!! warning "The self-reporting problem"
 
-    If your AI governance strategy depends on the model accurately reporting what it did, you do not have governance. You have a system that works exactly as well as the model is honest. OpenClaw captures what happened at the infrastructure layer — the model's self-report is irrelevant to the audit record.
+    If your AI governance strategy depends on the model accurately reporting what it did, you do not have governance. You have a system that works exactly as well as the model is honest. The gateway captures what happened at the infrastructure layer — the model's self-report is irrelevant to the audit record.
 
-This matters for compliance. Auditors do not accept "the AI said it followed the rules" as evidence. They need infrastructure-level logs showing that policy was enforced, not requested. OpenClaw produces those logs as a byproduct of its architecture, not as an afterthought.
+This matters for compliance. Auditors do not accept "the AI said it followed the rules" as evidence. They need infrastructure-level logs showing that policy was enforced, not requested. The platform produces those logs as a byproduct of its architecture, not as an afterthought.
 
 ---
 
@@ -173,25 +173,25 @@ These mappings are not theoretical. Each control reference points to a specific 
 
 ### Enterprise AI deployments
 
-Any organization deploying AI agents at scale faces the same question: how do you prove that your agents followed policy? OpenClaw provides the infrastructure-level evidence that prompt-based governance cannot.
+Any organization deploying AI agents at scale faces the same question: how do you prove that your agents followed policy? The governed agent gateway provides the infrastructure-level evidence that prompt-based governance cannot.
 
 ### Multi-agent systems
 
-As organizations move from single-model deployments to multi-agent architectures, the attack surface expands. Agent-to-agent communication becomes a vector for privilege escalation and policy bypass. OpenClaw's dispatch boundary ensures that governance applies uniformly regardless of how many agents are in the system.
+As organizations move from single-model deployments to multi-agent architectures, the attack surface expands. Agent-to-agent communication becomes a vector for privilege escalation and policy bypass. The platform's dispatch boundary ensures that governance applies uniformly regardless of how many agents are in the system.
 
 ### Regulated industries
 
-Healthcare, financial services, defense, and critical infrastructure all operate under regulatory frameworks that require demonstrable controls. OpenClaw's audit architecture produces compliance-grade evidence without requiring manual intervention.
+Healthcare, financial services, defense, and critical infrastructure all operate under regulatory frameworks that require demonstrable controls. The platform's audit architecture produces compliance-grade evidence without requiring manual intervention.
 
 ### Defense and federal
 
-Federal acquisition increasingly requires AI governance documentation. OpenClaw's architecture aligns with DoD AI ethics principles and NIST frameworks, providing a governance layer that meets the documentation requirements of government contracts.
+Federal acquisition increasingly requires AI governance documentation. The gateway's architecture aligns with DoD AI ethics principles and NIST frameworks, providing a governance layer that meets the documentation requirements of government contracts.
 
 ---
 
 ## Patent status
 
-OpenClaw's governed dispatch architecture is part of **U.S. Provisional Patent Application No. 64/029,300**, filed April 4, 2026. The application covers nine patent families with 77 dependent claims. Intellectual property is held by a **dedicated IP holding entity**.
+The governed dispatch architecture is part of **U.S. Provisional Patent Application No. 64/029,300**, filed April 4, 2026. The application covers nine patent families with 77 dependent claims. Intellectual property is held by a **dedicated IP holding entity**.
 
 Non-provisional filing is in progress under accelerated prosecution.
 
@@ -225,8 +225,8 @@ Non-provisional filing is in progress under accelerated prosecution.
 
 ## Related projects
 
-- [AgenticOS](agenticos.md) — Deterministic AI agent routing framework (predecessor to OpenClaw governance layer)
-- [TraceLock](../cybersecurity/tracelock.md) — Multi-domain RF threat detection (governed by OpenClaw dispatch)
+- [AgenticOS](agenticos.md) — Deterministic AI agent routing framework with explainable dispatch
+- [TraceLock](../cybersecurity/tracelock.md) — Multi-domain RF threat detection (governed by dual-gateway dispatch)
 - [Governed security architecture](../architecture/governed-security-architecture.md) — System-of-systems view
 - [Security telemetry decision architecture](../architecture/security-telemetry-decision-architecture.md) — Telemetry-to-decision pipeline
 
@@ -239,7 +239,7 @@ Non-provisional filing is in progress under accelerated prosecution.
 {
   "@context": "https://schema.org",
   "@type": "TechArticle",
-  "headline": "OpenClaw — Governed AI Agent Orchestration",
+  "headline": "Governed Agent Gateway — Dual-Gateway AI Orchestration",
   "description": "Federated AI agent orchestration platform with dual-gateway architecture separating governance from execution. Patent-pending dispatch-level governance for enterprise AI deployments.",
   "author": {
     "@type": "Person",
@@ -256,7 +256,7 @@ Non-provisional filing is in progress under accelerated prosecution.
   "keywords": ["AI governance", "agent orchestration", "federated architecture", "dispatch governance", "MCP", "security architecture", "compliance automation", "patent-pending"],
   "about": {
     "@type": "SoftwareApplication",
-    "name": "OpenClaw",
+    "name": "Governed Agent Gateway",
     "applicationCategory": "Security Software",
     "operatingSystem": "Linux"
   }
