@@ -4,7 +4,7 @@ description: "SDOS — Security Decision Operating System. Patent-pending AI gov
 
 # SDOS — Security Decision Operating System
 
-*Patent-Pending AI Governance Runtime · Filed April 4, 2026 · Obsidian Foundry, LLC*
+*Patent-Pending AI Governance Runtime · Filed April 4, 2026 · U.S. Provisional 64/029,300*
 
 !!! success "For Hiring Managers — Security Architecture / AI Governance"
 
@@ -52,7 +52,7 @@ SDOS — the Security Decision Operating System — is a governance runtime that
 
 !!! info "Patent-pending"
 
-    SDOS is protected under USPTO Provisional Patent Application 64/029,300, filed April 4, 2026. The filing covers 9 patent families with 77 dependent claims. The intellectual property is held by Obsidian Foundry, LLC.
+    SDOS is protected under USPTO Provisional Patent Application 64/029,300, filed April 4, 2026. The filing covers 9 patent families with 77 dependent claims. The intellectual property is held by a dedicated IP holding entity.
 
 The core design principle is simple: **deny all by default.** An AI agent operating under SDOS has zero permissions until policy explicitly grants them. This inverts the typical AI deployment model, where agents start with broad access and teams scramble to restrict it after incidents occur.
 
@@ -182,7 +182,7 @@ This is the gap SDOS fills. It is not an incremental improvement on existing app
     **Provisional Patent Application:** USPTO 64/029,300
     **Filed:** April 4, 2026
     **Coverage:** 9 patent families, 77 dependent claims
-    **Assignee:** Obsidian Foundry, LLC
+    **Assignee:** Dedicated IP holding entity
     **Status:** Non-provisional filing in preparation (accelerated timeline)
 
 The patent portfolio covers the full governance architecture — from risk-tiered dispatch at the core through modular tool governance, edge enforcement, and multi-agent coordination. The breadth of the filing reflects the scope of the problem: governing AI agents is not a single-feature solution, it is an architectural system that must address every layer where an agent can act.

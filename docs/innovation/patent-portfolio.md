@@ -23,7 +23,7 @@ The work grew out of a practical problem: autonomous AI agents need enforceable 
     | **Patent families** | 9 |
     | **Independent claims** | 9 |
     | **Dependent claims** | 77 |
-    | **Assignee** | Obsidian Foundry, LLC |
+    | **Assignee** | Dedicated IP holding entity |
     | **Status** | Patent-pending (non-provisional in progress) |
 
 ---
@@ -70,7 +70,7 @@ For hiring managers and technical leaders evaluating candidates, a patent portfo
 
 ## IP structure
 
-All intellectual property is held by Obsidian Foundry, LLC, a dedicated IP holding entity with a clean chain of title. This structure separates IP ownership from operating entities, which is standard practice for protecting valuable patents from business liability exposure.
+All intellectual property is held by a dedicated IP holding entity with a clean chain of title. This structure separates IP ownership from operating entities, which is standard practice for protecting valuable patents from business liability exposure.
 
 The entity structure ensures that the IP remains protected regardless of what happens at the operating company level — a governance decision that reflects the same architectural thinking applied to the technical work itself.
 

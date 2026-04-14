@@ -191,7 +191,7 @@ Federal acquisition increasingly requires AI governance documentation. OpenClaw'
 
 ## Patent status
 
-OpenClaw's governed dispatch architecture is part of **U.S. Provisional Patent Application No. 64/029,300**, filed April 4, 2026. The application covers nine patent families with 77 dependent claims. Intellectual property is held by **Obsidian Foundry, LLC**.
+OpenClaw's governed dispatch architecture is part of **U.S. Provisional Patent Application No. 64/029,300**, filed April 4, 2026. The application covers nine patent families with 77 dependent claims. Intellectual property is held by a **dedicated IP holding entity**.
 
 Non-provisional filing is in progress under accelerated prosecution.
 
