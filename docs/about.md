@@ -189,3 +189,17 @@ When I assess drone security, I understand the attack surface from the inside: f
 ---
 
 **Connect:** [LinkedIn](https://linkedin.com/in/pharns) | [View Resume](resume.md) | [Contact](contact.md)
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "AboutPage",
+  "mainEntity": {
+    "@type": "Person",
+    "@id": "https://portfolio.pharns.com/#pharns"
+  },
+  "name": "About Pharns Genece — AI Governance Architect",
+  "description": "GRC engineer, cloud security practitioner, and AAM cybersecurity specialist. Career USAF veteran, USPTO patent holder, FAA Part 107 pilot. Built and secured production infrastructure for a $5.6M drone logistics company.",
+  "url": "https://portfolio.pharns.com/about/"
+}
+</script>

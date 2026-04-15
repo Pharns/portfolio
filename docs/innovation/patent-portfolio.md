@@ -85,3 +85,23 @@ Patent prosecution is a multi-year process. The work continues — both in expan
 ---
 
 *For technical deep dives on the systems behind these patents, see [TraceLock RF threat detection](../cybersecurity/tracelock.md) and [AgenticOS AI orchestration](agenticos.md).*
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "TechArticle",
+  "headline": "Patent Portfolio — Governed AI Execution & Multi-Domain Threat Detection",
+  "description": "9 patent families covering governed AI agent execution, multi-domain wireless threat detection, security decision architecture, case orchestration, and pattern-of-life modeling. 77 dependent claims backed by production code.",
+  "author": {"@type": "Person", "@id": "https://portfolio.pharns.com/#pharns"},
+  "datePublished": "2026-04-04",
+  "dateModified": "2026-04-15",
+  "publisher": {"@type": "Person", "@id": "https://portfolio.pharns.com/#pharns"},
+  "mainEntityOfPage": "https://portfolio.pharns.com/innovation/patent-portfolio/",
+  "keywords": ["AI agent governance patents", "governed autonomous execution", "multi-domain threat detection", "security decision architecture", "RF threat detection patent", "SDOS patent", "AI governance intellectual property"],
+  "about": [
+    {"@type": "Thing", "name": "AI Agent Governance", "description": "Enforceable policy on autonomous AI agents at the infrastructure layer"},
+    {"@type": "Thing", "name": "Multi-Domain RF Threat Detection", "description": "Correlated wireless monitoring across Wi-Fi, Bluetooth, SDR, GPS, and ADS-B"},
+    {"@type": "Thing", "name": "Security Decision Architecture", "description": "Transforming sensor telemetry into auditable, governed security decisions"}
+  ]
+}
+</script>

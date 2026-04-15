@@ -100,39 +100,15 @@ Comprehensive security assessment and remediation. M365 hardening, dark web moni
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Person",
-  "name": "Pharns Genece",
-  "jobTitle": "Security Architect & GRC Engineer",
-  "url": "https://portfolio.pharns.com",
-  "sameAs": [
-    "https://linkedin.com/in/pharns",
-    "https://github.com/Pharns"
-  ],
-  "knowsAbout": [
-    "GRC Engineering",
-    "Cloud Security",
-    "Compliance Automation",
-    "Detection Engineering",
-    "NIST CSF",
-    "PCI-DSS",
-    "AWS Security",
-    "Advanced Air Mobility",
-    "UAV Security",
-    "Drone Cybersecurity",
-    "RF Security",
-    "Cyber-Physical Systems"
-  ],
-  "alumniOf": {
-    "@type": "Organization",
-    "name": "Western Governors University"
+  "@type": "ProfilePage",
+  "mainEntity": {
+    "@type": "Person",
+    "@id": "https://portfolio.pharns.com/#pharns"
   },
-  "hasCredential": [
-    {"@type": "EducationalOccupationalCredential", "name": "CompTIA Security+"},
-    {"@type": "EducationalOccupationalCredential", "name": "CompTIA CySA+"},
-    {"@type": "EducationalOccupationalCredential", "name": "CompTIA PenTest+"},
-    {"@type": "EducationalOccupationalCredential", "name": "CompTIA Network+"},
-    {"@type": "EducationalOccupationalCredential", "name": "ISC2 SSCP Associate"}
-  ]
+  "name": "Pharns Genece — AI Governance Architect Portfolio",
+  "description": "I build governance systems that make AI agents trusted to operate. Patent holder in governed autonomous execution, RF threat detection, and UAV architectures.",
+  "url": "https://portfolio.pharns.com",
+  "dateModified": "2026-04-15"
 }
 </script>
 

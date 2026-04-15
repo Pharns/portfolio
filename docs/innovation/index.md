@@ -56,3 +56,25 @@ This section highlights **UAV systems, RF security research, and patent-pending 
 - **Secure UAV & RF Systems** → apply cybersecurity to next-gen aerial platforms  
 - **Innovation & IP Development** → create, patent, and deploy technical solutions  
 - **Cyber-Physical Security** → integrate physical UAV systems with enterprise-grade security models  
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "Innovation — Governed AI Systems, RF Security & UAV Engineering",
+  "description": "Patent-pending innovations spanning governed AI agent execution (SDOS), multi-domain RF threat detection (TraceLock), governed memory (GRAM), and UAV payload architectures.",
+  "url": "https://portfolio.pharns.com/innovation/",
+  "author": {"@type": "Person", "@id": "https://portfolio.pharns.com/#pharns"},
+  "mainEntity": {
+    "@type": "ItemList",
+    "itemListElement": [
+      {"@type": "ListItem", "position": 1, "name": "SDOS — AI Governance Framework", "url": "https://portfolio.pharns.com/innovation/sdos-governance-framework/"},
+      {"@type": "ListItem", "position": 2, "name": "Governed Agent Gateway", "url": "https://portfolio.pharns.com/innovation/openclaw-orchestration/"},
+      {"@type": "ListItem", "position": 3, "name": "GRAM — Governed Memory", "url": "https://portfolio.pharns.com/innovation/gram-memory-system/"},
+      {"@type": "ListItem", "position": 4, "name": "Patent Portfolio", "url": "https://portfolio.pharns.com/innovation/patent-portfolio/"},
+      {"@type": "ListItem", "position": 5, "name": "TraceLock RF Threat Detection", "url": "https://portfolio.pharns.com/cybersecurity/tracelock/"},
+      {"@type": "ListItem", "position": 6, "name": "AgenticOS — AI Orchestration", "url": "https://portfolio.pharns.com/innovation/agenticos/"}
+    ]
+  }
+}
+</script>
