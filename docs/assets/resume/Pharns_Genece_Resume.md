@@ -62,7 +62,7 @@ Taught drone technology courses demonstrating technical communication skills and
 | **Cloud Security** | AWS (IAM, S3, GuardDuty, CloudTrail, Security Hub) · Policy-as-Code · Terraform |
 | **Detection & IR** | Security Onion · Wazuh · TheHive/Cortex · Sigma Rules · Suricata · Zeek · Alert Tuning |
 | **Automation** | Python · n8n · CISO Assistant · Evidence Pipelines · Shell Scripting |
-| **RF/Wireless** | RTL-SDR · HackRF · Kismet · Bluetooth/BLE · Wi-Fi · ADS-B · GPS |
+| **RF/Wireless** | RTL-SDR · HackRF · Bluetooth/BLE · Wi-Fi · ADS-B · GPS |
 | **Infrastructure** | Proxmox · Nextcloud · Nginx · Docker · Linux Administration |
 
 ---

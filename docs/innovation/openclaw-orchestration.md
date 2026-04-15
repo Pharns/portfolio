@@ -9,13 +9,13 @@ description: "Governed Agent Gateway — Dual-gateway AI orchestration platform 
 
     **What I built:** A federated AI agent orchestration platform that enforces governance at the dispatch boundary — separating policy decisions from model execution at the network level.
 
-    **Technical stack:** Python 3.10+ · SQLite · MQTT · HMAC-SHA256 Module Signing · MCP Protocol · Multi-Provider Inference (Ollama, Claude, Gemini)
+    **Technical stack:** Python 3.10+ · SQLite · REST API · MCP Protocol · Cryptographic Module Signing · Multi-Provider Inference (Ollama, Claude, Gemini)
 
     **Security engineering skills demonstrated:**
 
     - Dual-gateway federation isolating governance from execution
     - Risk-classified dispatch with three severity tiers
-    - Cryptographically signed module loading with hot-swap capability
+    - Cryptographically signed module loading with live update capability
     - 86 passing tests with zero ungoverned tool executions
     - Model-agnostic governance across multiple inference providers
 
@@ -43,10 +43,10 @@ The platform separates governance from execution at the network level. Not at th
 
 The governance gateway is the single point of policy enforcement. Every task request — regardless of which agent, model, or provider initiates it — must pass through this gateway before anything executes. The governance gateway handles:
 
-- **Risk classification** — Every inbound request is classified into one of three risk tiers (R1/R2/R3) before dispatch. The classification determines what resources the task can access, which models are eligible to process it, and what audit requirements apply.
-- **Policy evaluation** — Seven policy enforcement points evaluate each request against the current rule set. Requests that fail policy are rejected with a structured denial record, not silently dropped.
+- **Risk classification** — Every inbound request is classified into a risk tier before dispatch. The classification determines what resources the task can access, which models are eligible to process it, and what audit requirements apply.
+- **Policy evaluation** — Multiple independent policy enforcement points evaluate each request against the current rule set. Requests that fail policy are rejected with a structured denial record, not silently dropped.
 - **Audit capture** — Every decision — approvals, denials, escalations, classification outcomes — is logged at the infrastructure layer. The model never self-reports. The gateway captures what actually happened.
-- **Module authentication** — Every tool module loaded into the system carries an HMAC-SHA256 signature. Unsigned or tampered modules are rejected at load time. No exceptions.
+- **Module authentication** — Every tool module loaded into the system carries a cryptographic signature. Unsigned or tampered modules are rejected at load time. No exceptions.
 
 ### Execution gateway
 
@@ -107,11 +107,11 @@ The platform is not a whitepaper or a design document. It is running infrastruct
 
 ### Governed tool server
 
-The platform runs a 53-tool governed MCP (Model Context Protocol) server organized into six functional modules. Each module is independently signed with HMAC-SHA256 and can be hot-swapped without system downtime. The module categories span memory operations, threat detection, edge AI coordination, compliance mapping, threat hunting, and open-source intelligence.
+The platform runs a governed MCP (Model Context Protocol) server organized into functional modules spanning security operations domains. Each module is independently signed with a cryptographic signature and can be updated in production without system downtime.
 
 !!! note "Module signing"
 
-    Every module carries a cryptographic signature verified at load time. This prevents supply-chain attacks where a modified tool module could bypass governance. If a signature fails verification, the module is rejected and the event is logged. Hot-swap reload allows updating individual modules in production without restarting the governance layer.
+    Every module carries a cryptographic signature verified at load time. This prevents supply-chain attacks where a modified tool module could bypass governance. If a signature fails verification, the module is rejected and the event is logged. Live module updates allow updating individual modules in production without restarting the governance layer.
 
 ### Risk-classified dispatch
 
@@ -119,9 +119,9 @@ Every task entering the system is classified into one of three risk tiers:
 
 | Tier | Scope | Model requirements | Audit level |
 |------|-------|--------------------|-------------|
-| **R1** | Routine operations, low-sensitivity data | Any eligible model | Standard logging |
-| **R2** | Sensitive operations, regulated data access | Mid-tier model minimum | Enhanced logging + review flag |
-| **R3** | Critical operations, irreversible actions | Highest-capability model required | Full audit trail + human review gate |
+| **Low risk** | Routine operations, low-sensitivity data | Standard policy | Standard logging |
+| **Elevated risk** | Sensitive operations, regulated data access | Elevated governance | Enhanced logging + review flag |
+| **High risk** | Critical operations, irreversible actions | Maximum governance | Full audit trail + human review gate |
 
 The classification is not advisory. An R3 task cannot execute on a lightweight model regardless of queue pressure or availability. An R2 task cannot downgrade itself to R1 to avoid enhanced logging. The governance gateway enforces these floors as hard constraints.
 
@@ -205,14 +205,14 @@ Non-provisional filing is in progress under accelerated prosecution.
 
 ### Security architecture
 - [x] Network-level separation of governance and execution
-- [x] Cryptographic module authentication (HMAC-SHA256)
+- [x] Cryptographic module authentication
 - [x] Risk-tiered access control with hard enforcement floors
-- [x] Seven-point policy enforcement pipeline
+- [x] Multi-layer policy enforcement pipeline
 
 ### AI systems engineering
 - [x] Multi-provider, model-agnostic orchestration
-- [x] MCP protocol implementation with 53 governed tools
-- [x] Hot-swap module reload without downtime
+- [x] MCP protocol implementation with governed tool modules
+- [x] Live module updates without downtime
 - [x] Paired operator architecture across distributed inference
 
 ### Compliance engineering

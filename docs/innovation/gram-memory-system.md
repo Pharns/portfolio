@@ -10,7 +10,7 @@ description: "GRAM — Governed Retrieval and Adaptive Memory. Hybrid vector + B
 
     **What I Built:** A governed semantic memory system that gives AI agents access to organizational knowledge while enforcing strict access controls, trust-weighted retrieval, and deny-all-default ingestion policies.
 
-    **Technical Stack:** Python · ChromaDB · BM25 · Local Embeddings · Entity Graph · SDOS Governance Layer · Automated Nightly Ingestion
+    **Technical Stack:** Python · Vector Store · BM25 · Local Embeddings · Entity Graph · SDOS Governance Layer · Automated Nightly Ingestion
 
     **Security Engineering Skills Demonstrated:**
 
@@ -78,7 +78,7 @@ I designed and delivered GRAM across five phases, each building on the previous 
 
 ### Phase 1 — Vector memory and hybrid search
 
-Stood up the core retrieval engine: vector store, BM25 index, hybrid query pipeline, and the deny-all-default ingestion framework. This phase established the foundational architecture — local embeddings, chunking strategy, and the governed ingestion boundary.
+Stood up the core retrieval engine: vector store, BM25 index, hybrid query pipeline, and the deny-all-default ingestion framework. This phase established the foundational architecture — local embeddings, content processing pipeline, and the governed ingestion boundary.
 
 ### Phase 2 — Agent orchestration and write controls
 

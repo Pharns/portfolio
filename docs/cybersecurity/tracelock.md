@@ -11,7 +11,7 @@ description: TraceLock™ — Multi-domain RF threat detection platform with rea
 
     **What I Built:** Real-time RF surveillance detection system that monitors 6 wireless domains simultaneously, correlates threats across sensors, and produces forensic-grade evidence logs.
 
-    **Technical Stack:** Python 3.10+ · ARM SBC · Kismet · SDR Receivers · BLE Adapters · SQLite · GitHub Actions CI
+    **Technical Stack:** Python 3.10+ · ARM SBC · RF Monitoring Framework · SDR Receivers · BLE Adapters · SQLite · GitHub Actions CI
 
     **Detection Engineering Skills Demonstrated:**
 
@@ -33,7 +33,7 @@ description: TraceLock™ — Multi-domain RF threat detection platform with rea
 | | |
 |---|---|
 | **Problem** | Security teams face 12–18 minute RF blind spots during sweep operations; existing tools monitor single wireless domains with no cross-domain correlation |
-| **Environment** | Raspberry Pi 4 (8GB) · Python 3.10+ · Kismet · RTL-SDR V4 · Ubertooth · SQLite · GitHub Actions CI |
+| **Environment** | Raspberry Pi 4 (8GB) · Python 3.10+ · RF Monitoring Framework · RTL-SDR V4 · Ubertooth · SQLite · GitHub Actions CI |
 | **What I built** | Real-time multi-domain sensor fusion: Wi-Fi + BLE + SDR + GPS + ADS-B correlation engine with forensic-grade logging and tunable detection thresholds |
 | **Framework mapping** | Detection engineering fundamentals · evidence-grade logging aligned with audit trail requirements · MITRE ATT&CK for ICS (RF threat vectors) |
 | **Measurable outcome** | Eliminates RF blind spots across 6 simultaneous domains; patent-pending architecture; WGU BSCSIA capstone (Mar 2026) |
@@ -115,7 +115,7 @@ TraceLock™ is a security-hardened fork of CYT (Chasing Your Tail). Here's what
 
 | Component | Purpose | Capabilities |
 |-----------|---------|--------------|
-| **SBC (ARM-based)** | Core processing | Runs Kismet + all TraceLock™ modules |
+| **SBC (ARM-based)** | Core processing | Runs RF monitoring framework + all TraceLock™ modules |
 | **Dual-band Wi-Fi adapter** | Wi-Fi monitoring | Monitor mode, packet capture (2.4/5GHz) |
 | **SDR receiver** | ISM band + ADS-B | Sub-GHz ISM bands, ADS-B (1090MHz) |
 | **Wideband SDR** *(Extension)* | Wideband SDR TX/RX | Extended frequency range — optional expansion module |

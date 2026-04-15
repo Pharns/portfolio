@@ -28,7 +28,7 @@ TraceLock™ demonstrates several architectural capabilities:
 
 ## Technologies
 
-Kismet • rtl_433 • ADS-B telemetry • GPS context • Python telemetry parsing
+Wi-Fi/BLE sensor framework • rtl_433 • ADS-B telemetry • GPS context • Python telemetry parsing
 
 ## Why it matters
 
@@ -61,7 +61,7 @@ Produce architecture-safe outputs for investigation and communication: logs, das
 ```mermaid
 flowchart LR
     subgraph L1["Layer 1: Telemetry Collection"]
-      A["Kismet Wi-Fi/BLE"]
+      A["Wi-Fi/BLE Sensor"]
       B["rtl_433 ISM"]
       C["ADS-B Feed"]
       D["GPS Context"]

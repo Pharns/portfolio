@@ -79,7 +79,7 @@ S3 default-deny, GuardDuty export, scoped IAM with CIS/NIST mapping.
 | **Cloud Security** | AWS IAM · S3 · GuardDuty · CloudTrail · Policy-as-Code |
 | **Detection** | Security Onion · Wazuh · TheHive/Cortex · Sigma Rules · Alert Tuning |
 | **Automation** | Python · n8n · CISO Assistant · Evidence Pipelines |
-| **RF/Wireless** | RTL-SDR · HackRF · Kismet · Bluetooth/BLE · ADS-B |
+| **RF/Wireless** | RTL-SDR · HackRF · Bluetooth/BLE · ADS-B |
 | **AAM/Aviation** | UAV Security · Drone Detection · Cyber-Physical Systems |
 
 ---

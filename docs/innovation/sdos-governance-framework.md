@@ -10,12 +10,12 @@ description: "SDOS — Security Decision Operating System. Patent-pending AI gov
 
     **What I Built:** A production AI governance runtime that enforces risk-tiered policy at the infrastructure layer — before AI agents reason, select tools, or execute actions. Not prompt engineering. Not guardrails bolted on after the fact. Architectural containment.
 
-    **Technical Stack:** Python 3.10+ · SQLite · MQTT · HMAC-SHA256 Module Signing · REST API (16 Endpoints) · MCP Protocol · Multi-Agent Swarm Architecture
+    **Technical Stack:** Python 3.10+ · SQLite · REST API · MCP Protocol · Cryptographic Module Signing · Multi-Agent Governance Architecture
 
     **Security Engineering Skills Demonstrated:**
 
     - Deny-all-default policy enforcement across autonomous AI agents
-    - Risk-tiered dispatch classification (R1/R2/R3) at the infrastructure layer
+    - Risk-tiered dispatch classification at the infrastructure layer
     - Tamper-evident audit trails independent of model self-reporting
     - Production dual-gateway deployment with continuous health monitoring
     - Compliance mapping across NIST AI RMF, ISO 42001, and EU AI Act
@@ -62,15 +62,15 @@ Every action an agent attempts is classified into one of three risk tiers before
 
 | Tier | Classification | Behavior |
 |------|---------------|----------|
-| **R1** | Safe | Executes immediately under policy. Read-only operations, pre-approved tool calls, bounded queries. |
-| **R2** | Review | Requires additional validation before execution. May trigger human-in-the-loop approval, elevated logging, or secondary policy checks. |
-| **R3** | Blocked | Cannot execute without explicit override from a governance authority. High-risk operations, sensitive data access, irreversible actions. |
+| **Low risk** | Safe | Executes immediately under policy. Read-only operations, pre-approved tool calls, bounded queries. |
+| **Elevated risk** | Review | Requires additional validation before execution. May trigger human-in-the-loop approval, elevated logging, or secondary policy checks. |
+| **High risk** | Blocked | Cannot execute without explicit override from a governance authority. High-risk operations, sensitive data access, irreversible actions. |
 
 This classification happens at the infrastructure layer, not inside the model. The agent does not decide its own risk tier. The agent does not know what tier a given action falls into until SDOS returns a permit or deny decision. This is the distinction between self-governance (which is not governance) and architectural governance (which is).
 
-### Seven policy enforcement points
+### Multi-layer governance pipeline
 
-SDOS places seven policy enforcement points across the decision pipeline. These are not optional middleware — they are structural gates that every action must pass through. An agent cannot route around them because they exist at a layer below the agent's execution environment.
+SDOS places multiple independent policy enforcement points across the decision pipeline. These are not optional middleware — they are structural gates that every action must pass through. An agent cannot route around them because they exist at a layer below the agent's execution environment.
 
 Each enforcement point evaluates policy independently. A tool call that passes the first gate can still be blocked at the third. This defense-in-depth approach means that a single misconfiguration does not collapse the entire governance posture.
 
@@ -90,7 +90,7 @@ The comparison below captures where SDOS sits relative to the governance approac
 |-----------|------|----------------------|-------------------|---------------------|
 | Enforcement layer | Infrastructure (below agent) | Model (same layer as agent) | Network (capacity only) | Application (same layer as agent) |
 | Deny-all default | Yes | No — permissive by default | No — allows all within rate | Depends on implementation |
-| Risk classification at dispatch | R1/R2/R3 before execution | Post-hoc or self-assessed | None | Varies |
+| Risk classification at dispatch | Risk-tiered before execution | Post-hoc or self-assessed | None | Varies |
 | Independent audit trail | Yes — infrastructure-generated | No — model self-reports | Partial — call logs only | Partial — depends on wrapper |
 | Tamper-evident logging | Yes — cryptographic integrity | No | No | No |
 | Survives prompt injection | Yes — agent cannot reach policy layer | No — prompt is the policy | N/A | Partially — if well-isolated |
@@ -112,7 +112,7 @@ SDOS is not a whitepaper or a roadmap. It is running in production today, govern
 
 | Component | Metric |
 |-----------|--------|
-| API endpoints | 16 production endpoints |
+| API endpoints | Production REST API |
 | Runtime health | Continuous monitoring with automated alerting |
 | Gateway architecture | Dual-gateway deployment with independent governance |
 | Agent swarm | 4 agents operating under continuous SDOS governance |
@@ -123,17 +123,17 @@ The SDOS MCP (Model Context Protocol) Server extends governance into the tool ec
 
 | Component | Metric |
 |-----------|--------|
-| Total governed tools | 53 across 6 operational modules |
-| Module signing | HMAC-SHA256 on all 6 module manifests |
+| Governed tools | Multiple tool modules spanning security operations domains |
+| Module signing | Cryptographically signed module manifests |
 | Test coverage | 86 tests passing |
 | Compliance mappings | 95 control mappings across 10 frameworks |
-| Module lifecycle | Hot-swap reload without service interruption |
+| Module lifecycle | Production module updates without service interruption |
 
-The six modules span governed retrieval and memory, RF threat detection, edge AI, threat hunting, compliance automation, and open-source intelligence. Each module's manifest is cryptographically signed, preventing unauthorized modification of the tool definitions that agents consume.
+Each module's manifest is cryptographically signed, preventing unauthorized modification of the tool definitions that agents consume.
 
 !!! tip "Why module signing matters"
 
-    Without signed module manifests, a compromised or misconfigured module could present a tool that bypasses governance. HMAC-SHA256 signing ensures that the tools SDOS presents to agents are exactly the tools that were approved. This is supply-chain security applied to AI tool ecosystems.
+    Without signed module manifests, a compromised or misconfigured module could present a tool that bypasses governance. Cryptographic signing ensures that the tools SDOS presents to agents are exactly the tools that were approved. This is supply-chain security applied to AI tool ecosystems.
 
 ### Compliance alignment
 
@@ -168,7 +168,7 @@ No competitor I have identified combines all of the following in a single archit
 - Tamper-evident audit trails at the infrastructure layer
 - Cryptographically signed module manifests
 - Governed memory with trust-weighted retrieval
-- Multi-agent swarm governance from a unified policy engine
+- Multi-agent governance from a unified policy engine
 - Edge enforcement for distributed and mobile deployments
 
 This is the gap SDOS fills. It is not an incremental improvement on existing approaches — it is a different architectural layer entirely.
@@ -210,7 +210,7 @@ SDOS is relevant to any organization deploying AI agents beyond simple chatbot i
 1. **I build governance architectures, not guardrails.** SDOS is infrastructure-layer enforcement — the kind of security architecture that survives adversarial conditions, not just cooperative ones.
 2. **I understand the AI governance gap.** The industry is deploying agents faster than governance frameworks can keep up. I identified that gap and built a production system to close it.
 3. **I operate at the intersection of security and AI.** This is not a security project that happens to involve AI, or an AI project that adds security as an afterthought. It is a system where security *is* the product.
-4. **I ship production systems.** Dual-gateway deployment, 53 governed tools, 86 passing tests, 95 compliance mappings, continuous health monitoring. This is operational, not theoretical.
+4. **I ship production systems.** Dual-gateway deployment, governed tool modules, 86 passing tests, 95 compliance mappings, continuous health monitoring. This is operational, not theoretical.
 5. **I protect intellectual property.** 9 patent families, 77 dependent claims, filed and prosecuting. I understand the value of what I build and I secure it accordingly.
 
 ---

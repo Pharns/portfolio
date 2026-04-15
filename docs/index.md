@@ -301,7 +301,7 @@ Advanced Air Mobility (AAM) security requires practitioners who understand the e
 | **USPTO Patents** | Granted patents in UAV payload and delivery architectures |
 | **RF Threat Detection** | TraceLock™ 6-domain correlation (Wi-Fi/BLE/SDR/GPS/ADS-B) — rogue APs, trackers, drone proximity |
 | **Aviation Credentials** | FAA Part 107 certified drone pilot |
-| **SDR/Wireless** | HackRF, RTL-SDR, Kismet — spectrum analysis and signal intelligence |
+| **SDR/Wireless** | HackRF, RTL-SDR — spectrum analysis and signal intelligence |
 | **Consulting** | AAM Cyber, LLC — cyber-physical security services |
 | **Military Aviation** | USAF aeromedical operations background |
 

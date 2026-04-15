@@ -1,5 +1,5 @@
 ---
-description: "PropTech BLE security and privacy case study using passive RF analysis (TraceLock/Kismet). GRC-focused scope control, risk assessment, and policy alignment."
+description: "PropTech BLE security and privacy case study using passive RF analysis (TraceLock). GRC-focused scope control, risk assessment, and policy alignment."
 ---
 
 # PropTech RF governance and scope control
@@ -33,13 +33,13 @@ Modern apartment complexes increasingly deploy PropTech platforms using Bluetoot
 
 ## Method (passive RF only)
 
-- TraceLock (Kismet-based) passive capture
+- TraceLock passive RF capture
 - Advertising-only observation (no pairing, no connections)
 - Behavioral fingerprinting: name patterns, UUIDs, RSSI stability, persistence
 
 ## Evidence snapshots (redacted)
 
-![Kismet BLE overview (passive scan)](../assets/screenshots/proptech-ble-kismet-overview.png)
+![BLE overview (passive scan)](../assets/screenshots/proptech-ble-kismet-overview.png)
 *Redacted screenshot: device identifiers and environment details removed.*
 
 ![Wi-Fi infrastructure capture (supporting layer)](../assets/screenshots/proptech-wifi-infrastructure-capture.png)
@@ -85,7 +85,7 @@ For regulated and security-sensitive professionals, the environment is best trea
 
 ## Artifacts (redacted)
 
-- [Kismet BLE overview (redacted)](../assets/screenshots/proptech-ble-kismet-overview.png)
+- [BLE overview (redacted)](../assets/screenshots/proptech-ble-kismet-overview.png)
 - [Wi-Fi infrastructure capture (redacted)](../assets/screenshots/proptech-wifi-infrastructure-capture.png)
 - [RF ecosystem diagram](../assets/diagrams/proptech-rf-ecosystem.png)
 - [PropTech BLE architecture diagram](../assets/images/proptech-ble-architecture-diagram.png)
