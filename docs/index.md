@@ -1,16 +1,16 @@
 ---
-description: "Portfolio showcasing how I design and build security programs that translate governance into operational defense, including GIAP™ compliance automation, TraceLock™ detection engineering, AWS cloud security, PCI-DSS implementation, and RF/drone security research."
+description: "I build the systems that make AI agents trusted to operate. Portfolio showcasing governed autonomous execution — from patent-pending SDOS architecture to TraceLock (RF threat detection), GIAP (compliance automation), AWS security controls, and detection engineering."
 ---
 
 # Pharns Genece
 
-**Security Architect & GRC Engineer**
+**AI Governance Architect | Patent Holder**
 
-AI can do things. I make AI trusted to do them.™
+I govern AI agents so yours don't go rogue.
 
-I build the controls I document — cloud guardrails, endpoint hardening, evidence pipelines, and detection workflows that stand up in real operations and audits.
+I build the governance systems that make AI agents trusted to operate — from patent-pending autonomous execution architecture to detection engineering, compliance automation, and RF threat detection. Every project here demonstrates one principle: AI without governance isn't safe to ship.
 
-Best fit for teams that need implementation, not just policy decks.
+Best fit for teams that need governed AI execution, not just policy decks.
 
 USAF Veteran (service-disabled) · Security Clearance Eligible · Security+/CySA+/PenTest+/SSCP · B.S. Cybersecurity (Mar 2026)
 

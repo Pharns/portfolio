@@ -1,6 +1,6 @@
-site_name: Security Program & GRC Engineering Portfolio | Pharns Genece
+site_name: AI Governance Architect | Patent Holder — Portfolio | Pharns Genece
 site_url: https://portfolio.pharns.com
-site_description: "Portfolio showcasing how I design and build security programs that translate governance into operational defense, including GIAP™ compliance automation, TraceLock™ detection engineering, AWS cloud security, PCI-DSS implementation, and RF/drone security research."
+site_description: "I build the systems that make AI agents trusted to operate. Portfolio showcasing governed autonomous execution — from patent-pending SDOS architecture to TraceLock (RF threat detection), GIAP (compliance automation), AWS security controls, and detection engineering."
 site_author: Pharns Génécé
 repo_url: https://github.com/Pharns/portfolio
 repo_name: pharns/portfolio
@@ -52,9 +52,9 @@ extra:
     name: Email - career@pharns.com
   meta:
   - property: og:title
-    content: "Security Program & GRC Engineering Portfolio | Pharns Genece"
+    content: "AI Governance Architect | Patent Holder — Portfolio | Pharns Genece"
   - property: og:description
-    content: "Portfolio showcasing how I design and build security programs that translate governance into operational defense, including GIAP™ compliance automation, TraceLock™ detection engineering, AWS cloud security, PCI-DSS implementation, and RF/drone security research."
+    content: "I build the systems that make AI agents trusted to operate. Portfolio showcasing governed autonomous execution — from patent-pending SDOS architecture to TraceLock (RF threat detection), GIAP (compliance automation), AWS security controls, and detection engineering."
   - property: og:type
     content: "website"
   - property: og:url
@@ -62,9 +62,9 @@ extra:
   - name: twitter:card
     content: "summary_large_image"
   - name: twitter:title
-    content: "Security Program & GRC Engineering Portfolio | Pharns Genece"
+    content: "AI Governance Architect | Patent Holder — Portfolio | Pharns Genece"
   - name: twitter:description
-    content: "Portfolio showcasing how I design and build security programs that translate governance into operational defense, including GIAP™ compliance automation, TraceLock™ detection engineering, AWS cloud security, PCI-DSS implementation, and RF/drone security research."
+    content: "I build the systems that make AI agents trusted to operate. Portfolio showcasing governed autonomous execution — from patent-pending SDOS architecture to TraceLock (RF threat detection), GIAP (compliance automation), AWS security controls, and detection engineering."
 markdown_extensions:
 - admonition
 - attr_list
