@@ -1,13 +1,27 @@
 # Portfolio Roadmap
 
-**Last Updated:** 2026-01-22
+**Last Updated:** 2026-04-16
 **Analysis Source:** Portfolio Architect v3.6.0 (76+ expert advisors)
 
 This roadmap tracks portfolio improvements identified through comprehensive analysis. Items are prioritized by impact on hiring conversion and effort required.
 
 ---
 
-## Completed (This Session)
+## Completed (Patent Congruency Audit — 2026-04-16)
+
+- [x] Remediate sdos-governance-framework.md to Tier 2 disclosure (removed risk-tier table, comparison matrix, production metrics)
+- [x] Remediate openclaw-orchestration.md to Tier 2 disclosure (removed Mermaid diagram, dual-gateway details, R1/R2/R3 table, fleet specifics)
+- [x] Remediate gram-memory-system.md to Tier 2 disclosure (removed four-pillar breakdown, comparison table, entity graph metrics, phase roadmap, algorithm names)
+- [x] Update stale claim counts (77 → 83) across all portfolio pages (8 instances, 4 files)
+- [x] Align innovation/index.md description bullets with remediated page language
+- [x] Fix duplicate frontmatter in governed-security-architecture.md
+- [x] Update Congruence Ledger with portfolio disclosure control (Sections 8+9)
+- [x] Expert panel review (7 lenses, 3 checkpoints) — all approved
+- [x] Portfolio Congruency Score: 9.1/10
+
+---
+
+## Completed (Previous Sessions)
 
 - [x] Add availability badge to homepage hero ("Available February 2026")
 - [x] Add Cal.com scheduling link to contact page

@@ -1,5 +1,5 @@
 ---
-description: "GRAM — Governed Retrieval and Adaptive Memory. Hybrid vector + BM25 semantic retrieval with trust-weighted scoring and governed ingestion."
+description: "GRAM — Governed Retrieval and Adaptive Memory. Hybrid semantic retrieval with trust-weighted scoring and governed ingestion for AI agents."
 ---
 
 # GRAM — Governed retrieval and adaptive memory
@@ -10,7 +10,7 @@ description: "GRAM — Governed Retrieval and Adaptive Memory. Hybrid vector + B
 
     **What I Built:** A governed semantic memory system that gives AI agents access to organizational knowledge while enforcing strict access controls, trust-weighted retrieval, and deny-all-default ingestion policies.
 
-    **Technical Stack:** Python · Vector Store · BM25 · Local Embeddings · Entity Graph · SDOS Governance Layer · Automated Nightly Ingestion
+    **Technical Stack:** Python · Vector Store · Local Embeddings · Entity Graph · SDOS Governance Layer · Automated Nightly Ingestion
 
     **Security Engineering Skills Demonstrated:**
 
@@ -38,7 +38,7 @@ I built GRAM to solve this. It delivers the retrieval quality that makes AI agen
 
 ## Architecture
 
-GRAM is a hybrid retrieval and adaptive memory system built on four architectural pillars: governed ingestion, hybrid search, trust-weighted scoring, and structured knowledge traversal.
+GRAM is a governed memory system that combines multiple retrieval strategies with trust-weighted scoring and deny-all-default ingestion.
 
 ### Governed ingestion
 
@@ -50,76 +50,29 @@ Automated nightly ingestion processes permitted sources, chunks content, generat
 
 ### Hybrid retrieval
 
-GRAM combines two complementary search strategies to maximize recall and precision:
+GRAM combines multiple complementary search strategies to maximize recall and precision. Semantic search catches conceptual matches that keyword search misses — a query about "access control failures" retrieves content about "authorization bypass" even when those exact words are absent. Keyword matching ensures exact terminology is weighted appropriately in technical domains where precise terms carry specific meaning.
 
-- **Vector similarity search** uses local embeddings to find semantically related content. This catches conceptual matches that keyword search misses — a query about "access control failures" retrieves content about "authorization bypass" even when those exact words are absent.
-
-- **BM25 keyword matching** ensures exact terminology is weighted appropriately. In technical domains where precise terms carry specific meaning — CVE identifiers, framework control numbers, policy names — keyword matching prevents semantic search from returning conceptually adjacent but factually wrong results.
-
-The hybrid approach consistently outperforms either method alone. Vector search handles the "what did I mean" problem. BM25 handles the "what did I say" problem. Combined, they deliver retrieval quality that holds up across both exploratory queries and precise lookups.
+The hybrid approach consistently outperforms either method alone, delivering retrieval quality that holds up across both exploratory queries and precise lookups.
 
 ### Trust-weighted scoring
 
-Retrieval results are not ranked by relevance alone. GRAM applies a trust-weighted scoring model that factors in the governance classification of each result alongside its semantic similarity score. A highly relevant result from a low-trust source ranks below a moderately relevant result from a high-trust source.
+Retrieval results are not ranked by relevance alone. GRAM applies a trust-weighted scoring model that factors in the governance classification of each result alongside its semantic similarity score. Verified, curated knowledge surfaces above raw captures. Established doctrine surfaces above untriaged intelligence. The scoring model reflects the reality that not all information in a knowledge base carries equal authority, and retrieval systems that ignore this distinction actively degrade decision quality.
 
-This creates a natural preference hierarchy: verified, curated knowledge surfaces above raw captures. Established doctrine surfaces above untriaged intelligence. The scoring model reflects the reality that not all information in a knowledge base carries equal authority, and retrieval systems that ignore this distinction actively degrade decision quality.
+### Knowledge graph
 
-### Entity graph
-
-Beyond unstructured retrieval, GRAM maintains a structured entity graph — currently 17 entities and 21 relationships — that enables knowledge traversal across connected concepts. Where vector search answers "what is related to this query," the entity graph answers "what is connected to this thing, and how."
-
-This is particularly valuable for multi-hop reasoning. An agent querying about a specific technology can traverse relationships to discover associated projects, relevant governance policies, and related decision records without requiring the user to know those connections exist. The graph grows organically as new content is ingested and entity relationships are extracted.
-
----
-
-## Five-phase delivery
-
-I designed and delivered GRAM across five phases, each building on the previous foundation. All five phases are complete and operational.
-
-### Phase 1 — Vector memory and hybrid search
-
-Stood up the core retrieval engine: vector store, BM25 index, hybrid query pipeline, and the deny-all-default ingestion framework. This phase established the foundational architecture — local embeddings, content processing pipeline, and the governed ingestion boundary.
-
-### Phase 2 — Agent orchestration and write controls
-
-Integrated GRAM with the AI agent layer and implemented governed write paths. Agents can query GRAM freely but cannot write directly to the index. All write operations flow through a governance gate that validates the content, classifies it, and stages it for the next ingestion cycle. This prevents agents from polluting the knowledge base with hallucinated or low-quality content.
-
-### Phase 3 — Entity graph and relationship traversal
-
-Built the structured knowledge graph layer on top of the vector store. Entity extraction identifies key concepts during ingestion. Relationship mapping connects entities across documents. Query-time traversal enables agents to follow knowledge paths that pure semantic search cannot surface.
-
-### Phase 4 — Feedback loops and trust-weighted retrieval
-
-Implemented the trust-weighted scoring model and feedback mechanisms. Retrieval results now carry governance metadata. The system tracks which results are acted on versus ignored, creating a signal that refines future ranking. Trust scores adjust based on source verification, content age, and usage patterns.
-
-### Phase 5 — Automation, scaling, and operational reporting
-
-Automated the full lifecycle: nightly ingestion, index maintenance, contradiction detection, emergent behavior monitoring, and ROSI reporting. The system runs unattended with automated alerting for anomalies — new contradictions between knowledge sources, unexpected clustering patterns, or ingestion failures.
+Beyond unstructured retrieval, GRAM maintains a structured knowledge graph that enables traversal across connected concepts. Where semantic search answers "what is related to this query," the graph answers "what is connected to this thing, and how." This is particularly valuable for multi-hop reasoning, where an agent querying about a specific technology can traverse relationships to discover associated projects, governance policies, and decision records without requiring the user to know those connections exist.
 
 ---
 
 ## What makes this different
 
-Most organizations approaching AI memory land on one of three existing patterns. Each solves part of the problem and ignores the rest.
+Standard RAG gives you semantic retrieval with no governance. Everything gets indexed, everything gets returned, and the only ranking signal is similarity. This works for public documentation. It fails the moment sensitive data enters the corpus.
 
-| Capability | Standard RAG | Enterprise search | Knowledge graphs | GRAM |
-|---|---|---|---|---|
-| Semantic retrieval | Yes | Partial | No | Yes |
-| Keyword precision | No | Yes | No | Yes |
-| Governed ingestion | No | No | No | Yes |
-| Trust-weighted scoring | No | No | No | Yes |
-| Entity relationships | No | No | Yes | Yes |
-| Local-only processing | Rarely | No | Sometimes | Yes |
-| Contradiction detection | No | No | No | Yes |
-| Write governance | No | Partial | No | Yes |
+Enterprise search gives you keyword precision and some access controls, but no semantic understanding, no trust weighting, and no protection against sensitive data being indexed in the first place. Access controls applied at query time mean the data is already in the index and one misconfigured permission away from exposure.
 
-**Standard RAG** gives you semantic retrieval with no governance. Everything gets indexed, everything gets returned, and the only ranking signal is vector similarity. This works for public documentation. It fails the moment sensitive data enters the corpus.
+Knowledge graphs give you structured relationships but no unstructured retrieval. They require heavy upfront modeling and do not handle the messy reality of organizational knowledge bases where most information lives in documents and notes.
 
-**Enterprise search** gives you keyword precision and some access controls, but no semantic understanding, no trust weighting, and no protection against sensitive data being indexed in the first place. Access controls are applied at query time, which means the data is already in the index and one misconfigured permission away from exposure.
-
-**Knowledge graphs** give you structured relationships but no unstructured retrieval. They require heavy upfront modeling and do not handle the messy reality of organizational knowledge bases where most information lives in documents, notes, and communications rather than structured databases.
-
-GRAM combines the retrieval quality of RAG, the precision of keyword search, the structure of knowledge graphs, and the access controls that none of them provide. The governed ingestion layer is the critical differentiator — it ensures the index only contains data that should be retrievable, rather than trying to filter restricted data out of query results after the fact.
+GRAM combines the retrieval quality of semantic search, the precision of keyword matching, the structure of knowledge graphs, and the access controls that none of them provide. The governed ingestion layer is the critical differentiator — it ensures the index only contains data that should be retrievable, rather than trying to filter restricted data out of query results after the fact.
 
 ---
 
@@ -127,20 +80,11 @@ GRAM combines the retrieval quality of RAG, the precision of keyword search, the
 
 GRAM is not a prototype or proof of concept. It is a production system running daily automated operations.
 
-| Metric | Value |
-|---|---|
-| Indexed chunks | 50,000+ |
-| Tracked entities | 17 |
-| Mapped relationships | 21 |
-| Ingestion cycle | Nightly automated |
-| All 5 delivery phases | Complete |
-| Contradiction detection | Active |
-| Emergent behavior monitoring | Active |
-| ROSI reporting | Operational |
+The system processes tens of thousands of indexed chunks across a governed knowledge base. Automated nightly ingestion, contradiction detection, emergent behavior monitoring, and ROSI reporting run unattended with automated alerting for anomalies.
 
 The contradiction detection system flags cases where newly ingested content conflicts with existing knowledge — a critical capability in environments where policies change, procedures update, and stale information can drive bad decisions. Rather than silently replacing old information, GRAM surfaces the contradiction for human review.
 
-Emergent behavior monitoring watches for unexpected patterns in the knowledge graph — new cluster formations, unusual query patterns, or relationship density changes that may indicate either genuine insight or data quality issues. This is the governed equivalent of anomaly detection applied to organizational knowledge.
+Emergent behavior monitoring watches for unexpected patterns in the knowledge graph — new cluster formations, unusual query patterns, or relationship density changes that may indicate either genuine insight or data quality issues. This is anomaly detection applied to organizational knowledge.
 
 ROSI reporting quantifies the security investment by tracking retrieval accuracy, governance enforcement actions, ingestion coverage, and agent utilization patterns. This gives stakeholders measurable evidence that the governance layer is working, not just a trust-me assertion.
 
@@ -154,7 +98,7 @@ GRAM addresses a specific gap that exists in any organization deploying AI agent
 
 **Compliance-sensitive environments.** Organizations subject to SOC 2, HIPAA, PCI DSS, or similar frameworks need demonstrable access controls over AI agent data access. GRAM's governed ingestion, trust-weighted retrieval, and ROSI reporting provide the audit evidence these frameworks demand.
 
-**Multi-domain knowledge management.** Organizations where different teams, projects, or classifications share a common knowledge infrastructure need retrieval systems that respect boundaries. GRAM's trust-weighted scoring and governed ingestion ensure that cross-domain queries return appropriate results without leaking restricted information.
+**Multi-domain knowledge management.** Organizations where different teams, projects, or classifications share a common knowledge infrastructure need retrieval systems that respect boundaries. Trust-weighted scoring and governed ingestion ensure that cross-domain queries return appropriate results without leaking restricted information.
 
 **AI agent deployments.** Any organization moving from experimental AI assistants to production AI agents needs a memory layer that is both useful and safe. Stateless agents are limited. Agents with ungoverned memory are dangerous. GRAM provides the governed middle path — agents that learn and improve without creating new attack surfaces.
 
@@ -164,7 +108,7 @@ GRAM addresses a specific gap that exists in any organization deploying AI agent
 
 1. **I build AI systems with governance built in** — not bolted on after deployment
 2. **I understand data classification at the architectural level** — deny-all-default is a design decision, not a policy checkbox
-3. **I deliver complete systems** — five phases from concept through production automation
+3. **I deliver complete systems** — from concept through production automation
 4. **I measure security outcomes** — ROSI reporting, contradiction detection, anomaly monitoring
 5. **I design for real-world constraints** — local-only processing, automated operations, zero-trust ingestion
 
@@ -187,20 +131,20 @@ GRAM addresses a specific gap that exists in any organization deploying AI agent
   "@context": "https://schema.org",
   "@type": "TechArticle",
   "headline": "GRAM — Governed Retrieval and Adaptive Memory",
-  "description": "A governed semantic memory system combining hybrid vector and BM25 retrieval with trust-weighted scoring, deny-all-default ingestion, and local-only embeddings for secure AI agent knowledge access.",
+  "description": "A governed semantic memory system combining hybrid retrieval with trust-weighted scoring, deny-all-default ingestion, and local-only embeddings for secure AI agent knowledge access.",
   "author": {
     "@type": "Person",
     "name": "Pharns Genece",
     "url": "https://portfolio.pharns.com"
   },
   "datePublished": "2026-04-13",
-  "dateModified": "2026-04-13",
+  "dateModified": "2026-04-16",
   "publisher": {
     "@type": "Person",
     "name": "Pharns Genece"
   },
   "mainEntityOfPage": "https://portfolio.pharns.com/innovation/gram-memory-system/",
-  "keywords": ["AI governance", "semantic retrieval", "vector memory", "trust-weighted scoring", "governed ingestion", "security architecture", "RAG", "knowledge management"],
+  "keywords": ["AI governance", "semantic retrieval", "governed ingestion", "trust-weighted scoring", "security architecture", "knowledge management"],
   "about": {
     "@type": "SoftwareApplication",
     "name": "GRAM",

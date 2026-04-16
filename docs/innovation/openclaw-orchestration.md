@@ -1,22 +1,22 @@
 ---
-description: "Governed Agent Gateway — Dual-gateway AI orchestration platform separating governance from execution at the network level."
+description: "Governed Agent Gateway — AI orchestration platform with infrastructure-layer governance separating policy enforcement from model execution."
 ---
-# Governed Agent Gateway — Dual-gateway AI orchestration
+# Governed Agent Gateway — AI agent orchestration under governance
 
-*Patent-Pending · Federated Agent Governance · 2025–2026*
+*Patent-Pending · Governed Agent Infrastructure · 2025–2026*
 
 !!! success "For hiring managers — security architecture / AI governance"
 
-    **What I built:** A federated AI agent orchestration platform that enforces governance at the dispatch boundary — separating policy decisions from model execution at the network level.
+    **What I built:** A governed AI agent orchestration platform that enforces policy at the dispatch boundary — separating governance decisions from model execution at the infrastructure layer.
 
-    **Technical stack:** Python 3.10+ · SQLite · REST API · MCP Protocol · Cryptographic Module Signing · Multi-Provider Inference (Ollama, Claude, Gemini)
+    **Technical stack:** Python 3.10+ · SQLite · REST API · MCP Protocol · Cryptographic Module Signing · Multi-Provider Inference
 
     **Security engineering skills demonstrated:**
 
-    - Dual-gateway federation isolating governance from execution
-    - Risk-classified dispatch with three severity tiers
+    - Infrastructure-layer separation of governance and execution
+    - Risk-classified dispatch with governance enforcement before agent action
     - Cryptographically signed module loading with live update capability
-    - 86 passing tests with zero ungoverned tool executions
+    - Comprehensive test suite validating zero ungoverned tool executions
     - Model-agnostic governance across multiple inference providers
 
     **Why this matters:** If I can architect a system where no AI agent touches a task without passing a governance gate first, I can design security controls for any autonomous system your organization deploys.
@@ -35,69 +35,19 @@ This is what I built the governed agent gateway to answer.
 
 ---
 
-## Dual-gateway federation
+## Governance-first architecture
 
-The platform separates governance from execution at the network level. Not at the prompt level. Not at the application layer. At the infrastructure boundary where it cannot be bypassed by a sufficiently creative model.
+The platform separates governance from execution at the infrastructure level. Not at the prompt level. Not at the application layer. At a boundary where policy enforcement cannot be bypassed by a sufficiently creative model.
 
-### Governance gateway
+Governance enforcement is structural, not advisory. The platform ensures that no agent reaches the execution environment without first passing through governance. A compromised model, a jailbroken agent, or a malicious prompt cannot bypass this boundary because the boundary exists below the application layer.
 
-The governance gateway is the single point of policy enforcement. Every task request — regardless of which agent, model, or provider initiates it — must pass through this gateway before anything executes. The governance gateway handles:
+Every inbound request is classified by risk level before dispatch. Classification determines what resources the task can access, which models are eligible to process it, and what audit requirements apply. Multiple independent policy enforcement points evaluate each request. Requests that fail policy are rejected with a structured denial record, not silently dropped.
 
-- **Risk classification** — Every inbound request is classified into a risk tier before dispatch. The classification determines what resources the task can access, which models are eligible to process it, and what audit requirements apply.
-- **Policy evaluation** — Multiple independent policy enforcement points evaluate each request against the current rule set. Requests that fail policy are rejected with a structured denial record, not silently dropped.
-- **Audit capture** — Every decision — approvals, denials, escalations, classification outcomes — is logged at the infrastructure layer. The model never self-reports. The gateway captures what actually happened.
-- **Module authentication** — Every tool module loaded into the system carries a cryptographic signature. Unsigned or tampered modules are rejected at load time. No exceptions.
+Every tool module loaded into the system carries a cryptographic signature. Unsigned or tampered modules are rejected at load time. Every decision — approvals, denials, escalations, classification outcomes — is logged at the infrastructure layer. The model never self-reports. The gateway captures what actually happened.
 
-### Execution gateway
+!!! note "Architecture details"
 
-The execution gateway handles model inference and tool execution. It has no policy authority. It cannot classify risk, approve its own actions, or modify governance rules. It does exactly what the governance gateway authorized — nothing more.
-
-- **Model inference** across a multi-node fleet supporting multiple providers and model sizes
-- **Tool execution** within the boundaries set by the governance gateway's authorization
-- **Result capture** with structured output that feeds back to the governance layer for audit
-
-### The separation principle
-
-No agent can reach the execution layer without first passing governance. This is not a software convention — it is a network-level enforcement. The execution gateway does not accept requests that did not originate from the governance gateway. A compromised model, a jailbroken agent, or a malicious prompt cannot bypass this boundary because the boundary exists below the application layer.
-
-```mermaid
-flowchart LR
-    subgraph EXTERNAL["External requests"]
-        A1[Agent A]
-        A2[Agent B]
-        A3[Agent C]
-    end
-
-    subgraph GOV["Governance gateway"]
-        direction TB
-        RC[Risk classification]
-        PE[Policy enforcement]
-        AU[Audit log]
-    end
-
-    subgraph EXEC["Execution gateway"]
-        direction TB
-        MI[Model inference]
-        TE[Tool execution]
-        RO[Result output]
-    end
-
-    A1 --> RC
-    A2 --> RC
-    A3 --> RC
-    RC --> PE
-    PE -->|Authorized| MI
-    PE -->|Denied| AU
-    MI --> TE
-    TE --> RO
-    RO --> AU
-
-    style GOV fill:#e8f4ea,stroke:#2e7d32,stroke-width:2px
-    style EXEC fill:#e0f2fe,stroke:#0284c7,stroke-width:2px
-    style EXTERNAL fill:#f8fafc,stroke:#334155,stroke-width:1px
-```
-
-*Figure: Dual-gateway federation. All requests enter through governance (green). Only authorized requests reach execution (blue). Denied requests and all outcomes are captured in audit.*
+    Architecture diagrams and implementation specifics are withheld under pre-disclosure policy. The techniques described on this page are patent-pending. For licensing inquiries, please use the contact page.
 
 ---
 
@@ -115,25 +65,15 @@ The platform runs a governed MCP (Model Context Protocol) server organized into 
 
 ### Risk-classified dispatch
 
-Every task entering the system is classified into one of three risk tiers:
-
-| Tier | Scope | Model requirements | Audit level |
-|------|-------|--------------------|-------------|
-| **Low risk** | Routine operations, low-sensitivity data | Standard policy | Standard logging |
-| **Elevated risk** | Sensitive operations, regulated data access | Elevated governance | Enhanced logging + review flag |
-| **High risk** | Critical operations, irreversible actions | Maximum governance | Full audit trail + human review gate |
-
-The classification is not advisory. An R3 task cannot execute on a lightweight model regardless of queue pressure or availability. An R2 task cannot downgrade itself to R1 to avoid enhanced logging. The governance gateway enforces these floors as hard constraints.
+Every task entering the system is classified by risk level. Classification is not advisory — it is enforced as a hard constraint. A high-risk task cannot execute on a lightweight model regardless of queue pressure or availability. Tasks cannot self-downgrade their classification to avoid enhanced governance. The platform enforces these floors structurally.
 
 ### Multi-provider inference
 
-The gateway governs a three-node inference fleet running multiple model providers and sizes. The platform is model-agnostic — it does not care whether the underlying model is Ollama, Claude, Gemini, or any future provider. Governance wraps the model, not the other way around.
-
-Five paired operators work across the fleet, each consisting of a governance-side dispatcher and an execution-side runner. This pairing ensures that every execution has a corresponding governance record.
+The gateway governs inference across multiple model providers and sizes. The platform is model-agnostic — it does not care whether the underlying model is Ollama, Claude, Gemini, or any future provider. Governance wraps the model, not the other way around.
 
 ### Test coverage
 
-The platform maintains 86 passing tests with a specific invariant: zero ungoverned tool executions. Every test validates that tool access requires governance authorization. There is no "admin bypass" or "test mode" that disables policy enforcement. The test suite validates the governance boundary, not just the application logic.
+The platform maintains a comprehensive test suite with a specific invariant: zero ungoverned tool executions. Every test validates that tool access requires governance authorization. There is no "admin bypass" or "test mode" that disables policy enforcement. The test suite validates the governance boundary, not just the application logic.
 
 ---
 
@@ -157,7 +97,7 @@ This matters for compliance. Auditors do not accept "the AI said it followed the
 
 ## Compliance alignment
 
-The governed dispatch architecture maps to established compliance and AI governance frameworks. The platform currently maintains 95 control mappings across 10 frameworks, including:
+The governed dispatch architecture maps to established compliance and AI governance frameworks, including:
 
 - **NIST AI RMF** — Risk management functions mapped to classification and dispatch controls
 - **ISO 42001** — AI management system requirements addressed by the governance layer
@@ -191,7 +131,7 @@ Federal acquisition increasingly requires AI governance documentation. The gatew
 
 ## Patent status
 
-The governed dispatch architecture is part of **U.S. Provisional Patent Application No. 64/029,300**, filed April 4, 2026. The application covers nine patent families with 77 dependent claims. Intellectual property is held by a **dedicated IP holding entity**.
+The governed dispatch architecture is part of **U.S. Provisional Patent Application No. 64/029,300**, filed April 4, 2026. The application covers nine patent families with 83 dependent claims. Intellectual property is held by a **dedicated IP holding entity**.
 
 Non-provisional filing is in progress under accelerated prosecution.
 
@@ -204,19 +144,19 @@ Non-provisional filing is in progress under accelerated prosecution.
 ## Technical skills demonstrated
 
 ### Security architecture
-- [x] Network-level separation of governance and execution
+- [x] Infrastructure-layer separation of governance and execution
 - [x] Cryptographic module authentication
-- [x] Risk-tiered access control with hard enforcement floors
+- [x] Risk-classified access control with hard enforcement floors
 - [x] Multi-layer policy enforcement pipeline
 
 ### AI systems engineering
 - [x] Multi-provider, model-agnostic orchestration
 - [x] MCP protocol implementation with governed tool modules
 - [x] Live module updates without downtime
-- [x] Paired operator architecture across distributed inference
+- [x] Governed dispatch across distributed inference
 
 ### Compliance engineering
-- [x] 95 control mappings across 10 governance frameworks
+- [x] Control mappings across major governance frameworks
 - [x] Audit-grade logging at the infrastructure layer
 - [x] Automated risk classification at dispatch
 - [x] Evidence generation for regulatory compliance
@@ -226,7 +166,7 @@ Non-provisional filing is in progress under accelerated prosecution.
 ## Related projects
 
 - [AgenticOS](agenticos.md) — Deterministic AI agent routing framework with explainable dispatch
-- [TraceLock](../cybersecurity/tracelock.md) — Multi-domain RF threat detection (governed by dual-gateway dispatch)
+- [TraceLock](../cybersecurity/tracelock.md) — Multi-domain RF threat detection (governed by dispatch-level governance)
 - [Governed security architecture](../architecture/governed-security-architecture.md) — System-of-systems view
 - [Security telemetry decision architecture](../architecture/security-telemetry-decision-architecture.md) — Telemetry-to-decision pipeline
 
@@ -239,21 +179,21 @@ Non-provisional filing is in progress under accelerated prosecution.
 {
   "@context": "https://schema.org",
   "@type": "TechArticle",
-  "headline": "Governed Agent Gateway — Dual-Gateway AI Orchestration",
-  "description": "Federated AI agent orchestration platform with dual-gateway architecture separating governance from execution. Patent-pending dispatch-level governance for enterprise AI deployments.",
+  "headline": "Governed Agent Gateway — AI Orchestration Under Governance",
+  "description": "AI agent orchestration platform with infrastructure-layer governance separating policy enforcement from model execution. Patent-pending dispatch-level governance for enterprise AI deployments.",
   "author": {
     "@type": "Person",
     "name": "Pharns Genece",
     "url": "https://portfolio.pharns.com"
   },
   "datePublished": "2026-04-13",
-  "dateModified": "2026-04-13",
+  "dateModified": "2026-04-16",
   "publisher": {
     "@type": "Person",
     "name": "Pharns Genece"
   },
   "mainEntityOfPage": "https://portfolio.pharns.com/innovation/openclaw-orchestration/",
-  "keywords": ["AI governance", "agent orchestration", "federated architecture", "dispatch governance", "MCP", "security architecture", "compliance automation", "patent-pending"],
+  "keywords": ["AI governance", "agent orchestration", "dispatch governance", "MCP", "security architecture", "compliance automation", "patent-pending"],
   "about": {
     "@type": "SoftwareApplication",
     "name": "Governed Agent Gateway",

@@ -1,5 +1,5 @@
 ---
-description: "SDOS — Security Decision Operating System. Patent-pending AI governance runtime with risk-tiered dispatch and deny-all-default policy enforcement."
+description: "SDOS — Security Decision Operating System. Patent-pending AI governance runtime with infrastructure-layer policy enforcement and deny-all-default posture."
 ---
 
 # SDOS — Security Decision Operating System
@@ -8,16 +8,16 @@ description: "SDOS — Security Decision Operating System. Patent-pending AI gov
 
 !!! success "For Hiring Managers — Security Architecture / AI Governance"
 
-    **What I Built:** A production AI governance runtime that enforces risk-tiered policy at the infrastructure layer — before AI agents reason, select tools, or execute actions. Not prompt engineering. Not guardrails bolted on after the fact. Architectural containment.
+    **What I Built:** A production AI governance runtime that enforces policy at the infrastructure layer — before AI agents reason, select tools, or execute actions. Not prompt engineering. Not guardrails bolted on after the fact. Architectural containment.
 
     **Technical Stack:** Python 3.10+ · SQLite · REST API · MCP Protocol · Cryptographic Module Signing · Multi-Agent Governance Architecture
 
     **Security Engineering Skills Demonstrated:**
 
     - Deny-all-default policy enforcement across autonomous AI agents
-    - Risk-tiered dispatch classification at the infrastructure layer
+    - Risk-classified policy enforcement at the infrastructure layer
     - Tamper-evident audit trails independent of model self-reporting
-    - Production dual-gateway deployment with continuous health monitoring
+    - Production deployment with continuous health monitoring
     - Compliance mapping across NIST AI RMF, ISO 42001, and EU AI Act
 
     **Why This Matters:** The industry is deploying AI agents faster than it can govern them. I built the governance layer that contains them — and filed the patent on it.
@@ -52,27 +52,13 @@ SDOS — the Security Decision Operating System — is a governance runtime that
 
 !!! info "Patent-pending"
 
-    SDOS is protected under USPTO Provisional Patent Application 64/029,300, filed April 4, 2026. The filing covers 9 patent families with 77 dependent claims. The intellectual property is held by a dedicated IP holding entity.
+    SDOS is protected under USPTO Provisional Patent Application 64/029,300, filed April 4, 2026. The filing covers 9 patent families with 83 dependent claims. The intellectual property is held by a dedicated IP holding entity.
 
 The core design principle is simple: **deny all by default.** An AI agent operating under SDOS has zero permissions until policy explicitly grants them. This inverts the typical AI deployment model, where agents start with broad access and teams scramble to restrict it after incidents occur.
 
-### Risk-tiered dispatch
+SDOS classifies every agent action by risk level before execution. Classification happens at the infrastructure layer, not inside the model. The agent does not decide its own risk level. The agent does not know what classification a given action receives until SDOS returns a permit or deny decision. This is the distinction between self-governance (which is not governance) and architectural governance (which is).
 
-Every action an agent attempts is classified into one of three risk tiers before it can execute:
-
-| Tier | Classification | Behavior |
-|------|---------------|----------|
-| **Low risk** | Safe | Executes immediately under policy. Read-only operations, pre-approved tool calls, bounded queries. |
-| **Elevated risk** | Review | Requires additional validation before execution. May trigger human-in-the-loop approval, elevated logging, or secondary policy checks. |
-| **High risk** | Blocked | Cannot execute without explicit override from a governance authority. High-risk operations, sensitive data access, irreversible actions. |
-
-This classification happens at the infrastructure layer, not inside the model. The agent does not decide its own risk tier. The agent does not know what tier a given action falls into until SDOS returns a permit or deny decision. This is the distinction between self-governance (which is not governance) and architectural governance (which is).
-
-### Multi-layer governance pipeline
-
-SDOS places multiple independent policy enforcement points across the decision pipeline. These are not optional middleware — they are structural gates that every action must pass through. An agent cannot route around them because they exist at a layer below the agent's execution environment.
-
-Each enforcement point evaluates policy independently. A tool call that passes the first gate can still be blocked at the third. This defense-in-depth approach means that a single misconfiguration does not collapse the entire governance posture.
+Multiple independent enforcement points evaluate each action across the governance pipeline. An agent cannot route around them because they exist at a layer below the agent's execution environment.
 
 ### Tamper-evident audit trails
 
@@ -84,52 +70,19 @@ This distinction matters enormously for compliance. Regulators, auditors, and se
 
 ## How SDOS differs from everything else
 
-The comparison below captures where SDOS sits relative to the governance approaches most organizations are currently using:
+Most AI governance approaches operate at the same layer as the AI itself. SDOS operates below it. The agent cannot modify, bypass, or reason around infrastructure-layer policy any more than a Docker container can modify its host kernel. This is not a philosophical difference — it is an architectural one with direct security implications.
 
-| Capability | SDOS | Model-layer guardrails | API rate limiting | Framework guardrails |
-|-----------|------|----------------------|-------------------|---------------------|
-| Enforcement layer | Infrastructure (below agent) | Model (same layer as agent) | Network (capacity only) | Application (same layer as agent) |
-| Deny-all default | Yes | No — permissive by default | No — allows all within rate | Depends on implementation |
-| Risk classification at dispatch | Risk-tiered before execution | Post-hoc or self-assessed | None | Varies |
-| Independent audit trail | Yes — infrastructure-generated | No — model self-reports | Partial — call logs only | Partial — depends on wrapper |
-| Tamper-evident logging | Yes — cryptographic integrity | No | No | No |
-| Survives prompt injection | Yes — agent cannot reach policy layer | No — prompt is the policy | N/A | Partially — if well-isolated |
-| Survives model updates | Yes — policy is external to model | No — behavior may shift | Yes | Partially |
-| Human-in-the-loop integration | Native (R2 tier) | Bolted on | None | Bolted on |
-| Multi-agent governance | Native — governs agent swarms | Per-agent only | Per-endpoint only | Per-integration only |
+Where prompt-level governance is security by suggestion, and application-level governance is security by retrospection, SDOS provides security by architecture. Policy enforcement happens before the model receives the task, not after the model has already acted.
 
-!!! warning "The critical distinction"
-
-    Most AI governance operates at the same layer as the AI itself. SDOS operates below it. The agent cannot modify, bypass, or reason around infrastructure-layer policy any more than a Docker container can modify its host kernel. This is not a philosophical difference — it is an architectural one with direct security implications.
+This means SDOS survives prompt injection, model updates, and multi-agent coordination scenarios that defeat approaches operating at the model layer. The governance layer is structurally independent of the governed system.
 
 ---
 
 ## Operational evidence
 
-SDOS is not a whitepaper or a roadmap. It is running in production today, governing a multi-agent system across dual-gateway infrastructure.
+SDOS is not a whitepaper or a roadmap. It is running in production today, governing a multi-agent system.
 
-### Production runtime
-
-| Component | Metric |
-|-----------|--------|
-| API endpoints | Production REST API |
-| Runtime health | Continuous monitoring with automated alerting |
-| Gateway architecture | Dual-gateway deployment with independent governance |
-| Agent swarm | 4 agents operating under continuous SDOS governance |
-
-### SDOS MCP server
-
-The SDOS MCP (Model Context Protocol) Server extends governance into the tool ecosystem that AI agents consume. This is where deny-all-default becomes operationally concrete — every tool an agent might invoke is wrapped in governance.
-
-| Component | Metric |
-|-----------|--------|
-| Governed tools | Multiple tool modules spanning security operations domains |
-| Module signing | Cryptographically signed module manifests |
-| Test coverage | 86 tests passing |
-| Compliance mappings | 95 control mappings across 10 frameworks |
-| Module lifecycle | Production module updates without service interruption |
-
-Each module's manifest is cryptographically signed, preventing unauthorized modification of the tool definitions that agents consume.
+The platform governs tool modules spanning security operations domains, with cryptographically signed module manifests preventing unauthorized modification of the tool definitions that agents consume. Production module updates deploy without service interruption.
 
 !!! tip "Why module signing matters"
 
@@ -137,17 +90,17 @@ Each module's manifest is cryptographically signed, preventing unauthorized modi
 
 ### Compliance alignment
 
-SDOS maps directly to established governance frameworks, not as a theoretical exercise but through tested control implementations:
+SDOS maps directly to established governance frameworks through tested control implementations:
 
 | Framework | Coverage |
 |-----------|----------|
 | **NIST AI RMF** | Risk management functions mapped to SDOS enforcement points |
 | **ISO 42001** | AI management system controls aligned to SDOS governance architecture |
-| **EU AI Act** | High-risk AI system requirements addressed through risk-tiered dispatch and audit trails |
+| **EU AI Act** | High-risk AI system requirements addressed through risk classification and audit trails |
 | **NIST SP 800-53** | Security and privacy controls mapped to SDOS operational controls |
 | **SOC 2 Type II** | Trust service criteria addressable through SDOS audit evidence |
 
-These are not aspirational mappings. The 95 compliance control mappings are implemented and testable in the current production deployment.
+These are not aspirational mappings. Compliance control mappings are implemented and testable in the current production deployment.
 
 ---
 
@@ -161,17 +114,7 @@ I have conducted competitive analysis across the AI governance space. The landsc
 
 **Model-layer safety tools.** These include constitutional AI approaches, RLHF-based alignment, and output filtering. They improve model behavior in aggregate but cannot guarantee enforcement on any individual action. They are statistical, not deterministic.
 
-No competitor I have identified combines all of the following in a single architecture:
-
-- Risk-tiered classification at dispatch (before the agent acts)
-- Deny-all-default policy enforcement
-- Tamper-evident audit trails at the infrastructure layer
-- Cryptographically signed module manifests
-- Governed memory with trust-weighted retrieval
-- Multi-agent governance from a unified policy engine
-- Edge enforcement for distributed and mobile deployments
-
-This is the gap SDOS fills. It is not an incremental improvement on existing approaches — it is a different architectural layer entirely.
+SDOS fills a gap that none of these categories address: infrastructure-layer governance that enforces policy before the agent acts, produces tamper-evident audit evidence, and scales across multi-agent deployments from a unified policy engine.
 
 ---
 
@@ -181,11 +124,11 @@ This is the gap SDOS fills. It is not an incremental improvement on existing app
 
     **Provisional Patent Application:** USPTO 64/029,300
     **Filed:** April 4, 2026
-    **Coverage:** 9 patent families, 77 dependent claims
+    **Coverage:** 9 patent families, 83 dependent claims
     **Assignee:** Dedicated IP holding entity
     **Status:** Non-provisional filing in preparation (accelerated timeline)
 
-The patent portfolio covers the full governance architecture — from risk-tiered dispatch at the core through modular tool governance, edge enforcement, and multi-agent coordination. The breadth of the filing reflects the scope of the problem: governing AI agents is not a single-feature solution, it is an architectural system that must address every layer where an agent can act.
+The patent portfolio covers the full governance architecture — from risk classification at the core through modular tool governance, edge enforcement, and multi-agent coordination. The breadth of the filing reflects the scope of the problem: governing AI agents is not a single-feature solution, it is an architectural system that must address every layer where an agent can act.
 
 ---
 
@@ -193,7 +136,7 @@ The patent portfolio covers the full governance architecture — from risk-tiere
 
 SDOS is relevant to any organization deploying AI agents beyond simple chatbot interfaces. The moment an AI agent can take actions — call APIs, access databases, modify files, communicate with external systems — governance becomes a security requirement, not a nice-to-have.
 
-**Enterprise AI deployments.** Organizations running multi-agent systems, AI-powered automation, or LLM-integrated workflows need governance that scales with agent count and does not depend on per-agent configuration. SDOS provides centralized policy enforcement across agent swarms.
+**Enterprise AI deployments.** Organizations running multi-agent systems, AI-powered automation, or LLM-integrated workflows need governance that scales with agent count and does not depend on per-agent configuration. SDOS provides centralized policy enforcement across agent fleets.
 
 **Federal and defense.** Government environments require audit-grade evidence of AI governance, deterministic policy enforcement, and compliance with emerging AI executive orders and NIST frameworks. SDOS produces the audit trail that procurement officers and inspectors general need to see.
 
@@ -210,8 +153,8 @@ SDOS is relevant to any organization deploying AI agents beyond simple chatbot i
 1. **I build governance architectures, not guardrails.** SDOS is infrastructure-layer enforcement — the kind of security architecture that survives adversarial conditions, not just cooperative ones.
 2. **I understand the AI governance gap.** The industry is deploying agents faster than governance frameworks can keep up. I identified that gap and built a production system to close it.
 3. **I operate at the intersection of security and AI.** This is not a security project that happens to involve AI, or an AI project that adds security as an afterthought. It is a system where security *is* the product.
-4. **I ship production systems.** Dual-gateway deployment, governed tool modules, 86 passing tests, 95 compliance mappings, continuous health monitoring. This is operational, not theoretical.
-5. **I protect intellectual property.** 9 patent families, 77 dependent claims, filed and prosecuting. I understand the value of what I build and I secure it accordingly.
+4. **I ship production systems.** Production deployment, governed tool modules, compliance mappings across major frameworks, continuous health monitoring. This is operational, not theoretical.
+5. **I protect intellectual property.** 9 patent families, 83 dependent claims, filed and prosecuting. I understand the value of what I build and I secure it accordingly.
 
 ---
 
@@ -232,20 +175,20 @@ SDOS is relevant to any organization deploying AI agents beyond simple chatbot i
   "@context": "https://schema.org",
   "@type": "TechArticle",
   "headline": "SDOS — Security Decision Operating System",
-  "description": "Patent-pending AI governance runtime with risk-tiered dispatch, deny-all-default policy enforcement, and tamper-evident audit trails at the infrastructure layer. Governs autonomous AI agents before they act, not after.",
+  "description": "Patent-pending AI governance runtime with infrastructure-layer policy enforcement, deny-all-default posture, and tamper-evident audit trails. Governs autonomous AI agents before they act, not after.",
   "author": {
     "@type": "Person",
     "name": "Pharns Genece",
     "url": "https://portfolio.pharns.com"
   },
   "datePublished": "2026-04-13",
-  "dateModified": "2026-04-13",
+  "dateModified": "2026-04-16",
   "publisher": {
     "@type": "Person",
     "name": "Pharns Genece"
   },
   "mainEntityOfPage": "https://portfolio.pharns.com/innovation/sdos-governance-framework/",
-  "keywords": ["AI governance", "SDOS", "security architecture", "patent-pending", "risk-tiered dispatch", "policy enforcement", "autonomous agents", "NIST AI RMF", "ISO 42001", "EU AI Act"],
+  "keywords": ["AI governance", "SDOS", "security architecture", "patent-pending", "policy enforcement", "autonomous agents", "NIST AI RMF", "ISO 42001", "EU AI Act"],
   "about": {
     "@type": "SoftwareApplication",
     "name": "SDOS — Security Decision Operating System",
