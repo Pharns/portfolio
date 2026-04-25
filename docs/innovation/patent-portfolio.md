@@ -1,5 +1,5 @@
 ---
-description: "Patent portfolio covering governed AI execution, multi-domain threat detection, and security decision architecture. 9 families, 83 dependent claims."
+description: "Patent portfolio covering governed AI execution, multi-domain threat detection, and security decision architecture. 11 families, 142 total claims filed across two provisionals."
 ---
 
 # Patent portfolio overview
@@ -18,11 +18,12 @@ The work grew out of a practical problem: autonomous AI agents need enforceable 
 
     | Field | Detail |
     |-------|--------|
-    | **Application** | U.S. Provisional 64/029,300 |
-    | **Filed** | April 4, 2026 |
-    | **Patent families** | 9 |
-    | **Independent claims** | 9 |
-    | **Dependent claims** | 83 |
+    | **Applications** | U.S. Provisional 64/029,300 + OF-2026-PROV-002 |
+    | **Filed** | April 4, 2026 (Prov #1) · April 25, 2026 (Prov #2) |
+    | **Patent families** | 11 |
+    | **Independent claims** | 11 |
+    | **Dependent claims** | 131 |
+    | **Total claims** | 142 |
     | **Assignee** | Dedicated IP holding entity |
     | **Status** | Patent-pending (non-provisional in progress) |
 
@@ -78,7 +79,7 @@ The entity structure ensures that the IP remains protected regardless of what ha
 
 ## What's next
 
-The non-provisional filing is in progress, consolidating and expanding coverage from the provisional application. Additional provisional filings are extending the portfolio into new technical domains.
+Two provisional applications are filed, establishing priority across 11 patent families. The non-provisional filing is in progress, consolidating both provisionals into a single comprehensive application.
 
 Patent prosecution is a multi-year process. The work continues — both in expanding the patent portfolio and in advancing the production systems that back every claim.
 
@@ -91,10 +92,10 @@ Patent prosecution is a multi-year process. The work continues — both in expan
   "@context": "https://schema.org",
   "@type": "TechArticle",
   "headline": "Patent Portfolio — Governed AI Execution & Multi-Domain Threat Detection",
-  "description": "9 patent families covering governed AI agent execution, multi-domain wireless threat detection, security decision architecture, case orchestration, and pattern-of-life modeling. 83 dependent claims backed by production code.",
+  "description": "11 patent families covering governed AI agent execution, multi-domain wireless threat detection, security decision architecture, case orchestration, and pattern-of-life modeling. 142 total claims filed across two provisionals, backed by production code.",
   "author": {"@type": "Person", "@id": "https://portfolio.pharns.com/#pharns"},
   "datePublished": "2026-04-04",
-  "dateModified": "2026-04-15",
+  "dateModified": "2026-04-25",
   "publisher": {"@type": "Person", "@id": "https://portfolio.pharns.com/#pharns"},
   "mainEntityOfPage": "https://portfolio.pharns.com/innovation/patent-portfolio/",
   "keywords": ["AI agent governance patents", "governed autonomous execution", "multi-domain threat detection", "security decision architecture", "RF threat detection patent", "SDOS patent", "AI governance intellectual property"],
