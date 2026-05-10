@@ -28,10 +28,11 @@ This section highlights **UAV systems, RF security research, and patent-pending 
 
 ## Governed AI systems
 
-- **[SDOS — AI Governance Framework](sdos-governance-framework.md)** → patent-pending AI governance runtime with infrastructure-layer policy enforcement and deny-all-default posture. Production deployment.
-- **[Governed Agent Gateway](openclaw-orchestration.md)** → governed AI agent orchestration platform separating policy enforcement from model execution at the infrastructure layer. Multi-provider governed inference.
+- **[SDOS™ — AI Governance Framework](sdos-governance-framework.md)** → patent-pending AI governance runtime with infrastructure-layer policy enforcement and deny-all-default posture. Production deployment.
+- **[AQ Scale™ — Governance Maturity Standard](aq-scale.md)** → patent-pending measurement standard for AI agent governance maturity. Public self-assessment live at [aq-score.aamcyber.com](https://aq-score.aamcyber.com).
+- **[Governed Agent Gateway](governed-agent-gateway.md)** → governed AI agent orchestration platform separating policy enforcement from model execution at the infrastructure layer. Multi-provider governed inference.
 - **[GRAM — Governed Memory](gram-memory-system.md)** → hybrid semantic retrieval with trust-weighted scoring and deny-all-default ingestion. Local-only embeddings, production deployment.
-- **[Patent Portfolio](patent-portfolio.md)** → 9 patent families, 83 dependent claims covering governed AI execution, multi-domain threat detection, and security decision architecture. USPTO 64/029,300.
+- **[Patent Portfolio](patent-portfolio.md)** → 11 patent families, 142 total claims covering governed AI execution, multi-domain threat detection, and security decision architecture. USPTO 64/029,300 + 64/049,300.
 
 ## Detection, RF & drone security
 
@@ -69,11 +70,12 @@ This section highlights **UAV systems, RF security research, and patent-pending 
     "@type": "ItemList",
     "itemListElement": [
       {"@type": "ListItem", "position": 1, "name": "SDOS — AI Governance Framework", "url": "https://portfolio.pharns.com/innovation/sdos-governance-framework/"},
-      {"@type": "ListItem", "position": 2, "name": "Governed Agent Gateway", "url": "https://portfolio.pharns.com/innovation/openclaw-orchestration/"},
-      {"@type": "ListItem", "position": 3, "name": "GRAM — Governed Memory", "url": "https://portfolio.pharns.com/innovation/gram-memory-system/"},
-      {"@type": "ListItem", "position": 4, "name": "Patent Portfolio", "url": "https://portfolio.pharns.com/innovation/patent-portfolio/"},
-      {"@type": "ListItem", "position": 5, "name": "TraceLock RF Threat Detection", "url": "https://portfolio.pharns.com/cybersecurity/tracelock/"},
-      {"@type": "ListItem", "position": 6, "name": "AgenticOS — AI Orchestration", "url": "https://portfolio.pharns.com/innovation/agenticos/"}
+      {"@type": "ListItem", "position": 2, "name": "AQ Scale — Governance Maturity Standard", "url": "https://portfolio.pharns.com/innovation/aq-scale/"},
+      {"@type": "ListItem", "position": 3, "name": "Governed Agent Gateway", "url": "https://portfolio.pharns.com/innovation/governed-agent-gateway/"},
+      {"@type": "ListItem", "position": 4, "name": "GRAM — Governed Memory", "url": "https://portfolio.pharns.com/innovation/gram-memory-system/"},
+      {"@type": "ListItem", "position": 5, "name": "Patent Portfolio", "url": "https://portfolio.pharns.com/innovation/patent-portfolio/"},
+      {"@type": "ListItem", "position": 6, "name": "TraceLock RF Threat Detection", "url": "https://portfolio.pharns.com/cybersecurity/tracelock/"},
+      {"@type": "ListItem", "position": 7, "name": "AgenticOS — AI Orchestration", "url": "https://portfolio.pharns.com/innovation/agenticos/"}
     ]
   }
 }

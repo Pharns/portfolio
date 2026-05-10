@@ -4,7 +4,7 @@ description: "I build the systems that make AI agents trusted to operate. Portfo
 
 # Pharns Genece
 
-**AI Governance Architect | Patent Holder**
+**AI Governance Architect | Patent Filed**
 
 I govern AI agents so yours don't go rogue.
 
@@ -12,7 +12,7 @@ I build the governance systems that make AI agents trusted to operate — from p
 
 Best fit for teams that need governed AI execution, not just policy decks.
 
-USAF Veteran (service-disabled) · Security Clearance Eligible · Security+/CySA+/PenTest+/SSCP · B.S. Cybersecurity (Mar 2026)
+USAF Veteran (service-disabled) · Security Clearance Eligible · Security+/CySA+/PenTest+/SSCP · B.S. Cybersecurity (completed March 2026)
 
 [Hire Me →](contact.md#hire-me){ .btn-primary } [Engage AAM Cyber →](contact.md#engage-aam-cyber){ .btn-ghost }
 

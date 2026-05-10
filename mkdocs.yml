@@ -162,7 +162,8 @@ nav:
 - Innovation:
   - Overview: innovation/index.md
   - SDOS — AI Governance Framework: innovation/sdos-governance-framework.md
-  - Governed Agent Gateway: innovation/openclaw-orchestration.md
+  - AQ Scale — Governance Maturity Standard: innovation/aq-scale.md
+  - Governed Agent Gateway: innovation/governed-agent-gateway.md
   - GRAM — Governed Memory: innovation/gram-memory-system.md
   - Patent Portfolio: innovation/patent-portfolio.md
   - AgenticOS — AI Orchestration: innovation/agenticos.md

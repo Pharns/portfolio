@@ -131,7 +131,7 @@ Federal acquisition increasingly requires AI governance documentation. The gatew
 
 ## Patent status
 
-The governed dispatch architecture is part of **U.S. Provisional Patent Application No. 64/029,300**, filed April 4, 2026. The application covers nine patent families with 83 dependent claims. Intellectual property is held by a **dedicated IP holding entity**.
+The governed dispatch architecture is part of **U.S. Provisional Patent Applications Nos. 64/029,300 and 64/049,300**, filed April 4 and April 25, 2026. The applications cover 11 patent families with 142 total claims. Intellectual property is held by a **dedicated IP holding entity**.
 
 Non-provisional filing is in progress under accelerated prosecution.
 
@@ -192,7 +192,7 @@ Non-provisional filing is in progress under accelerated prosecution.
     "@type": "Person",
     "name": "Pharns Genece"
   },
-  "mainEntityOfPage": "https://portfolio.pharns.com/innovation/openclaw-orchestration/",
+  "mainEntityOfPage": "https://portfolio.pharns.com/innovation/governed-agent-gateway/",
   "keywords": ["AI governance", "agent orchestration", "dispatch governance", "MCP", "security architecture", "compliance automation", "patent-pending"],
   "about": {
     "@type": "SoftwareApplication",

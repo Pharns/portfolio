@@ -2,7 +2,7 @@
 description: "SDOS — Security Decision Operating System. Patent-pending AI governance runtime with infrastructure-layer policy enforcement and deny-all-default posture."
 ---
 
-# SDOS — Security Decision Operating System
+# SDOS™ — Security Decision Operating System
 
 *Patent-Pending AI Governance Runtime · Filed April 4, 2026 · U.S. Provisional 64/029,300*
 
@@ -52,7 +52,7 @@ SDOS — the Security Decision Operating System — is a governance runtime that
 
 !!! info "Patent-pending"
 
-    SDOS is protected under USPTO Provisional Patent Application 64/029,300, filed April 4, 2026. The filing covers 9 patent families with 83 dependent claims. The intellectual property is held by a dedicated IP holding entity.
+    SDOS is protected under USPTO Provisional Patent Applications 64/029,300 and 64/049,300, filed April 4 and April 25, 2026. The filings cover 11 patent families with 142 total claims. The intellectual property is held by a dedicated IP holding entity.
 
 The core design principle is simple: **deny all by default.** An AI agent operating under SDOS has zero permissions until policy explicitly grants them. This inverts the typical AI deployment model, where agents start with broad access and teams scramble to restrict it after incidents occur.
 
@@ -122,9 +122,9 @@ SDOS fills a gap that none of these categories address: infrastructure-layer gov
 
 !!! info "Intellectual property"
 
-    **Provisional Patent Application:** USPTO 64/029,300
-    **Filed:** April 4, 2026
-    **Coverage:** 9 patent families, 83 dependent claims
+    **Provisional Patent Applications:** USPTO 64/029,300 + 64/049,300
+    **Filed:** April 4, 2026 + April 25, 2026
+    **Coverage:** 11 patent families, 142 total claims
     **Assignee:** Dedicated IP holding entity
     **Status:** Non-provisional filing in preparation (accelerated timeline)
 
@@ -154,7 +154,7 @@ SDOS is relevant to any organization deploying AI agents beyond simple chatbot i
 2. **I understand the AI governance gap.** The industry is deploying agents faster than governance frameworks can keep up. I identified that gap and built a production system to close it.
 3. **I operate at the intersection of security and AI.** This is not a security project that happens to involve AI, or an AI project that adds security as an afterthought. It is a system where security *is* the product.
 4. **I ship production systems.** Production deployment, governed tool modules, compliance mappings across major frameworks, continuous health monitoring. This is operational, not theoretical.
-5. **I protect intellectual property.** 9 patent families, 83 dependent claims, filed and prosecuting. I understand the value of what I build and I secure it accordingly.
+5. **I protect intellectual property.** 11 patent families, 142 total claims across 2 provisionals, filed and prosecuting. I understand the value of what I build and I secure it accordingly.
 
 ---
 
