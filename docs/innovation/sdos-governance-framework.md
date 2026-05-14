@@ -50,7 +50,7 @@ That is what SDOS does.
 
 SDOS — the Security Decision Operating System — is a governance runtime that sits between AI agents and the actions they attempt to take. Every tool call, every data access request, every external API invocation passes through SDOS before it executes. Nothing runs unless SDOS explicitly permits it.
 
-!!! info "Patent-pending"
+!!! info "Patent-filed"
 
     SDOS is protected under USPTO Provisional Patent Applications 64/029,300 and 64/049,300, filed April 4 and April 25, 2026. The filings cover 11 patent families with 142 total claims. The intellectual property is held by a dedicated IP holding entity.
 
@@ -185,7 +185,7 @@ SDOS is relevant to any organization deploying AI agents beyond simple chatbot i
 
 - [AgenticOS — AI orchestration](agenticos.md) — Deterministic agent routing and execution layer that operates under SDOS governance
 - [Agentic infrastructure audit](agentic-infrastructure-audit.md) — Multi-machine governance audit with drift detection and canonical architecture standards
-- [TraceLock RF threat detection](../cybersecurity/tracelock.md) — Patent-pending multi-domain RF surveillance detection, governed by SDOS
+- [TraceLock RF threat detection](../cybersecurity/tracelock.md) — Patent-filed multi-domain RF surveillance detection, governed by SDOS
 - [Governed security architecture](../architecture/governed-security-architecture.md) — System-of-systems view showing how SDOS integrates across the full security stack
 
 ---
