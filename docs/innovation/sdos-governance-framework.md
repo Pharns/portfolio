@@ -92,13 +92,14 @@ The platform governs tool modules spanning security operations domains, with cry
 
 SDOS maps directly to established governance frameworks through tested control implementations:
 
-| Framework | Coverage |
-|-----------|----------|
-| **NIST AI RMF** | Risk management functions mapped to SDOS enforcement points |
-| **ISO 42001** | AI management system controls aligned to SDOS governance architecture |
-| **EU AI Act** | High-risk AI system requirements addressed through risk classification and audit trails |
-| **NIST SP 800-53** | Security and privacy controls mapped to SDOS operational controls |
-| **SOC 2 Type II** | Trust service criteria addressable through SDOS audit evidence |
+| Framework | Coverage | NIST OLIR Status |
+|-----------|----------|------------------|
+| **NIST AI RMF 1.0** | Risk management functions mapped to SDOS enforcement points | Cataloged (Reference ID 212) |
+| **NIST CSF 2.0** | Cybersecurity governance functions mapped to SDOS controls | Filing target 2026-05-17 |
+| **NIST SP 800-53 Rev 5** | Federal control catalog mapped to SDOS operational controls | Filing target 2026-05-18 |
+| **ISO 42001** | AI management system controls aligned to SDOS governance architecture | Not applicable (non-NIST) |
+| **EU AI Act** | High-risk AI system requirements addressed through risk classification and audit trails | Not applicable (non-NIST) |
+| **SOC 2 Type II** | Trust service criteria addressable through SDOS audit evidence | Not applicable (non-NIST) |
 
 These are not aspirational mappings. Compliance control mappings are implemented and testable in the current production deployment.
 
@@ -123,7 +124,9 @@ The mapping is concrete and reviewable. Every one of the 49 AI RMF subcategories
 
 The submission was prepared and accepted within approximately 62 hours — solo authorship, no consortium, no co-author institutional backing. The framework was screened by the OLIR program, formatted to NISTIR 8278Ar1 standards, and accepted into the catalog under the standard review process. The 30-day public review window invites public comment through NIST's official channel. Any reviewer with substantive concerns about the crosswalk is invited to submit them there.
 
-This listing is the first dispatch-time enforcement framework cataloged in the NIST OLIR program against AI RMF 1.0 — distinct from the process and accountability frameworks also in the catalog. Where other AI RMF informative references operate at the methodology layer (governing how organizations adopt AI) or the operational control layer (governing accountability and traceability across the lifecycle), SDOS operates at the runtime layer — classifying risk, bounding authority, and enforcing policy at the moment an agent acts.
+This listing is the first dispatch-time enforcement framework cataloged in the NIST OLIR program against AI RMF 1.0 — distinct from the process and accountability frameworks also in the catalog. The catalog currently spans three architectural layers of AI governance. **Layer 1 — Process/Adoption** covers methodology frameworks that govern how organizations adopt AI. **Layer 2 — Operational/Accountability** covers control overlays that govern accountability, traceability, and audit response across the AI lifecycle. **Layer 3 — Runtime** covers frameworks that classify risk, bound authority, and enforce policy at the moment of agent action. SDOS occupies Layer 3 — alone in the OLIR catalog at this layer against AI RMF 1.0 as of the May 13, 2026 listing.
+
+Companion NIST OLIR submissions are in development: SDOS-RuntimeGov-to-CSF-v2.0 (filing target 2026-05-17) and SDOS-RuntimeGov-to-SP800-53r5 (filing target 2026-05-18). Together with the AI RMF 1.0 listing, these three submissions are intended to provide federal cybersecurity alignment across AI-specific risk management, general cybersecurity posture, and the federal control catalog underlying FedRAMP and FISMA.
 
 ---
 
@@ -278,7 +281,7 @@ SDOS is operational and governs a multi-agent production system today. The NIST 
     "url": "https://portfolio.pharns.com"
   },
   "datePublished": "2026-04-13",
-  "dateModified": "2026-05-13",
+  "dateModified": "2026-05-14",
   "publisher": {
     "@type": "Person",
     "name": "Pharns Genece"
