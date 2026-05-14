@@ -67,6 +67,8 @@ For hiring managers and technical leaders evaluating candidates, a patent portfo
 
 **Production systems backing every claim.** Patent law distinguishes between theoretical inventions and reduction to practice — actually building the thing. Every claim in this portfolio is backed by running code on production infrastructure. The systems described in these patents are not proposals. They exist, they run, and they work.
 
+**Federal recognition of the architecture.** As of May 13, 2026, the SDOS runtime governance framework is listed in the [NIST OLIR catalog](https://csrc.nist.gov/projects/olir/informative-reference-catalog/details?referenceId=212){target=_blank} as a draft informative reference mapping to AI RMF 1.0. The patent moat and the federal listing operate as distinct credentials — the patent protects the architecture as proprietary IP; the OLIR listing recognizes the architecture as a publicly documented crosswalk to the federal AI risk framework. See [SDOS — Security Decision Operating System](sdos-governance-framework.md) for full detail on the listing.
+
 ---
 
 ## IP structure

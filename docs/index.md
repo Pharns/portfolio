@@ -1,14 +1,16 @@
 ---
-description: "I build the systems that make AI agents trusted to operate. Portfolio showcasing governed autonomous execution — from patent-pending SDOS architecture to TraceLock (RF threat detection), GIAP (compliance automation), AWS security controls, and detection engineering."
+description: "I build the systems that make AI agents trusted to operate. SDOS runtime AI governance framework is listed in the NIST OLIR catalog as a draft informative reference mapping to AI RMF 1.0. Patent-filed governed autonomous execution, TraceLock RF threat detection, GIAP compliance automation, and detection engineering."
 ---
 
 # Pharns Genece
 
-**AI Governance Architect | Patent Filed**
+**AI Governance Architect | NIST OLIR Listed | Patent Filed**
 
 I govern AI agents so yours don't go rogue.
 
-I build the governance systems that make AI agents trusted to operate — from patent-pending autonomous execution architecture to detection engineering, compliance automation, and RF threat detection. Every project here demonstrates one principle: AI without governance isn't safe to ship.
+Runtime AI governance and governed autonomous execution — built, operating, and now listed in the NIST OLIR catalog.
+
+I build the governance systems that make AI agents trusted to operate. My runtime AI governance framework, SDOS™, is listed in the NIST OLIR catalog as a draft informative reference mapping to the AI Risk Management Framework 1.0 — the first runtime AI governance framework listed against AI RMF 1.0. From patent-filed autonomous execution architecture to detection engineering, compliance automation, and RF threat detection, every project here demonstrates one principle: AI without governance isn't safe to ship.
 
 Best fit for teams that need governed AI execution, not just policy decks.
 
@@ -21,6 +23,10 @@ USAF Veteran (service-disabled) · Security Clearance Eligible · Security+/CySA
 ## Results at a glance
 
 <div class="stat-grid" markdown>
+<div class="stat-tile" markdown>
+**NIST OLIR-listed runtime AI governance framework**
+SDOS-RuntimeGov-to-AI-RMF-v1.0 — draft informative reference mapping to NIST AI RMF 1.0, posted May 13, 2026. OLIR listing is an informative reference, not a NIST endorsement. [→ View catalog](https://csrc.nist.gov/projects/olir/informative-reference-catalog/details?referenceId=212){target=_blank}
+</div>
 <div class="stat-tile" markdown>
 **7 years production security**
 Built enterprise IT security stack from scratch at USOG — CIS v8, NIST CSF, SOC 2
@@ -106,9 +112,9 @@ Comprehensive security assessment and remediation. M365 hardening, dark web moni
     "@id": "https://portfolio.pharns.com/#pharns"
   },
   "name": "Pharns Genece — AI Governance Architect Portfolio",
-  "description": "I build governance systems that make AI agents trusted to operate. Patent holder in governed autonomous execution, RF threat detection, and UAV architectures.",
+  "description": "First-person cybersecurity and AI governance portfolio covering SDOS, a NIST OLIR-listed draft informative reference mapping to AI RMF 1.0, patent-filed governed autonomous execution, RF threat detection, and UAV security architectures.",
   "url": "https://portfolio.pharns.com",
-  "dateModified": "2026-04-15"
+  "dateModified": "2026-05-13"
 }
 </script>
 
@@ -310,3 +316,76 @@ Advanced Air Mobility (AAM) security requires practitioners who understand the e
 ---
 
 [View All Projects](projects.md){ .btn-primary } [Contact](contact.md){ .btn-ghost }
+
+---
+
+## Frequently asked questions
+
+### What is runtime AI governance?
+
+Runtime AI governance enforces policy on autonomous AI agent actions at the moment of execution, not at policy-document time. It classifies every agent action by risk tier, gates dispatch through governance enforcement points, and produces a tamper-evident audit trail. It is the difference between an AI compliance program that exists on paper and one that actually enforces.
+
+### How is SDOS different from AI guardrails or AI safety frameworks?
+
+Guardrails and most AI safety frameworks are advisory — they recommend behavior. SDOS is enforcement-bearing — agents physically cannot execute actions the policy layer denies. The framework is listed in the NIST OLIR catalog as a draft informative reference mapping to the AI Risk Management Framework 1.0 (Reference ID 212).
+
+### What does NIST OLIR catalog inclusion mean?
+
+The NIST Online Informative References Program is the federal registry of frameworks that map to NIST core standards. SDOS-RuntimeGov-to-AI-RMF-v1.0 is listed as a Concept Crosswalk against NIST AI RMF 1.0 — meaning any organization implementing AI RMF has a publicly listed pathway to a runtime governance layer that enforces, not just advises. OLIR listing is an informative reference, not a NIST endorsement of the framework.
+
+### Why does AI agent governance matter for regulated organizations?
+
+Federal procurement, EU AI Act compliance, and NIST-aligned vendor risk programs all require demonstrable AI risk management. Most AI governance today is policy documents and post-incident reviews. Regulated organizations need controls that operate at the moment AI agents take action — not after. That is the gap SDOS closes, and the gap NIST has now listed against AI RMF 1.0.
+
+### What is the risk of deploying AI agents without runtime governance?
+
+Autonomous AI agents take actions that affect data, money, infrastructure, and human safety. Without runtime enforcement, agent actions are ungoverned at the moment they occur. Audit becomes forensic — after the fact, after the loss. Runtime governance moves enforcement to the point of decision, so violations are prevented rather than investigated.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is runtime AI governance?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Runtime AI governance enforces policy on autonomous AI agent actions at the moment of execution, not at policy-document time. It classifies every agent action by risk tier, gates dispatch through governance enforcement points, and produces a tamper-evident audit trail."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How is SDOS different from AI guardrails or AI safety frameworks?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Guardrails and most AI safety frameworks are advisory. SDOS is enforcement-bearing — agents physically cannot execute actions the policy layer denies. The framework is listed in the NIST OLIR catalog as a draft informative reference mapping to AI RMF 1.0."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What does NIST OLIR catalog inclusion mean?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The NIST OLIR Program is the federal registry of frameworks mapping to NIST core standards. SDOS-RuntimeGov-to-AI-RMF-v1.0 is listed as a Concept Crosswalk against NIST AI RMF 1.0. OLIR listing is an informative reference, not a NIST endorsement of the framework."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why does AI agent governance matter for regulated organizations?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Federal procurement, EU AI Act compliance, and NIST-aligned vendor risk programs require demonstrable AI risk management. Regulated organizations need controls that operate at the moment AI agents take action. SDOS closes that gap and is now NIST OLIR-listed against AI RMF 1.0."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the risk of deploying AI agents without runtime governance?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Autonomous AI agents take actions that affect data, money, infrastructure, and human safety. Without runtime enforcement, agent actions are ungoverned at the moment they occur. Audit becomes forensic — after the loss. Runtime governance moves enforcement to the point of decision."
+      }
+    }
+  ]
+}
+</script>

@@ -1,9 +1,5 @@
 ---
-description: "UAV engineering, RF security research, and patent-pending innovations combining drone systems, wireless threat detection, and cybersecurity consulting."
----
-
----
-description: "UAV systems, RF security research, and patent-pending innovations bridging drone engineering, wireless threat detection, and cybersecurity consulting."
+description: "Runtime AI governance (SDOS — NIST OLIR listed against AI RMF 1.0), UAV engineering, RF security research, and patent-filed innovations across governed autonomous execution, drone systems, and wireless threat detection."
 ---
 
 # Innovation — Advanced Air Mobility (AAM) & RF Security
@@ -28,7 +24,7 @@ This section highlights **UAV systems, RF security research, and patent-pending 
 
 ## Governed AI systems
 
-- **[SDOS™ — AI Governance Framework](sdos-governance-framework.md)** → patent-pending AI governance runtime with infrastructure-layer policy enforcement and deny-all-default posture. Production deployment.
+- **[SDOS™ — AI Governance Framework](sdos-governance-framework.md)** → **NIST OLIR-listed** runtime AI governance framework with infrastructure-layer policy enforcement and deny-all-default posture. SDOS-RuntimeGov-to-AI-RMF-v1.0 — draft informative reference mapping to AI RMF 1.0 (Reference ID 212, May 2026). Patent-filed. Production deployment.
 - **[AQ Scale™ — Governance Maturity Standard](aq-scale.md)** → patent-pending measurement standard for AI agent governance maturity. Public self-assessment live at [aq-score.aamcyber.com](https://aq-score.aamcyber.com).
 - **[Governed Agent Gateway](governed-agent-gateway.md)** → governed AI agent orchestration platform separating policy enforcement from model execution at the infrastructure layer. Multi-provider governed inference.
 - **[GRAM — Governed Memory](gram-memory-system.md)** → hybrid semantic retrieval with trust-weighted scoring and deny-all-default ingestion. Local-only embeddings, production deployment.

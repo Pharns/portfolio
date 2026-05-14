@@ -1,10 +1,10 @@
 ---
-description: "SDOS — Security Decision Operating System. Patent-pending AI governance runtime with infrastructure-layer policy enforcement and deny-all-default posture."
+description: "SDOS — Security Decision Operating System. Runtime AI governance framework listed in the NIST OLIR catalog as a draft informative reference mapping to AI RMF 1.0. Infrastructure-layer policy enforcement, deny-all-default posture, patent-filed governed autonomous execution."
 ---
 
 # SDOS™ — Security Decision Operating System
 
-*Patent-Pending AI Governance Runtime · Filed April 4, 2026 · U.S. Provisional 64/029,300*
+*Patent-Filed AI Governance Runtime · NIST OLIR Listed (May 13, 2026, Reference ID 212) · U.S. Provisionals 64/029,300 + 64/049,300*
 
 !!! success "For Hiring Managers — Security Architecture / AI Governance"
 
@@ -18,7 +18,7 @@ description: "SDOS — Security Decision Operating System. Patent-pending AI gov
     - Risk-classified policy enforcement at the infrastructure layer
     - Tamper-evident audit trails independent of model self-reporting
     - Production deployment with continuous health monitoring
-    - Compliance mapping across NIST AI RMF, ISO 42001, and EU AI Act
+    - Compliance mapping across NIST AI RMF (listed in the NIST OLIR catalog — Reference ID 212), ISO 42001, and EU AI Act
 
     **Why This Matters:** The industry is deploying AI agents faster than it can govern them. I built the governance layer that contains them — and filed the patent on it.
 
@@ -104,6 +104,29 @@ These are not aspirational mappings. Compliance control mappings are implemented
 
 ---
 
+## NIST OLIR catalog recognition
+
+!!! success "Listed in the NIST OLIR catalog — May 13, 2026"
+
+    **Listing ID:** SDOS-RuntimeGov-to-AI-RMF-v1.0 (1.0.0)
+    **Reference ID:** 212
+    **Relationship type:** Concept Crosswalk — Supportive
+    **Focal document:** NIST AI Risk Management Framework 1.0 (NIST AI 100-1)
+    **Scope:** 49 AI RMF subcategories mapped across GOVERN, MAP, MEASURE, and MANAGE to 24 SDOS controls across 9 governance domains
+    **Status:** Draft (30-day public review period through approximately June 12, 2026)
+
+    [→ View the catalog listing](https://csrc.nist.gov/projects/olir/informative-reference-catalog/details?referenceId=212){target=_blank}
+
+OLIR — the NIST Online Informative References Program — is the federal registry of frameworks that map to NIST core standards. Inclusion is an informative reference, not a NIST endorsement of the framework. The listing means any organization implementing NIST AI RMF 1.0 has a publicly listed pathway to a runtime governance layer that enforces policy at the infrastructure layer.
+
+The mapping is concrete and reviewable. Every one of the 49 AI RMF subcategories that SDOS addresses is documented in the OLIR submission with the corresponding SDOS control and the rationale for the relationship type. Organizations evaluating AI RMF alignment can read the crosswalk directly from the catalog rather than from a vendor whitepaper.
+
+The submission was prepared and accepted within approximately 62 hours — solo authorship, no consortium, no co-author institutional backing. The framework was screened by the OLIR program, formatted to NISTIR 8278Ar1 standards, and accepted into the catalog under the standard review process. The 30-day public review window invites public comment through NIST's official channel. Any reviewer with substantive concerns about the crosswalk is invited to submit them there.
+
+This listing is the first runtime AI governance framework cataloged in the NIST OLIR program against AI RMF 1.0.
+
+---
+
 ## The competitive landscape
 
 I have conducted competitive analysis across the AI governance space. The landscape broadly divides into three categories:
@@ -170,25 +193,98 @@ SDOS is relevant to any organization deploying AI agents beyond simple chatbot i
 [Connect on LinkedIn](https://www.linkedin.com/in/pharns/){ .md-button .md-button--primary }
 [Contact Me](../contact.md){ .md-button }
 
+---
+
+## Frequently asked questions
+
+### What is SDOS?
+
+SDOS — the Security Decision Operating System — is a runtime AI governance framework that classifies every autonomous AI agent action by risk tier and enforces policy at the infrastructure layer before execution. It produces tamper-evident audit trails independent of model self-reporting. SDOS is listed in the NIST OLIR catalog as a draft informative reference mapping to AI RMF 1.0 (Reference ID 212).
+
+### Is SDOS endorsed by NIST?
+
+No. OLIR catalog inclusion is an informative reference, not a NIST endorsement. The listing means SDOS has been formally screened by the OLIR program and accepted as a documented crosswalk to the AI Risk Management Framework 1.0. It is federal infrastructure recognizing the mapping, not federal approval of the framework.
+
+### How is SDOS different from AI guardrails or constitutional AI?
+
+Guardrails and constitutional AI operate at the model layer. They are advisory — they shape model behavior but cannot deterministically prevent an action. SDOS operates at the infrastructure layer, below the model. It enforces policy before the agent executes, produces audit evidence independent of model self-assessment, and survives prompt injection, model updates, and multi-agent coordination scenarios that defeat model-layer approaches.
+
+### What does the NIST OLIR mapping cover?
+
+49 NIST AI RMF 1.0 subcategories across the GOVERN, MAP, MEASURE, and MANAGE functions are mapped to 24 SDOS controls across 9 governance domains. The full crosswalk is published in the OLIR catalog entry, with per-subcategory rationale for the supportive relationship type.
+
+### When can organizations adopt SDOS?
+
+SDOS is operational and governs a multi-agent production system today. The NIST OLIR listing provides a publicly reviewable reference for organizations evaluating AI RMF alignment. Commercial availability and licensing are managed through AAM Cyber. [Contact](../contact.md) for evaluation and engagement inquiries.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is SDOS?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "SDOS is a runtime AI governance framework that classifies every autonomous AI agent action by risk tier and enforces policy at the infrastructure layer before execution. It is listed in the NIST OLIR catalog as a draft informative reference mapping to AI RMF 1.0 (Reference ID 212)."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is SDOS endorsed by NIST?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. OLIR catalog inclusion is an informative reference, not a NIST endorsement. The listing means SDOS has been screened by the OLIR program and accepted as a documented crosswalk to AI Risk Management Framework 1.0."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How is SDOS different from AI guardrails or constitutional AI?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Guardrails and constitutional AI operate at the model layer and are advisory. SDOS operates at the infrastructure layer below the model. It enforces policy before the agent executes and produces audit evidence independent of model self-assessment."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What does the NIST OLIR mapping cover?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "49 NIST AI RMF 1.0 subcategories across GOVERN, MAP, MEASURE, and MANAGE are mapped to 24 SDOS controls across 9 governance domains. The full crosswalk is published in the OLIR catalog entry."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "When can organizations adopt SDOS?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "SDOS is operational and governs a multi-agent production system today. The NIST OLIR listing provides a publicly reviewable reference for organizations evaluating AI RMF alignment. Commercial availability and licensing are managed through AAM Cyber."
+      }
+    }
+  ]
+}
+</script>
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "TechArticle",
   "headline": "SDOS — Security Decision Operating System",
-  "description": "Patent-pending AI governance runtime with infrastructure-layer policy enforcement, deny-all-default posture, and tamper-evident audit trails. Governs autonomous AI agents before they act, not after.",
+  "description": "Runtime AI governance framework listed in the NIST OLIR catalog as a draft informative reference mapping to AI RMF 1.0. Patent-filed infrastructure-layer policy enforcement, deny-all-default posture, and tamper-evident audit trails. Governs autonomous AI agents before they act, not after.",
   "author": {
     "@type": "Person",
     "name": "Pharns Genece",
     "url": "https://portfolio.pharns.com"
   },
   "datePublished": "2026-04-13",
-  "dateModified": "2026-04-16",
+  "dateModified": "2026-05-13",
   "publisher": {
     "@type": "Person",
     "name": "Pharns Genece"
   },
   "mainEntityOfPage": "https://portfolio.pharns.com/innovation/sdos-governance-framework/",
-  "keywords": ["AI governance", "SDOS", "security architecture", "patent-pending", "policy enforcement", "autonomous agents", "NIST AI RMF", "ISO 42001", "EU AI Act"],
+  "keywords": ["runtime AI governance", "AI agent governance", "SDOS", "NIST OLIR", "NIST AI RMF", "security architecture", "patent-filed", "policy enforcement", "autonomous agents", "ISO 42001", "EU AI Act", "governed autonomous execution"],
   "about": {
     "@type": "SoftwareApplication",
     "name": "SDOS — Security Decision Operating System",
