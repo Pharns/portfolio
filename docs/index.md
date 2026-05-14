@@ -10,7 +10,7 @@ I govern AI agents so yours don't go rogue.
 
 Runtime AI governance and governed autonomous execution — built, operating, and now listed in the NIST OLIR catalog.
 
-I build the governance systems that make AI agents trusted to operate. My runtime AI governance framework, SDOS™, is listed in the NIST OLIR catalog as a draft informative reference mapping to the AI Risk Management Framework 1.0 — the first runtime AI governance framework listed against AI RMF 1.0. From patent-filed autonomous execution architecture to detection engineering, compliance automation, and RF threat detection, every project here demonstrates one principle: AI without governance isn't safe to ship.
+I build the governance systems that make AI agents trusted to operate. My runtime AI governance framework, SDOS™, is listed in the NIST OLIR catalog as a draft informative reference mapping to the AI Risk Management Framework 1.0 — the first dispatch-time enforcement framework listed against AI RMF 1.0, distinct from the process and accountability frameworks also in the catalog. From patent-filed autonomous execution architecture to detection engineering, compliance automation, and RF threat detection, every project here demonstrates one principle: AI without governance isn't safe to ship.
 
 Best fit for teams that need governed AI execution, not just policy decks.
 

@@ -123,7 +123,7 @@ The mapping is concrete and reviewable. Every one of the 49 AI RMF subcategories
 
 The submission was prepared and accepted within approximately 62 hours — solo authorship, no consortium, no co-author institutional backing. The framework was screened by the OLIR program, formatted to NISTIR 8278Ar1 standards, and accepted into the catalog under the standard review process. The 30-day public review window invites public comment through NIST's official channel. Any reviewer with substantive concerns about the crosswalk is invited to submit them there.
 
-This listing is the first runtime AI governance framework cataloged in the NIST OLIR program against AI RMF 1.0.
+This listing is the first dispatch-time enforcement framework cataloged in the NIST OLIR program against AI RMF 1.0 — distinct from the process and accountability frameworks also in the catalog. Where other AI RMF informative references operate at the methodology layer (governing how organizations adopt AI) or the operational control layer (governing accountability and traceability across the lifecycle), SDOS operates at the runtime layer — classifying risk, bounding authority, and enforcing policy at the moment an agent acts.
 
 ---
 
