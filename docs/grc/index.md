@@ -34,7 +34,7 @@ As CEO and Systems Administrator of a drone logistics company, I built the entir
 
 **Scale:** 15,000+ vulnerabilities identified and remediated over 7 years of continuous operation.
 
-**This wasn't a lab project** — it was production infrastructure supporting 18 employees and in business operations.
+**This wasn't a lab project** — it was production infrastructure supporting live business operations.
 
 </div>
 
