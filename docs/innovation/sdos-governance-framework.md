@@ -96,7 +96,7 @@ SDOS maps directly to established governance frameworks through tested control i
 |-----------|----------|------------------|
 | **NIST AI RMF 1.0** | Risk management functions mapped to SDOS enforcement points | Cataloged (Reference ID 212) |
 | **NIST CSF 2.0** | Cybersecurity governance functions mapped to SDOS controls | Filing target 2026-05-17 |
-| **NIST SP 800-53 Rev 5** | Federal control catalog mapped to SDOS operational controls | Filing target 2026-05-18 |
+| **NIST SP 800-53 Rev 5.2.0** | Federal control catalog mapped to SDOS operational controls | Filing target 2026-05-18 |
 | **ISO 42001** | AI management system controls aligned to SDOS governance architecture | Not applicable (non-NIST) |
 | **EU AI Act** | High-risk AI system requirements addressed through risk classification and audit trails | Not applicable (non-NIST) |
 | **SOC 2 Type II** | Trust service criteria addressable through SDOS audit evidence | Not applicable (non-NIST) |
