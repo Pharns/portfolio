@@ -4,7 +4,7 @@ description: "I build the systems that make AI agents trusted to operate. SDOS r
 
 # Pharns Genece
 
-**AI Governance Architect | NIST OLIR Listed | Patent Filed**
+**AI Governance Architect | NIST OLIR Listed | Patent Holder & Patent-Pending**
 
 I govern AI agents so yours don't go rogue.
 
