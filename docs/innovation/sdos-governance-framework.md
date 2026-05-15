@@ -95,8 +95,8 @@ SDOS maps directly to established governance frameworks through tested control i
 | Framework | Coverage | NIST OLIR Status |
 |-----------|----------|------------------|
 | **NIST AI RMF 1.0** | Risk management functions mapped to SDOS enforcement points | Cataloged (Reference ID 212) |
-| **NIST CSF 2.0** | Cybersecurity governance functions mapped to SDOS controls | Filing target 2026-05-17 |
-| **NIST SP 800-53 Rev 5.2.0** | Federal control catalog mapped to SDOS operational controls | Filing target 2026-05-18 |
+| **NIST CSF 2.0** | Cybersecurity governance functions mapped to SDOS controls | Submitted 2026-05-15, in screening |
+| **NIST SP 800-53 Rev 5.2.0** | Federal control catalog mapped to SDOS operational controls | Submitted 2026-05-15, in screening |
 | **ISO 42001** | AI management system controls aligned to SDOS governance architecture | Not applicable (non-NIST) |
 | **EU AI Act** | High-risk AI system requirements addressed through risk classification and audit trails | Not applicable (non-NIST) |
 | **SOC 2 Type II** | Trust service criteria addressable through SDOS audit evidence | Not applicable (non-NIST) |
@@ -126,7 +126,7 @@ The submission was prepared and accepted within approximately 62 hours — solo 
 
 This listing is the first dispatch-time enforcement framework cataloged in the NIST OLIR program against AI RMF 1.0 — distinct from the process and accountability frameworks also in the catalog. The catalog currently spans three architectural layers of AI governance. **Layer 1 — Process/Adoption** covers methodology frameworks that govern how organizations adopt AI. **Layer 2 — Operational/Accountability** covers control overlays that govern accountability, traceability, and audit response across the AI lifecycle. **Layer 3 — Runtime** covers frameworks that classify risk, bound authority, and enforce policy at the moment of agent action. SDOS occupies Layer 3 — alone in the OLIR catalog at this layer against AI RMF 1.0 as of the May 13, 2026 listing.
 
-Companion NIST OLIR submissions are in development: SDOS-RuntimeGov-to-CSF-v2.0 (filing target 2026-05-17) and SDOS-RuntimeGov-to-SP800-53r5 (filing target 2026-05-18). Together with the AI RMF 1.0 listing, these three submissions are intended to provide federal cybersecurity alignment across AI-specific risk management, general cybersecurity posture, and the federal control catalog underlying FedRAMP and FISMA.
+Companion NIST OLIR submissions were filed 2026-05-15: SDOS-RuntimeGov-to-CSF-2.0-v1.0 (mapped to NIST Cybersecurity Framework 2.0) and SDOS-RuntimeGov-to-SP-800-53-Rev-5.2.0-v1.0 (mapped to the federal control catalog underlying FedRAMP and FISMA). Receipt was confirmed by the NIST OLIR Program 2026-05-15; screening commences week of 2026-05-18. Together with the AI RMF 1.0 listing, these three submissions provide federal cybersecurity alignment across AI-specific risk management, general cybersecurity posture, and the federal control catalog.
 
 ---
 
