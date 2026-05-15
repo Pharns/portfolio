@@ -59,7 +59,7 @@ Mission-critical operations, service-disabled, security clearance eligible
 
 - **I implement controls, not just map them.** Framework requirements become working configurations, monitoring logic, and documented evidence — not recommendations in a report.
 - **I connect governance to operations.** My work spans control design, technical implementation, telemetry pipelines, and audit-ready outputs. The documentation reflects what actually runs.
-- **I bring edge-domain depth most candidates don't have.** RF/UAS security (USPTO patents, TraceLock™), governed automation systems, and real operator experience across USAF, a $5.6M startup build, and active consulting engagements.
+- **I bring edge-domain depth most candidates don't have.** RF/UAS security (USPTO patents, TraceLock™), governed automation systems, and real operator experience across USAF, a prior unmanned systems startup, and active consulting engagements.
 
 ---
 
@@ -68,7 +68,7 @@ Mission-critical operations, service-disabled, security clearance eligible
 <div class="stat-grid" markdown>
 <div class="stat-tile" markdown>
 **USOG — Enterprise Infrastructure (7 Years)**
-Built the IT security stack for a $5.6M drone logistics company. Implemented **CIS Controls v8 (IG1-IG2)** mapped to NIST CSF and SOC 2. Deployed secure email, Nextcloud, remote access, and monitoring. Remediated 15,000+ vulnerabilities over multiple years.
+Built the IT security stack for a drone logistics company. Implemented **CIS Controls v8 (IG1-IG2)** mapped to NIST CSF and SOC 2. Deployed secure email, Nextcloud, remote access, and monitoring. Remediated 15,000+ vulnerabilities over multiple years.
 <span class="tag-chip">CIS v8</span> <span class="tag-chip">NIST</span> <span class="tag-chip">Production</span>
 </div>
 
@@ -96,7 +96,7 @@ Comprehensive security assessment and remediation. M365 hardening, dark web moni
 !!! abstract "Aerospace & Defense Recruiters — Unique AAM/UAS Credentials"
     **I don't just study drone security — I've designed, built, and fielded operational UAV systems.**
 
-    - **CEO of $5.6M drone logistics company** (USOG) — 7 years operational experience
+    - **Former founder/CEO of drone logistics company** (USOG) — 7 years operational experience
     - **USPTO patents** in UAV payload and delivery architectures
     - **TraceLock™** — Patent-pending RF threat detection platform (Wi-Fi/BLE/SDR/GPS/ADS-B)
     - **FAA Part 107** certified | **HAM/GMRS** licensed | **career USAF veteran**

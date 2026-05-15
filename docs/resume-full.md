@@ -36,7 +36,7 @@ Security consulting practice delivering compliance automation and GRC engineerin
 ### USOG — CEO & Systems Administrator
 *2018 – 2025 · Drone Logistics & Operations*
 
-Led $5.6M revenue drone logistics company (18 employees) while serving as hands-on systems administrator. Built entire IT security infrastructure from scratch.
+Led drone logistics company while serving as hands-on systems administrator. Built entire IT security infrastructure from scratch.
 
 - **Implemented CIS Controls v8 (IG1-IG2)** mapped to NIST CSF and SOC 2 trust criteria across all business systems
 - **Remediated 15,000+ vulnerabilities** identified through continuous scanning over multi-year infrastructure lifecycle

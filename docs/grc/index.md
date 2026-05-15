@@ -17,7 +17,7 @@ I build audit-ready control frameworks, evidence pipelines, and compliance autom
 
 ### USOG — Enterprise Security Infrastructure (7 Years)
 
-As CEO and Systems Administrator of a $5.6M drone logistics company (18 employees), I built the entire IT security infrastructure from scratch — not inherited, not delegated:
+As CEO and Systems Administrator of a drone logistics company, I built the entire IT security infrastructure from scratch — not inherited, not delegated:
 
 | What I Built | Framework Alignment |
 |--------------|---------------------|
@@ -34,7 +34,7 @@ As CEO and Systems Administrator of a $5.6M drone logistics company (18 employee
 
 **Scale:** 15,000+ vulnerabilities identified and remediated over 7 years of continuous operation.
 
-**This wasn't a lab project** — it was production infrastructure supporting 18 employees and $5.6M in business operations.
+**This wasn't a lab project** — it was production infrastructure supporting 18 employees and in business operations.
 
 </div>
 

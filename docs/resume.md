@@ -10,7 +10,7 @@ Security architect/operator with 7 years building and securing production infras
 
 **Scan-ready proof:**
 
-- 7 years production infrastructure security (USOG, $5.6M enterprise build)
+- 7 years production infrastructure security (USOG, enterprise build)
 - 15,000+ vulnerabilities remediated
 - PCI-DSS endpoint hardening delivered in <48 hours with full evidence pack
 - CIS v8, NIST CSF, SOC 2, HIPAA — in production and client engagements
@@ -56,7 +56,7 @@ View my full resume below or download for offline use.
 
 ## Highlights
 
-- **Built and secured production infrastructure** for $5.6M drone logistics company (CIS v8, NIST CSF, SOC 2)
+- **Built and secured production infrastructure** for drone logistics company (CIS v8, NIST CSF, SOC 2)
 - **Delivered client compliance work** in healthcare (HIPAA), financial services (PCI-DSS), and legal
 - **Created GIAP™** — Production GRC automation platform with [live demo](https://portal.aamcyber.work/demo/){target=_blank}
 - **Developed TraceLock™** — Patent-pending RF threat detection (12,500 LOC, 6 wireless domains)

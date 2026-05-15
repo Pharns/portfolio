@@ -35,7 +35,7 @@ Built GIAP™ governance automation platform (CISO Assistant + n8n + Nextcloud) 
 ### USOG — CEO & Systems Administrator
 *2018 – 2025 · Drone Logistics & Operations (Winding Down)*
 
-Led $5.6M revenue drone logistics company with 18 employees. As a startup, served as both executive and hands-on sysadmin — built the entire IT security infrastructure from a single email address to production-grade systems:
+Led drone logistics company. As a startup, served as both executive and hands-on sysadmin — built the entire IT security infrastructure from a single email address to production-grade systems:
 
 - **Built enterprise infrastructure from scratch** — Self-hosted email, file storage (Nextcloud), remote access, backup systems, and security monitoring
 - **Implemented CIS Controls v8 (IG1-IG2)** — Mapped security baseline to NIST CSF and SOC 2 trust criteria
@@ -71,7 +71,7 @@ Taught drone technology courses, demonstrating communication skills and subject 
 | Phase | Role | What I Learned | How It Applies |
 |-------|------|----------------|----------------|
 | **USAF (career)** | Aeromedical Evacuation | Mission-critical operations, protocols, documentation, clearance experience | Disciplined execution, compliance mindset, audit culture |
-| **USOG (7 years)** | CEO + Sysadmin | Built IT infrastructure for $5.6M company from scratch | Hands-on implementation, vulnerability management, production security |
+| **USOG (7 years)** | CEO + Sysadmin | Built IT infrastructure for company from scratch | Hands-on implementation, vulnerability management, production security |
 | **AAM Cyber (current)** | GRC Consultant | Client delivery across HIPAA, PCI-DSS, SOC 2 | Framework expertise, evidence pipelines, compliance automation |
 
 **The thread:** I've operated in environments where failure has consequences — medical missions, business operations, client compliance. That operational discipline carries into how I approach security: systematic, documented, evidence-ready.
@@ -199,7 +199,7 @@ When I assess drone security, I understand the attack surface from the inside: f
     "@id": "https://portfolio.pharns.com/#pharns"
   },
   "name": "About Pharns Genece — AI Governance Architect",
-  "description": "GRC engineer, cloud security practitioner, and AAM cybersecurity specialist. Career USAF veteran, USPTO patent holder, FAA Part 107 pilot. Built and secured production infrastructure for a $5.6M drone logistics company.",
+  "description": "GRC engineer, cloud security practitioner, and AAM cybersecurity specialist. Career USAF veteran, USPTO patent holder, FAA Part 107 pilot. Built and secured production infrastructure for a drone logistics company.",
   "url": "https://portfolio.pharns.com/about/"
 }
 </script>
