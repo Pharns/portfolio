@@ -1,5 +1,5 @@
 ---
-description: "Runtime AI governance (SDOS — NIST OLIR listed against AI RMF 1.0), UAV engineering, RF security research, and patent-filed innovations across governed autonomous execution, drone systems, and wireless threat detection."
+description: "Runtime AI governance (SDOS — NIST OLIR Trifecta cataloged against AI RMF 1.0, CSF 2.0, and SP 800-53 Rev 5.2.0), UAV engineering, RF security research, and patent-filed innovations across governed autonomous execution, drone systems, and wireless threat detection."
 ---
 
 # Innovation — Advanced Air Mobility (AAM) & RF Security
@@ -24,11 +24,11 @@ This section highlights **UAV systems, RF security research, and patent-pending 
 
 ## Governed AI systems
 
-- **[SDOS™ — AI Governance Framework](sdos-governance-framework.md)** → **NIST OLIR-listed** runtime AI governance framework with infrastructure-layer policy enforcement and deny-all-default posture. SDOS-RuntimeGov-to-AI-RMF-v1.0 — draft informative reference mapping to AI RMF 1.0 (Reference ID 212, May 2026). Patent-filed. Production deployment.
+- **[SDOS™ — AI Governance Framework](sdos-governance-framework.md)** → **NIST OLIR Trifecta cataloged** runtime AI governance framework with infrastructure-layer policy enforcement and deny-all-default posture. Three Draft Informative References on the NIST OLIR Catalog: AI RMF 1.0 (Ref 212), CSF 2.0 (Ref 215), and SP 800-53 Rev 5.2.0 (Ref 217). All cataloged May 2026. Patent-filed. Production deployment.
 - **[AQ Scale™ — Governance Maturity Standard](aq-scale.md)** → patent-pending measurement standard for AI agent governance maturity. Public self-assessment live at [aq-score.aamcyber.com](https://aq-score.aamcyber.com).
 - **[Governed Agent Gateway](governed-agent-gateway.md)** → governed AI agent orchestration platform separating policy enforcement from model execution at the infrastructure layer. Multi-provider governed inference.
 - **[GRAM — Governed Memory](gram-memory-system.md)** → hybrid semantic retrieval with trust-weighted scoring and deny-all-default ingestion. Local-only embeddings, production deployment.
-- **[Patent Portfolio](patent-portfolio.md)** → 11 patent families, 142 total claims covering governed AI execution, multi-domain threat detection, and security decision architecture. USPTO 64/029,300 + 64/049,300.
+- **[Patent Portfolio](patent-portfolio.md)** → 44 patent families, 302 total claims covering governed AI execution, multi-domain threat detection, security decision architecture, governance lifecycle, and adversarial hardening. USPTO 64/029,300 + 64/049,300 + 64/067,427.
 
 ## Detection, RF & drone security
 

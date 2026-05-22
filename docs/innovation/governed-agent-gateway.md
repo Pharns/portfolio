@@ -131,7 +131,7 @@ Federal acquisition increasingly requires AI governance documentation. The gatew
 
 ## Patent status
 
-The governed dispatch architecture is part of **U.S. Provisional Patent Applications Nos. 64/029,300 and 64/049,300**, filed April 4 and April 25, 2026. The applications cover 11 patent families with 142 total claims. Intellectual property is held by a **dedicated IP holding entity**.
+The governed dispatch architecture is part of **U.S. Provisional Patent Applications Nos. 64/029,300, 64/049,300, and 64/067,427**, filed April 4, April 25, and May 16, 2026. The applications cover 44 patent families with 302 total claims across three provisionals. Intellectual property is held by a **dedicated IP holding entity**.
 
 Non-provisional filing is in progress under accelerated prosecution.
 

@@ -1,5 +1,5 @@
 ---
-description: "Patent portfolio covering governed AI execution, multi-domain threat detection, and security decision architecture. 11 families, 142 total claims across 2 provisionals."
+description: "Patent portfolio covering governed AI execution, multi-domain threat detection, and security decision architecture. 44 families, 302 total claims across 3 provisionals."
 ---
 
 # Patent portfolio overview
@@ -18,14 +18,14 @@ The work grew out of a practical problem: autonomous AI agents need enforceable 
 
     | Field | Detail |
     |-------|--------|
-    | **Applications** | U.S. Provisionals 64/029,300 + 64/049,300 |
-    | **Filed** | April 4, 2026 + April 25, 2026 |
-    | **Patent families** | 11 |
-    | **Independent claims** | 11 |
-    | **Dependent claims** | 131 |
-    | **Total claims** | 142 |
+    | **Applications** | U.S. Provisionals 64/029,300 + 64/049,300 + 64/067,427 |
+    | **Filed** | April 4, 2026 + April 25, 2026 + May 16, 2026 |
+    | **Patent families** | 44 |
+    | **Independent claims** | 44 |
+    | **Dependent claims** | 258 |
+    | **Total claims** | 302 |
     | **Assignee** | Dedicated IP holding entity |
-    | **Status** | Patent-pending (non-provisional in progress) |
+    | **Status** | Patent-filed (non-provisional in progress, target April 4, 2027) |
 
 ---
 
@@ -67,7 +67,7 @@ For hiring managers and technical leaders evaluating candidates, a patent portfo
 
 **Production systems backing every claim.** Patent law distinguishes between theoretical inventions and reduction to practice — actually building the thing. Every claim in this portfolio is backed by running code on production infrastructure. The systems described in these patents are not proposals. They exist, they run, and they work.
 
-**Federal recognition of the architecture.** As of May 13, 2026, the SDOS runtime governance framework is listed in the [NIST OLIR catalog](https://csrc.nist.gov/projects/olir/informative-reference-catalog/details?referenceId=212){target=_blank} as a draft informative reference mapping to AI RMF 1.0. The patent moat and the federal listing operate as distinct credentials — the patent protects the architecture as proprietary IP; the OLIR listing recognizes the architecture as a publicly documented crosswalk to the federal AI risk framework. See [SDOS — Security Decision Operating System](sdos-governance-framework.md) for full detail on the listing.
+**Federal recognition of the architecture.** As of May 21, 2026, the SDOS runtime governance framework is cataloged in the NIST OLIR catalog as a Trifecta of Draft Informative References — against [AI RMF 1.0 (Ref 212)](https://csrc.nist.gov/projects/olir/informative-reference-catalog/details?referenceId=212){target=_blank}, [CSF 2.0 (Ref 215)](https://csrc.nist.gov/projects/olir/informative-reference-catalog/details?referenceId=215){target=_blank}, and [SP 800-53 Rev 5.2.0 (Ref 217)](https://csrc.nist.gov/projects/olir/informative-reference-catalog/details?referenceId=217){target=_blank}. The patent moat and the federal cataloging operate as distinct credentials — the patents protect the architecture as proprietary IP; the OLIR Trifecta recognizes the architecture as publicly documented crosswalks to three federal references. See [SDOS — Security Decision Operating System](sdos-governance-framework.md) for full detail on the cataloging.
 
 ---
 
@@ -94,7 +94,7 @@ Patent prosecution is a multi-year process. The work continues — both in expan
   "@context": "https://schema.org",
   "@type": "TechArticle",
   "headline": "Patent Portfolio — Governed AI Execution & Multi-Domain Threat Detection",
-  "description": "11 patent families covering governed AI agent execution, multi-domain wireless threat detection, security decision architecture, case orchestration, and pattern-of-life modeling. 142 total claims (131 dependent) across 2 provisionals, backed by production code.",
+  "description": "44 patent families covering governed AI agent execution, multi-domain wireless threat detection, security decision architecture, governance lifecycle, structural isolation, adversarial hardening, and pattern-of-life modeling. 302 total claims (258 dependent) across 3 provisionals, backed by production code.",
   "author": {"@type": "Person", "@id": "https://portfolio.pharns.com/#pharns"},
   "datePublished": "2026-04-04",
   "dateModified": "2026-04-15",
