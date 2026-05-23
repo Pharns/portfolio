@@ -2,7 +2,7 @@
 description: "SDOS — Security Decision Operating System. Runtime AI governance framework cataloged in the NIST OLIR catalog as a Trifecta of Draft Informative References against AI RMF 1.0 (Ref 212), CSF 2.0 (Ref 215), and SP 800-53 Rev 5.2.0 (Ref 217). Infrastructure-layer policy enforcement, deny-all-default posture, patent-filed governed autonomous execution."
 ---
 
-# SDOS™ — Security Decision Operating System
+# SDOS — Security Decision Operating System
 
 *Patent-Filed AI Governance Runtime · NIST OLIR Trifecta Cataloged (Refs 212/215/217) · U.S. Provisionals 64/029,300 + 64/049,300 + 64/067,427 + 64/069,200*
 
@@ -52,7 +52,7 @@ SDOS — the Security Decision Operating System — is a governance runtime that
 
 !!! info "Patent-filed"
 
-    SDOS is protected under USPTO Provisional Patent Applications 64/029,300, 64/049,300, and 64/067,427, filed April 4, April 25, and May 16, 2026. The filings cover 44 patent families with 302 total claims across three provisionals. The intellectual property is held by a dedicated IP holding entity.
+    SDOS is protected under USPTO Provisional Patent Applications 64/029,300, 64/049,300, 64/067,427, and 64/069,200, filed April 4, April 25, May 16, and May 19, 2026. The filings cover 45 patent families with 313 total claims across four provisionals. The intellectual property is held by a dedicated IP holding entity.
 
 The core design principle is simple: **deny all by default.** An AI agent operating under SDOS has zero permissions until policy explicitly grants them. This inverts the typical AI deployment model, where agents start with broad access and teams scramble to restrict it after incidents occur.
 
@@ -150,7 +150,7 @@ SDOS fills a gap that none of these categories address: infrastructure-layer gov
 
     **Provisional Patent Applications:** USPTO 64/029,300 + 64/049,300
     **Filed:** April 4, 2026 + April 25, 2026
-    **Coverage:** 44 patent families, 302 total claims across 3 provisionals
+    **Coverage:** 45 patent families, 313 total claims across 4 provisionals
     **Assignee:** Dedicated IP holding entity
     **Status:** Non-provisional filing in preparation (accelerated timeline)
 
@@ -180,7 +180,7 @@ SDOS is relevant to any organization deploying AI agents beyond simple chatbot i
 2. **I understand the AI governance gap.** The industry is deploying agents faster than governance frameworks can keep up. I identified that gap and built a production system to close it.
 3. **I operate at the intersection of security and AI.** This is not a security project that happens to involve AI, or an AI project that adds security as an afterthought. It is a system where security *is* the product.
 4. **I ship production systems.** Production deployment, governed tool modules, compliance mappings across major frameworks, continuous health monitoring. This is operational, not theoretical.
-5. **I protect intellectual property.** 44 patent families, 302 total claims across 3 provisionals, filed and prosecuting. I understand the value of what I build and I secure it accordingly.
+5. **I protect intellectual property.** 45 patent families, 313 total claims across 4 provisionals, filed and prosecuting. I understand the value of what I build and I secure it accordingly.
 
 ---
 
