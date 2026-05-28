@@ -28,7 +28,7 @@ This section highlights **UAV systems, RF security research, and patent-pending 
 - **[AQ Scale™ — Governance Maturity Standard](aq-scale.md)** → patent-pending measurement standard for AI agent governance maturity. Public self-assessment live at [aq-score.aamcyber.com](https://aq-score.aamcyber.com).
 - **[Governed Agent Gateway](governed-agent-gateway.md)** → governed AI agent orchestration platform separating policy enforcement from model execution at the infrastructure layer. Multi-provider governed inference.
 - **[GRAM — Governed Memory](gram-memory-system.md)** → hybrid semantic retrieval with trust-weighted scoring and deny-all-default ingestion. Local-only embeddings, production deployment.
-- **[Patent Portfolio](patent-portfolio.md)** → 45 patent families, 313 total claims covering governed AI execution, multi-domain threat detection, security decision architecture, governance lifecycle, and adversarial hardening. USPTO 64/029,300 + 64/049,300 + 64/067,427 + 64/069,200.
+- **[Patent Portfolio](patent-portfolio.md)** → 45 patent families, 334 total claims covering governed AI execution, multi-domain threat detection, security decision architecture, governance lifecycle, and adversarial hardening. USPTO 64/029,300 + 64/049,300 + 64/067,427 + 64/069,200 + 64/076,620.
 
 ## Detection, RF & drone security
 

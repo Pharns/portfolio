@@ -1,5 +1,5 @@
 ---
-description: "Patent portfolio covering governed AI execution, multi-domain threat detection, and security decision architecture. 44 families, 302 total claims across 3 provisionals."
+description: "Patent portfolio covering governed AI execution, multi-domain threat detection, and security decision architecture. 45 families, 334 total claims across 5 provisionals."
 ---
 
 # Patent portfolio overview
@@ -18,13 +18,13 @@ The work grew out of a practical problem: autonomous AI agents need enforceable 
 
     | Field | Detail |
     |-------|--------|
-    | **Applications** | U.S. Provisionals 64/029,300 + 64/049,300 + 64/067,427 |
-    | **Filed** | April 4, 2026 + April 25, 2026 + May 16, 2026 |
-    | **Patent families** | 44 |
-    | **Independent claims** | 44 |
-    | **Dependent claims** | 258 |
-    | **Total claims** | 302 |
-    | **Assignee** | Dedicated IP holding entity |
+    | **Applications** | U.S. Provisionals 64/029,300 + 64/049,300 + 64/067,427 + 64/069,200 + 64/076,620 |
+    | **Filed** | April 4, 2026 + April 25, 2026 + May 16, 2026 + May 19, 2026 |
+    | **Patent families** | 45 |
+    | **Independent claims** | 46 |
+    | **Dependent claims** | 267 |
+    | **Total claims** | 334 |
+    | **Assignee** | Dedicated IP holding entity (chain of title recorded at USPTO 2026-05-21) |
     | **Status** | Patent-filed (non-provisional in progress, target April 4, 2027) |
 
 ---
@@ -94,7 +94,7 @@ Patent prosecution is a multi-year process. The work continues — both in expan
   "@context": "https://schema.org",
   "@type": "TechArticle",
   "headline": "Patent Portfolio — Governed AI Execution & Multi-Domain Threat Detection",
-  "description": "44 patent families covering governed AI agent execution, multi-domain wireless threat detection, security decision architecture, governance lifecycle, structural isolation, adversarial hardening, and pattern-of-life modeling. 302 total claims (258 dependent) across 3 provisionals, backed by production code.",
+  "description": "45 patent families covering governed AI agent execution, multi-domain wireless threat detection, security decision architecture, governance lifecycle, structural isolation, adversarial hardening, and pattern-of-life modeling. 334 total claims (287 dependent) across 5 provisionals, backed by production code.",
   "author": {"@type": "Person", "@id": "https://portfolio.pharns.com/#pharns"},
   "datePublished": "2026-04-04",
   "dateModified": "2026-04-15",
