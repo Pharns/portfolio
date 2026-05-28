@@ -148,8 +148,8 @@ SDOS fills a gap that none of these categories address: infrastructure-layer gov
 
 !!! info "Intellectual property"
 
-    **Provisional Patent Applications:** USPTO 64/029,300 + 64/049,300
-    **Filed:** April 4, 2026 + April 25, 2026
+    **Provisional Patent Applications:** USPTO 64/029,300 + 64/049,300 + 64/067,427 + 64/069,200 + 64/076,620
+    **Filed:** April 4, 2026 + April 25, 2026 + May 16, 2026 + May 19, 2026 + May 28, 2026
     **Coverage:** 45 patent families, 334 total claims across 5 provisionals
     **Assignee:** Dedicated IP holding entity
     **Status:** Non-provisional filing in preparation (accelerated timeline)
