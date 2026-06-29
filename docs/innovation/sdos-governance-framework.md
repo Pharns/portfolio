@@ -1,5 +1,5 @@
 ---
-description: "SDOS — Security Decision Operating System. Runtime AI governance framework cataloged in the NIST OLIR catalog as a Trifecta of Draft Informative References against AI RMF 1.0 (Ref 212), CSF 2.0 (Ref 215), and SP 800-53 Rev 5.2.0 (Ref 217). Infrastructure-layer policy enforcement, deny-all-default posture, patent-filed governed autonomous execution."
+description: "SDOS — Security Decision Operating System. Runtime AI governance framework cataloged in the NIST OLIR catalog as a Trifecta of Final Informative References against AI RMF 1.0 (Ref 212), CSF 2.0 (Ref 215), and SP 800-53 Rev 5.2.0 (Ref 217). Infrastructure-layer policy enforcement, deny-all-default posture, patent-filed governed autonomous execution."
 ---
 
 # SDOS — Security Decision Operating System
@@ -107,16 +107,16 @@ These are not aspirational mappings. Compliance control mappings are implemented
 
 ## NIST OLIR catalog recognition
 
-!!! success "Cataloged in the NIST OLIR catalog — Trifecta of Draft Informative References"
+!!! success "Cataloged in the NIST OLIR catalog — Trifecta of Final Informative References"
 
     **Listings cataloged:**
 
-    - **SDOS-RuntimeGov-to-AI-RMF-v1.0** — Reference ID 212 · Focal: NIST AI Risk Management Framework 1.0 (NIST AI 100-1) · 49 AI RMF subcategories mapped · Posted 2026-05-13 · Public review through ~2026-06-12 · [View catalog](https://csrc.nist.gov/projects/olir/informative-reference-catalog/details?referenceId=212){target=_blank}
-    - **SDOS-RuntimeGov-to-CSF-2.0-v1.0** — Reference ID 215 · Focal: NIST Cybersecurity Framework 2.0 (NIST CSWP 29) · 76 of 106 CSF 2.0 subcategories mapped · Posted 2026-05-21 · Public review through ~2026-06-20 · [View catalog](https://csrc.nist.gov/projects/olir/informative-reference-catalog/details?referenceId=215){target=_blank}
-    - **SDOS-RuntimeGov-to-SP-800-53-Rev-5.2.0-v1.0** — Reference ID 217 · Focal: NIST Special Publication 800-53 Revision 5.2.0 · 269 of 622 SP 800-53 controls mapped across 10 control families · Posted 2026-05-21 · Public review through ~2026-06-20 · [View catalog](https://csrc.nist.gov/projects/olir/informative-reference-catalog/details?referenceId=217){target=_blank}
+    - **SDOS-RuntimeGov-to-AI-RMF-v1.0** — Reference ID 212 · Focal: NIST AI Risk Management Framework 1.0 (NIST AI 100-1) · 49 AI RMF subcategories mapped · Posted 2026-05-13 · Final 2026-06-15 · [View catalog](https://csrc.nist.gov/projects/olir/informative-reference-catalog/details?referenceId=212){target=_blank}
+    - **SDOS-RuntimeGov-to-CSF-2.0-v1.0** — Reference ID 215 · Focal: NIST Cybersecurity Framework 2.0 (NIST CSWP 29) · 76 of 106 CSF 2.0 subcategories mapped · Posted 2026-05-21 · Final 2026-06-22 · [View catalog](https://csrc.nist.gov/projects/olir/informative-reference-catalog/details?referenceId=215){target=_blank}
+    - **SDOS-RuntimeGov-to-SP-800-53-Rev-5.2.0-v1.0** — Reference ID 217 · Focal: NIST Special Publication 800-53 Revision 5.2.0 · 269 of 622 SP 800-53 controls mapped across 10 control families · Posted 2026-05-21 · Final 2026-06-22 · [View catalog](https://csrc.nist.gov/projects/olir/informative-reference-catalog/details?referenceId=217){target=_blank}
 
     **Relationship type (all three):** Concept Crosswalk — Supportive
-    **Status (all three):** Draft Informative Reference in public review
+    **Status (all three):** Final Informative Reference (public review concluded with zero comments) — catalog inclusion is an informative reference, not a NIST endorsement
 
 OLIR — the NIST Online Informative References Program — is the federal registry of frameworks that map to NIST core standards. Inclusion is an informative reference, not a NIST endorsement of the framework. The Trifecta listing means any organization implementing NIST AI RMF 1.0, NIST Cybersecurity Framework 2.0, or NIST SP 800-53 Rev 5.2.0 has a publicly cataloged pathway to a runtime governance layer that enforces policy at the infrastructure layer.
 
@@ -202,7 +202,7 @@ SDOS is relevant to any organization deploying AI agents beyond simple chatbot i
 
 ### What is SDOS?
 
-SDOS — the Security Decision Operating System — is a runtime AI governance framework that classifies every autonomous AI agent action by risk tier and enforces policy at the infrastructure layer before execution. It produces tamper-evident audit trails independent of model self-reporting. SDOS is cataloged in the NIST OLIR catalog as a Trifecta of Draft Informative References against AI RMF 1.0 (Reference ID 212), CSF 2.0 (Reference ID 215), and SP 800-53 Rev 5.2.0 (Reference ID 217).
+SDOS — the Security Decision Operating System — is a runtime AI governance framework that classifies every autonomous AI agent action by risk tier and enforces policy at the infrastructure layer before execution. It produces tamper-evident audit trails independent of model self-reporting. SDOS is cataloged in the NIST OLIR catalog as a Trifecta of Final Informative References (public review concluded 2026-06-22 with zero comments) against AI RMF 1.0 (Reference ID 212), CSF 2.0 (Reference ID 215), and SP 800-53 Rev 5.2.0 (Reference ID 217).
 
 ### Is SDOS endorsed by NIST?
 
@@ -230,7 +230,7 @@ SDOS is operational and governs a multi-agent production system today. The NIST 
       "name": "What is SDOS?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "SDOS is a runtime AI governance framework that classifies every autonomous AI agent action by risk tier and enforces policy at the infrastructure layer before execution. It is listed in the NIST OLIR catalog as a draft informative reference mapping to AI RMF 1.0 (Reference ID 212)."
+        "text": "SDOS is a runtime AI governance framework that classifies every autonomous AI agent action by risk tier and enforces policy at the infrastructure layer before execution. It is listed in the NIST OLIR catalog as a Final informative reference mapping to AI RMF 1.0 (Reference ID 212)."
       }
     },
     {
@@ -274,7 +274,7 @@ SDOS is operational and governs a multi-agent production system today. The NIST 
   "@context": "https://schema.org",
   "@type": "TechArticle",
   "headline": "SDOS — Security Decision Operating System",
-  "description": "Runtime AI governance framework listed in the NIST OLIR catalog as a draft informative reference mapping to AI RMF 1.0. Patent-filed infrastructure-layer policy enforcement, deny-all-default posture, and tamper-evident audit trails. Governs autonomous AI agents before they act, not after.",
+  "description": "Runtime AI governance framework listed in the NIST OLIR catalog as a Final informative reference mapping to AI RMF 1.0. Patent-filed infrastructure-layer policy enforcement, deny-all-default posture, and tamper-evident audit trails. Governs autonomous AI agents before they act, not after.",
   "author": {
     "@type": "Person",
     "name": "Pharns Genece",

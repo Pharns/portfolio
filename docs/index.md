@@ -1,5 +1,5 @@
 ---
-description: "I build the systems that make AI agents trusted to operate. SDOS runtime AI governance framework is cataloged in the NIST OLIR catalog as a Trifecta of Draft Informative References — against AI RMF 1.0 (Reference ID 212), CSF 2.0 (Reference ID 215), and SP 800-53 Rev 5.2.0 (Reference ID 217). Patent-filed governed autonomous execution, TraceLock RF threat detection, GIAP compliance automation, and detection engineering."
+description: "I build the systems that make AI agents trusted to operate. SDOS runtime AI governance framework is cataloged in the NIST OLIR catalog as a Trifecta of Final Informative References — against AI RMF 1.0 (Reference ID 212), CSF 2.0 (Reference ID 215), and SP 800-53 Rev 5.2.0 (Reference ID 217). Patent-filed governed autonomous execution, TraceLock RF threat detection, GIAP compliance automation, and detection engineering."
 ---
 
 # Pharns Genece
@@ -8,9 +8,9 @@ description: "I build the systems that make AI agents trusted to operate. SDOS r
 
 I govern AI agents so yours don't go rogue.
 
-Runtime AI governance and governed autonomous execution — built, operating, and now cataloged in the NIST OLIR catalog with three Draft Informative References.
+Runtime AI governance and governed autonomous execution — built, operating, and now cataloged in the NIST OLIR catalog with three Final Informative References.
 
-I build the governance systems that make AI agents trusted to operate. My runtime AI governance framework, SDOS, is cataloged in the NIST OLIR catalog as a Trifecta of Draft Informative References against AI RMF 1.0 (Reference ID 212), Cybersecurity Framework 2.0 (Reference ID 215), and SP 800-53 Rev 5.2.0 (Reference ID 217) — the first dispatch-time enforcement framework cataloged at the runtime layer across all three federal references. From patent-filed autonomous execution architecture to detection engineering, compliance automation, and RF threat detection, every project here demonstrates one principle: AI without governance isn't safe to ship.
+I build the governance systems that make AI agents trusted to operate. My runtime AI governance framework, SDOS, is cataloged in the NIST OLIR catalog as a Trifecta of Final Informative References against AI RMF 1.0 (Reference ID 212), Cybersecurity Framework 2.0 (Reference ID 215), and SP 800-53 Rev 5.2.0 (Reference ID 217) — the first dispatch-time enforcement framework cataloged at the runtime layer across all three federal references. From patent-filed autonomous execution architecture to detection engineering, compliance automation, and RF threat detection, every project here demonstrates one principle: AI without governance isn't safe to ship.
 
 Best fit for teams that need governed AI execution, not just policy decks.
 
@@ -25,7 +25,7 @@ USAF Veteran (service-disabled) · Security Clearance Eligible · Security+/CySA
 <div class="stat-grid" markdown>
 <div class="stat-tile" markdown>
 **NIST OLIR Trifecta cataloged runtime AI governance framework**
-Three Draft Informative References cataloged in May 2026: [Ref 212 — AI RMF 1.0](https://csrc.nist.gov/projects/olir/informative-reference-catalog/details?referenceId=212){target=_blank} · [Ref 215 — CSF 2.0](https://csrc.nist.gov/projects/olir/informative-reference-catalog/details?referenceId=215){target=_blank} · [Ref 217 — SP 800-53 Rev 5.2.0](https://csrc.nist.gov/projects/olir/informative-reference-catalog/details?referenceId=217){target=_blank}. OLIR catalog inclusion is an informative reference, not a NIST endorsement.
+Three Final Informative References cataloged at NIST (Final June 2026, zero comments): [Ref 212 — AI RMF 1.0](https://csrc.nist.gov/projects/olir/informative-reference-catalog/details?referenceId=212){target=_blank} · [Ref 215 — CSF 2.0](https://csrc.nist.gov/projects/olir/informative-reference-catalog/details?referenceId=215){target=_blank} · [Ref 217 — SP 800-53 Rev 5.2.0](https://csrc.nist.gov/projects/olir/informative-reference-catalog/details?referenceId=217){target=_blank}. OLIR catalog inclusion is an informative reference, not a NIST endorsement.
 </div>
 <div class="stat-tile" markdown>
 **7 years production security**
@@ -112,7 +112,7 @@ Comprehensive security assessment and remediation. M365 hardening, dark web moni
     "@id": "https://portfolio.pharns.com/#pharns"
   },
   "name": "Pharns Genece — AI Governance Architect Portfolio",
-  "description": "First-person cybersecurity and AI governance portfolio covering SDOS, a NIST OLIR Trifecta-cataloged Draft Informative Reference across AI RMF 1.0 (Ref 212), CSF 2.0 (Ref 215), and SP 800-53 Rev 5.2.0 (Ref 217), patent-filed governed autonomous execution, RF threat detection, and UAV security architectures.",
+  "description": "First-person cybersecurity and AI governance portfolio covering SDOS, a NIST OLIR Trifecta-cataloged Final Informative Reference across AI RMF 1.0 (Ref 212), CSF 2.0 (Ref 215), and SP 800-53 Rev 5.2.0 (Ref 217), patent-filed governed autonomous execution, RF threat detection, and UAV security architectures.",
   "url": "https://portfolio.pharns.com",
   "dateModified": "2026-05-13"
 }
@@ -327,7 +327,7 @@ Runtime AI governance enforces policy on autonomous AI agent actions at the mome
 
 ### How is SDOS different from AI guardrails or AI safety frameworks?
 
-Guardrails and most AI safety frameworks are advisory — they recommend behavior. SDOS is enforcement-bearing — agents physically cannot execute actions the policy layer denies. The framework is cataloged in the NIST OLIR catalog as a Trifecta of Draft Informative References against AI RMF 1.0 (Reference ID 212), CSF 2.0 (Reference ID 215), and SP 800-53 Rev 5.2.0 (Reference ID 217).
+Guardrails and most AI safety frameworks are advisory — they recommend behavior. SDOS is enforcement-bearing — agents physically cannot execute actions the policy layer denies. The framework is cataloged in the NIST OLIR catalog as a Trifecta of Final Informative References against AI RMF 1.0 (Reference ID 212), CSF 2.0 (Reference ID 215), and SP 800-53 Rev 5.2.0 (Reference ID 217).
 
 ### What does NIST OLIR catalog inclusion mean?
 
@@ -359,7 +359,7 @@ Autonomous AI agents take actions that affect data, money, infrastructure, and h
       "name": "How is SDOS different from AI guardrails or AI safety frameworks?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Guardrails and most AI safety frameworks are advisory. SDOS is enforcement-bearing — agents physically cannot execute actions the policy layer denies. The framework is cataloged in the NIST OLIR catalog as a Trifecta of Draft Informative References against AI RMF 1.0 (Ref 212), CSF 2.0 (Ref 215), and SP 800-53 Rev 5.2.0 (Ref 217)."
+        "text": "Guardrails and most AI safety frameworks are advisory. SDOS is enforcement-bearing — agents physically cannot execute actions the policy layer denies. The framework is cataloged in the NIST OLIR catalog as a Trifecta of Final Informative References against AI RMF 1.0 (Ref 212), CSF 2.0 (Ref 215), and SP 800-53 Rev 5.2.0 (Ref 217)."
       }
     },
     {
