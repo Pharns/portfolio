@@ -177,7 +177,7 @@ I don't just study drone security — I've designed, built, and fielded operatio
 
 - Designed and deployed small UAS (SUAS) for real-world missions, including beyond-visual-line-of-sight (BVLOS) operations
 - Developed swarm-deployable payload systems with custom avionics integration
-- Authored USPTO patents for UAV delivery and payload mechanisms
+- Named inventor on USPTO patent filings for UAV delivery and payload mechanisms
 - Built RF telemetry and command/control systems from the ground up
 
 **Why this matters for cybersecurity:**
@@ -199,7 +199,7 @@ When I assess drone security, I understand the attack surface from the inside: f
     "@id": "https://portfolio.pharns.com/#pharns"
   },
   "name": "About Pharns Genece — AI Governance Architect",
-  "description": "GRC engineer, cloud security practitioner, and AAM cybersecurity specialist. Career USAF veteran, USPTO patent holder, FAA Part 107 pilot. Built and secured production infrastructure for a drone logistics company.",
+  "description": "GRC engineer, cloud security practitioner, and AAM cybersecurity specialist. Career USAF veteran, USPTO patent-filed inventor, FAA Part 107 pilot. Built and secured production infrastructure for a drone logistics company.",
   "url": "https://portfolio.pharns.com/about/"
 }
 </script>

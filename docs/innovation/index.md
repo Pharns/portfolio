@@ -14,7 +14,7 @@ This section highlights **UAV systems, RF security research, and patent-pending 
 | Capability | Evidence |
 |------------|----------|
 | **UAV Engineering** | Designed, built, and fielded operational UAV systems |
-| **USPTO Patents** | Granted patents in UAV payload and delivery architectures |
+| **USPTO Patent Filings** | Patent filings (named inventor) in UAV payload and delivery architectures |
 | **RF Threat Detection** | TraceLock™ 6-domain correlation (Wi-Fi/BLE/SDR/GPS/ADS-B) — rogue APs, trackers, drone proximity |
 | **Aviation Credentials** | FAA Part 107 certified drone pilot |
 | **SDR/Wireless** | HackRF, RTL-SDR — spectrum analysis and signal intelligence |

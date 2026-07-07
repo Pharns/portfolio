@@ -4,7 +4,7 @@ description: "I build the systems that make AI agents trusted to operate. SDOS r
 
 # Pharns Genece
 
-**AI Governance Architect | NIST OLIR Trifecta Cataloged | Patent Holder & Patent-Pending**
+**AI Governance Architect | NIST OLIR Trifecta Cataloged | USPTO Patent-Filed & Patent-Pending**
 
 I govern AI agents so yours don't go rogue.
 
@@ -59,7 +59,7 @@ Mission-critical operations, service-disabled, security clearance eligible
 
 - **I implement controls, not just map them.** Framework requirements become working configurations, monitoring logic, and documented evidence — not recommendations in a report.
 - **I connect governance to operations.** My work spans control design, technical implementation, telemetry pipelines, and audit-ready outputs. The documentation reflects what actually runs.
-- **I bring edge-domain depth most candidates don't have.** RF/UAS security (USPTO patents, TraceLock™), governed automation systems, and real operator experience across USAF, a prior unmanned systems startup, and active consulting engagements.
+- **I bring edge-domain depth most candidates don't have.** RF/UAS security (USPTO patent filings, TraceLock™), governed automation systems, and real operator experience across USAF, a prior unmanned systems startup, and active consulting engagements.
 
 ---
 
@@ -91,13 +91,13 @@ Comprehensive security assessment and remediation. M365 hardening, dark web moni
 </div>
 </div>
 
-<small>*USOG: Internal infrastructure I built and maintained as CEO/Sysadmin (company winding down post-exit). Client engagements via AAM Cyber.*</small>
+<small>*USOG: Internal infrastructure I built and maintained as founder and systems administrator (company winding down post-exit). Client engagements via AAM Cyber.*</small>
 
 !!! abstract "Aerospace & Defense Recruiters — Unique AAM/UAS Credentials"
     **I don't just study drone security — I've designed, built, and fielded operational UAV systems.**
 
-    - **Former founder/CEO of drone logistics company** (USOG) — 7 years operational experience
-    - **USPTO patents** in UAV payload and delivery architectures
+    - **Founder & operator of a drone logistics company** (USOG, 2018–2025) — 7 years hands-on operational experience
+    - **USPTO patent filings** (named inventor) in UAV payload and delivery architectures
     - **TraceLock™** — Patent-pending RF threat detection platform (Wi-Fi/BLE/SDR/GPS/ADS-B)
     - **FAA Part 107** certified | **HAM/GMRS** licensed | **career USAF veteran**
 
@@ -304,7 +304,7 @@ Advanced Air Mobility (AAM) security requires practitioners who understand the e
 | Capability | Evidence |
 |------------|----------|
 | **UAV Engineering** | Designed, built, and fielded operational UAV systems |
-| **USPTO Patents** | Granted patents in UAV payload and delivery architectures |
+| **USPTO Patent Filings** | Patent filings (named inventor) in UAV payload and delivery architectures |
 | **RF Threat Detection** | TraceLock™ 6-domain correlation (Wi-Fi/BLE/SDR/GPS/ADS-B) — rogue APs, trackers, drone proximity |
 | **Aviation Credentials** | FAA Part 107 certified drone pilot |
 | **SDR/Wireless** | HackRF, RTL-SDR — spectrum analysis and signal intelligence |

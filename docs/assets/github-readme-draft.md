@@ -11,7 +11,7 @@ I build audit-ready control frameworks, evidence pipelines, and compliance autom
 
 📧 [career@pharns.com](mailto:career@pharns.com) · 🌐 [portfolio.pharns.com](https://portfolio.pharns.com) · 💼 [LinkedIn](https://linkedin.com/in/pharns)
 
-**USAF Veteran (Service-Disabled)** · **USPTO Patent Holder** · **Security+** · **10 Active Certifications**
+**USAF Veteran (Service-Disabled)** · **USPTO Patent-Filed (named inventor)** · **Security+** · **10 Active Certifications**
 
 ---
 
@@ -108,7 +108,7 @@ Capstone: TraceLock™ (patent pending)
 
 Advanced Air Mobility security requires practitioners who understand engineering fundamentals:
 
-- USPTO-granted patents in UAV payload and delivery systems
+- USPTO patent filings (named inventor) in UAV payload and delivery systems
 - TraceLock™ RF detection across 6 wireless domains
 - FAA Part 107 certified drone pilot
 - Software-defined radio and wireless security expertise

@@ -6,7 +6,7 @@ description: "Download Pharns Genece's resume — GRC Engineer, Cloud Security, 
 
 ## Recruiter summary
 
-Security architect/operator with 7 years building and securing production infrastructure, plus hands-on client compliance delivery across HIPAA, PCI-DSS, and SOC 2. Differentiated by founder-level execution, RF/UAS specialization (USPTO patents, TraceLock™), and governed automation systems. Target roles: Security Architect, GRC Engineer, Cloud Security Engineer.
+Security architect/operator with 7 years building and securing production infrastructure, plus hands-on client compliance delivery across HIPAA, PCI-DSS, and SOC 2. Differentiated by founder-level execution, RF/UAS specialization (USPTO patent filings, TraceLock™), and governed automation systems. Target roles: Security Architect, GRC Engineer, Cloud Security Engineer.
 
 **Scan-ready proof:**
 
@@ -60,7 +60,7 @@ View my full resume below or download for offline use.
 - **Delivered client compliance work** in healthcare (HIPAA), financial services (PCI-DSS), and legal
 - **Created GIAP™** — Production GRC automation platform with [live demo](https://portal.aamcyber.work/demo/){target=_blank}
 - **Developed TraceLock™** — Patent-pending RF threat detection (12,500 LOC, 6 wireless domains)
-- **USPTO patents** in UAV payload and delivery systems
+- **USPTO patent filings** (named inventor) in UAV payload and delivery systems
 
 ---
 

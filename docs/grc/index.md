@@ -17,7 +17,7 @@ I build audit-ready control frameworks, evidence pipelines, and compliance autom
 
 ### USOG — Enterprise Security Infrastructure (7 Years)
 
-As CEO and Systems Administrator of a drone logistics company, I built the entire IT security infrastructure from scratch — not inherited, not delegated:
+As the founder and systems administrator of a drone logistics company, I built the entire IT security infrastructure from scratch — not inherited, not delegated:
 
 | What I Built | Framework Alignment |
 |--------------|---------------------|
