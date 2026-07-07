@@ -24,7 +24,7 @@ This section highlights **UAV systems, RF security research, and patent-pending 
 
 ## Governed AI systems
 
-- **[SDOS — AI Governance Framework](sdos-governance-framework.md)** → **NIST OLIR Trifecta cataloged** runtime AI governance framework with infrastructure-layer policy enforcement and deny-all-default posture. Three Final Informative References on the NIST OLIR Catalog: AI RMF 1.0 (Ref 212), CSF 2.0 (Ref 215), and SP 800-53 Rev 5.2.0 (Ref 217). All Final as of June 2026 (zero comments). Patent-filed. Production deployment.
+- **[SDOS — AI Governance Framework](sdos-governance-framework.md)** → **NIST OLIR Trifecta cataloged** runtime AI governance framework with infrastructure-layer policy enforcement and deny-all-default posture. Three Final Informative References on the NIST OLIR Catalog: AI RMF 1.0 (Ref 220), CSF 2.0 (Ref 215), and SP 800-53 Rev 5.2.0 (Ref 217). All Final as of June 2026 (zero comments). Patent-filed. Production deployment.
 - **[AQ Scale™ — Governance Maturity Standard](aq-scale.md)** → patent-pending measurement standard for AI agent governance maturity. Public self-assessment live at [aq-score.aamcyber.com](https://aq-score.aamcyber.com).
 - **[Governed Agent Gateway](governed-agent-gateway.md)** → governed AI agent orchestration platform separating policy enforcement from model execution at the infrastructure layer. Multi-provider governed inference.
 - **[GRAM — Governed Memory](gram-memory-system.md)** → hybrid semantic retrieval with trust-weighted scoring and deny-all-default ingestion. Local-only embeddings, production deployment.
