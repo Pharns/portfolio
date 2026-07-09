@@ -220,6 +220,15 @@ Guardrails and constitutional AI operate at the model layer. They are advisory â
 
 SDOS is operational and governs a multi-agent production system today. The NIST OLIR listing provides a publicly reviewable reference for organizations evaluating AI RMF alignment. Commercial availability and licensing are managed through AAM Cyber. [Contact](../contact.md) for evaluation and engagement inquiries.
 
+## Doctrine and citation
+
+The normative doctrine behind this framework is published as the **Five Laws of AI Governance** â€” the structural prohibitions a governed system can never hold over itself. The Five Laws are released as a versioned, archived, citable reference:
+
+- **Repository:** [github.com/Pharns/The-Five-Laws-of-AI-Governance](https://github.com/Pharns/The-Five-Laws-of-AI-Governance)
+- **DOI:** [10.5281/zenodo.21271750](https://doi.org/10.5281/zenodo.21271750)
+
+> Genece, P. (2026). *The Five Laws of AI Governance* (Version 1.0). Zenodo. https://doi.org/10.5281/zenodo.21271750
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
