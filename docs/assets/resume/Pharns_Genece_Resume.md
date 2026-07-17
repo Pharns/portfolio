@@ -43,9 +43,8 @@ Led drone logistics company while serving as hands-on systems administrator. Bui
 Flight nurse with mission-critical operations experience in high-pressure environments.
 
 - Executed life-safety medical operations with strict protocols, documentation, and compliance requirements
-- Maintained security clearance throughout service (eligible for reinstatement)
+- Held Secret clearance during USAF service (inactive)
 - Developed disciplined execution and audit culture applicable to cybersecurity operations
-- Service-disabled veteran status
 
 ### MiraCosta College — Adjunct Educator
 *UAS/Drone Technology*
@@ -128,7 +127,7 @@ Deterministic AI orchestration framework with audit-grade logging and explainabl
 ## ADDITIONAL INFORMATION
 
 - **Citizenship:** US Citizen
-- **Clearance:** Eligible (USAF veteran, service-disabled)
+- **Clearance:** Held Secret (USAF, inactive); clearance-eligible
 - **Work Authorization:** No sponsorship required for US positions; visa sponsorship required for international relocation
 - **Availability:** Immediate
 - **Work Style:** Remote-first with async collaboration experience across US/EU/LatAm time zones

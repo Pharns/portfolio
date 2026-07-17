@@ -55,7 +55,6 @@ Flight nurse with mission-critical operations experience:
 - High-pressure medical operations with strict protocols and documentation
 - Held Secret clearance during USAF service (inactive)
 - Disciplined execution in life-safety environments
-- Service-disabled veteran status
 
 ### MiraCosta College — Adjunct Educator
 *UAS/Drone Technology*
