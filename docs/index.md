@@ -14,7 +14,7 @@ I build the governance systems that make AI agents trusted to operate. My runtim
 
 Best fit for teams that need governed AI execution, not just policy decks.
 
-USAF Veteran (service-disabled) · Security Clearance Eligible · Security+/CySA+/PenTest+/SSCP · B.S. Cybersecurity (completed March 2026)
+USAF Veteran · Security Clearance Eligible · Security+/CySA+/PenTest+/SSCP · B.S. Cybersecurity (completed March 2026)
 
 [Hire Me →](contact.md#hire-me){ .btn-primary } [Engage AAM Cyber →](contact.md#engage-aam-cyber){ .btn-ghost }
 
@@ -49,7 +49,7 @@ CIS v8 IG1-IG2 mapped to NIST CSF and SOC 2
 </div>
 <div class="stat-tile" markdown>
 **Career USAF veteran**
-Mission-critical operations, service-disabled, security clearance eligible
+Mission-critical operations, security clearance eligible
 </div>
 </div>
 
@@ -277,7 +277,7 @@ AWS Cloud Practitioner, ISC² CCSP
 
 **Framework experience:** NIST CSF (PR.AC, PR.DS, DE.CM, RS.AN) · CIS Controls v8 · PCI-DSS v4.0 · SOC 2 · ISO 27001 (foundational)
 
-**Licenses:** FAA Part 107 · HAM/GMRS · **Veteran:** USAF, service-disabled
+**Licenses:** FAA Part 107 · HAM/GMRS · **Veteran:** USAF
 
 [View Full GRC Skill Matrix](grc/index.md){ .btn-ghost }
 

@@ -17,7 +17,7 @@ Pharns Genece is a GRC Engineer, Cloud Security practitioner, and AAM cybersecur
 - CompTIA Security+, CySA+, PenTest+, Network+, A+
 - ISC2 SSCP (Associate), ITIL4, LPI
 - FAA Part 107, HAM/GMRS Licensed
-- USAF Veteran (Service-Disabled)
+- USAF Veteran
 
 ## Expertise
 GRC Engineering, Cloud Security (AWS), Compliance Automation, Detection Engineering, NIST CSF, CIS Controls v8, PCI-DSS v4.0, SOC 2, ISO 27001, RF/Wireless Security, IoT Security, OSINT, Prompt Engineering
