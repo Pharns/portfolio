@@ -53,7 +53,7 @@ This wasn't delegated — I architected, deployed, hardened, and maintained ever
 Flight nurse with mission-critical operations experience:
 
 - High-pressure medical operations with strict protocols and documentation
-- Security clearance experience (eligible for reinstatement)
+- Held Secret clearance during USAF service (inactive)
 - Disciplined execution in life-safety environments
 - Service-disabled veteran status
 

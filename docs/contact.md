@@ -104,7 +104,7 @@ Snapshot and download options
 | Category | Details |
 |----------|---------|
 | **Citizenship** | US Citizen |
-| **Clearance** | Service-disabled veteran, eligible for federal security clearance |
+| **Clearance** | Held Secret (USAF, inactive); eligible for federal security clearance |
 | **Availability** | Available now |
 | **Work Style** | Remote-first; async-ready with distributed team experience |
 | **Time Zones** | US/EU/LatAm — flexible overlap hours |

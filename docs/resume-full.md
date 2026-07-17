@@ -51,7 +51,7 @@ Led drone logistics company while serving as hands-on systems administrator. Bui
 Flight nurse with mission-critical operations experience in high-pressure environments.
 
 - Executed life-safety medical operations with strict protocols, documentation, and compliance requirements
-- Maintained security clearance throughout service (eligible for reinstatement)
+- Held Secret clearance during USAF service (inactive)
 - Developed disciplined execution and audit culture applicable to cybersecurity operations
 - Service-disabled veteran status
 
@@ -115,7 +115,7 @@ Deterministic AI orchestration with audit-grade logging. 6,361 lines Python. git
 | | |
 |---|---|
 | **Citizenship** | US Citizen |
-| **Clearance** | Eligible (USAF veteran, service-disabled) |
+| **Clearance** | Held Secret (USAF, inactive); clearance-eligible |
 | **Availability** | Immediately |
 | **Work Style** | Remote-first · Async collaboration · US/EU/LatAm time zones |
 | **International** | Open to global opportunities; visa sponsorship required for relocation |

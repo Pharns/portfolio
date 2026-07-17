@@ -14,7 +14,7 @@ Security architect/operator with 7 years building and securing production infras
 - 15,000+ vulnerabilities remediated
 - PCI-DSS endpoint hardening delivered in <48 hours with full evidence pack
 - CIS v8, NIST CSF, SOC 2, HIPAA — in production and client engagements
-- USAF veteran, service-disabled, federal clearance eligible
+- USAF veteran, held Secret clearance (inactive), federal clearance eligible
 - 14 active certifications · B.S. Cybersecurity (WGU, Mar 2026)
 
 ---
@@ -48,7 +48,7 @@ View my full resume below or download for offline use.
 | **Experience** | 7 years enterprise infrastructure (USOG) · career USAF veteran |
 | **Education** | B.S. Cybersecurity & Information Assurance (WGU) — Mar 2026 |
 | **Certifications** | Security+ · CySA+ · CSAP · PenTest+ · CNSP · CNVP · Network+ · SSCP (Assoc.) · ITIL4 · 14 total |
-| **Clearance** | Eligible (USAF veteran, service-disabled) |
+| **Clearance** | Held Secret (USAF, inactive); clearance-eligible |
 | **Location** | Remote-first · US Citizen · International opportunities welcome |
 | **Engagement** | W-2, contract, or consulting — contractor available for non-US companies |
 
