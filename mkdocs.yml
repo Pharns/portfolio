@@ -143,6 +143,7 @@ nav:
     - Windows 11 Hardening: cybersecurity/windows11-pcidss-hardening.md
   - Security Projects:
     - Cybersecurity Overview: cybersecurity/index.md
+    - dbt CTI Pipeline: cybersecurity/dbt-cti-pipeline.md
     - Private Inbox Zero: cybersecurity/private-inbox-zero.md
     - Secure Intake Portal: cybersecurity/intake-portal.md
     - Baseline Evidence Drop: cybersecurity/baseline-evidence-drop.md
