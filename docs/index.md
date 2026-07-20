@@ -14,7 +14,7 @@ I build the governance systems that make AI agents trusted to operate. My runtim
 
 Best fit for teams that need governed AI execution, not just policy decks.
 
-USAF Veteran · Security Clearance Eligible · Security+/CySA+/PenTest+/SSCP · B.S. Cybersecurity (completed March 2026)
+USAF Veteran · Held Secret clearance (inactive) · Security+/CySA+/PenTest+/SSCP · B.S. Cybersecurity (completed March 2026)
 
 [Hire Me →](contact.md#hire-me){ .btn-primary } [Engage AAM Cyber →](contact.md#engage-aam-cyber){ .btn-ghost }
 
@@ -40,8 +40,8 @@ Identified and resolved across production systems over 7-year infrastructure ten
 PCI-DSS endpoint hardening with audit-ready evidence pack — financial services client
 </div>
 <div class="stat-tile" markdown>
-**14 active certifications**
-Security+, CySA+, CSAP, PenTest+, CNSP, CNVP, Network+, SSCP (Assoc.), ITIL4, LPI, Project+ [→ View all](certifications.md)
+**17 active certifications**
+Security+, CySA+, PenTest+, Network+, A+, Project+, CSAP, CSIS, CIOS, SSCP, ISC² CC, ITIL4, LPI, CNSP (CompTIA), CNVP (CompTIA), CNSP (SecOps Group), CNVP (SecOps Group) [→ View all](certifications.md)
 </div>
 <div class="stat-tile" markdown>
 **B.S. Cybersecurity (WGU, Mar 2026)**
@@ -49,7 +49,7 @@ CIS v8 IG1-IG2 mapped to NIST CSF and SOC 2
 </div>
 <div class="stat-tile" markdown>
 **Career USAF veteran**
-Mission-critical operations, security clearance eligible
+Mission-critical operations, held Secret clearance (inactive)
 </div>
 </div>
 
@@ -60,6 +60,38 @@ Mission-critical operations, security clearance eligible
 - **I implement controls, not just map them.** Framework requirements become working configurations, monitoring logic, and documented evidence — not recommendations in a report.
 - **I connect governance to operations.** My work spans control design, technical implementation, telemetry pipelines, and audit-ready outputs. The documentation reflects what actually runs.
 - **I bring edge-domain depth most candidates don't have.** RF/UAS security (USPTO patent filings, TraceLock™), governed automation systems, and real operator experience across USAF, a prior unmanned systems startup, and active consulting engagements.
+
+---
+
+## What I build
+
+I don't just architect governance — I ship working code. Public repositories with tests, docs, and reproducible results:
+
+<div class="stat-grid" markdown>
+<div class="stat-tile" markdown>
+**dbt CTI Pipeline**
+Live abuse.ch threat feeds → behavioral-analytics tables via dbt Core + DuckDB. **6 models, 14 passing tests, lineage DAG.** [Details →](cybersecurity/dbt-cti-pipeline.md) · [:material-github: Repo](https://github.com/Pharns/dbt-cti-pipeline){target=_blank}
+<span class="tag-chip">dbt</span> <span class="tag-chip">DuckDB</span> <span class="tag-chip">Python</span>
+</div>
+
+<div class="stat-tile" markdown>
+**Detection Rules**
+**12 custom Sigma-style rules** across 5 categories with CI validation — DNS tunneling, HTTP beaconing, lateral movement, exfiltration. [Details →](cybersecurity/detection-engineering.md) · [:material-github: Repo](https://github.com/Pharns/detection-rules){target=_blank}
+<span class="tag-chip">Sigma</span> <span class="tag-chip">MITRE ATT&CK</span> <span class="tag-chip">Detection-as-Code</span>
+</div>
+
+<div class="stat-tile" markdown>
+**MCP Servers (production)**
+Governed AI-to-tool connectors in daily use: a Proxmox MCP across a 48-VM cluster + a 36-tool governance MCP with HMAC-SHA256 module signing and per-tool access control.
+<span class="tag-chip">Python</span> <span class="tag-chip">MCP</span> <span class="tag-chip">Access Control</span>
+</div>
+
+<div class="stat-tile" markdown>
+**TraceLock — Multi-Domain Detection**
+Python RF/BLE/Wi-Fi/ADS-B detection platform. **Detected every target across 3 controlled runs vs. 43% manual baseline; 57% time reduction, reproducible.** Runs in production on a Raspberry Pi sensor. [Details →](cybersecurity/tracelock.md)
+<span class="tag-chip">Python</span> <span class="tag-chip">SDR</span> <span class="tag-chip">Quantified</span>
+</div>
+</div>
 
 ---
 
@@ -262,8 +294,8 @@ Security operations are documentation-heavy: control matrices, policy drafts, ev
 B.S. Cybersecurity & Information Assurance (WGU) — Mar 2026
 </div>
 <div class="stat-tile" markdown>
-**14 Active Certifications**
-Security+, CySA+, CSAP, PenTest+, CNSP, CNVP, Network+, A+, ITIL4, SSCP (Assoc.), LPI, Project+, CSIS, CIOS
+**17 Active Certifications**
+Security+, CySA+, PenTest+, Network+, A+, Project+, CSAP, CSIS, CIOS, SSCP, ISC² CC, ITIL4, LPI, CNSP (CompTIA), CNVP (CompTIA), CNSP (SecOps Group), CNVP (SecOps Group)
 </div>
 <div class="stat-tile" markdown>
 **Newly Earned 2026**
