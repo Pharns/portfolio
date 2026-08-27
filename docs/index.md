@@ -16,7 +16,9 @@ Best fit for teams that need governed AI execution, not just policy decks.
 
 USAF Veteran · Held Secret clearance (inactive) · Security+/CySA+/PenTest+/SSCP · B.S. Cybersecurity (completed March 2026)
 
-[Hire Me →](contact.md#hire-me){ .btn-primary } [Engage AAM Cyber →](contact.md#engage-aam-cyber){ .btn-ghost }
+[Hire Me →](contact.md#hire-me){ .btn-primary }
+
+<small>Hiring for a team? [I'm open to full-time roles](contact.md#hire-me). Need a consulting engagement instead? [Engage AAM Cyber →](contact.md#engage-aam-cyber)</small>
 
 ---
 
@@ -75,6 +77,12 @@ Live abuse.ch threat feeds → behavioral-analytics tables via dbt Core + DuckDB
 </div>
 
 <div class="stat-tile" markdown>
+**TraceLock — Multi-Domain Detection**
+Python RF/BLE/Wi-Fi/ADS-B detection platform. **Detected every target across 3 controlled runs vs. 43% manual baseline; 57% time reduction, reproducible.** Runs in production on a Raspberry Pi sensor. [Details →](cybersecurity/tracelock.md)
+<span class="tag-chip">Python</span> <span class="tag-chip">SDR</span> <span class="tag-chip">Quantified</span>
+</div>
+
+<div class="stat-tile" markdown>
 **Detection Rules**
 **12 custom Sigma-style rules** across 5 categories with CI validation — DNS tunneling, HTTP beaconing, lateral movement, exfiltration. [Details →](cybersecurity/detection-engineering.md) · [:material-github: Repo](https://github.com/Pharns/detection-rules){target=_blank}
 <span class="tag-chip">Sigma</span> <span class="tag-chip">MITRE ATT&CK</span> <span class="tag-chip">Detection-as-Code</span>
@@ -84,12 +92,6 @@ Live abuse.ch threat feeds → behavioral-analytics tables via dbt Core + DuckDB
 **MCP Servers (production)**
 Governed AI-to-tool connectors in daily use: a Proxmox MCP across a 48-VM cluster + a 36-tool governance MCP with HMAC-SHA256 module signing and per-tool access control.
 <span class="tag-chip">Python</span> <span class="tag-chip">MCP</span> <span class="tag-chip">Access Control</span>
-</div>
-
-<div class="stat-tile" markdown>
-**TraceLock — Multi-Domain Detection**
-Python RF/BLE/Wi-Fi/ADS-B detection platform. **Detected every target across 3 controlled runs vs. 43% manual baseline; 57% time reduction, reproducible.** Runs in production on a Raspberry Pi sensor. [Details →](cybersecurity/tracelock.md)
-<span class="tag-chip">Python</span> <span class="tag-chip">SDR</span> <span class="tag-chip">Quantified</span>
 </div>
 </div>
 

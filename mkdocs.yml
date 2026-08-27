@@ -1,6 +1,6 @@
 site_name: AI Security Engineer | NIST OLIR Cataloged | USPTO Patent-Pending (5 Provisionals Filed) — Portfolio | Pharns Genece
 site_url: https://portfolio.pharns.com
-site_description: "I build the systems that make AI agents trusted to operate. SDOS runtime AI governance framework is listed in the NIST OLIR catalog as a draft informative reference mapping to AI RMF 1.0. Patent-filed governed autonomous execution, TraceLock RF threat detection, GIAP compliance automation, and detection engineering."
+site_description: "I build the systems that make AI agents trusted to operate. SDOS runtime AI governance framework is cataloged in the NIST OLIR catalog as three Final Informative References — AI RMF 1.0, CSF 2.0, and SP 800-53. Patent-pending governed autonomous execution, TraceLock RF threat detection, GIAP compliance automation, and detection engineering."
 site_author: Pharns Génécé
 repo_url: https://github.com/Pharns/portfolio
 repo_name: pharns/portfolio
