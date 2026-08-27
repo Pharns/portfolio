@@ -4,13 +4,13 @@ description: "I build the systems that make AI agents trusted to operate. SDOS r
 
 # Pharns Genece
 
-**AI Governance Architect | NIST OLIR Trifecta Cataloged | USPTO Patent-Filed & Patent-Pending**
+**AI Security Engineer — building toward AI-governance architecture | NIST OLIR Trifecta Cataloged | USPTO Patent-Pending (5 Provisionals Filed)**
 
 I govern AI agents so yours don't go rogue.
 
 Runtime AI governance and governed autonomous execution — built, operating, and now cataloged in the NIST OLIR catalog with three Final Informative References.
 
-I build the governance systems that make AI agents trusted to operate. My runtime AI governance framework, SDOS, is cataloged in the NIST OLIR catalog as a Trifecta of Final Informative References against AI RMF 1.0 (Reference ID 220), Cybersecurity Framework 2.0 (Reference ID 215), and SP 800-53 Rev 5.2.0 (Reference ID 217) — the first dispatch-time enforcement framework cataloged at the runtime layer across all three federal references. From patent-filed autonomous execution architecture to detection engineering, compliance automation, and RF threat detection, every project here demonstrates one principle: AI without governance isn't safe to ship.
+I build the governance systems that make AI agents trusted to operate. My runtime AI governance framework, SDOS, is cataloged in the NIST OLIR catalog as a Trifecta of Final Informative References against AI RMF 1.0 (Reference ID 220), Cybersecurity Framework 2.0 (Reference ID 215), and SP 800-53 Rev 5.2.0 (Reference ID 217) — a dispatch-time enforcement framework cataloged at the runtime layer against all three federal references. From patent-filed autonomous execution architecture to detection engineering, compliance automation, and RF threat detection, every project here demonstrates one principle: AI without governance isn't safe to ship.
 
 Best fit for teams that need governed AI execution, not just policy decks.
 
@@ -40,8 +40,8 @@ Identified and resolved across production systems over 7-year infrastructure ten
 PCI-DSS endpoint hardening with audit-ready evidence pack — financial services client
 </div>
 <div class="stat-tile" markdown>
-**17 active certifications**
-Security+, CySA+, PenTest+, Network+, A+, Project+, CSAP, CSIS, CIOS, SSCP, ISC² CC, ITIL4, LPI, CNSP (CompTIA), CNVP (CompTIA), CNSP (SecOps Group), CNVP (SecOps Group) [→ View all](certifications.md)
+**12 industry certifications**
+Security+, CySA+, PenTest+, CNSP, CNVP, Network+, A+, SSCP (Assoc.), ISC2 CC, ITIL4, LPI, Project+ [→ View all](certifications.md)
 </div>
 <div class="stat-tile" markdown>
 **B.S. Cybersecurity (WGU, Mar 2026)**
@@ -294,8 +294,8 @@ Security operations are documentation-heavy: control matrices, policy drafts, ev
 B.S. Cybersecurity & Information Assurance (WGU) — Mar 2026
 </div>
 <div class="stat-tile" markdown>
-**17 Active Certifications**
-Security+, CySA+, PenTest+, Network+, A+, Project+, CSAP, CSIS, CIOS, SSCP, ISC² CC, ITIL4, LPI, CNSP (CompTIA), CNVP (CompTIA), CNSP (SecOps Group), CNVP (SecOps Group)
+**12 Industry Certifications**
+Security+, CySA+, PenTest+, CNSP, CNVP, Network+, A+, ISC2 CC, ITIL4, SSCP (Assoc.), LPI, Project+
 </div>
 <div class="stat-tile" markdown>
 **Newly Earned 2026**

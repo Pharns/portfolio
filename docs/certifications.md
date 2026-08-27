@@ -1,11 +1,11 @@
 ---
-description: "Security+, Network+, CySA+, CSAP, PenTest+, SSCP, CNSP, CNVP, ITIL4, LPI, Project+. 14 active certifications. AWS CP, CCSP planned 2026. Verified on Credly."
+description: "Security+, Network+, A+, CySA+, PenTest+, SSCP, ISC2 CC, CNSP, CNVP, ITIL4, LPI, Project+. 12 industry certifications (plus CompTIA stackable credentials). AWS CP, CCSP planned 2026. Verified on Credly."
 ---
 
 # Certifications & Education
 
 !!! success "For Hiring Managers"
-    **14 active certifications** aligned with GRC Engineering, Cloud Security, and Detection Engineering roles. PenTest+, CNSP, CNVP, CySA+, and CSAP earned 2026 — full purple team positioning complete.
+    **12 industry certifications** (plus CompTIA stackable credentials) aligned with GRC Engineering, Cloud Security, and Detection Engineering roles. PenTest+, CNSP, CNVP, and CySA+ earned 2026 — full purple team positioning complete.
 
     [Verify on Credly](https://www.credly.com/users/pharns){ .md-button }
 
@@ -158,7 +158,7 @@ Advanced analytics and detection specialization built on Security+ and CySA+. Va
 - Cloud security fundamentals
 - Governance, risk, and compliance
 
-**Accelerated completion:** Competency-based program allows certification stacking — 14 industry certifications earned during degree.
+**Accelerated completion:** Competency-based program allows certification stacking — 12 industry certifications (plus CompTIA stackable credentials) earned during degree.
 
 </div>
 
