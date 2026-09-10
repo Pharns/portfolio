@@ -33,7 +33,7 @@ Security consulting practice delivering compliance automation and GRC engineerin
 - **Law Firm:** Comprehensive security assessment including M365 hardening, dark web monitoring deployment, and high-volume vulnerability remediation
 - **Built GIAP™:** Production GRC automation platform (CISO Assistant + n8n + Nextcloud) with HMAC-secured webhook integrations
 
-### USOG — CEO & Systems Administrator
+### USOG — Founder / Security & Systems Lead
 *2018 – 2025 · Drone Logistics & Operations*
 
 Led drone logistics company while serving as hands-on systems administrator. Built entire IT security infrastructure from scratch.

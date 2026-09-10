@@ -30,6 +30,10 @@ USAF Veteran · Held Secret clearance (inactive) · Security+/CySA+/PenTest+/SSC
 Three Final Informative References cataloged at NIST (Final June 2026, zero comments): [Ref 220 — AI RMF 1.0](https://csrc.nist.gov/projects/olir/informative-reference-catalog/details?referenceId=220){target=_blank} · [Ref 215 — CSF 2.0](https://csrc.nist.gov/projects/olir/informative-reference-catalog/details?referenceId=215){target=_blank} · [Ref 217 — SP 800-53 Rev 5.2.0](https://csrc.nist.gov/projects/olir/informative-reference-catalog/details?referenceId=217){target=_blank}. OLIR catalog inclusion is an informative reference, not a NIST endorsement.
 </div>
 <div class="stat-tile" markdown>
+**Published, DOI-archived AI-governance reference**
+*The Five Laws of AI Governance* — versioned and permanently citable via [Zenodo DOI 10.5281/zenodo.21271750](https://doi.org/10.5281/zenodo.21271750){target=_blank}. Independent, third-party-archived reference.
+</div>
+<div class="stat-tile" markdown>
 **7 years production security**
 Built enterprise IT security stack from scratch at USOG — CIS v8, NIST CSF, SOC 2
 </div>
@@ -125,7 +129,7 @@ Comprehensive security assessment and remediation. M365 hardening, dark web moni
 </div>
 </div>
 
-<small>*USOG: Internal infrastructure I built and maintained as founder and systems administrator (company winding down post-exit). Client engagements via AAM Cyber.*</small>
+<small>*USOG: Internal infrastructure I built and maintained as founder and security & systems lead. Client engagements via AAM Cyber.*</small>
 
 !!! abstract "Aerospace & Defense Recruiters — Unique AAM/UAS Credentials"
     **I don't just study drone security — I've designed, built, and fielded operational UAV systems.**
@@ -145,10 +149,10 @@ Comprehensive security assessment and remediation. M365 hardening, dark web moni
     "@type": "Person",
     "@id": "https://portfolio.pharns.com/#pharns"
   },
-  "name": "Pharns Genece — AI Governance Architect Portfolio",
+  "name": "Pharns Genece — AI Security Engineer Portfolio",
   "description": "First-person cybersecurity and AI governance portfolio covering SDOS, a NIST OLIR Trifecta-cataloged Final Informative Reference across AI RMF 1.0 (Ref 220), CSF 2.0 (Ref 215), and SP 800-53 Rev 5.2.0 (Ref 217), patent-filed governed autonomous execution, RF threat detection, and UAV security architectures.",
   "url": "https://portfolio.pharns.com",
-  "dateModified": "2026-05-13"
+  "dateModified": "2026-09-09"
 }
 </script>
 
