@@ -4,7 +4,11 @@ description: "Pharns Genece — GRC Engineer and Cloud Security practitioner. Ev
 
 # About Pharns
 
-GRC engineer, cloud security practitioner, and AAM cybersecurity specialist. I build and secure systems end-to-end: cloud governance frameworks, compliance automation, endpoint hardening, detection tuning, and evidence-ready workflows.
+I build runtime governance for autonomous systems — the enforcement and evidence layer that decides what an agent is allowed to do before it acts, and proves afterward that the control held.
+
+My perspective comes from working across the autonomy continuum: automation → autonomy → AI, from sUAS and physical autonomous systems to cybersecurity and digital AI agents. I governed machines that could hurt someone before I governed software, and the control problem turned out to be the same one — risk tiering, defined enforcement points, fail-safe defaults, and a human who holds authority at the moment of action.
+
+That work sits on a GRC and cloud-security foundation: governance frameworks, compliance automation, endpoint hardening, detection tuning, and evidence-ready workflows, built and secured end-to-end.
 
 **Core proof (7-second scan):**
 - **Built and secured production infrastructure** for a drone logistics startup; CIS v8 (IG1-IG2) mapped to NIST CSF/SOC 2

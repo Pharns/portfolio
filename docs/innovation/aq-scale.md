@@ -1,10 +1,10 @@
 ---
-description: "AQ Scale™ — the measurement standard for AI agent governance maturity. Patent-pending governance maturity assessment with a fixed-range scoring scale."
+description: "AQ Scale™ — the measurement standard for AI agent governance maturity. Patent-filed governance maturity assessment with a fixed-range scoring scale."
 ---
 
 # AQ Scale™ — Apex Quorum™ governance maturity standard
 
-*Patent-Pending · Governance Maturity Measurement Standard · Filed April 25, 2026 · U.S. Provisional 64/049,300*
+*Patent-Filed · Governance Maturity Measurement Standard · Filed April 25, 2026 · U.S. Provisional 64/049,300*
 
 !!! success "For hiring managers — AI governance / measurement standards"
 
@@ -35,7 +35,7 @@ AQ Scale™ is a **governance maturity measurement standard** for AI agent opera
 - **Standardized.** Every score is computed the same way, against the same criteria.
 - **Comparable.** Two organizations can be compared on the same scale.
 - **Auditable.** The score derives from a structured assessment, not an opinion.
-- **Patent-pending.** The scoring methodology is covered under U.S. Provisional Patent Application 64/049,300.
+- **Patent-filed.** The scoring methodology is covered under U.S. Provisional Patent Application 64/049,300.
 
 ---
 
@@ -87,7 +87,7 @@ AQ Scale™ is covered under **U.S. Provisional Patent Application 64/049,300**,
   "@context": "https://schema.org",
   "@type": "TechArticle",
   "headline": "AQ Scale — Apex Quorum Governance Maturity Standard",
-  "description": "Patent-pending governance maturity measurement standard for AI agent operations. Public self-assessment available via AQ Quick Score.",
+  "description": "Patent-filed governance maturity measurement standard for AI agent operations. Public self-assessment available via AQ Quick Score.",
   "author": {
     "@type": "Person",
     "name": "Pharns Genece",
@@ -100,7 +100,7 @@ AQ Scale™ is covered under **U.S. Provisional Patent Application 64/049,300**,
     "name": "Pharns Genece"
   },
   "mainEntityOfPage": "https://portfolio.pharns.com/innovation/aq-scale/",
-  "keywords": ["AI governance", "governance maturity", "AQ Scale", "Apex Quorum", "AI agent measurement", "patent-pending"],
+  "keywords": ["AI governance", "governance maturity", "AQ Scale", "Apex Quorum", "AI agent measurement", "patent-filed"],
   "about": {
     "@type": "Thing",
     "name": "AQ Scale governance maturity standard"

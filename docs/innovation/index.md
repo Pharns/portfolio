@@ -9,7 +9,7 @@ description: "Runtime AI governance (SDOS — NIST OLIR Trifecta cataloged again
 
 **I don't just secure drones — I've designed, built, and fielded UAV systems.**
 
-This section highlights **UAV systems, RF security research, and patent-pending innovations** that combine engineering and cybersecurity. The work reflects expertise in **designing, building, and fielding operational platforms**, with projects bridging physical systems, wireless security, and enterprise applications.
+This section highlights **UAV systems, RF security research, and patent-filed innovations** that combine engineering and cybersecurity. The work reflects expertise in **designing, building, and fielding operational platforms**, with projects bridging physical systems, wireless security, and enterprise applications.
 
 | Capability | Evidence |
 |------------|----------|
@@ -25,7 +25,7 @@ This section highlights **UAV systems, RF security research, and patent-pending 
 ## Governed AI systems
 
 - **[SDOS — AI Governance Framework](sdos-governance-framework.md)** → **NIST OLIR Trifecta cataloged** runtime AI governance framework with infrastructure-layer policy enforcement and deny-all-default posture. Three Final Informative References on the NIST OLIR Catalog: AI RMF 1.0 (Ref 220), CSF 2.0 (Ref 215), and SP 800-53 Rev 5.2.0 (Ref 217). All Final as of June 2026 (zero comments). Patent-filed. Production deployment.
-- **[AQ Scale™ — Governance Maturity Standard](aq-scale.md)** → patent-pending measurement standard for AI agent governance maturity. Public self-assessment live at [aq-score.aamcyber.com](https://aq-score.aamcyber.com).
+- **[AQ Scale™ — Governance Maturity Standard](aq-scale.md)** → patent-filed measurement standard for AI agent governance maturity. Public self-assessment live at [aq-score.aamcyber.com](https://aq-score.aamcyber.com).
 - **[Governed Agent Gateway](governed-agent-gateway.md)** → governed AI agent orchestration platform separating policy enforcement from model execution at the infrastructure layer. Multi-provider governed inference.
 - **[GRAM — Governed Memory](gram-memory-system.md)** → hybrid semantic retrieval with trust-weighted scoring and deny-all-default ingestion. Local-only embeddings, production deployment.
 - **[Patent Portfolio](patent-portfolio.md)** → 45 patent families, 334 total claims covering governed AI execution, multi-domain threat detection, security decision architecture, governance lifecycle, and adversarial hardening. USPTO 64/029,300 + 64/049,300 + 64/067,427 + 64/069,200 + 64/076,620.
@@ -34,8 +34,8 @@ This section highlights **UAV systems, RF security research, and patent-pending 
 
 - **[Agentic Infrastructure Audit](agentic-infrastructure-audit.md)** → multi-machine AI governance audit; drift detection, canonical architecture standard (8 ADRs), automated congruence validation.
 - **[AgenticOS — AI Orchestration](agenticos.md)** → deterministic, auditable AI agent orchestration layer with explainable routing, structured logging, and multi-provider execution.
-- **[TraceLock™ RF Threat Detection](../cybersecurity/tracelock.md)** → patent-pending multi-domain RF surveillance detection platform with forensic-grade logging (Wi-Fi/Bluetooth/SDR/GPS/ADS-B).
-- **[Drone Payload Systems](drone-payload-systems.md)** → patented and patent-pending UAV payload architectures designed for wireless security testing and mission adaptability.
+- **[TraceLock™ RF Threat Detection](../cybersecurity/tracelock.md)** → patent-filed multi-domain RF surveillance detection platform with forensic-grade logging (Wi-Fi/Bluetooth/SDR/GPS/ADS-B).
+- **[Drone Payload Systems](drone-payload-systems.md)** → patented and patent-filed UAV payload architectures designed for wireless security testing and mission adaptability.
 - **[SDR & RF Security Research](rf-security.md)** → applied software-defined radio (SDR) for UAV interception, wireless analysis, and payload integration.
 - **[3D-Printed & Modular Systems](modular-designs.md)** → engineered modular housings and payload adapters for SDR and penetration-testing hardware.
 - **[Innovation Write-Ups](innovation-blogs.md)** → research notes, prototypes, and technical deep dives connecting UAV and cybersecurity domains.  
@@ -59,7 +59,7 @@ This section highlights **UAV systems, RF security research, and patent-pending 
   "@context": "https://schema.org",
   "@type": "CollectionPage",
   "name": "Innovation — Governed AI Systems, RF Security & UAV Engineering",
-  "description": "Patent-pending innovations spanning governed AI agent execution (SDOS), multi-domain RF threat detection (TraceLock), governed memory (GRAM), and UAV payload architectures.",
+  "description": "Patent-filed innovations spanning governed AI agent execution (SDOS), multi-domain RF threat detection (TraceLock), governed memory (GRAM), and UAV payload architectures.",
   "url": "https://portfolio.pharns.com/innovation/",
   "author": {"@type": "Person", "@id": "https://portfolio.pharns.com/#pharns"},
   "mainEntity": {

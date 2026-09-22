@@ -29,7 +29,7 @@ I build audit-ready control frameworks, evidence pipelines, and compliance autom
 
 ## What I Build
 
-### TraceLock™ *(Patent Pending)*
+### TraceLock™ *(Patent Filed)*
 Multi-domain RF threat detection platform monitoring Wi-Fi, Bluetooth, SDR, GPS, and ADS-B simultaneously. 8-component sensor array with centralized processing.
 - **Codebase:** 25 Python modules, 81 shell scripts, ~12,500 LOC
 - **Status:** WGU BSCIA Capstone, patent filed
@@ -100,7 +100,7 @@ FAA Part 107 · HAM Radio · GMRS
 
 ### Education
 **B.S. Cybersecurity & Information Assurance** — Western Governors University (Feb 2026)
-Capstone: TraceLock™ (patent pending)
+Capstone: TraceLock™ (patent filed)
 
 ---
 

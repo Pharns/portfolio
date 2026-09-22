@@ -4,9 +4,11 @@ description: "I build the systems that make AI agents trusted to operate. SDOS r
 
 # Pharns Genece
 
-**AI Security Engineer — building toward AI-governance architecture | NIST OLIR Trifecta Cataloged | USPTO Patent-Pending (5 Provisionals Filed)**
+**AI Security Engineer — building toward AI-governance architecture | NIST OLIR Trifecta Cataloged | USPTO Patent-Filed (5 Provisionals)**
 
 I govern AI agents so yours don't go rogue.
+
+My perspective comes from working across the autonomy continuum: automation → autonomy → AI, from sUAS and physical autonomous systems to cybersecurity and digital AI agents. I governed machines that could hurt someone before I governed software, and the control problem turned out to be the same one.
 
 Runtime AI governance and governed autonomous execution — built, operating, and now cataloged in the NIST OLIR catalog with three Final Informative References.
 
@@ -136,7 +138,7 @@ Comprehensive security assessment and remediation. M365 hardening, dark web moni
 
     - **Founder & operator of a drone logistics company** (USOG, 2018–2025) — 7 years hands-on operational experience
     - **USPTO patent filings** (named inventor) in UAV payload and delivery architectures
-    - **TraceLock™** — Patent-pending RF threat detection platform (Wi-Fi/BLE/SDR/GPS/ADS-B)
+    - **TraceLock™** — Patent-filed RF threat detection platform (Wi-Fi/BLE/SDR/GPS/ADS-B)
     - **FAA Part 107** certified | **HAM/GMRS** licensed | **career USAF veteran**
 
     Few practitioners combine drone operations, RF/SDR expertise, and cybersecurity credentials. [View full AAM credentials →](#aam-cybersecurity-specialization)
@@ -226,7 +228,7 @@ S3 default-deny storage, GuardDuty findings export, scoped IAM with CIS/NIST map
 
 <div class="stat-tile" markdown>
 **TraceLock™ — RF Threat Detection**
-Patent-pending 6-domain wireless monitoring (Wi-Fi/BLE/SDR/GPS/ADS-B). Evidence-grade logging architecture and detection engineering.
+Patent-filed 6-domain wireless monitoring (Wi-Fi/BLE/SDR/GPS/ADS-B). Evidence-grade logging architecture and detection engineering.
 <span class="tag-chip">Detection</span> <span class="tag-chip">RF/SDR</span> <span class="tag-chip">Python</span>
 [View Project](cybersecurity/tracelock.md)
 </div>

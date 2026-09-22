@@ -14,7 +14,7 @@ The work grew out of a practical problem: autonomous AI agents need enforceable 
 
 ## Filing details
 
-!!! info "Patent-pending"
+!!! info "Patent-filed"
 
     | Field | Detail |
     |-------|--------|

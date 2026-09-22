@@ -356,7 +356,7 @@ Production GRC platform with [live demo](https://portal.aamcyber.work/demo/){tar
 
 <div class="stat-tile" markdown>
 **📡 TraceLock™ — RF Threat Detection**
-Patent-pending 6-domain wireless monitoring. Evidence-grade logging and detection engineering.
+Patent-filed 6-domain wireless monitoring. Evidence-grade logging and detection engineering.
 [View Project](../cybersecurity/tracelock.md)
 </div>
 

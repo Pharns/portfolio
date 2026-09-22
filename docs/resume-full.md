@@ -89,13 +89,13 @@ Taught drone technology courses demonstrating technical communication skills and
 **Bachelor of Science, Cybersecurity & Information Assurance**
 Western Governors University · March 2026
 
-- Capstone: TraceLock™ — Patent-pending RF threat detection system
+- Capstone: TraceLock™ — Patent-filed RF threat detection system
 
 ---
 
 ## Key Projects
 
-**TraceLock™ — RF Threat Detection Platform** *(Patent Pending)*
+**TraceLock™ — RF Threat Detection Platform** *(Patent Filed)*
 Multi-domain wireless monitoring (Wi-Fi, Bluetooth, SDR, GPS, ADS-B). 25 Python modules, ~12,500 LOC.
 
 **GIAP™ — Governed Intake and Analysis Platform**

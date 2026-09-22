@@ -14,7 +14,7 @@ description: "Applied SDR research including UAV interception, C2 link analysis,
 *See the [Innovation Overview](index.md) for the full legal statement.*
 
 !!! tip "Looking for RF detection engineering?"
-    See [TraceLock™](../cybersecurity/tracelock.md) — my patent-pending multi-domain RF threat detection platform with 12,500+ LOC, 6 wireless domains, and evidence-grade logging.
+    See [TraceLock™](../cybersecurity/tracelock.md) — my patent-filed multi-domain RF threat detection platform with 12,500+ LOC, 6 wireless domains, and evidence-grade logging.
 
 This page will cover **applied SDR research** beyond TraceLock™, including:
 

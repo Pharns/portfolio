@@ -3,7 +3,7 @@ description: "Governed Agent Gateway — AI orchestration platform with infrastr
 ---
 # Governed Agent Gateway — AI agent orchestration under governance
 
-*Patent-Pending · Governed Agent Infrastructure · 2025–2026*
+*Patent-Filed · Governed Agent Infrastructure · 2025–2026*
 
 !!! success "For hiring managers — security architecture / AI governance"
 
@@ -47,7 +47,7 @@ Every tool module loaded into the system carries a cryptographic signature. Unsi
 
 !!! note "Architecture details"
 
-    Architecture diagrams and implementation specifics are withheld under pre-disclosure policy. The techniques described on this page are patent-pending. For licensing inquiries, please use the contact page.
+    Architecture diagrams and implementation specifics are withheld under pre-disclosure policy. The techniques described on this page are patent-filed. For licensing inquiries, please use the contact page.
 
 ---
 
@@ -137,7 +137,7 @@ Non-provisional filing is in progress under accelerated prosecution.
 
 !!! note "Intellectual property"
 
-    The techniques described on this page are patent-pending. Implementation details beyond what is described here are protected under pre-disclosure policy. For licensing inquiries, please use the contact page.
+    The techniques described on this page are patent-filed. Implementation details beyond what is described here are protected under pre-disclosure policy. For licensing inquiries, please use the contact page.
 
 ---
 
@@ -180,7 +180,7 @@ Non-provisional filing is in progress under accelerated prosecution.
   "@context": "https://schema.org",
   "@type": "TechArticle",
   "headline": "Governed Agent Gateway — AI Orchestration Under Governance",
-  "description": "AI agent orchestration platform with infrastructure-layer governance separating policy enforcement from model execution. Patent-pending dispatch-level governance for enterprise AI deployments.",
+  "description": "AI agent orchestration platform with infrastructure-layer governance separating policy enforcement from model execution. Patent-filed dispatch-level governance for enterprise AI deployments.",
   "author": {
     "@type": "Person",
     "name": "Pharns Genece",
@@ -193,7 +193,7 @@ Non-provisional filing is in progress under accelerated prosecution.
     "name": "Pharns Genece"
   },
   "mainEntityOfPage": "https://portfolio.pharns.com/innovation/governed-agent-gateway/",
-  "keywords": ["AI governance", "agent orchestration", "dispatch governance", "MCP", "security architecture", "compliance automation", "patent-pending"],
+  "keywords": ["AI governance", "agent orchestration", "dispatch governance", "MCP", "security architecture", "compliance automation", "patent-filed"],
   "about": {
     "@type": "SoftwareApplication",
     "name": "Governed Agent Gateway",

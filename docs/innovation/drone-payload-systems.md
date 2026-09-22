@@ -1,9 +1,9 @@
 ---
-description: "Patented and patent-pending UAV payload architectures designed for wireless security testing, mission adaptability, and field-ready drone operations."
+description: "Patented and patent-filed UAV payload architectures designed for wireless security testing, mission adaptability, and field-ready drone operations."
 ---
 
 ---
-description: "Patented and patent-pending UAV payload architectures designed for wireless security testing, mission adaptability, and field deployment."
+description: "Patented and patent-filed UAV payload architectures designed for wireless security testing, mission adaptability, and field deployment."
 ---
 
 # 🚁 **Drone Payload Systems**
@@ -14,6 +14,6 @@ description: "Patented and patent-pending UAV payload architectures designed for
 *See the [Innovation Overview](index.md) for the full legal statement.*
 
 
-This page will showcase **patented and patent-pending UAV payload architectures**, designed for wireless security testing and mission adaptability.  
+This page will showcase **patented and patent-filed UAV payload architectures**, designed for wireless security testing and mission adaptability.  
 
 _Content coming soon..._

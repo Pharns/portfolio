@@ -36,7 +36,7 @@ description: TraceLock™ — Multi-domain RF threat detection platform with rea
 | **Environment** | Raspberry Pi 4 (8GB) · Python 3.10+ · RF Monitoring Framework · RTL-SDR V4 · Ubertooth · SQLite · GitHub Actions CI |
 | **What I built** | Real-time multi-domain sensor fusion: Wi-Fi + BLE + SDR + GPS + ADS-B correlation engine with forensic-grade logging and tunable detection thresholds |
 | **Framework mapping** | Detection engineering fundamentals · evidence-grade logging aligned with audit trail requirements · MITRE ATT&CK for ICS (RF threat vectors) |
-| **Measurable outcome** | Eliminates RF blind spots across 6 simultaneous domains; patent-pending architecture; WGU BSCSIA capstone (Mar 2026) |
+| **Measurable outcome** | Eliminates RF blind spots across 6 simultaneous domains; patent-filed architecture; WGU BSCSIA capstone (Mar 2026) |
 | **Artifacts** | [Public repo](https://github.com/Pharns/tracelock-public){target=_blank} · ~12,500 LOC · 25 Python modules · 81 shell scripts · example detection outputs |
 
 ---

@@ -148,7 +148,7 @@ Advanced analytics and detection specialization built on Security+ and CySA+. Va
 ### B.S. Cybersecurity & Information Assurance
 **Western Governors University** | **March 2026**
 
-**Capstone:** TraceLock™ — Multi-domain RF threat detection platform (patent pending)
+**Capstone:** TraceLock™ — Multi-domain RF threat detection platform (patent filed)
 
 **Program coverage:**
 - Security frameworks (NIST, ISO 27001, PCI-DSS)

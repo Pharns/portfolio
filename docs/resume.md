@@ -59,7 +59,7 @@ View my full resume below or download for offline use.
 - **Built and secured production infrastructure** for drone logistics company (CIS v8, NIST CSF, SOC 2)
 - **Delivered client compliance work** in healthcare (HIPAA), financial services (PCI-DSS), and legal
 - **Created GIAP™** — Production GRC automation platform with [live demo](https://portal.aamcyber.work/demo/){target=_blank}
-- **Developed TraceLock™** — Patent-pending RF threat detection (12,500 LOC, 6 wireless domains)
+- **Developed TraceLock™** — Patent-filed RF threat detection (12,500 LOC, 6 wireless domains)
 - **USPTO patent filings** (named inventor) in UAV payload and delivery systems
 
 ---

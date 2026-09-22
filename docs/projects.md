@@ -26,7 +26,7 @@ Production GRC platform with [live demo](https://portal.aamcyber.work/demo/){tar
 </div>
 <div class="stat-tile" markdown>
 **TraceLock™ — RF Threat Detection** <span class="status-badge">Active</span>
-Patent-pending (Nov 2025) 6-domain wireless monitoring (Wi-Fi/BLE/SDR/GPS/ADS-B). 12,500 LOC, evidence-grade logging, detection engineering.
+Patent-filed (Nov 2025) 6-domain wireless monitoring (Wi-Fi/BLE/SDR/GPS/ADS-B). 12,500 LOC, evidence-grade logging, detection engineering.
 <span class="tag-chip">RF</span> <span class="tag-chip">Detection</span> <span class="tag-chip">Python</span>
 **Tech:** Python, HackRF, RTL-SDR, SQLite, Raspberry Pi
 [Read Full Case Study](cybersecurity/tracelock.md) · [GitHub](https://github.com/Pharns/tracelock-public){target=_blank}
