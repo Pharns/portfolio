@@ -4,7 +4,7 @@ description: "I build the systems that make AI agents trusted to operate. SDOS r
 
 # Pharns Genece
 
-**AI Security Engineer — building toward AI-governance architecture | NIST OLIR Trifecta Cataloged | USPTO Patent-Filed (5 Provisionals)**
+**AI Security Engineer — Runtime AI Governance | NIST OLIR Trifecta Cataloged | USPTO Patent-Filed (5 Provisionals)**
 
 I govern AI agents so yours don't go rogue.
 

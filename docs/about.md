@@ -77,7 +77,7 @@ Taught drone technology courses, demonstrating communication skills and subject 
 
 **The thread:** I've operated in environments where failure has consequences — medical missions, business operations, client compliance. That operational discipline carries into how I approach security: systematic, documented, evidence-ready.
 
-**What this means for hiring managers:** I'm not learning on the job. I've managed production systems, delivered under deadlines, and maintained compliance across years of operations. The cybersecurity certifications formalize experience I already have.
+**What this means for hiring managers:** I have run production systems, delivered under deadlines, and held compliance across years of operations. The certifications name experience I already had.
 
 ---
 
