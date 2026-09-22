@@ -20,6 +20,11 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          # Full history: mkdocs-git-revision-date-localized reads commit
+          # timestamps for page dates. A shallow clone makes it warn, and
+          # `mkdocs build --strict` turns warnings into a failed build.
+          fetch-depth: 0
 
       - name: Setup Python
         uses: actions/setup-python@v5
