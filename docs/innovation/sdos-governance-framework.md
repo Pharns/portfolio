@@ -24,13 +24,13 @@ description: "SDOS — Security Decision Operating System. Runtime AI governance
 
 ---
 
-## The problem no one is solving
+## The layer everyone is converging on
 
 AI agents are being deployed into enterprise environments at an accelerating rate. They select their own tools, decide which APIs to call, choose when to escalate, and determine what data to access. The governance model for most of these deployments amounts to one thing: trusting the model to police itself.
 
 That is not governance. That is hope.
 
-The current landscape of AI agent governance falls into a few categories, and none of them solve the actual problem:
+The industry is converging on runtime control — Anthropic, Google DeepMind, IBM, Palo Alto Networks and Microsoft have all moved this direction since 2026. That convergence is confirmation, not competition: it means the control point is real. The open question is *where the boundary sits*. The current landscape answers it four ways, and each leaves the same structural gap:
 
 **Prompt-level guardrails.** System prompts that say "don't do harmful things." These are suggestions to a statistical model, not enforceable policy. A sufficiently creative prompt injection, a model update that shifts behavior, or a multi-step reasoning chain that rationalizes an exception — any of these can bypass prompt-level controls. There is no enforcement mechanism. There is no audit trail that exists independent of the model's own reporting.
 

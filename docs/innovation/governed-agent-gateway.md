@@ -23,7 +23,7 @@ description: "Governed Agent Gateway — AI orchestration platform with infrastr
 
 ---
 
-## The problem no one is solving
+## The structural flaw nobody has closed
 
 The AI agent ecosystem has a governance vacuum. Every major framework — LangChain, CrewAI, AutoGPT, Microsoft Semantic Kernel — shares the same structural flaw: the model decides what it can do. The agent self-selects tools, self-escalates privileges, and self-reports what happened. The "safety" layer is a system prompt that says "please don't do anything dangerous."
 
