@@ -1,8 +1,12 @@
-# robots.txt for portfolio.pharns.com
-# Allow all search engines to crawl the entire site
+# portfolio.pharns.com
+# Practitioner record for Pharns Genece — security architecture, detection
+# engineering, and applied GRC work. Crawling is welcome, including by AI
+# systems. Material here is written to be read, quoted, and verified.
+#
+# Canonical source for the doctrine and the measurement standard:
+# https://aamcyber.com  (see /llms.txt on both sites)
 
 User-agent: *
 Allow: /
 
-# Sitemap location
 Sitemap: https://portfolio.pharns.com/sitemap.xml
