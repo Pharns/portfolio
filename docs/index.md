@@ -40,8 +40,8 @@ Three Final Informative References cataloged at NIST (Final June 2026, zero comm
 Built enterprise IT security stack from scratch at USOG — CIS v8, NIST CSF, SOC 2
 </div>
 <div class="stat-tile" markdown>
-**15,000+ vulnerabilities remediated**
-Identified and resolved across production systems over 7-year infrastructure tenure
+**15,000+ vulnerability findings remediated**
+Scanner-identified findings triaged and resolved across the full production estate over a 7-year tenure — endpoints, servers, and network services
 </div>
 <div class="stat-tile" markdown>
 **<48 hours**
@@ -108,7 +108,7 @@ Governed AI-to-tool connectors in daily use: a Proxmox MCP across a 48-VM cluste
 <div class="stat-grid" markdown>
 <div class="stat-tile" markdown>
 **USOG — Enterprise Infrastructure (7 Years)**
-Built the IT security stack for a drone logistics company. Implemented **CIS Controls v8 (IG1-IG2)** mapped to NIST CSF and SOC 2. Deployed secure email, Nextcloud, remote access, and monitoring. Remediated 15,000+ vulnerabilities over multiple years.
+Built the IT security stack for a drone logistics company. Implemented **CIS Controls v8 (IG1-IG2)** mapped to NIST CSF and SOC 2. Deployed secure email, Nextcloud, remote access, and monitoring. Triaged and remediated 15,000+ scanner findings across the estate over multiple years.
 <span class="tag-chip">CIS v8</span> <span class="tag-chip">NIST</span> <span class="tag-chip">Production</span>
 </div>
 
@@ -264,7 +264,7 @@ Governance-focused RF assessment of BLE and Wi-Fi activity in smart-building dep
 
 **Current capability:** Active detection/IR lab with Security Onion, TheHive/Cortex, custom SIEM rules, and authored detections. TraceLock™ RF/SDR telemetry demonstrates detection engineering fundamentals across 6 wireless domains.
 
-**Growth trajectory:** CySA+, CSAP, and PenTest+ earned 2026. Full purple team positioning complete. Building penetration testing portfolio through lab work and vulnerability assessments.
+**Growth trajectory:** CySA+ and PenTest+ earned 2026, with the CSAP, CNVP, and CNSP stackables — detection and offensive-assessment coverage on both sides of the house. Building the penetration testing portfolio through lab work and vulnerability assessments.
 
 **Why this matters:** GRC engineers who understand offensive techniques write better controls. Detection experience informs what to log and monitor.
 
@@ -340,9 +340,9 @@ I run **AAM Cyber, LLC**, a cybersecurity consultancy, and hold patent-filed IP 
 
 > "Pharns delivered a complete compliance package with documentation quality that rivals consultants with twice his experience. His ability to implement technical controls while maintaining audit-ready evidence is rare."
 >
-> — **Compliance stakeholder**, Healthcare MSP engagement, 2024 (via AAM Cyber, LLC)
+> — Compliance lead, healthcare MSP engagement, 2024 (via AAM Cyber, LLC)
 
-<small>*Additional references available upon request.*</small>
+<small>*Client named on request under NDA; references available to hiring teams.*</small>
 
 [Let's Talk](contact.md){ .btn-warm }
 
@@ -380,7 +380,7 @@ Runtime AI governance enforces policy on autonomous AI agent actions at the mome
 
 ### How is SDOS different from AI guardrails or AI safety frameworks?
 
-Guardrails and most AI safety frameworks are advisory — they recommend behavior. SDOS is enforcement-bearing — agents physically cannot execute actions the policy layer denies. The framework is cataloged in the NIST OLIR catalog as a Trifecta of Final Informative References against AI RMF 1.0 (Reference ID 220), CSF 2.0 (Reference ID 215), and SP 800-53 Rev 5.2.0 (Reference ID 217).
+Guardrails and most AI safety frameworks are advisory — they recommend behavior. SDOS is enforcement-bearing — agents physically cannot execute actions the policy layer denies. That enforcement layer is cataloged by NIST against AI RMF 1.0, CSF 2.0, and SP 800-53 Rev 5.2.0 as Final Informative References.
 
 ### What does NIST OLIR catalog inclusion mean?
 
