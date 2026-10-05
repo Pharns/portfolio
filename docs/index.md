@@ -330,7 +330,7 @@ I run **AAM Cyber, LLC**, a cybersecurity consultancy, and hold patent-filed IP 
 - **Full-time employment is the primary commitment.** I am seeking a full-time individual-contributor role, not a contract bridge between engagements.
 - **Pre-existing IP is already separated.** The patent portfolio is held by a dedicated IP holding entity, formed before any employment conversation, and is disclosed at hire.
 - **No adoption requirement.** I build with the architecture and tooling the team already uses. Nothing here requires an employer to adopt or license SDOS.
-- **Outside engagements follow employer policy.** <!-- PHARNS: replace with your actual position — e.g. "I will wind down active client work on start" or "existing engagements disclosed and approved in advance per policy." Aegis will not invent a commitment you have not made. -->
+- **Outside engagements follow employer policy.** Existing engagements are disclosed and approved in advance, per policy.
 
 [Consulting inquiries → AAM Cyber](contact.md#engage-aam-cyber)
 
