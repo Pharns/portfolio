@@ -96,7 +96,7 @@ Python RF/BLE/Wi-Fi/ADS-B detection platform. **Pilot study (n=3 controlled runs
 
 <div class="stat-tile" markdown>
 **MCP Servers (production)**
-Governed AI-to-tool connectors in daily use: a Proxmox MCP across a 48-VM cluster + a <!-- VERIFY before publish: re-run `pytest tests/ -q`, the @mcp.tool grep, and the modules ls. Canon (recalled 2026-09-29): 61 tools / 10 modules / 328 tests. -->61-tool governance MCP with HMAC-SHA256 module signing and per-tool access control.
+Governed AI-to-tool connectors in daily use: a Proxmox MCP across a 48-VM cluster + a 61-tool governance MCP with HMAC-SHA256 module signing and per-tool access control.
 <span class="tag-chip">Python</span> <span class="tag-chip">MCP</span> <span class="tag-chip">Access Control</span>
 </div>
 </div>

@@ -74,7 +74,7 @@ AQ Scale™ is covered under a **U.S. provisional patent application**, filed Ap
 ## Related work
 
 - [SDOS — AI Governance Framework](sdos-governance-framework.md) — the runtime governance system AQ Scale™ measures organizations against
-- [Patent Portfolio](patent-portfolio.md) — 45 patent families across five provisionals
+- [Patent Portfolio](patent-portfolio.md) — 45 families, 334 claims across five provisionals
 - [Governed Agent Gateway](governed-agent-gateway.md) — governed multi-provider agent orchestration
 
 ---

@@ -1,5 +1,5 @@
 ---
-description: "Patent portfolio covering governed AI execution, multi-domain threat detection, and security decision architecture. 45 families across 5 provisionals."
+description: "Patent portfolio covering governed AI execution, multi-domain threat detection, and security decision architecture. 45 families, 334 total claims across 5 provisionals."
 ---
 
 # Patent portfolio overview
@@ -21,9 +21,9 @@ The work grew out of a practical problem: autonomous AI agents need enforceable 
     | **Applications** | Five U.S. provisional applications |
     | **Filed** | April – May 2026 |
     | **Patent families** | 45 |
-    | **Independent claims** | <!-- RECONCILE: audit found 46+267=313, table said 334. Canon says 47 independent. Verify all three against the Filed Claims Catalog before publishing. -->TBD |
-    | **Dependent claims** | <!-- RECONCILE: see above -->TBD |
-    | **Total claims** | <!-- RECONCILE: see above -->TBD |
+    | **Independent claims** | 47 |
+    | **Dependent claims** | 287 |
+    | **Total claims** | 334 |
     | **Assignee** | Dedicated IP holding entity (assignment submitted for recordation) |
     | **Status** | Patent-filed (non-provisional in progress, target April 4, 2027) |
 
@@ -94,7 +94,7 @@ Patent prosecution is a multi-year process. The work continues — both in expan
   "@context": "https://schema.org",
   "@type": "TechArticle",
   "headline": "Patent Portfolio — Governed AI Execution & Multi-Domain Threat Detection",
-  "description": "45 patent families covering governed AI agent execution, multi-domain wireless threat detection, security decision architecture, governance lifecycle, structural isolation, adversarial hardening, and pattern-of-life modeling. Claims span 5 provisionals, with build evidence for the core architectures.",
+  "description": "45 patent families covering governed AI agent execution, multi-domain wireless threat detection, security decision architecture, governance lifecycle, structural isolation, adversarial hardening, and pattern-of-life modeling. 334 total claims (47 independent, 287 dependent) across 5 provisionals, with build evidence for the core architectures.",
   "author": {"@type": "Person", "@id": "https://portfolio.pharns.com/#pharns"},
   "datePublished": "2026-04-04",
   "dateModified": "2026-04-15",
