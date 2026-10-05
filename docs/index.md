@@ -8,7 +8,7 @@ description: "AI Governance Engineer. I build the systems that make AI agents tr
 
 I build the governance systems that make AI agents trusted to operate — cataloged by NIST as three Final OLIR Informative References across AI RMF 1.0, CSF 2.0, and SP 800-53 Rev 5.2.0.
 
-My perspective comes from working across the autonomy continuum: automation → autonomy → AI, from sUAS and physical autonomous systems to cybersecurity and digital AI agents. I governed machines that could hurt someone before I governed software, and the control problem turned out to be the same one.
+My perspective comes from working across the autonomy continuum: automation → autonomy → AI, from sUAS and physical autonomous systems to cybersecurity and digital AI agents. I governed machines that could cause harm before I governed software, and the control problem turned out to be the same one.
 
 Runtime AI governance and governed autonomous execution — built, operating, and now cataloged in the NIST OLIR catalog with three Final Informative References.
 

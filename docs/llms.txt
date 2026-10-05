@@ -22,7 +22,7 @@ engineering roles.
 
 His perspective comes from working across the autonomy continuum: automation to
 autonomy to AI, from small unmanned aircraft and physical autonomous systems to
-cybersecurity and digital AI agents. He governed machines that could hurt someone
+cybersecurity and digital AI agents. He governed machines that could cause harm
 before he governed software, and the control problem turned out to be the same one.
 
 Previously CEO of a drone-logistics company (UAS medical delivery). Career U.S.
