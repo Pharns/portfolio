@@ -125,6 +125,8 @@ Taught drone technology courses, demonstrating communication skills and subject 
 
 **Primary focus:**
 
+- **AI Governance Engineer** (runtime enforcement, control implementation, evidence pipelines)
+- **AI Security Engineer / AI Risk & Compliance** (agent-platform governance)
 - GRC Engineer (technical implementation)
 - Cloud Security Engineer (compliance/governance focus)
 - Security Controls Implementation Specialist

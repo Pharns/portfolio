@@ -1,12 +1,12 @@
 ---
-description: "Download Pharns Genece's resume — GRC Engineer, Cloud Security, Detection Engineering, RF/SDR Security."
+description: "Download Pharns Genece's resume — AI Governance Engineer, AI Security, GRC Engineering, Cloud Security, Detection Engineering."
 ---
 
 # Resume
 
 ## Recruiter summary
 
-Security architect/operator with 7 years building and securing production infrastructure, plus hands-on client compliance delivery across HIPAA, PCI-DSS, and SOC 2. Differentiated by founder-level execution, RF/UAS specialization (USPTO patent filings, TraceLock™), and governed automation systems. Target roles: Security Architect, GRC Engineer, Cloud Security Engineer.
+**AI Governance Engineer.** I build the governance systems that make AI agents trusted to operate — a runtime enforcement framework cataloged by NIST as three Final OLIR Informative References (AI RMF 1.0, CSF 2.0, SP 800-53 Rev 5.2.0). Backed by 7 years building and securing production infrastructure and hands-on client compliance delivery across HIPAA, PCI-DSS, and SOC 2. Differentiated by founder-level execution and dual-domain depth: I governed physical autonomous systems (sUAS, RF) before governing digital ones. Target roles: AI Governance Engineer, AI Security Engineer, GRC Engineer, Cloud Security Engineer.
 
 **Scan-ready proof:**
 

@@ -1,26 +1,26 @@
 ---
-description: "I build the systems that make AI agents trusted to operate. SDOS runtime AI governance framework is cataloged in the NIST OLIR catalog as a Trifecta of Final Informative References — against AI RMF 1.0 (Reference ID 220), CSF 2.0 (Reference ID 215), and SP 800-53 Rev 5.2.0 (Reference ID 217). Patent-filed governed autonomous execution, TraceLock RF threat detection, GIAP compliance automation, and detection engineering."
+description: "AI Governance Engineer. I build the systems that make AI agents trusted to operate. SDOS runtime AI governance framework is cataloged in the NIST OLIR catalog as a Trifecta of Final Informative References — against AI RMF 1.0 (Reference ID 220), CSF 2.0 (Reference ID 215), and SP 800-53 Rev 5.2.0 (Reference ID 217). Patent-filed governed autonomous execution, TraceLock RF threat detection, GIAP compliance automation, and detection engineering."
 ---
 
 # Pharns Genece
 
-**AI Security Engineer — Runtime AI Governance | NIST OLIR Trifecta Cataloged | USPTO Patent-Filed (5 Provisionals)**
+**AI Governance Engineer — Runtime AI Governance | NIST OLIR Trifecta Cataloged | USPTO Patent-Filed (5 Provisionals)**
 
-I govern AI agents so yours don't go rogue.
+I build the governance systems that make AI agents trusted to operate — cataloged by NIST as three Final OLIR Informative References across AI RMF 1.0, CSF 2.0, and SP 800-53 Rev 5.2.0.
 
 My perspective comes from working across the autonomy continuum: automation → autonomy → AI, from sUAS and physical autonomous systems to cybersecurity and digital AI agents. I governed machines that could hurt someone before I governed software, and the control problem turned out to be the same one.
 
 Runtime AI governance and governed autonomous execution — built, operating, and now cataloged in the NIST OLIR catalog with three Final Informative References.
 
-I build the governance systems that make AI agents trusted to operate. My runtime AI governance framework, SDOS, is cataloged in the NIST OLIR catalog as a Trifecta of Final Informative References against AI RMF 1.0 (Reference ID 220), Cybersecurity Framework 2.0 (Reference ID 215), and SP 800-53 Rev 5.2.0 (Reference ID 217) — a dispatch-time enforcement framework cataloged at the runtime layer against all three federal references. From patent-filed autonomous execution architecture to detection engineering, compliance automation, and RF threat detection, every project here demonstrates one principle: AI without governance isn't safe to ship.
+My runtime AI governance framework, SDOS, is cataloged in the NIST OLIR catalog against AI RMF 1.0 (Reference ID 220), Cybersecurity Framework 2.0 (Reference ID 215), and SP 800-53 Rev 5.2.0 (Reference ID 217) — enforcement at the runtime layer, mapped to all three federal references. From patent-filed autonomous execution architecture to compliance automation, control implementation, and detection engineering, every project here demonstrates one principle: AI without governance isn't safe to ship.
 
 Best fit for teams that need governed AI execution, not just policy decks.
 
-USAF Veteran · Held Secret clearance (inactive) · Security+/CySA+/PenTest+/SSCP · B.S. Cybersecurity (completed March 2026)
+USAF Veteran · Held Secret clearance (inactive), clearance-eligible · Security+/CySA+/PenTest+/SSCP · FAA Part 107 · B.S. Cybersecurity (March 2026)
 
 [Hire Me →](contact.md#hire-me){ .btn-primary }
 
-<small>Hiring for a team? [I'm open to full-time roles](contact.md#hire-me). Need a consulting engagement instead? [Engage AAM Cyber →](contact.md#engage-aam-cyber)</small>
+<small>Open to full-time AI governance and AI security engineering roles. Consulting engagements are handled separately — see [Consulting & IP](#consulting-ip) below.</small>
 
 ---
 
@@ -320,6 +320,19 @@ AWS Cloud Practitioner, ISC² CCSP
 **Licenses:** FAA Part 107 · HAM/GMRS · **Veteran:** USAF
 
 [View Full GRC Skill Matrix](grc/index.md){ .btn-ghost }
+
+---
+
+## Consulting & IP
+
+I run **AAM Cyber, LLC**, a cybersecurity consultancy, and hold patent-filed IP through a separate holding entity. That history is why the governance work exists — and it raises fair questions for an employer. Answering them plainly:
+
+- **Full-time employment is the primary commitment.** I am seeking a full-time individual-contributor role, not a contract bridge between engagements.
+- **Pre-existing IP is already separated.** The patent portfolio is held by a dedicated IP holding entity, formed before any employment conversation, and is disclosed at hire.
+- **No adoption requirement.** I build with the architecture and tooling the team already uses. Nothing here requires an employer to adopt or license SDOS.
+- **Outside engagements follow employer policy.** <!-- PHARNS: replace with your actual position — e.g. "I will wind down active client work on start" or "existing engagements disclosed and approved in advance per policy." Aegis will not invent a commitment you have not made. -->
+
+[Consulting inquiries → AAM Cyber](contact.md#engage-aam-cyber)
 
 ---
 
