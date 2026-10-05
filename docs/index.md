@@ -33,7 +33,7 @@ Three Final Informative References cataloged at NIST (Final June 2026, zero comm
 </div>
 <div class="stat-tile" markdown>
 **Two published, DOI-archived governance references**
-*The Five Laws of AI Governance* ([10.5281/zenodo.21271750](https://doi.org/10.5281/zenodo.21271750){target=_blank}) and the *SDOS Runtime Governance Framework* control catalog, v1.10 ([10.5281/zenodo.22787187](https://doi.org/10.5281/zenodo.22787187){target=_blank}) — permanently citable, CC BY 4.0, [ORCID-linked](https://orcid.org/0009-0009-0791-4124){target=_blank}.
+*The Five Laws of AI Governance* ([10.5281/zenodo.21271749](https://doi.org/10.5281/zenodo.21271749){target=_blank}) and the *SDOS Runtime Governance Framework* control catalog, v1.10 ([10.5281/zenodo.22787187](https://doi.org/10.5281/zenodo.22787187){target=_blank}) — permanently citable, CC BY 4.0, [ORCID-linked](https://orcid.org/0009-0009-0791-4124){target=_blank}.
 </div>
 <div class="stat-tile" markdown>
 **7 years production security**

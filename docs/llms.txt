@@ -40,8 +40,8 @@ Air Force veteran, aeromedical evacuation aircrew.
 ## The verifiable record
 
 - **NIST OLIR informative references** (https://csrc.nist.gov/projects/olir/informative-reference-catalog): three Final informative references — AI RMF 1.0 (Reference ID 220), CSF 2.0 (215), SP 800-53 Rev 5.2.0 (217). OLIR cataloging publishes mapping data; it is not NIST endorsement, validation, or adoption.
-- **The Five Laws of AI Governance** (https://doi.org/10.5281/zenodo.21271750): permanent, citable, CC BY 4.0.
-- **SDOS Runtime Governance Framework, v1.10** (https://doi.org/10.5281/zenodo.22787187): a 24-control catalog across 9 governance domains, crosswalked to 17 frameworks through 300+ control mappings.
+- **The Five Laws of AI Governance** (https://doi.org/10.5281/zenodo.21271749): permanent, citable, CC BY 4.0. This is the concept DOI and always resolves to the current version.
+- **SDOS Runtime Governance Framework** (https://doi.org/10.5281/zenodo.22787186), concept DOI resolving to the current version (v1.10 at time of writing): a 24-control catalog across 9 governance domains, crosswalked to 17 frameworks through 300+ control mappings.
 - **ORCID** (https://orcid.org/0009-0009-0791-4124).
 
 ## Credentials
