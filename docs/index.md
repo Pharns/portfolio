@@ -48,8 +48,8 @@ Identified and resolved across production systems over 7-year infrastructure ten
 PCI-DSS endpoint hardening with audit-ready evidence pack — financial services client
 </div>
 <div class="stat-tile" markdown>
-**12 industry certifications**
-Security+, CySA+, PenTest+, CNSP, CNVP, Network+, A+, SSCP (Assoc.), ISC2 CC, ITIL4, LPI, Project+ [→ View all](certifications.md)
+**10 industry certifications + 5 CompTIA stackables**
+Security+, CySA+, PenTest+, Network+, A+, Project+, SSCP (Assoc.), ISC2 CC, ITIL4, LPI — plus CSAP, CNSP, CNVP, CSIS, CIOS stackable credentials [→ View all](certifications.md)
 </div>
 <div class="stat-tile" markdown>
 **B.S. Cybersecurity (WGU, Mar 2026)**
@@ -302,12 +302,12 @@ Security operations are documentation-heavy: control matrices, policy drafts, ev
 B.S. Cybersecurity & Information Assurance (WGU) — Mar 2026
 </div>
 <div class="stat-tile" markdown>
-**12 Industry Certifications**
-Security+, CySA+, PenTest+, CNSP, CNVP, Network+, A+, ISC2 CC, ITIL4, SSCP (Assoc.), LPI, Project+
+**10 Industry Certifications + 5 Stackables**
+Security+, CySA+, PenTest+, Network+, A+, Project+, ISC2 CC, SSCP (Assoc.), ITIL4, LPI — plus CSAP, CNSP, CNVP, CSIS, CIOS
 </div>
 <div class="stat-tile" markdown>
 **Newly Earned 2026**
-CySA+, CSAP, PenTest+, CNSP, CNVP
+CySA+ and PenTest+ — plus CSAP, CNVP, CNSP stackables
 </div>
 <div class="stat-tile" markdown>
 **In Progress**

@@ -15,7 +15,7 @@ Security architect/operator with 7 years building and securing production infras
 - PCI-DSS endpoint hardening delivered in <48 hours with full evidence pack
 - CIS v8, NIST CSF, SOC 2, HIPAA — in production and client engagements
 - USAF veteran, held Secret clearance (inactive), federal clearance eligible
-- 14 active certifications · B.S. Cybersecurity (WGU, Mar 2026)
+- 10 industry certifications + 5 CompTIA stackables · FAA Part 107 · B.S. Cybersecurity (WGU, Mar 2026)
 
 ---
 
@@ -47,7 +47,8 @@ View my full resume below or download for offline use.
 | **Target roles** | Security Architect · GRC Engineer · Cloud Security Engineer · Detection Engineer |
 | **Experience** | 7 years enterprise infrastructure (USOG) · career USAF veteran |
 | **Education** | B.S. Cybersecurity & Information Assurance (WGU) — Mar 2026 |
-| **Certifications** | Security+ · CySA+ · CSAP · PenTest+ · CNSP · CNVP · Network+ · SSCP (Assoc.) · ITIL4 · 14 total |
+| **Certifications** | Security+ · CySA+ · PenTest+ · Network+ · A+ · Project+ · SSCP (Assoc.) · ISC2 CC · ITIL4 · LPI — 10 total, plus 5 CompTIA stackables (CSAP, CNSP, CNVP, CSIS, CIOS) |
+| **Licenses** | FAA Part 107 Remote Pilot · FCC Amateur Radio (Technician) · FCC GMRS · OSHA 30 · TWIC |
 | **Clearance** | Held Secret (USAF, inactive); clearance-eligible |
 | **Location** | Remote-first · US Citizen · International opportunities welcome |
 | **Engagement** | W-2, contract, or consulting — contractor available for non-US companies |

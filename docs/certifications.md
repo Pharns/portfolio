@@ -1,11 +1,11 @@
 ---
-description: "Security+, Network+, A+, CySA+, PenTest+, SSCP, ISC2 CC, CNSP, CNVP, ITIL4, LPI, Project+. 12 industry certifications (plus CompTIA stackable credentials). AWS CP, CCSP planned 2026. Verified on Credly."
+description: "Security+, Network+, A+, CySA+, PenTest+, Project+, SSCP, ISC2 CC, ITIL4, LPI. 10 industry certifications plus 5 CompTIA stackable credentials (CSAP, CNSP, CNVP, CSIS, CIOS). FAA Part 107, FCC Amateur Radio, GMRS, OSHA 30, TWIC. AWS CP and CCSP in progress. CompTIA and LPI credentials verified on Credly."
 ---
 
 # Certifications & Education
 
 !!! success "For Hiring Managers"
-    **12 industry certifications** (plus CompTIA stackable credentials) aligned with GRC Engineering, Cloud Security, and Detection Engineering roles. PenTest+, CNSP, CNVP, and CySA+ earned 2026 — full purple team positioning complete.
+    **10 industry certifications plus 5 CompTIA stackable credentials** aligned with GRC Engineering, Cloud Security, and Detection Engineering roles. CySA+ and PenTest+ earned 2026, unlocking the CSAP, CNVP, and CNSP stackables — detection and vulnerability-assessment coverage complete.
 
     [Verify on Credly](https://www.credly.com/users/pharns){ .md-button }
 
@@ -91,7 +91,7 @@ Advanced analytics and detection specialization built on Security+ and CySA+. Va
 **Why these certifications matter:**
 
 - **PenTest+** → Offensive security fundamentals complete purple team positioning
-- **CNSP/CNVP** → Network security and vulnerability assessment from The SecOps Group
+- **CNSP/CNVP** → CompTIA stackable credentials in network security and vulnerability assessment, earned from the Network+/Security+/PenTest+ progression
 - **CySA+** → Detection engineering roles require demonstrated threat analysis capability
 - **CSAP** → Advanced analytics and detection specialization built on Security+ and CySA+
 
@@ -107,8 +107,8 @@ Advanced analytics and detection specialization built on Security+ and CySA+. Va
 | **CompTIA CySA+ (CS0-004)** | Feb 2026 | Threat detection, security analytics, incident response | Detection Engineer, SOC |
 | **CompTIA CSAP (Stackable)** | Feb 2026 | Advanced analytics and detection (Security+ + CySA+) | Detection Engineer, Security Engineer |
 | **CompTIA Security+ ce** | Jan 2025 | Core security concepts, risk management, compliance | All security roles |
-| **CNSP (SecOps Group)** | Mar 2026 | Network security architecture, defense strategies, secure infrastructure | Network Security, Purple Team |
-| **CNVP (SecOps Group)** | Mar 2026 | Vulnerability assessment, network scanning, remediation | Vulnerability Management, PenTest |
+| **CompTIA CNSP (Stackable)** | Mar 2026 | Network security architecture, defense strategies, secure infrastructure (Network+ + PenTest+) | Network Security, Purple Team |
+| **CompTIA CNVP (Stackable)** | Mar 2026 | Vulnerability assessment, network scanning, remediation (Network+ + CySA+) | Vulnerability Management, PenTest |
 | **ISC² SSCP** | Aug 2025 | Security operations, access controls, incident response | SOC, Security Ops |
 | **CompTIA CSIS** | Jan 2025 | Infrastructure security (Security+ + Network+ + A+) | Security Engineering |
 
@@ -158,7 +158,7 @@ Advanced analytics and detection specialization built on Security+ and CySA+. Va
 - Cloud security fundamentals
 - Governance, risk, and compliance
 
-**Accelerated completion:** Competency-based program allows certification stacking — 12 industry certifications (plus CompTIA stackable credentials) earned during degree.
+**Accelerated completion:** Competency-based program allows certification stacking — 10 industry certifications plus 5 CompTIA stackable credentials earned during degree.
 
 </div>
 
@@ -166,11 +166,14 @@ Advanced analytics and detection specialization built on Security+ and CySA+. Va
 
 ## Licenses
 
-| License | Issued | Purpose |
-|---------|--------|---------|
-| **FAA Part 107 Remote Pilot** | Active | Legal commercial drone operations — validates AAM/UAS credibility |
-| **HAM Radio License** | Active | RF experimentation and emergency communications |
-| **GMRS License** | Active | Extended-range radio communications |
+| License / Credential | Issuer | Status | Purpose |
+|---|---|---|---|
+| **FAA Part 107 Remote Pilot** | FAA / U.S. DOT | Active | Legal commercial drone operations — validates AAM/UAS credibility |
+| **FCC Amateur Radio — Technician** | FCC | Active | RF experimentation and emergency communications |
+| **FCC GMRS License** | FCC | Active | Extended-range radio communications |
+| **OSHA 30-Hour General Industry** | OSHA Training Institute | Active | Workplace safety and health — industrial/field operations |
+| **TWIC** | TSA / U.S. Coast Guard | Active | Transportation Worker Identification Credential — secure federal facility and port access |
+| **AZ DPS Level One Fingerprint Clearance** | Arizona DPS | Active | State background clearance |
 
 ---
 
