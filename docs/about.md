@@ -18,7 +18,7 @@ That work sits on a GRC and cloud-security foundation: governance frameworks, co
 **Credentials:** WGU B.S. Cybersecurity (Mar 2026) · Security+/Net+/A+ · ITIL4 · ISC² CC/SSCP (Assoc.) · LPI · FAA Part 107 · HAM/GMRS
 **Earned (2026):** CySA+ · CSAP · PenTest+ · CNSP · CNVP · **Planned:** AWS CP/CCSP (2026)
 
-**Links:** [Patents](https://patents.google.com/?inventor=Pharns+Genece) · [GitHub](https://github.com/Pharns) · [Credly](https://www.credly.com/users/pharns)
+**Links:** [Published reference (DOI)](https://doi.org/10.5281/zenodo.21271750) · [GitHub](https://github.com/Pharns) · [Credly](https://www.credly.com/users/pharns)
 
 ---
 
@@ -49,10 +49,10 @@ Led drone logistics company. As a startup, served as the hands-on builder and sy
 
 This wasn't delegated — I architected, deployed, hardened, and maintained every system. Real-world GRC implementation at scale.
 
-### United States Air Force — Aeromedical Evacuation Technician
-*1990 – 2007 · Military Career*
+### United States Air Force — Aeromedical Evacuation Aircrew
+*Career USAF · Military Aviation*
 
-Flight nurse with mission-critical operations experience:
+Non-rated aeromedical evacuation aircrew — in-flight patient care across C-130/C-17/C-9, with continuous in-flight risk management:
 
 - High-pressure medical operations with strict protocols and documentation
 - Held Secret clearance during USAF service (inactive)

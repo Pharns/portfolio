@@ -37,10 +37,10 @@ Led drone logistics company while serving as hands-on systems administrator. Bui
 - **Maintained audit-ready posture** with documented evidence collection, access controls, and compliance configurations
 - **Architected, deployed, hardened, and maintained** all systems—no delegation; real-world GRC implementation at scale
 
-### United States Air Force — Aeromedical Evacuation Technician
-*1990 – 2007 · Military Career*
+### United States Air Force — Aeromedical Evacuation Aircrew
+*Career USAF · Military Aviation*
 
-Flight nurse with mission-critical operations experience in high-pressure environments.
+Non-rated aeromedical evacuation aircrew — in-flight patient care across C-130/C-17/C-9, with continuous in-flight risk management and zero margin for error.
 
 - Executed life-safety medical operations with strict protocols, documentation, and compliance requirements
 - Held Secret clearance during USAF service (inactive)

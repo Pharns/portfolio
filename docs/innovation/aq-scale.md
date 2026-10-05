@@ -4,7 +4,7 @@ description: "AQ Scale™ — the measurement standard for AI agent governance m
 
 # AQ Scale™ — Apex Quorum™ governance maturity standard
 
-*Patent-Filed · Governance Maturity Measurement Standard · Filed April 25, 2026 · U.S. Provisional 64/049,300*
+*Patent-Filed · Governance Maturity Measurement Standard · Filed April 25, 2026 · U.S. Provisional Filed*
 
 !!! success "For hiring managers — AI governance / measurement standards"
 
@@ -35,7 +35,7 @@ AQ Scale™ is a **governance maturity measurement standard** for AI agent opera
 - **Standardized.** Every score is computed the same way, against the same criteria.
 - **Comparable.** Two organizations can be compared on the same scale.
 - **Auditable.** The score derives from a structured assessment, not an opinion.
-- **Patent-filed.** The scoring methodology is covered under U.S. Provisional Patent Application 64/049,300.
+- **Patent-filed.** The scoring methodology is covered under a filed U.S. provisional patent application.
 
 ---
 
@@ -63,7 +63,7 @@ For hiring managers and technical leaders evaluating candidates, AQ Scale™ rep
 
 ## Patent status
 
-AQ Scale™ is covered under **U.S. Provisional Patent Application 64/049,300**, filed April 25, 2026. Non-provisional filing is in progress under accelerated prosecution. The scope of pending claims is defined by the as-filed specification.
+AQ Scale™ is covered under a **U.S. provisional patent application**, filed April 25, 2026. Non-provisional filing is in progress under accelerated prosecution. The scope of pending claims is defined by the as-filed specification.
 
 !!! note "Intellectual property"
 
@@ -74,7 +74,7 @@ AQ Scale™ is covered under **U.S. Provisional Patent Application 64/049,300**,
 ## Related work
 
 - [SDOS — AI Governance Framework](sdos-governance-framework.md) — the runtime governance system AQ Scale™ measures organizations against
-- [Patent Portfolio](patent-portfolio.md) — 45 families, 334 claims across five provisionals
+- [Patent Portfolio](patent-portfolio.md) — 45 patent families across five provisionals
 - [Governed Agent Gateway](governed-agent-gateway.md) — governed multi-provider agent orchestration
 
 ---

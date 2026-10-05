@@ -33,7 +33,7 @@ Three Final Informative References cataloged at NIST (Final June 2026, zero comm
 </div>
 <div class="stat-tile" markdown>
 **Published, DOI-archived AI-governance reference**
-*The Five Laws of AI Governance* — versioned and permanently citable via [Zenodo DOI 10.5281/zenodo.21271750](https://doi.org/10.5281/zenodo.21271750){target=_blank}. Independent, third-party-archived reference.
+*The Five Laws of AI Governance* — versioned and permanently citable via [Zenodo DOI 10.5281/zenodo.21271750](https://doi.org/10.5281/zenodo.21271750){target=_blank}. Permanently citable, self-archived via Zenodo with a DataCite DOI.
 </div>
 <div class="stat-tile" markdown>
 **7 years production security**
@@ -84,7 +84,7 @@ Live abuse.ch threat feeds → behavioral-analytics tables via dbt Core + DuckDB
 
 <div class="stat-tile" markdown>
 **TraceLock — Multi-Domain Detection**
-Python RF/BLE/Wi-Fi/ADS-B detection platform. **Detected every target across 3 controlled runs vs. 43% manual baseline; 57% time reduction, reproducible.** Runs in production on a Raspberry Pi sensor. [Details →](cybersecurity/tracelock.md)
+Python RF/BLE/Wi-Fi/ADS-B detection platform. **Pilot study (n=3 controlled runs): detected every target vs. a 43% manual baseline, with a 57% time reduction; method documented and reproducible.** Runs in production on a Raspberry Pi sensor. [Details →](cybersecurity/tracelock.md)
 <span class="tag-chip">Python</span> <span class="tag-chip">SDR</span> <span class="tag-chip">Quantified</span>
 </div>
 
@@ -96,7 +96,7 @@ Python RF/BLE/Wi-Fi/ADS-B detection platform. **Detected every target across 3 c
 
 <div class="stat-tile" markdown>
 **MCP Servers (production)**
-Governed AI-to-tool connectors in daily use: a Proxmox MCP across a 48-VM cluster + a 36-tool governance MCP with HMAC-SHA256 module signing and per-tool access control.
+Governed AI-to-tool connectors in daily use: a Proxmox MCP across a 48-VM cluster + a <!-- VERIFY before publish: re-run `pytest tests/ -q`, the @mcp.tool grep, and the modules ls. Canon (recalled 2026-09-29): 61 tools / 10 modules / 328 tests. -->61-tool governance MCP with HMAC-SHA256 module signing and per-tool access control.
 <span class="tag-chip">Python</span> <span class="tag-chip">MCP</span> <span class="tag-chip">Access Control</span>
 </div>
 </div>
@@ -188,7 +188,7 @@ Operate a Security Onion + TheHive/Cortex lab to author SIEM rules, tune alerts,
 
 <div class="feature-tile" markdown>
 ### :material-cloud-lock: &nbsp; Cloud Governance
-Designing an AWS Control Pack with S3 default-deny, GuardDuty pipelines, and scoped IAM mapped to CIS/NIST.
+Built an AWS Control Pack with S3 default-deny, GuardDuty pipelines, and scoped IAM mapped to CIS/NIST.
 </div>
 
 <div class="feature-tile" markdown>
@@ -310,7 +310,7 @@ Security+, CySA+, PenTest+, CNSP, CNVP, Network+, A+, ISC2 CC, ITIL4, SSCP (Asso
 CySA+, CSAP, PenTest+, CNSP, CNVP
 </div>
 <div class="stat-tile" markdown>
-**Planned Q2/Q3 2026**
+**In Progress**
 AWS Cloud Practitioner, ISC² CCSP
 </div>
 </div>
@@ -375,7 +375,7 @@ The NIST Online Informative References Program is the federal registry of framew
 
 ### Why does AI agent governance matter for regulated organizations?
 
-Federal procurement, EU AI Act compliance, and NIST-aligned vendor risk programs all require demonstrable AI risk management. Most AI governance today is policy documents and post-incident reviews. Regulated organizations need controls that operate at the moment AI agents take action — not after. That is the gap SDOS closes, and the gap NIST has now listed against AI RMF 1.0.
+Federal procurement, EU AI Act compliance, and NIST-aligned vendor risk programs all require demonstrable AI risk management. Most AI governance today is policy documents and post-incident reviews. Regulated organizations need controls that operate at the moment AI agents take action — not after. That is the gap SDOS closes — and SDOS is now cataloged against AI RMF 1.0 as a Final Informative Reference.
 
 ### What is the risk of deploying AI agents without runtime governance?
 

@@ -1,12 +1,12 @@
 ---
-description: "Patent portfolio covering governed AI execution, multi-domain threat detection, and security decision architecture. 45 families, 334 total claims across 5 provisionals."
+description: "Patent portfolio covering governed AI execution, multi-domain threat detection, and security decision architecture. 45 families across 5 provisionals."
 ---
 
 # Patent portfolio overview
 
 I don't just build security systems — I file patents on the novel architectures behind them.
 
-This portfolio represents original work at the intersection of governed AI execution and multi-domain threat detection. Every claim is backed by production code running on real infrastructure. These are not theoretical constructs or academic exercises — they are working systems that happen to be novel enough to protect.
+This portfolio represents original work at the intersection of governed AI execution and multi-domain threat detection. The core architectures are reduced to practice, with build evidence from systems running on real infrastructure. These are not theoretical constructs or academic exercises — they are working systems that happen to be novel enough to protect.
 
 The work grew out of a practical problem: autonomous AI agents need enforceable governance at the infrastructure layer, and wireless threat detection needs to correlate signals across domains that most tools treat as separate. I built systems to solve both problems, then realized the architectures themselves were patentable.
 
@@ -18,13 +18,13 @@ The work grew out of a practical problem: autonomous AI agents need enforceable 
 
     | Field | Detail |
     |-------|--------|
-    | **Applications** | U.S. Provisionals 64/029,300 + 64/049,300 + 64/067,427 + 64/069,200 + 64/076,620 |
-    | **Filed** | April 4, 2026 + April 25, 2026 + May 16, 2026 + May 19, 2026 |
+    | **Applications** | Five U.S. provisional applications |
+    | **Filed** | April – May 2026 |
     | **Patent families** | 45 |
-    | **Independent claims** | 46 |
-    | **Dependent claims** | 267 |
-    | **Total claims** | 334 |
-    | **Assignee** | Dedicated IP holding entity (chain of title recorded at USPTO 2026-05-21) |
+    | **Independent claims** | <!-- RECONCILE: audit found 46+267=313, table said 334. Canon says 47 independent. Verify all three against the Filed Claims Catalog before publishing. -->TBD |
+    | **Dependent claims** | <!-- RECONCILE: see above -->TBD |
+    | **Total claims** | <!-- RECONCILE: see above -->TBD |
+    | **Assignee** | Dedicated IP holding entity (assignment submitted for recordation) |
     | **Status** | Patent-filed (non-provisional in progress, target April 4, 2027) |
 
 ---
@@ -65,7 +65,7 @@ For hiring managers and technical leaders evaluating candidates, a patent portfo
 
 **Commitment to defensible IP.** Blog posts and conference talks demonstrate communication skills. Patents demonstrate the ability to create protectable intellectual property — the kind of asset that gives an organization competitive advantage.
 
-**Production systems backing every claim.** Patent law distinguishes between theoretical inventions and reduction to practice — actually building the thing. Every claim in this portfolio is backed by running code on production infrastructure. The systems described in these patents are not proposals. They exist, they run, and they work.
+**Production systems behind the core architectures.** Patent law distinguishes between theoretical inventions and reduction to practice — actually building the thing. The core architectures in this portfolio are reduced to practice, with build evidence from running systems. The systems described are not proposals. They exist, they run, and they work.
 
 **Federal recognition of the architecture.** The SDOS runtime governance framework is cataloged in the NIST OLIR catalog as a Trifecta of Final Informative References (public review concluded 2026-06-22 with zero comments) — against [AI RMF 1.0 (Ref 220)](https://csrc.nist.gov/projects/olir/informative-reference-catalog/details?referenceId=220){target=_blank}, [CSF 2.0 (Ref 215)](https://csrc.nist.gov/projects/olir/informative-reference-catalog/details?referenceId=215){target=_blank}, and [SP 800-53 Rev 5.2.0 (Ref 217)](https://csrc.nist.gov/projects/olir/informative-reference-catalog/details?referenceId=217){target=_blank}. The patent moat and the federal cataloging operate as distinct credentials — the patents protect the architecture as proprietary IP; the OLIR Trifecta recognizes the architecture as publicly documented crosswalks to three federal references. See [SDOS — Security Decision Operating System](sdos-governance-framework.md) for full detail on the cataloging.
 
@@ -73,7 +73,7 @@ For hiring managers and technical leaders evaluating candidates, a patent portfo
 
 ## IP structure
 
-All intellectual property is held by a dedicated IP holding entity with a clean chain of title. This structure separates IP ownership from operating entities, which is standard practice for protecting valuable patents from business liability exposure.
+All intellectual property is held by a dedicated IP holding entity, with assignment submitted for recordation at the USPTO. This structure separates IP ownership from operating entities, which is standard practice for protecting valuable patents from business liability exposure.
 
 The entity structure ensures that the IP remains protected regardless of what happens at the operating company level — a governance decision that reflects the same architectural thinking applied to the technical work itself.
 
@@ -83,7 +83,7 @@ The entity structure ensures that the IP remains protected regardless of what ha
 
 The non-provisional filing is in progress, consolidating and expanding coverage from the provisional application. Additional provisional filings are extending the portfolio into new technical domains.
 
-Patent prosecution is a multi-year process. The work continues — both in expanding the patent portfolio and in advancing the production systems that back every claim.
+Patent prosecution is a multi-year process. The work continues — both in expanding the patent portfolio and in advancing the production systems behind it.
 
 ---
 
@@ -94,7 +94,7 @@ Patent prosecution is a multi-year process. The work continues — both in expan
   "@context": "https://schema.org",
   "@type": "TechArticle",
   "headline": "Patent Portfolio — Governed AI Execution & Multi-Domain Threat Detection",
-  "description": "45 patent families covering governed AI agent execution, multi-domain wireless threat detection, security decision architecture, governance lifecycle, structural isolation, adversarial hardening, and pattern-of-life modeling. 334 total claims (287 dependent) across 5 provisionals, backed by production code.",
+  "description": "45 patent families covering governed AI agent execution, multi-domain wireless threat detection, security decision architecture, governance lifecycle, structural isolation, adversarial hardening, and pattern-of-life modeling. Claims span 5 provisionals, with build evidence for the core architectures.",
   "author": {"@type": "Person", "@id": "https://portfolio.pharns.com/#pharns"},
   "datePublished": "2026-04-04",
   "dateModified": "2026-04-15",
