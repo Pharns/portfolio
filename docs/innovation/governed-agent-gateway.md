@@ -45,9 +45,32 @@ Every inbound request is classified by risk level before dispatch. Classificatio
 
 Every tool module loaded into the system carries a cryptographic signature. Unsigned or tampered modules are rejected at load time. Every decision — approvals, denials, escalations, classification outcomes — is logged at the infrastructure layer. The model never self-reports. The gateway captures what actually happened.
 
-!!! note "Architecture details"
+### What a technical reviewer can check
 
-    Architecture diagrams and implementation specifics are withheld under pre-disclosure policy. The techniques described on this page are patent-filed. For licensing inquiries, please use the contact page.
+Implementation internals are held under pre-disclosure policy until the non-provisional is filed. That restriction covers *how* the enforcement layer is built — not *whether* it behaves as described. The behaviour is covered by an automated test suite that runs on every change.
+
+**328 tests pass on the current build.** Of those, the ones that matter for evaluating a governance claim:
+
+| Property under test | Tests | What is actually asserted |
+|---|---|---|
+| **Fail-closed behaviour** | 11 | When the policy service, its transport, or its socket is unavailable, the client denies rather than proceeding. Absence of a verdict is never read as permission. |
+| **Tamper detection** | 8 | A modified baseline or config store halts the daemon before it enumerates tools, rather than running against altered policy. |
+| **Store integrity** | 9 | Strict mode rejects a tampered config store; a standalone tampered store falls back to the server rather than self-approving. |
+| **Peer identity** | — | The daemon rejects an unauthorized peer process rather than trusting the channel. |
+
+Representative test names, verbatim from the suite: `test_daemon_refuses_to_start_with_tampered_baseline` · `test_daemon_rejects_unauthorized_peer_pid` · `test_negotiator_fail_closed_when_config_store_tampered` · `test_scenario_f_config_store_tampered_halts_before_enumeration`.
+
+**What this evidence does not establish.** Stating the boundary precisely, because it is the question a senior reviewer asks next:
+
+- Preventing *unauthorized* tool access is not the same as guaranteeing that *authorized* tool use is safe. An agent can still cause harm through permissions it was legitimately granted. The enforcement layer governs the dispatch decision, not the downstream consequence of a permitted action.
+- The suite tests the enforcement path under the failure modes above. It is not a red-team result, and it does not assert resistance to every prompt-injection technique.
+- Scale is small-estate: a 48-VM homelab cluster and a two-machine agent environment, not an enterprise deployment.
+
+I will walk through the threat model, the enforcement path, and these tests in an interview. What I will not do before the non-provisional is filed is publish the architecture diagrams.
+
+!!! note "Pre-disclosure policy"
+
+    The techniques on this page are patent-filed. Implementation internals remain under pre-disclosure policy until the non-provisional filing. For licensing inquiries, use the contact page.
 
 ---
 
@@ -137,7 +160,7 @@ Non-provisional filing is in progress under accelerated prosecution.
 
 !!! note "Intellectual property"
 
-    The techniques described on this page are patent-filed. Implementation details beyond what is described here are protected under pre-disclosure policy. For licensing inquiries, please use the contact page.
+    The techniques described on this page are patent-filed. Implementation details beyond what is described here are protected under pre-disclosure policy until the non-provisional filing. **Hiring teams:** the test suite above is the evaluation path — threat model, enforcement path, and failure-mode tests, walked through live. Licensing inquiries use the contact page.
 
 ---
 

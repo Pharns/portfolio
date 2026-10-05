@@ -15,9 +15,10 @@ record: project write-ups, certifications, and applied security work.
 
 ## About
 
-Pharns Genece is a security architect and inventor working on measurement and
-governance for autonomous systems — AI agents and physical autonomous systems
-alike.
+Pharns Genece is an AI Governance Engineer and inventor working on measurement
+and governance for autonomous systems — AI agents and physical autonomous
+systems alike. He is open to full-time AI governance and AI security
+engineering roles.
 
 His perspective comes from working across the autonomy continuum: automation to
 autonomy to AI, from small unmanned aircraft and physical autonomous systems to
@@ -45,12 +46,15 @@ Air Force veteran, aeromedical evacuation aircrew.
 
 ## Credentials
 
-- M.S. Cybersecurity & Information Assurance (WGU, in progress)
+- M.S. Cybersecurity & Information Assurance (WGU) — admitted, begins November 2026
 - B.S. Cybersecurity & Information Assurance (WGU)
-- CompTIA Security+, CySA+, PenTest+, Network+, A+
-- ISC2 SSCP (Associate), ITIL4, LPI
-- FAA Part 107 remote pilot; HAM/GMRS licensed
-- U.S. Air Force veteran
+- 10 industry certifications plus 5 CompTIA stackable credentials
+- CompTIA Security+, CySA+, PenTest+, Network+, A+, Project+
+- ISC2 SSCP (Associate), ISC2 CC, ITIL 4, LPI Linux Essentials
+- CompTIA stackables: CSAP, CNSP, CNVP, CSIS, CIOS
+- FAA Part 107 remote pilot; FCC Amateur Radio (Technician) and GMRS licensed
+- OSHA 30-Hour General Industry; TWIC (TSA/USCG)
+- U.S. Air Force veteran, aeromedical evacuation aircrew; held Secret clearance (inactive), clearance-eligible
 
 ## Expertise
 
