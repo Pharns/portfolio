@@ -32,8 +32,8 @@ USAF Veteran · Held Secret clearance (inactive), clearance-eligible · Security
 Three Final Informative References cataloged at NIST (Final June 2026, zero comments): [Ref 220 — AI RMF 1.0](https://csrc.nist.gov/projects/olir/informative-reference-catalog/details?referenceId=220){target=_blank} · [Ref 215 — CSF 2.0](https://csrc.nist.gov/projects/olir/informative-reference-catalog/details?referenceId=215){target=_blank} · [Ref 217 — SP 800-53 Rev 5.2.0](https://csrc.nist.gov/projects/olir/informative-reference-catalog/details?referenceId=217){target=_blank}. OLIR catalog inclusion is an informative reference, not a NIST endorsement.
 </div>
 <div class="stat-tile" markdown>
-**Published, DOI-archived AI-governance reference**
-*The Five Laws of AI Governance* — versioned and permanently citable via [Zenodo DOI 10.5281/zenodo.21271750](https://doi.org/10.5281/zenodo.21271750){target=_blank}. Permanently citable, self-archived via Zenodo with a DataCite DOI.
+**Two published, DOI-archived governance references**
+*The Five Laws of AI Governance* ([10.5281/zenodo.21271750](https://doi.org/10.5281/zenodo.21271750){target=_blank}) and the *SDOS Runtime Governance Framework* control catalog, v1.10 ([10.5281/zenodo.22787187](https://doi.org/10.5281/zenodo.22787187){target=_blank}) — permanently citable, CC BY 4.0, [ORCID-linked](https://orcid.org/0009-0009-0791-4124){target=_blank}.
 </div>
 <div class="stat-tile" markdown>
 **7 years production security**

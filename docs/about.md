@@ -18,7 +18,14 @@ That work sits on a GRC and cloud-security foundation: governance frameworks, co
 **Credentials:** WGU B.S. Cybersecurity (Mar 2026) · Security+/Net+/A+ · ITIL4 · ISC² CC/SSCP (Assoc.) · LPI · FAA Part 107 · HAM/GMRS
 **Earned (2026):** CySA+ · CSAP · PenTest+ · CNSP · CNVP · **Planned:** AWS CP/CCSP (2026)
 
-**Links:** [Published reference (DOI)](https://doi.org/10.5281/zenodo.21271750) · [GitHub](https://github.com/Pharns) · [Credly](https://www.credly.com/users/pharns)
+**Links:** [GitHub](https://github.com/Pharns) · [Credly](https://www.credly.com/users/pharns) · [ORCID](https://orcid.org/0009-0009-0791-4124)
+
+**Published, citable work:**
+
+- *The Five Laws of AI Governance* — [10.5281/zenodo.21271750](https://doi.org/10.5281/zenodo.21271750) (CC BY 4.0)
+- *SDOS Runtime Governance Framework: Control Catalog and Framework Alignment Library, v1.10* — [10.5281/zenodo.22787187](https://doi.org/10.5281/zenodo.22787187) (CC BY 4.0)
+
+Both are self-archived via Zenodo with DataCite DOIs. The doctrine itself is published at [aamcyber.com](https://aamcyber.com); this site is the practitioner record.
 
 ---
 
