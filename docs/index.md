@@ -4,7 +4,7 @@ description: "AI Governance Engineer. I build the systems that make AI agents tr
 
 # Pharns Genece
 
-**AI Governance Engineer — Runtime AI Governance | NIST OLIR Trifecta Cataloged | USPTO Patent-Filed (5 Provisionals)**
+**AI Governance Engineer — Runtime AI Governance | NIST OLIR: 3 Final + 3 in Public Review | USPTO Patent-Filed (5 Provisionals)**
 
 I build the governance systems that make AI agents trusted to operate — cataloged by NIST as three Final OLIR Informative References across AI RMF 1.0, CSF 2.0, and SP 800-53 Rev 5.2.0.
 
