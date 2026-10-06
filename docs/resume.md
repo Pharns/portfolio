@@ -6,7 +6,7 @@ description: "Download Pharns Genece's resume — AI Governance Engineer, AI Sec
 
 ## Recruiter summary
 
-**AI Governance Engineer.** I build the governance systems that make AI agents trusted to operate — a runtime enforcement framework cataloged by NIST as three Final OLIR Informative References (AI RMF 1.0, CSF 2.0, SP 800-53 Rev 5.2.0). Backed by 7 years building and securing production infrastructure and hands-on client compliance delivery across HIPAA, PCI-DSS, and SOC 2. Differentiated by founder-level execution and dual-domain depth: I governed physical autonomous systems (sUAS, RF) before governing digital ones. Target roles: AI Governance Engineer, AI Security Engineer, GRC Engineer, Cloud Security Engineer.
+**AI Governance Engineer.** I build the governance systems that make AI agents trusted to operate — a runtime enforcement framework cataloged by NIST as three Final OLIR Informative References (AI RMF 1.0, CSF 2.0, SP 800-53 Rev 5.2.0), with three more for the Five Laws of AI Governance in public review. Backed by 7 years building and securing production infrastructure and hands-on client compliance delivery across HIPAA, PCI-DSS, and SOC 2. Differentiated by founder-level execution and dual-domain depth: I governed physical autonomous systems (sUAS, RF) before governing digital ones. Target roles: AI Governance Engineer, AI Security Engineer, GRC Engineer, Cloud Security Engineer.
 
 **Scan-ready proof:**
 
