@@ -1,5 +1,7 @@
 # portfolio.pharns.com
 
+> **Live site: [portfolio.pharns.com](https://portfolio.pharns.com).** Pharns Genece, AI security engineer: runtime governance for autonomous systems, detection engineering, GRC automation. This repo is the MkDocs Material source.
+
 ## Purpose
 
 Personal portfolio site for artifacts, experiments, case studies, and hiring proof.
