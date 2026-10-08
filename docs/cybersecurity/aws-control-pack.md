@@ -1,5 +1,5 @@
 ---
-description: "AWS Cloud Control Pack: S3 default-deny, GuardDuty export, scoped IAM with CIS/NIST mapping. Cloud Security Engineer and GRC production baseline."
+description: "AWS Cloud Control Pack: S3 default-deny, GuardDuty export, scoped IAM with CIS/NIST mapping. Reference implementation (Terraform) for a cloud GRC baseline; deployment evidence not yet published."
 ---
 
 # Cloud Control Pack (AWS)
@@ -9,18 +9,18 @@ description: "AWS Cloud Control Pack: S3 default-deny, GuardDuty export, scoped 
 
     **Why this matters for GRC:** Demonstrates cloud governance foundations, least-privilege IAM, evidence-first logging, and compliance control mapping (CIS/NIST).
 
-    **Impact:** Production-ready control pack deployed in <4 hours with complete framework alignment.
+    **Status:** Reference implementation (Terraform) with CIS/NIST control mapping. Deployment evidence (CLI outputs, screenshots) not yet published.
 
     **Skills:** AWS IAM · S3 Security · GuardDuty · CloudTrail · Policy-as-Code · Control Mapping · CIS Controls · NIST CSF
 
 ---
 
-!!! warning "Project Status: In Progress"
+!!! warning "Project Status: Reference implementation — deployment evidence not yet published"
     **Architecture:** Complete — S3, GuardDuty, and IAM patterns designed with CIS/NIST mapping.
 
-    **Implementation:** Q2 2026 — CLI validation and evidence capture scheduled after AWS Cloud Practitioner exam.
+    **Implementation:** Terraform reference code in [aws-guardrail-pack](https://github.com/Pharns/aws-guardrail-pack). CLI validation and evidence capture not yet published; no deployment is claimed on this page.
 
-    **What's here now:** Control design, policy skeletons, and framework alignment. Full CLI outputs and screenshots coming soon.
+    **What's here now:** Control design, policy skeletons, and framework alignment.
 
 Default-deny storage, evidence capture, and least-privilege IAM patterns demonstrating cloud GRC fundamentals.
 
@@ -45,13 +45,13 @@ Default-deny storage, evidence capture, and least-privilege IAM patterns demonst
 | IAM least privilege | Scoped app role to bucket + Param Store path; optional KMS constraint | CIS IAM, NIST PR.AC |
 | Network enforcement | TLS-only denies for S3 + Param Store access | CIS Network/Encryption, NIST PR.DS |
 
-## Artifacts (architecture complete, CLI pending)
+## Artifacts (architecture complete, deployment evidence not yet published)
 
 | Component | Design | CLI Evidence |
 |-----------|--------|--------------|
-| S3 baseline | ✅ Policy elements defined | 🔄 Q2 2026 |
-| GuardDuty export | ✅ Detector + S3 destination designed | 🔄 Q2 2026 |
-| IAM least-privilege role | ✅ Scoped policy skeleton ready | 🔄 Q2 2026 |
+| S3 baseline | ✅ Policy elements defined | ⏳ Not yet published |
+| GuardDuty export | ✅ Detector + S3 destination designed | ⏳ Not yet published |
+| IAM least-privilege role | ✅ Scoped policy skeleton ready | ⏳ Not yet published |
 
 ## Implementation Roadmap
 
@@ -59,10 +59,10 @@ Default-deny storage, evidence capture, and least-privilege IAM patterns demonst
 |-------|--------|--------|
 | Control architecture design | ✅ Complete | — |
 | CIS/NIST framework mapping | ✅ Complete | — |
-| AWS Cloud Practitioner exam | 🔄 Scheduled | Q2 2026 |
-| CLI implementation + capture | ⏳ Pending | Q2 2026 |
-| Evidence artifacts (screenshots, outputs) | ⏳ Pending | Q2 2026 |
-| Portfolio page update with proof | ⏳ Pending | Q2 2026 |
+| AWS Cloud Practitioner exam | ⏳ Not yet taken | — |
+| CLI implementation + capture | ⏳ Pending | — |
+| Evidence artifacts (screenshots, outputs) | ⏳ Pending | — |
+| Portfolio page update with proof | ⏳ Pending | — |
 
 ## Validation Checklist
 

@@ -60,9 +60,9 @@ VirusTotal, AbuseIPDB, Shodan, GreyNoise, MISP feeds integrated via Cortex
 ### Example: DNS tunneling detection
 
 ```yaml
-title: DNS Query Entropy Anomaly
+title: DNS Long Alphanumeric Subdomain - Potential Tunneling
 status: experimental
-description: Detects high-entropy DNS queries indicative of DNS tunneling
+description: Flags 32+ char alphanumeric DNS labels, a proxy for high-entropy tunneling subdomains (no entropy calculation in-rule)
 logsource:
   product: zeek
   service: dns
@@ -83,8 +83,8 @@ tags:
 
 | Detection | Initial FP Rate | After Tuning | Tuning Method |
 |-----------|-----------------|--------------|---------------|
-| DNS tunneling | ~35% | ~12% | Allowlist CDN patterns, entropy threshold adjustment |
-| HTTP beaconing | ~40% | ~18% | Time-window correlation, user-agent filtering |
+| DNS tunneling | ~35% | ~12% | Allowlist CDN patterns, long-label length threshold (entropy proxy) |
+| HTTP beaconing | ~40% | ~18% | Candidate filtering, user-agent filtering (interval analysis requires SIEM correlation) |
 | Auth anomalies | ~25% | ~8% | Baseline normal hours per user group |
 | Lateral movement | ~30% | ~15% | Exclude admin workstations, service accounts |
 
