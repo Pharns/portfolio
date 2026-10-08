@@ -49,7 +49,7 @@ Non-rated aeromedical evacuation aircrew — in-flight patient care across C-130
 ### MiraCosta College — Adjunct Educator
 *UAS/Drone Technology*
 
-Taught drone technology courses demonstrating technical communication skills and aviation systems expertise.
+Taught drone technology courses and prepared new pilots for the FAA Part 107 exam, including its regulatory compliance content: translating federal aviation rules into practice for first-time operators.
 
 ---
 
