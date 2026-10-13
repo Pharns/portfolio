@@ -24,8 +24,9 @@ That work sits on a GRC and cloud-security foundation: governance frameworks, co
 
 - *The Five Laws of AI Governance* — [10.5281/zenodo.21271749](https://doi.org/10.5281/zenodo.21271749) (CC BY 4.0, all versions)
 - *SDOS Runtime Governance Framework: Control Catalog and Framework Alignment Library* — [10.5281/zenodo.22787186](https://doi.org/10.5281/zenodo.22787186) (CC BY 4.0, all versions)
+- *What the 2026 AI Governance Frameworks Bind, and What They Leave Open* — AAM Cyber Technical Report AAM-TR-2026-01 ([aamcyber.com/research](https://aamcyber.com/research/2026-ai-governance-frameworks/))
 
-Both are self-archived via Zenodo with DataCite DOIs. The doctrine itself is published at [aamcyber.com](https://aamcyber.com); this site is the practitioner record.
+The first two are self-archived via Zenodo with DataCite DOIs. The doctrine itself is published at [aamcyber.com](https://aamcyber.com); this site is the practitioner record.
 
 ---
 

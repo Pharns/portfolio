@@ -63,7 +63,7 @@ S3 default-deny, GuardDuty export, scoped IAM with CIS/NIST mapping.
 
 | Metric | Value |
 |--------|-------|
-| Production infrastructure security | 7 years (USOG, 2017–2024) |
+| Production infrastructure security | 7 years (USOG, 2018–2025) |
 | Vulnerabilities remediated | 15,000+ |
 | Framework implementation | CIS v8 IG1-IG2 → NIST CSF → SOC 2 |
 | PCI-DSS endpoint hardening | <48 hours with evidence pack |
