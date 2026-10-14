@@ -80,7 +80,7 @@ This means SDOS survives prompt injection, model updates, and multi-agent coordi
 
 ## Operational evidence
 
-SDOS is not a whitepaper or a roadmap. It is running in production today, governing a multi-agent system.
+SDOS is not a whitepaper or a roadmap. It runs continuously today, governing my own multi-agent system.
 
 The platform governs tool modules spanning security operations domains, with cryptographically signed module manifests preventing unauthorized modification of the tool definitions that agents consume. Production module updates deploy without service interruption.
 

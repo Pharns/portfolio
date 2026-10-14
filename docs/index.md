@@ -84,7 +84,7 @@ Live abuse.ch threat feeds → behavioral-analytics tables via dbt Core + DuckDB
 
 <div class="stat-tile" markdown>
 **TraceLock — Multi-Domain Detection**
-Python RF/BLE/Wi-Fi/ADS-B detection platform. **Pilot study (n=3 controlled runs): detected every target vs. a 43% manual baseline, with a 57% time reduction; method documented and reproducible.** Runs in production on a Raspberry Pi sensor. [Details →](cybersecurity/tracelock.md)
+Python RF/BLE/Wi-Fi/ADS-B detection platform. **Pilot study (n=3 controlled runs): detected every target vs. a 43% manual baseline, with a 57% time reduction; method documented and reproducible.** Runs continuously on a Raspberry Pi sensor. [Details →](cybersecurity/tracelock.md)
 <span class="tag-chip">Python</span> <span class="tag-chip">SDR</span> <span class="tag-chip">Quantified</span>
 </div>
 
