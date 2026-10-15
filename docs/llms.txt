@@ -21,9 +21,10 @@ systems alike. He is open to full-time AI governance and AI security
 engineering roles.
 
 His perspective comes from working across the autonomy continuum: automation to
-autonomy to AI, from small unmanned aircraft and physical autonomous systems to
-cybersecurity and digital AI agents. He governed machines that could cause harm
-before he governed software, and the control problem turned out to be the same one.
+autonomy to AI, from remotely operated underwater vehicles and small unmanned
+aircraft, through RF and spectrum sensing, to cybersecurity and digital AI agents.
+He governed machines that could cause great harm before he governed software, and
+the control problem turned out to be the same one.
 
 Previously CEO of a drone-logistics company (UAS medical delivery). Career U.S.
 Air Force veteran, aeromedical evacuation aircrew.
