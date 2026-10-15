@@ -18,7 +18,7 @@ That work sits on a GRC and cloud-security foundation: governance frameworks, co
 **Credentials:** WGU B.S. Cybersecurity (Mar 2026) · Security+/Net+/A+ · ITIL4 · ISC² CC/SSCP (Assoc.) · LPI · FAA Part 107 · HAM/GMRS
 **Earned (2026):** CySA+ · CSAP · PenTest+ · CNSP · CNVP · **Planned:** AWS CP/CCSP (2026)
 
-**Links:** [GitHub](https://github.com/Pharns) · [Credly](https://www.credly.com/users/pharns) · [ORCID](https://orcid.org/0009-0009-0791-4124)
+**Links:** [GitHub](https://github.com/Pharns) · [Credly](https://www.credly.com/users/pharns) · [ORCID](https://orcid.org/0009-0009-0791-4124) · [Notes from the Field](https://research.pharns.com/)
 
 **Published, citable work:**
 

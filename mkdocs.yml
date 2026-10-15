@@ -47,6 +47,9 @@ extra:
   - icon: fontawesome/brands/linkedin
     link: https://www.linkedin.com/in/pharns
     name: LinkedIn Profile - Pharns Genece
+  - icon: fontawesome/solid/book-open
+    link: https://research.pharns.com/
+    name: Notes from the Field - research.pharns.com
   - icon: fontawesome/solid/envelope
     link: mailto:career@pharns.com
     name: Email - career@pharns.com
