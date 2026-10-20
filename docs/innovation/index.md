@@ -18,7 +18,7 @@ This section highlights **UAV systems, RF security research, and patent-filed in
 | **RF Threat Detection** | TraceLock™ 6-domain correlation (Wi-Fi/BLE/SDR/GPS/ADS-B) — rogue APs, trackers, drone proximity |
 | **Aviation Credentials** | FAA Part 107 certified drone pilot |
 | **SDR/Wireless** | HackRF, RTL-SDR — spectrum analysis and signal intelligence |
-| **Consulting** | AAM Cyber, LLC — cyber-physical security services |  
+| **Consulting** | AAM Cyber — cyber-physical security services |  
 
 ---
 

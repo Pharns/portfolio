@@ -18,6 +18,8 @@ Best fit for teams that need governed AI execution, not just policy decks.
 
 USAF Veteran · Held Secret clearance (inactive), clearance-eligible · Security+/CySA+/PenTest+/SSCP · FAA Part 107 · B.S. Cybersecurity (March 2026)
 
+Founder of [AAM Cyber →](https://aamcyber.com/){target=_blank}
+
 [Hire Me →](contact.md#hire-me){ .btn-primary }
 
 <small>Open to full-time AI governance and AI security engineering roles. Consulting engagements are handled separately — see [Consulting & IP](#consulting-ip) below.</small>
@@ -325,7 +327,7 @@ AWS Cloud Practitioner, ISC² CCSP
 
 ## Consulting & IP
 
-I run **AAM Cyber, LLC**, a cybersecurity consultancy, and hold patent-filed IP through a separate holding entity. That history is why the governance work exists — and it raises fair questions for an employer. Answering them plainly:
+I run **AAM Cyber**, a cybersecurity consultancy, and hold patent-filed IP through a separate holding entity. That history is why the governance work exists — and it raises fair questions for an employer. Answering them plainly:
 
 - **Full-time employment is the primary commitment.** I am seeking a full-time individual-contributor role, not a contract bridge between engagements.
 - **Pre-existing IP is already separated.** The patent portfolio is held by a dedicated IP holding entity, formed before any employment conversation, and is disclosed at hire.
@@ -340,7 +342,7 @@ I run **AAM Cyber, LLC**, a cybersecurity consultancy, and hold patent-filed IP 
 
 > "Pharns delivered a complete compliance package with documentation quality that rivals consultants with twice his experience. His ability to implement technical controls while maintaining audit-ready evidence is rare."
 >
-> — Compliance lead, healthcare MSP engagement, 2024 (via AAM Cyber, LLC)
+> — Compliance lead, healthcare MSP engagement, 2024 (via AAM Cyber)
 
 <small>*Client named on request under NDA; references available to hiring teams.*</small>
 
@@ -361,7 +363,7 @@ Advanced Air Mobility (AAM) security requires practitioners who understand the e
 | **RF Threat Detection** | TraceLock™ 6-domain correlation (Wi-Fi/BLE/SDR/GPS/ADS-B) — rogue APs, trackers, drone proximity |
 | **Aviation Credentials** | FAA Part 107 certified drone pilot |
 | **SDR/Wireless** | HackRF, RTL-SDR — spectrum analysis and signal intelligence |
-| **Consulting** | AAM Cyber, LLC — cyber-physical security services |
+| **Consulting** | AAM Cyber — cyber-physical security services |
 | **Military Aviation** | USAF aeromedical operations background |
 
 [View Innovation Projects](innovation/index.md){ .btn-ghost }

@@ -112,7 +112,7 @@ Advanced Air Mobility security requires practitioners who understand engineering
 - TraceLock™ RF detection across 6 wireless domains
 - FAA Part 107 certified drone pilot
 - Software-defined radio and wireless security expertise
-- AAM Cyber, LLC consulting operations
+- AAM Cyber consulting operations
 
 **Target roles:** UAV Security Engineer · Aviation Cybersecurity · Drone Program Security
 

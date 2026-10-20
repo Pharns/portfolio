@@ -16,7 +16,7 @@ GRC Engineer with 7 years of production infrastructure security experience and a
 
 ## PROFESSIONAL EXPERIENCE
 
-### AAM Cyber, LLC — Founder & GRC Consultant
+### AAM Cyber — Founder & GRC Consultant
 *2024 – Present · Remote*
 
 Security consulting practice delivering compliance automation and GRC engineering for SMBs across regulated industries.

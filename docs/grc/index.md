@@ -68,7 +68,7 @@ Windows 11 baseline hardening for compliance-sensitive environment. BitLocker en
 </div>
 </div>
 
-<small>*Client engagements via AAM Cyber, LLC. References available upon request.*</small>
+<small>*Client engagements via AAM Cyber. References available upon request.*</small>
 
 ---
 

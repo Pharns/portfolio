@@ -23,7 +23,7 @@ Security Engineer with 7 years of production infrastructure security experience 
 
 ## Professional Experience
 
-### AAM Cyber, LLC — Security Engineer & Founder
+### AAM Cyber — Security Engineer & Founder
 *2024 – Present · Remote*
 
 Security consulting practice delivering compliance automation and GRC engineering for SMBs across regulated industries.
