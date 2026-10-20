@@ -227,7 +227,7 @@ The normative doctrine behind this framework is published as the **Five Laws of 
 - **Repository:** [github.com/Pharns/The-Five-Laws-of-AI-Governance](https://github.com/Pharns/The-Five-Laws-of-AI-Governance)
 - **DOI (all versions):** [10.5281/zenodo.21271749](https://doi.org/10.5281/zenodo.21271749)
 
-> Genece, P. (2026). *The Five Laws of AI Governance* (Version 1.0.1). Zenodo. https://doi.org/10.5281/zenodo.21271750
+> Genece, Pharns. (2026). *The Five Laws of AI Governance* (Version 1.0.1). Zenodo. https://doi.org/10.5281/zenodo.21271750
 
 <script type="application/ld+json">
 {
