@@ -1,4 +1,4 @@
-site_name: AI Governance Engineer | NIST OLIR Cataloged | USPTO Patent-Filed (5 Provisionals) — Portfolio | Pharns Genece
+site_name: Pharns Genece
 site_url: https://portfolio.pharns.com
 site_description: "AI governance engineer. I build the runtime controls that make AI agents trusted to operate, cataloged by NIST as three Final OLIR references. 5 patent filings."
 site_author: Pharns Genece
@@ -37,6 +37,7 @@ theme:
       icon: material/weather-night
       name: Switch to light mode
 extra:
+  home_title: "Pharns Genece — AI Governance Engineer, NIST OLIR Cataloged"
   version: "2026.02.20"
   stack_version: "v4.0"
 
