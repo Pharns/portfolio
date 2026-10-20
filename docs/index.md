@@ -12,7 +12,7 @@ My perspective comes from working across the autonomy continuum: automation → 
 
 Runtime AI governance and governed autonomous execution — built, operating, and now cataloged in the NIST OLIR catalog with three Final Informative References.
 
-My runtime AI governance framework, SDOS, is cataloged in the NIST OLIR catalog against AI RMF 1.0 (Reference ID 220), Cybersecurity Framework 2.0 (Reference ID 215), and SP 800-53 Rev 5.2.0 (Reference ID 217) — enforcement at the runtime layer, mapped to all three federal references. From patent-filed autonomous execution architecture to compliance automation, control implementation, and detection engineering, every project here demonstrates one principle: AI without governance isn't safe to ship.
+My runtime AI governance framework, SDOS, is cataloged in the NIST OLIR catalog against [AI RMF 1.0]({{ nist_ai_rmf }}){target=_blank}, [Cybersecurity Framework 2.0]({{ nist_csf }}){target=_blank}, and [SP 800-53 Rev 5.2.0]({{ nist_800_53 }}){target=_blank} — enforcement at the runtime layer, mapped to all three federal references. From patent-filed autonomous execution architecture to compliance automation, control implementation, and detection engineering, every project here demonstrates one principle: AI without governance isn't safe to ship.
 
 Best fit for teams that need governed AI execution, not just policy decks.
 
@@ -31,7 +31,7 @@ Founder of [AAM Cyber →](https://aamcyber.com/){target=_blank}
 <div class="stat-grid" markdown>
 <div class="stat-tile" markdown>
 **NIST OLIR Trifecta cataloged runtime AI governance framework**
-Three Final Informative References cataloged at NIST (Final June 2026, zero comments): [Ref 220 — AI RMF 1.0](https://csrc.nist.gov/projects/olir/informative-reference-catalog/details?referenceId=220){target=_blank} · [Ref 215 — CSF 2.0](https://csrc.nist.gov/projects/olir/informative-reference-catalog/details?referenceId=215){target=_blank} · [Ref 217 — SP 800-53 Rev 5.2.0](https://csrc.nist.gov/projects/olir/informative-reference-catalog/details?referenceId=217){target=_blank}. OLIR catalog inclusion is an informative reference, not a NIST endorsement.
+Three Final Informative References cataloged at NIST (Final June 2026, zero comments): [AI RMF 1.0]({{ nist_ai_rmf }}){target=_blank} · [CSF 2.0]({{ nist_csf }}){target=_blank} · [SP 800-53 Rev 5.2.0]({{ nist_800_53 }}){target=_blank}. OLIR catalog inclusion is an informative reference, not a NIST endorsement.
 </div>
 <div class="stat-tile" markdown>
 **Two published, DOI-archived governance references**
@@ -154,7 +154,7 @@ Comprehensive security assessment and remediation. M365 hardening, dark web moni
     "@id": "https://portfolio.pharns.com/#pharns"
   },
   "name": "Pharns Genece — AI Security Engineer Portfolio",
-  "description": "First-person cybersecurity and AI governance portfolio covering SDOS, a NIST OLIR Trifecta-cataloged Final Informative Reference across AI RMF 1.0 (Ref 220), CSF 2.0 (Ref 215), and SP 800-53 Rev 5.2.0 (Ref 217), patent-filed governed autonomous execution, RF threat detection, and UAV security architectures.",
+  "description": "First-person cybersecurity and AI governance portfolio covering SDOS, a NIST OLIR Trifecta-cataloged Final Informative Reference across AI RMF 1.0, CSF 2.0, and SP 800-53 Rev 5.2.0, patent-filed governed autonomous execution, RF threat detection, and UAV security architectures.",
   "url": "https://portfolio.pharns.com",
   "dateModified": "2026-09-09"
 }
@@ -386,7 +386,7 @@ Guardrails and most AI safety frameworks are advisory — they recommend behavio
 
 ### What does NIST OLIR catalog inclusion mean?
 
-The NIST Online Informative References Program is the federal registry of frameworks that map to NIST core standards. Three SDOS Concept Crosswalks are cataloged: SDOS-RuntimeGov-to-AI-RMF-v1.0 (Reference ID 220), SDOS-RuntimeGov-to-CSF-2.0-v1.0 (Reference ID 215), and SDOS-RuntimeGov-to-SP-800-53-Rev-5.2.0-v1.0 (Reference ID 217) — meaning any organization implementing AI RMF, CSF 2.0, or SP 800-53 has a publicly cataloged pathway to a runtime governance layer that enforces, not just advises. OLIR catalog inclusion is an informative reference, not a NIST endorsement of the framework.
+The NIST Online Informative References Program is the federal registry of frameworks that map to NIST core standards. Three SDOS Concept Crosswalks are cataloged: [SDOS-RuntimeGov-to-AI-RMF-v1.0]({{ nist_ai_rmf }}){target=_blank}, [SDOS-RuntimeGov-to-CSF-2.0-v1.0]({{ nist_csf }}){target=_blank}, and [SDOS-RuntimeGov-to-SP-800-53-Rev-5.2.0-v1.0]({{ nist_800_53 }}){target=_blank} — meaning any organization implementing AI RMF, CSF 2.0, or SP 800-53 has a publicly cataloged pathway to a runtime governance layer that enforces, not just advises. OLIR catalog inclusion is an informative reference, not a NIST endorsement of the framework.
 
 ### Why does AI agent governance matter for regulated organizations?
 
@@ -414,7 +414,7 @@ Autonomous AI agents take actions that affect data, money, infrastructure, and h
       "name": "How is SDOS different from AI guardrails or AI safety frameworks?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Guardrails and most AI safety frameworks are advisory. SDOS is enforcement-bearing — agents physically cannot execute actions the policy layer denies. The framework is cataloged in the NIST OLIR catalog as a Trifecta of Final Informative References against AI RMF 1.0 (Ref 220), CSF 2.0 (Ref 215), and SP 800-53 Rev 5.2.0 (Ref 217)."
+        "text": "Guardrails and most AI safety frameworks are advisory. SDOS is enforcement-bearing — agents physically cannot execute actions the policy layer denies. The framework is cataloged in the NIST OLIR catalog as a Trifecta of Final Informative References against AI RMF 1.0, CSF 2.0, and SP 800-53 Rev 5.2.0."
       }
     },
     {
@@ -422,7 +422,7 @@ Autonomous AI agents take actions that affect data, money, infrastructure, and h
       "name": "What does NIST OLIR catalog inclusion mean?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The NIST OLIR Program is the federal registry of frameworks mapping to NIST core standards. Three SDOS Concept Crosswalks are cataloged: SDOS-RuntimeGov-to-AI-RMF-v1.0 (Ref 220), SDOS-RuntimeGov-to-CSF-2.0-v1.0 (Ref 215), and SDOS-RuntimeGov-to-SP-800-53-Rev-5.2.0-v1.0 (Ref 217). OLIR catalog inclusion is an informative reference, not a NIST endorsement of the framework."
+        "text": "The NIST OLIR Program is the federal registry of frameworks mapping to NIST core standards. Three SDOS Concept Crosswalks are cataloged: SDOS-RuntimeGov-to-AI-RMF-v1.0, SDOS-RuntimeGov-to-CSF-2.0-v1.0, and SDOS-RuntimeGov-to-SP-800-53-Rev-5.2.0-v1.0. OLIR catalog inclusion is an informative reference, not a NIST endorsement of the framework."
       }
     },
     {
@@ -430,7 +430,7 @@ Autonomous AI agents take actions that affect data, money, infrastructure, and h
       "name": "Why does AI agent governance matter for regulated organizations?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Federal procurement, EU AI Act compliance, and NIST-aligned vendor risk programs require demonstrable AI risk management. Regulated organizations need controls that operate at the moment AI agents take action. SDOS closes that gap and is now NIST OLIR-cataloged across three references — AI RMF 1.0 (Ref 220), CSF 2.0 (Ref 215), and SP 800-53 Rev 5.2.0 (Ref 217)."
+        "text": "Federal procurement, EU AI Act compliance, and NIST-aligned vendor risk programs require demonstrable AI risk management. Regulated organizations need controls that operate at the moment AI agents take action. SDOS closes that gap and is now NIST OLIR-cataloged across three references — AI RMF 1.0, CSF 2.0, and SP 800-53 Rev 5.2.0."
       }
     },
     {

@@ -40,6 +40,10 @@ extra:
   home_title: "Pharns Genece — AI Governance Engineer, NIST OLIR Cataloged"
   version: "2026.02.20"
   stack_version: "v4.0"
+  # NIST OLIR catalog detail pages, defined once; use {{ nist_ai_rmf }} etc. in docs.
+  nist_ai_rmf: "https://csrc.nist.gov/projects/olir/informative-reference-catalog/details?referenceId=220"
+  nist_csf: "https://csrc.nist.gov/projects/olir/informative-reference-catalog/details?referenceId=215"
+  nist_800_53: "https://csrc.nist.gov/projects/olir/informative-reference-catalog/details?referenceId=217"
 
   social:
   - icon: fontawesome/brands/github
