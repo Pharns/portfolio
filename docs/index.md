@@ -1,5 +1,5 @@
 ---
-description: "AI Governance Engineer. I build the systems that make AI agents trusted to operate. SDOS runtime AI governance framework is cataloged in the NIST OLIR catalog as a Trifecta of Final Informative References — against AI RMF 1.0 (Reference ID 220), CSF 2.0 (Reference ID 215), and SP 800-53 Rev 5.2.0 (Reference ID 217). Patent-filed governed autonomous execution, TraceLock RF threat detection, GIAP compliance automation, and detection engineering."
+description: "AI governance engineer. I build the runtime controls that make AI agents trusted to operate, cataloged by NIST as three Final OLIR references. 5 patent filings."
 ---
 
 # Pharns Genece
