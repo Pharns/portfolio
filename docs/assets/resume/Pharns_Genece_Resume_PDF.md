@@ -1,115 +1,109 @@
 # PHARNS GENECE
 
-**GRC Engineer | Cloud Security | Detection Engineering | RF/SDR Security**
+**AI Security Engineer — Governed AI Systems · Detection Engineering · AI/LLM Pipelines**
 
-career@pharns.com | portfolio.pharns.com | linkedin.com/in/pharns | Remote (US/EU/International)
+Remote US | career@pharns.com | linkedin.com/in/pharns | portfolio.pharns.com
+
+::: credentials
+**5 USPTO Provisional Patents Filed** — AI Governance & Agent Security · **3 NIST OLIR Final Informative References** (AI RMF · CSF 2.0 · SP 800-53) · **M.S. Cybersecurity** (enrolled, starts late 2026) · **B.S. Cybersecurity** (NSA CAE) · PenTest+ · CySA+ · Security+ · Associate of ISC2 (SSCP) · U.S. Air Force Veteran · Held Secret Clearance (inactive) · TSA-vetted (TWIC)
+:::
 
 ---
 
-## PROFESSIONAL SUMMARY
+::: headline
+AI Security & Governance  |  Detection Engineering  |  AI/LLM-Native Pipelines
+:::
 
-GRC Engineer with 7 years of production infrastructure security experience and a career of mission-critical operations (USAF). I build audit-ready control frameworks, evidence pipelines, and compliance automation—then implement the technical controls, not just document them. Unique combination of GRC discipline, cloud security, detection engineering, and RF/hardware security expertise.
+My perspective comes from working across the autonomy continuum: automation to autonomy to AI, from sUAS and physical autonomous systems to cybersecurity and digital AI agents. I governed machines that could hurt someone before I governed software, and the control problem turned out to be the same one — risk tiering, defined enforcement points, fail-safe defaults, and a human who holds authority at the moment of action.
 
-**Core Competencies:** CIS Controls v8 | NIST CSF | PCI-DSS v4.0 | SOC 2 | HIPAA | ISO 27001 | AWS Security | SIEM/Detection Engineering | RF/SDR Security | Python Automation
+AI security engineer who builds the runtime controls that keep autonomous AI systems safe — risk-tiered policy enforcement, egress governance, and tamper-evident audit, implemented in production Python. Strong engineering across detection logic, AI/LLM-native data pipelines, and MCP-server development that connects AI systems to external tools. Authored three governance control-mappings cataloged as Final Informative References on NIST's OLIR program (published, csrc.nist.gov), and filed five USPTO provisional patents on the methods. Multi-signal correlation background (RF, BLE, Wi-Fi, ADS-B) with quantified empirical results. Offensive-security trained (PenTest+, CySA+); held a Secret clearance (inactive), clearance-eligible, TWIC-vetted. U.S. Air Force veteran — I governed physical autonomous systems before governing digital ones.
+
+---
+
+## SKILLS
+
+- **Languages:** Python (primary — detection logic, data pipelines, API integration, automation) · SQL · Bash · JSON/YAML
+- **Data & Pipelines:** production data-pipeline orchestration (n8n — scheduled, monitored, server-side) · ingestion & enrichment · web scraping & normalization · API integration · vector embeddings / RAG · dbt (Core): staging→mart models with passing tests on live abuse.ch threat feeds
+- **AI Systems:** LLM API integration (Claude, OpenAI, Gemini, Ollama) · MCP server development · LLM-assisted extraction & automation · edge AI (Gemma 4B)
+- **Threat & Detection:** Indicators of Compromise (IOC) correlation · rule-based detection & pattern-matching (production rule/signature logic via TraceLock) · TTP extraction · MITRE ATT&CK · threat modeling · penetration testing · Kismet · SDR · Caldera
+- **Infrastructure:** Linux administration · Proxmox · Docker · Tailscale · Git
 
 ---
 
 ## PROFESSIONAL EXPERIENCE
 
-### AAM Cyber — Founder & GRC Consultant
-*2024 – Present | Remote*
+### Enterprise AI-Governance System — Architecture & Build · 2024 – Present
+*Founder / Principal Architect · Python*
+Architected and built an enterprise AI-governance system from the ground up — intake, risk tiering, dispatch-time policy enforcement, escalation, and tamper-evident audit. Implemented policy enforcement points governing agent actions, memory access, and egress; built governed vector memory with trust-weighted retrieval and contradiction detection. Authored governance control-mappings aligned to NIST AI RMF, ISO 42001, and the EU AI Act — **three cataloged as Final Informative References on NIST's OLIR program** (independent, publicly verifiable on csrc.nist.gov). Filed five USPTO provisional patents (AI governance & agent security) on the methods.
 
-Security consulting practice delivering compliance automation and GRC engineering for SMBs across regulated industries.
+### Security, Privacy & AI-Compliance Consultant — External Clients (AAM Cyber) · Dec 2024 – Present
+*Retained by external clients across multiple engagements — financial, legal, and senior-care sectors*
+Engaged by external clients — including a mortgage-brokerage, a law firm, and senior-care organizations — to deliver security, privacy, and compliance work: control mapping across SOC 2, ISO 27001, and NIST CSF; audit-readiness and gap analysis. For the law firm, assessed AI-compliance posture and began remediation. Built and operate a production GRC-automation platform (automated intake → control mapping across 100+ frameworks → POA&M generation), cutting audit-prep effort ~70%.
 
-- **Healthcare MSP:** Conducted HIPAA + SOC 2 readiness assessment; identified 12 control gaps and delivered prioritized 90-day remediation roadmap
-- **Financial Services:** Delivered PCI-DSS Windows 11 endpoint hardening with 47 controls mapped to CIS benchmarks; audit-ready evidence pack in <48 hours
-- **Law Firm:** Comprehensive security assessment including M365 hardening, dark web monitoring deployment, and high-volume vulnerability remediation
-- **Built GIAP™:** Production GRC automation platform (CISO Assistant + n8n + Nextcloud) with HMAC-secured webhook integrations
-
-### USOG — Founder / Security & Systems Lead
-*2018 – 2025 | Drone Logistics & Operations*
-
-Led drone logistics company while serving as hands-on systems administrator. Built entire IT security infrastructure from scratch.
-
-- **Implemented CIS Controls v8 (IG1-IG2)** mapped to NIST CSF and SOC 2 trust criteria across all business systems
-- **Remediated 15,000+ vulnerabilities** identified through continuous scanning over multi-year infrastructure lifecycle
-- **Deployed enterprise security stack:** Self-hosted email, Nextcloud file storage, VPN remote access, backup systems, dark web monitoring, endpoint protection
-- **Maintained audit-ready posture** with documented evidence collection, access controls, and compliance configurations
-- **Architected, deployed, hardened, and maintained** all systems—real-world GRC implementation at scale
-
-### United States Air Force — Aeromedical Evacuation Aircrew
-*Career USAF | Military Aviation*
-
-Non-rated aeromedical evacuation aircrew — in-flight patient care across C-130/C-17/C-9, with continuous in-flight risk management and zero margin for error.
-
-- Executed life-safety medical operations with strict protocols, documentation, and compliance requirements
-- Held Secret clearance during USAF service (inactive)
-- Developed disciplined execution and audit culture applicable to cybersecurity operations
-
-### MiraCosta College — Adjunct Educator
-*UAS/Drone Technology*
-
-Taught drone technology courses and prepared new pilots for the FAA Part 107 exam, including its regulatory compliance content: translating federal aviation rules into practice for first-time operators.
-
----
-
-## TECHNICAL SKILLS
-
-| Category | Technologies & Frameworks |
-|----------|--------------------------|
-| **GRC Frameworks** | NIST CSF, CIS Controls v8, PCI-DSS v4.0, SOC 2, HIPAA, ISO 27001, FedRAMP |
-| **Cloud Security** | AWS (IAM, S3, GuardDuty, CloudTrail, Security Hub), Policy-as-Code, Terraform |
-| **Detection & IR** | Security Onion, Wazuh, TheHive/Cortex, Sigma Rules, Suricata, Zeek |
-| **Automation** | Python, n8n, CISO Assistant, Evidence Pipelines, Shell Scripting |
-| **RF/Wireless** | RTL-SDR, HackRF, Bluetooth/BLE, Wi-Fi, ADS-B, GPS |
-| **Infrastructure** | Proxmox, Nextcloud, Nginx, Docker, Linux Administration |
-
----
-
-## CERTIFICATIONS
-
-**Active (14):** CySA+ | PenTest+ | Security+ | Network+ | A+ | Project+ | ISC2 CC | SSCP (Assoc.) | ITIL 4 | LPI Linux Essentials | CSIS | CIOS | CSAP | CNSP | CNVP
-
-**Planned (Q2-Q3 2026):** AWS Cloud Practitioner | CCSP
-
-**Licenses:** FAA Part 107 | HAM Radio | GMRS
-
----
-
-## EDUCATION
-
-**Bachelor of Science, Cybersecurity & Information Assurance**
-Western Governors University | Conferred March 2026
-
-- Capstone: TraceLock™ — Patent-filed RF threat detection system
+### UAS Payload-Delivery Platform — Systems & Security Program (USOG) · 2018 – 2025
+*Founder / Security & Systems Lead*
+Designed a UAS payload-delivery platform integrating airframe, flight computer, a secondary avionics controller, and a cargo subsystem — deriving the interface requirements between them. Authored the safety rules, operational roles, and standard operating procedures for drone operations (a risk-tiering, escalation, and approval framework). Built the security program from scratch (CIS Controls v8 → NIST CSF / SOC 2); led program delivery and cross-functional teams from individual contributor to executive level.
 
 ---
 
 ## KEY PROJECTS
 
-**TraceLock™ — RF Threat Detection Platform** *(Patent Filed)*
-Multi-domain wireless monitoring (Wi-Fi, Bluetooth, SDR, GPS, ADS-B). 25 Python modules, ~12,500 LOC.
+### TraceLock — Multi-Domain Signal Detection & Correlation
+*Python · Kismet · SDR · 2024 – Present*
+Multi-protocol detection platform fusing RF, BLE, Wi-Fi, and ADS-B telemetry with behavioral analytics and baseline anomaly detection. **Detected all target events across three controlled runs vs. 43% with the manual baseline; 57% time reduction; fully reproducible** — KPI-driven, with SHA-256 integrity validation on all captured evidence. Runs in production on a Raspberry Pi sensor; undergraduate capstone extended into an ongoing system. **Governed under the same control model I apply to software agents** — defined detection thresholds, escalation criteria, evidence integrity, and the human-decision boundary.
 
-**GIAP™ — Governed Intake and Analysis Platform**
-End-to-end GRC automation with n8n orchestration. Production MVP with 4 operational workflows.
+### Governance for Autonomous Physical Systems — FAA UAS/AAM Control Alignment
+*Published reference · aamcyber.com*
+Published a principles-mapped control alignment for FAA-regulated autonomous UAS and AAM operations, built from first principles against FAA source material because no single enforceable federal AI governance standard covers that domain yet. **Writing controls where the standard does not exist is a different skill than mapping to one that does** — and it is the same position frontier AI is in now. Antecedent: commercial drone-delivery operations flying automated and autonomous missions under FAA Part 107, where the remote-pilot-in-command requirement is a regulator-mandated human-in-the-loop control on an autonomous system.
 
-**Detection & IR Lab**
-Security Onion SIEM, TheHive/Cortex. 12 custom Sigma rules (~20% FP reduction), 8 IR playbooks.
+### AJR — LLM-Assisted Signal Ingestion & Routing Pipeline
+*Python · n8n · Claude API · 2025 – Present*
+Production detection-and-enrichment pipeline ingesting ~170–193 items/run from 28+ web sources, RSS feeds, and three aggregators (dedup, normalization, enrichment), twice daily. Uses Claude to extract structured TTP-style indicators and generate hunting/triage queries from unstructured text — the same architecture as a CTI enrichment pipeline. Scheduled, server-side, monitored.
 
-**AgenticOS** *(Open Source)*
-Deterministic AI orchestration with audit-grade logging. 6,361 lines Python. github.com/Pharns/AgenticOS
-
----
-
-## ADDITIONAL INFORMATION
-
-- **Citizenship:** US Citizen
-- **Clearance:** Held Secret (USAF, inactive); clearance-eligible
-- **Availability:** Immediate
-- **Work Style:** Remote-first | Async collaboration | US/EU/LatAm time zones
-- **International:** Open to global opportunities; visa sponsorship required for relocation
-- **Patents:** USPTO grants in UAV payload and delivery systems
+### MCP Server Development — AI-to-Tool Connectors
+*Python · Node · Model Context Protocol · 2025 – Present*
+Designed and operate MCP servers exposing external infrastructure and data as governed AI-callable tools: a Proxmox server in daily use across a 48-VM homelab, and a multi-module governance server (61 tools across 10 signed modules) spanning threat-hunt, compliance, and OSINT — with signed-module identity verification and hot-reload for safe runtime tool management.
 
 ---
 
-*References available upon request*
+## EARLIER EXPERIENCE & MILITARY SERVICE
+
+### Aeromedical Evacuation Aircrew — U.S. Air Force
+Non-rated flight crew delivering in-flight patient care and medical evacuation — regulated clinical operations under strict medical protocol, documentation, and safety standards. Mastered the aircraft and all emergency systems at crew level across multiple heterogeneous airframes (C-130, C-17, C-9); reconfigured aircraft for the aeromedical mission and executed ongoing in-flight risk management with zero margin for error. Regulated-healthcare and safety-critical systems background that predates — and informs — the governance work above. Held Secret clearance (inactive).
+
+### Audio Engineer — The Walt Disney Company
+Integrated audio, stage lighting, stage movement, and live performance into a single synchronized real-time production — systems integration under strict timing and safety constraints.
+
+---
+
+## EDUCATION
+
+- **M.S. Cybersecurity & Information Assurance** — Western Governors University *(enrolled, starts late 2026)*
+- **B.S. Cybersecurity & Information Assurance** — Western Governors University *(conferred March 2026; NSA&nbsp;CAE&#8209;validated)*
+    - Relevant coursework: Data Management — Foundations & Applications (relational schema design, SQL querying, normalization) · Programming in Python · Digital Forensics · Penetration Testing & Vulnerability Analysis
+    - Capstone: *TraceLock* — RF threat detection & forensic analysis; empirical study with quantified outcomes (above)
+
+- **ROV/Drone Operator Technician Program** — MiraCosta College, Technology Career Institute (Carlsbad, CA)
+    - Certificate of Accomplishment, **486 hours**; initial cohort of the program
+    - Remotely operated underwater vehicles and unmanned aircraft: machine design, submersible robotics, ROV and UAV piloting, programmable controllers, data acquisition and control, GIS, FAA licensing requirements and regulations
+    - Included OSHA-10, Career Readiness, and Leadership Training
+
+---
+
+## CERTIFICATIONS
+
+Associate of ISC2 (SSCP) · ISC2 CC · CompTIA PenTest+ · CySA+ · Security+ · Network+ · A+ · Project+ · ITIL 4 · LPI Linux Essentials · CNSP · CNVP  *(active industry certifications across security, networking, and operations — independently verifiable on Credly; CompTIA stackable credentials additional.)*
+
+**OSHA 30-Hour General Industry Safety and Health** — OSHA Training Institute Education Center, UC San Diego; completed at MiraCosta College, Technology Career Institute *(card number available on request; does not expire)*
+
+**FAA Remote Pilot Certificate** — small Unmanned Aircraft Systems (Part 107)
+
+**TSA-vetted (TWIC)** *(current)* · **Arizona DPS Level One Fingerprint Clearance Card** *(current)*  
+
+**FCC Amateur Radio License** — Technician class *(active through 2031)* · **FCC General Mobile Radio Service (GMRS) License** *(active through 2033)*  
+
+---
+
+---
+
+*U.S. Citizen · Veteran · Targeting remote roles · Open to 25% in-office / relocation*
