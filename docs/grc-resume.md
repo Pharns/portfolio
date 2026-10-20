@@ -1,4 +1,4 @@
-# Pharns Génécé — GRC-Focused Resume
+# Pharns Genece — GRC-Focused Resume
 
 **Pronounced “Founce”** · US-based · Remote-first · Open to relocation  
 LinkedIn: https://www.linkedin.com/in/pharns/ · GitHub: https://github.com/Pharns
