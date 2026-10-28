@@ -264,7 +264,7 @@ Governance-focused RF assessment of BLE and Wi-Fi activity in smart-building dep
 
 <div class="section-panel" markdown>
 
-**Current capability:** Active detection/IR lab with Security Onion, TheHive/Cortex, custom SIEM rules, and authored detections. TraceLock™ RF/SDR telemetry demonstrates detection engineering fundamentals across 6 wireless domains.
+**Current capability:** Active detection/IR lab with Security Onion, TheHive/Cortex, custom SIEM rules, and authored detections. TraceLock™ RF/SDR telemetry demonstrates detection engineering fundamentals across 5 wireless sensing domains.
 
 **Growth trajectory:** CySA+ and PenTest+ earned 2026, with the CSAP, CNVP, and CNSP stackables — detection and offensive-assessment coverage on both sides of the house. Building the penetration testing portfolio through lab work and vulnerability assessments.
 

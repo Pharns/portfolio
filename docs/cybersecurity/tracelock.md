@@ -5,11 +5,11 @@ description: TraceLock™ — Multi-domain RF threat detection platform with rea
 
 *WGU BSCSIA Capstone · Degree Conferred March 2026*
 
-**Role:** Sole developer | Security-hardened fork | ~12,500 LOC (25 Python modules, 81 shell scripts) | 6 RF domains
+**Role:** Sole developer | Security-hardened fork | ~12,500 LOC (25 Python modules, 81 shell scripts) | 5 sensing domains
 
 !!! success "For Hiring Managers — Detection Engineer / Security Automation"
 
-    **What I Built:** Real-time RF surveillance detection system that monitors 6 wireless domains simultaneously, correlates threats across sensors, and produces forensic-grade evidence logs.
+    **What I Built:** Real-time RF surveillance detection system that monitors 5 wireless sensing domains simultaneously, correlates threats across sensors, and produces forensic-grade evidence logs.
 
     **Technical Stack:** Python 3.10+ · ARM SBC · RF Monitoring Framework · SDR Receivers · BLE Adapters · SQLite · GitHub Actions CI
 
@@ -21,7 +21,7 @@ description: TraceLock™ — Multi-domain RF threat detection platform with rea
     - Real-time alerting with structured logging pipelines
     - Security hardening (parameterized queries, encrypted credentials, input validation)
 
-    **Why This Matters:** If I can build detection logic for RF threats across 6 sensor domains, I can build detection content for your SIEM/EDR platform.
+    **Why This Matters:** If I can build detection logic for RF threats across 5 sensing domains, I can build detection content for your SIEM/EDR platform.
 
 [View TraceLock Public](https://github.com/Pharns/tracelock-public){ .md-button .md-button--primary }
 [Public Artifacts](https://github.com/Pharns/tracelock-public/tree/main/examples){ .md-button target=_blank }
@@ -36,7 +36,7 @@ description: TraceLock™ — Multi-domain RF threat detection platform with rea
 | **Environment** | Raspberry Pi 4 (8GB) · Python 3.10+ · RF Monitoring Framework · RTL-SDR V4 · Ubertooth · SQLite · GitHub Actions CI |
 | **What I built** | Real-time multi-domain sensor fusion: Wi-Fi + BLE + SDR + GPS + ADS-B correlation engine with forensic-grade logging and tunable detection thresholds |
 | **Framework mapping** | Detection engineering fundamentals · evidence-grade logging aligned with audit trail requirements · MITRE ATT&CK for ICS (RF threat vectors) |
-| **Measurable outcome** | Eliminates RF blind spots across 6 simultaneous domains; patent-filed architecture; WGU BSCSIA capstone (Mar 2026) |
+| **Measurable outcome** | Found 7 of 7 planted test devices vs 3 of 7 by manual sweep; total time-to-first-detection cut 57% (7 s → 3 s); reproduced across 3 runs with zero hash mismatches. Patent-filed architecture; WGU BSCSIA capstone (Mar 2026) |
 | **Artifacts** | [Public repo](https://github.com/Pharns/tracelock-public){target=_blank} · ~12,500 LOC · 25 Python modules · 81 shell scripts · example detection outputs |
 
 ---
@@ -71,7 +71,7 @@ Executive protection and security teams face a critical gap: **12-18 minutes of 
 
 | Capability | Traditional WIDS | TraceLock™ |
 |-----------|-----------------|------------|
-| Domains monitored | Wi-Fi only | 6 domains (Wi-Fi, BLE, SDR, GPS, ADS-B, cellular) |
+| Domains monitored | Wi-Fi only | 5 sensing domains (Wi-Fi, Bluetooth Classic/BLE, sub-GHz ISM via SDR, GPS, ADS-B) |
 | Detection approach | Signature-based | Multi-domain correlation with behavioral analysis |
 | Evidence grade | Alert logs only | Forensic-grade structured logging with chain of custody |
 | Hardware | Enterprise appliances ($10K+) | Raspberry Pi + commodity SDR (~$200) |
@@ -87,7 +87,7 @@ Executive protection and security teams face a critical gap: **12-18 minutes of 
 | **Executive Protection** | Physical Security | Surveillance detection, persistence scoring, threat correlation |
 | **Detection Engineering** | SOC/SIEM | Multi-source correlation, threshold tuning, false positive reduction |
 | **Forensic Evidence** | Legal/GRC | Audit-grade logging, KML visualization, chain of custody |
-| **Drone Surveillance** | AAM/Critical Infrastructure | ADS-B decoding, airspace monitoring, RF signal analysis |
+| **Drone Surveillance** | AAM/Critical Infrastructure | FAA Remote ID and ADS-B decoding, airspace monitoring, RF signal analysis |
 
 *TraceLock™ addresses 25+ documented scenarios — from border security to disaster response. The same detection logic applies to any domain requiring multi-sensor correlation.*
 
@@ -137,7 +137,7 @@ TraceLock's detection architecture depends on the Agentic Infrastructure layer f
 
 **Codebase:** 25 Python modules, 81 shell scripts, ~12,500 LOC, GitHub Actions CI
 
-*Software architecture diagram withheld — the system processes data from 6 sensor domains through a detection engine to multiple output formats including structured logs, geospatial exports, and real-time alerts.*
+*Software architecture diagram withheld — the system processes data from 5 sensing domains through a detection engine to multiple output formats including structured logs, geospatial exports, and real-time alerts.*
 
 ### Python Modules
 
@@ -179,6 +179,7 @@ TraceLock™ correlates events across multiple sensor domains to identify compou
 | ISM Trigger | Sub-GHz burst pattern | Pattern library matching |
 | GPS Anomaly | Position discontinuity | Multi-fix averaging |
 | Drone Proximity | ADS-B proximity alert | Flight path prediction |
+| Drone Remote ID | FAA Remote ID broadcast received | Allowlist known operators |
 
 *Specific threshold values and trigger parameters are proprietary.*
 
@@ -190,17 +191,30 @@ TraceLock™ correlates events across multiple sensor domains to identify compou
 - **Audit Logging:** Immutable event logs with cryptographic checksums
 - **Mode Controller:** Role-based capture profiles (lab/demo/field)
 
+
+### 4. Health, Faults and Backhaul
+
+- **Health:** heartbeats in the sensor modules and self-healing scripts, so a silent sensor shows up as a fault.
+- **Fault messaging:** alerts to a command-and-control channel over Signal, WhatsApp or SMS, or into an integrated SIEM, chosen by the security level the deployment needs.
+- **Backhaul:** three paths to C2 — Wi-Fi, cellular, and a Meshtastic LoRa mesh (tested on a 5-node private network and on the public mesh).
+- **In the field it is defensive by design:** passive, receive-only sensing. Transmit-capable testing is restricted to authorized lab conditions.
+
 ---
 
 ## Results & Metrics
 
-| Metric | Target | Current Status |
-|--------|--------|----------------|
-| Detection accuracy (Wi-Fi) | 95%+ | Achieved |
-| Detection accuracy (BLE) | 95%+ | Achieved |
-| False positive rate | <5% | 3.2% (tuned) |
-| Triage time reduction | 50-70% | Pending field validation |
-| Sensor coverage | 6 domains | All operational |
+*Measured in the WGU capstone (February 2026): an indoor residential lab inside a 536-unit apartment complex, a dense ambient RF environment, seven planted test devices, three standardized runs.*
+
+| Metric | Target | Result |
+|--------|--------|--------|
+| Planted test devices detected | ≥95% | 7 of 7 (100%) |
+| Manual-sweep baseline | — | 3 of 7 (42.86%) |
+| Total time-to-first-detection | ≥50% faster than manual | 7 s → 3 s (57.14% faster) |
+| Reproducibility | 3 runs | Consistent across all 3 |
+| Evidence integrity | 0 mismatches | 0 SHA-256 hash mismatches |
+| Sensing domains | 5 | All operational |
+
+*Small sample (7 planted devices); no statistical significance test was run, so results are reported as observed.*
 
 ---
 
@@ -345,10 +359,10 @@ TraceLock™ demonstrates how adversarial signal detection can be governed as an
 ## Frequently Asked Questions
 
 **What is TraceLock?**
-TraceLock is a multi-domain RF threat detection platform that monitors 6 wireless domains simultaneously — Wi-Fi, Bluetooth Low Energy, SDR (ISM band), GPS, ADS-B, and cellular — correlating threats across sensors to produce forensic-grade evidence logs.
+TraceLock is a multi-domain RF threat detection platform that monitors 5 wireless sensing domains simultaneously — Wi-Fi, Bluetooth (Classic and Low Energy), sub-GHz ISM via SDR, GPS, and ADS-B — correlating threats across sensors to produce forensic-grade evidence logs.
 
 **How is TraceLock different from a traditional wireless IDS?**
-Traditional WIDS monitors Wi-Fi only using signature-based detection. TraceLock correlates activity across 6 RF domains with behavioral analysis, runs on a ~$200 Raspberry Pi instead of $10K+ enterprise appliances, and produces chain-of-custody-ready evidence logs.
+Traditional WIDS monitors Wi-Fi only using signature-based detection. TraceLock correlates activity across 5 RF sensing domains with behavioral analysis, runs on a ~$200 Raspberry Pi instead of $10K+ enterprise appliances, and produces chain-of-custody-ready evidence logs.
 
 **What hardware does TraceLock require?**
 A Raspberry Pi 4/5, RTL-SDR dongle, HackRF One (optional), BLE-capable adapter, and GPS receiver. Total hardware cost is approximately $200, compared to $10,000+ for enterprise wireless security appliances.

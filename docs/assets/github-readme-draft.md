@@ -109,7 +109,7 @@ Capstone: TraceLock™ (patent filed)
 Advanced Air Mobility security requires practitioners who understand engineering fundamentals:
 
 - USPTO patent filings (named inventor) in UAV payload and delivery systems
-- TraceLock™ RF detection across 6 wireless domains
+- TraceLock™ RF detection across 5 wireless sensing domains
 - FAA Part 107 certified drone pilot
 - Software-defined radio and wireless security expertise
 - AAM Cyber consulting operations

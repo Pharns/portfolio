@@ -14,7 +14,7 @@ Focused on detection, hardening, and compliance automation with a wireless/RF ed
 - **PCI DSS Endpoint Hardening (Win11)** — Encryption, EDR, patch automation, outbound monitoring in <48 hours; includes controls matrix and screenshots.  
 - **Detection & IR Lab** — Security Onion + TheHive/Cortex + Nessus on Proxmox; authored sample detections, ran incident drills, tuned IDS noise.  
 - **Zero Trust Pilots** — Tailscale vs Twingate vs Netbird; IAM and device posture notes for small teams.  
-- **TraceLock™ — RF Threat Detection** — RF telemetry and evidence-grade logging across six wireless domains.  
+- **TraceLock™ — RF Threat Detection** — RF telemetry and evidence-grade logging across five wireless sensing domains.  
 - **PropTech RF Governance & Scope Control** — Governance case study on RF scope control and privacy risk in smart-building deployments.  
 - **RF/Wireless Security Research** — SDR + UAV payload tests; BLE/Sub-GHz recon; mitigations and safe-by-design notes.  
 

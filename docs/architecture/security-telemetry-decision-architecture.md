@@ -72,7 +72,7 @@ flowchart TD
 
 ### TraceLock™ — multi-domain telemetry and detection
 
-TraceLock™ collects and correlates signals across six wireless domains (Wi-Fi, Bluetooth/BLE, SDR/RF, GPS, ADS-B, LoRa). It provides the raw telemetry layer and first-stage detection for RF and wireless threats. Its outputs feed the broader detection pipeline with evidence-grade signal data.
+TraceLock™ collects and correlates signals across five wireless sensing domains (Wi-Fi, Bluetooth/BLE, SDR/RF, GPS, ADS-B), with a LoRa mesh as a fallback comms path. It provides the raw telemetry layer and first-stage detection for RF and wireless threats. Its outputs feed the broader detection pipeline with evidence-grade signal data.
 
 **Architecture role:** Signal collection and multi-domain detection. Produces structured telemetry that downstream systems can correlate and act on.
 

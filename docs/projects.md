@@ -30,7 +30,7 @@ Patent-filed (Nov 2025) 6-domain wireless monitoring (Wi-Fi/BLE/SDR/GPS/ADS-B). 
 <span class="tag-chip">RF</span> <span class="tag-chip">Detection</span> <span class="tag-chip">Python</span>
 **Tech:** Python, HackRF, RTL-SDR, SQLite, Raspberry Pi
 [Read Full Case Study](cybersecurity/tracelock.md) · [GitHub](https://github.com/Pharns/tracelock-public){target=_blank}
-<small>**Why this matters:** If I can build detection logic for 6 RF domains, I can build detection content for your SIEM</small>
+<small>**Why this matters:** If I can build detection logic for 5 RF sensing domains, I can build detection content for your SIEM</small>
 </div>
 <div class="stat-tile" markdown>
 **Governed Security Architecture** <span class="status-badge">Architecture Artifact</span>

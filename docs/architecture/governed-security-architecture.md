@@ -61,7 +61,7 @@ The governance engine for structured intake, cross-framework control mapping (10
 
 ### TraceLock™ — detection architecture layer
 
-The multi-domain detection platform for signal collection and correlation across six wireless domains (Wi-Fi, Bluetooth/BLE, SDR/RF, GPS, ADS-B, LoRa). TraceLock™ produces evidence-grade telemetry data that feeds both governance evaluation and security decision processes.
+The multi-domain detection platform for signal collection and correlation across five wireless sensing domains (Wi-Fi, Bluetooth/BLE, SDR/RF, GPS, ADS-B), with a LoRa mesh as a fallback comms path. TraceLock™ produces evidence-grade telemetry data that feeds both governance evaluation and security decision processes.
 
 [View TraceLock →](../cybersecurity/tracelock.md)
 

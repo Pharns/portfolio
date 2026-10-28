@@ -229,7 +229,7 @@ Detection engineering extends beyond network/host telemetry. **TraceLock™** ap
 
 - [:material-github: detection-rules](https://github.com/Pharns/detection-rules){target=_blank} — All 12 Sigma rules with CI validation
 - [Detection & IR Lab](incident-response.md) — Full lab documentation with additional drill scenarios
-- [TraceLock™](tracelock.md) — RF/wireless detection engineering across 6 domains
+- [TraceLock™](tracelock.md) — RF/wireless detection engineering across 5 sensing domains
 - [GIAP™](giap.md) — Automation platform demonstrating similar pipeline thinking applied to GRC
 - [Homelab Infrastructure](homelab-infrastructure.md) — The lab environment where this runs
 - [Security Telemetry → Governance → Decision Architecture](../architecture/security-telemetry-decision-architecture.md) — how detection feeds the governed decision pipeline
