@@ -48,7 +48,7 @@ Air Force veteran, aeromedical evacuation aircrew.
 
 ## Credentials
 
-- M.S. Cybersecurity & Information Assurance (WGU) — admitted, begins November 2026
+- M.S. Cybersecurity & Information Assurance (WGU) — admitted, begins late 2026
 - B.S. Cybersecurity & Information Assurance (WGU)
 - 10 industry certifications plus 5 CompTIA stackable credentials
 - CompTIA Security+, CySA+, PenTest+, Network+, A+, Project+
@@ -72,6 +72,47 @@ CIS Controls v8, PCI-DSS v4.0, SOC 2, ISO 27001.
 - "Patent-filed" is accurate; "patent holder" and "patent-pending" are not. Five U.S. provisional applications are on file. Provisional applications are not published by the USPTO, so filing receipts are available on request rather than searchable in public patent databases.
 - OLIR catalog inclusion is an informative reference, not a NIST endorsement or certification.
 - **aamcyber.com is the canonical source for the doctrine and the standard.** This site is the practitioner record supporting it.
+
+## About and credentials
+
+- [About](https://portfolio.pharns.com/about/): Background and approach.
+- [Resume](https://portfolio.pharns.com/resume/): AI governance engineering, AI security, GRC engineering, cloud security, detection engineering. Full version: https://portfolio.pharns.com/resume-full/
+- [Certifications](https://portfolio.pharns.com/certifications/): The certification list above, with Credly verification links.
+- [Contact](https://portfolio.pharns.com/contact/)
+
+## Architecture
+
+- [Security Decision Architecture](https://portfolio.pharns.com/architecture/security-decision-architecture/): Turns telemetry, detection, and governance inputs into structured, defensible security decisions rather than alerts.
+- [Governed Security Architecture](https://portfolio.pharns.com/architecture/governed-security-architecture/): Governance, detection, and automation layers connected into one decision model.
+- [Telemetry → Governance → Decision](https://portfolio.pharns.com/architecture/security-telemetry-decision-architecture/): Capstone architecture from raw signal collection through governance evaluation to a decision.
+- [Architecture Decisions](https://portfolio.pharns.com/architecture/architecture-decisions/): ADRs for governance automation, detection engineering, and agent orchestration.
+- [Security Architecture System Map](https://portfolio.pharns.com/cybersecurity/security-architecture-system-map/): One map of telemetry, detection, analytics, governance, and decision layers across the portfolio.
+
+## Security engineering projects
+
+- [Detection & IR Lab](https://portfolio.pharns.com/cybersecurity/incident-response/): Security Onion, TheHive, Cortex enrichment, custom Sigma rules, alert tuning.
+- [Detection Engineering](https://portfolio.pharns.com/cybersecurity/detection-engineering/): Authored Sigma detections and SIEM tuning.
+- [TraceLock™ — RF security](https://portfolio.pharns.com/cybersecurity/tracelock/): Multi-domain RF threat detection with Python automation and forensic-grade logging.
+- [GIAP™ — GRC automation](https://portfolio.pharns.com/cybersecurity/giap/): Multi-agent GRC automation with n8n and CISO Assistant: intake, control mapping, POA&M generation.
+- [AWS Cloud Control Pack](https://portfolio.pharns.com/cybersecurity/aws-control-pack/): S3 default-deny, GuardDuty export, scoped IAM with CIS/NIST mapping (Terraform reference implementation).
+- [Windows 11 PCI-DSS hardening](https://portfolio.pharns.com/cybersecurity/windows11-pcidss-hardening/): Endpoint hardening with an evidence pack and controls mapping. Design detail: https://portfolio.pharns.com/cybersecurity/pci-dss/
+- [Baseline Evidence Drop](https://portfolio.pharns.com/cybersecurity/baseline-evidence-drop/): Consent-first Windows evidence collector with hashes, manifest, and control mapping.
+- [dbt CTI pipeline](https://portfolio.pharns.com/cybersecurity/dbt-cti-pipeline/): abuse.ch threat feeds transformed into analytics tables with dbt Core and DuckDB.
+- [Vulnerability Assessment](https://portfolio.pharns.com/cybersecurity/vulnerability-assessment/): Nessus, OpenVAS, and Nmap with CVSS-based prioritization and ATT&CK mapping.
+- [Penetration Testing](https://portfolio.pharns.com/cybersecurity/penetration-testing/): Lab work and hardware toolkit (HackRF, Flipper Zero, LoRa) from a purple-team perspective.
+- [Private Inbox Zero](https://portfolio.pharns.com/cybersecurity/private-inbox-zero/): Self-hosted email triage with mandatory PII redaction, immutable audit logs, and rollback.
+- [GRC overview](https://portfolio.pharns.com/grc/) · [Cybersecurity overview](https://portfolio.pharns.com/cybersecurity/)
+
+## Innovation
+
+- [Innovation overview](https://portfolio.pharns.com/innovation/): Runtime governance, UAV engineering, RF security research, and patent-filed work.
+- [Runtime governance framework](https://portfolio.pharns.com/innovation/sdos-governance-framework/): Practitioner summary. The canonical documentation is at aamcyber.com.
+- [AQ Scale™](https://portfolio.pharns.com/innovation/aq-scale/): Practitioner summary of the measurement standard. Canonical: https://aamcyber.com/aq/
+- [Patent portfolio](https://portfolio.pharns.com/innovation/patent-portfolio/): Five U.S. provisional applications, 45 families, 334 claims.
+- [Governed Agent Gateway](https://portfolio.pharns.com/innovation/governed-agent-gateway/): Orchestration with policy enforcement separated from model execution.
+- [AgenticOS](https://portfolio.pharns.com/innovation/agenticos/): Deterministic agent orchestration with explainable routing and audit-grade logging.
+- [SDR & RF security research](https://portfolio.pharns.com/innovation/rf-security/): UAV C2 link analysis, wireless protocol reverse engineering, HackRF/RTL-SDR testing.
+- [Drone payload systems](https://portfolio.pharns.com/innovation/drone-payload-systems/): UAV payload architectures for wireless security testing and field operations.
 
 ## Links
 

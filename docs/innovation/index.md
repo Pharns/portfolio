@@ -35,7 +35,7 @@ This section highlights **UAV systems, RF security research, and patent-filed in
 - **[Agentic Infrastructure Audit](agentic-infrastructure-audit.md)** → multi-machine AI governance audit; drift detection, canonical architecture standard (8 ADRs), automated congruence validation.
 - **[AgenticOS — AI Orchestration](agenticos.md)** → deterministic, auditable AI agent orchestration layer with explainable routing, structured logging, and multi-provider execution.
 - **[TraceLock™ RF Threat Detection](../cybersecurity/tracelock.md)** → patent-filed multi-domain RF surveillance detection platform with forensic-grade logging (Wi-Fi/Bluetooth/SDR/GPS/ADS-B).
-- **[Drone Payload Systems](drone-payload-systems.md)** → patented and patent-filed UAV payload architectures designed for wireless security testing and mission adaptability.
+- **[Drone Payload Systems](drone-payload-systems.md)** → UAV payload architectures from USPTO patent filings (named inventor), designed for wireless security testing and mission adaptability.
 - **[SDR & RF Security Research](rf-security.md)** → applied software-defined radio (SDR) for UAV interception, wireless analysis, and payload integration.
 - **[3D-Printed & Modular Systems](modular-designs.md)** → engineered modular housings and payload adapters for SDR and penetration-testing hardware.
 - **[Innovation Write-Ups](innovation-blogs.md)** → research notes, prototypes, and technical deep dives connecting UAV and cybersecurity domains.  
@@ -43,7 +43,7 @@ This section highlights **UAV systems, RF security research, and patent-filed in
 ---
 
 ## Key competencies  
-- **System Innovation** → patented UAV payload architectures and modular hardware design  
+- **System Innovation** → patent-filed UAV payload architectures (named inventor) and modular hardware design  
 - **RF & SDR Security** → applied wireless interception and UAV integration for security research  
 - **Cross-Domain Expertise** → bridging UAV engineering with cybersecurity applications  
 

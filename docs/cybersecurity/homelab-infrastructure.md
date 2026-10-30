@@ -1,5 +1,5 @@
 ---
-description: "2-node Proxmox cluster with HA failover: Security Onion, Wazuh, Nessus, TheHive/Cortex, Kali Linux. Network segmentation, Zero Trust pilots, and SOC tool deployment."
+description: "2-node Proxmox cluster (primary node currently being repaired): Security Onion, Wazuh, Nessus, TheHive/Cortex, Kali Linux. Network segmentation, Zero Trust pilots, and SOC tool deployment."
 ---
 
 # Homelab Infrastructure
@@ -13,7 +13,7 @@ A Proxmox-based homelab designed as a practical testbed to build, break, and sec
 ---
 
 ## 💡 **Core Features**
-- **Virtualization** with 2-node Proxmox cluster for production VM failover and high availability  
+- **Virtualization** with 2-node Proxmox cluster for production VM failover and high availability (primary node currently being repaired)  
 - **SOC Tools** → Security Onion, Wazuh, Nessus, TheHive + Cortex  
 - **Red Team Tools** → Kali Linux, Metasploit, DVWA, Caldera  
 - **Network Segmentation** → pfSense firewall with VLANs  

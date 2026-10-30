@@ -1,5 +1,5 @@
 ---
-description: "Pharns Genece — GRC Engineer and Cloud Security practitioner. Evidence-first compliance, AI-augmented workflows, and hands-on implementation."
+description: "Pharns Genece — AI Governance Engineer. Evidence-first compliance, AI-augmented workflows, and hands-on implementation."
 ---
 
 # About Pharns
