@@ -1,16 +1,16 @@
 ---
-description: "AI governance engineer. I build the runtime controls that make AI agents trusted to operate, cataloged by NIST as three Final OLIR references. 5 patent filings."
+description: "AI governance engineer. I build the runtime controls that make AI agents trusted to operate, cataloged by NIST as six Final OLIR references. 5 patent filings."
 ---
 
 # Pharns Genece
 
 **AI Governance Engineer — Runtime AI Governance | NIST OLIR: 6 Final | USPTO Patent-Filed (5 Provisionals)**
 
-I build the governance systems that make AI agents trusted to operate — cataloged by NIST as three Final OLIR Informative References across AI RMF 1.0, CSF 2.0, and SP 800-53 Rev 5.2.0.
+I build the governance systems that make AI agents trusted to operate — cataloged by NIST as six Final OLIR Informative References: three for the runtime framework and three for the Five Laws of AI Governance, across AI RMF 1.0, CSF 2.0, and SP 800-53 Rev 5.2.0.
 
 My perspective comes from working across the autonomy continuum: automation → autonomy → AI, from remotely operated underwater vehicles and small unmanned aircraft, through RF and spectrum sensing, to cybersecurity and digital AI agents. I governed machines that could cause great harm before I governed software, and the control problem turned out to be the same one.
 
-Runtime AI governance and governed autonomous execution — built, operating, and now cataloged in the NIST OLIR catalog with three Final Informative References.
+Runtime AI governance and governed autonomous execution — built, operating, and now cataloged in the NIST OLIR catalog with six Final Informative References.
 
 My runtime AI governance framework, SDOS, is cataloged in the NIST OLIR catalog against [AI RMF 1.0]({{ nist_ai_rmf }}){target=_blank}, [Cybersecurity Framework 2.0]({{ nist_csf }}){target=_blank}, and [SP 800-53 Rev 5.2.0]({{ nist_800_53 }}){target=_blank} — enforcement at the runtime layer, mapped to all three federal references. From patent-filed autonomous execution architecture to compliance automation, control implementation, and detection engineering, every project here demonstrates one principle: AI without governance isn't safe to ship.
 

@@ -5,7 +5,7 @@
 Remote US | career@pharns.com | linkedin.com/in/pharns | portfolio.pharns.com
 
 ::: credentials
-**5 USPTO Provisional Patents Filed** — AI Governance & Agent Security · **3 NIST OLIR Final Informative References** (AI RMF · CSF 2.0 · SP 800-53) · **M.S. Cybersecurity** (enrolled, starts late 2026) · **B.S. Cybersecurity** (NSA CAE) · PenTest+ · CySA+ · Security+ · Associate of ISC2 (SSCP) · U.S. Air Force Veteran · Held Secret Clearance (inactive) · TSA-vetted (TWIC)
+**5 USPTO Provisional Patents Filed** — AI Governance & Agent Security · **6 NIST OLIR Final Informative References** (two sets: AI RMF · CSF 2.0 · SP 800-53) · **M.S. Cybersecurity** (enrolled, starts late 2026) · **B.S. Cybersecurity** (NSA CAE) · PenTest+ · CySA+ · Security+ · Associate of ISC2 (SSCP) · U.S. Air Force Veteran · Held Secret Clearance (inactive) · TSA-vetted (TWIC)
 :::
 
 ---
@@ -16,7 +16,7 @@ AI Security & Governance  |  Detection Engineering  |  AI/LLM-Native Pipelines
 
 My perspective comes from working across the autonomy continuum: automation to autonomy to AI, from sUAS and physical autonomous systems to cybersecurity and digital AI agents. I governed machines that could hurt someone before I governed software, and the control problem turned out to be the same one — risk tiering, defined enforcement points, fail-safe defaults, and a human who holds authority at the moment of action.
 
-AI security engineer who builds the runtime controls that keep autonomous AI systems safe — risk-tiered policy enforcement, egress governance, and tamper-evident audit, implemented in production Python. Strong engineering across detection logic, AI/LLM-native data pipelines, and MCP-server development that connects AI systems to external tools. Authored three governance control-mappings cataloged as Final Informative References on NIST's OLIR program (published, csrc.nist.gov), and filed five USPTO provisional patents on the methods. Multi-signal correlation background (RF, BLE, Wi-Fi, ADS-B) with quantified empirical results. Offensive-security trained (PenTest+, CySA+); held a Secret clearance (inactive), clearance-eligible, TWIC-vetted. U.S. Air Force veteran — I governed physical autonomous systems before governing digital ones.
+AI security engineer who builds the runtime controls that keep autonomous AI systems safe — risk-tiered policy enforcement, egress governance, and tamper-evident audit, implemented in production Python. Strong engineering across detection logic, AI/LLM-native data pipelines, and MCP-server development that connects AI systems to external tools. Authored six governance control-mappings (two sets of three) cataloged as Final Informative References on NIST's OLIR program (published, csrc.nist.gov), and filed five USPTO provisional patents on the methods. Multi-signal correlation background (RF, BLE, Wi-Fi, ADS-B) with quantified empirical results. Offensive-security trained (PenTest+, CySA+); held a Secret clearance (inactive), clearance-eligible, TWIC-vetted. U.S. Air Force veteran — I governed physical autonomous systems before governing digital ones.
 
 ---
 
@@ -34,7 +34,7 @@ AI security engineer who builds the runtime controls that keep autonomous AI sys
 
 ### Enterprise AI-Governance System — Architecture & Build · 2024 – Present
 *Founder / Principal Architect · Python*
-Architected and built an enterprise AI-governance system from the ground up — intake, risk tiering, dispatch-time policy enforcement, escalation, and tamper-evident audit. Implemented policy enforcement points governing agent actions, memory access, and egress; built governed vector memory with trust-weighted retrieval and contradiction detection. Authored governance control-mappings aligned to NIST AI RMF, ISO 42001, and the EU AI Act — **three cataloged as Final Informative References on NIST's OLIR program** (independent, publicly verifiable on csrc.nist.gov). Filed five USPTO provisional patents (AI governance & agent security) on the methods.
+Architected and built an enterprise AI-governance system from the ground up — intake, risk tiering, dispatch-time policy enforcement, escalation, and tamper-evident audit. Implemented policy enforcement points governing agent actions, memory access, and egress; built governed vector memory with trust-weighted retrieval and contradiction detection. Authored governance control-mappings aligned to NIST AI RMF, ISO 42001, and the EU AI Act — **six crosswalks (two sets of three) cataloged as Final Informative References on NIST's OLIR program** (independent, publicly verifiable on csrc.nist.gov). Filed five USPTO provisional patents (AI governance & agent security) on the methods.
 
 ### Security, Privacy & AI-Compliance Consultant — External Clients (AAM Cyber) · Dec 2024 – Present
 *Retained by external clients across multiple engagements — financial, legal, and senior-care sectors*
