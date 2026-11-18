@@ -9,6 +9,8 @@
 
 I build audit-ready control frameworks, evidence pipelines, and compliance automation — then implement the technical controls, not just document them. Rare hybrid: GRC discipline meets RF/aviation security and cyber-physical systems expertise.
 
+My perspective comes from working across the autonomy continuum: automation → autonomy → AI, from remotely operated underwater vehicles and small unmanned aircraft, through RF and spectrum sensing, to cybersecurity and digital AI agents. I governed machines that could cause great harm before I governed software, and the control problem turned out to be the same one.
+
 📧 [career@pharns.com](mailto:career@pharns.com) · 🌐 [portfolio.pharns.com](https://portfolio.pharns.com) · 💼 [LinkedIn](https://linkedin.com/in/pharns)
 
 **USAF Veteran (Service-Disabled)** · **USPTO Patent-Filed (named inventor)** · **Security+** · **10 Active Certifications**

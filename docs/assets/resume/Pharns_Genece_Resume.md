@@ -10,6 +10,8 @@
 
 GRC Engineer with 7 years of production infrastructure security experience and a career of mission-critical operations (USAF). I build audit-ready control frameworks, evidence pipelines, and compliance automation—then implement the technical controls, not just document them. Unique combination of GRC discipline, cloud security, detection engineering, and RF/hardware security expertise.
 
+Career arc across the autonomy continuum, automation to autonomy to AI: from unmanned aircraft and RF sensing to cybersecurity and AI-agent governance.
+
 **Core Competencies:** CIS Controls v8 · NIST CSF · PCI-DSS v4.0 · SOC 2 · HIPAA · ISO 27001 · AWS Security · SIEM/Detection Engineering · RF/SDR Security · Python Automation
 
 ---
