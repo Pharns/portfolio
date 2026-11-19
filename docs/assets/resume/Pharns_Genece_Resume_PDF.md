@@ -5,7 +5,7 @@
 Remote US | career@pharns.com | linkedin.com/in/pharns | portfolio.pharns.com
 
 ::: credentials
-**5 USPTO Provisional Patents Filed** — AI Governance & Agent Security · **6 NIST OLIR Final Informative References** (two sets: AI RMF · CSF 2.0 · SP 800-53) · **M.S. Cybersecurity** (enrolled, starts late 2026) · **B.S. Cybersecurity** (NSA CAE) · PenTest+ · CySA+ · Security+ · Associate of ISC2 (SSCP) · U.S. Air Force Veteran · Held Secret Clearance (inactive) · TSA-vetted (TWIC)
+**5 USPTO Provisional Patents Filed** — AI Governance & Agent Security · **6 NIST OLIR Final Informative References** (two sets: AI RMF · CSF 2.0 · SP 800-53) · **M.S. Cybersecurity** (anticipated start early 2027) · **B.S. Cybersecurity** (NSA CAE) · PenTest+ · CySA+ · Security+ · Associate of ISC2 (SSCP) · U.S. Air Force Veteran · Held Secret Clearance (inactive) · TSA-vetted (TWIC)
 :::
 
 ---
@@ -78,7 +78,7 @@ Integrated audio, stage lighting, stage movement, and live performance into a si
 
 ## EDUCATION
 
-- **M.S. Cybersecurity & Information Assurance** — Western Governors University *(enrolled, starts late 2026)*
+- **M.S. Cybersecurity & Information Assurance** — Western Governors University *(anticipated start early 2027)*
 - **B.S. Cybersecurity & Information Assurance** — Western Governors University *(conferred March 2026; NSA&nbsp;CAE&#8209;validated)*
     - Relevant coursework: Data Management — Foundations & Applications (relational schema design, SQL querying, normalization) · Programming in Python · Digital Forensics · Penetration Testing & Vulnerability Analysis
     - Capstone: *TraceLock* — RF threat detection & forensic analysis; empirical study with quantified outcomes (above)
